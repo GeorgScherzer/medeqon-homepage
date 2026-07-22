@@ -113,7 +113,10 @@ img{max-width:100%}
 .m-pillar p{font-size:14px;line-height:22px;color:var(--ink);max-width:34ch}
 
 /* ===== Slogan band ===== */
-.m-slogan{background:var(--paper);padding:64px 0}
+.m-slogan{position:relative;isolation:isolate;background:var(--paper) center/cover no-repeat;padding:150px 0}
+.m-slogan::before{content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(180deg,rgba(255,255,255,0.86) 0%,rgba(255,255,255,0.80) 50%,rgba(255,255,255,0.86) 100%)}
+.m-slogan .m-shell{position:relative;z-index:1}
 .m-slogan .line{width:52px;height:2px;background:var(--signal);margin:0 auto 24px}
 .m-slogan p{font-family:var(--font-display);font-weight:600;font-size:40px;line-height:48px;
   letter-spacing:-0.02em;color:var(--ink);text-align:center;text-wrap:balance}
