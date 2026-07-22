@@ -113,14 +113,14 @@ img{max-width:100%}
 .m-pillar p{font-size:14px;line-height:22px;color:var(--ink);max-width:34ch}
 
 /* ===== Slogan band ===== */
-.m-slogan{position:relative;isolation:isolate;background:var(--paper) center/cover no-repeat;padding:150px 0}
+.m-slogan{position:relative;isolation:isolate;background:var(--deep-800) center/cover no-repeat;padding:150px 0}
 .m-slogan::before{content:"";position:absolute;inset:0;z-index:0;
-  background:linear-gradient(180deg,rgba(255,255,255,0.86) 0%,rgba(255,255,255,0.80) 50%,rgba(255,255,255,0.86) 100%)}
+  background:linear-gradient(180deg,rgba(0,42,95,0.90) 0%,rgba(0,36,87,0.84) 50%,rgba(6,20,44,0.92) 100%)}
 .m-slogan .m-shell{position:relative;z-index:1}
-.m-slogan .line{width:52px;height:2px;background:var(--signal);margin:0 auto 24px}
+.m-slogan .line{width:52px;height:2px;background:var(--sky);margin:0 auto 24px}
 .m-slogan p{font-family:var(--font-display);font-weight:600;font-size:40px;line-height:48px;
-  letter-spacing:-0.02em;color:var(--ink);text-align:center;text-wrap:balance}
-.m-slogan .em{color:var(--signal)}
+  letter-spacing:-0.02em;color:#fff;text-align:center;text-wrap:balance}
+.m-slogan .em{color:var(--sky)}
 
 /* ===== Service cards (4-up) ===== */
 .m-svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:48px}
@@ -152,25 +152,34 @@ img{max-width:100%}
 .m-chip .sig-stroke{stroke:var(--signal)}
 
 /* ===== Leistungen hero graphic (4 services) — marketing style ===== */
-.m-graphic-sec{padding:48px 0 80px}
-.m-hero-graphic{position:relative}
-.m-hg-track{display:grid;grid-template-columns:repeat(4,1fr);align-items:start;position:relative;counter-reset:hg}
-.m-hg-track::before{content:"";position:absolute;top:63px;left:12.5%;right:12.5%;height:0;
-  border-top:3px dotted var(--brand-700);opacity:0.30;z-index:0}
-.m-hg-node{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;
-  gap:20px;text-decoration:none;color:var(--brand-700);counter-increment:hg}
+.m-graphic-sec{padding:56px 0 84px}
 .m-hg-ring{position:relative;width:128px;height:128px;border-radius:50%;background:var(--deep-800);
   display:grid;place-items:center;
   transition:background var(--dur) var(--ease),transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
-.m-hg-ring::after{content:counter(hg,decimal-leading-zero);position:absolute;top:-4px;right:-4px;
-  width:32px;height:32px;border-radius:50%;background:var(--paper);border:1.5px solid var(--deep-800);
-  display:grid;place-items:center;font-family:var(--font-mono);font-size:12px;font-weight:500;color:var(--deep-800)}
 .m-hg-ring svg{width:58px;height:58px;color:#fff}
 .m-hg-ring .sig-fill{fill:var(--sky);stroke:none}
 .m-hg-ring .sig-stroke{stroke:var(--sky)}
-.m-hg-node:hover .m-hg-ring{transform:translateY(-5px);box-shadow:0 18px 34px -14px rgba(10,18,40,0.65)}
-.m-hg-node:hover .m-hg-ring .sig-fill{fill:#7db4ea}
-.m-hg-label{font-family:var(--font-display);font-weight:600;font-size:19px;color:var(--brand-700);text-align:center}
+
+/* ===== Leistungen — Kreuz-Grafik mit Logo im Zentrum ===== */
+.m-cross{position:relative;width:min(560px,88vw);aspect-ratio:1;margin:8px auto 0}
+.m-cross-line{position:absolute;z-index:0;opacity:0.32}
+.m-cross-line.v{left:50%;top:15%;width:0;height:70%;transform:translateX(-50%);
+  border-left:3px dotted var(--brand-700)}
+.m-cross-line.h{top:50%;left:15%;height:0;width:70%;transform:translateY(-50%);
+  border-top:3px dotted var(--brand-700)}
+.m-cx-node{position:absolute;z-index:2;display:flex;flex-direction:column;align-items:center;gap:16px;
+  text-decoration:none;color:var(--brand-700);width:160px}
+.m-cx-node.n-top{top:0;left:50%;transform:translateX(-50%);flex-direction:column-reverse}
+.m-cx-node.n-bottom{bottom:0;left:50%;transform:translateX(-50%)}
+.m-cx-node.n-left{left:0;top:50%;transform:translateY(-50%)}
+.m-cx-node.n-right{right:0;top:50%;transform:translateY(-50%)}
+.m-cx-label{font-family:var(--font-display);font-weight:700;font-size:19px;color:var(--brand-700);
+  text-align:center;white-space:nowrap}
+.m-cx-node:hover .m-hg-ring{transform:translateY(-5px);box-shadow:0 18px 34px -14px rgba(10,18,40,0.65)}
+.m-cx-node:hover .m-hg-ring .sig-fill{fill:#7db4ea}
+.m-cross-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;
+  background:#fff;padding:14px;border-radius:30px;box-shadow:0 22px 54px -22px rgba(10,18,40,0.5)}
+.m-cross-center img{display:block;width:118px;height:auto}
 
 /* ===== Leistungen — card grid (2x2) ===== */
 .m-svc2-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
@@ -538,8 +547,12 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-svc2{padding:28px 26px}
   .m-cta2{padding:56px 0}
   .m-cta2 h2{font-size:30px;line-height:36px}
-  .m-hg-track{grid-template-columns:1fr 1fr;gap:36px 24px}
-  .m-hg-track::before{display:none}
+  .m-cross{width:100%;aspect-ratio:auto;display:grid;grid-template-columns:1fr 1fr;
+    gap:34px 20px;place-items:center}
+  .m-cross-line{display:none}
+  .m-cross-center{position:static;transform:none;grid-column:1 / -1;order:-1;margin-bottom:6px}
+  .m-cx-node{position:static;transform:none;width:auto;flex-direction:column}
+  .m-cx-node.n-top{flex-direction:column}
   .m-hg-ring{width:104px;height:104px}
   .m-hg-ring svg{width:50px;height:50px}
   .m-imp-grid{grid-template-columns:1fr}
