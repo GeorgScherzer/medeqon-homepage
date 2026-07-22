@@ -310,7 +310,7 @@ img{max-width:100%}
 .m-team.is-single{grid-template-columns:1fr;max-width:460px}
 .m-team.is-single .m-member-photo{aspect-ratio:auto;height:auto;object-fit:contain}
 /* Single member — photo left, info (incl. Erfahrung) beside it */
-.m-solo{display:grid;grid-template-columns:360px 1fr;gap:48px;align-items:start}
+.m-solo{display:grid;grid-template-columns:440px 1fr;gap:56px;align-items:start}
 .m-solo-photo{width:100%;height:auto;display:block;border:1px solid var(--mist)}
 .m-solo-body{display:grid;align-content:start}
 .m-solo-body .m-member-name{margin-top:0}
@@ -376,11 +376,11 @@ textarea.m-input{min-height:150px;resize:vertical}
 
 /* ===== Footer (dark) — full width (edge to edge like the header) ===== */
 .m-foot{background:var(--ink);color:var(--paper);padding:72px 0 28px}
-.m-foot .m-shell{max-width:none;padding:0 48px}
-.m-foot-top{display:flex;flex-wrap:wrap;gap:52px;align-items:flex-start;justify-content:center}
-.m-foot-brand{display:grid;gap:14px;align-content:start;flex:0 0 auto;max-width:260px}
-.m-foot-links{display:flex;gap:44px;flex-wrap:wrap}
-.m-foot-col{flex:0 0 auto;min-width:140px}
+.m-foot .m-shell{max-width:none;padding:0 40px}
+.m-foot-top{display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start;justify-content:center}
+.m-foot-brand{display:grid;gap:14px;align-content:start;flex:0 0 auto;max-width:240px}
+.m-foot-links{display:flex;gap:36px;flex-wrap:nowrap}
+.m-foot-col{flex:0 0 auto;min-width:auto}
 .m-foot .m-foot-logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;
   flex-wrap:nowrap;white-space:nowrap}
 .m-foot-mono{flex:0 0 auto;width:40px;height:40px;border-radius:24%;background:var(--signal);
@@ -403,9 +403,9 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-foot a{display:block;color:rgba(255,255,255,0.80);text-decoration:none;font-size:18px;padding:6px 0}
 .m-foot a:hover{color:var(--paper)}
 .m-foot-plain{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px;margin-top:10px}
-.m-foot-badges{display:flex;flex-direction:row;align-items:center;gap:22px;flex:0 0 auto}
-.m-badge{height:98px;width:auto;display:block}
-.m-badge-wide{height:78px}
+.m-foot-badges{display:flex;flex-direction:row;align-items:center;gap:18px;flex:0 0 auto}
+.m-badge{height:88px;width:auto;display:block}
+.m-badge-wide{height:70px}
 .m-foot-base{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,0.12);
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);
   font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
@@ -464,6 +464,7 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-hero-logo{max-width:280px}
   .m-portrait{max-width:180px}
   .m-foot .m-shell{padding:0 20px}
+  .m-foot-links{flex-wrap:wrap;gap:26px}
   .m-foot-badges{gap:18px}
   .m-badge{height:78px}
   .m-badge-wide{height:60px}
