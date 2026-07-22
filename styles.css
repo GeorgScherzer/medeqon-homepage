@@ -17,6 +17,9 @@
   --deep-900:#060c1d;
   --brand-700:#003278;       /* dark medeqon blue — icons & headings */
   --brand-800:#002457;
+  /* subtle dot watermark (dot & ring identity) */
+  --pat-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Ccircle cx='2' cy='2' r='1.2' fill='%230F1B2C' fill-opacity='0.05'/%3E%3C/svg%3E");
+  --pat-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Ccircle cx='2' cy='2' r='1.2' fill='%23FFFFFF' fill-opacity='0.06'/%3E%3C/svg%3E");
   --font-sans:'Hanken Grotesk','Aptos','Segoe UI',Calibri,system-ui,-apple-system,Arial,sans-serif;
   --font-display:'Hanken Grotesk','Aptos Display','Aptos','Segoe UI',Calibri,system-ui,Arial,sans-serif;
   --font-mono:'IBM Plex Mono','Aptos Mono',Consolas,'Courier New',monospace;
@@ -166,7 +169,50 @@ img{max-width:100%}
 .m-hg-node:hover .m-hg-ring .sig-fill{fill:#7db4ea}
 .m-hg-label{font-family:var(--font-display);font-weight:600;font-size:19px;color:var(--brand-700);text-align:center}
 
-/* ===== Leistungen detail ===== */
+/* ===== Leistungen — card grid (2x2) ===== */
+.m-svc2-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.m-svc2{background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:34px 34px;
+  display:grid;gap:14px;align-content:start;
+  transition:border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.m-svc2:hover{border-color:transparent;box-shadow:0 20px 44px -22px rgba(10,18,40,0.45);transform:translateY(-3px)}
+.m-svc2-top{display:flex;align-items:center;gap:16px;margin-bottom:2px}
+.m-svc2-ico{width:66px;height:66px;flex:0 0 auto;border-radius:50%;background:var(--deep-800);
+  display:grid;place-items:center}
+.m-svc2-ico svg{width:32px;height:32px;color:#fff}
+.m-svc2-ico .sig-fill{fill:var(--sky);stroke:none}
+.m-svc2-ico .sig-stroke{stroke:var(--sky)}
+.m-svc2-num{margin-left:auto;font-family:var(--font-mono);font-size:15px;letter-spacing:0.14em;color:var(--mist);
+  font-weight:500}
+.m-svc2-title{font-family:var(--font-display);font-weight:700;font-size:26px;line-height:32px;
+  letter-spacing:-0.02em;color:var(--brand-700)}
+.m-svc2-title .end-dot{color:var(--signal)}
+.m-svc2-lead{font-family:var(--font-sans);font-weight:600;font-size:17px;line-height:25px;color:var(--ink)}
+.m-svc2-desc{font-size:15px;line-height:24px;color:var(--ink)}
+.m-svc2-list{list-style:none;padding:0;margin:6px 0 0;display:grid;gap:10px}
+.m-svc2-list li{display:grid;grid-template-columns:16px 1fr;gap:12px;align-items:baseline;
+  color:var(--ink);font-size:14.5px;line-height:21px}
+.m-svc2-list li::before{content:"";width:8px;height:8px;border-radius:999px;background:var(--signal);align-self:center}
+
+/* ===== Leistungen — CTA between the card rows ===== */
+.m-cta-mid{max-width:760px;margin:60px auto;text-align:center;display:grid;gap:16px;justify-items:center}
+.m-cta-mid .line{width:52px;height:2px;background:var(--signal)}
+.m-cta-mid h2{font-family:var(--font-display);font-weight:700;font-size:38px;line-height:44px;
+  letter-spacing:-0.02em;color:var(--ink);text-wrap:balance}
+.m-cta-mid h2 .end-dot{color:var(--signal)}
+.m-cta-mid p{font-size:18px;line-height:28px;color:var(--ink);max-width:54ch}
+.m-cta-mid .m-btn{margin-top:6px}
+
+/* ===== Leistungen — light closing CTA ===== */
+.m-cta2{background:var(--mist-blue);padding:80px 0}
+.m-cta2 .in{max-width:760px;margin:0 auto;text-align:center;display:grid;gap:16px;justify-items:center}
+.m-cta2 .line{width:52px;height:2px;background:var(--signal)}
+.m-cta2 h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:46px;
+  letter-spacing:-0.02em;color:var(--ink);text-wrap:balance}
+.m-cta2 h2 .end-dot{color:var(--signal)}
+.m-cta2 p{font-size:18px;line-height:28px;color:var(--ink);max-width:56ch}
+.m-cta2 .m-btn{margin-top:8px}
+
+/* ===== Leistungen detail (legacy) ===== */
 .m-leist{display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;align-items:start}
 .m-leist-ico{width:64px;height:64px;color:var(--brand-700);margin-bottom:18px;display:block}
 .m-leist-ico .sig-fill{fill:var(--signal);stroke:none}
@@ -410,6 +456,12 @@ textarea.m-input{min-height:150px;resize:vertical}
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);
   font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
 
+/* ===== Watermark (dot pattern) ===== */
+body{background-color:var(--paper);background-image:var(--pat-light);background-attachment:fixed}
+.m-section.alt{background-color:var(--mist-blue);background-image:var(--pat-light)}
+.m-slogan{background-color:var(--paper);background-image:var(--pat-light)}
+.m-hero-main,.m-page-hero,.m-foot{background-image:var(--pat-dark)}
+
 /* ===== Responsive ===== */
 @media (max-width:900px){
   .m-nav{gap:14px;padding:10px 20px}
@@ -437,6 +489,10 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-slogan p{font-size:30px;line-height:38px}
   .m-leist{grid-template-columns:1fr;gap:24px}
   .m-leist-list{grid-template-columns:1fr}
+  .m-svc2-grid{grid-template-columns:1fr}
+  .m-svc2{padding:28px 26px}
+  .m-cta2{padding:56px 0}
+  .m-cta2 h2{font-size:30px;line-height:36px}
   .m-hg-track{grid-template-columns:1fr 1fr;gap:36px 24px}
   .m-hg-track::before{display:none}
   .m-hg-ring{width:104px;height:104px}
