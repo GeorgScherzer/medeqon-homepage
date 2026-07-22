@@ -151,7 +151,10 @@ img{max-width:100%}
 .m-chip .sig-stroke{stroke:var(--signal)}
 
 /* ===== Leistungen hero graphic (4 services) — marketing style ===== */
-.m-graphic-sec{padding:56px 0 84px}
+.m-graphic-sec{position:relative;isolation:isolate;background:transparent center/cover no-repeat;padding:72px 0 92px}
+.m-graphic-sec::before{content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(180deg,rgba(233,239,248,0.86) 0%,rgba(255,255,255,0.82) 48%,rgba(230,237,247,0.88) 100%)}
+.m-graphic-sec .m-shell{position:relative;z-index:1}
 .m-hg-ring{position:relative;width:128px;height:128px;border-radius:50%;background:var(--deep-800);
   display:grid;place-items:center;
   transition:background var(--dur) var(--ease),transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
