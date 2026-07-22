@@ -194,8 +194,9 @@ img{max-width:100%}
 .m-svc2-list li::before{content:"";width:8px;height:8px;border-radius:999px;background:var(--signal);align-self:center}
 
 /* ===== Leistungen — CTA between the card rows ===== */
-.m-cta-mid{margin:60px 0;text-align:left;display:grid;gap:16px;justify-items:start;
-  background:var(--deep-800);border-radius:18px;padding:48px 52px}
+.m-cta-mid{margin:80px 0;padding:64px 0;background:var(--deep-800);
+  width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+.m-cta-inner{text-align:left;display:grid;gap:16px;justify-items:start}
 .m-cta-mid .line{width:52px;height:2px;background:var(--sky)}
 .m-cta-mid h2{font-family:var(--font-display);font-weight:700;font-size:38px;line-height:44px;
   letter-spacing:-0.02em;color:#fff;text-wrap:balance}
