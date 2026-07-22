@@ -75,11 +75,13 @@ img{max-width:100%}
 .m-page-hero .lede{font-size:18px;line-height:28px;color:var(--ink);max-width:58ch}
 
 /* ===== Home hero (dark) ===== */
-.m-hero-main{background:var(--deep-800);color:#fff;padding:132px 0 116px}
-.m-hero-title{font-family:var(--font-display);font-weight:700;font-size:78px;line-height:82px;
+.m-hero-main{background:var(--deep-800);color:#fff;padding:120px 0 108px}
+.m-hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:56px;align-items:center}
+.m-hero-title{font-family:var(--font-display);font-weight:700;font-size:72px;line-height:78px;
   letter-spacing:-0.025em;color:#fff;max-width:15ch;text-wrap:balance}
 .m-hero-title .end-dot{color:var(--sky)}
 .m-hero-sub{font-size:21px;line-height:31px;color:rgba(255,255,255,0.82);max-width:52ch;margin-top:26px}
+.m-hero-logo{width:100%;max-width:560px;height:auto;justify-self:end;display:block}
 
 /* ===== Home hero (legacy light, kept for reuse) ===== */
 .m-hero{padding:120px 0 96px;border-bottom:1px solid var(--mist)}
@@ -369,39 +371,40 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-soon .k::before{content:"";width:8px;height:8px;border-radius:999px;border:1.5px solid var(--signal)}
 .m-soon p{font-size:15px;line-height:24px;color:var(--ink)}
 
-/* ===== Footer (dark) ===== */
-.m-foot{background:var(--ink);color:var(--paper);padding:64px 0 24px}
-.m-foot-top{display:grid;grid-template-columns:1.6fr 1fr 1.1fr 1fr;gap:32px}
-.m-foot-brand{display:grid;gap:14px;align-content:start}
+/* ===== Footer (dark) — full width ===== */
+.m-foot{background:var(--ink);color:var(--paper);padding:72px 0 28px}
+.m-foot .m-shell{max-width:1400px}
+.m-foot-top{display:flex;flex-wrap:wrap;gap:44px 56px;align-items:flex-start}
+.m-foot-brand{display:grid;gap:14px;align-content:start;flex:1 1 280px}
+.m-foot-col{flex:0 1 auto;min-width:170px}
 .m-foot .m-foot-logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;
   flex-wrap:nowrap;white-space:nowrap}
 .m-foot-mono{flex:0 0 auto;width:40px;height:40px;border-radius:24%;background:var(--signal);
   display:inline-flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-display);font-weight:600;font-size:24px;line-height:1}
 .m-foot-mono::after{content:".";color:#fff;margin-left:1px}
-.m-foot-word{font-family:var(--font-display);font-weight:600;font-size:26px;letter-spacing:-0.02em;
+.m-foot-word{font-family:var(--font-display);font-weight:600;font-size:28px;letter-spacing:-0.02em;
   color:#fff;text-transform:lowercase;white-space:nowrap}
 .m-foot-word::after{content:".";color:var(--sky)}
-.m-foot .m-foot-svc{display:inline-flex;align-items:center;gap:11px;color:rgba(255,255,255,0.78);
-  text-decoration:none;font-size:16px;padding:6px 0}
+.m-foot .m-foot-svc{display:inline-flex;align-items:center;gap:12px;color:rgba(255,255,255,0.80);
+  text-decoration:none;font-size:18px;padding:7px 0}
 .m-foot .m-foot-svc:hover{color:#fff}
-.m-foot-ico{flex:0 0 auto;width:24px;height:24px;color:rgba(255,255,255,0.85)}
+.m-foot-ico{flex:0 0 auto;width:26px;height:26px;color:rgba(255,255,255,0.85)}
 .m-foot-ico .sig-fill{fill:var(--sky);stroke:none}
 .m-foot-ico .sig-stroke{stroke:var(--sky)}
-.m-foot-words{color:rgba(255,255,255,0.78);font-size:16px;line-height:24px}
-.m-foot-legalline{font-family:var(--font-mono);font-size:12.5px;color:rgba(255,255,255,0.55);letter-spacing:0.03em}
+.m-foot-words{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px}
+.m-foot-legalline{font-family:var(--font-mono);font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.03em}
 .m-foot-col{display:grid;gap:2px;align-content:start}
-.m-foot-tag{font-family:var(--font-mono);font-size:13px;letter-spacing:0.14em;
-  text-transform:uppercase;color:var(--sky);margin-bottom:14px}
-.m-foot a{display:block;color:rgba(255,255,255,0.78);text-decoration:none;font-size:16px;padding:5px 0}
+.m-foot-tag{font-family:var(--font-mono);font-size:15px;letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--sky);margin-bottom:16px}
+.m-foot a{display:block;color:rgba(255,255,255,0.80);text-decoration:none;font-size:18px;padding:6px 0}
 .m-foot a:hover{color:var(--paper)}
-.m-foot-plain{color:rgba(255,255,255,0.78);font-size:16px;line-height:24px;margin-top:8px}
-.m-foot-badges{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:44px;
-  padding-top:28px;border-top:1px solid rgba(255,255,255,0.12)}
-.m-badge{height:92px;width:auto;display:block}
-.m-badge-wide{height:74px}
-.m-foot-base{margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.12);
+.m-foot-plain{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px;margin-top:10px}
+.m-foot-badges{display:flex;flex-direction:column;align-items:flex-end;gap:18px;margin-left:auto}
+.m-badge{height:74px;width:auto;display:block}
+.m-badge-wide{height:58px}
+.m-foot-base{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,0.12);
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);
-  font-size:12.5px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
+  font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
 
 /* ===== Responsive ===== */
 @media (max-width:900px){
@@ -442,17 +445,21 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-solo{grid-template-columns:1fr;gap:28px;max-width:460px}
   .m-contact{grid-template-columns:1fr}
   .m-letter{padding:32px 24px}
-  .m-foot-top{grid-template-columns:1fr 1fr;gap:24px}
+  .m-hero-grid{grid-template-columns:1fr;gap:36px}
+  .m-hero-logo{max-width:420px;justify-self:start}
+  .m-foot-badges{margin-left:0;flex-direction:row;align-items:center;flex-wrap:wrap;
+    width:100%;gap:24px;margin-top:12px;padding-top:26px;border-top:1px solid rgba(255,255,255,0.12)}
   .m-badge{height:66px}
-  .m-badge-wide{height:48px}
+  .m-badge-wide{height:50px}
 }
 @media (max-width:560px){
   .m-founder{grid-template-columns:1fr}
   .m-svc-grid{grid-template-columns:1fr}
   .m-slogan p{font-size:26px;line-height:34px}
+  .m-hero-title{font-size:40px;line-height:46px}
+  .m-hero-logo{max-width:280px}
   .m-portrait{max-width:180px}
-  .m-foot-top{grid-template-columns:1fr}
   .m-foot-badges{gap:20px}
-  .m-badge{height:60px}
+  .m-badge{height:58px}
   .m-badge-wide{height:44px}
 }
