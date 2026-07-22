@@ -376,10 +376,10 @@ textarea.m-input{min-height:150px;resize:vertical}
 
 /* ===== Footer (dark) — full width (edge to edge like the header) ===== */
 .m-foot{background:var(--ink);color:var(--paper);padding:72px 0 28px}
-.m-foot .m-shell{max-width:none;padding:0 32px}
-.m-foot-top{display:flex;flex-wrap:wrap;gap:64px;align-items:flex-start;justify-content:center}
-.m-foot-brand{display:grid;gap:14px;align-content:start;flex:0 0 auto;max-width:220px}
-.m-foot-links{display:flex;gap:56px;flex-wrap:nowrap}
+.m-foot .m-shell{max-width:none;padding:0 40px}
+.m-foot-top{display:flex;flex-wrap:wrap;gap:80px;align-items:flex-start;justify-content:center}
+.m-foot-brand{display:grid;gap:14px;align-content:start;flex:0 0 auto;max-width:210px}
+.m-foot-links{display:flex;gap:60px;flex-wrap:nowrap}
 .m-foot-col{flex:0 0 auto;min-width:auto}
 .m-foot .m-foot-logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;
   flex-wrap:nowrap;white-space:nowrap}
@@ -403,9 +403,9 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-foot a{display:block;color:rgba(255,255,255,0.80);text-decoration:none;font-size:18px;padding:6px 0}
 .m-foot a:hover{color:var(--paper)}
 .m-foot-plain{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px;margin-top:10px}
-.m-foot-badges{display:flex;flex-direction:row;align-items:center;gap:20px;flex:0 0 auto}
-.m-badge{height:114px;width:auto;display:block}
-.m-badge-wide{height:90px}
+.m-foot-badges{display:flex;flex-direction:row;align-items:center;gap:22px;flex:0 0 auto}
+.m-badge{height:130px;width:auto;display:block}
+.m-badge-wide{height:104px}
 .m-foot-base{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,0.12);
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);
   font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
