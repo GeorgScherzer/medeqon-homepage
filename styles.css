@@ -28,7 +28,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-html,body{margin:0;padding:0;background-color:var(--paper);background-image:var(--pat-light);color:var(--ink);
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
   font-family:var(--font-sans);font-size:15.5px;line-height:24px;
   -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 h1,h2,h3,h4,p{margin:0}
