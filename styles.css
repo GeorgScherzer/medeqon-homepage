@@ -18,8 +18,8 @@
   --brand-700:#003278;       /* dark medeqon blue — icons & headings */
   --brand-800:#002457;
   /* subtle dot watermark (dot & ring identity) */
-  --pat-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Ccircle cx='2' cy='2' r='1.2' fill='%230F1B2C' fill-opacity='0.05'/%3E%3C/svg%3E");
-  --pat-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Ccircle cx='2' cy='2' r='1.2' fill='%23FFFFFF' fill-opacity='0.06'/%3E%3C/svg%3E");
+  --pat-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Ccircle cx='2' cy='2' r='1.5' fill='%23004AAD' fill-opacity='0.14'/%3E%3C/svg%3E");
+  --pat-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Ccircle cx='2' cy='2' r='1.5' fill='%23FFFFFF' fill-opacity='0.10'/%3E%3C/svg%3E");
   --font-sans:'Hanken Grotesk','Aptos','Segoe UI',Calibri,system-ui,-apple-system,Arial,sans-serif;
   --font-display:'Hanken Grotesk','Aptos Display','Aptos','Segoe UI',Calibri,system-ui,Arial,sans-serif;
   --font-mono:'IBM Plex Mono','Aptos Mono',Consolas,'Courier New',monospace;
@@ -194,13 +194,20 @@ img{max-width:100%}
 .m-svc2-list li::before{content:"";width:8px;height:8px;border-radius:999px;background:var(--signal);align-self:center}
 
 /* ===== Leistungen — CTA between the card rows ===== */
-.m-cta-mid{max-width:760px;margin:60px auto;text-align:center;display:grid;gap:16px;justify-items:center}
-.m-cta-mid .line{width:52px;height:2px;background:var(--signal)}
+.m-cta-mid{margin:60px 0;text-align:left;display:grid;gap:16px;justify-items:start;
+  background:var(--deep-800);border-radius:18px;padding:48px 52px}
+.m-cta-mid .line{width:52px;height:2px;background:var(--sky)}
 .m-cta-mid h2{font-family:var(--font-display);font-weight:700;font-size:38px;line-height:44px;
-  letter-spacing:-0.02em;color:var(--ink);text-wrap:balance}
-.m-cta-mid h2 .end-dot{color:var(--signal)}
-.m-cta-mid p{font-size:18px;line-height:28px;color:var(--ink);max-width:54ch}
-.m-cta-mid .m-btn{margin-top:6px}
+  letter-spacing:-0.02em;color:#fff;text-wrap:balance}
+.m-cta-mid h2 .end-dot{color:var(--sky)}
+.m-cta-mid p{font-size:18px;line-height:28px;color:rgba(255,255,255,0.82);max-width:60ch}
+.m-cta-mid .m-cta-link{margin-top:6px;display:inline-flex;align-items:center;gap:10px;
+  font-family:var(--font-mono);font-size:15px;font-weight:600;letter-spacing:0.04em;
+  color:#fff;text-decoration:none;border-bottom:2px solid var(--sky);padding-bottom:3px;
+  transition:gap .18s ease,border-color .18s ease}
+.m-cta-mid .m-cta-link::after{content:"\2192";color:var(--sky);transition:transform .18s ease}
+.m-cta-mid .m-cta-link:hover{border-color:#fff}
+.m-cta-mid .m-cta-link:hover::after{transform:translateX(4px)}
 
 /* ===== Leistungen — light closing CTA ===== */
 .m-cta2{background:var(--mist-blue);padding:80px 0}
