@@ -186,7 +186,7 @@ img{max-width:100%}
 /* ===== Leistungen — card grid (2x2) ===== */
 .m-svc2-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
 .m-svc2{background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:34px 34px;
-  display:grid;gap:14px;align-content:start;
+  display:grid;gap:14px;align-content:start;text-decoration:none;color:inherit;
   transition:border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease),transform var(--dur) var(--ease)}
 .m-svc2:hover{border-color:transparent;box-shadow:0 20px 44px -22px rgba(10,18,40,0.45);transform:translateY(-3px)}
 .m-svc2-top{display:flex;align-items:center;gap:16px;margin-bottom:2px}
