@@ -41,15 +41,15 @@ img{max-width:100%}
 .skip:focus{left:8px;top:8px}
 
 /* ===== Header — sticky, single mist rule, logo left ===== */
-.m-nav{position:sticky;top:0;z-index:50;min-height:72px;background:var(--paper);
+.m-nav{position:sticky;top:0;z-index:50;min-height:84px;background:var(--paper);
   border-bottom:1px solid var(--mist);display:flex;align-items:center;gap:36px;
-  padding:10px 32px;flex-wrap:wrap}
-.brandlogo{display:inline-flex;align-items:center;gap:12px;text-decoration:none}
-.brandlogo-mono{width:38px;height:38px;border-radius:24%;background:var(--signal);
+  padding:12px 40px;flex-wrap:wrap}
+.brandlogo{display:inline-flex;align-items:center;gap:14px;text-decoration:none}
+.brandlogo-mono{width:48px;height:48px;border-radius:24%;background:var(--signal);
   color:#fff;display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);
-  font-weight:600;font-size:23px;line-height:1;flex:0 0 auto}
+  font-weight:600;font-size:29px;line-height:1;flex:0 0 auto}
 .brandlogo-mono::after{content:".";color:#fff;margin-left:1px}
-.brandlogo-word{font-family:var(--font-display);font-weight:600;font-size:26px;
+.brandlogo-word{font-family:var(--font-display);font-weight:600;font-size:33px;
   letter-spacing:-0.02em;color:var(--ink);text-transform:lowercase}
 .brandlogo-word::after{content:".";color:var(--signal)}
 .m-nav-links{margin-left:auto;display:flex;gap:32px;flex-wrap:wrap;align-items:center}
@@ -67,12 +67,15 @@ img{max-width:100%}
   gap:10px;margin-bottom:14px}
 .m-tag::before{content:"";width:8px;height:8px;border-radius:999px;border:1.5px solid var(--signal)}
 
-/* ===== Page hero (subpages) ===== */
-.m-page-hero{padding:88px 0 72px;border-bottom:1px solid var(--mist)}
-.m-page-hero h1{font-family:var(--font-display);font-weight:600;font-size:48px;
-  line-height:56px;letter-spacing:-0.02em;color:var(--ink);margin:0 0 20px;
+/* ===== Page hero (subpages) — dark, full-width band ===== */
+.m-page-hero{background:var(--deep-800);color:#fff;padding:96px 0 84px}
+.m-page-hero h1{font-family:var(--font-display);font-weight:700;font-size:52px;
+  line-height:58px;letter-spacing:-0.022em;color:#fff;margin:0 0 22px;
   max-width:20ch;text-wrap:balance}
-.m-page-hero .lede{font-size:18px;line-height:28px;color:var(--ink);max-width:58ch}
+.m-page-hero h1 .end-dot{color:var(--sky)}
+.m-page-hero .lede{font-size:19px;line-height:29px;color:rgba(255,255,255,0.82);max-width:60ch}
+.m-page-hero .m-tag{color:rgba(255,255,255,0.72)}
+.m-page-hero .m-tag::before{border-color:var(--sky)}
 
 /* ===== Home hero (dark) ===== */
 .m-hero-main{background:var(--deep-800);color:#fff;padding:120px 0 108px}
@@ -373,7 +376,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 
 /* ===== Footer (dark) — full width (edge to edge like the header) ===== */
 .m-foot{background:var(--ink);color:var(--paper);padding:72px 0 28px}
-.m-foot .m-shell{max-width:none;padding:0 48px}
+.m-foot .m-shell{max-width:none;padding:0 72px}
 .m-foot-top{display:flex;flex-wrap:wrap;gap:44px 56px;align-items:flex-start;justify-content:space-between}
 .m-foot-brand{display:grid;gap:14px;align-content:start;flex:0 1 320px}
 .m-foot-col{flex:0 1 auto;min-width:170px}
@@ -399,9 +402,10 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-foot a{display:block;color:rgba(255,255,255,0.80);text-decoration:none;font-size:18px;padding:6px 0}
 .m-foot a:hover{color:var(--paper)}
 .m-foot-plain{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px;margin-top:10px}
-.m-foot-badges{display:flex;flex-direction:column;align-items:flex-end;gap:18px}
-.m-badge{height:74px;width:auto;display:block}
-.m-badge-wide{height:58px}
+.m-foot-badges{display:flex;flex-direction:row;justify-content:flex-end;align-items:center;
+  gap:36px;margin-top:20px}
+.m-badge{height:132px;width:auto;display:block}
+.m-badge-wide{height:104px}
 .m-foot-base{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,0.12);
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);
   font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
@@ -409,8 +413,12 @@ textarea.m-input{min-height:150px;resize:vertical}
 /* ===== Responsive ===== */
 @media (max-width:900px){
   .m-nav{gap:14px;padding:10px 20px}
-  .brandlogo-word{font-size:22px}
-  .brandlogo-mono{width:34px;height:34px;font-size:20px}
+  .brandlogo-word{font-size:26px}
+  .brandlogo-mono{width:40px;height:40px;font-size:24px}
+  .m-foot .m-shell{padding:0 24px}
+  .m-foot-badges{justify-content:flex-start;flex-wrap:wrap;gap:24px}
+  .m-badge{height:96px}
+  .m-badge-wide{height:76px}
   .m-nav-links{gap:16px}
   .m-shell{padding:0 20px}
   .m-section{padding:64px 0}
@@ -447,10 +455,6 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-letter{padding:32px 24px}
   .m-hero-grid{grid-template-columns:1fr;gap:36px}
   .m-hero-logo{max-width:420px;justify-self:start}
-  .m-foot-badges{margin-left:0;flex-direction:row;align-items:center;flex-wrap:wrap;
-    width:100%;gap:24px;margin-top:12px;padding-top:26px;border-top:1px solid rgba(255,255,255,0.12)}
-  .m-badge{height:66px}
-  .m-badge-wide{height:50px}
 }
 @media (max-width:560px){
   .m-founder{grid-template-columns:1fr}
@@ -459,7 +463,8 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-hero-title{font-size:40px;line-height:46px}
   .m-hero-logo{max-width:280px}
   .m-portrait{max-width:180px}
-  .m-foot-badges{gap:20px}
-  .m-badge{height:58px}
-  .m-badge-wide{height:44px}
+  .m-foot .m-shell{padding:0 20px}
+  .m-foot-badges{gap:18px}
+  .m-badge{height:78px}
+  .m-badge-wide{height:60px}
 }
