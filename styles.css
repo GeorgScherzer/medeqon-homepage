@@ -506,8 +506,8 @@ textarea.m-input{min-height:150px;resize:vertical}
   font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
 
 /* ===== Startseite — CTA-Banner mit Bild ===== */
-.m-cta-banner{position:relative;background:var(--deep-900) center/cover no-repeat;isolation:isolate;
-  aspect-ratio:2500 / 883;display:flex;align-items:center}
+.m-cta-banner{position:relative;background:var(--deep-900) top/cover no-repeat;isolation:isolate;
+  aspect-ratio:2500 / 589;display:flex;align-items:center}
 .m-cta-banner::before{content:"";position:absolute;inset:0;z-index:0;
   background:linear-gradient(90deg,rgba(9,15,30,0.85) 0%,rgba(9,15,30,0.60) 42%,rgba(9,15,30,0.15) 78%,rgba(9,15,30,0) 100%)}
 .m-cta-banner .m-shell{position:relative;z-index:1;width:100%}
