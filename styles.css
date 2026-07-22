@@ -265,6 +265,33 @@ img{max-width:100%}
 .m-prod .spec{font-family:var(--font-mono);font-size:11px;line-height:18px;letter-spacing:0.02em;color:var(--steel)}
 .m-prod .desc{font-size:13.5px;line-height:20px;color:var(--ink)}
 
+/* ===== Produkte — Accordion ===== */
+.m-cat-head{display:grid;gap:10px;margin-bottom:26px}
+.m-cat-head .m-tag{color:var(--signal)}
+.m-cat-head h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:46px;
+  letter-spacing:-0.02em;color:var(--ink)}
+.m-cat-head h2 .end-dot{color:var(--signal)}
+.m-cat-head .sub{font-size:17px;line-height:26px;color:var(--steel);max-width:74ch}
+.m-acc{display:grid;gap:14px}
+details.m-ac{background:var(--paper);border:1px solid var(--mist);border-radius:14px;
+  overflow:hidden;transition:border-color .18s ease,box-shadow .18s ease}
+details.m-ac[open]{border-color:var(--sky);box-shadow:0 8px 30px rgba(15,27,44,0.06)}
+.m-ac>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:20px;
+  padding:24px 28px;user-select:none}
+.m-ac>summary::-webkit-details-marker{display:none}
+.m-ac-num{font-family:var(--font-mono);font-size:13px;letter-spacing:0.08em;color:var(--signal);
+  min-width:26px}
+.m-ac-title{font-family:var(--font-display);font-weight:700;font-size:22px;line-height:28px;
+  color:var(--brand-700);flex:1}
+.m-ac-chev{width:20px;height:20px;flex:none;color:var(--steel);transition:transform .22s ease}
+details.m-ac[open] .m-ac-chev{transform:rotate(180deg);color:var(--signal)}
+.m-ac-body{padding:2px 28px 30px}
+.m-ac-lead{font-size:15px;line-height:24px;color:var(--ink);max-width:74ch;margin:0 0 20px}
+.m-ac-src{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--steel);display:block;margin-bottom:16px}
+.m-ac-soon{font-family:var(--font-mono);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--steel);display:inline-flex;align-items:center;gap:8px}
+
 /* ===== Legal pages (AGB / Datenschutz / Impressum) ===== */
 .m-legal{max-width:820px}
 .m-legal-jump{margin-bottom:8px}
