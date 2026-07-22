@@ -463,12 +463,6 @@ textarea.m-input{min-height:150px;resize:vertical}
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);
   font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.04em}
 
-/* ===== Watermark (dot pattern) ===== */
-body{background-color:var(--paper);background-image:var(--pat-light);background-attachment:fixed}
-.m-section.alt{background-color:var(--mist-blue);background-image:var(--pat-light)}
-.m-slogan{background-color:var(--paper);background-image:var(--pat-light)}
-.m-hero-main,.m-page-hero,.m-foot{background-image:var(--pat-dark)}
-
 /* ===== Responsive ===== */
 @media (max-width:900px){
   .m-nav{gap:14px;padding:10px 20px}
