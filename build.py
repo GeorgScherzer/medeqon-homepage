@@ -112,6 +112,33 @@ def page(filename, title, desc, active, body):
 
 {FOOTER}
 
+<script>
+(function(){{
+  var frames = document.querySelectorAll('.m-pl-frame');
+  frames.forEach(function(f){{
+    var shots = f.querySelectorAll('.m-pl-shot');
+    var dots  = f.querySelectorAll('.m-pl-dots i');
+    var n = shots.length;
+    if (n < 2) return;
+    var cur = 0;
+    function show(i){{
+      if (i === cur) return;
+      cur = i;
+      shots.forEach(function(s,k){{ s.classList.toggle('is-on', k === i); }});
+      dots.forEach(function(d,k){{ d.classList.toggle('on', k === i); }});
+    }}
+    f.addEventListener('pointermove', function(e){{
+      var r = f.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width;
+      var i = Math.floor(x * n);
+      if (i < 0) i = 0; if (i > n - 1) i = n - 1;
+      show(i);
+    }});
+    f.addEventListener('pointerleave', function(){{ show(0); }});
+  }});
+}})();
+</script>
+
 </body>
 </html>
 '''
@@ -316,17 +343,35 @@ BODY_LEISTUNGEN = '''<section class="m-page-hero">
 CHEV = '<svg class="m-ac-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
 
 # ---- Untersuchungsliegen (Elektrisch) — Karten aus Datenliste generieren ----
-import json, html as _html
+import json, html as _html, glob as _glob
 _liegen = json.loads((ROOT / "liegen_data.json").read_text(encoding="utf-8"))
+def _gallery(p):
+    imgs = sorted(_glob.glob(str(ROOT / "assets" / "produkte" / p["slug"] / "*.jpg")))
+    n = len(imgs) or 1
+    model = _html.escape(p["model"])
+    shots = []
+    for i in range(1, n + 1):
+        cls = "m-pl-shot is-on" if i == 1 else "m-pl-shot"
+        alt = model if i == 1 else f"{model} – Ansicht {i}"
+        shots.append(
+            f'                        <img class="{cls}" src="assets/produkte/{p["slug"]}/{i}.jpg" alt="{alt}" loading="lazy" draggable="false">')
+    dots = ""
+    if n > 1:
+        d = "".join(('<i class="on"></i>' if i == 0 else '<i></i>') for i in range(n))
+        dots = f'\n                        <div class="m-pl-dots">{d}</div>'
+    return (
+'                    <div class="m-pl-gallery">\n'
+f'                      <div class="m-pl-frame" data-count="{n}">\n'
++ "\n".join(shots) + dots + '\n'
+'                      </div>\n'
+'                    </div>')
 def _render_liege(p):
     specs = "\n".join(
         f'                        <li><span>{_html.escape(k)}</span>{_html.escape(v)}</li>'
         for k, v in p["specs"])
     return (
 '                  <article class="m-pl">\n'
-'                    <div class="m-pl-gallery">\n'
-f'                      <img class="m-pl-main" src="assets/produkte/{p["slug"]}/1.jpg" alt="{_html.escape(p["model"])}" loading="lazy">\n'
-'                    </div>\n'
++ _gallery(p) + '\n'
 '                    <div class="m-pl-info">\n'
 f'                      <span class="m-pl-ref">Ref. {_html.escape(p["ref"])}</span>\n'
 f'                      <h4 class="m-pl-name">{_html.escape(p["model"])}</h4>\n'

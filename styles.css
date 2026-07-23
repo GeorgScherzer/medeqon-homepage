@@ -318,14 +318,19 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 .m-pl-count{font-family:var(--font-mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;
   color:var(--signal);margin:0 0 16px}
 .m-pl-list{display:grid;gap:20px}
-.m-pl{display:grid;grid-template-columns:minmax(0,1.05fr) 1fr;gap:32px;align-items:center;
+.m-pl{display:grid;grid-template-columns:minmax(0,1.2fr) 1fr;gap:32px;align-items:center;
   background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:24px}
 .m-pl-gallery{display:grid;gap:10px}
-.m-pl-main{width:100%;aspect-ratio:3 / 2;object-fit:contain;background:#fff;
-  border:1px solid var(--mist);border-radius:12px;padding:6px}
-.m-pl-thumbs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.m-pl-thumbs img{width:100%;aspect-ratio:3 / 2;object-fit:contain;background:#fff;
-  border:1px solid var(--mist);border-radius:10px;padding:5px}
+.m-pl-frame{position:relative;width:100%;aspect-ratio:4 / 3;background:#fff;
+  border:1px solid var(--mist);border-radius:12px;overflow:hidden;touch-action:pan-y}
+.m-pl-frame[data-count]:not([data-count="1"]){cursor:ew-resize}
+.m-pl-shot{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;
+  opacity:0;transition:opacity .18s ease;user-select:none;-webkit-user-drag:none}
+.m-pl-shot.is-on{opacity:1}
+.m-pl-dots{position:absolute;left:0;right:0;bottom:10px;display:flex;justify-content:center;gap:7px;z-index:2}
+.m-pl-dots i{width:7px;height:7px;border-radius:50%;background:var(--mist);
+  transition:background .15s ease,transform .15s ease}
+.m-pl-dots i.on{background:var(--signal);transform:scale(1.18)}
 .m-pl-ref{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;
   color:var(--steel);display:block;margin-bottom:6px}
 .m-pl-name{font-family:var(--font-display);font-weight:700;font-size:26px;line-height:30px;
@@ -553,6 +558,8 @@ textarea.m-input{min-height:150px;resize:vertical}
 /* ===== Responsive ===== */
 @media (max-width:900px){
   .m-nav{gap:14px;padding:10px 20px}
+  .m-pl{grid-template-columns:1fr;gap:22px}
+  .m-pl-frame{aspect-ratio:3 / 2}
   .brandlogo-word{font-size:26px}
   .brandlogo-mono{width:40px;height:40px;font-size:24px}
   .m-foot .m-shell{padding:0 24px}
