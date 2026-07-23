@@ -298,13 +298,43 @@ details.m-ac[open]{border-color:var(--sky);box-shadow:0 8px 30px rgba(15,27,44,0
 .m-ac-title{font-family:var(--font-display);font-weight:700;font-size:22px;line-height:28px;
   color:var(--brand-700);flex:1}
 .m-ac-chev{width:20px;height:20px;flex:none;color:var(--steel);transition:transform .22s ease}
-details.m-ac[open] .m-ac-chev{transform:rotate(180deg);color:var(--signal)}
+details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--signal)}
 .m-ac-body{padding:2px 28px 30px}
 .m-ac-lead{font-size:15px;line-height:24px;color:var(--ink);max-width:74ch;margin:0 0 20px}
 .m-ac-src{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;
   color:var(--steel);display:block;margin-bottom:16px}
 .m-ac-soon{font-family:var(--font-mono);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;
   color:var(--steel);display:inline-flex;align-items:center;gap:8px}
+
+/* ===== Produkte — verschachteltes Sub-Accordion (Antriebsvarianten) ===== */
+.m-acc-nested{display:grid;gap:12px;margin-top:8px}
+details.m-ac-sub{background:var(--mist-blue);border:1px solid var(--mist)}
+details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
+.m-ac-sub>summary{padding:18px 22px;gap:14px}
+.m-ac-sub>summary .m-ac-title{font-size:18px;color:var(--ink)}
+.m-ac-sub .m-ac-body{padding:2px 22px 24px}
+
+/* ===== Produkte — Untersuchungsliegen (Foto-Galerie + Eckdaten) ===== */
+.m-pl-list{display:grid;gap:20px}
+.m-pl{display:grid;grid-template-columns:minmax(0,1.05fr) 1fr;gap:32px;align-items:center;
+  background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:24px}
+.m-pl-gallery{display:grid;gap:10px}
+.m-pl-main{width:100%;aspect-ratio:3 / 2;object-fit:contain;background:#fff;
+  border:1px solid var(--mist);border-radius:12px;padding:6px}
+.m-pl-thumbs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.m-pl-thumbs img{width:100%;aspect-ratio:3 / 2;object-fit:contain;background:#fff;
+  border:1px solid var(--mist);border-radius:10px;padding:5px}
+.m-pl-ref{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--steel);display:block;margin-bottom:6px}
+.m-pl-name{font-family:var(--font-display);font-weight:700;font-size:26px;line-height:30px;
+  letter-spacing:-0.01em;color:var(--brand-700);margin:0 0 10px}
+.m-pl-desc{font-size:14.5px;line-height:22px;color:var(--ink);margin:0 0 18px;max-width:52ch}
+.m-pl-specs{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.m-pl-specs li{display:grid;grid-template-columns:150px 1fr;gap:14px;padding:9px 0;
+  border-top:1px solid var(--mist);font-size:14px;line-height:20px;color:var(--ink)}
+.m-pl-specs li:last-child{border-bottom:1px solid var(--mist)}
+.m-pl-specs li span{font-family:var(--font-mono);font-size:11px;letter-spacing:0.04em;text-transform:uppercase;
+  color:var(--steel);align-self:center}
 
 /* ===== Legal pages (AGB / Datenschutz / Impressum) ===== */
 .m-legal{max-width:820px}
