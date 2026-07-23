@@ -315,6 +315,8 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 .m-ac-sub .m-ac-body{padding:2px 22px 24px}
 
 /* ===== Produkte — Untersuchungsliegen (Foto-Galerie + Eckdaten) ===== */
+.m-pl-count{font-family:var(--font-mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--signal);margin:0 0 16px}
 .m-pl-list{display:grid;gap:20px}
 .m-pl{display:grid;grid-template-columns:minmax(0,1.05fr) 1fr;gap:32px;align-items:center;
   background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:24px}
