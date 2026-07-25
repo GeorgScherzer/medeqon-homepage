@@ -359,9 +359,10 @@ def _gallery(p):
     if n > 1:
         d = "".join(('<i class="on"></i>' if i == 0 else '<i></i>') for i in range(n))
         dots = f'\n                        <div class="m-pl-dots">{d}</div>'
+    tall = " m-pl-frame--tall" if p.get("fit") == "tall" else ""
     return (
 '                    <div class="m-pl-gallery">\n'
-f'                      <div class="m-pl-frame" data-count="{n}">\n'
+f'                      <div class="m-pl-frame{tall}" data-count="{n}">\n'
 + "\n".join(shots) + dots + '\n'
 '                      </div>\n'
 '                    </div>')
@@ -412,9 +413,18 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
 
 <section class="m-section" id="strahlenschutz">
   <div class="m-shell">
-    <div class="m-cat-head">
-      <h2>Strahlenschutz<span class="end-dot">.</span></h2>
-      <div class="sub">Persönliche Strahlenschutz-Bekleidung „Made in UK" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+    <div class="m-cat-head has-mfr">
+      <div class="m-cat-head-text">
+        <h2>Strahlenschutz<span class="end-dot">.</span></h2>
+        <div class="sub">Persönliche Strahlenschutz-Bekleidung „Made in UK" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme von KENEX. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+      </div>
+      <div class="m-mfr">
+        <span class="m-mfr-cap">Hersteller</span>
+        <div class="m-mfr-chips">
+          <a class="m-mfr-chip m-mfr-chip--rothband" href="https://www.rothband.com/de" target="_blank" rel="noopener" aria-label="Hersteller ROTHBAND – Website in neuem Tab öffnen"><img src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy"></a>
+          <a class="m-mfr-chip m-mfr-chip--kenex" href="https://www.kenex.co.uk" target="_blank" rel="noopener" aria-label="Hersteller KENEX – Website in neuem Tab öffnen"><img src="assets/brands/kenex.png" alt="KENEX" loading="lazy"></a>
+        </div>
+      </div>
     </div>
 
     <div class="m-acc">
@@ -422,10 +432,6 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
         <summary><span class="m-ac-num">01</span><span class="m-ac-title">Persönlicher Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
           <p class="m-ac-lead">Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.</p>
-          <a class="m-mfr-line" href="https://www.rothband.com/de" target="_blank" rel="noopener" aria-label="Hersteller ROTHBAND – Website in neuem Tab öffnen">
-            <span class="m-mfr-chip"><img src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy"></span>
-            <span class="m-mfr-line-txt"><span class="m-mfr-line-cap">Hersteller</span><strong>ROTHBAND</strong> · Made in UK · rothband.com</span>
-          </a>
           <div class="m-acc m-acc-nested">
             <details class="m-ac m-ac-sub" id="ss-front">
               <summary><span class="m-ac-title">Front-Schürzen</span>''' + CHEV + '''</summary>
@@ -494,10 +500,6 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
         <summary><span class="m-ac-num">02</span><span class="m-ac-title">Aufbewahrung</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
           <p class="m-ac-lead">Ständer, Schwenkarme und Bügel zur sicheren, platzsparenden Aufbewahrung von Strahlenschutzschürzen.</p>
-          <a class="m-mfr-line" href="https://www.rothband.com/de" target="_blank" rel="noopener" aria-label="Hersteller ROTHBAND – Website in neuem Tab öffnen">
-            <span class="m-mfr-chip"><img src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy"></span>
-            <span class="m-mfr-line-txt"><span class="m-mfr-line-cap">Hersteller</span><strong>ROTHBAND</strong> · Made in UK · rothband.com</span>
-          </a>
           <p class="m-pl-count">''' + str(_ss_count("aufbewahrung")) + ''' Produkte verfügbar</p>
           <div class="m-pl-list">
 ''' + _ss_cards("aufbewahrung") + '''

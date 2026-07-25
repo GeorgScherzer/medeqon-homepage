@@ -317,6 +317,15 @@ img{max-width:100%}
 .m-mfr-line:hover .m-mfr-chip{transform:translateY(-2px);
   box-shadow:0 12px 28px rgba(15,27,44,.13);border-color:var(--sky)}
 
+/* Mehrere Hersteller-Chips an einer Überschrift (z. B. ROTHBAND + KENEX) */
+.m-mfr-chips{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+a.m-mfr-chip{text-decoration:none;
+  transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+a.m-mfr-chip:hover,a.m-mfr-chip:focus-visible{transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(15,27,44,.13);border-color:var(--sky)}
+.m-mfr-chip--rothband img{display:block;height:26px;width:auto}
+.m-mfr-chip--kenex img{display:block;height:30px;width:auto}
+
 /* --- Headquarters als weiches Wasserzeichen im Sektionskopf --- */
 .m-mfrbg{position:relative;overflow:hidden}
 .m-mfrbg::before{content:"";position:absolute;top:0;left:0;right:0;height:480px;
@@ -367,6 +376,7 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 .m-pl-frame{position:relative;width:100%;aspect-ratio:4 / 3;background:#fff;
   border:1px solid var(--mist);border-radius:12px;overflow:hidden;touch-action:pan-y}
 .m-pl-frame[data-count]:not([data-count="1"]){cursor:ew-resize}
+.m-pl-frame.m-pl-frame--tall{aspect-ratio:3 / 4}
 .m-pl-shot{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;
   opacity:0;transition:opacity .18s ease;user-select:none;-webkit-user-drag:none}
 .m-pl-shot.is-on{opacity:1}
