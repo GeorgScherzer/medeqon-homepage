@@ -335,6 +335,22 @@ a.m-mfr-chip:hover,a.m-mfr-chip:focus-visible{transform:translateY(-2px);
   -webkit-mask-image:linear-gradient(180deg,#000 0%,#000 26%,transparent 100%);
           mask-image:linear-gradient(180deg,#000 0%,#000 26%,transparent 100%)}
 .m-mfrbg .m-shell{position:relative;z-index:1}
+
+/* Teil-scharfes Hintergrundmotiv (Hexagon rechts, nach links auslaufend) */
+.m-hexbg{position:relative;overflow:hidden}
+.m-hexbg::before{content:"";position:absolute;top:-8px;right:-24px;
+  width:min(600px,56%);height:620px;z-index:0;pointer-events:none;
+  background-image:var(--hexbg);background-repeat:no-repeat;
+  background-position:right top;background-size:contain;opacity:.95;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 42%);
+          mask-image:linear-gradient(90deg,transparent 0,#000 42%)}
+.m-hexbg .m-shell{position:relative;z-index:1}
+/* Foto-Variante (rechts scharf, nach links & unten weich auslaufend) */
+.m-hexbg.m-hexbg--photo::before{top:0;right:0;width:min(660px,54%);height:660px;
+  background-position:right center;background-size:cover;opacity:.9;border-top-right-radius:0;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 62%,transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 62%,transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
 .m-acc{display:grid;gap:14px}
 details.m-ac{background:var(--paper);border:1px solid var(--mist);border-radius:14px;
   overflow:hidden;transition:border-color .18s ease,box-shadow .18s ease}
@@ -625,6 +641,9 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-cat-head.has-mfr{gap:20px}
   .m-mfr{align-items:flex-start}
   .m-mfrbg::before{height:360px}
+  .m-hexbg::before{position:absolute;top:0;right:0;width:100%;height:300px;opacity:.12;
+    -webkit-mask-image:linear-gradient(180deg,#000 0,transparent 100%);
+            mask-image:linear-gradient(180deg,#000 0,transparent 100%)}
   .m-hero{padding:72px 0 64px}
   .m-hero h1{font-size:40px;line-height:46px}
   .m-hero-main{padding:80px 0 64px}

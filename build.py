@@ -411,7 +411,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section" id="strahlenschutz">
+<section class="m-section m-hexbg" id="strahlenschutz" style="--hexbg:url('assets/brands/ss-hero.jpg')">
   <div class="m-shell">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
@@ -534,7 +534,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section alt m-mfrbg" id="medizinische-einrichtung" style="--mfrbg:url('assets/brands/coinfy-hero-blur.jpg')">
+<section class="m-section alt m-hexbg m-hexbg--photo" id="medizinische-einrichtung" style="--hexbg:url('assets/brands/med-hero.jpg')">
   <div class="m-shell">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
@@ -622,7 +622,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section m-mfrbg" id="heilbehelfe" style="--mfrbg:url('assets/brands/mobiak-hq-blur.jpg')">
+<section class="m-section m-hexbg m-hexbg--photo" id="heilbehelfe" style="--hexbg:url('assets/brands/hb-hero.jpg')">
   <div class="m-shell">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
