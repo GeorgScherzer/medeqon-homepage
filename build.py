@@ -411,7 +411,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section m-hexbg" id="strahlenschutz" style="--hexbg:url('assets/brands/ss-hero.jpg')">
+<section class="m-section m-hexbg m-hexbg-l" id="strahlenschutz" style="--hexbg:url('assets/brands/ss-hero.jpg');--hexbg2:url('assets/brands/kenex-hero.jpg')">
   <div class="m-shell">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
