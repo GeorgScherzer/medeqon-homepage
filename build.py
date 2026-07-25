@@ -559,8 +559,50 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       <details class="m-ac" id="tischmontierter-strahlenschutz">
         <summary><span class="m-ac-num">05</span><span class="m-ac-title">Tischmontierter Strahlenschutz</span><img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie.</p>
-          <span class="m-ac-src">Produkte folgen in Kürze.</span>
+          <p class="m-ac-lead">Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – Unterkörper-, Kopfende- und Aufsatz-Schilde sowie passende Aufbewahrung. Vom Hersteller KENEX.</p>
+          <div class="m-acc m-acc-nested">
+
+            <details class="m-ac m-ac-sub" id="tisch-unterkoerper">
+              <summary><span class="m-ac-title">Unterkörper-Tischschilde</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_kenex_count("tisch","unterkoerper")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _kenex_cards("tisch","unterkoerper") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="tisch-kopfende">
+              <summary><span class="m-ac-title">Kopfende-Tischschilde</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_kenex_count("tisch","kopfende")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _kenex_cards("tisch","kopfende") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="tisch-top">
+              <summary><span class="m-ac-title">Aufsatz- &amp; Fußende-Schilde</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_kenex_count("tisch","top")) + ''' Produkte verfügbar</p>
+                <div class="m-pl-list">
+''' + _kenex_cards("tisch","top") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="tisch-aufbewahrung">
+              <summary><span class="m-ac-title">Aufbewahrung</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_kenex_count("tisch","aufbewahrung")) + ''' Produkte verfügbar</p>
+                <div class="m-pl-list">
+''' + _kenex_cards("tisch","aufbewahrung") + '''
+                </div>
+              </div>
+            </details>
+
+          </div>
         </div>
       </details>
     </div>
