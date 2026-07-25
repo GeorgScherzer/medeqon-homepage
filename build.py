@@ -786,6 +786,7 @@ BODY_MANAGEMENT = '''<section class="m-page-hero">
       <div class="m-solo-body">
         <div class="m-member-name">Georg Scherzer</div>
         <div class="m-member-role">Gründer · Medizintechniker</div>
+        <div class="m-member-contact"><span class="k">Kontakt</span><a href="mailto:g.scherzer@medeqon.com">g.scherzer@medeqon.com</a><span class="sep">·</span><a href="tel:+436705505612">+43 670 5505612</a></div>
         <div class="m-member-langs"><span class="k">Sprachen</span>Deutsch (Muttersprache), Englisch, Französisch</div>
         <div class="m-member-quals">
           <span class="k">Erfahrung &amp; Qualifikationen</span>

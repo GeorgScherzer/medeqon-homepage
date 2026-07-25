@@ -525,7 +525,11 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
   color:var(--ink);margin-top:22px}
 .m-member-role{color:var(--steel);font-size:14px;line-height:22px;margin-top:6px}
 .m-member-langs{font-size:14px;line-height:22px;color:var(--ink);margin-top:18px}
-.m-member-langs .k,.m-member-quals .k{font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;
+.m-member-contact{font-size:14px;line-height:22px;color:var(--ink);margin-top:18px}
+.m-member-contact a{color:var(--brand-700);text-decoration:none;font-weight:600}
+.m-member-contact a:hover{text-decoration:underline}
+.m-member-contact .sep{color:var(--mist);margin:0 10px}
+.m-member-langs .k,.m-member-quals .k,.m-member-contact .k{font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;
   text-transform:uppercase;color:var(--signal);display:block;margin-bottom:6px}
 .m-member-quals{margin-top:24px;background:var(--mist-blue);padding:24px 26px;border-radius:8px}
 .m-member-quals .ring-list{margin-top:2px}
