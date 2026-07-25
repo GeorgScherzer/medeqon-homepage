@@ -387,6 +387,14 @@ def _count(cat):
     return sum(1 for p in _products if p["cat"] == cat)
 CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz")}
 
+# ---- Heilbehelfe & Hilfsmittel ----
+_hb = json.loads((ROOT / "heilbehelfe.json").read_text(encoding="utf-8"))
+def _hb_cards(sub, group=None):
+    return "\n\n".join(_render_liege(p) for p in _hb
+                       if p["sub"] == sub and (group is None or p.get("group") == group))
+def _hb_count(sub):
+    return sum(1 for p in _hb if p["sub"] == sub)
+
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Produkte</span>
@@ -545,6 +553,74 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           <p class="m-ac-lead">Sicht- und Trennwandsysteme für diskrete, flexibel teilbare Raumbereiche.</p>
           <div class="m-pl-list">
 ''' + CARDS["sichtschutz"] + '''
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="m-section" id="heilbehelfe">
+  <div class="m-shell">
+    <div class="m-cat-head">
+      <h2>Heilbehelfe &amp; Hilfsmittel<span class="end-dot">.</span></h2>
+      <div class="sub">Mobilität, Pflege und Alltagshilfen – von Rollstühlen und Elektromobilen über Gehhilfen bis zu Anti-Dekubitus-Systemen und Sauerstoffversorgung. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+    </div>
+
+    <div class="m-acc">
+      <details class="m-ac" id="hb-rollstuehle">
+        <summary><span class="m-ac-num">01</span><span class="m-ac-title">Rollstühle</span>''' + CHEV + '''</summary>
+        <div class="m-ac-body">
+          <p class="m-pl-count">''' + str(_hb_count("rollstuehle")) + ''' Modelle verfügbar</p>
+          <div class="m-pl-list">
+''' + _hb_cards("rollstuehle") + '''
+          </div>
+        </div>
+      </details>
+
+      <details class="m-ac" id="hb-erollstuehle">
+        <summary><span class="m-ac-num">02</span><span class="m-ac-title">Elektrische Rollstühle &amp; Scooter</span>''' + CHEV + '''</summary>
+        <div class="m-ac-body">
+          <p class="m-pl-count">''' + str(_hb_count("erollstuehle")) + ''' Modelle verfügbar</p>
+          <div class="m-pl-list">
+''' + _hb_cards("erollstuehle") + '''
+          </div>
+        </div>
+      </details>
+
+      <details class="m-ac" id="hb-gehhilfen">
+        <summary><span class="m-ac-num">03</span><span class="m-ac-title">Gehhilfen</span>''' + CHEV + '''</summary>
+        <div class="m-ac-body">
+          <div class="m-pl-group">
+            <h5 class="m-pl-grouphead">Rollatoren</h5>
+            <div class="m-pl-list">
+''' + _hb_cards("gehhilfen", "rollatoren") + '''
+            </div>
+          </div>
+          <div class="m-pl-group">
+            <h5 class="m-pl-grouphead">Gehböcke / Walker</h5>
+            <div class="m-pl-list">
+''' + _hb_cards("gehhilfen", "walker") + '''
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details class="m-ac" id="hb-antidekubitus">
+        <summary><span class="m-ac-num">04</span><span class="m-ac-title">Anti-Dekubitus-Produkte</span>''' + CHEV + '''</summary>
+        <div class="m-ac-body">
+          <p class="m-pl-count">''' + str(_hb_count("antidekubitus")) + ''' Modelle verfügbar</p>
+          <div class="m-pl-list">
+''' + _hb_cards("antidekubitus") + '''
+          </div>
+        </div>
+      </details>
+
+      <details class="m-ac" id="hb-oxygen">
+        <summary><span class="m-ac-num">05</span><span class="m-ac-title">Sauerstoffkonzentratoren</span>''' + CHEV + '''</summary>
+        <div class="m-ac-body">
+          <div class="m-pl-list">
+''' + _hb_cards("oxygen") + '''
           </div>
         </div>
       </details>

@@ -317,6 +317,9 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 /* ===== Produkte — Untersuchungsliegen (Foto-Galerie + Eckdaten) ===== */
 .m-pl-count{font-family:var(--font-mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;
   color:var(--signal);margin:0 0 16px}
+.m-pl-group + .m-pl-group{margin-top:26px}
+.m-pl-grouphead{font-family:var(--font-display);font-weight:700;font-size:18px;color:var(--ink);
+  margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--mist)}
 .m-pl-list{display:grid;gap:20px}
 .m-pl{display:grid;grid-template-columns:minmax(0,1.2fr) 1fr;gap:32px;align-items:center;
   background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:24px}
