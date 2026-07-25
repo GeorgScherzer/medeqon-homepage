@@ -403,7 +403,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     </div>
 
     <div class="m-acc">
-      <details class="m-ac" id="persoenlicher-strahlenschutz" open>
+      <details class="m-ac" id="persoenlicher-strahlenschutz">
         <summary><span class="m-ac-num">01</span><span class="m-ac-title">Persönlicher Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
           <p class="m-ac-lead">Strahlenschutzbekleidung und Zubehör für den direkten Personenschutz – Bleischürzen, bleifreie Schürzen, Brillen, Handschuhe und ergänzender Schutz. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.</p>
@@ -484,22 +484,12 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           <p class="m-ac-lead">Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.</p>
           <div class="m-acc m-acc-nested">
 
-            <details class="m-ac m-ac-sub" id="liegen-chiropraktisch" open>
-              <summary><span class="m-ac-title">Chiropraktische Liegen</span>''' + CHEV + '''</summary>
+            <details class="m-ac m-ac-sub" id="liegen-fix">
+              <summary><span class="m-ac-title">Fix</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
-                <p class="m-pl-count">''' + str(_count("chiro")) + ''' Modelle verfügbar</p>
+                <p class="m-pl-count">''' + str(_count("fix")) + ''' Modell verfügbar</p>
                 <div class="m-pl-list">
-''' + CARDS["chiro"] + '''
-                </div>
-              </div>
-            </details>
-
-            <details class="m-ac m-ac-sub" id="liegen-elektrisch">
-              <summary><span class="m-ac-title">Elektrisch</span>''' + CHEV + '''</summary>
-              <div class="m-ac-body">
-                <p class="m-pl-count">''' + str(_count("elektrisch")) + ''' Modelle verfügbar</p>
-                <div class="m-pl-list">
-''' + CARDS["elektrisch"] + '''
+''' + CARDS["fix"] + '''
                 </div>
               </div>
             </details>
@@ -514,11 +504,22 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
               </div>
             </details>
 
-            <details class="m-ac m-ac-sub" id="liegen-fix">
-              <summary><span class="m-ac-title">Fix</span>''' + CHEV + '''</summary>
+            <details class="m-ac m-ac-sub" id="liegen-elektrisch">
+              <summary><span class="m-ac-title">Elektrisch</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_count("elektrisch")) + ''' Modelle verfügbar</p>
                 <div class="m-pl-list">
-''' + CARDS["fix"] + '''
+''' + CARDS["elektrisch"] + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="liegen-chiropraktisch">
+              <summary><span class="m-ac-title">Chiropraktische Liegen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_count("chiro")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + CARDS["chiro"] + '''
                 </div>
               </div>
             </details>
