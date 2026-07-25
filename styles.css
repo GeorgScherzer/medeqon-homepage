@@ -338,28 +338,19 @@ a.m-mfr-chip:hover,a.m-mfr-chip:focus-visible{transform:translateY(-2px);
 
 /* Teil-scharfes Hintergrundmotiv (Hexagon rechts, nach links auslaufend) */
 .m-hexbg{position:relative;overflow:hidden}
-.m-hexbg::before{content:"";position:absolute;top:-8px;
-  right:max(-24px,calc((100vw - 1080px)/2 - 150px));
-  width:min(600px,56%);height:620px;z-index:0;pointer-events:none;
-  background-image:var(--hexbg);background-repeat:no-repeat;
-  background-position:right top;background-size:contain;opacity:.95;
-  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 42%);
-          mask-image:linear-gradient(90deg,transparent 0,#000 42%)}
-.m-hexbg .m-shell{position:relative;z-index:1}
-/* Optionales zweites Motiv links (verschwimmt nach rechts) */
-.m-hexbg-l::after{content:"";position:absolute;top:-8px;
-  left:max(-24px,calc((100vw - 1080px)/2 - 150px));
-  width:min(560px,52%);height:600px;z-index:0;pointer-events:none;
-  background-image:var(--hexbg2);background-repeat:no-repeat;
-  background-position:left top;background-size:contain;opacity:.5;
-  -webkit-mask-image:linear-gradient(90deg,#000 0,#000 32%,transparent 82%);
-          mask-image:linear-gradient(90deg,#000 0,#000 32%,transparent 82%)}
-/* Foto-Variante (rechts scharf, nach links & unten weich auslaufend) */
-.m-hexbg.m-hexbg--photo::before{top:0;right:0;width:min(660px,54%);height:660px;
-  background-position:right center;background-size:cover;opacity:.9;border-top-right-radius:0;
-  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 62%,transparent 100%);
-          mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 62%,transparent 100%);
+/* Motiv rechts (ROTHBAND) und optional links (KENEX) – jeweils zum Rand,
+   nach innen UND unten sauber zu Weiß auslaufend (wie bei Med. Einrichtung/Heilbehelfe) */
+.m-hexbg::before,.m-hexbg-l::after{content:"";position:absolute;top:0;height:680px;
+  width:min(680px,52%);z-index:0;pointer-events:none;
+  background-repeat:no-repeat;background-size:cover;
   -webkit-mask-composite:source-in;mask-composite:intersect}
+.m-hexbg::before{right:0;opacity:.92;background-image:var(--hexbg);background-position:right center;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 60%,transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 60%,transparent 100%)}
+.m-hexbg-l::after{left:0;opacity:.8;background-image:var(--hexbg2);background-position:left center;
+  -webkit-mask-image:linear-gradient(90deg,#000 0,#000 45%,transparent 100%),linear-gradient(180deg,#000 60%,transparent 100%);
+          mask-image:linear-gradient(90deg,#000 0,#000 45%,transparent 100%),linear-gradient(180deg,#000 60%,transparent 100%)}
+.m-hexbg .m-shell{position:relative;z-index:1}
 .m-acc{display:grid;gap:14px}
 details.m-ac{background:var(--paper);border:1px solid var(--mist);border-radius:14px;
   overflow:hidden;transition:border-color .18s ease,box-shadow .18s ease}
@@ -650,9 +641,11 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-cat-head.has-mfr{gap:20px}
   .m-mfr{align-items:flex-start}
   .m-mfrbg::before{height:360px}
-  .m-hexbg::before{position:absolute;top:0;right:0;width:100%;height:300px;opacity:.12;
+  .m-hexbg::before,.m-hexbg-l::after{top:0;left:auto;right:0;width:76%;height:300px;opacity:.13;
     -webkit-mask-image:linear-gradient(180deg,#000 0,transparent 100%);
-            mask-image:linear-gradient(180deg,#000 0,transparent 100%)}
+            mask-image:linear-gradient(180deg,#000 0,transparent 100%);
+    -webkit-mask-composite:add;mask-composite:add}
+  .m-hexbg-l::after{left:0;right:auto}
   .m-hero{padding:72px 0 64px}
   .m-hero h1{font-size:40px;line-height:46px}
   .m-hero-main{padding:80px 0 64px}
