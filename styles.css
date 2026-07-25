@@ -286,6 +286,34 @@ img{max-width:100%}
   letter-spacing:-0.02em;color:var(--ink)}
 .m-cat-head h2 .end-dot{color:var(--signal)}
 .m-cat-head .sub{font-size:17px;line-height:26px;color:var(--steel);max-width:74ch}
+
+/* --- Hersteller-Bezug an der Kategorie-Überschrift --- */
+.m-cat-head.has-mfr{display:flex;flex-wrap:wrap;align-items:center;
+  justify-content:space-between;gap:22px 44px}
+.m-cat-head.has-mfr .m-cat-head-text{flex:1 1 440px;min-width:0;display:grid;gap:10px}
+.m-mfr{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:9px;
+  text-decoration:none}
+.m-mfr-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.16em;
+  text-transform:uppercase;color:var(--steel)}
+.m-mfr-chip{background:#fff;border:1px solid var(--mist);border-radius:14px;
+  padding:16px 24px;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 20px rgba(15,27,44,.06);
+  transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+.m-mfr:hover .m-mfr-chip,.m-mfr:focus-visible .m-mfr-chip{transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(15,27,44,.13);border-color:var(--sky)}
+.m-mfr-chip img{display:block;width:auto}
+.m-mfr--coinfy .m-mfr-chip img{height:30px}
+.m-mfr--mobiak .m-mfr-chip img{height:56px}
+
+/* --- Headquarters als weiches Wasserzeichen im Sektionskopf --- */
+.m-mfrbg{position:relative;overflow:hidden}
+.m-mfrbg::before{content:"";position:absolute;top:0;left:0;right:0;height:480px;
+  z-index:0;pointer-events:none;
+  background-image:var(--mfrbg);background-size:cover;background-position:center 32%;
+  opacity:.15;
+  -webkit-mask-image:linear-gradient(180deg,#000 0%,#000 26%,transparent 100%);
+          mask-image:linear-gradient(180deg,#000 0%,#000 26%,transparent 100%)}
+.m-mfrbg .m-shell{position:relative;z-index:1}
 .m-acc{display:grid;gap:14px}
 details.m-ac{background:var(--paper);border:1px solid var(--mist);border-radius:14px;
   overflow:hidden;transition:border-color .18s ease,box-shadow .18s ease}
@@ -572,6 +600,9 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-nav-links{gap:16px}
   .m-shell{padding:0 20px}
   .m-section{padding:64px 0}
+  .m-cat-head.has-mfr{gap:20px}
+  .m-mfr{align-items:flex-start}
+  .m-mfrbg::before{height:360px}
   .m-hero{padding:72px 0 64px}
   .m-hero h1{font-size:40px;line-height:46px}
   .m-hero-main{padding:80px 0 64px}

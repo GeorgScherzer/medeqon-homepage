@@ -480,9 +480,15 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
 
 <section class="m-section alt" id="medizinische-einrichtung">
   <div class="m-shell">
-    <div class="m-cat-head">
-      <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
-      <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+    <div class="m-cat-head has-mfr">
+      <div class="m-cat-head-text">
+        <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
+        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert vom Hersteller COINFYCARE. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+      </div>
+      <a class="m-mfr m-mfr--coinfy" href="https://www.coinfycare.com/en" target="_blank" rel="noopener" aria-label="Hersteller COINFYCARE – Website in neuem Tab öffnen">
+        <span class="m-mfr-cap">Hersteller</span>
+        <span class="m-mfr-chip"><img src="assets/brands/coinfycare.png" alt="COINFYCARE" loading="lazy"></span>
+      </a>
     </div>
 
     <div class="m-acc">
@@ -560,11 +566,17 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section" id="heilbehelfe">
+<section class="m-section m-mfrbg" id="heilbehelfe" style="--mfrbg:url('assets/brands/mobiak-hq-blur.jpg')">
   <div class="m-shell">
-    <div class="m-cat-head">
-      <h2>Heilbehelfe &amp; Hilfsmittel<span class="end-dot">.</span></h2>
-      <div class="sub">Mobilität, Pflege und Alltagshilfen – von Rollstühlen und Elektromobilen über Gehhilfen bis zu Anti-Dekubitus-Systemen und Sauerstoffversorgung. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+    <div class="m-cat-head has-mfr">
+      <div class="m-cat-head-text">
+        <h2>Heilbehelfe &amp; Hilfsmittel<span class="end-dot">.</span></h2>
+        <div class="sub">Mobilität, Pflege und Alltagshilfen – von Rollstühlen und Elektromobilen über Gehhilfen bis zu Anti-Dekubitus-Systemen und Sauerstoffversorgung. Geliefert vom Hersteller MOBIAK. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+      </div>
+      <a class="m-mfr m-mfr--mobiak" href="https://www.mobiak.com/en/" target="_blank" rel="noopener" aria-label="Hersteller MOBIAK – Website in neuem Tab öffnen">
+        <span class="m-mfr-cap">Hersteller</span>
+        <span class="m-mfr-chip"><img src="assets/brands/mobiak.png" alt="MOBIAK"></span>
+      </a>
     </div>
 
     <div class="m-acc">
