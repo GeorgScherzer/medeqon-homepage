@@ -403,6 +403,13 @@ def _ss_cards(sub):
 def _ss_count(sub):
     return sum(1 for p in _ss if p["sub"] == sub)
 
+# ---- Montierter Strahlenschutz (KENEX) ----
+_kenex = json.loads((ROOT / "kenex.json").read_text(encoding="utf-8"))
+def _kenex_cards(cat):
+    return "\n\n".join(_render_liege(p) for p in _kenex if p["cat"] == cat)
+def _kenex_count(cat):
+    return sum(1 for p in _kenex if p["cat"] == cat)
+
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Produkte</span>
@@ -510,8 +517,11 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       <details class="m-ac" id="mobiler-strahlenschutz">
         <summary><span class="m-ac-num">03</span><span class="m-ac-title">Mobiler Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie.</p>
-          <span class="m-ac-src">Produkte folgen in Kürze.</span>
+          <p class="m-ac-lead">Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – vom Hersteller KENEX.</p>
+          <p class="m-pl-count">''' + str(_kenex_count("mobil")) + ''' Modelle verfügbar</p>
+          <div class="m-pl-list">
+''' + _kenex_cards("mobil") + '''
+          </div>
         </div>
       </details>
 

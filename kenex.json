@@ -1,0 +1,184 @@
+[
+ {
+  "cat": "mobil",
+  "slug": "kenex-310b3",
+  "model": "310/B-3 – Mobiler Strahlenschutz, höhenverstellbar",
+  "ref": "310/B-3",
+  "description": "Kompakter, leicht manövrierbarer mobiler Strahlenschutz für beengte Bereiche direkt am Untersuchungstisch. Unteres Schutzpanel und gewichtsentlastetes Bleiacryl-Fenster, das sich schnell und nahezu kraftlos in der Höhe verstellen lässt. Optional mit seitlichen Schutzpanelen.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbarer Strahlenschutz, höhenverstellbar"
+   ],
+   [
+    "Unteres Panel",
+    "78 × 102 cm · 1,0 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Bleiacryl-Fenster",
+    "70 cm breit · 0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Höhenverstellung",
+    "Fenster 115–188 cm ab Boden"
+   ],
+   [
+    "Optionen",
+    "Seitliche Schutzpanele (317/05-01), 0,5 mm Pb, +68 cm je Panel (max. 214 cm)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "mobil",
+  "slug": "kenex-326-05",
+  "model": "326/05 – Über-Tisch-Strahlenschutz, höhenverstellbar",
+  "ref": "326/05",
+  "description": "Mobiler Strahlenschutz, der Eigenschaften decken- und tischmontierter Systeme vereint: Ein gewichtsentlastetes Bleiacryl-Fenster wird über dem Patienten positioniert und ist höhenverstellbar. Flexible, in der Breite verstellbare Vorhänge schaffen eine großzügige Schutzzone für Anwender und Assistenzpersonal.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbarer Über-Tisch-Strahlenschutz"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (durchgehend)"
+   ],
+   [
+    "Fenster",
+    "50 × 116 cm, mit Eckausschnitt"
+   ],
+   [
+    "Vorhänge",
+    "80 cm hoch · Breite 45–80 cm"
+   ],
+   [
+    "Höhe",
+    "139–169 cm"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "mobil",
+  "slug": "kenex-314-05",
+  "model": "314/05 – Mobiler Schutzpanel-Ständer",
+  "ref": "314/05",
+  "description": "Kompakter, höhenverstellbarer mobiler Schutz zum gezielten Abschirmen von Patient oder Anwender. Teleskopsäule mit Federunterstützung trägt ein flexibles Schutzpanel; einfache Höhenverstellung.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbarer Schutzpanel-Ständer, höhenverstellbar"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb"
+   ],
+   [
+    "Höhe",
+    "85–120 cm"
+   ],
+   [
+    "Standfläche",
+    "56 × 56 cm"
+   ],
+   [
+    "Panel",
+    "70 × 60 cm"
+   ],
+   [
+    "Varianten",
+    "314/05-01 Einzelpanel · 314/05-02 Doppelpanel (überlappend)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "mobil",
+  "slug": "kenex-303b2",
+  "model": "303/B2/90 – Mobile Strahlenschutzwand",
+  "ref": "303/B2/90",
+  "description": "Fahrbare Strahlenschutzwand in fester Paneelbauweise mit Bleikern, beidseitig mit Hochdruck-Kunststofflaminat beschichtet und mit Bleiglasfenster. Robuste, abschließbare Lenkrollen und Griffe für einfache Mobilität.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbare Strahlenschutzwand (Vollpaneel)"
+   ],
+   [
+    "Bleigleichwert",
+    "2,2 mm Pb (Kern & Fenster)"
+   ],
+   [
+    "Abmessungen",
+    "200 × 90 cm (H × B)"
+   ],
+   [
+    "Sichtfenster",
+    "25 × 25 cm"
+   ],
+   [
+    "Farben",
+    "Weiß, Creme, Hellgrau, Dunkelgrau, Türkisblau, Pink"
+   ],
+   [
+    "Ausstattung",
+    "Abschließbare Lenkrollen mit Bremse, ABS-Kantenschutz, Griffe"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "mobil",
+  "slug": "kenex-303b3",
+  "model": "303/B3/90 – Panorama-Strahlenschutzwand",
+  "ref": "303/B3/90",
+  "description": "Fahrbare Strahlenschutzwand wie 303/B2/90, jedoch mit breitem Panorama-Bleiglasfenster für erweiterte Sicht. Feste Paneelbauweise mit Bleikern, beidseitiges Hochdruck-Laminat, abschließbare Rollen und Griffe.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbare Strahlenschutzwand (Panorama)"
+   ],
+   [
+    "Bleigleichwert",
+    "2,2 mm Pb (Kern & Fenster)"
+   ],
+   [
+    "Abmessungen",
+    "200 × 90 cm (H × B)"
+   ],
+   [
+    "Panorama-Fenster",
+    "25 × 62 cm"
+   ],
+   [
+    "Farben",
+    "Weiß, Creme, Hellgrau, Dunkelgrau, Türkisblau, Pink"
+   ],
+   [
+    "Ausstattung",
+    "Neopren-Dichtungen, abschließbare Lenkrollen, Griffe"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ }
+]
