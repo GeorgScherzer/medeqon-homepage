@@ -180,5 +180,523 @@
    ]
   ],
   "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-354lr",
+  "model": "354/P/88-207/LR – Überkopf-Schild (Bleiacryl)",
+  "ref": "354/P/88-207/LR",
+  "description": "Zentral aufgehängtes Überkopf-Schutzschild aus Bleiacryl mit Patientenkontur-Ausschnitt und flexibler Vorhang-Erweiterung; zur Montage am VALiA-MD21+-Aufhängungsarm. Statischer Oberkörperschutz.",
+  "specs": [
+   [
+    "Bauart",
+    "Überkopf-Schutzschild (zentral aufgehängt)"
+   ],
+   [
+    "Abmessungen",
+    "85 × 80 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Material",
+    "Bleiacryl mit flexiblem Vorhang"
+   ],
+   [
+    "Rotation",
+    "360°"
+   ],
+   [
+    "Gewicht",
+    "15,8 kg"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-354",
+  "model": "354 – Überkopf-Schild mit Zentralaufhängung",
+  "ref": "354",
+  "description": "Transparentes, zentral aufgehängtes Oberkörper-Schutzschild – wahlweise mit Patientenkontur-Ausschnitt. Kugelgelenk für 360°-Dreh- und Neigebewegung.",
+  "specs": [
+   [
+    "Bauart",
+    "Überkopf-Schutzschild (Zentralaufhängung)"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (Bleiacryl)"
+   ],
+   [
+    "Schildgrößen",
+    "85×80 · 76×61 · 40×50 cm"
+   ],
+   [
+    "Bewegung",
+    "Kugelgelenk, 360°"
+   ],
+   [
+    "Montage",
+    "Arm · Decke · Deckenschiene · Wand"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-351",
+  "model": "351 – Überkopf-Schild mit horizontalem Schwenk",
+  "ref": "351",
+  "description": "Transparentes Bleiacryl-Überkopfschild mit horizontaler Schwenkachse im Querformat. Optional Patientenkontur-Ausschnitt und flexible Bleipanele.",
+  "specs": [
+   [
+    "Bauart",
+    "Überkopf-Schutzschild (horizontaler Schwenk)"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb"
+   ],
+   [
+    "Schildgrößen",
+    "60×80 · 40×50 cm"
+   ],
+   [
+    "Ausrichtung",
+    "Querformat"
+   ],
+   [
+    "Montage",
+    "Arm · Decke · Deckenschiene · Wand"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-350",
+  "model": "350 – Augen- & Schilddrüsenschild",
+  "ref": "350",
+  "description": "Transparentes Schutzschild speziell für Augen- und Schilddrüsenschutz, Querformat mit horizontalem Schwenk und flexiblem unterem Vorhang.",
+  "specs": [
+   [
+    "Bauart",
+    "Augen-/Schilddrüsenschild"
+   ],
+   [
+    "Bleiglas",
+    "≥ 2,2 mm Pb"
+   ],
+   [
+    "Unterer Vorhang",
+    "0,5 mm Pb"
+   ],
+   [
+    "Schildgrößen",
+    "40×50 · 30×40 cm"
+   ],
+   [
+    "Säule",
+    "80 cm (Standard)"
+   ],
+   [
+    "Montage",
+    "Decke · Schiene · Wand"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-354led",
+  "model": "354/P76/LED – Überkopf-Schild mit LED-Lampe",
+  "ref": "354/P76/LED",
+  "description": "Kombination aus zentral aufgehängtem 354-Schutzschild und integrierter LED-OP-Lampe – stationär oder fahrbar (Deckenschiene). Oberkörperschutz mit optimaler Ausleuchtung.",
+  "specs": [
+   [
+    "Bauart",
+    "Überkopf-Schild + LED-Lampe"
+   ],
+   [
+    "Schild",
+    "76 × 61 cm · 0,5 mm Pb · Patientenkontur"
+   ],
+   [
+    "LED-Optionen",
+    "130F (70.000 Lux) · 150F (110.000) · 300DF SC (160.000)"
+   ],
+   [
+    "Lieferumfang",
+    "80-cm-Deckensäule + 2 Arme"
+   ],
+   [
+    "Montage",
+    "Decke oder Schiene (250/420 cm)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-351led",
+  "model": "351/P68/LED – Überkopf-Schild mit LED-Lampe",
+  "ref": "351/P68/LED",
+  "description": "Kombination aus 351-Schutzschild (horizontaler Schwenk) und integrierter LED-OP-Lampe, stationär oder fahrbar.",
+  "specs": [
+   [
+    "Bauart",
+    "Überkopf-Schild + LED-Lampe"
+   ],
+   [
+    "Schild",
+    "60 × 80 cm · 0,5 mm Pb"
+   ],
+   [
+    "LED-Optionen",
+    "130F · 150F · 300DF SC"
+   ],
+   [
+    "Montage",
+    "Decke oder Schiene (250/420 cm)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-350led",
+  "model": "350/45/LED – Augen-/Schilddrüsenschild mit LED-Lampe",
+  "ref": "350/45/LED",
+  "description": "Kombination aus 350-Augen-/Schilddrüsenschild und integrierter LED-OP-Lampe, stationär oder fahrbar.",
+  "specs": [
+   [
+    "Bauart",
+    "Augen-/Schilddrüsenschild + LED-Lampe"
+   ],
+   [
+    "Schild",
+    "40 × 50 cm · 0,5 mm Pb"
+   ],
+   [
+    "LED-Optionen",
+    "130F · 150F · 300DF SC"
+   ],
+   [
+    "Montage",
+    "Decke oder Schiene (250/420 cm)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "ueberkopf",
+  "slug": "kenex-308",
+  "model": "308 – Flexibler Überkopf-Bleischutz",
+  "ref": "308",
+  "description": "Flexibles Überkopf-Schutzschild aus überlappenden Bleivinyl-Lamellen mit hochklappbarem Mittelteil (Druckknopf). Aufhängungsarm im Lieferumfang.",
+  "specs": [
+   [
+    "Bauart",
+    "Flexibler Überkopf-Bleischutz"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb"
+   ],
+   [
+    "Abmessungen",
+    "50 × 100 cm"
+   ],
+   [
+    "Material",
+    "Bleivinyl (flexibel)"
+   ],
+   [
+    "Montage",
+    "stationär · Wand · Deckenschiene"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-3001tc",
+  "model": "3001/TC – Deckenschiene mit Laufwagen",
+  "ref": "3001/TC",
+  "description": "Hochbelastbare Aluminium-Deckenschiene mit leichtgängigem Laufwagen und optionalem Kabelmanagement (Energiekette) für die fahrbare Aufhängung von Schilden, Lampen und Monitoren.",
+  "specs": [
+   [
+    "Bauart",
+    "Deckenschiene + Laufwagen"
+   ],
+   [
+    "Material",
+    "Aluminium"
+   ],
+   [
+    "Längen",
+    "2,5 m · 4,2 m"
+   ],
+   [
+    "Laufwagen",
+    "1 (max. 2)"
+   ],
+   [
+    "Optionen",
+    "Energiekette-Kabelführung"
+   ],
+   [
+    "Montage",
+    "Unistrut o. ä."
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-333",
+  "model": "333 – Monitor-Aufhängung",
+  "ref": "333",
+  "description": "Aufhängungssystem für Flachbildmonitore mit reichweitenstarkem Federzugarm; stationär, an Deckenschiene oder wandmontiert.",
+  "specs": [
+   [
+    "Bauart",
+    "Monitor-Aufhängung"
+   ],
+   [
+    "Traglast",
+    "5–10 kg"
+   ],
+   [
+    "Reichweite",
+    "Federarm 186 cm"
+   ],
+   [
+    "Säule",
+    "80 cm Doppelgelenk"
+   ],
+   [
+    "VESA",
+    "100 mm"
+   ],
+   [
+    "Montage",
+    "stationär · Schiene · Wand"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-300arm",
+  "model": "300/ARM – Aufhängungsarm",
+  "ref": "300/ARM",
+  "description": "Robuster Aufhängungsarm für flexible Bewegung über eine große Fläche; mit patentiertem Sicherheitskragen. Zur Decken- oder Schienenmontage.",
+  "specs": [
+   [
+    "Bauart",
+    "Aufhängungsarm (Federzug)"
+   ],
+   [
+    "Auslegerarm",
+    "95 cm"
+   ],
+   [
+    "Federarm",
+    "91 cm"
+   ],
+   [
+    "Traglast",
+    "bis 18 kg"
+   ],
+   [
+    "Sicherheit",
+    "patentierter Sicherheitskragen"
+   ],
+   [
+    "Montage",
+    "Decke · Laufwagen"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-300column",
+  "model": "300/COLUMN – Deckensäule mit Doppelgelenk",
+  "ref": "300/COLUMN",
+  "description": "Stahl-Deckensäule mit zwei Drehpunkten (ein Punkt elektrisch verdrahtet) für Arm- und Lampenanschluss; stationär oder am Laufwagen.",
+  "specs": [
+   [
+    "Bauart",
+    "Deckensäule (Doppelgelenk)"
+   ],
+   [
+    "Material",
+    "Stahl"
+   ],
+   [
+    "Längen",
+    "40 · 60 · 80 · 100 cm"
+   ],
+   [
+    "Besonderheit",
+    "ein Drehpunkt elektrisch verdrahtet"
+   ],
+   [
+    "Montage",
+    "Decke · Laufwagen"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-300p004",
+  "model": "300/P/004 – Deckenmontageplatte",
+  "ref": "300/P/004",
+  "description": "Stahl-Montageplatte für die statische Installation von KENEX-Deckensäulen, ober- oder unterhalb abgehängter Decken einsetzbar (Säule separat).",
+  "specs": [
+   [
+    "Bauart",
+    "Deckenmontageplatte"
+   ],
+   [
+    "Abmessungen",
+    "73,5 × 34 × 3,4 cm"
+   ],
+   [
+    "Material",
+    "Stahl"
+   ],
+   [
+    "Montage",
+    "ober-/unterhalb abgehängter Decken"
+   ],
+   [
+    "Hinweis",
+    "Säule separat"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-300p014",
+  "model": "300/P/014 – Deckenanker-Ring & Platte",
+  "ref": "300/P/014",
+  "description": "Montageplattform für den Hohlraum zwischen abgehängter und massiver Decke (8,5–30 cm). Nach Justierung eine aufrechte, stabile Montagebasis (Säule separat).",
+  "specs": [
+   [
+    "Bauart",
+    "Deckenanker-Montageplattform"
+   ],
+   [
+    "Deckenhohlraum",
+    "8,5–30 cm"
+   ],
+   [
+    "Hinweis",
+    "Säule separat (Standard 80 cm)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ {
+  "cat": "decken",
+  "sub": "aufhaengung",
+  "slug": "kenex-300p012",
+  "model": "300/P/012 – Deckenhohlraum-Montageplattform",
+  "ref": "300/P/012",
+  "description": "Montageplattform für den Hohlraum zwischen abgehängter und massiver Decke bis 90 cm; wird zerlegt geliefert und exakt an den Abstand angepasst.",
+  "specs": [
+   [
+    "Bauart",
+    "Deckenhohlraum-Montageplattform"
+   ],
+   [
+    "Deckenhohlraum",
+    "bis 90 cm"
+   ],
+   [
+    "Lieferung",
+    "zerlegt (anpassbar)"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
  }
 ]

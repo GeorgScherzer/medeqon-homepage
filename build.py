@@ -405,10 +405,11 @@ def _ss_count(sub):
 
 # ---- Montierter Strahlenschutz (KENEX) ----
 _kenex = json.loads((ROOT / "kenex.json").read_text(encoding="utf-8"))
-def _kenex_cards(cat):
-    return "\n\n".join(_render_liege(p) for p in _kenex if p["cat"] == cat)
-def _kenex_count(cat):
-    return sum(1 for p in _kenex if p["cat"] == cat)
+def _kenex_cards(cat, sub=None):
+    return "\n\n".join(_render_liege(p) for p in _kenex
+                       if p["cat"] == cat and (sub is None or p.get("sub") == sub))
+def _kenex_count(cat, sub=None):
+    return sum(1 for p in _kenex if p["cat"] == cat and (sub is None or p.get("sub") == sub))
 
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -528,8 +529,30 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       <details class="m-ac" id="deckenmontierter-strahlenschutz">
         <summary><span class="m-ac-num">04</span><span class="m-ac-title">Deckenmontierter Strahlenschutz</span><img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Aufgehängte Überkopf-Schutzschilde zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich.</p>
-          <span class="m-ac-src">Produkte folgen in Kürze.</span>
+          <p class="m-ac-lead">Aufgehängte Überkopf-Schutzschilde und komplette Aufhängungssysteme (Deckenschienen, Säulen, Arme, Monitor-Aufhängung) – zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich. Vom Hersteller KENEX.</p>
+          <div class="m-acc m-acc-nested">
+
+            <details class="m-ac m-ac-sub" id="decken-ueberkopf">
+              <summary><span class="m-ac-title">Überkopf-Schutzschilde</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_kenex_count("decken","ueberkopf")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _kenex_cards("decken","ueberkopf") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="decken-aufhaengung">
+              <summary><span class="m-ac-title">Aufhängungssysteme</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_kenex_count("decken","aufhaengung")) + ''' Produkte verfügbar</p>
+                <div class="m-pl-list">
+''' + _kenex_cards("decken","aufhaengung") + '''
+                </div>
+              </div>
+            </details>
+
+          </div>
         </div>
       </details>
 
