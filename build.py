@@ -593,7 +593,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
             </details>
 
             <details class="m-ac m-ac-sub" id="tisch-aufbewahrung">
-              <summary><span class="m-ac-title">Aufbewahrung</span>''' + CHEV + '''</summary>
+              <summary><span class="m-ac-title">Aufbewahrung &amp; Zubehör</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
                 <p class="m-pl-count">''' + str(_kenex_count("tisch","aufbewahrung")) + ''' Produkte verfügbar</p>
                 <div class="m-pl-list">

@@ -703,14 +703,13 @@
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-78",
-  "fit": "tall",
-  "model": "312/E-005 – Tischschild 78 cm (Unterkörper)",
+  "model": "312/E-005 – Unterkörper-Tischschild 78 cm",
   "ref": "312/E-005 · -006 · -007",
-  "description": "Schmales tischseitiges Unterkörper-Schutzschild für beengte Untersuchungsplätze. Einfaches Reibungsgelenk zum seitlichen Wegschwenken; optional mit Aufsatz-Schilden für zusätzlichen Oberkörperschutz kombinierbar.",
+  "description": "Unterkörper-Tischschilde mit einfachem Reibungs-Schwenkgelenk und optionalen Aufsatz-Schilden.",
   "specs": [
    [
     "Bauart",
-    "Tischseitiges Unterkörper-Schild"
+    "Unterkörper-Tischschild"
    ],
    [
     "Abmessungen",
@@ -722,7 +721,7 @@
    ],
    [
     "Gelenk",
-    "Einfaches Reibungsgelenk (schwenkbar)"
+    "Einfaches Reibungs-Schwenkgelenk"
    ],
    [
     "Aufsatz-Schilde",
@@ -732,20 +731,20 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-92",
-  "fit": "tall",
-  "model": "312/E-010 – Tischschild 92 cm (Unterkörper)",
-  "ref": "312/E-010 · -011 · -012 · 312/DS-006 · -007",
-  "description": "Tischseitiges Unterkörper-Schutzschild mit doppeltem Reibungsgelenk für flexible Positionierung. Als einteiliges Panel oder als tischseitige Ausführung erhältlich; optional mit Aufsatz-Schilden erweiterbar.",
+  "model": "312/E-010 – Unterkörper-Tischschild 92 cm",
+  "ref": "312/E-010 · -011 · -012",
+  "description": "Unterkörper-Tischschilde mit doppeltem Reibungsgelenk und optionalen Aufsatz-Schilden.",
   "specs": [
    [
     "Bauart",
-    "Tischseitiges Unterkörper-Schild"
+    "Unterkörper-Tischschild"
    ],
    [
     "Breite",
@@ -767,20 +766,20 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-92cr",
-  "fit": "tall",
   "model": "312/E-013 – Tischschild 92 cm, kollisionsresistent",
-  "ref": "312/E-013 · 312/DS-008",
-  "description": "Kollisionsresistente 92-cm-Ausführung: Das Schild weicht bei Anstoßen an das C-Bogen-/Tischsystem nach und kehrt selbsttätig zurück. Mit doppeltem Reibungsgelenk und 57 cm breitem, abnehmbarem Aufsatz-Schild.",
+  "ref": "312/E-013",
+  "description": "Kollisionsresistentes Tischschild mit doppeltem Reibungsgelenk und 57 cm breitem, abnehmbarem Lift-off-Aufsatz-Schild.",
   "specs": [
    [
     "Bauart",
-    "Kollisionsresistentes Unterkörper-Schild"
+    "Kollisionsresistentes Tischschild"
    ],
    [
     "Breite",
@@ -796,26 +795,26 @@
    ],
    [
     "Aufsatz-Schild",
-    "57 cm breit, abnehmbar"
+    "57 cm breit, Lift-off"
    ],
    [
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-100",
-  "fit": "tall",
-  "model": "312/E-015 – Tischschild 100 cm (Unterkörper)",
+  "model": "312/E-015 – Unterkörper-Tischschild 100 cm",
   "ref": "312/E-015 · -016 · -017",
-  "description": "100 cm breites Unterkörper-Schutzschild mit integrierter 35-cm-Zubehörschiene zur Aufnahme von tischseitigem Zubehör. Einfaches Reibungsgelenk; optional mit Aufsatz-Schilden.",
+  "description": "Unterkörper-Tischschilde mit einfachem Reibungs-Schwenkgelenk, integrierter 35 cm langer Zubehörschiene und optionalen Aufsatz-Schilden.",
   "specs": [
    [
     "Bauart",
-    "Tischseitiges Unterkörper-Schild"
+    "Unterkörper-Tischschild"
    ],
    [
     "Breite",
@@ -827,7 +826,7 @@
    ],
    [
     "Gelenk",
-    "Einfaches Reibungsgelenk"
+    "Einfaches Reibungs-Schwenkgelenk"
    ],
    [
     "Zubehörschiene",
@@ -841,20 +840,20 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-114",
-  "fit": "tall",
-  "model": "312/E-020 – Tischschild 114 cm (Unterkörper)",
+  "model": "312/E-020 – Unterkörper-Tischschild 114 cm",
   "ref": "312/E-020 · -021 · -022",
-  "description": "114 cm breites Unterkörper-Schutzschild mit doppeltem Reibungsgelenk und integrierter 35-cm-Zubehörschiene. Breite Abdeckung des tischseitigen Streustrahlungsbereichs; optional mit Aufsatz-Schilden.",
+  "description": "Unterkörper-Tischschilde mit doppeltem Reibungsgelenk, integrierter 35-cm-Zubehörschiene und optionalen Aufsatz-Schilden.",
   "specs": [
    [
     "Bauart",
-    "Tischseitiges Unterkörper-Schild"
+    "Unterkörper-Tischschild"
    ],
    [
     "Breite",
@@ -880,20 +879,20 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-114cr",
-  "fit": "tall",
   "model": "312/E-023 – Tischschild 114 cm, kollisionsresistent",
   "ref": "312/E-023",
-  "description": "Kollisionsresistente 114-cm-Ausführung mit doppeltem Reibungsgelenk, integrierter 35-cm-Zubehörschiene und 57 cm breitem, abnehmbarem Aufsatz-Schild. Weicht bei Kollision nach und schützt Schild und Gerät.",
+  "description": "Kollisionsresistentes Tischschild mit doppeltem Reibungsgelenk, integrierter 35-cm-Zubehörschiene und 57 cm breitem Lift-off-Aufsatz-Schild.",
   "specs": [
    [
     "Bauart",
-    "Kollisionsresistentes Unterkörper-Schild"
+    "Kollisionsresistentes Tischschild"
    ],
    [
     "Breite",
@@ -913,26 +912,26 @@
    ],
    [
     "Aufsatz-Schild",
-    "57 cm breit, abnehmbar"
+    "57 cm breit, Lift-off"
    ],
    [
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-89",
-  "fit": "tall",
   "model": "311/DS-020 – Tischschild 89 cm mit Fold-Down-Aufsatz (Philips)",
   "ref": "311/DS-020",
-  "description": "89 cm breites Unterkörper-Schild mit überlappendem Vorhang, Mittelverbindung und 52 cm breitem, herunterklappbarem Aufsatz-Schild. Speziell für Philips-Medical-Systems-Tische ausgelegt.",
+  "description": "Unterkörper-Tischschild mit überlappendem Vorhang, Mittelverbindung und 52 cm breitem, herunterklappbarem Aufsatz-Schild. Für Philips-Medical-Systems-Tische.",
   "specs": [
    [
     "Bauart",
-    "Unterkörper-Schild mit Fold-Down-Aufsatz"
+    "Unterkörper-Tischschild mit Fold-Down-Aufsatz"
    ],
    [
     "Breite",
@@ -958,20 +957,176 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
-  "slug": "tisch-137",
-  "fit": "tall",
-  "model": "312/DS-039/5 – Tischschild 137 cm, kollisionsresistent",
-  "ref": "312/DS-039/5 · /6 · /6/3",
-  "description": "137 cm breites, kollisionsresistentes Schutzschild mit zwei überlappenden Vorhängen und doppeltem Reibungsgelenk für maximale seitliche Abdeckung. Mit 57-cm-Zubehörschiene; Ausführung /6/3 inkl. Aufsatz-Schild-Set.",
+  "slug": "tisch-92ds",
+  "model": "312/DS-006 – Tischseitiges Schild 92 cm",
+  "ref": "312/DS-006 · -007",
+  "description": "92 cm breites tischseitiges Unterkörper-Schild mit doppeltem Reibungsgelenk und optionalen Aufsatz-Schilden.",
   "specs": [
    [
     "Bauart",
-    "Kollisionsresistentes Unterkörper-Schild"
+    "Tischseitiges Unterkörper-Schild"
+   ],
+   [
+    "Breite",
+    "92 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Gelenk",
+    "Doppeltes Reibungsgelenk"
+   ],
+   [
+    "Aufsatz-Schilde",
+    "Optional"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "unterkoerper",
+  "slug": "tisch-92ds-cr",
+  "model": "312/DS-008 – Tischschild 92 cm, kollisionsresistent",
+  "ref": "312/DS-008",
+  "description": "Kollisionsresistentes Tischschild mit doppeltem Reibungsgelenk und optionalem Aufsatz-Schild-Set.",
+  "specs": [
+   [
+    "Bauart",
+    "Kollisionsresistentes Tischschild"
+   ],
+   [
+    "Breite",
+    "92 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Gelenk",
+    "Doppeltes Reibungsgelenk"
+   ],
+   [
+    "Aufsatz-Schild-Set",
+    "Optional"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "unterkoerper",
+  "slug": "tisch-137-5",
+  "model": "312/DS-039/5 – Tischschild 137 cm, kollisionsresistent",
+  "ref": "312/DS-039/5",
+  "description": "Kollisionsresistentes Tischschild mit zwei überlappenden Vorhängen, doppeltem Reibungsgelenk und 57-cm-Zubehörschiene. Optionale Aufsatz-Schilde.",
+  "specs": [
+   [
+    "Bauart",
+    "Kollisionsresistentes Tischschild"
+   ],
+   [
+    "Breite",
+    "137 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhänge",
+    "Zwei überlappende Vorhänge"
+   ],
+   [
+    "Gelenk",
+    "Doppeltes Reibungsgelenk"
+   ],
+   [
+    "Zubehörschiene",
+    "57 cm"
+   ],
+   [
+    "Aufsatz-Schilde",
+    "Optional"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "unterkoerper",
+  "slug": "tisch-137-6",
+  "model": "312/DS-039/6 – Tischschild 137 cm, kollisionsresistent",
+  "ref": "312/DS-039/6",
+  "description": "Kollisionsresistentes Tischschild mit zwei überlappenden Vorhängen, doppeltem Reibungsgelenk, integrierter 57-cm-Zubehörschiene und optionalen Aufsatz-Schilden.",
+  "specs": [
+   [
+    "Bauart",
+    "Kollisionsresistentes Tischschild"
+   ],
+   [
+    "Breite",
+    "137 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhänge",
+    "Zwei überlappende Vorhänge"
+   ],
+   [
+    "Gelenk",
+    "Doppeltes Reibungsgelenk"
+   ],
+   [
+    "Zubehörschiene",
+    "57 cm integriert"
+   ],
+   [
+    "Aufsatz-Schilde",
+    "Optional"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "unterkoerper",
+  "slug": "tisch-137-63",
+  "model": "312/DS-039/6/3 – Tischschild 137 cm, kollisionsresistent (mit Aufsatz-Set)",
+  "ref": "312/DS-039/6/3",
+  "description": "Kollisionsresistentes Tischschild mit zwei überlappenden Vorhängen, doppeltem Reibungsgelenk, integrierter 57-cm-Zubehörschiene und komplettem Aufsatz-Schild-Set.",
+  "specs": [
+   [
+    "Bauart",
+    "Kollisionsresistentes Tischschild"
    ],
    [
     "Breite",
@@ -995,26 +1150,26 @@
    ],
    [
     "Aufsatz-Set",
-    "In /6/3 enthalten"
+    "Enthalten"
    ],
    [
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-137deep",
-  "fit": "tall",
-  "model": "312/DS-060/1/3 – Tischschild 137 cm mit tiefer Halterung",
-  "ref": "312/DS-060/1/3 · 312/DS-099",
-  "description": "137 cm breites Schutzschild mit tiefer Anbauhalterung für Tischplatten mit großem lateralem Verfahrweg. Doppeltes Reibungsgelenk, 65-cm-Zubehörschiene und Aufsatz-Schilde bereits enthalten. Halterung 312/DS-099 auch einzeln erhältlich.",
+  "model": "312/DS-060/1/3 – Tischschild 137 cm mit tiefer Anbauhalterung",
+  "ref": "312/DS-060/1/3",
+  "description": "Kollisionsresistentes Tischschild mit zwei überlappenden Vorhängen, tiefer Anbauhalterung, doppeltem Reibungsgelenk und integrierter 65-cm-Zubehörschiene. Aufsatz-Schilde inklusive.",
   "specs": [
    [
     "Bauart",
-    "Unterkörper-Schild, tiefe Anbauhalterung"
+    "Tischschild mit tiefer Anbauhalterung"
    ],
    [
     "Breite",
@@ -1023,6 +1178,10 @@
    [
     "Bleigleichwert",
     "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhänge",
+    "Zwei überlappende Vorhänge"
    ],
    [
     "Gelenk",
@@ -1040,59 +1199,20 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
- },
- {
-  "cat": "tisch",
-  "sub": "unterkoerper",
-  "slug": "tisch-162",
-  "fit": "tall",
-  "model": "312/DS-039/9/4 – Tischschild 162 cm, extrabreit",
-  "ref": "312/DS-039/9/4",
-  "description": "162 cm extrabreites Tischschild mit flexiblem Vorhang für durchgehende seitliche Abdeckung langer Untersuchungstische. Mit 57-cm-Zubehörschiene; wahlweise mit oder ohne Aufsatz-Schilde (zwei Ausführungen enthalten).",
-  "specs": [
-   [
-    "Bauart",
-    "Extrabreites Unterkörper-Schild"
-   ],
-   [
-    "Breite",
-    "162 cm"
-   ],
-   [
-    "Bleigleichwert",
-    "0,5 mm Pb (@ 150 kV)"
-   ],
-   [
-    "Vorhang",
-    "Flexibel"
-   ],
-   [
-    "Zubehörschiene",
-    "57 cm"
-   ],
-   [
-    "Aufsatz-Schilde",
-    "Optional (zwei Ausführungen)"
-   ],
-   [
-    "Hersteller",
-    "KENEX (UK)"
-   ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "unterkoerper",
   "slug": "tisch-162cr",
-  "fit": "tall",
   "model": "312/DS-039/10/4 – Tischschild 162 cm, extrabreit & kollisionsresistent",
   "ref": "312/DS-039/10/4",
-  "description": "162 cm extrabreites, kollisionsresistentes Schutzschild mit zwei überlappenden Vorhängen für maximale Abdeckung. Weicht bei Kollision nach; mit 57-cm-Zubehörschiene, wahlweise mit oder ohne Aufsatz-Schilde.",
+  "description": "Extrabreites, kollisionsresistentes Tischschild mit zwei überlappenden Vorhängen; zwei Ausführungen der 57-cm-Zubehörschiene enthalten. Wahlweise mit oder ohne Aufsatz-Schilde.",
   "specs": [
    [
     "Bauart",
-    "Extrabreites, kollisionsresistentes Unterkörper-Schild"
+    "Extrabreites, kollisionsresistentes Tischschild"
    ],
    [
     "Breite",
@@ -1108,34 +1228,34 @@
    ],
    [
     "Zubehörschiene",
-    "57 cm"
+    "57 cm (zwei Ausführungen enthalten)"
    ],
    [
     "Aufsatz-Schilde",
-    "Optional (zwei Ausführungen)"
+    "Optional"
    ],
    [
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
-  "sub": "kopfende",
-  "slug": "tisch-head",
-  "fit": "tall",
-  "model": "313/A2 – Kopfende-Tischschild (maschinenspezifisch)",
-  "ref": "313/A2 · -001 · -008 · -010 · -014 · -018",
-  "description": "Kopfende-Schutzschild mit fester Mittelsektion und zwei schwenkbaren Seitenarmen, die einen flexiblen Vorhang tragen. Maschinenspezifisch angepasst (u. a. Siemens Artis, GE Elegance, Canon/Toshiba, Baxter FloatLine); Wandhalterung optional bzw. enthalten.",
+  "sub": "unterkoerper",
+  "slug": "tisch-162",
+  "model": "312/DS-039/9/4 – Tischschild 162 cm, extrabreit",
+  "ref": "312/DS-039/9/4",
+  "description": "Extrabreites Tischschild mit flexiblem Vorhang; zwei Ausführungen der 57-cm-Zubehörschiene enthalten. Wahlweise mit oder ohne Aufsatz-Schilde.",
   "specs": [
    [
     "Bauart",
-    "Kopfende-Schild, feste Mittelsektion + 2 Schwenkarme"
+    "Extrabreites Tischschild"
    ],
    [
-    "Abmessungen",
-    "ca. 120 × 80 cm (variantenabhängig)"
+    "Breite",
+    "162 cm"
    ],
    [
     "Bleigleichwert",
@@ -1146,27 +1266,276 @@
     "Flexibel"
    ],
    [
-    "Varianten",
-    "Siemens Artis (-001/-008), GE Elegance (-010), Canon/Toshiba (-014), Baxter (-018)"
+    "Zubehörschiene",
+    "57 cm (zwei Ausführungen enthalten)"
    ],
    [
-    "Wandhalterung",
-    "Optional / enthalten"
+    "Aufsatz-Schilde",
+    "Optional"
    ],
    [
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "unterkoerper",
+  "slug": "tisch-deepbracket",
+  "model": "312/DS-099 – Tiefe Anbauhalterung mit Zubehörschiene",
+  "ref": "312/DS-099",
+  "description": "Mehrzweck-Anbauhalterung mit 65 cm langer Zubehörschiene zur Montage tischseitiger Schienen-Ausrüstung an einer weit lateral verfahrbaren Tischplatte.",
+  "specs": [
+   [
+    "Bauart",
+    "Anbauhalterung / Zubehörschiene"
+   ],
+   [
+    "Zubehörschiene",
+    "65 cm"
+   ],
+   [
+    "Zweck",
+    "Tischseitige Schienen-Ausrüstung an lateral verfahrbarer Tischplatte"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "kopfende",
+  "slug": "tisch-head",
+  "model": "313/A2 – Kopfende-Tischschild (maßgefertigt)",
+  "ref": "313/A2",
+  "description": "Maßgefertigtes Kopfende-Schild: leichte, robuste Konstruktion mit fester Mittelsektion und zwei schwenkbaren Seitenarmen, die einen flexiblen Vorhang (0,5 mm Pb) tragen. Wandhalterung optional.",
+  "specs": [
+   [
+    "Bauart",
+    "Kopfende-Schild, feste Mittelsektion + 2 Schwenkarme"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhang",
+    "Flexibel"
+   ],
+   [
+    "Wandhalterung",
+    "Optional"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "kopfende",
+  "slug": "tisch-head-baxter",
+  "model": "313/A2-018 – Kopfende-Schild für Baxter Carbon FloatLine / SQ14 X-TRA",
+  "ref": "313/A2-018",
+  "description": "Kopfende-Schild für Baxter Carbon FloatLine und SQ14 X-TRA Tische. Leichte, robuste Konstruktion mit fester Mittelsektion und zwei schwenkbaren Seitenarmen mit flexiblem Vorhang. Wandhalterung inklusive.",
+  "specs": [
+   [
+    "Bauart",
+    "Kopfende-Schild (maschinenspezifisch)"
+   ],
+   [
+    "Abmessungen",
+    "120 × 80 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhang",
+    "Flexibel"
+   ],
+   [
+    "Kompatibilität",
+    "Baxter Carbon FloatLine, SQ14 X-TRA"
+   ],
+   [
+    "Wandhalterung",
+    "Inklusive"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "kopfende",
+  "slug": "tisch-head-canon",
+  "model": "313/A2-014 – Kopfende-Schild für Canon Medical (Toshiba) Kipp-/Wiegetisch",
+  "ref": "313/A2-014",
+  "description": "Kopfende-Schild für Canon Medical (Toshiba) Kipp-/Wiege-Tische. Feste Mittelsektion und zwei schwenkbare Seitenarme mit flexiblem Vorhang. Wandhalterung inklusive.",
+  "specs": [
+   [
+    "Bauart",
+    "Kopfende-Schild (maschinenspezifisch)"
+   ],
+   [
+    "Abmessungen",
+    "114 × 78,5 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhang",
+    "Flexibel"
+   ],
+   [
+    "Kompatibilität",
+    "Canon Medical / Toshiba (Kipp-/Wiegetisch)"
+   ],
+   [
+    "Wandhalterung",
+    "Inklusive"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "kopfende",
+  "slug": "tisch-head-ge",
+  "model": "313/A2-010 – Kopfende-Schild für GE Healthcare Elegance",
+  "ref": "313/A2-010",
+  "description": "Kopfende-Schild für GE Healthcare Elegance Tische. Tischplatten-Adapter mit drei aufgehängten Sektionen, die je einen flexiblen Vorhang tragen, sowie drei leichten Lift-off-Aufsätzen. Wandhalterung inklusive.",
+  "specs": [
+   [
+    "Bauart",
+    "Kopfende-Schild, drei aufgehängte Sektionen"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Aufsätze",
+    "Drei leichte Lift-off-Aufsätze"
+   ],
+   [
+    "Kompatibilität",
+    "GE Healthcare Elegance"
+   ],
+   [
+    "Wandhalterung",
+    "Inklusive"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "kopfende",
+  "slug": "tisch-head-siemens",
+  "model": "313/A2-001 – Kopfende-Schild für Siemens Artis / TruSystem (525/7500 mm)",
+  "ref": "313/A2-001",
+  "description": "Kopfende-Schild für Siemens 525 mm Artis / 7500 mm TruSystem breite Tische. Feste Mittelsektion und zwei schwenkbare Seitenarme mit flexiblem Vorhang. Wandhalterung inklusive.",
+  "specs": [
+   [
+    "Bauart",
+    "Kopfende-Schild (maschinenspezifisch)"
+   ],
+   [
+    "Abmessungen",
+    "120 × 80 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhang",
+    "Flexibel"
+   ],
+   [
+    "Kompatibilität",
+    "Siemens Artis (525 mm) / TruSystem (7500 mm)"
+   ],
+   [
+    "Wandhalterung",
+    "Inklusive"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "kopfende",
+  "slug": "tisch-head-zee",
+  "model": "313/A2-008 – Kopfende-Schild für Siemens Artis zee (MP) 550 mm",
+  "ref": "313/A2-008",
+  "description": "Kopfende-Schild für Siemens 550 mm breite Artis zee (MP) Tische. Feste Mittelsektion und zwei schwenkbare Seitenarme mit flexiblem Vorhang. Wandhalterung inklusive.",
+  "specs": [
+   [
+    "Bauart",
+    "Kopfende-Schild (maschinenspezifisch)"
+   ],
+   [
+    "Abmessungen",
+    "122 × 80 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Vorhang",
+    "Flexibel"
+   ],
+   [
+    "Kompatibilität",
+    "Siemens Artis zee MP (550 mm)"
+   ],
+   [
+    "Wandhalterung",
+    "Inklusive"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "kopfende",
   "slug": "tisch-head-a3",
-  "fit": "tall",
-  "model": "313/A3 – Kopfende-Tischschild mit Fold-Down-Aufsatz (Allura AD7)",
-  "ref": "313/A3 · A3-001",
-  "description": "Kopfende-Schutzschild mit fester Mittelsektion und zwei schwenkbaren Seitenarmen, ergänzt um einen semi-flexiblen, herunterklappbaren Aufsatz-Schild. Ausgelegt für Philips Allura AD7.",
+  "model": "313/A3 – Kopfende-Schild mit Fold-Down-Aufsatz (Allura AD7)",
+  "ref": "313/A3",
+  "description": "Kopfende-Schild für Philips Allura AD7 Tische. Feste Mittelsektion und zwei schwenkbare Seitenarme mit flexiblem Vorhang; semi-flexibler, herunterklappbarer Aufsatz-Schild inklusive.",
   "specs": [
    [
     "Bauart",
@@ -1192,16 +1561,16 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "top",
   "slug": "tisch-footend",
-  "fit": "tall",
-  "model": "311/TC – Fußende-Tischschild",
+  "model": "311/TC – Fußende-Tischschild (Oberkörper)",
   "ref": "311/TC",
-  "description": "Fußende-Schutzschild mit Bleiacryl-Sichtfenster, quer über den Tisch zum Fußende hin einsetzbar. Schützt Personal am Fußende des Untersuchungstisches vor Streustrahlung.",
+  "description": "Fußende-Tischschild für den Oberkörper mit Bleiacryl-Sichtfenster; zur Verwendung quer über den Tisch zum Fußende hin.",
   "specs": [
    [
     "Bauart",
@@ -1223,24 +1592,24 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "top",
-  "slug": "tisch-top57",
-  "fit": "tall",
-  "model": "312/DS/3.32 – Semi-flexible Aufsatz-Schilde (27 & 57 cm)",
-  "ref": "27 cm: 312/DS/3.30 · /3.41 · /3.122 — 57 cm: 312/DS/3.32 · /3.33 · /3.115 · /3.32/3",
-  "description": "Einzelne semi-flexible Aufsatz-Schilde zur Ergänzung der Tisch-Unterkörper-Schilde um Oberkörperschutz. Erhältlich in 27 cm und 57 cm Breite.",
+  "slug": "tisch-top27",
+  "model": "312/DS/3.30 – Aufsatz-Schilde 27 cm",
+  "ref": "312/DS/3.30 · 312/DS/3.41 · 312/DS/3.122",
+  "description": "27 cm breite, semi-flexible Aufsatz-Schilde zur Ergänzung der Tischschilde um Oberkörperschutz.",
   "specs": [
    [
     "Bauart",
     "Semi-flexibles Aufsatz-Schild"
    ],
    [
-    "Breiten",
-    "27 cm oder 57 cm"
+    "Breite",
+    "27 cm"
    ],
    [
     "Bleigleichwert",
@@ -1254,24 +1623,55 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "top",
-  "slug": "tisch-topset",
-  "fit": "tall",
-  "model": "312/E/025 – Aufsatz-Schild-Set (3-teilig)",
-  "ref": "312/E/025 (Standardhöhe) · 312/E/027 (reduzierte Höhe)",
-  "description": "Set aus drei abnehmbaren Aufsatz-Schilden für durchgehenden Oberkörperschutz. In Standardhöhe (312/E/025) oder reduzierter Höhe (312/E/027); passend für alle 312-Tischschilde ab 114 cm Breite.",
+  "slug": "tisch-top57",
+  "model": "312/DS/3.32 – Aufsatz-Schilde 57 cm",
+  "ref": "312/DS/3.32 · 312/DS/3.33 · 312/DS/3.115 · 312/DS/3.32/3",
+  "description": "57 cm breite, semi-flexible Aufsatz-Schilde zur Ergänzung der Tischschilde um Oberkörperschutz.",
   "specs": [
    [
     "Bauart",
-    "3-teiliges Aufsatz-Schild-Set (abnehmbar)"
+    "Semi-flexibles Aufsatz-Schild"
    ],
    [
-    "Ausführungen",
-    "Standardhöhe / reduzierte Höhe"
+    "Breite",
+    "57 cm"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Montage",
+    "Auf tischseitige Unterkörper-Schilde"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "top",
+  "slug": "tisch-topset-red",
+  "model": "312/E/027 – Aufsatz-Schild-Set, reduzierte Höhe",
+  "ref": "312/E/027",
+  "description": "Set aus drei Lift-off-Aufsatz-Schilden in reduzierter Höhe. Kompatibel mit allen 312-Tischschilden ab 114 cm Breite.",
+  "specs": [
+   [
+    "Bauart",
+    "3-teiliges Aufsatz-Schild-Set (Lift-off)"
+   ],
+   [
+    "Höhe",
+    "Reduziert"
    ],
    [
     "Bleigleichwert",
@@ -1285,43 +1685,128 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "top",
+  "slug": "tisch-topset",
+  "model": "312/E/025 – Aufsatz-Schild-Set, Standardhöhe",
+  "ref": "312/E/025",
+  "description": "Set aus drei Lift-off-Aufsatz-Schilden in Standardhöhe. Kompatibel mit allen 312-Tischschilden ab 114 cm Breite.",
+  "specs": [
+   [
+    "Bauart",
+    "3-teiliges Aufsatz-Schild-Set (Lift-off)"
+   ],
+   [
+    "Höhe",
+    "Standard"
+   ],
+   [
+    "Bleigleichwert",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Kompatibilität",
+    "Alle 312-Tischschilde ab 114 cm"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "aufbewahrung",
-  "slug": "tisch-wallset",
-  "fit": "tall",
-  "model": "312/W-LBT – Wandhalterungen für Tischschilde",
-  "ref": "312/W-LB · 312/W-LBT · 312/W-TOP",
-  "description": "Wandhalterungen zur platzsparenden, geschützten Aufbewahrung der Tischschilde bei Nichtgebrauch. Erhältlich für Unterkörper-Schilde (W-LB), als Kombi-Set inkl. Aufsätzen (W-LBT) sowie für Aufsatz-Schilde (W-TOP).",
+  "slug": "tisch-wallrack-lb",
+  "model": "312/W-LB – Wandhalterung für Unterkörper-Schilde",
+  "ref": "312/W-LB",
+  "description": "Praktischer und sicherer Aufbewahrungsort für ein Kenex-Unterkörper-Strahlenschutzschild.",
   "specs": [
    [
     "Bauart",
     "Wandhalterung"
    ],
    [
-    "Ausführungen",
-    "Unterkörper (W-LB), Kombi (W-LBT), Aufsätze (W-TOP)"
+    "Für",
+    "Ein Unterkörper-Schild"
    ],
    [
     "Zweck",
-    "Geschützte Aufbewahrung, entlastet die Schild-Gelenke"
+    "Sichere, platzsparende Aufbewahrung"
    ],
    [
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "aufbewahrung",
+  "slug": "tisch-wall-lbt",
+  "model": "312/W-LBT – Wandhalterungs-Set für Tischschilde",
+  "ref": "312/W-LBT",
+  "description": "Wandhalterungs-Set für die sichere Aufbewahrung von Kenex-Tischschilden (Unterkörper- und Aufsatz-Schilde).",
+  "specs": [
+   [
+    "Bauart",
+    "Wandhalterungs-Set"
+   ],
+   [
+    "Für",
+    "Unterkörper- und Aufsatz-Schilde"
+   ],
+   [
+    "Zweck",
+    "Sichere, platzsparende Aufbewahrung"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "aufbewahrung",
+  "slug": "tisch-wall-top",
+  "model": "312/W-TOP – Wandhalterung für Aufsatz-Schilde",
+  "ref": "312/W-TOP",
+  "description": "Wandhalterung für die sichere Aufbewahrung abnehmbarer Kenex-Aufsatz-Schilde.",
+  "specs": [
+   [
+    "Bauart",
+    "Wandhalterung"
+   ],
+   [
+    "Für",
+    "Abnehmbare Aufsatz-Schilde"
+   ],
+   [
+    "Zweck",
+    "Sichere, platzsparende Aufbewahrung"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
  },
  {
   "cat": "tisch",
   "sub": "aufbewahrung",
   "slug": "tisch-mobile",
-  "fit": "tall",
-  "model": "1342/A2/F – Mobiler Aufbewahrungswagen",
-  "ref": "1342/A2/F · 1342/A2/E · 1342/A3/E-001",
-  "description": "Fahrbarer Aufbewahrungswagen für Tischschilde und Aufsatz-Sets. Modell A2/F für zwei Unterkörper-Schilde und abnehmbare Aufsatz-Sets; A2/E bzw. A3/E-001 für Kopfende- und Tischschild plus Aufsatz-Set. Mit abschließbaren Lenkrollen.",
+  "model": "1342/A2/F – Mobiler Aufbewahrungswagen (Tischschilde)",
+  "ref": "1342/A2/F",
+  "description": "Mobiler Aufbewahrungswagen für zwei Unterkörper-Tischschilde und abnehmbare Aufsatz-Schild-Sets.",
   "specs": [
    [
     "Bauart",
@@ -1329,11 +1814,7 @@
    ],
    [
     "Kapazität",
-    "2 Unterkörper-Schilde + Aufsatz-Sets (A2/F)"
-   ],
-   [
-    "Varianten",
-    "1342/A2/E, 1342/A3/E-001 (Kopfende + Tischschild)"
+    "2 Unterkörper-Schilde + Aufsatz-Sets"
    ],
    [
     "Rollen",
@@ -1343,6 +1824,84 @@
     "Hersteller",
     "KENEX (UK)"
    ]
-  ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "aufbewahrung",
+  "slug": "tisch-mobile-e",
+  "model": "1342/A2/E – Mobiler Aufbewahrungswagen (Kopfende & Tischschild)",
+  "ref": "1342/A2/E",
+  "description": "Mobiler Aufbewahrungswagen für ein Kopfende-Schild, ein Tischschild und ein abnehmbares Aufsatz-Schild-Set.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbarer Aufbewahrungswagen"
+   ],
+   [
+    "Kapazität",
+    "1 Kopfende-Schild + 1 Tischschild + Aufsatz-Set"
+   ],
+   [
+    "Rollen",
+    "Abschließbare Lenkrollen"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "aufbewahrung",
+  "slug": "tisch-mobile-a3",
+  "model": "1342/A3/E-001 – Mobiler Aufbewahrungswagen (313/A3-001)",
+  "ref": "1342/A3/E-001",
+  "description": "Mobiler Aufbewahrungswagen für ein Kopfende-Schild 313/A3-001, ein Tischschild und ein abnehmbares Aufsatz-Schild-Set.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbarer Aufbewahrungswagen"
+   ],
+   [
+    "Kapazität",
+    "1 Kopfende-Schild 313/A3-001 + 1 Tischschild + Aufsatz-Set"
+   ],
+   [
+    "Rollen",
+    "Abschließbare Lenkrollen"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
+ },
+ {
+  "cat": "tisch",
+  "sub": "aufbewahrung",
+  "slug": "tisch-handles",
+  "model": "69913 & 69963 – Ersatzgriffe",
+  "ref": "69913 · 69963",
+  "description": "Ersatzgriffe für Unterkörper-Tischschilde.",
+  "specs": [
+   [
+    "Bauart",
+    "Ersatzteil"
+   ],
+   [
+    "Für",
+    "Unterkörper-Tischschilde"
+   ],
+   [
+    "Hersteller",
+    "KENEX (UK)"
+   ]
+  ],
+  "fit": "tall"
  }
 ]
