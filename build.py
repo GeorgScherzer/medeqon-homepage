@@ -395,11 +395,18 @@ def _hb_cards(sub, group=None):
 def _hb_count(sub):
     return sum(1 for p in _hb if p["sub"] == sub)
 
+# ---- Strahlenschutz (ROTHBAND) ----
+_ss = json.loads((ROOT / "strahlenschutz.json").read_text(encoding="utf-8"))
+def _ss_cards(sub):
+    return "\n\n".join(_render_liege(p) for p in _ss if p["sub"] == sub)
+def _ss_count(sub):
+    return sum(1 for p in _ss if p["sub"] == sub)
+
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Produkte</span>
     <h1>Unsere Produkte<span class="end-dot">.</span></h1>
-    <p class="lede">Wir vermitteln und liefern zertifizierte Medizinprodukte in zwei Hauptkategorien: Strahlenschutz und Medizinische Einrichtung. Klicken Sie eine Kategorie an, um die einzelnen Bereiche aufzuklappen.</p>
+    <p class="lede">Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Klicken Sie eine Kategorie an, um die einzelnen Bereiche aufzuklappen.</p>
   </div>
 </section>
 
@@ -407,71 +414,118 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <div class="m-cat-head">
       <h2>Strahlenschutz<span class="end-dot">.</span></h2>
-      <div class="sub">Ein komplettes Sortiment an persönlichem Strahlenschutz sowie mobilen, deckenmontierten und tischmontierten Röntgenschutzsystemen – von spezialisierten Herstellern, vertrieben durch medeqon.</div>
+      <div class="sub">Persönliche Strahlenschutz-Bekleidung „Made in UK" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
     </div>
 
     <div class="m-acc">
       <details class="m-ac" id="persoenlicher-strahlenschutz">
         <summary><span class="m-ac-num">01</span><span class="m-ac-title">Persönlicher Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Strahlenschutzbekleidung und Zubehör für den direkten Personenschutz – Bleischürzen, bleifreie Schürzen, Brillen, Handschuhe und ergänzender Schutz. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.</p>
-          <span class="m-ac-src">Hersteller: OLEY Medical · vertrieben durch medeqon</span>
-          <div class="m-cert">
-            <span class="k">Qualität &amp; Konformität</span>
-            <p>CE-zertifiziert · ISO-dokumentiert · PSA-Verordnung 2016/425 · Materialbewertung nach IEC 61331-1 · Schürzenkriterien nach IEC 61331-3.</p>
+          <p class="m-ac-lead">Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.</p>
+          <a class="m-mfr-line" href="https://www.rothband.com/de" target="_blank" rel="noopener" aria-label="Hersteller ROTHBAND – Website in neuem Tab öffnen">
+            <span class="m-mfr-chip"><img src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy"></span>
+            <span class="m-mfr-line-txt"><span class="m-mfr-line-cap">Hersteller</span><strong>ROTHBAND</strong> · Made in UK · rothband.com</span>
+          </a>
+          <div class="m-acc m-acc-nested">
+            <details class="m-ac m-ac-sub" id="ss-front">
+              <summary><span class="m-ac-title">Front-Schürzen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_ss_count("front")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("front") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-tabard">
+              <summary><span class="m-ac-title">Umhang-/Tabard-Schürzen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_ss_count("tabard")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("tabard") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-wrap">
+              <summary><span class="m-ac-title">Mantel-/Wickelschürzen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_ss_count("wrap")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("wrap") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-zweiteiler">
+              <summary><span class="m-ac-title">Zweiteiler – Oberteil &amp; Rock</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_ss_count("zweiteiler")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("zweiteiler") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-schild">
+              <summary><span class="m-ac-title">Schilddrüsenschutz</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_ss_count("schild")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("schild") + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-zubehoer">
+              <summary><span class="m-ac-title">Zubehör</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_ss_count("zubehoer")) + ''' Produkte verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("zubehoer") + '''
+                </div>
+              </div>
+            </details>
           </div>
-          <div class="m-prod-grid">
-            <div class="m-prod"><h4>Bleischürzen</h4><div class="spec">0,25 / 0,35 / 0,50 mm Pb · Dental- und Medizineinsatz · Antibakterielles Gewebe</div></div>
-            <div class="m-prod"><h4>Edge-Bilayer-Schürzen</h4><div class="spec">0,25 / 0,35 / 0,50 mm Pb · Schweißabweisende Rückseite · Hydrophobes Gewebe</div></div>
-            <div class="m-prod"><h4>Bleifreie Antimon-Schürze</h4><div class="spec">0,25 / 0,35 / 0,50 mm Pb · Bleifreies Antimon-Material · Antibakteriell</div></div>
-            <div class="m-prod"><h4>Dental-Schutzschürze</h4><div class="spec">0,25 / 0,35 / 0,50 mm Pb · Leichtes Blei, bleifrei oder Bilayer-Edge</div></div>
-            <div class="m-prod"><h4>Periapikale Schutzschürze</h4><div class="spec">0,25 / 0,35 / 0,50 mm Pb · Integrierter Schilddrüsenkragen 0,50 mm Pb</div></div>
-            <div class="m-prod"><h4>Panorama-Schutzschürze</h4><div class="spec">0,25 / 0,35 / 0,50 mm Pb · Front- und Wirbelsäulenschutz</div></div>
-            <div class="m-prod"><h4>Schutz-Lymphpad</h4><div class="spec">0,25 / 0,50 mm Pb · Blei- und bleifreie Optionen · Hals- und Achselschutz</div></div>
-            <div class="m-prod"><h4>Strahlenschutzbrillen</h4><div class="desc">Bleibrillen, auch mit Korrektions-, Bifokal- oder Gleitsichtgläsern.</div></div>
-            <div class="m-prod"><h4>Gonadenschutz</h4><div class="desc">Für Frauen, Männer, Neugeborene und Kinder – planbar mit Halbschürzengrößen.</div></div>
-            <div class="m-prod"><h4>Strahlenschutzhandschuhe</h4><div class="desc">Sterile, puderfreie, latexfreie Handschuhe, Fäustlinge und Gummihandschuhe.</div></div>
-            <div class="m-prod"><h4>Ergänzender Personenschutz</h4><div class="desc">Kopf-, Brust-, Schwangerschafts- und Gesichts-Bleischutz nach Bedarf.</div></div>
-            <div class="m-prod"><h4>Kinder-Schutzschürzen</h4><div class="desc">Front-, Doppel- und Panorama-Schürzen in Kindergrößen.</div></div>
+        </div>
+      </details>
+
+      <details class="m-ac" id="ss-aufbewahrung">
+        <summary><span class="m-ac-num">02</span><span class="m-ac-title">Aufbewahrung</span>''' + CHEV + '''</summary>
+        <div class="m-ac-body">
+          <p class="m-ac-lead">Ständer, Schwenkarme und Bügel zur sicheren, platzsparenden Aufbewahrung von Strahlenschutzschürzen.</p>
+          <a class="m-mfr-line" href="https://www.rothband.com/de" target="_blank" rel="noopener" aria-label="Hersteller ROTHBAND – Website in neuem Tab öffnen">
+            <span class="m-mfr-chip"><img src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy"></span>
+            <span class="m-mfr-line-txt"><span class="m-mfr-line-cap">Hersteller</span><strong>ROTHBAND</strong> · Made in UK · rothband.com</span>
+          </a>
+          <p class="m-pl-count">''' + str(_ss_count("aufbewahrung")) + ''' Produkte verfügbar</p>
+          <div class="m-pl-list">
+''' + _ss_cards("aufbewahrung") + '''
           </div>
         </div>
       </details>
 
       <details class="m-ac" id="mobiler-strahlenschutz">
-        <summary><span class="m-ac-num">02</span><span class="m-ac-title">Mobiler Strahlenschutz</span>''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">03</span><span class="m-ac-title">Mobiler Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – schützen Kopf, Augen, Schilddrüse und Körper vor Streustrahlung.</p>
-          <span class="m-ac-src">Hersteller: KENEX (Electro-Medical) Ltd · vertrieben durch medeqon</span>
-          <div class="m-cert">
-            <span class="k">Qualität &amp; Konformität</span>
-            <p>ISO 13485 · CE · EU 2017/745 (MDR) · EU 2016/425 (PSA) · IEC 60601 · ISO 14971 · Prüfung nach IEC EN 61331.</p>
-          </div>
-          <div class="m-prod-grid">
-            <div class="m-prod"><h4>Mobiler Röntgenschutz</h4><div class="desc">Mobile, fahrbare Röntgenschutzsysteme für flexible Einsätze.</div></div>
-          </div>
+          <p class="m-ac-lead">Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie.</p>
+          <span class="m-ac-src">Produkte folgen in Kürze.</span>
         </div>
       </details>
 
       <details class="m-ac" id="deckenmontierter-strahlenschutz">
-        <summary><span class="m-ac-num">03</span><span class="m-ac-title">Deckenmontierter Strahlenschutz</span>''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">04</span><span class="m-ac-title">Deckenmontierter Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Aufgehängte Überkopf-Schutzschilde, die von der Decke montiert werden und die Streustrahlung im Arbeitsbereich deutlich reduzieren.</p>
-          <span class="m-ac-src">Hersteller: KENEX (Electro-Medical) Ltd · vertrieben durch medeqon</span>
-          <div class="m-prod-grid">
-            <div class="m-prod"><h4>Überkopf-Schutzschilde</h4><div class="desc">Aufgehängte Überkopf-Schutzschilde zur Reduktion von Streustrahlung.</div></div>
-          </div>
+          <p class="m-ac-lead">Aufgehängte Überkopf-Schutzschilde zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich.</p>
+          <span class="m-ac-src">Produkte folgen in Kürze.</span>
         </div>
       </details>
 
       <details class="m-ac" id="tischmontierter-strahlenschutz">
-        <summary><span class="m-ac-num">04</span><span class="m-ac-title">Tischmontierter Strahlenschutz</span>''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">05</span><span class="m-ac-title">Tischmontierter Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – inklusive passender Aufbewahrungs- und Haltesysteme.</p>
-          <span class="m-ac-src">Hersteller: KENEX (Electro-Medical) Ltd · vertrieben durch medeqon</span>
-          <div class="m-prod-grid">
-            <div class="m-prod"><h4>Tischmontierter Strahlenschutz</h4><div class="desc">Tischmontierte Schutzschilde für die interventionelle Radiologie.</div></div>
-            <div class="m-prod"><h4>Aufbewahrung</h4><div class="desc">Aufbewahrungs- und Haltesysteme für Schutzkleidung und Schilde.</div></div>
-          </div>
+          <p class="m-ac-lead">Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie.</p>
+          <span class="m-ac-src">Produkte folgen in Kürze.</span>
         </div>
       </details>
     </div>

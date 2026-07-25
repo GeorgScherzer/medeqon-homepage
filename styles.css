@@ -305,6 +305,18 @@ img{max-width:100%}
 .m-mfr--coinfy .m-mfr-chip img{height:30px}
 .m-mfr--mobiak .m-mfr-chip img{height:56px}
 
+/* Hersteller-Zeile im Akkordeon (z. B. ROTHBAND) */
+.m-mfr-line{display:inline-flex;align-items:center;gap:16px;text-decoration:none;
+  margin:2px 0 22px}
+.m-mfr-line .m-mfr-chip{padding:12px 18px;border-radius:12px}
+.m-mfr-line .m-mfr-chip img{display:block;height:30px;width:auto}
+.m-mfr-line-txt{font-size:14px;color:var(--steel);line-height:1.35}
+.m-mfr-line-txt strong{color:var(--ink);font-weight:700}
+.m-mfr-line-cap{display:block;font-family:var(--font-mono);font-size:10.5px;
+  letter-spacing:0.16em;text-transform:uppercase;color:var(--steel);margin-bottom:1px}
+.m-mfr-line:hover .m-mfr-chip{transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(15,27,44,.13);border-color:var(--sky)}
+
 /* --- Headquarters als weiches Wasserzeichen im Sektionskopf --- */
 .m-mfrbg{position:relative;overflow:hidden}
 .m-mfrbg::before{content:"";position:absolute;top:0;left:0;right:0;height:480px;

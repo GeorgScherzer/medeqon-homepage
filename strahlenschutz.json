@@ -1,0 +1,851 @@
+[
+ {
+  "sub": "front",
+  "slug": "vxr-1",
+  "model": "VXR-1 Front-Schürze",
+  "ref": "VXR-1",
+  "description": "Moderne Frontschutz-Schürze für Anwendungen mit ausschließlich frontaler Strahlenexposition. In die Rückenpanele eingenähte Elastik sorgt für optimalen Sitz bei langem Tragen. Optional mit schützenden Rückenpanelen.",
+  "specs": [
+   [
+    "Bauart",
+    "Frontschutz-Schürze (Überwurf)"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb (optional)"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "85–130 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "front",
+  "slug": "vxr-2",
+  "model": "VXR-2 Front-Schürze",
+  "ref": "VXR-2",
+  "description": "Frontschutz-Schürze, die sich vorne einfach schließen und wieder abnehmen lässt. Ideal bei ausschließlich frontaler Exposition – hoher Tragekomfort und exzellenter Sitz. Optional mit Rückenschutz.",
+  "specs": [
+   [
+    "Bauart",
+    "Frontschutz-Schürze, vorne verschließbar"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb (optional)"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "85–130 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "tabard",
+  "slug": "pxr-sc",
+  "model": "PXR-SC Tabard-Schürze",
+  "ref": "PXR-SC",
+  "description": "Neuinterpretation der klassischen Tabard-Schürze mit verbessertem Sitz im Achselbereich. In mehreren Konfigurationen mit ein- oder zweifachem Schulterclip erhältlich. Rückenschnallen serienmäßig, optional höhenverstellbarer Elastikgürtel.",
+  "specs": [
+   [
+    "Bauart",
+    "Tabard-Schürze (Überwurf, Überlappung)"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb (optional)"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "85–130 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "tabard",
+  "slug": "pxr-th",
+  "model": "PXR-TH Tabard-Schürze",
+  "ref": "PXR-TH",
+  "description": "Tabard-Schürze mit verschiedenen Verschluss-Optionen und verbessertem Achselsitz. Vielseitig für unterschiedliche Träger einsetzbar, mit robustem Rundumschutz durch die Überlappung.",
+  "specs": [
+   [
+    "Bauart",
+    "Tabard-Schürze (Überwurf, Überlappung)"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb (optional)"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "85–130 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "wrap",
+  "slug": "wxr",
+  "model": "WXR Mantelschürze",
+  "ref": "WXR",
+  "description": "Wickelschürze mit doppellagigem Schutz im Überlappungsbereich. Variable Überlappung für unterschiedliche Körperformen, mehrere Armausschnitte. Der Elastikgürtel verlagert das Gewicht von den Schultern für mehr Komfort bei langem Tragen.",
+  "specs": [
+   [
+    "Bauart",
+    "Mantel-/Wickelschürze (Rundumschutz)"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "85–130 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "wrap",
+  "slug": "wxr-f",
+  "model": "WXR-F Mantelschürze (leicht)",
+  "ref": "WXR-F",
+  "description": "Ganzkörper-Wickelschürze mit überlappenden Frontzonen, die bei korrekter Überlappung die angegebene Schutzstufe erreichen. Reduziert Kernmaterial und Gewicht bei Rundumdeckung von rund 60 % des Körperumfangs.",
+  "specs": [
+   [
+    "Bauart",
+    "Mantel-/Wickelschürze (Rundumschutz)"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "85–130 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zweiteiler",
+  "slug": "txr-w",
+  "model": "TXR-W Oberteil & Rock",
+  "ref": "TXR-W",
+  "description": "Zweiteiliges Schutzset aus Oberteil und Rock, das das Gewicht gleichmäßig auf Schultern und Hüfte verteilt. Rund 30 cm Überlappungszone für flexible Größenanpassung und doppelten Schutz über vitalen Bereichen. Optional unterschiedliche Schutzstufen vorne und hinten.",
+  "specs": [
+   [
+    "Bauart",
+    "Zweiteiler – Oberteil (Wrap) + Rock"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "Oberteil 50–70 cm · Rock 53–70 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Rock",
+    "KXR-W Standard-Wickelrock / KXR-F Vollwickelrock"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zweiteiler",
+  "slug": "txr-w-lite",
+  "model": "TXR-W-LITE Oberteil & Rock",
+  "ref": "TXR-W-LITE",
+  "description": "Leichtere Variante des TXR-W: reduzierte Frontüberlappung spart bis zu 15 % Gewicht. Besonders geeignet als persönliche Bleischürze mit optimalem Sitz. Optional unterschiedliche Schutzstufen vorne und hinten.",
+  "specs": [
+   [
+    "Bauart",
+    "Zweiteiler – Oberteil (Wrap Lite) + Rock"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "Oberteil 50–70 cm · Rock 53–70 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Rock",
+    "KXR-W Standard-Wickelrock / KXR-F Vollwickelrock"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zweiteiler",
+  "slug": "txr-b",
+  "model": "TXR-B Oberteil & Rock",
+  "ref": "TXR-B",
+  "description": "Zweiteiliges Set mit elastischem Rücken für einen besonders stützenden, körpernahen Sitz – eines der komfortabelsten Modelle im Sortiment. Verbesserter Achselsitz mit hunderten Kombinationen für Damen und Herren.",
+  "specs": [
+   [
+    "Bauart",
+    "Zweiteiler – Oberteil mit Elastikrücken + Rock"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "Oberteil 50–70 cm · Rock 53–70 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Rock",
+    "KXR-W Standard-Wickelrock"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zweiteiler",
+  "slug": "txr-f",
+  "model": "TXR-F Oberteil & Rock",
+  "ref": "TXR-F",
+  "description": "Zweiteiliges Set mit vollständiger Überlappung – erfüllt bei korrektem Tragen die volle angegebene Schutzstufe nach IEC 61331-3:2014. Verbesserter Achselsitz und individuelle Passform für Damen und Herren.",
+  "specs": [
+   [
+    "Bauart",
+    "Zweiteiler – Oberteil (Full Wrap) + Rock"
+   ],
+   [
+    "Bleigleichwert Front",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Bleigleichwert Rücken",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Längen",
+    "Oberteil 50–70 cm · Rock 53–70 cm"
+   ],
+   [
+    "Größen",
+    "XS–XXL · Armausschnitt S/R/L"
+   ],
+   [
+    "Rock",
+    "KXR-F Vollwickelrock (halbe Dicke in den Frontpanelen)"
+   ],
+   [
+    "Normen",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "schild",
+  "slug": "tpv",
+  "model": "TPV Schilddrüsenschutz",
+  "ref": "TPV",
+  "description": "Schilddrüsenkragen zum ergänzenden Schutz der Halsregion, mit spitz zulaufender Frontform (V-Form). Leicht, anschmiegsam und in zahlreichen Farben und Mustern erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Schilddrüsenkragen"
+   ],
+   [
+    "Frontform",
+    "spitz zulaufend (V-Form)"
+   ],
+   [
+    "Bleigleichwert",
+    "0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Verschluss",
+    "Klettverschluss"
+   ],
+   [
+    "Normen",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "schild",
+  "slug": "tpd",
+  "model": "TPD Schilddrüsenschutz",
+  "ref": "TPD",
+  "description": "Schilddrüsenkragen mit tropfenförmiger, nach unten verlängerter Frontabdeckung für zusätzliche Deckung. Leicht und anschmiegsam, in vielen Farben erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Schilddrüsenkragen"
+   ],
+   [
+    "Frontform",
+    "tropfenförmig, verlängert"
+   ],
+   [
+    "Bleigleichwert",
+    "0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Verschluss",
+    "Klettverschluss"
+   ],
+   [
+    "Normen",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "schild",
+  "slug": "tpb",
+  "model": "TPB Schilddrüsenschutz",
+  "ref": "TPB",
+  "description": "Schilddrüsenkragen mit breiter, abgerundeter Frontabdeckung für eine besonders großzügige Deckung der Hals- und oberen Brustregion.",
+  "specs": [
+   [
+    "Bauart",
+    "Schilddrüsenkragen"
+   ],
+   [
+    "Frontform",
+    "breit, abgerundet"
+   ],
+   [
+    "Bleigleichwert",
+    "0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Verschluss",
+    "Klettverschluss"
+   ],
+   [
+    "Normen",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zubehoer",
+  "slug": "scatter-cap",
+  "model": "Scatter Cap Light – Kopfhaube",
+  "ref": "SCL",
+  "description": "Leichte Kopfhaube zum Schutz vor Streustrahlung im Kopf-/Schädelbereich. Bequem, verstellbar und für den täglichen Einsatz ausgelegt.",
+  "specs": [
+   [
+    "Bauart",
+    "Streustrahlen-Kopfhaube"
+   ],
+   [
+    "Einsatz",
+    "Schutz der Kopf-/Schädelregion"
+   ],
+   [
+    "Ausführung",
+    "leicht, verstellbar"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zubehoer",
+  "slug": "sleeve",
+  "model": "Sleeve – Arm-/Schulterschutz",
+  "ref": "SLV",
+  "description": "Ärmel zum Schutz von Schulter- und Oberarmbereich gegen Streustrahlung – ideal als Ergänzung zur Schürze bei seitlicher Exposition.",
+  "specs": [
+   [
+    "Bauart",
+    "Arm-/Schulterschutz"
+   ],
+   [
+    "Bleigleichwert",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zubehoer",
+  "slug": "mini-sleeve",
+  "model": "Mini Sleeve – kurzer Schulterschutz",
+  "ref": "MSLV",
+  "description": "Kurze Ärmel-Variante für gezielten Schulterschutz bei minimalem Gewicht.",
+  "specs": [
+   [
+    "Bauart",
+    "Schulterschutz (kurz)"
+   ],
+   [
+    "Bleigleichwert",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zubehoer",
+  "slug": "cricket-pads",
+  "model": "Cricket Pads – Bein-/Fußschutz",
+  "ref": "CRP",
+  "description": "Bein- und optionaler Fußschutz gegen Streustrahlung – schützt Unterschenkel und Füße bei bodennaher Exposition, z. B. in der interventionellen Radiologie.",
+  "specs": [
+   [
+    "Bauart",
+    "Bein-/Fußschutz"
+   ],
+   [
+    "Fußschutz",
+    "optional"
+   ],
+   [
+    "Bleigleichwert",
+    "0,25 / 0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "zubehoer",
+  "slug": "mammo-shield",
+  "model": "mammo-SHIELD™ – Achsel- & Brustschutz",
+  "ref": "MAMSH",
+  "description": "Speziell entwickelter Achsel-/Brustschutz, der unter dem Arm sitzt und der Armbewegung folgt – für zusätzlichen Schutz der empfindlichen Achselregion bei chirurgischen Eingriffen. Integriert sich in die meisten Bleischürzen und Oberteile.",
+  "specs": [
+   [
+    "Bauart",
+    "Achsel-/Brustschutz"
+   ],
+   [
+    "Einsatz",
+    "zusätzlicher Achselschutz bei OP-Eingriffen"
+   ],
+   [
+    "Kompatibilität",
+    "integriert sich in die meisten Schürzen & Oberteile"
+   ],
+   [
+    "Registriertes Design",
+    "Nr. 6284862"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "ha172",
+  "model": "HA172 – Fahrbarer Schürzenständer",
+  "ref": "HA172",
+  "description": "Fahrbarer Ständer zur hängenden Aufbewahrung von Strahlenschutzschürzen. Stabiler Rahmen mit Rollen für flexible Positionierung im Raum.",
+  "specs": [
+   [
+    "Bauart",
+    "Fahrbarer Schürzenständer"
+   ],
+   [
+    "Mobilität",
+    "4 Rollen (fahrbar)"
+   ],
+   [
+    "Material",
+    "Edelstahl/Stahl"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "psmar",
+  "model": "PSMAR – Ständer mit Schwenkbügeln",
+  "ref": "PSMAR",
+  "description": "Standständer mit integrierten Schwenkbügeln zur übersichtlichen Aufbewahrung mehrerer Schürzen. Fahrbar und platzsparend.",
+  "specs": [
+   [
+    "Bauart",
+    "Schürzenständer mit Schwenkbügeln"
+   ],
+   [
+    "Mobilität",
+    "fahrbar (Rollen)"
+   ],
+   [
+    "Material",
+    "Stahl, pulverbeschichtet"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "ha10kt",
+  "model": "HA10KT – Mobiler Schwenkarm-Ständer",
+  "ref": "HA10KT",
+  "description": "Mobiler Schwenkarm-Ständer zur platzsparenden Aufhängung mehrerer Schürzen an schwenkbaren Armen.",
+  "specs": [
+   [
+    "Bauart",
+    "Mobiler Schwenkarm-Ständer"
+   ],
+   [
+    "Mobilität",
+    "fahrbar (Rollen)"
+   ],
+   [
+    "Aufnahme",
+    "mehrere Schwenkarme"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "ps10kt",
+  "model": "PS10KT – Schwenkarm-Ständer",
+  "ref": "PS10KT",
+  "description": "Fahrbarer Ständer mit schwenkbaren Armen für die geordnete Aufbewahrung von Schutzkleidung.",
+  "specs": [
+   [
+    "Bauart",
+    "Schwenkarm-Ständer"
+   ],
+   [
+    "Mobilität",
+    "fahrbar (Rollen)"
+   ],
+   [
+    "Material",
+    "Stahl, pulverbeschichtet"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "m10s",
+  "model": "M10S – Rotations-Schwenkständer",
+  "ref": "M10S",
+  "description": "Standständer mit rotierendem Schwenkarm-System: Schürzen lassen sich raumsparend rundum aufhängen und leicht entnehmen.",
+  "specs": [
+   [
+    "Bauart",
+    "Rotations-Schwenkständer"
+   ],
+   [
+    "Funktion",
+    "rotierendes Schwenkarm-System"
+   ],
+   [
+    "Mobilität",
+    "fahrbar (Rollen)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "ha5k",
+  "model": "HA5K – Wand-Schwenkarm",
+  "ref": "HA5K",
+  "description": "Wandmontierter Schwenkarm zur Aufhängung mehrerer Schürzen; schwenkbar für einfachen Zugriff. Passend auch als Wand-/Türhalter (u. a. SKHK, HARODPS10).",
+  "specs": [
+   [
+    "Bauart",
+    "Wand-Schwenkarm"
+   ],
+   [
+    "Montage",
+    "Wandmontage"
+   ],
+   [
+    "Aufnahme",
+    "mehrere Schürzen"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "aufbewahrung",
+  "slug": "hangers",
+  "model": "Schürzenbügel-Serie",
+  "ref": "HA170 · PS170 · HA175 · HA175C",
+  "description": "Passende Bügel zur schonenden, hängenden Aufbewahrung von Strahlenschutzschürzen – in verschiedenen Ausführungen (Holz, kunststoffbeschichtet, Draht).",
+  "specs": [
+   [
+    "Bauart",
+    "Schürzenbügel"
+   ],
+   [
+    "Ausführungen",
+    "Holz (HA170) · beschichtet (PS170) · Draht (HA175/HA175C)"
+   ],
+   [
+    "Einsatz",
+    "Einzelaufhängung an Ständern & Schienen"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ }
+]
