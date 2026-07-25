@@ -478,7 +478,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section alt" id="medizinische-einrichtung">
+<section class="m-section alt m-mfrbg" id="medizinische-einrichtung" style="--mfrbg:url('assets/brands/coinfy-hero-blur.jpg')">
   <div class="m-shell">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
