@@ -342,9 +342,9 @@ BODY_LEISTUNGEN = '''<section class="m-page-hero">
 
 CHEV = '<svg class="m-ac-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
 
-# ---- Untersuchungsliegen (Elektrisch) — Karten aus Datenliste generieren ----
+# ---- Produktkarten (Medizinische Einrichtung) aus products.json generieren ----
 import json, html as _html, glob as _glob
-_liegen = json.loads((ROOT / "liegen_data.json").read_text(encoding="utf-8"))
+_products = json.loads((ROOT / "products.json").read_text(encoding="utf-8"))
 def _gallery(p):
     imgs = sorted(_glob.glob(str(ROOT / "assets" / "produkte" / p["slug"] / "*.jpg")))
     n = len(imgs) or 1
@@ -381,11 +381,11 @@ f'{specs}\n'
 '                      </ul>\n'
 '                    </div>\n'
 '                  </article>')
-LIEGEN_CARDS = "\n\n".join(_render_liege(p) for p in _liegen)
-_stuehle = json.loads((ROOT / "stuehle_data.json").read_text(encoding="utf-8"))
-_sichtschutz = json.loads((ROOT / "sichtschutz_data.json").read_text(encoding="utf-8"))
-STUEHLE_CARDS = "\n\n".join(_render_liege(p) for p in _stuehle)
-SICHTSCHUTZ_CARDS = "\n\n".join(_render_liege(p) for p in _sichtschutz)
+def _cards(cat):
+    return "\n\n".join(_render_liege(p) for p in _products if p["cat"] == cat)
+def _count(cat):
+    return sum(1 for p in _products if p["cat"] == cat)
+CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz")}
 
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -474,22 +474,32 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <div class="m-cat-head">
       <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
-      <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Die einzelnen Produktbereiche werden derzeit aufbereitet.</div>
+      <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
     </div>
 
     <div class="m-acc">
       <details class="m-ac" id="untersuchungsliegen">
         <summary><span class="m-ac-num">01</span><span class="m-ac-title">Untersuchungsliegen</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
-          <p class="m-ac-lead">Untersuchungs- und Behandlungsliegen für Praxis und Klinik – in drei Antriebsvarianten.</p>
+          <p class="m-ac-lead">Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.</p>
           <div class="m-acc m-acc-nested">
 
-            <details class="m-ac m-ac-sub" id="liegen-elektrisch" open>
+            <details class="m-ac m-ac-sub" id="liegen-chiropraktisch" open>
+              <summary><span class="m-ac-title">Chiropraktische Liegen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-pl-count">''' + str(_count("chiro")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + CARDS["chiro"] + '''
+                </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="liegen-elektrisch">
               <summary><span class="m-ac-title">Elektrisch</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
-                <p class="m-pl-count">''' + str(len(_liegen)) + ''' Modelle verfügbar</p>
+                <p class="m-pl-count">''' + str(_count("elektrisch")) + ''' Modelle verfügbar</p>
                 <div class="m-pl-list">
-''' + LIEGEN_CARDS + '''
+''' + CARDS["elektrisch"] + '''
                 </div>
               </div>
             </details>
@@ -497,16 +507,19 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
             <details class="m-ac m-ac-sub" id="liegen-hydraulisch">
               <summary><span class="m-ac-title">Hydraulisch</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
-                <p class="m-ac-lead">Hydraulisch höhenverstellbare Untersuchungs- und Behandlungsliegen.</p>
-                <span class="m-ac-soon">◦ Inhalte in Vorbereitung</span>
+                <p class="m-pl-count">''' + str(_count("hydraulisch")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + CARDS["hydraulisch"] + '''
+                </div>
               </div>
             </details>
 
             <details class="m-ac m-ac-sub" id="liegen-fix">
               <summary><span class="m-ac-title">Fix</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
-                <p class="m-ac-lead">Untersuchungsliegen mit fixer Höhe – robust und wartungsarm.</p>
-                <span class="m-ac-soon">◦ Inhalte in Vorbereitung</span>
+                <div class="m-pl-list">
+''' + CARDS["fix"] + '''
+                </div>
               </div>
             </details>
 
@@ -518,9 +531,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
         <summary><span class="m-ac-num">02</span><span class="m-ac-title">Medizinische Stühle</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
           <p class="m-ac-lead">Behandlungs-, Blutabnahme- und Arbeitsstühle sowie Hocker für den medizinischen Einsatz.</p>
-          <p class="m-pl-count">''' + str(len(_stuehle)) + ''' Modelle verfügbar</p>
+          <p class="m-pl-count">''' + str(_count("stuehle")) + ''' Modelle verfügbar</p>
           <div class="m-pl-list">
-''' + STUEHLE_CARDS + '''
+''' + CARDS["stuehle"] + '''
           </div>
         </div>
       </details>
@@ -530,7 +543,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
         <div class="m-ac-body">
           <p class="m-ac-lead">Sicht- und Trennwandsysteme für diskrete, flexibel teilbare Raumbereiche.</p>
           <div class="m-pl-list">
-''' + SICHTSCHUTZ_CARDS + '''
+''' + CARDS["sichtschutz"] + '''
           </div>
         </div>
       </details>
