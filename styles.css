@@ -347,7 +347,7 @@ a.m-mfr-chip:hover,a.m-mfr-chip:focus-visible{transform:translateY(-2px);
 .m-hexbg::before{right:0;opacity:.92;background-image:var(--hexbg);background-position:right center;
   -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 60%,transparent 100%);
           mask-image:linear-gradient(90deg,transparent 0,#000 55%),linear-gradient(180deg,#000 60%,transparent 100%)}
-.m-hexbg-l::after{left:0;opacity:.8;background-image:var(--hexbg2);background-position:left center;
+.m-hexbg-l::after{left:0;top:78px;opacity:.8;background-image:var(--hexbg2);background-position:left center;
   -webkit-mask-image:linear-gradient(90deg,#000 0,#000 45%,transparent 100%),linear-gradient(180deg,#000 60%,transparent 100%);
           mask-image:linear-gradient(90deg,#000 0,#000 45%,transparent 100%),linear-gradient(180deg,#000 60%,transparent 100%)}
 .m-hexbg .m-shell{position:relative;z-index:1}
@@ -364,6 +364,9 @@ details.m-ac[open]{border-color:var(--sky);box-shadow:0 8px 30px rgba(15,27,44,0
   color:var(--brand-700);flex:1}
 .m-ac-chev{width:20px;height:20px;flex:none;color:var(--steel);transition:transform .22s ease}
 details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--signal)}
+.m-ac-mfr{flex:none;width:auto;display:block;opacity:.9}
+.m-ac-mfr--rothband{height:18px}
+.m-ac-mfr--kenex{height:20px}
 .m-ac-body{padding:2px 28px 30px}
 .m-ac-lead{font-size:15px;line-height:24px;color:var(--ink);max-width:74ch;margin:0 0 20px}
 .m-ac-src{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;
