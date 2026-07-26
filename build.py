@@ -1449,35 +1449,17 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Referenzen</span>
     <h1>Referenzen aus über 15 Jahren Medizintechnik<span class="end-dot">.</span></h1>
-    <p class="lede">Eine Auswahl erfolgreich abgeschlossener Projekte aus der beruflichen Laufbahn unseres Gründers Georg Scherzer – von der Planung hochkomplexer klinischer Infrastruktur bis zur Beschaffung modernster Medizintechnik an führenden Häusern in Österreich und der Schweiz.</p>
-  </div>
-</section>
-
-<section class="m-section">
-  <div class="m-shell">
-    <div class="m-ref-note">
-      <span class="m-ref-note-cap">Wichtiger Hinweis</span>
-      <p>Die nachfolgend gezeigten Projekte sind <strong>persönliche Referenzen von Georg Scherzer</strong> aus seiner bisherigen beruflichen Tätigkeit – erbracht in leitender Funktion am Allgemeinen Krankenhaus der Stadt Wien (AKH&nbsp;Wien) sowie bei der VAMED. Sie wurden nicht im Namen der medeqon&nbsp;GmbH realisiert. Als junges Unternehmen legen wir Wert auf diese Klarstellung – zugleich fließt genau diese über Jahre gewachsene Erfahrung in jedes medeqon-Projekt ein.</p>
-    </div>
-
-    <div class="m-ref-stats">
-      <div class="m-ref-stat"><span class="m-ref-stat-num">55+</span><span class="m-ref-stat-label">Realisierte Projekte</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;92&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen Medizintechnik</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">15+</span><span class="m-ref-stat-label">Jahre Erfahrung</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">3 Regionen</span><span class="m-ref-stat-label">Österreich, Schweiz &amp; Naher Osten</span></div>
-    </div>
+    <p class="lede">Eine Auswahl erfolgreich abgeschlossener Projekte.</p>
   </div>
 </section>
 
 <section class="m-section alt">
   <div class="m-shell">
-    <div class="m-secH">
-      <span class="m-tag">Auswahl</span>
-      <h2 class="m-bigH">Leuchtturmprojekte<span class="end-dot">.</span></h2>
-      <div class="sub">Eine Auswahl der umfangreichsten realisierten Projekte – gemessen am Beschaffungsvolumen der Medizintechnik.</div>
-    </div>
-    <div class="m-ref-flags">
-''' + _ref_flags_html + '''
+    <div class="m-ref-stats">
+      <div class="m-ref-stat"><span class="m-ref-stat-num">55+</span><span class="m-ref-stat-label">Realisierte Projekte</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;92&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen Medizintechnik</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">15+</span><span class="m-ref-stat-label">Jahre Erfahrung</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">3 Regionen</span><span class="m-ref-stat-label">Österreich, Schweiz &amp; Naher Osten</span></div>
     </div>
   </div>
 </section>
@@ -1538,16 +1520,11 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
 <section class="m-section">
   <div class="m-shell">
     <div class="m-secH">
-      <span class="m-tag">Akademisches &amp; Beratung</span>
-      <h2 class="m-bigH">Wissenschaft &amp; internationale Beratung<span class="end-dot">.</span></h2>
-      <div class="sub">Neben der praktischen Projektarbeit ist Georg Scherzer wissenschaftlich und beratend tätig – unter anderem für die Weltgesundheitsorganisation.</div>
+      <span class="m-tag">Akademisches und Wissenschaft</span>
+      <h2 class="m-bigH">Wissenschaft &amp; Forschung<span class="end-dot">.</span></h2>
+      <div class="sub">Neben der praktischen Projektarbeit ist Georg Scherzer wissenschaftlich aktiv – mit einer Promotion, Fachpublikationen und Beiträgen auf internationalen Konferenzen.</div>
     </div>
     <div class="m-ref-acad">
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Internationale Beratung</span>
-        <h3>World Health Organization (WHO)</h3>
-        <p>Beratung zum „Compendium on innovative medical technologies" sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.</p>
-      </figure>
       <figure class="m-ref-acadcard">
         <span class="m-ref-acadcap">Promotion</span>
         <h3>Doktorarbeit (PhD)</h3>
@@ -1562,6 +1539,28 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
         <span class="m-ref-acadcap">Lehre &amp; Konferenzen</span>
         <h3>Vorträge &amp; akademische Betreuung</h3>
         <p>Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="m-section alt">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Consulting</span>
+      <h2 class="m-bigH">Beratung &amp; Consulting<span class="end-dot">.</span></h2>
+      <div class="sub">Beratungsmandate für Organisationen und Institutionen rund um Medizintechnik, Beschaffung und klinische Infrastruktur.</div>
+    </div>
+    <div class="m-ref-acad">
+      <figure class="m-ref-acadcard">
+        <span class="m-ref-acadcap">Internationale Beratung</span>
+        <h3>World Health Organization (WHO)</h3>
+        <p>Beratung zum „Compendium on innovative medical technologies" sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.</p>
+      </figure>
+      <figure class="m-ref-acadcard">
+        <span class="m-ref-acadcap">Beratungsschwerpunkte</span>
+        <h3>Medizintechnik &amp; klinische Infrastruktur</h3>
+        <p>Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen.</p>
       </figure>
     </div>
   </div>
