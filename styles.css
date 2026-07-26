@@ -702,6 +702,20 @@ textarea.m-input{min-height:150px;resize:vertical}
 #beschaffung .m-svc2-ico .sig-stroke{stroke:var(--signal)}
 
 /* ===== Total Cost of Ownership (Startseite) ===== */
+.m-tco-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:34px}
+.m-tco-card{border-radius:16px;padding:22px 24px;display:flex;flex-direction:column}
+.m-tco-card-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.13em;text-transform:uppercase;
+  display:block;margin-bottom:9px}
+.m-tco-card p{margin:0;font-size:14.5px;line-height:21px;color:var(--ink)}
+.m-tco-card--early{background:var(--mist-blue)}
+.m-tco-card--early .m-tco-card-cap{color:var(--signal)}
+.m-tco-card--warn{background:#FBEDEA}
+.m-tco-card--warn .m-tco-card-cap{color:#B23A2E}
+.m-tco-card--task{background:var(--signal)}
+.m-tco-card--task .m-tco-card-cap{color:rgba(255,255,255,0.7)}
+.m-tco-card--task .m-tco-card-title{font-family:var(--font-display);font-weight:700;font-size:19px;line-height:25px;
+  letter-spacing:-0.01em;color:#fff}
+.m-tco-card--task .m-tco-card-title .em{color:var(--sky)}
 .m-tco-grid{display:grid;grid-template-columns:1.15fr 0.85fr;gap:40px;align-items:stretch}
 .m-tco-chart{margin:0;background:var(--paper);border:1px solid var(--mist);border-radius:18px;
   padding:26px 28px 22px;display:flex;flex-direction:column}
@@ -729,6 +743,37 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-principle .em{color:var(--signal)}
 @media (max-width:900px){
   .m-tco-grid{grid-template-columns:1fr;gap:26px}
+  .m-tco-cards{grid-template-columns:1fr}
+}
+
+/* ===== Medical Technology Design ===== */
+.m-mtd-grid{display:grid;grid-template-columns:0.82fr 1.18fr;gap:44px;align-items:center}
+.m-mtd-points{background:var(--mist-blue);border-radius:18px;padding:30px 32px}
+.m-mtd-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--signal);margin-bottom:18px}
+.m-mtd-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px}
+.m-mtd-list li{position:relative;padding-left:28px;font-size:16.5px;line-height:23px;font-weight:600;color:var(--brand-700)}
+.m-mtd-list li::before{content:"";position:absolute;left:0;top:4px;width:14px;height:14px;border-radius:50%;
+  border:2px solid var(--signal)}
+.m-mtd-figure{margin:0}
+.m-mtd-figure img{width:100%;height:auto;display:block}
+
+/* ===== BIM ===== */
+.m-bim-grid{display:grid;grid-template-columns:0.95fr 1.05fr;gap:44px;align-items:center}
+.m-bim-figure{margin:0}
+.m-bim-figure svg{width:100%;height:auto;display:block;max-width:420px;margin:0 auto}
+.m-bim-points{display:flex;flex-direction:column;gap:16px}
+.m-bim-card{background:var(--mist-blue);border-radius:16px;padding:22px 26px}
+.m-bim-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--signal);display:block;margin-bottom:6px}
+.m-bim-card h3{font-family:var(--font-display);font-weight:700;font-size:19px;line-height:24px;
+  letter-spacing:-0.01em;color:var(--brand-700);margin:0 0 10px}
+.m-bim-card ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.m-bim-card li{position:relative;padding-left:20px;font-size:14.5px;line-height:21px;color:var(--ink)}
+.m-bim-card li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:50%;
+  background:var(--signal)}
+@media (max-width:900px){
+  .m-mtd-grid,.m-bim-grid{grid-template-columns:1fr;gap:28px}
 }
 
 /* ===== Referenzen ===== */
