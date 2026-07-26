@@ -691,6 +691,12 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-dl-card.is-soon .m-dl-ic{background:var(--mist);color:var(--steel)}
 .m-dl-card.is-soon:hover{transform:none;border-color:var(--mist);box-shadow:none}
 
+/* ===== Beschaffung / Sourcing CTA ===== */
+.m-src-cta{margin-top:30px;padding:28px 32px;background:var(--mist-blue);border:1px solid var(--mist);
+  border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px}
+.m-src-cta p{margin:0;flex:1 1 440px;max-width:78ch;font-size:16px;line-height:24px;color:var(--ink)}
+.m-src-cta .m-btn{flex:none}
+
 /* ===== Responsive ===== */
 @media (max-width:900px){
   .m-nav{gap:14px;padding:10px 20px}
