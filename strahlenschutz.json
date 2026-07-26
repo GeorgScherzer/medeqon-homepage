@@ -904,5 +904,813 @@
     "UK (ROTHBAND)"
    ]
   ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-fitover-l",
+  "ref": "FITOVER – L",
+  "model": "FitOver – Überziehbrille (Größe L)",
+  "description": "Überziehbare Röntgenschutzbrille, die bequem über einer vorhandenen Korrekturbrille getragen wird – mit seitlichem Strahlenschutz.",
+  "specs": [
+   [
+    "Bauart",
+    "Überziehbrille (FitOver)"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-fitover-m",
+  "ref": "FITOVER – M",
+  "model": "FitOver – Überziehbrille (Größe M)",
+  "description": "Überziehbare Röntgenschutzbrille, die bequem über einer vorhandenen Korrekturbrille getragen wird – mit seitlichem Strahlenschutz.",
+  "specs": [
+   [
+    "Bauart",
+    "Überziehbrille (FitOver)"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-52",
+  "ref": "MODEL 52",
+  "model": "Model 52 – Wraparound-Röntgenschutzbrille",
+  "description": "Wraparound-Röntgenschutzbrille mit umschließendem Rahmen für erweiterten seitlichen Schutz. Wahlweise mit oder ohne Sehstärke (RX).",
+  "specs": [
+   [
+    "Bauart",
+    "Wraparound-Schutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-206",
+  "ref": "MODEL 206",
+  "model": "Model 206 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-208",
+  "ref": "MODEL 208",
+  "model": "Model 208 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-400",
+  "ref": "MODEL 400",
+  "model": "Model 400 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-1205",
+  "ref": "MODEL 1205",
+  "model": "Model 1205 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-9388",
+  "ref": "MODEL 9388",
+  "model": "Model 9388 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-15011",
+  "ref": "MODEL 15011",
+  "model": "Model 15011 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-17012",
+  "ref": "MODEL 17012",
+  "model": "Model 17012 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-20020",
+  "ref": "MODEL 20020",
+  "model": "Model 20020 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-egm",
+  "ref": "MODEL EGM",
+  "model": "Model EGM – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-ex601",
+  "ref": "MODEL EX601",
+  "model": "Model EX601 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-f10",
+  "ref": "MODEL F10",
+  "model": "Model F10 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-gl1171",
+  "ref": "MODEL GL1171",
+  "model": "Model GL1171 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-p820",
+  "ref": "MODEL P820",
+  "model": "Model P820 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-q100",
+  "ref": "MODEL Q100",
+  "model": "Model Q100 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-q200",
+  "ref": "MODEL Q200",
+  "model": "Model Q200 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-q300",
+  "ref": "MODEL Q300",
+  "model": "Model Q300 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-rg12",
+  "ref": "MODEL RG12-PTG-038",
+  "model": "Model RG12-PTG-038 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-t9538s",
+  "ref": "MODEL T9538S",
+  "model": "Model T9538S – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-t9559",
+  "ref": "MODEL T9559",
+  "model": "Model T9559 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-tp280",
+  "ref": "MODEL TP280",
+  "model": "Model TP280 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-x25",
+  "ref": "MODEL X25",
+  "model": "Model X25 – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille mit bleihaltigen Schutzgläsern und seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX) erhältlich.",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-rg55",
+  "ref": "MODEL RG55",
+  "model": "Model RG55 – Vollsicht-Schutzbrille (Goggle)",
+  "description": "Vollsicht-Röntgenschutzbrille (Goggle) mit verstellbarem Kopfband und rundum abschließendem Sitz – auch über einer Korrekturbrille tragbar.",
+  "specs": [
+   [
+    "Bauart",
+    "Vollsicht-Schutzbrille (Goggle)"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-nike",
+  "ref": "NIKE BRAZEN",
+  "model": "Nike Brazen – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille im sportlichen Nike-Brazen-Rahmen – leicht, robust und mit seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX).",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille (Sportrahmen)"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-oakley",
+  "ref": "OAKLEY GASCAN",
+  "model": "Oakley Gascan – Röntgenschutzbrille",
+  "description": "Röntgenschutzbrille im markanten Oakley-Gascan-Rahmen – sportlicher Look mit seitlichem Strahlenschutz. Wahlweise mit oder ohne Sehstärke (RX).",
+  "specs": [
+   [
+    "Bauart",
+    "Röntgenschutzbrille (Sportrahmen)"
+   ],
+   [
+    "Bleigleichwert Gläser",
+    "0,75 mm Pb"
+   ],
+   [
+    "Seitenschutz",
+    "0,50 mm Pb"
+   ],
+   [
+    "Ausführung",
+    "Mit oder ohne Sehstärke (RX)"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "brillen",
+  "slug": "gl-sideshields",
+  "ref": "SIDE SHIELDS",
+  "model": "Seitlicher Strahlenschutz (Side Shields)",
+  "description": "Seitlicher Strahlenschutz zum Ergänzen kompatibler Brillengestelle – schützt den Augenbereich zusätzlich von der Seite.",
+  "specs": [
+   [
+    "Bauart",
+    "Seitlicher Strahlenschutz (Aufsatz)"
+   ],
+   [
+    "Bleigleichwert",
+    "0,50 mm Pb"
+   ],
+   [
+    "Montage",
+    "Für kompatible Brillengestelle"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
  }
 ]

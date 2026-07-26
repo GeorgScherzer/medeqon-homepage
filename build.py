@@ -539,6 +539,17 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
               </div>
             </details>
 
+            <details class="m-ac m-ac-sub" id="ss-brillen">
+              <summary><span class="m-ac-title">Strahlenschutzbrillen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-ac-lead">Röntgenschutzbrillen für den Schutz der Augen bei Durchleuchtung, interventioneller Bildgebung und Radiologie – in zahlreichen Rahmenformen, mit seitlichem Schutz und wahlweise mit Sehstärke. Bleigläser 0,75 mm Pb, Seitenschutz 0,50 mm Pb.</p>
+                <p class="m-pl-count">''' + str(_ss_count("brillen")) + ''' Modelle verfügbar</p>
+                <div class="m-pl-list">
+''' + _ss_cards("brillen") + '''
+                </div>
+              </div>
+            </details>
+
             <details class="m-ac m-ac-sub" id="ss-personalisierung">
               <summary><span class="m-ac-title">Personalisierung &amp; Optionen</span>''' + CHEV + '''</summary>
               <div class="m-ac-body">
