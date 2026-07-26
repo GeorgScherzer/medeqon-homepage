@@ -701,6 +701,36 @@ textarea.m-input{min-height:150px;resize:vertical}
 #beschaffung .m-svc2-ico .sig-fill{fill:var(--signal);stroke:none}
 #beschaffung .m-svc2-ico .sig-stroke{stroke:var(--signal)}
 
+/* ===== Total Cost of Ownership (Startseite) ===== */
+.m-tco-grid{display:grid;grid-template-columns:1.15fr 0.85fr;gap:40px;align-items:stretch}
+.m-tco-chart{margin:0;background:var(--paper);border:1px solid var(--mist);border-radius:18px;
+  padding:26px 28px 22px;display:flex;flex-direction:column}
+.m-tco-chart-title{font-family:var(--font-display);font-weight:700;font-size:20px;line-height:26px;
+  color:var(--brand-700);margin-bottom:8px}
+.m-tco-chart svg{width:100%;height:auto;display:block;flex:1}
+.m-tco-chart figcaption{font-family:var(--font-display);font-weight:700;font-size:17px;color:var(--ink);
+  text-align:center;margin-top:10px}
+.m-tco-side{display:flex;flex-direction:column;gap:22px;justify-content:center}
+.m-tco-split-bar{display:flex;height:56px;border-radius:12px;overflow:hidden;box-shadow:0 8px 22px -14px rgba(10,18,40,.4)}
+.m-tco-split-bar span{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+  color:#fff;font-size:12px;line-height:14px;text-align:center;padding:0 8px}
+.m-tco-split-bar em{font-family:var(--font-display);font-style:normal;font-weight:700;font-size:19px;line-height:1}
+.m-tco-split-bar .seg-acq{background:var(--sky)}
+.m-tco-split-bar .seg-op{background:var(--signal)}
+.m-tco-split-cap{font-size:13.5px;line-height:20px;color:var(--steel);margin:10px 0 0}
+.m-tco-factors-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--signal);margin-bottom:12px}
+.m-tco-chips{display:flex;flex-wrap:wrap;gap:8px}
+.m-tco-chip{font-size:13px;font-weight:600;color:var(--ink);background:var(--paper);
+  border:1px solid var(--mist);border-radius:999px;padding:7px 13px;line-height:1}
+.m-tco-chip.is-acq{background:var(--mist-blue);border-color:var(--sky);color:var(--brand-700)}
+.m-tco-principle{font-family:var(--font-display);font-weight:700;font-size:17px;line-height:24px;
+  color:var(--brand-700);margin:0;padding-top:18px;border-top:1px solid var(--mist)}
+.m-tco-principle .em{color:var(--signal)}
+@media (max-width:900px){
+  .m-tco-grid{grid-template-columns:1fr;gap:26px}
+}
+
 /* ===== Referenzen ===== */
 .m-ref-note{border-left:4px solid var(--signal);background:var(--mist-blue);border-radius:0 14px 14px 0;
   padding:22px 26px;margin-bottom:34px}
