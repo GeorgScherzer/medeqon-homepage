@@ -365,6 +365,7 @@ details.m-ac[open]{border-color:var(--sky);box-shadow:0 8px 30px rgba(15,27,44,0
 .m-ac-chev{width:20px;height:20px;flex:none;color:var(--steel);transition:transform .22s ease}
 details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--signal)}
 .m-ac-mfr{flex:none;width:auto;display:block;opacity:.9}
+.m-ac-body > .m-ac-mfr{margin:0 0 16px}
 .m-ac-mfr--rothband{height:18px}
 .m-ac-mfr--kenex{height:20px}
 .m-ac-body{padding:2px 28px 30px}

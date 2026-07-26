@@ -515,8 +515,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
 
     <div class="m-acc">
       <details class="m-ac" id="persoenlicher-strahlenschutz">
-        <summary><span class="m-ac-num">01</span><span class="m-ac-title">Persönlicher Strahlenschutz</span><img class="m-ac-mfr m-ac-mfr--rothband" src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy">''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">01</span><span class="m-ac-title">Persönlicher Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
+          <img class="m-ac-mfr m-ac-mfr--rothband" src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy">
           <p class="m-ac-lead">Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.</p>
           <div class="m-acc m-acc-nested">
             <details class="m-ac m-ac-sub" id="ss-front">
@@ -610,8 +611,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
       <details class="m-ac" id="ss-aufbewahrung">
-        <summary><span class="m-ac-num">02</span><span class="m-ac-title">Aufbewahrung</span><img class="m-ac-mfr m-ac-mfr--rothband" src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy">''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">02</span><span class="m-ac-title">Aufbewahrung</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
+          <img class="m-ac-mfr m-ac-mfr--rothband" src="assets/brands/rothband.png" alt="ROTHBAND" loading="lazy">
           <p class="m-ac-lead">Ständer, Schwenkarme und Bügel zur sicheren, platzsparenden Aufbewahrung von Strahlenschutzschürzen.</p>
           <p class="m-pl-count">''' + str(_ss_count("aufbewahrung")) + ''' Produkte verfügbar</p>
           <div class="m-pl-list">
@@ -621,8 +623,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
       <details class="m-ac" id="mobiler-strahlenschutz">
-        <summary><span class="m-ac-num">03</span><span class="m-ac-title">Mobiler Strahlenschutz</span><img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">03</span><span class="m-ac-title">Mobiler Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
+          <img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">
           <p class="m-ac-lead">Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – vom Hersteller KENEX.</p>
           <p class="m-pl-count">''' + str(_kenex_count("mobil")) + ''' Modelle verfügbar</p>
           <div class="m-pl-list">
@@ -632,8 +635,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
       <details class="m-ac" id="deckenmontierter-strahlenschutz">
-        <summary><span class="m-ac-num">04</span><span class="m-ac-title">Deckenmontierter Strahlenschutz</span><img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">04</span><span class="m-ac-title">Deckenmontierter Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
+          <img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">
           <p class="m-ac-lead">Aufgehängte Überkopf-Schutzschilde und komplette Aufhängungssysteme (Deckenschienen, Säulen, Arme, Monitor-Aufhängung) – zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich. Vom Hersteller KENEX.</p>
           <div class="m-acc m-acc-nested">
 
@@ -662,8 +666,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
       <details class="m-ac" id="tischmontierter-strahlenschutz">
-        <summary><span class="m-ac-num">05</span><span class="m-ac-title">Tischmontierter Strahlenschutz</span><img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">''' + CHEV + '''</summary>
+        <summary><span class="m-ac-num">05</span><span class="m-ac-title">Tischmontierter Strahlenschutz</span>''' + CHEV + '''</summary>
         <div class="m-ac-body">
+          <img class="m-ac-mfr m-ac-mfr--kenex" src="assets/brands/kenex.png" alt="KENEX" loading="lazy">
           <p class="m-ac-lead">Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – Unterkörper-, Kopfende- und Aufsatz-Schilde sowie passende Aufbewahrung. Vom Hersteller KENEX.</p>
           <div class="m-acc m-acc-nested">
 
