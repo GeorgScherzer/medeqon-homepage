@@ -795,17 +795,6 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-bim-card li{position:relative;padding-left:20px;font-size:14.5px;line-height:21px;color:var(--ink)}
 .m-bim-card li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:50%;
   background:var(--signal)}
-/* BIM dunkles Kapitel */
-.m-sec-navy{background:var(--deep-800);color:#fff}
-.m-sec-navy .m-bigH{color:#fff}
-.m-sec-navy .m-secH .sub{color:rgba(255,255,255,0.72)}
-#bim > .m-shell > .m-secH .m-tag{color:var(--sky)}
-#bim .end-dot{color:var(--sky)}
-.m-sec-navy .m-bim-card{background:rgba(255,255,255,0.055);border:1px solid rgba(255,255,255,0.13)}
-.m-sec-navy .m-bim-cap{color:var(--sky)}
-.m-sec-navy .m-bim-card h3{color:#fff}
-.m-sec-navy .m-bim-card li{color:#C4CFDE}
-.m-sec-navy .m-bim-card li::before{background:var(--sky)}
 @media (max-width:900px){
   .m-mtd-grid,.m-bim-grid{grid-template-columns:1fr;gap:28px}
 }

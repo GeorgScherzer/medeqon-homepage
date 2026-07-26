@@ -229,7 +229,7 @@ BODY_INDEX = '''<section class="m-hero-main">
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
-            <text x="646" y="203" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#6B7785" text-anchor="end">WASSERLINIE</text>
+            <text x="646" y="202" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#6B7785" text-anchor="end">WASSERLINIE</text>
             <line x1="368" y1="112" x2="452" y2="92" stroke="#0F1B2C" stroke-width="1.3"/>
             <circle cx="368" cy="112" r="4" fill="#004AAD"/>
             <text x="460" y="84" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#6B7785">DIE SPITZE</text>
@@ -246,14 +246,14 @@ BODY_INDEX = '''<section class="m-hero-main">
               <text x="362" y="552">Entsorgung</text>
             </g>
             <g>
-              <line x1="54" y1="150" x2="54" y2="206" stroke="#004AAD" stroke-width="2.5"/>
-              <text x="68" y="166" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#004AAD">SICHTBAR</text>
-              <text x="68" y="186" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">was der Preis</text>
-              <text x="68" y="203" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">zeigt</text>
-              <line x1="54" y1="252" x2="54" y2="452" stroke="#004AAD" stroke-width="2.5"/>
-              <text x="68" y="300" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#004AAD">VERBORGEN</text>
-              <text x="68" y="320" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">was das Gerät</text>
-              <text x="68" y="337" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">wirklich kostet</text>
+              <line x1="54" y1="146" x2="54" y2="208" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="70" y="164" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">SICHTBAR</text>
+              <text x="70" y="187" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">was der Preis</text>
+              <text x="70" y="206" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">zeigt</text>
+              <line x1="54" y1="250" x2="54" y2="454" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="70" y="300" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">VERBORGEN</text>
+              <text x="70" y="323" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">was das Gerät</text>
+              <text x="70" y="343" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">wirklich kostet</text>
             </g>
           </svg>
           <figcaption>Der Kaufpreis ist nur die Spitze des Eisbergs.</figcaption>
@@ -338,7 +338,7 @@ BODY_INDEX = '''<section class="m-hero-main">
   </div>
 </section>
 
-<section class="m-section m-sec-navy" id="bim">
+<section class="m-section" id="bim">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">BIM</span>
@@ -368,7 +368,7 @@ BODY_INDEX = '''<section class="m-hero-main">
             <circle cx="160" cy="40" r="3.2"/><circle cx="270" cy="150" r="3.2"/>
             <circle cx="160" cy="260" r="3.2"/><circle cx="50" cy="150" r="3.2"/>
           </g>
-          <g font-family="Hanken Grotesk, sans-serif" font-size="14.5" font-weight="700" fill="#fff">
+          <g font-family="Hanken Grotesk, sans-serif" font-size="14.5" font-weight="700" fill="#0F1B2C">
             <text x="160" y="20" text-anchor="middle">IFC</text>
             <text x="294" y="155" text-anchor="start">REVIT</text>
             <text x="160" y="288" text-anchor="middle">BCF</text>
