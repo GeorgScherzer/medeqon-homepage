@@ -157,7 +157,7 @@ BODY_INDEX = '''<section class="m-hero-main">
 <section class="m-slogan" style="background-image:url(assets/slogan-bg.jpg)">
   <div class="m-shell">
     <div class="line"></div>
-    <p>Früher planen. Smarter bauen<span class="em">.</span></p>
+    <p>Ihr Partner für den gesamten Lebenszyklus der Medizintechnik<span class="em">.</span></p>
   </div>
 </section>
 
@@ -441,6 +441,46 @@ f'                  <div class="m-opt-grouptitle">{_html.escape(group)}</div>\n'
 '                </div>')
     return "\n".join(out)
 
+# ---- Farboptionen (ROTHBAND) ----
+_FARBEN = [
+    ("Unifarben", [
+        ("royalblue","Royalblau"), ("marineblue","Marineblau"), ("orange","Orange"),
+        ("rose","Rosé"), ("burgundy","Bordeaux"), ("berry","Beere"), ("red","Rot"),
+        ("violet","Violett"), ("grey","Grau"), ("lightgreen","Hellgrün"),
+        ("forestgreen","Waldgrün"), ("khaki","Khaki"), ("black","Schwarz"), ("yellow","Gelb"),
+    ]),
+    ("Muster", [
+        ("zebra","Zebra"), ("tartan","Karo"), ("stars","Sterne"), ("safari","Safari"),
+        ("swirls","Wirbel"), ("flower-pink","Blüten Pink"), ("flower-violet","Blüten Violett"),
+        ("firework","Feuerwerk"), ("flames","Flammen"), ("nursery","Kindermotiv"),
+        ("paintsplash","Farbkleckse"), ("camo-pink","Camouflage Pink"),
+        ("camo-grey","Camouflage Grau"), ("camo-blue","Camouflage Blau"),
+    ]),
+    ("Einfassung", [
+        ("bind-black","Schwarz"), ("bind-red","Rot"), ("bind-blue","Blau"), ("bind-green","Grün"),
+        ("bind-darkpink","Dunkelpink"), ("bind-neonpink","Neonpink"),
+        ("bind-teal","Petrol"), ("bind-orange","Orange"),
+    ]),
+]
+def _farben_html():
+    out = []
+    for group, items in _FARBEN:
+        tiles = []
+        for key, name in items:
+            tiles.append(
+'                    <figure class="m-sw">\n'
+f'                      <div class="m-sw-img"><img src="assets/farben/{key}.jpg" alt="{_html.escape(name)}" loading="lazy"></div>\n'
+f'                      <figcaption class="m-sw-name">{_html.escape(name)}</figcaption>\n'
+'                    </figure>')
+        out.append(
+'                <div class="m-opt-group">\n'
+f'                  <div class="m-opt-grouptitle">{_html.escape(group)}</div>\n'
+'                  <div class="m-sw-grid">\n'
++ "\n".join(tiles) + '\n'
+'                  </div>\n'
+'                </div>')
+    return "\n".join(out)
+
 # ---- Montierter Strahlenschutz (KENEX) ----
 _kenex = json.loads((ROOT / "kenex.json").read_text(encoding="utf-8"))
 def _kenex_cards(cat, sub=None):
@@ -555,6 +595,14 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
               <div class="m-ac-body">
                 <p class="m-ac-lead">Jede Schürze lässt sich individuell anpassen – für eine bessere Zuordnung, mehr Tragekomfort und praktische Details im Klinikalltag. Alle Optionen sind mit den Modellen aus „Persönlicher Strahlenschutz" kombinierbar.</p>
 ''' + _optionen_html() + '''
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-farben">
+              <summary><span class="m-ac-title">Farboptionen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-ac-lead">Alle Schürzen und Zubehörteile sind in zahlreichen Farben, Mustern und Einfassungen erhältlich – für ein individuelles, gut erkennbares Erscheinungsbild. Das Stoffsortiment wird von ROTHBAND laufend erweitert.</p>
+''' + _farben_html() + '''
               </div>
             </details>
           </div>
