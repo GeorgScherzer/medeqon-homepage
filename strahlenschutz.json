@@ -511,6 +511,48 @@
  },
  {
   "sub": "schild",
+  "slug": "tpdm",
+  "fit": "tall",
+  "model": "TPDM Schilddrüsenschutz (magnetisch)",
+  "ref": "TPDM",
+  "description": "Magnetischer D-Type-Schilddrüsenkragen mit tropfenförmiger Frontabdeckung. Der Verschluss erfolgt über hochwertige Neodym-Magnete statt Klettverschluss – das ist hygienischer, verfängt keine Haare und ist damit besonders für längeres Haar geeignet.",
+  "specs": [
+   [
+    "Bauart",
+    "Schilddrüsenkragen (magnetisch)"
+   ],
+   [
+    "Frontform",
+    "tropfenförmig (D-Type)"
+   ],
+   [
+    "Bleigleichwert",
+    "0,50 mm Pb"
+   ],
+   [
+    "Kernmaterial",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Verschluss",
+    "Magnetverschluss (Neodym)"
+   ],
+   [
+    "Vorteil",
+    "Hygienisch · verfängt keine Haare"
+   ],
+   [
+    "Normen",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Herstellung",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ {
+  "sub": "schild",
   "slug": "tpb",
   "model": "TPB Schilddrüsenschutz",
   "ref": "TPB",
