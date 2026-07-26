@@ -696,6 +696,10 @@ textarea.m-input{min-height:150px;resize:vertical}
   border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px}
 .m-src-cta p{margin:0;flex:1 1 440px;max-width:78ch;font-size:16px;line-height:24px;color:var(--ink)}
 .m-src-cta .m-btn{flex:none}
+/* Beschaffung-Icons: größeres weißes Icon, schmalerer dunkler Rand, kräftiger blauer Punkt */
+#beschaffung .m-svc2-ico svg{width:42px;height:42px}
+#beschaffung .m-svc2-ico .sig-fill{fill:var(--signal);stroke:none}
+#beschaffung .m-svc2-ico .sig-stroke{stroke:var(--signal)}
 
 /* ===== Referenzen ===== */
 .m-ref-note{border-left:4px solid var(--signal);background:var(--mist-blue);border-radius:0 14px 14px 0;
