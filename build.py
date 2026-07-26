@@ -209,114 +209,149 @@ BODY_INDEX = '''<section class="m-hero-main">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">Total Cost of Ownership</span>
-      <h2 class="m-bigH">Der Anschaffungspreis ist nur der Anfang<span class="end-dot">.</span></h2>
-      <div class="sub">Ein Medizingerät kostet weit mehr als seinen Kaufpreis. Der größte Teil der Kosten entsteht erst über den gesamten Lebenszyklus – im Betrieb, in der Wartung und im Personal. Wir kennen diese Gesamtkosten im Detail und planen so, dass Sie langfristig sparen.</div>
+      <h2 class="m-bigH">Was kostet Medizintechnik wirklich<span class="end-dot">?</span></h2>
+      <div class="sub">Der Anschaffungspreis ist nur die Spitze des Eisbergs. Über den gesamten Lebenszyklus entstehen weit höhere Kosten – im Betrieb, in der Wartung, im Verbrauch und im Personal. Wir kennen diese Gesamtkosten im Detail und beziehen sie von Anfang an in jede Entscheidung ein.</div>
     </div>
 
-    <div class="m-tco-cards">
-      <div class="m-tco-card m-tco-card--early">
-        <span class="m-tco-card-cap">Frühe Integration</span>
-        <p>Anforderungen an Funktion, Betrieb, Infrastruktur und Kosteneffizienz werden von Beginn an berücksichtigt.</p>
-      </div>
-      <div class="m-tco-card m-tco-card--warn">
-        <span class="m-tco-card-cap">Ohne Medizintechnik-Planung</span>
-        <p>Höhere Kosten und erhöhter Koordinationsaufwand in späteren Projektphasen.</p>
-      </div>
-      <div class="m-tco-card m-tco-card--task">
-        <span class="m-tco-card-cap">Unsere Aufgabe</span>
-        <p class="m-tco-card-title">Verlässliche Grundlagen in den frühen Phasen schaffen<span class="em">.</span></p>
-      </div>
-    </div>
-
-    <div class="m-tco-grid">
-      <figure class="m-tco-chart">
-        <div class="m-tco-chart-title">Kosteneffizienz durch frühe Planung</div>
-        <svg viewBox="0 0 720 400" role="img" aria-label="Diagramm: Projektkosten über 30 Jahre – mit früher Planung deutlich niedrigere Lebenszykluskosten." xmlns="http://www.w3.org/2000/svg">
-          <!-- axes -->
-          <line x1="64" y1="48" x2="64" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
-          <line x1="64" y1="320" x2="612" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
-          <!-- savings area between the curves -->
-          <polygon points="64,320 163,268 262,198 361,138 460,84 560,58 560,141 411,157 262,179 163,200 64,320" fill="#004AAD" fill-opacity="0.08"/>
-          <!-- ohne Planung (steil steigend) -->
-          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="3.4" stroke-linecap="round"/>
-          <!-- mit Planung (flacher) -->
-          <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="3.4" stroke-linecap="round"/>
-          <!-- end points -->
-          <circle cx="560" cy="58" r="5.5" fill="#5B9BD5"/>
-          <circle cx="560" cy="141" r="5.5" fill="#004AAD"/>
-          <!-- end labels -->
-          <text x="576" y="52" font-family="Hanken Grotesk, sans-serif" font-size="14" font-weight="700" fill="#5B9BD5">Kosten ohne</text>
-          <text x="576" y="70" font-family="Hanken Grotesk, sans-serif" font-size="14" font-weight="700" fill="#5B9BD5">Planung</text>
-          <text x="576" y="135" font-family="Hanken Grotesk, sans-serif" font-size="14" font-weight="700" fill="#004AAD">Kosten mit</text>
-          <text x="576" y="153" font-family="Hanken Grotesk, sans-serif" font-size="14" font-weight="700" fill="#004AAD">Planung</text>
-          <!-- x ticks -->
-          <g font-family="IBM Plex Mono, monospace" font-size="12" fill="#6B7785" text-anchor="middle">
-            <text x="64" y="340">0</text><text x="155" y="340">5</text><text x="246" y="340">10</text>
-            <text x="336" y="340">15</text><text x="427" y="340">20</text><text x="518" y="340">25</text><text x="560" y="340">30</text>
-          </g>
-          <text x="628" y="324" font-family="IBM Plex Mono, monospace" font-size="12" fill="#6B7785">Jahre</text>
-          <text x="20" y="184" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1.5" fill="#6B7785" transform="rotate(-90 20 184)" text-anchor="middle">PROJEKTKOSTEN</text>
-          <!-- phase bar -->
-          <rect x="64" y="352" width="99" height="22" rx="5" fill="#E8EEF7"/>
-          <rect x="167" y="352" width="445" height="22" rx="5" fill="#F1F4F8"/>
-          <text x="113" y="367" font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANUNG</text>
-          <text x="389" y="367" font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="1" fill="#6B7785" text-anchor="middle">BETRIEB</text>
-        </svg>
-        <figcaption>Früh planen. Geringere Lebenszykluskosten.</figcaption>
-      </figure>
-
-      <div class="m-tco-side">
+    <div class="m-tco-truecost">
+      <div class="m-tco-truecost-side">
         <div class="m-tco-split">
           <div class="m-tco-split-bar">
             <span class="seg-acq" style="width:20%"><em>20&thinsp;%</em>Anschaffung</span>
             <span class="seg-op" style="width:80%"><em>80&thinsp;%</em>Betrieb über den Lebenszyklus</span>
           </div>
-          <p class="m-tco-split-cap">Der Anschaffungspreis macht typischerweise nur rund ein Fünftel der Gesamtkosten aus – der Großteil entsteht im laufenden Betrieb.</p>
+          <p class="m-tco-split-cap">Der Anschaffungspreis macht typischerweise nur rund ein Fünftel der Gesamtkosten aus – der Großteil entsteht im laufenden Betrieb: Wartung, Verbrauch, Energie und Personal.</p>
         </div>
-
-        <div class="m-tco-factors">
-          <div class="m-tco-factors-cap">Was den wahren Gerätepreis ausmacht</div>
-          <div class="m-tco-chips">
-            <span class="m-tco-chip is-acq">Anschaffung</span>
-            <span class="m-tco-chip">Transport</span>
-            <span class="m-tco-chip">Installation</span>
-            <span class="m-tco-chip">Inbetriebnahme</span>
-            <span class="m-tco-chip">Betrieb &amp; Energie</span>
-            <span class="m-tco-chip">Personal</span>
-            <span class="m-tco-chip">Verbrauchsmaterial</span>
-            <span class="m-tco-chip">Wartung</span>
-            <span class="m-tco-chip">Schulung</span>
-            <span class="m-tco-chip">Entsorgung</span>
-          </div>
-        </div>
-
         <p class="m-tco-principle">Früh planen · Gesamtkosten senken · Werterhalt langfristig sichern<span class="em">.</span></p>
       </div>
-    </div>
+
+      <figure class="m-tco-iceberg">
+          <svg viewBox="0 0 680 620" role="img" aria-label="Eisberg-Modell: Über der Wasserlinie die sichtbaren Anschaffungskosten, darunter die verborgenen Kosten wie Transport, Installation, Inbetriebnahme, Betriebskosten, Personal, Verbrauchsmaterial, Wartung, Schulung und Entsorgung." xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="icebergGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#6AA0D6"/>
+                <stop offset="0.5" stop-color="#1E63B3"/>
+                <stop offset="1" stop-color="#003278"/>
+              </linearGradient>
+            </defs>
+            <rect x="0" y="210" width="680" height="410" fill="#EDF3FA"/>
+            <polygon points="310,206 322,150 342,118 365,110 388,126 404,172 414,206" fill="#CFE0F2"/>
+            <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
+            <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
+            <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
+            <text x="646" y="203" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#6B7785" text-anchor="end">WASSERLINIE</text>
+            <line x1="368" y1="112" x2="452" y2="92" stroke="#0F1B2C" stroke-width="1.3"/>
+            <circle cx="368" cy="112" r="4" fill="#004AAD"/>
+            <text x="460" y="84" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#6B7785">DIE SPITZE</text>
+            <text x="460" y="107" font-family="Hanken Grotesk, sans-serif" font-size="19" font-weight="700" fill="#0F1B2C">Anschaffungskosten</text>
+            <g fill="#fff" font-family="Hanken Grotesk, sans-serif" font-size="15.5" font-weight="600" text-anchor="middle">
+              <text x="362" y="248">Transport</text>
+              <text x="362" y="286">Installation</text>
+              <text x="362" y="324">Inbetriebnahme</text>
+              <text x="362" y="362">Betriebskosten</text>
+              <text x="362" y="400">Personalkosten</text>
+              <text x="362" y="438">Verbrauchsmaterial</text>
+              <text x="362" y="476">Wartung</text>
+              <text x="362" y="514">Schulung</text>
+              <text x="362" y="552">Entsorgung</text>
+            </g>
+            <g>
+              <line x1="54" y1="150" x2="54" y2="206" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="68" y="166" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#004AAD">SICHTBAR</text>
+              <text x="68" y="186" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">was der Preis</text>
+              <text x="68" y="203" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">zeigt</text>
+              <line x1="54" y1="252" x2="54" y2="452" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="68" y="300" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#004AAD">VERBORGEN</text>
+              <text x="68" y="320" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">was das Gerät</text>
+              <text x="68" y="337" font-family="Hanken Grotesk, sans-serif" font-size="13" fill="#6B7785">wirklich kostet</text>
+            </g>
+          </svg>
+          <figcaption>Der Kaufpreis ist nur die Spitze des Eisbergs.</figcaption>
+        </figure>
+      </div>
   </div>
 </section>
 
 <section class="m-section alt" id="mtd">
   <div class="m-shell">
     <div class="m-secH">
-      <span class="m-tag">Medical Technology Design</span>
-      <h2 class="m-bigH">Medizintechnik-Planung als integraler Prozess<span class="end-dot">.</span></h2>
-      <div class="sub">So bringen wir unsere Medizintechnik-Expertise von der ersten Konzeptphase an in Ihr Projekt ein – eng abgestimmt mit Architektur, Gebäudetechnik und Betrieb.</div>
+      <span class="m-tag">Medizintechnik-Planung</span>
+      <h2 class="m-bigH">Frühe Planung, die sich über den gesamten Lebenszyklus rechnet<span class="end-dot">.</span></h2>
+      <div class="sub">Wir bringen Medizintechnik von der ersten Konzeptphase an in die Planung ein – das senkt Kosten, schafft Termin- und Kostensicherheit und verankert die Anforderungen des späteren Betriebs von Beginn an.</div>
     </div>
-    <div class="m-mtd-grid">
-      <div class="m-mtd-points">
-        <div class="m-mtd-cap">Was unsere Medizintechnik-Planung ermöglicht</div>
-        <ul class="m-mtd-list">
-          <li>Weniger Umplanungen</li>
-          <li>Termin- &amp; Kostensicherheit</li>
-          <li>Effiziente BIM-Koordination</li>
-          <li>Verlässliche Baudaten</li>
-          <li>Integration der Betreiberbedürfnisse</li>
-        </ul>
+
+    <div class="m-tco-part">
+      <div class="m-tco-subhead">
+        <span class="m-tco-step">01</span>
+        <h3>Kosteneffizienz durch frühe Planung</h3>
+        <p>Wer Medizintechnik früh integriert, vermeidet teure Umplanungen und senkt die Kosten über den gesamten Lebenszyklus.</p>
       </div>
-      <figure class="m-mtd-figure">
-        <img src="assets/brands/integrated-design-model.png" alt="Integriertes Planungsmodell – BIM als zentrale Koordinationsdrehscheibe zwischen Architektur, Medizintechnik, Gebäudetechnik und Betriebsorganisation, geprägt von Budget, Hygieneanforderungen, behördlichen Anforderungen und Nutzerbedürfnissen." loading="lazy">
+
+      <div class="m-tco-cards">
+        <div class="m-tco-card m-tco-card--early">
+          <span class="m-tco-card-cap">Frühe Integration</span>
+          <p>Anforderungen an Funktion, Betrieb, Infrastruktur und Kosteneffizienz werden von Beginn an berücksichtigt.</p>
+        </div>
+        <div class="m-tco-card m-tco-card--warn">
+          <span class="m-tco-card-cap">Ohne Medizintechnik-Planung</span>
+          <p>Höhere Kosten und erhöhter Koordinationsaufwand in späteren Projektphasen.</p>
+        </div>
+        <div class="m-tco-card m-tco-card--task">
+          <span class="m-tco-card-cap">Unsere Aufgabe</span>
+          <p class="m-tco-card-title">Verlässliche Grundlagen in den frühen Phasen schaffen<span class="em">.</span></p>
+        </div>
+      </div>
+
+      <figure class="m-tco-chart">
+        <div class="m-tco-chart-title">Kosteneffizienz durch frühe Planung</div>
+        <svg viewBox="0 0 720 400" role="img" aria-label="Diagramm: Projektkosten über 30 Jahre – mit früher Planung deutlich niedrigere Lebenszykluskosten." xmlns="http://www.w3.org/2000/svg">
+          <line x1="64" y1="48" x2="64" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
+          <line x1="64" y1="320" x2="612" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
+          <polygon points="64,320 163,268 262,198 361,138 460,84 560,58 560,141 411,157 262,179 163,200 64,320" fill="#004AAD" fill-opacity="0.08"/>
+          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="4" stroke-linecap="round"/>
+          <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
+          <circle cx="560" cy="141" r="6" fill="#004AAD"/>
+          <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Kosten ohne</text>
+          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Planung</text>
+          <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Kosten mit</text>
+          <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Planung</text>
+          <g font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785" text-anchor="middle">
+            <text x="64" y="342">0</text><text x="155" y="342">5</text><text x="246" y="342">10</text>
+            <text x="336" y="342">15</text><text x="427" y="342">20</text><text x="518" y="342">25</text><text x="560" y="342">30</text>
+          </g>
+          <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785">Jahre</text>
+          <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#6B7785" transform="rotate(-90 22 184)" text-anchor="middle">PROJEKTKOSTEN</text>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#E8EEF7"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#F1F4F8"/>
+          <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANUNG</text>
+          <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#6B7785" text-anchor="middle">BETRIEB</text>
+        </svg>
+        <figcaption>Früh planen. Geringere Lebenszykluskosten.</figcaption>
       </figure>
+    </div>
+
+    <div class="m-tco-part">
+      <div class="m-tco-subhead">
+        <span class="m-tco-step">02</span>
+        <h3>Medizintechnik-Planung als integraler Prozess</h3>
+        <p>So bringen wir unsere Medizintechnik-Expertise ein – eng abgestimmt mit Architektur, Gebäudetechnik und Betrieb.</p>
+      </div>
+      <div class="m-mtd-grid">
+        <div class="m-mtd-points">
+          <div class="m-mtd-cap">Was unsere Medizintechnik-Planung ermöglicht</div>
+          <ul class="m-mtd-list">
+            <li>Weniger Umplanungen</li>
+            <li>Termin- &amp; Kostensicherheit</li>
+            <li>Effiziente BIM-Koordination</li>
+            <li>Verlässliche Baudaten</li>
+            <li>Integration der Betreiberbedürfnisse</li>
+          </ul>
+        </div>
+        <figure class="m-mtd-figure">
+          <img src="assets/brands/integrated-design-model.png" alt="Integriertes Planungsmodell – BIM als zentrale Koordinationsdrehscheibe zwischen Architektur, Medizintechnik, Gebäudetechnik und Betriebsorganisation, geprägt von Budget, Hygieneanforderungen, behördlichen Anforderungen und Nutzerbedürfnissen." loading="lazy">
+        </figure>
+      </div>
     </div>
   </div>
 </section>
