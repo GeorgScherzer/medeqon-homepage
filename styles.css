@@ -707,7 +707,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-card-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.13em;text-transform:uppercase;
   display:block;margin-bottom:9px}
 .m-tco-card p{margin:0;font-size:14.5px;line-height:21px;color:var(--ink)}
-.m-tco-card--early{background:var(--mist-blue);border:1px solid #D5E1F2}
+.m-tco-card--early{background:#fff;border:1px solid #D5E1F2}
 .m-tco-card--early .m-tco-card-cap{color:var(--signal)}
 .m-tco-card--warn{background:#FBEDEA}
 .m-tco-card--warn .m-tco-card-cap{color:#B23A2E}
@@ -770,9 +770,9 @@ textarea.m-input{min-height:150px;resize:vertical}
 /* ===== Medizintechnik-Planung ===== */
 .m-mtd-subhead{font-family:var(--font-display);font-weight:700;font-size:27px;line-height:33px;
   letter-spacing:-0.01em;color:var(--brand-700);margin:60px 0 22px}
-.m-mtd-enable{background:var(--mist-blue);border:1px solid #D5E1F2;border-radius:18px;padding:24px 30px;margin-bottom:32px}
-.m-mtd-enable-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
-  color:var(--signal);display:block;margin-bottom:16px}
+.m-mtd-enable{background:#fff;border:1px solid #D5E1F2;border-radius:18px;padding:26px 32px;margin-bottom:32px}
+.m-mtd-enable-cap{font-family:var(--font-display);font-weight:700;font-size:19px;line-height:25px;
+  letter-spacing:-0.01em;color:var(--brand-700);display:block;margin-bottom:18px}
 .m-mtd-enable-items{display:flex;flex-wrap:wrap;gap:14px 32px}
 .m-mtd-enable-items span{position:relative;padding-left:26px;font-family:var(--font-display);font-weight:700;
   font-size:16px;line-height:22px;color:var(--brand-700)}
@@ -795,6 +795,17 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-bim-card li{position:relative;padding-left:20px;font-size:14.5px;line-height:21px;color:var(--ink)}
 .m-bim-card li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:50%;
   background:var(--signal)}
+/* BIM dunkles Kapitel */
+.m-sec-navy{background:var(--deep-800);color:#fff}
+.m-sec-navy .m-bigH{color:#fff}
+.m-sec-navy .m-secH .sub{color:rgba(255,255,255,0.72)}
+#bim > .m-shell > .m-secH .m-tag{color:var(--sky)}
+#bim .end-dot{color:var(--sky)}
+.m-sec-navy .m-bim-card{background:rgba(255,255,255,0.055);border:1px solid rgba(255,255,255,0.13)}
+.m-sec-navy .m-bim-cap{color:var(--sky)}
+.m-sec-navy .m-bim-card h3{color:#fff}
+.m-sec-navy .m-bim-card li{color:#C4CFDE}
+.m-sec-navy .m-bim-card li::before{background:var(--sky)}
 @media (max-width:900px){
   .m-mtd-grid,.m-bim-grid{grid-template-columns:1fr;gap:28px}
 }

@@ -270,7 +270,7 @@ BODY_INDEX = '''<section class="m-hero-main">
   </div>
 </section>
 
-<section class="m-section" id="mtd">
+<section class="m-section alt" id="mtd">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">Medizintechnik-Planung</span>
@@ -333,12 +333,12 @@ BODY_INDEX = '''<section class="m-hero-main">
       </div>
     </div>
     <figure class="m-mtd-figure">
-      <img src="assets/brands/integrated-design-model.png" alt="Integriertes Planungsmodell – BIM als zentrale Koordinationsdrehscheibe zwischen Architektur, Medizintechnik, Gebäudetechnik und Betriebsorganisation, geprägt von Budget, Hygieneanforderungen, behördlichen Anforderungen und Nutzerbedürfnissen." loading="lazy">
+      <img src="assets/brands/integrated-design-model-mist.png" alt="Integriertes Planungsmodell – BIM als zentrale Koordinationsdrehscheibe zwischen Architektur, Medizintechnik, Gebäudetechnik und Betriebsorganisation, geprägt von Budget, Hygieneanforderungen, behördlichen Anforderungen und Nutzerbedürfnissen." loading="lazy">
     </figure>
   </div>
 </section>
 
-<section class="m-section" id="bim">
+<section class="m-section m-sec-navy" id="bim">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">BIM</span>
@@ -368,7 +368,7 @@ BODY_INDEX = '''<section class="m-hero-main">
             <circle cx="160" cy="40" r="3.2"/><circle cx="270" cy="150" r="3.2"/>
             <circle cx="160" cy="260" r="3.2"/><circle cx="50" cy="150" r="3.2"/>
           </g>
-          <g font-family="Hanken Grotesk, sans-serif" font-size="13.5" font-weight="700" fill="#0F1B2C">
+          <g font-family="Hanken Grotesk, sans-serif" font-size="14.5" font-weight="700" fill="#fff">
             <text x="160" y="20" text-anchor="middle">IFC</text>
             <text x="294" y="155" text-anchor="start">REVIT</text>
             <text x="160" y="288" text-anchor="middle">BCF</text>
