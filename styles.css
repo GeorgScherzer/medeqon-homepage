@@ -366,8 +366,8 @@ details.m-ac[open]{border-color:var(--sky);box-shadow:0 8px 30px rgba(15,27,44,0
 details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--signal)}
 .m-ac-mfr{flex:none;width:auto;display:block;opacity:.9}
 .m-ac-body > .m-ac-mfr{margin:0 0 16px}
-.m-ac-mfr--rothband{height:18px}
-.m-ac-mfr--kenex{height:20px}
+.m-ac-mfr--rothband{height:32px}
+.m-ac-mfr--kenex{height:36px}
 .m-ac-body{padding:2px 28px 30px}
 .m-ac-lead{font-size:15px;line-height:24px;color:var(--ink);max-width:74ch;margin:0 0 20px}
 .m-ac-src{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;
