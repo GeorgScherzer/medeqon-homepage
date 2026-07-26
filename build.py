@@ -403,6 +403,44 @@ def _ss_cards(sub):
 def _ss_count(sub):
     return sum(1 for p in _ss if p["sub"] == sub)
 
+# ---- Personalisierung & Optionen (ROTHBAND) ----
+_OPTIONEN = [
+    ("Personalisierung", [
+        ("stickerei", "Stickerei", "Individuelle Textstickerei direkt auf der Schürze – z. B. Name, Abteilung oder Einsatzbereich."),
+        ("tasche", "Aufgesetzte Tasche", "Praktische Außentasche für Dosimeter, Stift oder Kleinteile."),
+        ("taschen-stickerei", "Taschen-Stickerei", "Bestickung direkt auf der Tasche – etwa mit Abteilungs- oder Klinikname."),
+        ("namensschild", "Austauschbares Namensschild", "Per Klett wechselbares Namensschild – jederzeit flexibel anpassbar."),
+        ("ausweistasche", "Transparente Ausweistasche", "Klarsichttasche für Dienstausweis oder Dosimeter-Karte."),
+    ]),
+    ("Optionale Extras", [
+        ("innentasche", "Innentasche", "Verdeckte Innentasche für persönliche Kleinteile."),
+        ("outlast", "Outlast®-Klimatechnologie", "Temperaturregulierendes Innenfutter für spürbar angenehmeres Tragen."),
+        ("rocktasche", "Rock-Tasche", "Zusätzliche Tasche am Rockteil des Zweiteilers."),
+        ("innengurt", "Innengurt", "Integrierter Stützgurt entlastet den Rücken und verbessert den Sitz."),
+    ]),
+]
+def _optionen_html():
+    out = []
+    for group, items in _OPTIONEN:
+        tiles = []
+        for key, title, desc in items:
+            tiles.append(
+'                    <figure class="m-opt">\n'
+f'                      <div class="m-opt-img"><img src="assets/optionen/{key}.jpg" alt="{_html.escape(title)}" loading="lazy"></div>\n'
+'                      <figcaption class="m-opt-body">\n'
+f'                        <h4 class="m-opt-title">{_html.escape(title)}</h4>\n'
+f'                        <p class="m-opt-desc">{_html.escape(desc)}</p>\n'
+'                      </figcaption>\n'
+'                    </figure>')
+        out.append(
+'                <div class="m-opt-group">\n'
+f'                  <div class="m-opt-grouptitle">{_html.escape(group)}</div>\n'
+'                  <div class="m-opt-grid">\n'
++ "\n".join(tiles) + '\n'
+'                  </div>\n'
+'                </div>')
+    return "\n".join(out)
+
 # ---- Montierter Strahlenschutz (KENEX) ----
 _kenex = json.loads((ROOT / "kenex.json").read_text(encoding="utf-8"))
 def _kenex_cards(cat, sub=None):
@@ -498,6 +536,14 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
                 <div class="m-pl-list">
 ''' + _ss_cards("zubehoer") + '''
                 </div>
+              </div>
+            </details>
+
+            <details class="m-ac m-ac-sub" id="ss-personalisierung">
+              <summary><span class="m-ac-title">Personalisierung &amp; Optionen</span>''' + CHEV + '''</summary>
+              <div class="m-ac-body">
+                <p class="m-ac-lead">Jede Schürze lässt sich individuell anpassen – für eine bessere Zuordnung, mehr Tragekomfort und praktische Details im Klinikalltag. Alle Optionen sind mit den Modellen aus „Persönlicher Strahlenschutz" kombinierbar.</p>
+''' + _optionen_html() + '''
               </div>
             </details>
           </div>
