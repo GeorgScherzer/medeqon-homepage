@@ -12,6 +12,7 @@ NAV = [
     ("index.html", "Startseite"),
     ("leistungen.html", "Leistungen"),
     ("produkte.html", "Produkte"),
+    ("referenzen.html", "Referenzen"),
     ("management.html", "Management"),
     ("kontakt.html", "Kontakt"),
 ]
@@ -1171,6 +1172,208 @@ BODY_KONTAKT = '''<section class="m-page-hero">
 })();
 </script>'''
 
+# ================= Referenzen (persönliche Referenzen G. Scherzer) =================
+import re as _re
+_ref_data = json.loads((ROOT / "referenzen.json").read_text(encoding="utf-8"))
+_PIN = ('<svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+        'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+        '<path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/>'
+        '<circle cx="12" cy="10" r="2.4"/></svg>')
+
+def _ref_eurnum(s):
+    d = _re.sub(r'[^\d]', '', s or '')
+    return int(d) if d else 0
+
+def _ref_vol(n):
+    if n >= 1_000_000:
+        mio = n / 1_000_000
+        if abs(mio - round(mio)) < 1e-9:
+            return f"€ {int(round(mio))} Mio."
+        return "€ " + f"{mio:.1f}".replace('.', ',') + " Mio."
+    if n >= 1000:
+        return f"€ {n//1000}.000"
+    return f"€ {n}"
+
+_ref_all = []
+for _g in _ref_data["groups"]:
+    for _p in _g["projects"]:
+        _ref_all.append({**_p, "_client": _g["client"], "_num": _ref_eurnum(_p.get("kosten", ""))})
+_ref_flags = sorted(_ref_all, key=lambda p: p["_num"], reverse=True)[:6]
+
+def _ref_flag_card(p):
+    return (
+'        <figure class="m-ref-flag">\n'
+f'          <div class="m-ref-flag-vol">{_ref_vol(p["_num"])}</div>\n'
+f'          <div class="m-ref-flag-client">{_html.escape(p["_client"])}</div>\n'
+f'          <h3 class="m-ref-flag-name">{_html.escape(p["name"])}</h3>\n'
+f'          <p class="m-ref-flag-meta">{_html.escape(p.get("lph",""))} &middot; {_html.escape(p.get("dauer",""))}</p>\n'
+'        </figure>')
+
+def _ref_item(p):
+    n = _ref_eurnum(p.get("kosten", ""))
+    chips = []
+    if p.get("lph"):   chips.append(f'<span class="m-ref-chip">{_html.escape(p["lph"])}</span>')
+    if p.get("dauer"): chips.append(f'<span class="m-ref-chip">{_html.escape(p["dauer"])}</span>')
+    chips.append(f'<span class="m-ref-vol">{_ref_vol(n)}</span>')
+    return (
+'            <div class="m-ref-item">\n'
+'              <div class="m-ref-item-main">\n'
+f'                <div class="m-ref-item-name">{_html.escape(p["name"])}</div>\n'
+f'                <p class="m-ref-item-desc">{_html.escape(p.get("umfang",""))}</p>\n'
+'              </div>\n'
+f'              <div class="m-ref-item-meta">{"".join(chips)}</div>\n'
+'            </div>')
+
+def _ref_group(g, num):
+    title = _html.escape(g["client"]) + " &middot; " + _html.escape(g["subtitle"])
+    vol = _ref_vol(sum(_ref_eurnum(p.get("kosten", "")) for p in g["projects"]))
+    items = "\n".join(_ref_item(p) for p in g["projects"])
+    return (
+f'      <details class="m-ac" id="ref-{g["id"]}">\n'
+f'        <summary><span class="m-ac-num">{num}</span><span class="m-ac-title">{title}</span>' + CHEV + '</summary>\n'
+'        <div class="m-ac-body">\n'
+f'          <p class="m-pl-count">{len(g["projects"])} Projekte &middot; Beschaffungsvolumen {vol}</p>\n'
+'          <div class="m-ref-list">\n'
++ items + '\n'
+'          </div>\n'
+'        </div>\n'
+'      </details>')
+
+_ref_groups_html = "\n".join(_ref_group(g, f"{i+1:02d}") for i, g in enumerate(_ref_data["groups"]))
+_ref_flags_html = "\n".join(_ref_flag_card(p) for p in _ref_flags)
+
+BODY_REFERENZEN = '''<section class="m-page-hero">
+  <div class="m-shell">
+    <span class="m-tag">Referenzen</span>
+    <h1>Referenzen aus über 15 Jahren Medizintechnik<span class="end-dot">.</span></h1>
+    <p class="lede">Eine Auswahl erfolgreich abgeschlossener Projekte aus der beruflichen Laufbahn unseres Gründers Georg Scherzer – von der Planung hochkomplexer klinischer Infrastruktur bis zur Beschaffung modernster Medizintechnik an führenden Häusern in Österreich und der Schweiz.</p>
+  </div>
+</section>
+
+<section class="m-section">
+  <div class="m-shell">
+    <div class="m-ref-note">
+      <span class="m-ref-note-cap">Wichtiger Hinweis</span>
+      <p>Die nachfolgend gezeigten Projekte sind <strong>persönliche Referenzen von Georg Scherzer</strong> aus seiner bisherigen beruflichen Tätigkeit – erbracht in leitender Funktion am Allgemeinen Krankenhaus der Stadt Wien (AKH&nbsp;Wien) sowie bei der VAMED. Sie wurden nicht im Namen der medeqon&nbsp;GmbH realisiert. Als junges Unternehmen legen wir Wert auf diese Klarstellung – zugleich fließt genau diese über Jahre gewachsene Erfahrung in jedes medeqon-Projekt ein.</p>
+    </div>
+
+    <div class="m-ref-stats">
+      <div class="m-ref-stat"><span class="m-ref-stat-num">55+</span><span class="m-ref-stat-label">Realisierte Projekte</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;92&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen Medizintechnik</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">15+</span><span class="m-ref-stat-label">Jahre Erfahrung</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">3 Regionen</span><span class="m-ref-stat-label">Österreich, Schweiz &amp; Naher Osten</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="m-section alt">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Auswahl</span>
+      <h2 class="m-bigH">Leuchtturmprojekte<span class="end-dot">.</span></h2>
+      <div class="sub">Eine Auswahl der umfangreichsten realisierten Projekte – gemessen am Beschaffungsvolumen der Medizintechnik.</div>
+    </div>
+    <div class="m-ref-flags">
+''' + _ref_flags_html + '''
+    </div>
+  </div>
+</section>
+
+<section class="m-section">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Projektreferenzen</span>
+      <h2 class="m-bigH">Vollständige Referenzliste<span class="end-dot">.</span></h2>
+      <div class="sub">Gegliedert nach Auftraggeber und Verantwortungsbereich. Klicken Sie eine Gruppe an, um alle Projekte mit Details einzusehen.</div>
+    </div>
+    <div class="m-acc">
+''' + _ref_groups_html + '''
+    </div>
+  </div>
+</section>
+
+<section class="m-section alt" id="nahost">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Internationale Einsätze</span>
+      <h2 class="m-bigH">Projekte im Nahen Osten<span class="end-dot">.</span></h2>
+      <div class="sub">Im Rahmen humanitärer und internationaler Einsätze war Georg Scherzer über rund zweieinhalb Jahre vor Ort im Nahen Osten tätig – in Regionen, die von Krisen und bewaffneten Konflikten geprägt sind. Der Schwerpunkt lag auf der bedarfsgerechten Ausstattung medizinischer Einrichtungen unter schwierigsten Rahmenbedingungen.</div>
+    </div>
+
+    <div class="m-nahost-stats">
+      <div class="m-ref-stat"><span class="m-ref-stat-num">6</span><span class="m-ref-stat-label">Projekte vor Ort</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">2,5&nbsp;Jahre</span><span class="m-ref-stat-label">Tätigkeit in der Region</span></div>
+      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;8&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen</span></div>
+    </div>
+
+    <div class="m-nahost-grid">
+      <div class="m-nahost-block">
+        <div class="m-nahost-cap">6 Standorte</div>
+        <div class="m-nahost-cities">
+          <span class="m-nahost-city">''' + _PIN + '''Damaskus<em>Syrien</em></span>
+          <span class="m-nahost-city">''' + _PIN + '''Homs<em>Syrien</em></span>
+          <span class="m-nahost-city">''' + _PIN + '''Aleppo<em>Syrien</em></span>
+          <span class="m-nahost-city">''' + _PIN + '''Latakia<em>Syrien</em></span>
+          <span class="m-nahost-city">''' + _PIN + '''Amman<em>Jordanien</em></span>
+          <span class="m-nahost-city">''' + _PIN + '''Beirut<em>Libanon</em></span>
+        </div>
+      </div>
+      <div class="m-nahost-block">
+        <div class="m-nahost-cap">Fachliche Schwerpunkte</div>
+        <ul class="m-nahost-focus">
+          <li>Bedarfsanalysen</li>
+          <li>Gerätebewertungen</li>
+          <li>Beschaffung</li>
+          <li>Logistik</li>
+          <li>Qualitätsüberprüfung von lokalen Händlern</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="m-section">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Akademisches &amp; Beratung</span>
+      <h2 class="m-bigH">Wissenschaft &amp; internationale Beratung<span class="end-dot">.</span></h2>
+      <div class="sub">Neben der praktischen Projektarbeit ist Georg Scherzer wissenschaftlich und beratend tätig – unter anderem für die Weltgesundheitsorganisation.</div>
+    </div>
+    <div class="m-ref-acad">
+      <figure class="m-ref-acadcard">
+        <span class="m-ref-acadcap">Internationale Beratung</span>
+        <h3>World Health Organization (WHO)</h3>
+        <p>Beratung zum „Compendium on innovative medical technologies" sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.</p>
+      </figure>
+      <figure class="m-ref-acadcard">
+        <span class="m-ref-acadcap">Promotion</span>
+        <h3>Doktorarbeit (PhD)</h3>
+        <p>„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?" – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen.</p>
+      </figure>
+      <figure class="m-ref-acadcard">
+        <span class="m-ref-acadcap">Publikationen</span>
+        <h3>Peer-reviewed Fachartikel &amp; Fachbuch</h3>
+        <p>Mehrere begutachtete Publikationen in internationalen Fachzeitschriften zu Medizintechnik, öffentlicher Gesundheit und Sicherheit sowie ein Fachbuch zu MRT-Sicherheit für Einsatzkräfte.</p>
+      </figure>
+      <figure class="m-ref-acadcard">
+        <span class="m-ref-acadcap">Lehre &amp; Konferenzen</span>
+        <h3>Vorträge &amp; akademische Betreuung</h3>
+        <p>Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">
+  <div class="m-shell">
+    <div class="m-cta-banner-copy">
+      <div class="line"></div>
+      <h2>Ihr Projekt in erfahrenen Händen<span class="end-dot">.</span></h2>
+      <a class="m-cta-link" href="kontakt.html">Projekt besprechen</a>
+    </div>
+  </div>
+</section>'''
+
 def legal_body(tag, title):
     return f'''<section class="m-page-hero">
   <div class="m-shell">
@@ -1206,6 +1409,9 @@ PAGES = [
     ("produkte.html", "Produkte · medeqon",
      "Produkte von medeqon — zertifizierte Medizintechnik. Inhalte folgen.",
      "Produkte", BODY_PRODUKTE),
+    ("referenzen.html", "Referenzen · medeqon",
+     "Persönliche Projektreferenzen von Georg Scherzer: über 50 realisierte Projekte am AKH Wien und bei VAMED mit rund € 84 Mio. Beschaffungsvolumen Medizintechnik.",
+     "Referenzen", BODY_REFERENZEN),
     ("management.html", "Management · medeqon",
      "Das Management von medeqon: zwei erfahrene Medizintechniker:innen mit über 25 Jahren Erfahrung in klinischer Infrastruktur.",
      "Management", BODY_MANAGEMENT),
