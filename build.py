@@ -489,6 +489,103 @@ def _kenex_cards(cat, sub=None):
 def _kenex_count(cat, sub=None):
     return sum(1 for p in _kenex if p["cat"] == cat and (sub is None or p.get("sub") == sub))
 
+# ---- Download-Bereiche (Kataloge, Datenblätter, Zertifikate) ----
+_DL_ICONS = {
+    "book": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15.5H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/><path d="M8 7.5h7"/></svg>',
+    "doc":  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8.5 13h7"/><path d="M8.5 16.5h7"/></svg>',
+    "cert": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9.5" r="5.5"/><path d="M9.3 13.8 8 21l4-2 4 2-1.3-7.2"/><path d="M9.6 9.3l1.6 1.6 3-3.2"/></svg>',
+}
+_DL_DOWNLOAD = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>'
+
+def _dl_card(item):
+    icon = _DL_ICONS.get(item.get("icon", "doc"), _DL_ICONS["doc"])
+    title = _html.escape(item["title"])
+    meta = _html.escape(item.get("meta", "PDF-Dokument"))
+    f = item.get("file")
+    if f:
+        action = f'<a class="m-dl-btn" href="{f}" download aria-label="{title} herunterladen">{_DL_DOWNLOAD}</a>'
+        soon = ""
+    else:
+        action = '<span class="m-dl-flag">In Kürze</span>'
+        soon = " is-soon"
+    return (
+'                    <figure class="m-dl-card' + soon + '">\n'
+f'                      <span class="m-dl-ic">{icon}</span>\n'
+'                      <span class="m-dl-main">\n'
+f'                        <span class="m-dl-title">{title}</span>\n'
+f'                        <span class="m-dl-meta">{meta}</span>\n'
+'                      </span>\n'
+f'                      {action}\n'
+'                    </figure>')
+
+def _downloads_category(num, cid, lead, groups):
+    parts = [
+'      <details class="m-ac" id="' + cid + '">\n'
+'        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">Downloads &amp; Unterlagen</span>' + CHEV + '</summary>\n'
+'        <div class="m-ac-body">\n'
+'          <p class="m-ac-lead">' + lead + '</p>\n'
+'          <div class="m-dl-wrap">']
+    for group, items in groups:
+        parts.append(
+'            <div class="m-dl-group">\n'
+f'              <div class="m-dl-grouptitle">{_html.escape(group)}</div>\n'
+'              <div class="m-dl-grid">\n'
++ "\n".join(_dl_card(it) for it in items) + '\n'
+'              </div>\n'
+'            </div>')
+    parts.append(
+'          </div>\n'
+'        </div>\n'
+'      </details>')
+    return "\n".join(parts)
+
+_DL_LEAD = ("Hier stellen wir Ihnen Unterlagen zum Herunterladen bereit &ndash; "
+            "Herstellerkataloge, technische Datenblätter, Produktinformationen sowie "
+            "CE- und Konformitätszertifikate. Neue Dokumente ergänzen wir laufend.")
+
+DL_STRAHLENSCHUTZ = [
+    ("Herstellerkataloge", [
+        {"title": "ROTHBAND – Produktkatalog", "meta": "Gesamtkatalog Strahlenschutz · PDF", "icon": "book"},
+        {"title": "KENEX – Produktkatalog", "meta": "Röntgenschutz­systeme · PDF", "icon": "book"},
+    ]),
+    ("Datenblätter & Produktinfos", [
+        {"title": "Datenblätter – Persönlicher Strahlenschutz", "meta": "Technische Daten · PDF"},
+        {"title": "Datenblätter – Tisch-, Decken- & Mobilschutz (KENEX)", "meta": "Technische Daten · PDF"},
+    ]),
+    ("Zertifikate & Konformität", [
+        {"title": "CE-Konformitätserklärung – ROTHBAND", "meta": "Zertifikat · PDF", "icon": "cert"},
+        {"title": "CE-Konformitätserklärung – KENEX", "meta": "Zertifikat · PDF", "icon": "cert"},
+    ]),
+]
+
+DL_MED = [
+    ("Herstellerkataloge", [
+        {"title": "COINFYCARE – Produktkatalog", "meta": "Medizinische Einrichtung · PDF", "icon": "book"},
+    ]),
+    ("Datenblätter & Produktinfos", [
+        {"title": "Datenblätter – Untersuchungsliegen", "meta": "Technische Daten · PDF"},
+        {"title": "Datenblätter – Medizinische Stühle", "meta": "Technische Daten · PDF"},
+        {"title": "Datenblätter – Sichtschutz", "meta": "Technische Daten · PDF"},
+    ]),
+    ("Zertifikate & Konformität", [
+        {"title": "CE-Konformitätserklärung – COINFYCARE", "meta": "Zertifikat · PDF", "icon": "cert"},
+    ]),
+]
+
+DL_HB = [
+    ("Herstellerkataloge", [
+        {"title": "MOBIAK – Produktkatalog", "meta": "Heilbehelfe & Hilfsmittel · PDF", "icon": "book"},
+    ]),
+    ("Datenblätter & Produktinfos", [
+        {"title": "Datenblätter – Rollstühle & Mobilität", "meta": "Technische Daten · PDF"},
+        {"title": "Datenblätter – Anti-Dekubitus-Produkte", "meta": "Technische Daten · PDF"},
+        {"title": "Datenblätter – Sauerstoffkonzentratoren", "meta": "Technische Daten · PDF"},
+    ]),
+    ("Zertifikate & Konformität", [
+        {"title": "CE-Konformitätserklärung – MOBIAK", "meta": "Zertifikat · PDF", "icon": "cert"},
+    ]),
+]
+
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Produkte</span>
@@ -715,6 +812,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
+''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD, DL_STRAHLENSCHUTZ) + '''
     </div>
   </div>
 </section>
@@ -803,6 +901,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
+''' + _downloads_category("04", "downloads-medizinische-einrichtung", _DL_LEAD, DL_MED) + '''
     </div>
   </div>
 </section>
@@ -877,6 +976,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
+''' + _downloads_category("06", "downloads-heilbehelfe", _DL_LEAD, DL_HB) + '''
     </div>
   </div>
 </section>'''
