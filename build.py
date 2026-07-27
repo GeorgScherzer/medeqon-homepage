@@ -800,7 +800,7 @@ f'                          <a class="m-dl-lang" href="{en}" download aria-label
 '                        </span>\n'
 '                      </figure>')
 
-def _downloads_datasheets(num, cid, lead, cats):
+def _downloads_datasheets(num, cid, lead, cats, note=None):
     parts = [
 '      <details class="m-ac" id="' + cid + '">\n'
 '        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">Downloads &amp; Unterlagen</span>' + CHEV + '</summary>\n'
@@ -820,6 +820,12 @@ def _downloads_datasheets(num, cid, lead, cats):
 + "\n".join(_ds_card(m) for m in models) + '\n'
 '              </div>')
         parts.append('            </div>')
+    if note:
+        parts.append(
+'            <div class="m-dl-note">\n'
+'              <p>' + note + '</p>\n'
+'              <a class="m-dl-note-btn" href="kontakt.html">Zur Kontaktseite</a>\n'
+'            </div>')
     parts.append(
 '          </div>\n'
 '        </div>\n'
@@ -1184,7 +1190,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS) + '''
+''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, note=_DL_NOTE_REQUEST) + '''
     </div>
   </div>
 </section>
