@@ -1530,6 +1530,43 @@ f'          <p class="m-pl-count">{len(g["projects"])} Projekte &middot; Beschaf
 _ref_groups_html = "\n".join(_ref_group(g, f"{i+1:02d}") for i, g in enumerate(_ref_data["groups"]))
 _ref_flags_html = "\n".join(_ref_flag_card(p) for p in _ref_flags)
 
+# --- Filterbares Projektkarten-Raster ---
+_REF_FLABEL = {"akh-persoenlich": "AKH Wien · Persönlich",
+               "akh-leitung": "AKH Wien · Leitung",
+               "vamed": "VAMED"}
+
+def _ref_card(p, gid, client):
+    n = _ref_eurnum(p.get("kosten", ""))
+    chips = []
+    if p.get("lph"):   chips.append(f'<span class="m-refc-chip">{_html.escape(p["lph"])}</span>')
+    if p.get("dauer"): chips.append(f'<span class="m-refc-chip">{_html.escape(p["dauer"])}</span>')
+    return (
+f'          <article class="m-refc" data-group="{gid}">\n'
+'            <div class="m-refc-head">\n'
+f'              <span class="m-refc-client">{_html.escape(client)}</span>\n'
+f'              <span class="m-refc-vol">{_ref_vol(n)}</span>\n'
+'            </div>\n'
+f'            <h3 class="m-refc-name">{_html.escape(p["name"])}</h3>\n'
+f'            <p class="m-refc-desc">{_html.escape(p.get("umfang",""))}</p>\n'
+f'            <div class="m-refc-foot">{"".join(chips)}</div>\n'
+'          </article>')
+
+_ref_cards_html = "\n".join(
+    _ref_card(p, g["id"], g["client"]) for g in _ref_data["groups"] for p in g["projects"])
+
+_ref_counts = {g["id"]: len(g["projects"]) for g in _ref_data["groups"]}
+_ref_total = sum(_ref_counts.values())
+
+def _ref_fbtn(fid, label, count):
+    act = " is-active" if fid == "all" else ""
+    return (f'        <button class="m-ref-fbtn{act}" data-filter="{fid}">{_html.escape(label)}'
+            f'<span class="m-ref-fbtn-n">{count}</span></button>')
+
+_ref_filter_html = "\n".join(
+    [_ref_fbtn("all", "Alle", _ref_total)]
+    + [_ref_fbtn(g["id"], _REF_FLABEL.get(g["id"], g["client"]), _ref_counts[g["id"]])
+       for g in _ref_data["groups"]])
+
 BODY_REFERENZEN = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Referenzen</span>
@@ -1538,7 +1575,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section alt">
+<section class="m-section m-refstats-bg" style="background-image:url(assets/slogan-bg.jpg)">
   <div class="m-shell">
     <div class="m-ref-stats">
       <div class="m-ref-stat"><span class="m-ref-stat-num">55+</span><span class="m-ref-stat-label">Realisierte Projekte</span></div>
@@ -1549,18 +1586,33 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section">
+<section class="m-section" id="projektreferenzen">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">Projektreferenzen</span>
-      <h2 class="m-bigH">Vollständige Referenzliste<span class="end-dot">.</span></h2>
-      <div class="sub">Gegliedert nach Auftraggeber und Verantwortungsbereich. Klicken Sie eine Gruppe an, um alle Projekte mit Details einzusehen.</div>
+      <h2 class="m-bigH">Realisierte Projekte<span class="end-dot">.</span></h2>
+      <div class="sub">''' + str(_ref_total) + ''' Projekte, gegliedert nach Auftraggeber und Verantwortungsbereich. Filtern Sie nach Bereich, um gezielt einzelne Projekte mit Umfang, Volumen und Dauer einzusehen.</div>
     </div>
-    <div class="m-acc">
-''' + _ref_groups_html + '''
+    <div class="m-ref-filter">
+''' + _ref_filter_html + '''
+    </div>
+    <div class="m-ref-grid">
+''' + _ref_cards_html + '''
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var sec=document.getElementById('projektreferenzen');
+  if(!sec)return;
+  var btns=sec.querySelectorAll('.m-ref-fbtn'),cards=sec.querySelectorAll('.m-refc');
+  for(var i=0;i<btns.length;i++){btns[i].addEventListener('click',function(){
+    var f=this.getAttribute('data-filter'),b=this;
+    btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
+    cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
+  });}
+})();
+</script>
 
 <section class="m-section alt" id="nahost">
   <div class="m-shell">
