@@ -1533,7 +1533,7 @@ _ref_flags_html = "\n".join(_ref_flag_card(p) for p in _ref_flags)
 BODY_REFERENZEN = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Referenzen</span>
-    <h1>Referenzen aus über 15 Jahren Medizintechnik<span class="end-dot">.</span></h1>
+    <h1>Referenzen<span class="end-dot">.</span></h1>
     <p class="lede">Eine Auswahl erfolgreich abgeschlossener Projekte.</p>
   </div>
 </section>
