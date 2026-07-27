@@ -770,6 +770,10 @@ _DL_NOTE_REQUEST = ("Weitere Kataloge und Unterlagen &ndash; Datenblätter, "
                     "Produktinformationen und Zertifikate &ndash; übermitteln wir Ihnen "
                     "gerne auf Anfrage.")
 
+_DL_NOTE_SS = ("Weitere Sprachversionen des Katalogs (Englisch, Polnisch) sowie "
+               "Datenblätter, Produktinformationen und Zertifikate übermitteln wir Ihnen "
+               "gerne auf Anfrage.")
+
 _DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produkten der "
                 "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
                 "Produktkatalog. Neue Datenblätter ergänzen wir laufend.")
@@ -852,10 +856,8 @@ DL_MED_CATS = [
 DL_STRAHLENSCHUTZ = [
     ("Herstellerkataloge", [
         {"title": "ROTHBAND – Persönliche Schutzausrüstung",
-         "meta": "Gesamtkatalog PSA · DE / EN / PL · PDF", "icon": "book",
-         "langs": [("DE", "assets/downloads/ss/Katalog_ROTHBAND_PSA_DE.pdf"),
-                   ("EN", "assets/downloads/ss/Katalog_ROTHBAND_PSA_EN.pdf"),
-                   ("PL", "assets/downloads/ss/Katalog_ROTHBAND_PSA_PL.pdf")]},
+         "meta": "Gesamtkatalog PSA · Deutsch · PDF", "icon": "book",
+         "file": "assets/downloads/ss/Katalog_ROTHBAND_PSA_DE.pdf"},
     ]),
 ]
 
@@ -1101,7 +1103,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ, note=_DL_NOTE_REQUEST) + '''
+''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ, note=_DL_NOTE_SS) + '''
     </div>
   </div>
 </section>
