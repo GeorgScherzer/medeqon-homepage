@@ -1629,12 +1629,11 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
 
 <section class="m-section m-refstats-bg" style="background-image:url(assets/slogan-bg.jpg)">
   <div class="m-shell">
-    <div class="m-ref-stats">
-      <div class="m-ref-stat"><span class="m-ref-stat-num">55+</span><span class="m-ref-stat-label">Realisierte Projekte</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;92&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen Medizintechnik</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">15+</span><span class="m-ref-stat-label">Jahre Erfahrung</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">3 Regionen</span><span class="m-ref-stat-label">Österreich, Schweiz &amp; Naher Osten</span></div>
-    </div>
+    <p class="m-ref-slogan">
+      <span>Kompetenz aus Projekten<i>.</i></span>
+      <span>Wissen aus Forschung<i>.</i></span>
+      <span>Vertrauen durch Erfahrung<i>.</i></span>
+    </p>
   </div>
 </section>
 
@@ -1656,7 +1655,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section">
+<section class="m-section alt">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">Akademisches und Wissenschaft</span>
@@ -1667,7 +1666,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section alt">
+<section class="m-section alt2">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">Consulting</span>

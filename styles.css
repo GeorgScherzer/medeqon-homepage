@@ -64,6 +64,7 @@ img{max-width:100%}
 .m-shell{max-width:1080px;margin:0 auto;padding:0 32px}
 .m-section{padding:96px 0}
 .m-section.alt{background:var(--mist-blue)}
+.m-section.alt2{background:#DCE3EF}
 .m-tag{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:0.14em;
   text-transform:uppercase;color:var(--steel);display:inline-flex;align-items:center;
   gap:10px;margin-bottom:14px}
@@ -845,6 +846,12 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-refstats-bg::before{content:"";position:absolute;inset:0;z-index:0;
   background:linear-gradient(180deg,rgba(233,239,248,0.88) 0%,rgba(255,255,255,0.80) 50%,rgba(230,237,247,0.9) 100%)}
 .m-refstats-bg .m-shell{position:relative;z-index:1}
+.m-ref-slogan{margin:0 auto;max-width:920px;text-align:center;
+  font-family:var(--font-display);font-weight:700;letter-spacing:-0.015em;
+  font-size:clamp(24px,3.4vw,38px);line-height:1.42;color:var(--ink)}
+.m-ref-slogan span{display:block}
+.m-ref-slogan i{color:var(--signal);font-style:normal}
+@media (max-width:560px){.m-ref-slogan{font-size:23px}}
 
 /* Referenzen: Filter + Projektkarten-Raster */
 .m-ref-filter{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px}
