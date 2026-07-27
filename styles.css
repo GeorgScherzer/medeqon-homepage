@@ -691,6 +691,31 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-dl-card.is-soon .m-dl-ic{background:var(--mist);color:var(--steel)}
 .m-dl-card.is-soon:hover{transform:none;border-color:var(--mist);box-shadow:none}
 
+/* Datenblatt-Kategorien (wie Produktkatalog) */
+.m-dl-cat{margin-top:40px}
+.m-dl-cat:first-child{margin-top:8px}
+.m-dl-cat-head{display:flex;align-items:baseline;gap:14px;padding-bottom:14px;margin-bottom:22px;
+  border-bottom:2px solid var(--mist)}
+.m-dl-catnum{font-family:var(--font-mono);font-size:13px;letter-spacing:0.12em;color:var(--signal);
+  font-weight:600}
+.m-dl-cat-title{font-family:var(--font-display);font-weight:700;font-size:21px;line-height:1.1;
+  letter-spacing:-0.01em;color:var(--brand-700)}
+.m-dl-sub{font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.14em;text-transform:uppercase;
+  color:var(--signal);display:flex;align-items:center;gap:14px;margin:26px 0 14px}
+.m-dl-sub::after{content:"";flex:1;height:1px;background:var(--mist)}
+.m-dl-cat .m-dl-grid + .m-dl-sub{margin-top:30px}
+
+/* Zwei Sprach-Buttons (DE / EN) je Datenblatt */
+.m-dl-langs{flex:none;display:flex;gap:8px}
+.m-dl-lang{display:inline-flex;align-items:center;gap:7px;padding:7px 12px 7px 13px;border-radius:999px;
+  background:var(--mist-blue);color:var(--signal);text-decoration:none;font-family:var(--font-mono);
+  font-size:11.5px;letter-spacing:0.08em;font-weight:600;line-height:1;
+  transition:background var(--dur) var(--ease),color var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.m-dl-lang svg{width:16px;height:16px}
+.m-dl-lang:hover{background:var(--signal);color:#fff;transform:translateY(-1px)}
+.m-dl-lc{letter-spacing:0.1em}
+@media (max-width:480px){.m-dl-card{flex-wrap:wrap}.m-dl-langs{width:100%;padding-left:62px}}
+
 /* ===== Beschaffung / Sourcing CTA ===== */
 .m-src-cta{margin-top:30px;padding:28px 32px;background:var(--mist-blue);border:1px solid var(--mist);
   border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px}

@@ -747,6 +747,79 @@ _DL_LEAD = ("Hier stellen wir Ihnen Unterlagen zum Herunterladen bereit &ndash; 
             "Herstellerkataloge, technische Datenblätter, Produktinformationen sowie "
             "CE- und Konformitätszertifikate. Neue Dokumente ergänzen wir laufend.")
 
+_DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produkten der "
+                "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
+                "Produktkatalog. Neue Datenblätter ergänzen wir laufend.")
+
+# --- Datasheet download area (Datenblätter only), grouped like the product catalogue ---
+_MODEL2PROD = {p["model"]: p for p in _products}
+
+def _ds_card(model):
+    p = _MODEL2PROD.get(model, {})
+    title = _html.escape(model)
+    ref = p.get("ref", "")
+    meta = ("Ref. " + ref + " · Datenblatt · DE / EN") if ref else "Datenblatt · DE / EN"
+    meta = _html.escape(meta)
+    mn = model.replace(" ", "_")
+    de = "assets/downloads/med/Datenblatt_" + mn + ".pdf"
+    en = "assets/downloads/med/DataSheet_" + mn + ".pdf"
+    icon = _DL_ICONS["doc"]
+    return (
+'                      <figure class="m-dl-card">\n'
+f'                        <span class="m-dl-ic">{icon}</span>\n'
+'                        <span class="m-dl-main">\n'
+f'                          <span class="m-dl-title">{title}</span>\n'
+f'                          <span class="m-dl-meta">{meta}</span>\n'
+'                        </span>\n'
+'                        <span class="m-dl-langs">\n'
+f'                          <a class="m-dl-lang" href="{de}" download aria-label="Datenblatt {title} (Deutsch) herunterladen"><span class="m-dl-lc">DE</span>{_DL_DOWNLOAD}</a>\n'
+f'                          <a class="m-dl-lang" href="{en}" download aria-label="Data sheet {title} (English) herunterladen"><span class="m-dl-lc">EN</span>{_DL_DOWNLOAD}</a>\n'
+'                        </span>\n'
+'                      </figure>')
+
+def _downloads_datasheets(num, cid, lead, cats):
+    parts = [
+'      <details class="m-ac" id="' + cid + '">\n'
+'        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">Downloads &amp; Unterlagen</span>' + CHEV + '</summary>\n'
+'        <div class="m-ac-body">\n'
+'          <p class="m-ac-lead">' + lead + '</p>\n'
+'          <div class="m-dl-wrap">']
+    for cnum, ctitle, subs in cats:
+        parts.append(
+'            <div class="m-dl-cat">\n'
+'              <div class="m-dl-cat-head"><span class="m-dl-catnum">' + cnum + '</span>'
+'<span class="m-dl-cat-title">' + _html.escape(ctitle) + '</span></div>')
+        for subtitle, models in subs:
+            if subtitle:
+                parts.append('              <div class="m-dl-sub">' + _html.escape(subtitle) + '</div>')
+            parts.append(
+'              <div class="m-dl-grid">\n'
++ "\n".join(_ds_card(m) for m in models) + '\n'
+'              </div>')
+        parts.append('            </div>')
+    parts.append(
+'          </div>\n'
+'        </div>\n'
+'      </details>')
+    return "\n".join(parts)
+
+DL_MED_CATS = [
+    ("01", "Untersuchungsliegen", [
+        ("Fix", ["FIX"]),
+        ("Hydraulisch", ["KEND PRO", "LING PRO", "MAIT PRO", "NOBU", "TENB PRO"]),
+        ("Elektrisch", ["BATEC", "BOBATH", "BROM", "BROM PRO", "ENID", "ENID PRO",
+                        "GALLEY", "GUTH", "GUTH PRO", "JULL PRO", "NOTT", "NOTT PRO",
+                        "PEHR", "RILA", "RILA PRO", "ROTH", "STILL"]),
+        ("Chiropraktisch", ["ALMA PRO", "APPA", "SCALL PRO", "SIDO", "SIDO PRO"]),
+    ]),
+    ("02", "Medizinische Stühle", [
+        (None, ["DISK", "CORE", "SUPP", "RIDE", "XTRACT", "ENT", "OB"]),
+    ]),
+    ("03", "Sichtschutz", [
+        (None, ["ALU SCREEN 1518"]),
+    ]),
+]
+
 DL_STRAHLENSCHUTZ = [
     ("Herstellerkataloge", [
         {"title": "ROTHBAND – Produktkatalog", "meta": "Gesamtkatalog Strahlenschutz · PDF", "icon": "book"},
@@ -1105,7 +1178,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("04", "downloads-medizinische-einrichtung", _DL_LEAD, DL_MED) + '''
+''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS) + '''
     </div>
   </div>
 </section>
