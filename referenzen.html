@@ -55,15 +55,17 @@
     <div class="m-secH">
       <span class="m-tag">Projektreferenzen</span>
       <h2 class="m-bigH">Realisierte Projekte<span class="end-dot">.</span></h2>
-      <div class="sub">50 Projekte, gegliedert nach Auftraggeber und Verantwortungsbereich. Filtern Sie nach Bereich, um gezielt einzelne Projekte mit Umfang, Volumen und Dauer einzusehen.</div>
+      <div class="sub">51 Projekte, gegliedert nach Auftraggeber und Verantwortungsbereich. Filtern Sie nach Bereich, um gezielt einzelne Projekte mit Umfang, Volumen und Dauer einzusehen.</div>
     </div>
-    <div class="m-ref-filter">
-        <button class="m-ref-fbtn is-active" data-filter="all">Alle<span class="m-ref-fbtn-n">50</span></button>
+    <div class="m-filterable">
+      <div class="m-ref-filter">
+        <button class="m-ref-fbtn is-active" data-filter="all">Alle<span class="m-ref-fbtn-n">51</span></button>
         <button class="m-ref-fbtn" data-filter="akh-persoenlich">AKH Wien · Persönlich<span class="m-ref-fbtn-n">20</span></button>
         <button class="m-ref-fbtn" data-filter="akh-leitung">AKH Wien · Leitung<span class="m-ref-fbtn-n">29</span></button>
         <button class="m-ref-fbtn" data-filter="schweiz">Schweiz<span class="m-ref-fbtn-n">1</span></button>
-    </div>
-    <div class="m-ref-grid">
+        <button class="m-ref-fbtn" data-filter="international">Internationale Projekte<span class="m-ref-fbtn-n">1</span></button>
+      </div>
+      <div class="m-ref-grid">
           <article class="m-refc" data-group="akh-persoenlich">
             <div class="m-refc-head">
               <span class="m-refc-client">AKH Wien</span>
@@ -514,57 +516,15 @@
             <p class="m-refc-desc">Das Krankenhaus verfügt über 58 Betten, 12 Beobachtungsbetten, zwei Operationssäle sowie einen Hybrid-Operationssaal, ein Herzkatheterlabor und behandelt jährlich ca. 2.200 stationäre Patienten und ca. 6.200 ambulante Patienten.</p>
             <div class="m-refc-foot"><span class="m-refc-chip">LPH5-LPH7</span><span class="m-refc-chip">2019-2020</span></div>
           </article>
-    </div>
-  </div>
-</section>
-<script>
-(function(){
-  var sec=document.getElementById('projektreferenzen');
-  if(!sec)return;
-  var btns=sec.querySelectorAll('.m-ref-fbtn'),cards=sec.querySelectorAll('.m-refc');
-  for(var i=0;i<btns.length;i++){btns[i].addEventListener('click',function(){
-    var f=this.getAttribute('data-filter'),b=this;
-    btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
-    cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
-  });}
-})();
-</script>
-
-<section class="m-section alt" id="nahost">
-  <div class="m-shell">
-    <div class="m-secH">
-      <span class="m-tag">Internationale Einsätze</span>
-      <h2 class="m-bigH">Projekte im Nahen Osten<span class="end-dot">.</span></h2>
-      <div class="sub">Im Rahmen humanitärer und internationaler Einsätze war Georg Scherzer über rund zweieinhalb Jahre vor Ort im Nahen Osten tätig – in Regionen, die von Krisen und bewaffneten Konflikten geprägt sind. Der Schwerpunkt lag auf der bedarfsgerechten Ausstattung medizinischer Einrichtungen unter schwierigsten Rahmenbedingungen.</div>
-    </div>
-
-    <div class="m-nahost-stats">
-      <div class="m-ref-stat"><span class="m-ref-stat-num">6</span><span class="m-ref-stat-label">Projekte vor Ort</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">2,5&nbsp;Jahre</span><span class="m-ref-stat-label">Tätigkeit in der Region</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;8&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen</span></div>
-    </div>
-
-    <div class="m-nahost-grid">
-      <div class="m-nahost-block">
-        <div class="m-nahost-cap">6 Standorte</div>
-        <div class="m-nahost-cities">
-          <span class="m-nahost-city"><svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Damaskus<em>Syrien</em></span>
-          <span class="m-nahost-city"><svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Homs<em>Syrien</em></span>
-          <span class="m-nahost-city"><svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Aleppo<em>Syrien</em></span>
-          <span class="m-nahost-city"><svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Latakia<em>Syrien</em></span>
-          <span class="m-nahost-city"><svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Amman<em>Jordanien</em></span>
-          <span class="m-nahost-city"><svg class="m-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Beirut<em>Libanon</em></span>
-        </div>
-      </div>
-      <div class="m-nahost-block">
-        <div class="m-nahost-cap">Fachliche Schwerpunkte</div>
-        <ul class="m-nahost-focus">
-          <li>Bedarfsanalysen</li>
-          <li>Gerätebewertungen</li>
-          <li>Beschaffung</li>
-          <li>Logistik</li>
-          <li>Qualitätsüberprüfung von lokalen Händlern</li>
-        </ul>
+          <article class="m-refc" data-group="international">
+            <div class="m-refc-head">
+              <span class="m-refc-client">Naher Osten</span>
+              <span class="m-refc-vol">€ 8 Mio.</span>
+            </div>
+            <h3 class="m-refc-name">Krankenhausprojekte in Kriegsgebieten</h3>
+            <p class="m-refc-desc m-refc-desc--full">Über rund zweieinhalb Jahre vor Ort in Krisen- und Konfliktregionen in Syrien, Jordanien und im Libanon: die bedarfsgerechte Ausstattung medizinischer Einrichtungen unter schwierigsten Rahmenbedingungen – mit Bedarfsanalysen, Gerätebewertungen, Beschaffung, Logistik und der Qualitätsüberprüfung lokaler Händler.</p>
+            <div class="m-refc-foot"><span class="m-refc-chip">2,5 Jahre</span></div>
+          </article>
       </div>
     </div>
   </div>
@@ -577,22 +537,30 @@
       <h2 class="m-bigH">Wissenschaft &amp; Forschung<span class="end-dot">.</span></h2>
       <div class="sub">Neben der praktischen Projektarbeit ist Georg Scherzer wissenschaftlich aktiv – mit einer Promotion, Fachpublikationen und Beiträgen auf internationalen Konferenzen.</div>
     </div>
-    <div class="m-ref-acad">
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Promotion</span>
-        <h3>Doktorarbeit (PhD)</h3>
-        <p>„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?" – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen.</p>
-      </figure>
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Publikationen</span>
-        <h3>Peer-reviewed Fachartikel &amp; Fachbuch</h3>
-        <p>Mehrere begutachtete Publikationen in internationalen Fachzeitschriften zu Medizintechnik, öffentlicher Gesundheit und Sicherheit sowie ein Fachbuch zu MRT-Sicherheit für Einsatzkräfte.</p>
-      </figure>
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Lehre &amp; Konferenzen</span>
-        <h3>Vorträge &amp; akademische Betreuung</h3>
-        <p>Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen.</p>
-      </figure>
+    <div class="m-filterable">
+      <div class="m-ref-filter">
+        <button class="m-ref-fbtn is-active" data-filter="all">Alle<span class="m-ref-fbtn-n">3</span></button>
+        <button class="m-ref-fbtn" data-filter="vortraege">Vorträge, Lehre und Konferenzen<span class="m-ref-fbtn-n">1</span></button>
+        <button class="m-ref-fbtn" data-filter="publikationen">Publikationen<span class="m-ref-fbtn-n">1</span></button>
+        <button class="m-ref-fbtn" data-filter="beitraege">Wissenschaftliche Beiträge<span class="m-ref-fbtn-n">1</span></button>
+      </div>
+      <div class="m-ref-grid">
+          <article class="m-refc" data-group="vortraege">
+            <div class="m-refc-head"><span class="m-refc-client">Lehre &amp; Konferenzen</span></div>
+            <h3 class="m-refc-name">Vorträge &amp; akademische Betreuung</h3>
+            <p class="m-refc-desc m-refc-desc--full">Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen.</p>
+          </article>
+          <article class="m-refc" data-group="publikationen">
+            <div class="m-refc-head"><span class="m-refc-client">Publikationen</span></div>
+            <h3 class="m-refc-name">Peer-reviewed Fachartikel &amp; Fachbuch</h3>
+            <p class="m-refc-desc m-refc-desc--full">Mehrere begutachtete Publikationen in internationalen Fachzeitschriften zu Medizintechnik, öffentlicher Gesundheit und Sicherheit sowie ein Fachbuch zu MRT-Sicherheit für Einsatzkräfte.</p>
+          </article>
+          <article class="m-refc" data-group="beitraege">
+            <div class="m-refc-head"><span class="m-refc-client">Promotion</span></div>
+            <h3 class="m-refc-name">Doktorarbeit (PhD)</h3>
+            <p class="m-refc-desc m-refc-desc--full">„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?“ – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen.</p>
+          </article>
+      </div>
     </div>
   </div>
 </section>
@@ -604,20 +572,36 @@
       <h2 class="m-bigH">Beratung &amp; Consulting<span class="end-dot">.</span></h2>
       <div class="sub">Beratungsmandate für Organisationen und Institutionen rund um Medizintechnik, Beschaffung und klinische Infrastruktur.</div>
     </div>
-    <div class="m-ref-acad">
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Internationale Beratung</span>
-        <h3>World Health Organization (WHO)</h3>
-        <p>Beratung zum „Compendium on innovative medical technologies" sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.</p>
-      </figure>
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Beratungsschwerpunkte</span>
-        <h3>Medizintechnik &amp; klinische Infrastruktur</h3>
-        <p>Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen.</p>
-      </figure>
+    <div class="m-filterable">
+      <div class="m-ref-filter">
+        <button class="m-ref-fbtn is-active" data-filter="consulting">Consulting<span class="m-ref-fbtn-n">2</span></button>
+      </div>
+      <div class="m-ref-grid">
+          <article class="m-refc" data-group="consulting">
+            <div class="m-refc-head"><span class="m-refc-client">Internationale Beratung</span></div>
+            <h3 class="m-refc-name">World Health Organization (WHO)</h3>
+            <p class="m-refc-desc m-refc-desc--full">Beratung zum „Compendium on innovative medical technologies“ sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.</p>
+          </article>
+          <article class="m-refc" data-group="consulting">
+            <div class="m-refc-head"><span class="m-refc-client">Beratungsschwerpunkte</span></div>
+            <h3 class="m-refc-name">Medizintechnik &amp; klinische Infrastruktur</h3>
+            <p class="m-refc-desc m-refc-desc--full">Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen.</p>
+          </article>
+      </div>
     </div>
   </div>
 </section>
+
+<script>
+document.querySelectorAll('.m-filterable').forEach(function(root){
+  var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.getAttribute('data-filter');
+    btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
+    cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
+  });});
+});
+</script>
 
 <section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">
   <div class="m-shell">

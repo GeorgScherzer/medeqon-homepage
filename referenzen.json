@@ -370,6 +370,21 @@
           "dauer": "2019-2020"
         }
       ]
+    },
+    {
+      "id": "international",
+      "client": "Naher Osten",
+      "subtitle": "Krankenhausprojekte in Kriegsgebieten",
+      "projects": [
+        {
+          "name": "Krankenhausprojekte in Kriegsgebieten",
+          "lph": "",
+          "umfang": "Über rund zweieinhalb Jahre vor Ort in Krisen- und Konfliktregionen in Syrien, Jordanien und im Libanon: die bedarfsgerechte Ausstattung medizinischer Einrichtungen unter schwierigsten Rahmenbedingungen – mit Bedarfsanalysen, Gerätebewertungen, Beschaffung, Logistik und der Qualitätsüberprüfung lokaler Händler.",
+          "kosten": "€ 8,000,000",
+          "dauer": "2,5 Jahre",
+          "full": true
+        }
+      ]
     }
   ]
 }

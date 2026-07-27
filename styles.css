@@ -873,6 +873,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-refc-chip{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
   color:var(--ink);background:var(--mist-blue);border-radius:999px;padding:6px 11px}
 .m-refc.is-hidden{display:none}
+.m-refc-desc--full{-webkit-line-clamp:unset;display:block;overflow:visible}
 
 .m-ref-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .m-ref-stat{background:var(--paper);border:1px solid var(--mist);border-radius:16px;

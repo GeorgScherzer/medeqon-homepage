@@ -1550,7 +1550,7 @@ f'              <span class="m-refc-client">{_html.escape(client)}</span>\n'
 f'              <span class="m-refc-vol">{_ref_vol(n)}</span>\n'
 '            </div>\n'
 f'            <h3 class="m-refc-name">{_html.escape(p["name"])}</h3>\n'
-f'            <p class="m-refc-desc">{_html.escape(p.get("umfang",""))}</p>\n'
+f'            <p class="m-refc-desc{" m-refc-desc--full" if p.get("full") else ""}">{_html.escape(p.get("umfang",""))}</p>\n'
 f'            <div class="m-refc-foot">{"".join(chips)}</div>\n'
 '          </article>')
 
@@ -1560,15 +1560,64 @@ _ref_cards_html = "\n".join(
 _ref_counts = {g["id"]: len(g["projects"]) for g in _ref_data["groups"]}
 _ref_total = sum(_ref_counts.values())
 
-def _ref_fbtn(fid, label, count):
-    act = " is-active" if fid == "all" else ""
+def _ref_fbtn(fid, label, count, active=False):
+    act = " is-active" if active else ""
     return (f'        <button class="m-ref-fbtn{act}" data-filter="{fid}">{_html.escape(label)}'
             f'<span class="m-ref-fbtn-n">{count}</span></button>')
 
 _ref_filter_html = "\n".join(
-    [_ref_fbtn("all", "Alle", _ref_total)]
+    [_ref_fbtn("all", "Alle", _ref_total, active=True)]
     + [_ref_fbtn(g["id"], _REF_FLABEL.get(g["id"], g["client"]), _ref_counts[g["id"]])
        for g in _ref_data["groups"]])
+
+# --- Generisches Filter-Karten-Raster (Wissenschaft, Consulting) ---
+def _grid_card(gid, badge, title, desc):
+    bg = f'<span class="m-refc-client">{_html.escape(badge)}</span>' if badge else ''
+    head = ('            <div class="m-refc-head">' + bg + '</div>\n') if bg else ''
+    return (
+f'          <article class="m-refc" data-group="{gid}">\n'
++ head +
+f'            <h3 class="m-refc-name">{_html.escape(title)}</h3>\n'
+f'            <p class="m-refc-desc m-refc-desc--full">{desc}</p>\n'
+'          </article>')
+
+def _filter_block(groups, add_all=True, all_label="Alle"):
+    total = sum(len(items) for _, _, items in groups)
+    chips = []
+    if add_all:
+        chips.append(_ref_fbtn("all", all_label, total, active=True))
+    for idx, (gid, label, items) in enumerate(groups):
+        chips.append(_ref_fbtn(gid, label, len(items), active=(not add_all and idx == 0)))
+    cards = [_grid_card(gid, it.get("badge", ""), it["title"], it["desc"])
+             for gid, label, items in groups for it in items]
+    return ('    <div class="m-filterable">\n'
+            '      <div class="m-ref-filter">\n' + "\n".join(chips) + '\n      </div>\n'
+            '      <div class="m-ref-grid">\n' + "\n".join(cards) + '\n      </div>\n'
+            '    </div>')
+
+_WISS_GROUPS = [
+    ("vortraege", "Vorträge, Lehre und Konferenzen", [
+        {"badge": "Lehre & Konferenzen", "title": "Vorträge & akademische Betreuung",
+         "desc": "Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen."},
+    ]),
+    ("publikationen", "Publikationen", [
+        {"badge": "Publikationen", "title": "Peer-reviewed Fachartikel & Fachbuch",
+         "desc": "Mehrere begutachtete Publikationen in internationalen Fachzeitschriften zu Medizintechnik, öffentlicher Gesundheit und Sicherheit sowie ein Fachbuch zu MRT-Sicherheit für Einsatzkräfte."},
+    ]),
+    ("beitraege", "Wissenschaftliche Beiträge", [
+        {"badge": "Promotion", "title": "Doktorarbeit (PhD)",
+         "desc": "„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?“ – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen."},
+    ]),
+]
+
+_CONS_GROUPS = [
+    ("consulting", "Consulting", [
+        {"badge": "Internationale Beratung", "title": "World Health Organization (WHO)",
+         "desc": "Beratung zum „Compendium on innovative medical technologies“ sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen."},
+        {"badge": "Beratungsschwerpunkte", "title": "Medizintechnik & klinische Infrastruktur",
+         "desc": "Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen."},
+    ]),
+]
 
 BODY_REFERENZEN = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -1596,62 +1645,12 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Realisierte Projekte<span class="end-dot">.</span></h2>
       <div class="sub">''' + str(_ref_total) + ''' Projekte, gegliedert nach Auftraggeber und Verantwortungsbereich. Filtern Sie nach Bereich, um gezielt einzelne Projekte mit Umfang, Volumen und Dauer einzusehen.</div>
     </div>
-    <div class="m-ref-filter">
+    <div class="m-filterable">
+      <div class="m-ref-filter">
 ''' + _ref_filter_html + '''
-    </div>
-    <div class="m-ref-grid">
-''' + _ref_cards_html + '''
-    </div>
-  </div>
-</section>
-<script>
-(function(){
-  var sec=document.getElementById('projektreferenzen');
-  if(!sec)return;
-  var btns=sec.querySelectorAll('.m-ref-fbtn'),cards=sec.querySelectorAll('.m-refc');
-  for(var i=0;i<btns.length;i++){btns[i].addEventListener('click',function(){
-    var f=this.getAttribute('data-filter'),b=this;
-    btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
-    cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
-  });}
-})();
-</script>
-
-<section class="m-section alt" id="nahost">
-  <div class="m-shell">
-    <div class="m-secH">
-      <span class="m-tag">Internationale Einsätze</span>
-      <h2 class="m-bigH">Projekte im Nahen Osten<span class="end-dot">.</span></h2>
-      <div class="sub">Im Rahmen humanitärer und internationaler Einsätze war Georg Scherzer über rund zweieinhalb Jahre vor Ort im Nahen Osten tätig – in Regionen, die von Krisen und bewaffneten Konflikten geprägt sind. Der Schwerpunkt lag auf der bedarfsgerechten Ausstattung medizinischer Einrichtungen unter schwierigsten Rahmenbedingungen.</div>
-    </div>
-
-    <div class="m-nahost-stats">
-      <div class="m-ref-stat"><span class="m-ref-stat-num">6</span><span class="m-ref-stat-label">Projekte vor Ort</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">2,5&nbsp;Jahre</span><span class="m-ref-stat-label">Tätigkeit in der Region</span></div>
-      <div class="m-ref-stat"><span class="m-ref-stat-num">€&nbsp;8&nbsp;Mio.</span><span class="m-ref-stat-label">Beschaffungsvolumen</span></div>
-    </div>
-
-    <div class="m-nahost-grid">
-      <div class="m-nahost-block">
-        <div class="m-nahost-cap">6 Standorte</div>
-        <div class="m-nahost-cities">
-          <span class="m-nahost-city">''' + _PIN + '''Damaskus<em>Syrien</em></span>
-          <span class="m-nahost-city">''' + _PIN + '''Homs<em>Syrien</em></span>
-          <span class="m-nahost-city">''' + _PIN + '''Aleppo<em>Syrien</em></span>
-          <span class="m-nahost-city">''' + _PIN + '''Latakia<em>Syrien</em></span>
-          <span class="m-nahost-city">''' + _PIN + '''Amman<em>Jordanien</em></span>
-          <span class="m-nahost-city">''' + _PIN + '''Beirut<em>Libanon</em></span>
-        </div>
       </div>
-      <div class="m-nahost-block">
-        <div class="m-nahost-cap">Fachliche Schwerpunkte</div>
-        <ul class="m-nahost-focus">
-          <li>Bedarfsanalysen</li>
-          <li>Gerätebewertungen</li>
-          <li>Beschaffung</li>
-          <li>Logistik</li>
-          <li>Qualitätsüberprüfung von lokalen Händlern</li>
-        </ul>
+      <div class="m-ref-grid">
+''' + _ref_cards_html + '''
       </div>
     </div>
   </div>
@@ -1664,23 +1663,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Wissenschaft &amp; Forschung<span class="end-dot">.</span></h2>
       <div class="sub">Neben der praktischen Projektarbeit ist Georg Scherzer wissenschaftlich aktiv – mit einer Promotion, Fachpublikationen und Beiträgen auf internationalen Konferenzen.</div>
     </div>
-    <div class="m-ref-acad">
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Promotion</span>
-        <h3>Doktorarbeit (PhD)</h3>
-        <p>„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?" – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen.</p>
-      </figure>
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Publikationen</span>
-        <h3>Peer-reviewed Fachartikel &amp; Fachbuch</h3>
-        <p>Mehrere begutachtete Publikationen in internationalen Fachzeitschriften zu Medizintechnik, öffentlicher Gesundheit und Sicherheit sowie ein Fachbuch zu MRT-Sicherheit für Einsatzkräfte.</p>
-      </figure>
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Lehre &amp; Konferenzen</span>
-        <h3>Vorträge &amp; akademische Betreuung</h3>
-        <p>Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen.</p>
-      </figure>
-    </div>
+''' + _filter_block(_WISS_GROUPS, add_all=True) + '''
   </div>
 </section>
 
@@ -1691,20 +1674,20 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Beratung &amp; Consulting<span class="end-dot">.</span></h2>
       <div class="sub">Beratungsmandate für Organisationen und Institutionen rund um Medizintechnik, Beschaffung und klinische Infrastruktur.</div>
     </div>
-    <div class="m-ref-acad">
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Internationale Beratung</span>
-        <h3>World Health Organization (WHO)</h3>
-        <p>Beratung zum „Compendium on innovative medical technologies" sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.</p>
-      </figure>
-      <figure class="m-ref-acadcard">
-        <span class="m-ref-acadcap">Beratungsschwerpunkte</span>
-        <h3>Medizintechnik &amp; klinische Infrastruktur</h3>
-        <p>Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen.</p>
-      </figure>
-    </div>
+''' + _filter_block(_CONS_GROUPS, add_all=False) + '''
   </div>
 </section>
+
+<script>
+document.querySelectorAll('.m-filterable').forEach(function(root){
+  var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.getAttribute('data-filter');
+    btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
+    cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
+  });});
+});
+</script>
 
 <section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">
   <div class="m-shell">
