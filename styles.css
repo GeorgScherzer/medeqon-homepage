@@ -716,6 +716,15 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-dl-lc{letter-spacing:0.1em}
 @media (max-width:480px){.m-dl-card{flex-wrap:wrap}.m-dl-langs{width:100%;padding-left:62px}}
 
+/* Hinweis: weitere Unterlagen auf Anfrage */
+.m-dl-note{margin-top:30px;padding:22px 26px;background:var(--mist-blue);border:1px solid var(--mist);
+  border-radius:14px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px}
+.m-dl-note p{margin:0;flex:1 1 420px;font-size:15px;line-height:23px;color:var(--ink)}
+.m-dl-note-btn{flex:none;display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:999px;
+  background:var(--signal);color:#fff;text-decoration:none;font-weight:600;font-size:14.5px;
+  transition:background var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.m-dl-note-btn:hover{background:var(--brand-700);transform:translateY(-1px)}
+
 /* ===== Beschaffung / Sourcing CTA ===== */
 .m-src-cta{margin-top:30px;padding:28px 32px;background:var(--mist-blue);border:1px solid var(--mist);
   border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px}

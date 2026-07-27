@@ -705,8 +705,15 @@ def _dl_card(item):
     icon = _DL_ICONS.get(item.get("icon", "doc"), _DL_ICONS["doc"])
     title = _html.escape(item["title"])
     meta = _html.escape(item.get("meta", "PDF-Dokument"))
+    langs = item.get("langs")
     f = item.get("file")
-    if f:
+    if langs:
+        btns = "\n".join(
+            f'                        <a class="m-dl-lang" href="{fp}" download aria-label="{title} ({lb}) herunterladen"><span class="m-dl-lc">{lb}</span>{_DL_DOWNLOAD}</a>'
+            for lb, fp in langs)
+        action = '<span class="m-dl-langs">\n' + btns + '\n                      </span>'
+        soon = ""
+    elif f:
         action = f'<a class="m-dl-btn" href="{f}" download aria-label="{title} herunterladen">{_DL_DOWNLOAD}</a>'
         soon = ""
     else:
@@ -722,7 +729,7 @@ f'                        <span class="m-dl-meta">{meta}</span>\n'
 f'                      {action}\n'
 '                    </figure>')
 
-def _downloads_category(num, cid, lead, groups):
+def _downloads_category(num, cid, lead, groups, note=None):
     parts = [
 '      <details class="m-ac" id="' + cid + '">\n'
 '        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">Downloads &amp; Unterlagen</span>' + CHEV + '</summary>\n'
@@ -737,6 +744,12 @@ f'              <div class="m-dl-grouptitle">{_html.escape(group)}</div>\n'
 + "\n".join(_dl_card(it) for it in items) + '\n'
 '              </div>\n'
 '            </div>')
+    if note:
+        parts.append(
+'            <div class="m-dl-note">\n'
+'              <p>' + note + '</p>\n'
+'              <a class="m-dl-note-btn" href="kontakt.html">Zur Kontaktseite</a>\n'
+'            </div>')
     parts.append(
 '          </div>\n'
 '        </div>\n'
@@ -746,6 +759,16 @@ f'              <div class="m-dl-grouptitle">{_html.escape(group)}</div>\n'
 _DL_LEAD = ("Hier stellen wir Ihnen Unterlagen zum Herunterladen bereit &ndash; "
             "Herstellerkataloge, technische Datenblätter, Produktinformationen sowie "
             "CE- und Konformitätszertifikate. Neue Dokumente ergänzen wir laufend.")
+
+_DL_LEAD_SS = ("Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum "
+               "Herunterladen bereit.")
+
+_DL_LEAD_HB = ("Herstellerkataloge, Datenblätter, Produktinformationen und Zertifikate "
+               "zu unseren Heilbehelfen und Hilfsmitteln.")
+
+_DL_NOTE_REQUEST = ("Weitere Kataloge und Unterlagen &ndash; Datenblätter, "
+                    "Produktinformationen und Zertifikate &ndash; übermitteln wir Ihnen "
+                    "gerne auf Anfrage.")
 
 _DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produkten der "
                 "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
@@ -822,16 +845,11 @@ DL_MED_CATS = [
 
 DL_STRAHLENSCHUTZ = [
     ("Herstellerkataloge", [
-        {"title": "ROTHBAND – Produktkatalog", "meta": "Gesamtkatalog Strahlenschutz · PDF", "icon": "book"},
-        {"title": "KENEX – Produktkatalog", "meta": "Röntgenschutz­systeme · PDF", "icon": "book"},
-    ]),
-    ("Datenblätter & Produktinfos", [
-        {"title": "Datenblätter – Persönlicher Strahlenschutz", "meta": "Technische Daten · PDF"},
-        {"title": "Datenblätter – Tisch-, Decken- & Mobilschutz (KENEX)", "meta": "Technische Daten · PDF"},
-    ]),
-    ("Zertifikate & Konformität", [
-        {"title": "CE-Konformitätserklärung – ROTHBAND", "meta": "Zertifikat · PDF", "icon": "cert"},
-        {"title": "CE-Konformitätserklärung – KENEX", "meta": "Zertifikat · PDF", "icon": "cert"},
+        {"title": "ROTHBAND – Persönliche Schutzausrüstung",
+         "meta": "Gesamtkatalog PSA · DE / EN / PL · PDF", "icon": "book",
+         "langs": [("DE", "assets/downloads/ss/Katalog_ROTHBAND_PSA_DE.pdf"),
+                   ("EN", "assets/downloads/ss/Katalog_ROTHBAND_PSA_EN.pdf"),
+                   ("PL", "assets/downloads/ss/Katalog_ROTHBAND_PSA_PL.pdf")]},
     ]),
 ]
 
@@ -849,19 +867,7 @@ DL_MED = [
     ]),
 ]
 
-DL_HB = [
-    ("Herstellerkataloge", [
-        {"title": "MOBIAK – Produktkatalog", "meta": "Heilbehelfe & Hilfsmittel · PDF", "icon": "book"},
-    ]),
-    ("Datenblätter & Produktinfos", [
-        {"title": "Datenblätter – Rollstühle & Mobilität", "meta": "Technische Daten · PDF"},
-        {"title": "Datenblätter – Anti-Dekubitus-Produkte", "meta": "Technische Daten · PDF"},
-        {"title": "Datenblätter – Sauerstoffkonzentratoren", "meta": "Technische Daten · PDF"},
-    ]),
-    ("Zertifikate & Konformität", [
-        {"title": "CE-Konformitätserklärung – MOBIAK", "meta": "Zertifikat · PDF", "icon": "cert"},
-    ]),
-]
+DL_HB = []
 
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -1089,7 +1095,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD, DL_STRAHLENSCHUTZ) + '''
+''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ, note=_DL_NOTE_REQUEST) + '''
     </div>
   </div>
 </section>
@@ -1253,7 +1259,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-heilbehelfe", _DL_LEAD, DL_HB) + '''
+''' + _downloads_category("06", "downloads-heilbehelfe", _DL_LEAD_HB, DL_HB, note=_DL_NOTE_REQUEST) + '''
     </div>
   </div>
 </section>
