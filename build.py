@@ -1535,7 +1535,8 @@ _ref_flags_html = "\n".join(_ref_flag_card(p) for p in _ref_flags)
 # --- Filterbares Projektkarten-Raster ---
 _REF_FLABEL = {"akh-persoenlich": "AKH Wien · Persönlich",
                "akh-leitung": "AKH Wien · Leitung",
-               "vamed": "VAMED"}
+               "schweiz": "Schweiz",
+               "international": "Internationale Projekte"}
 
 def _ref_card(p, gid, client):
     n = _ref_eurnum(p.get("kosten", ""))

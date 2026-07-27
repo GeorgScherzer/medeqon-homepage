@@ -1,375 +1,375 @@
 {
- "groups": [
-  {
-   "id": "akh-persoenlich",
-   "client": "AKH Wien",
-   "subtitle": "Persönlich bearbeitete Projekte",
-   "projects": [
+  "groups": [
     {
-     "name": "Neuerrichtung von Intensivbereichen in der neurologischen Medizin",
-     "lph": "LPH1-LPH5",
-     "umfang": "Neuerrichtung einer Intensivstation, spezialisiert auf die Betreuung von neurologischen Patient*innen auf einer Grundfläche von ca. 5.000m² (unter anderem: 20 Intensivzimmer, mehrere Untersuchungs- und Behandlungsräume, einen Phase B-Bereich, spezialisierte EEG-Bereiche und eine Nachbetreuung für Stroke-Unit-Patient*innen).",
-     "kosten": "€ 8,000,000",
-     "dauer": "4 Jahre"
+      "id": "akh-persoenlich",
+      "client": "AKH Wien",
+      "subtitle": "Persönlich bearbeitete Projekte",
+      "projects": [
+        {
+          "name": "Neuerrichtung von Intensivbereichen in der neurologischen Medizin",
+          "lph": "LPH1-LPH5",
+          "umfang": "Neuerrichtung einer Intensivstation, spezialisiert auf die Betreuung von neurologischen Patient*innen auf einer Grundfläche von ca. 5.000m² (unter anderem: 20 Intensivzimmer, mehrere Untersuchungs- und Behandlungsräume, einen Phase B-Bereich, spezialisierte EEG-Bereiche und eine Nachbetreuung für Stroke-Unit-Patient*innen).",
+          "kosten": "€ 8,000,000",
+          "dauer": "4 Jahre"
+        },
+        {
+          "name": "Errichtung eines intraoperativen MRs",
+          "lph": "LPH5-LPH9",
+          "umfang": "Errichtung eines intraoperativen MRs (Kombination aus MRT und Operationsraum) inklusive aller benötigten Nebenräume.",
+          "kosten": "€ 3,000,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Neuerrichtung eines Extrakorporalen Zentrums und Normalpflegebereiche",
+          "lph": "LPH1-LPH5",
+          "umfang": "Etablierung eines extrakorporalen Zentrums auf eine Grundfläche von ca. 3.500m².",
+          "kosten": "€ 1,900,000",
+          "dauer": "4 Jahre"
+        },
+        {
+          "name": "Austausch Angiographie im Neurologie OP",
+          "lph": "LPH5-LPH9",
+          "umfang": "Austausch der Angiographieanlage innerhalb des OP-Bereichs im Zuge der Modernisierung der Universitätsklinik für Neurochirurgie.",
+          "kosten": "€ 1,900,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch von einem Planungs-CT in der Strahlentherapie",
+          "lph": "LPH1-LPH2",
+          "umfang": "Neuerrichtung eines Planungs-CTs inklusive der benötigten umliegenden Bereiche (Umkleide, Bedienraum und Technikraum). Planung und Ausführung eines Laser-Positionierungssystems, eines Atemsimulationssystems und diverser medizinischer Ausstattungsgegenstände.",
+          "kosten": "€ 1,500,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch CT Anlage",
+          "lph": "LPH8",
+          "umfang": "Austausch der Computertomographie im Zuge der Modernisierung der Universitätsklinik für Neurochirurgie.",
+          "kosten": "€ 1,200,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Errichtung von einer Krankenstation für ca. 140 Betten",
+          "lph": "LPH5-LPH9",
+          "umfang": "Errichtung von einer Krankenstation für ca. 140 Betten im Bereich der Normalpflege über vier Ebenen. Ebene 03: Onkologische Tagesklinik, Ebene 04: Onkologie, Ebene 05: Hämatologie, Ebene 06: Palliativ und Radioonkologie.",
+          "kosten": "€ 1,050,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Austausch von zwei Uroskopie-Systemen und Adaptierung der Untersuchungsräume",
+          "lph": "LPH1-LPH2",
+          "umfang": "Austausch von zwei Durchleuchtungsanlagen in separaten Räumen sowie Anpassung der Räume auf die Qualifikation eines \"Eingriffsraumes\". Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 1,000,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch einer Durchleuchtungseinheit",
+          "lph": "LPH1-LPH2",
+          "umfang": "Austausch des Altgeräts gegen eine moderne Durchleuchtungsanlage. Vergrößerung des Untersuchungsraumes und Anpassung an die aktuellen behördlichen Vorgaben. Neugestaltung und Modernisierung des Bedienraumes sowie des Technikraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste",
+          "kosten": "€ 550,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Errichtung von einem Medizinischen Versorgungszentrum",
+          "lph": "LPH1-LPH9",
+          "umfang": "Errichtung eines medizinischen Versorgungszentrums mit 9 Untersuchungs- und Behandlungsräumen, einem Labor und einem unreinen Arbeitsraum.",
+          "kosten": "€ 500,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch von vier Reinigungs- und Desinfektionsgeräten",
+          "lph": "LPH1-LPH4",
+          "umfang": "Abbau von vier Sterilisationsanlagen und Neueinbringung von modernen Geräten. Anpassung der medizinischen Verbauten aus Metall im Bestand entsprechend den neuen Erfordernissen.",
+          "kosten": "€ 450,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Errichtung einer IMC-Station",
+          "lph": "LPH1-LPH7",
+          "umfang": "Errichtung einer IMC-Station mit fünf Patientenzimmern, einem Stützpunkt sowie diverser Nebenräume.",
+          "kosten": "€ 350,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Austausch Röntgentherapieanlage",
+          "lph": "LPH1-LPH9",
+          "umfang": "Errichtung einer modernen Röntgentherapie-Anlage inklusive der benötigten Nebenräume (Technikraum, Bedienraum und Umkleide).",
+          "kosten": "€ 280,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch von einem Dampfsterilisator",
+          "lph": "LPH1-LPH4",
+          "umfang": "Austausch des veralteten Dampfsterilisators. Erneuerung des Technikbereichs und der medizinischen Verbauten aus Metall.",
+          "kosten": "€ 210,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Errichtung Simulationsraum für die Strahlentherapie",
+          "lph": "LPH1-LPH9",
+          "umfang": "Abbau eines Röntgentherapiegeräts und Umfunktionierung des Raums zu einem Vorbereitungsraum für Behandlungen am Linearbeschleuniger (Atemtraining). Der Vorbereitungsraum beinhaltet einen Oberflächenscanner und einen LINAC-Behandlungstisch.",
+          "kosten": "€ 170,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch von zwei Reinigungs- und Desinfektionsgeräten",
+          "lph": "LPH1-LPH4",
+          "umfang": "Abbau von zwei Altgeräten und Neueinbringung von einem modernen Desinfektionsgerät. Teilung des Projektbereichs in einen reinen und einen unreinen Bereich. Modernisierung beider Bereiche durch geeignete Adaptierungen an den betriebsorganisatorischen Ablauf. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 150,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Errichtung von Sonderklassezimmern in der Urologie",
+          "lph": "LPH1-LPH9",
+          "umfang": "Umbau von bestehenden Bettenzimmern der Urologie zu zwei Sonderklassezimmern, inklusive der Errichtung eines modernen unreinen Arbeitsraums.",
+          "kosten": "€ 100,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Errichtung von Sonderklassezimmern in der Orthopädie",
+          "lph": "LPH1-LPH9",
+          "umfang": "Umbau von bestehenden Bettenzimmern der Orthopädie zu drei Sonderklassezimmern, inklusive der Errichtung eines modernen unreinen Arbeitsraums.",
+          "kosten": "€ 100,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Umbau einer Pathologie und Neuerrichtung von Kühlzellen",
+          "lph": "LPH1-LPH2",
+          "umfang": "Neuerrichtung von 39 Kühlzellen im Rahmen der Neugestaltung des gesamten Grundrisses, abgestimmt auf den betriebsorganisatorischen Ablauf. Erweiterung der Seziertische der Obduktion sowie Planung und Einbringung von medizinischen Verbauten aus Metall..",
+          "kosten": "€ 530,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "„Mutter-Kind-Zentrum, Vollausbau BT61.1, Allgemeines Krankenhaus der Stadt Wien (AKH Wien), Österreich“",
+          "lph": "LPH5-LPH7",
+          "umfang": "Zwei Operationssäle, Intensivstation (ICU) und Intermediate Care Station (IMCU), sowie eine voll ausgestattete radiologische Abteilung",
+          "kosten": "€ 8,500,000",
+          "dauer": "2019-2020"
+        }
+      ]
     },
     {
-     "name": "Errichtung eines intraoperativen MRs",
-     "lph": "LPH5-LPH9",
-     "umfang": "Errichtung eines intraoperativen MRs (Kombination aus MRT und Operationsraum) inklusive aller benötigten Nebenräume.",
-     "kosten": "€ 3,000,000",
-     "dauer": "1 Jahr"
+      "id": "akh-leitung",
+      "client": "AKH Wien",
+      "subtitle": "Als Abteilungsleiter verantwortet",
+      "projects": [
+        {
+          "name": "Austausch Linearbeschleuniger",
+          "lph": "LPH1-LPH3",
+          "umfang": "Austausch des Linearbeschleunigers inklusive des Patient*innen-Positionierungssystems. Modernisierung der Bedien- und Technikräume des Linearbeschleunigers.",
+          "kosten": "€ 5,600,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch Angiographie und Errichtung einer CT-Sliding Gantry",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der alten Angiographieanlage zu einem biplanen System, sowie Austausch der Computertomographieanlage zu einem CT-System mit einer Sliding Gantry. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 4,100,000",
+          "dauer": "4 Jahr"
+        },
+        {
+          "name": "Errichtung eines Hybrid OPs",
+          "lph": "LPH1-LPH2",
+          "umfang": "Errichtung eines Hybrid-OPs. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik (unter anderem: Herz-Lungen-Maschine, Beatmungsgeräte, Narkosemaschine, Absaugsysteme).",
+          "kosten": "€ 4,100,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Modernisierung und Adaptierung von drei OP-Sälen",
+          "lph": "LPH1-LPH4",
+          "umfang": "Modernisierung und Adaptierung von drei OP-Sälen für den Einsatz von OP-Robotern. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 3,300,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Austausch Linearbeschleuniger",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch des Linearbeschleunigers inklusive des Patienten-Positionierungssystems. Modernisierung des Bedien- und Technikraums des Linearbeschleunigers und Adaptierung entsprechend der neuen Anlage.",
+          "kosten": "€ 2,600,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Errichtung einer Intensivstation mit 8 Bettenplätzen",
+          "lph": "LPH1-LPH3",
+          "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume. Besonderheit: Etablierung der Intensivstation auf den ehemaligen Flächen von Büroräumen.",
+          "kosten": "€ 2,500,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Endoskopie OP",
+          "lph": "LPH1-LPH9",
+          "umfang": "Errichtung eines Endoskopie-OPs. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 2,200,000",
+          "dauer": "4 Jahre"
+        },
+        {
+          "name": "Austausch MR Anlage",
+          "lph": "LPH1-LPH2",
+          "umfang": "Austausch der alten MR-Anlage sowie Modernisierung des Vorbereitungsraumes. Modernisierung des Bedien- und Technikraums. Anpassung des Vorbereitungsraums für die Versorgung von Notfallpatient*innen. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik",
+          "kosten": "€ 1,900,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch PET CT",
+          "lph": "LPH1-LPH8",
+          "umfang": "Errichtung einer PET-CT-Anlage und eines zusätzlichen Arbeitsplatzes für die Aufbereitung der Radionuklide.",
+          "kosten": "€ 1,800,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch einer Angiographieanlage",
+          "lph": "LPH1-LPH3",
+          "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
+          "kosten": "€ 1,600,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch einer Angiographieanlage",
+          "lph": "LPH1-LPH3",
+          "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
+          "kosten": "€ 1,600,000",
+          "dauer": "1 Jahr"
+        },
+        {
+          "name": "Austausch einer Angiographieanlage",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der bestehenden Angiographie-Anlage. Verlegung des Technikraumes der Anlage auf die darüberliegende Ebene. Adaptierung und Modernisierung des Bedienraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverser mobiler und ortsfester Medizintechnik.",
+          "kosten": "€ 1,500,000",
+          "dauer": "3 Jahr"
+        },
+        {
+          "name": "Modernisierung einer 8 Betten Intensivstation",
+          "lph": "LPH1-LPH2",
+          "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume.",
+          "kosten": "€ 1,500,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Austausch Angiographieanlage",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch des Altgeräts auf ein modernes System sowie Modernisierung und Adaptierung des Waschraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 1,500,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Ganzkörper PET CT",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der bestehenden PET-CT-Anlage. Adaptierung des bestehenden Untersuchungsraums, der Arbeitsplätze im Bedienraum sowie des Technikraums.",
+          "kosten": "€ 1,200,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch von zwei Matratzendesinfektoren",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch von zwei Matratzendesinfektionsanlagen inklusive Adaptierung der medizinischen Verbauten aus Metall.",
+          "kosten": "€ 1,000,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Physikalische Medizin Modernisierung und Adaptierung",
+          "lph": "LPH1-LPH9",
+          "umfang": "Modernisierung und Adaptierung der physikalischen Therapie auf ca. 1.380m² Fläche, inklusive der Schmerzambulanz.",
+          "kosten": "€ 900,000",
+          "dauer": "5 Jahre"
+        },
+        {
+          "name": "Austausch Thorax-Aufnahmeplatz",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der Bestandsanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 600,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch Röntgenaufnahmeplatz",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 500,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Neuerrichtung einer Kinder und Jugendpsychiatrie",
+          "lph": "LPH8-LPH9",
+          "umfang": "Modernisierung des Bestandsgebäudes auf sechs Ebenen. Errichtung eines Zubaus sowie der Aufstockung einer Ebene. Planung und Ausführung diverser mobiler und ortsfester Medizintechnik (EKG-Geräte, EEG, Patientenbetten, Untersuchungsliegen, Defibrillatoren, etc.).",
+          "kosten": "€ 480,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Austausch Röntgenaufnahmeplatz",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
+          "kosten": "€ 460,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Etablierung ERCP",
+          "lph": "LPH5-LPH9",
+          "umfang": "Austausch des Durchleuchtungsgeräts, Abwicklung aller behördlichen Tätigkeiten in Bezug auf Laseranwendungen und Modernisierung des Ruheraumes.",
+          "kosten": "€ 450,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Austausch Röntgenaufnahmeplatz",
+          "lph": "LPH1-LPH9",
+          "umfang": "Austausch der Bestandsanlage auf ein neues digitales System.",
+          "kosten": "€ 350,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Errichtung einer Bettendesinfektionsanlage",
+          "lph": "LPH1-LPH3",
+          "umfang": "Umbau einer Bürofläche für die Errichtung einer Betten-Desinfektionsanlage.",
+          "kosten": "€ 330,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Neuerrichtung von Ambulanzbereichen Herz-Thorax-Zentrum",
+          "lph": "LPH8",
+          "umfang": "Errichtung eines Ambulanzbereichs (unter anderem: Transplantationszentrum, Untersuchung- und Behandlungsräume sowie Bereiche für die Kardiotechnik) für Herz-Thorax-chirurgische Patient*innen auf einer Fläche von ca. 1.900m².",
+          "kosten": "€ 250,000",
+          "dauer": "2 Jahre"
+        },
+        {
+          "name": "Neuerrichtung von einem Aufwachraum",
+          "lph": "LPH1-LPH9",
+          "umfang": "Errichtung eines Aufwachraums mit drei Bettenpositionen für die fünf OP-Räume der Neurochirurgie, sowie eines Überwachungsplatzes für die Pflege und eines unreinen Arbeitsraums.",
+          "kosten": "€ 150,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Modernisierung von Ambulanzbereichen (Kardiologie und Angiologie)",
+          "lph": "LPH1-LPH9",
+          "umfang": "Modernisierung und Neustrukturierung der Ambulanzbereiche der Kardiologie und Angiologie (15 Räume).",
+          "kosten": "€ 150,000",
+          "dauer": "4 Jahre"
+        },
+        {
+          "name": "Errichtung von Untersuchung- und Behandlungsräumen",
+          "lph": "LPH1-LPH9",
+          "umfang": "Umfunktionierung von einem Laborbereich zu drei Untersuchungs- und Behandlungsräumen.",
+          "kosten": "€ 150,000",
+          "dauer": "3 Jahre"
+        },
+        {
+          "name": "Adaptierung der Aufbereitung OP1, OP2 und Z-Steri",
+          "lph": "LPH1-LPH9",
+          "umfang": "Adaptierung der Aufbereitungsanlagen und Umbau der medizinischen Verbauten aus Metall, damit das OP-Besteck der OP-Roboter gereinigt werden kann. Umbau von Aufbereitungsanlagen für zwei OP-Säle und der zentralen Sterilisation.",
+          "kosten": "€ 100,000",
+          "dauer": "2 Jahre"
+        }
+      ]
     },
     {
-     "name": "Neuerrichtung eines Extrakorporalen Zentrums und Normalpflegebereiche",
-     "lph": "LPH1-LPH5",
-     "umfang": "Etablierung eines extrakorporalen Zentrums auf eine Grundfläche von ca. 3.500m².",
-     "kosten": "€ 1,900,000",
-     "dauer": "4 Jahre"
-    },
-    {
-     "name": "Austausch Angiographie im Neurologie OP",
-     "lph": "LPH5-LPH9",
-     "umfang": "Austausch der Angiographieanlage innerhalb des OP-Bereichs im Zuge der Modernisierung der Universitätsklinik für Neurochirurgie.",
-     "kosten": "€ 1,900,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch von einem Planungs-CT in der Strahlentherapie",
-     "lph": "LPH1-LPH2",
-     "umfang": "Neuerrichtung eines Planungs-CTs inklusive der benötigten umliegenden Bereiche (Umkleide, Bedienraum und Technikraum). Planung und Ausführung eines Laser-Positionierungssystems, eines Atemsimulationssystems und diverser medizinischer Ausstattungsgegenstände.",
-     "kosten": "€ 1,500,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch CT Anlage",
-     "lph": "LPH8",
-     "umfang": "Austausch der Computertomographie im Zuge der Modernisierung der Universitätsklinik für Neurochirurgie.",
-     "kosten": "€ 1,200,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Errichtung von einer Krankenstation für ca. 140 Betten",
-     "lph": "LPH5-LPH9",
-     "umfang": "Errichtung von einer Krankenstation für ca. 140 Betten im Bereich der Normalpflege über vier Ebenen. Ebene 03: Onkologische Tagesklinik, Ebene 04: Onkologie, Ebene 05: Hämatologie, Ebene 06: Palliativ und Radioonkologie.",
-     "kosten": "€ 1,050,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Austausch von zwei Uroskopie-Systemen und Adaptierung der Untersuchungsräume",
-     "lph": "LPH1-LPH2",
-     "umfang": "Austausch von zwei Durchleuchtungsanlagen in separaten Räumen sowie Anpassung der Räume auf die Qualifikation eines \"Eingriffsraumes\". Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 1,000,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch einer Durchleuchtungseinheit",
-     "lph": "LPH1-LPH2",
-     "umfang": "Austausch des Altgeräts gegen eine moderne Durchleuchtungsanlage. Vergrößerung des Untersuchungsraumes und Anpassung an die aktuellen behördlichen Vorgaben. Neugestaltung und Modernisierung des Bedienraumes sowie des Technikraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste",
-     "kosten": "€ 550,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Errichtung von einem Medizinischen Versorgungszentrum",
-     "lph": "LPH1-LPH9",
-     "umfang": "Errichtung eines medizinischen Versorgungszentrums mit 9 Untersuchungs- und Behandlungsräumen, einem Labor und einem unreinen Arbeitsraum.",
-     "kosten": "€ 500,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch von vier Reinigungs- und Desinfektionsgeräten",
-     "lph": "LPH1-LPH4",
-     "umfang": "Abbau von vier Sterilisationsanlagen und Neueinbringung von modernen Geräten. Anpassung der medizinischen Verbauten aus Metall im Bestand entsprechend den neuen Erfordernissen.",
-     "kosten": "€ 450,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Errichtung einer IMC-Station",
-     "lph": "LPH1-LPH7",
-     "umfang": "Errichtung einer IMC-Station mit fünf Patientenzimmern, einem Stützpunkt sowie diverser Nebenräume.",
-     "kosten": "€ 350,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Austausch Röntgentherapieanlage",
-     "lph": "LPH1-LPH9",
-     "umfang": "Errichtung einer modernen Röntgentherapie-Anlage inklusive der benötigten Nebenräume (Technikraum, Bedienraum und Umkleide).",
-     "kosten": "€ 280,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch von einem Dampfsterilisator",
-     "lph": "LPH1-LPH4",
-     "umfang": "Austausch des veralteten Dampfsterilisators. Erneuerung des Technikbereichs und der medizinischen Verbauten aus Metall.",
-     "kosten": "€ 210,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Errichtung Simulationsraum für die Strahlentherapie",
-     "lph": "LPH1-LPH9",
-     "umfang": "Abbau eines Röntgentherapiegeräts und Umfunktionierung des Raums zu einem Vorbereitungsraum für Behandlungen am Linearbeschleuniger (Atemtraining). Der Vorbereitungsraum beinhaltet einen Oberflächenscanner und einen LINAC-Behandlungstisch.",
-     "kosten": "€ 170,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch von zwei Reinigungs- und Desinfektionsgeräten",
-     "lph": "LPH1-LPH4",
-     "umfang": "Abbau von zwei Altgeräten und Neueinbringung von einem modernen Desinfektionsgerät. Teilung des Projektbereichs in einen reinen und einen unreinen Bereich. Modernisierung beider Bereiche durch geeignete Adaptierungen an den betriebsorganisatorischen Ablauf. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 150,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Errichtung von Sonderklassezimmern in der Urologie",
-     "lph": "LPH1-LPH9",
-     "umfang": "Umbau von bestehenden Bettenzimmern der Urologie zu zwei Sonderklassezimmern, inklusive der Errichtung eines modernen unreinen Arbeitsraums.",
-     "kosten": "€ 100,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Errichtung von Sonderklassezimmern in der Orthopädie",
-     "lph": "LPH1-LPH9",
-     "umfang": "Umbau von bestehenden Bettenzimmern der Orthopädie zu drei Sonderklassezimmern, inklusive der Errichtung eines modernen unreinen Arbeitsraums.",
-     "kosten": "€ 100,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Umbau einer Pathologie und Neuerrichtung von Kühlzellen",
-     "lph": "LPH1-LPH2",
-     "umfang": "Neuerrichtung von 39 Kühlzellen im Rahmen der Neugestaltung des gesamten Grundrisses, abgestimmt auf den betriebsorganisatorischen Ablauf. Erweiterung der Seziertische der Obduktion sowie Planung und Einbringung von medizinischen Verbauten aus Metall..",
-     "kosten": "€ 530,000",
-     "dauer": "1 Jahr"
+      "id": "schweiz",
+      "client": "Schweiz",
+      "subtitle": "Standortentwicklung & Engineering (VAMED)",
+      "projects": [
+        {
+          "name": "Herz-Neuro-Zentrum Bodensee, Schweiz",
+          "lph": "LPH5-LPH7",
+          "umfang": "Das Krankenhaus verfügt über 58 Betten, 12 Beobachtungsbetten, zwei Operationssäle sowie einen Hybrid-Operationssaal, ein Herzkatheterlabor und behandelt jährlich ca. 2.200 stationäre Patienten und ca. 6.200 ambulante Patienten.",
+          "kosten": "€ 10,000,000",
+          "dauer": "2019-2020"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "akh-leitung",
-   "client": "AKH Wien",
-   "subtitle": "Als Abteilungsleiter verantwortet",
-   "projects": [
-    {
-     "name": "Austausch Linearbeschleuniger",
-     "lph": "LPH1-LPH3",
-     "umfang": "Austausch des Linearbeschleunigers inklusive des Patient*innen-Positionierungssystems. Modernisierung der Bedien- und Technikräume des Linearbeschleunigers.",
-     "kosten": "€ 5,600,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch Angiographie und Errichtung einer CT-Sliding Gantry",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der alten Angiographieanlage zu einem biplanen System, sowie Austausch der Computertomographieanlage zu einem CT-System mit einer Sliding Gantry. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 4,100,000",
-     "dauer": "4 Jahr"
-    },
-    {
-     "name": "Errichtung eines Hybrid OPs",
-     "lph": "LPH1-LPH2",
-     "umfang": "Errichtung eines Hybrid-OPs. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik (unter anderem: Herz-Lungen-Maschine, Beatmungsgeräte, Narkosemaschine, Absaugsysteme).",
-     "kosten": "€ 4,100,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Modernisierung und Adaptierung von drei OP-Sälen",
-     "lph": "LPH1-LPH4",
-     "umfang": "Modernisierung und Adaptierung von drei OP-Sälen für den Einsatz von OP-Robotern. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 3,300,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Austausch Linearbeschleuniger",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch des Linearbeschleunigers inklusive des Patienten-Positionierungssystems. Modernisierung des Bedien- und Technikraums des Linearbeschleunigers und Adaptierung entsprechend der neuen Anlage.",
-     "kosten": "€ 2,600,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Errichtung einer Intensivstation mit 8 Bettenplätzen",
-     "lph": "LPH1-LPH3",
-     "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume. Besonderheit: Etablierung der Intensivstation auf den ehemaligen Flächen von Büroräumen.",
-     "kosten": "€ 2,500,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Endoskopie OP",
-     "lph": "LPH1-LPH9",
-     "umfang": "Errichtung eines Endoskopie-OPs. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 2,200,000",
-     "dauer": "4 Jahre"
-    },
-    {
-     "name": "Austausch MR Anlage",
-     "lph": "LPH1-LPH2",
-     "umfang": "Austausch der alten MR-Anlage sowie Modernisierung des Vorbereitungsraumes. Modernisierung des Bedien- und Technikraums. Anpassung des Vorbereitungsraums für die Versorgung von Notfallpatient*innen. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik",
-     "kosten": "€ 1,900,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch PET CT",
-     "lph": "LPH1-LPH8",
-     "umfang": "Errichtung einer PET-CT-Anlage und eines zusätzlichen Arbeitsplatzes für die Aufbereitung der Radionuklide.",
-     "kosten": "€ 1,800,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch einer Angiographieanlage",
-     "lph": "LPH1-LPH3",
-     "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
-     "kosten": "€ 1,600,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch einer Angiographieanlage",
-     "lph": "LPH1-LPH3",
-     "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
-     "kosten": "€ 1,600,000",
-     "dauer": "1 Jahr"
-    },
-    {
-     "name": "Austausch einer Angiographieanlage",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der bestehenden Angiographie-Anlage. Verlegung des Technikraumes der Anlage auf die darüberliegende Ebene. Adaptierung und Modernisierung des Bedienraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverser mobiler und ortsfester Medizintechnik.",
-     "kosten": "€ 1,500,000",
-     "dauer": "3 Jahr"
-    },
-    {
-     "name": "Modernisierung einer 8 Betten Intensivstation",
-     "lph": "LPH1-LPH2",
-     "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume.",
-     "kosten": "€ 1,500,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Austausch Angiographieanlage",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch des Altgeräts auf ein modernes System sowie Modernisierung und Adaptierung des Waschraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 1,500,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Ganzkörper PET CT",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der bestehenden PET-CT-Anlage. Adaptierung des bestehenden Untersuchungsraums, der Arbeitsplätze im Bedienraum sowie des Technikraums.",
-     "kosten": "€ 1,200,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch von zwei Matratzendesinfektoren",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch von zwei Matratzendesinfektionsanlagen inklusive Adaptierung der medizinischen Verbauten aus Metall.",
-     "kosten": "€ 1,000,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Physikalische Medizin Modernisierung und Adaptierung",
-     "lph": "LPH1-LPH9",
-     "umfang": "Modernisierung und Adaptierung der physikalischen Therapie auf ca. 1.380m² Fläche, inklusive der Schmerzambulanz.",
-     "kosten": "€ 900,000",
-     "dauer": "5 Jahre"
-    },
-    {
-     "name": "Austausch Thorax-Aufnahmeplatz",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der Bestandsanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 600,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch Röntgenaufnahmeplatz",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 500,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Neuerrichtung einer Kinder und Jugendpsychiatrie",
-     "lph": "LPH8-LPH9",
-     "umfang": "Modernisierung des Bestandsgebäudes auf sechs Ebenen. Errichtung eines Zubaus sowie der Aufstockung einer Ebene. Planung und Ausführung diverser mobiler und ortsfester Medizintechnik (EKG-Geräte, EEG, Patientenbetten, Untersuchungsliegen, Defibrillatoren, etc.).",
-     "kosten": "€ 480,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Austausch Röntgenaufnahmeplatz",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-     "kosten": "€ 460,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Etablierung ERCP",
-     "lph": "LPH5-LPH9",
-     "umfang": "Austausch des Durchleuchtungsgeräts, Abwicklung aller behördlichen Tätigkeiten in Bezug auf Laseranwendungen und Modernisierung des Ruheraumes.",
-     "kosten": "€ 450,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Austausch Röntgenaufnahmeplatz",
-     "lph": "LPH1-LPH9",
-     "umfang": "Austausch der Bestandsanlage auf ein neues digitales System.",
-     "kosten": "€ 350,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Errichtung einer Bettendesinfektionsanlage",
-     "lph": "LPH1-LPH3",
-     "umfang": "Umbau einer Bürofläche für die Errichtung einer Betten-Desinfektionsanlage.",
-     "kosten": "€ 330,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Neuerrichtung von Ambulanzbereichen Herz-Thorax-Zentrum",
-     "lph": "LPH8",
-     "umfang": "Errichtung eines Ambulanzbereichs (unter anderem: Transplantationszentrum, Untersuchung- und Behandlungsräume sowie Bereiche für die Kardiotechnik) für Herz-Thorax-chirurgische Patient*innen auf einer Fläche von ca. 1.900m².",
-     "kosten": "€ 250,000",
-     "dauer": "2 Jahre"
-    },
-    {
-     "name": "Neuerrichtung von einem Aufwachraum",
-     "lph": "LPH1-LPH9",
-     "umfang": "Errichtung eines Aufwachraums mit drei Bettenpositionen für die fünf OP-Räume der Neurochirurgie, sowie eines Überwachungsplatzes für die Pflege und eines unreinen Arbeitsraums.",
-     "kosten": "€ 150,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Modernisierung von Ambulanzbereichen (Kardiologie und Angiologie)",
-     "lph": "LPH1-LPH9",
-     "umfang": "Modernisierung und Neustrukturierung der Ambulanzbereiche der Kardiologie und Angiologie (15 Räume).",
-     "kosten": "€ 150,000",
-     "dauer": "4 Jahre"
-    },
-    {
-     "name": "Errichtung von Untersuchung- und Behandlungsräumen",
-     "lph": "LPH1-LPH9",
-     "umfang": "Umfunktionierung von einem Laborbereich zu drei Untersuchungs- und Behandlungsräumen.",
-     "kosten": "€ 150,000",
-     "dauer": "3 Jahre"
-    },
-    {
-     "name": "Adaptierung der Aufbereitung OP1, OP2 und Z-Steri",
-     "lph": "LPH1-LPH9",
-     "umfang": "Adaptierung der Aufbereitungsanlagen und Umbau der medizinischen Verbauten aus Metall, damit das OP-Besteck der OP-Roboter gereinigt werden kann. Umbau von Aufbereitungsanlagen für zwei OP-Säle und der zentralen Sterilisation.",
-     "kosten": "€ 100,000",
-     "dauer": "2 Jahre"
-    }
-   ]
-  },
-  {
-   "id": "vamed",
-   "client": "VAMED",
-   "subtitle": "Standortentwicklung & Engineering",
-   "projects": [
-    {
-     "name": "„Mutter-Kind-Zentrum, Vollausbau BT61.1, Allgemeines Krankenhaus der Stadt Wien (AKH Wien), Österreich“",
-     "lph": "LPH5-LPH7",
-     "umfang": "Zwei Operationssäle, Intensivstation (ICU) und Intermediate Care Station (IMCU), sowie eine voll ausgestattete radiologische Abteilung",
-     "kosten": "€ 8,500,000",
-     "dauer": "2019-2020"
-    },
-    {
-     "name": "Herz-Neuro-Zentrum Bodensee, Schweiz",
-     "lph": "LPH5-LPH7",
-     "umfang": "Das Krankenhaus verfügt über 58 Betten, 12 Beobachtungsbetten, zwei Operationssäle sowie einen Hybrid-Operationssaal, ein Herzkatheterlabor und behandelt jährlich ca. 2.200 stationäre Patienten und ca. 6.200 ambulante Patienten.",
-     "kosten": "€ 10,000,000",
-     "dauer": "2019-2020"
-    }
-   ]
-  }
- ]
+  ]
 }
