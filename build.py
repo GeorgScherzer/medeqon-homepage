@@ -66,7 +66,7 @@ FOOTER = '''<footer class="m-foot">
       <div class="m-foot-col">
         <div class="m-foot-tag">Kontakt</div>
         <a href="mailto:office@medeqon.com">office@medeqon.com</a>
-        <a href="tel:+436705505612">+43 670 550 5612</a>
+        <a href="tel:+4313580045">+43 135 80045</a>
         <a href="https://www.medeqon.com">www.medeqon.com</a>
         <div class="m-foot-plain">Bergstrasse 42/5/3<br>2102 Hagenbrunn · AT</div>
       </div>
@@ -1422,7 +1422,7 @@ BODY_KONTAKT = '''<section class="m-page-hero">
         <div>
           <span class="k">Direkt</span>
           <a href="mailto:office@medeqon.com">office@medeqon.com</a>
-          <a href="tel:+436705505612">+43 670 550 5612</a>
+          <a href="tel:+4313580045">+43 135 80045</a>
         </div>
         <div>
           <span class="k">Büro</span>
@@ -1786,7 +1786,7 @@ PAGES = [
      "Das Management von medeqon: zwei erfahrene Medizintechniker:innen mit über 25 Jahren Erfahrung in klinischer Infrastruktur.",
      "Management", BODY_MANAGEMENT),
     ("kontakt.html", "Kontakt · medeqon",
-     "Kontakt zu medeqon GmbH: office@medeqon.com, +43 670 550 5612, Bergstrasse 42/5/3, 2102 Hagenbrunn.",
+     "Kontakt zu medeqon GmbH: office@medeqon.com, +43 135 80045, Bergstrasse 42/5/3, 2102 Hagenbrunn.",
      "Kontakt", BODY_KONTAKT),
     ("agb.html", "AGB · medeqon",
      "Allgemeine Geschäftsbedingungen der medeqon GmbH.",
