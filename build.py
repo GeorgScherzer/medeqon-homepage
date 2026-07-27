@@ -1571,14 +1571,23 @@ _ref_filter_html = "\n".join(
        for g in _ref_data["groups"]])
 
 # --- Generisches Filter-Karten-Raster (Wissenschaft, Consulting) ---
-def _grid_card(gid, badge, title, desc):
+def _grid_card(gid, it):
+    badge = it.get("badge", ""); title = it["title"]; desc = it["desc"]
+    img = it.get("img"); link = it.get("link")
+    cls = "m-refc has-img" if img else "m-refc"
+    imghtml = (f'            <div class="m-refc-img"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n') if img else ''
     bg = f'<span class="m-refc-client">{_html.escape(badge)}</span>' if badge else ''
     head = ('            <div class="m-refc-head">' + bg + '</div>\n') if bg else ''
+    linkhtml = ''
+    if link:
+        url, label = link
+        linkhtml = f'            <a class="m-refc-link" href="{url}" target="_blank" rel="noopener">{_html.escape(label)} &#8599;</a>\n'
     return (
-f'          <article class="m-refc" data-group="{gid}">\n'
-+ head +
+f'          <article class="{cls}" data-group="{gid}">\n'
++ imghtml + head +
 f'            <h3 class="m-refc-name">{_html.escape(title)}</h3>\n'
 f'            <p class="m-refc-desc m-refc-desc--full">{desc}</p>\n'
++ linkhtml +
 '          </article>')
 
 def _filter_block(groups, add_all=True, all_label="Alle"):
@@ -1588,32 +1597,69 @@ def _filter_block(groups, add_all=True, all_label="Alle"):
         chips.append(_ref_fbtn("all", all_label, total, active=True))
     for idx, (gid, label, items) in enumerate(groups):
         chips.append(_ref_fbtn(gid, label, len(items), active=(not add_all and idx == 0)))
-    cards = [_grid_card(gid, it.get("badge", ""), it["title"], it["desc"])
-             for gid, label, items in groups for it in items]
+    cards = [_grid_card(gid, it) for gid, label, items in groups for it in items]
     return ('    <div class="m-filterable">\n'
             '      <div class="m-ref-filter">\n' + "\n".join(chips) + '\n      </div>\n'
             '      <div class="m-ref-grid">\n' + "\n".join(cards) + '\n      </div>\n'
             '    </div>')
 
+def _pub_desc(authors, venue, doi=None, isbn=None):
+    d = _html.escape(authors) + " &middot; " + _html.escape(venue)
+    if doi:
+        d += (f'. <a class="m-refc-ilink" href="https://doi.org/{doi}" target="_blank" '
+              f'rel="noopener">DOI: {_html.escape(doi)}</a>')
+    elif isbn:
+        d += ". ISBN " + _html.escape(isbn)
+    else:
+        d += "."
+    return d
+
+_CONF_ITEMS = [
+    {"badge": "Vortrag",
+     "title": "War and Public Health: The Effects of War on the Public Health System by the Example of the Syrian Civil Conflict",
+     "desc": "Oral Presentation &middot; The European Health Economics Association (EuHEA), 14.–16. Juli 2016."},
+    {"badge": "Poster",
+     "title": "Public health and armed conflict: what are the constraints for medical equipment management?",
+     "desc": "Poster Presentation &middot; 9th European Public Health Conference „Health for All – All for Health“, 9.–12. November 2016, ACV, Wien."},
+    {"badge": "Plenarbeitrag",
+     "title": "Medical Equipment used in Armed Conflict Situations",
+     "desc": "Plenary Contribution &middot; 3rd WHO Global Forum on Medical Devices, 12.05.2017."},
+]
+
+_PUB_ITEMS = [
+    {"badge": "2017", "title": "Managing work-related stress in humanitarian fieldwork: aid worker and resilience resources",
+     "desc": _pub_desc("Schmidt G.", "International Journal of Emergency Management, Vol. 13, No. 4, S. 382–397")},
+    {"badge": "2016", "title": "War and public health: effects of the Syrian civil war on the public health system",
+     "desc": _pub_desc("Schmidt G.", "Defence Review, Vol. 144, Special Issue 2016/1, S. 129–136")},
+    {"badge": "2016", "title": "The complications of emergency management in the Syrian civil war",
+     "desc": _pub_desc("Schmidt G.", "Defence Review, Vol. 144, Special Issue 2016/2, S. 144–153")},
+    {"badge": "2016", "title": "Hospitals and war: medical departments and personnel",
+     "desc": _pub_desc("Schmidt G. und Schmidt E.", "Int. J. Behavioural and Healthcare Research, Vol. 6, No. 1, S. 1–14", doi="10.1504/IJBHR.2016.10002015")},
+    {"badge": "2016", "title": "Safety Considerations on MRI Systems for Firefighters and Paramedics",
+     "desc": _pub_desc("Schmidt G.", "International Journal of Hospital Research, Vol. 5, No. 1, S. 7–12", doi="10.15171/ijhr.2016.02")},
+    {"badge": "2016", "title": "Private sector involvement in times of armed conflict: what are the constraints for trading medical equipment?",
+     "desc": _pub_desc("Schmidt G.", "Journal of Emergency Management, Vol. 14, No. 6, S. 413–421", doi="10.5055/jem.2016.0305")},
+    {"badge": "2014", "title": "Einsatzkräfte an der Magnetresonanztomographie: Erste Bestandsaufnahme. Erkennen von Gefahren und sicheres Vorgehen im Notfall",
+     "desc": _pub_desc("Schmidt G.", "104 S., Saarbrücken: AV Akademiker Verlag", isbn="978-3-639-67516-0")},
+]
+
 _WISS_GROUPS = [
-    ("vortraege", "Vorträge, Lehre und Konferenzen", [
-        {"badge": "Lehre & Konferenzen", "title": "Vorträge & akademische Betreuung",
-         "desc": "Beiträge auf internationalen Konferenzen (u.&nbsp;a. EuHEA, European Public Health Conference) sowie Betreuung einer Masterarbeit an der University of Copenhagen."},
-    ]),
-    ("publikationen", "Publikationen", [
-        {"badge": "Publikationen", "title": "Peer-reviewed Fachartikel & Fachbuch",
-         "desc": "Mehrere begutachtete Publikationen in internationalen Fachzeitschriften zu Medizintechnik, öffentlicher Gesundheit und Sicherheit sowie ein Fachbuch zu MRT-Sicherheit für Einsatzkräfte."},
-    ]),
+    ("vortraege", "Vorträge, Lehre und Konferenzen", _CONF_ITEMS),
+    ("publikationen", "Publikationen", _PUB_ITEMS),
     ("beitraege", "Wissenschaftliche Beiträge", [
         {"badge": "Promotion", "title": "Doktorarbeit (PhD)",
          "desc": "„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?“ – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen."},
+        {"badge": "Akademischer Berater", "title": "Betreuung einer Masterarbeit",
+         "desc": "Academic Advisor für die Masterarbeit „Enablers and barriers in medical device export to Syria“ (qualitative Studie) an der University of Copenhagen, November 2016 – Dezember 2017."},
     ]),
 ]
 
 _CONS_GROUPS = [
     ("consulting", "Consulting", [
         {"badge": "Internationale Beratung", "title": "World Health Organization (WHO)",
-         "desc": "Beratung zum „Compendium on innovative medical technologies“ sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen."},
+         "desc": "Beratung zum „Compendium on innovative medical technologies“ sowie Plenarbeitrag beim 3rd WHO Global Forum on Medical Devices zu Medizintechnik in Konfliktsituationen.",
+         "img": "assets/ref/who-logo.png", "imgalt": "World Health Organization",
+         "link": ("https://www.who.int/publications/i/item/9789240095212", "Zur WHO-Publikation")},
         {"badge": "Beratungsschwerpunkte", "title": "Medizintechnik & klinische Infrastruktur",
          "desc": "Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen."},
     ]),

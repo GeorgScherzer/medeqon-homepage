@@ -881,6 +881,15 @@ textarea.m-input{min-height:150px;resize:vertical}
   color:var(--ink);background:var(--mist-blue);border-radius:999px;padding:6px 11px}
 .m-refc.is-hidden{display:none}
 .m-refc-desc--full{-webkit-line-clamp:unset;display:block;overflow:visible}
+.m-refc.has-img{padding-top:0}
+.m-refc-img{margin:0 -24px 18px;padding:20px 24px;background:#fff;border-radius:16px 16px 0 0;
+  border-bottom:1px solid var(--mist);display:flex;align-items:center;justify-content:center;min-height:92px}
+.m-refc-img img{max-width:82%;max-height:56px;object-fit:contain;display:block}
+.m-refc-link{display:inline-flex;align-items:center;gap:5px;margin-top:16px;font-family:var(--font-display);
+  font-weight:600;font-size:14px;color:var(--signal);text-decoration:none}
+.m-refc-link:hover{color:var(--brand-700);text-decoration:underline}
+.m-refc-ilink{color:var(--signal);text-decoration:none;border-bottom:1px solid rgba(0,74,173,.35);white-space:nowrap}
+.m-refc-ilink:hover{border-bottom-color:var(--signal)}
 
 .m-ref-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .m-ref-stat{background:var(--paper);border:1px solid var(--mist);border-radius:16px;
