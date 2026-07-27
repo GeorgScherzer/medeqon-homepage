@@ -1642,7 +1642,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
     <div class="m-secH">
       <span class="m-tag">Projektreferenzen</span>
       <h2 class="m-bigH">Realisierte Projekte<span class="end-dot">.</span></h2>
-      <div class="sub">''' + str(_ref_total) + ''' Projekte, gegliedert nach Auftraggeber und Verantwortungsbereich. Filtern Sie nach Bereich, um gezielt einzelne Projekte mit Umfang, Volumen und Dauer einzusehen.</div>
+      <div class="sub">Unsere Referenzen spiegeln langjährige Erfahrung, technisches Know-how und individuelle Lösungen wider. Gemeinsam mit unseren Kunden realisieren wir Projekte, die höchsten fachlichen und qualitativen Ansprüchen gerecht werden.</div>
     </div>
     <div class="m-filterable">
       <div class="m-ref-filter">
@@ -1660,7 +1660,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
     <div class="m-secH">
       <span class="m-tag">Akademisches und Wissenschaft</span>
       <h2 class="m-bigH">Wissenschaft &amp; Forschung<span class="end-dot">.</span></h2>
-      <div class="sub">Neben der praktischen Projektarbeit ist Georg Scherzer wissenschaftlich aktiv – mit einer Promotion, Fachpublikationen und Beiträgen auf internationalen Konferenzen.</div>
+      <div class="sub">Wissenschaft und Forschung sind fester Bestandteil unseres Selbstverständnisses. Durch die Mitwirkung an Forschungsprojekten, wissenschaftlichen Beiträgen und dem fachlichen Austausch leisten wir einen aktiven Beitrag zur Weiterentwicklung moderner Medizintechnik und evidenzbasierter Lösungen.</div>
     </div>
 ''' + _filter_block(_WISS_GROUPS, add_all=True) + '''
   </div>
@@ -1671,7 +1671,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
     <div class="m-secH">
       <span class="m-tag">Consulting</span>
       <h2 class="m-bigH">Beratung &amp; Consulting<span class="end-dot">.</span></h2>
-      <div class="sub">Beratungsmandate für Organisationen und Institutionen rund um Medizintechnik, Beschaffung und klinische Infrastruktur.</div>
+      <div class="sub">Herstellerunabhängige Beratung mit technischem Know-how – individuell, praxisnah und lösungsorientiert.</div>
     </div>
 ''' + _filter_block(_CONS_GROUPS, add_all=False) + '''
   </div>
