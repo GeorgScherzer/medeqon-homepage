@@ -1274,8 +1274,8 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <div class="m-cat-head">
       <div class="m-cat-head-text">
-        <h2>Beschaffung &amp; Projektausstattung<span class="end-dot">.</span></h2>
-        <div class="sub">Nicht jedes Objekt steht in einem Katalog – doch nahezu jedes lässt sich beschaffen. Als herstellerunabhängiger Partner sourcen wir für Sie jedes medizinische, technische oder infrastrukturelle Produkt: einzeln und kurzfristig oder als Teil eines umfassenden Projekts. Vom einzelnen Spezialgerät bis zur kompletten Ausstattung eines Funktionsbereichs übernehmen wir Recherche, Auswahl, Einkauf und Lieferung – und richten auf Wunsch ganze Bereiche schlüsselfertig ein.</div>
+        <h2>Herstellerunabhängige Produktbeschaffung<span class="end-dot">.</span></h2>
+        <div class="sub">Sie suchen ein Produkt, das nicht in unserem Katalog enthalten ist? Dank unserer Herstellerunabhängigkeit sind wir nicht an bestimmte Marken gebunden und können Produkte verschiedenster Hersteller für Sie beschaffen.</div>
       </div>
     </div>
 
