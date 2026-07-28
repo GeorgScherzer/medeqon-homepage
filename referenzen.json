@@ -441,7 +441,10 @@
           "lph": "LPH1-LPH3",
           "umfang": "Umbau einer Bürofläche für die Errichtung einer Betten-Desinfektionsanlage.",
           "kosten": "€ 330,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-einer-bettendesinfektionsanlage/1.jpg"
+          ]
         },
         {
           "name": "Neuerrichtung von Ambulanzbereichen Herz-Thorax-Zentrum",
@@ -459,7 +462,10 @@
           "lph": "LPH1-LPH9",
           "umfang": "Errichtung eines Aufwachraums mit drei Bettenpositionen für die fünf OP-Räume der Neurochirurgie, sowie eines Überwachungsplatzes für die Pflege und eines unreinen Arbeitsraums.",
           "kosten": "€ 150,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/neuerrichtung-von-einem-aufwachraum/1.jpg"
+          ]
         },
         {
           "name": "Modernisierung von Ambulanzbereichen (Kardiologie und Angiologie)",
