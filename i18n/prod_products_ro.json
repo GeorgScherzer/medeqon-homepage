@@ -1,0 +1,518 @@
+{
+  "alma-pro": {
+    "model": "ALMA PRO",
+    "description": "Masă de chiropractică electrică versatilă pentru tehnici drop, de flexie și de distracție, cu secțiuni de cap reglabile și bară de comandă pentru flexie în T.",
+    "specs": [
+      ["Interval de înălțime", "56–90 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Secțiuni drop", "4 (cervical, toracal, lombar, pelvin)"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Tapițerie", "7,5 cm · densitate spumă 100 kg/m³"],
+      ["Husă", "Vinil PVC greu inflamabil (BS 5852)"],
+      ["Dimensiuni", "176 × 72 × 74 cm"],
+      ["Greutate", "118 kg"],
+      ["Certificate", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "appa": {
+    "model": "APPA",
+    "description": "Masă de tratament chiropractic cu coloană centrală, șase secțiuni, telecomandă electrică cu piciorul și patru secțiuni drop.",
+    "specs": [
+      ["Capacitate portantă", "250 kg"],
+      ["Secțiuni drop", "4 (cervical, toracal, lombar, pelvin)"],
+      ["Acționare", "Motor de coloană TiMOTION (23 s)"],
+      ["Secțiuni", "6"],
+      ["Tapițerie", "7 cm · densitate spumă 100 kg/m³"],
+      ["Husă", "Husă frotir greu inflamabilă (albastru sau gri închis)"],
+      ["Dimensiuni", "201 × 73 × 82 cm"],
+      ["Greutate", "152 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "scall-pro": {
+    "model": "SCALL PRO",
+    "description": "Masă de chiropractică eficientă din punct de vedere al costurilor, cu secțiuni drop manuale, reglarea tensiunii și sistem electric de ridicare Hi-Lo.",
+    "specs": [
+      ["Interval de înălțime", "46–80 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Secțiuni drop", "4 (cervical, toracal, lombar, pelvin)"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Tapițerie", "7,5 cm · densitate spumă 100 kg/m³"],
+      ["Husă", "Vinil PVC greu inflamabil (BS 5852)"],
+      ["Dimensiuni", "192 × 62 × 51 cm"],
+      ["Greutate", "92 kg"],
+      ["Certificate", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "sido": {
+    "model": "SIDO",
+    "description": "Masă de tratament chiropractic versatilă, cu reglare pe mai multe unghiuri, pentru mobilizare, manipulare, masaj și terapie prin mișcare.",
+    "specs": [
+      ["Interval de înălțime", "49–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Secțiuni drop", "2 (cervical, toracal)"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Tapițerie", "7 cm · densitate spumă 100 kg/m³"],
+      ["Husă", "Piele sintetică PVC, greu inflamabilă (BS 5852)"],
+      ["Dimensiuni", "199 × 70 × 54 cm"],
+      ["Greutate", "71 kg"],
+      ["Certificate", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "sido-pro": {
+    "model": "SIDO PRO",
+    "description": "Masă de manipulare chiropractică cu reglare pe mai multe unghiuri, înclinare, poziție inversată și rotație lombară inferioară pentru flexibilitate maximă.",
+    "specs": [
+      ["Interval de înălțime", "52–93 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Secțiuni drop", "2 (cervical, toracal)"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Tapițerie", "7 cm · densitate spumă 100 kg/m³"],
+      ["Husă", "Vinil PVC greu inflamabil (BS 5852)"],
+      ["Dimensiuni", "199 × 70 × 54 cm"],
+      ["Certificate", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "batec": {
+    "model": "BATEC",
+    "description": "Masă de cardiologie robustă din două secțiuni, cu reglare electrică a înălțimii și a spătarului, două decupaje pentru cardiologie și telecomandă cu piciorul.",
+    "specs": [
+      ["Interval de înălțime", "58–102 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "2"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC de mare rezistență, ignifug"],
+      ["Dimensiuni", "199 × 75 × 61 cm"],
+      ["Greutate", "65 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "bobath": {
+    "model": "BOBATH",
+    "description": "Masă Bobath cu două secțiuni și suprafață de întindere extra-lată de 120 cm pentru reabilitare neuromotorie, cu trei decupaje faciale.",
+    "specs": [
+      ["Interval de înălțime", "49–93 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "2"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă frotir greu inflamabilă"],
+      ["Dimensiuni", "194 × 124 × 53 cm"],
+      ["Greutate", "101 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "brom": {
+    "model": "BROM",
+    "description": "Masă de tratament din trei secțiuni, cu reglare electrică a înălțimii, decupaj facial și secțiuni pentru spate și picioare reglabile cu arc pe gaz.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "3"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri închis)"],
+      ["Dimensiuni", "186 × 70 × 54 cm"],
+      ["Greutate", "72 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "brom-pro": {
+    "model": "BROM PRO",
+    "description": "Masă de tratament din trei secțiuni din seria PRO, cu reglare electrică a înălțimii, decupaj facial și spătar și suport pentru picioare reglabile cu arc pe gaz.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "3"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "186 × 70 × 54 cm"],
+      ["Greutate", "82 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "enid": {
+    "model": "ENID",
+    "description": "Masă robustă din două secțiuni pentru tratamente fizioterapeutice intensive, cu reglare electrică a înălțimii prin comandă perimetrală.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "2"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "199 × 74 × 51 cm"],
+      ["Greutate", "60 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "enid-pro": {
+    "model": "ENID PRO",
+    "description": "Masă robustă din două secțiuni din seria PRO pentru tratamente intensive, cu reglare electrică a înălțimii prin comandă perimetrală.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "2"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "199 × 70 × 50 cm"],
+      ["Greutate", "81 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "galley": {
+    "model": "GALLEY",
+    "description": "Masă de fizioterapie din șapte secțiuni cu două motoare (înălțime și cifoză), cotiere la nivelul capului și cotiere centrale rabatabile până la 90 cm lățime.",
+    "specs": [
+      ["Interval de înălțime", "51–94 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "2 motoare (înălțime + cifoză) · TiMOTION"],
+      ["Secțiuni", "7"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă frotir greu inflamabilă"],
+      ["Dimensiuni", "195 × 70 × 58 cm"],
+      ["Greutate", "76 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "guth": {
+    "model": "GUTH",
+    "description": "Masă de fizioterapie din două secțiuni cu cotiere la nivelul capului și tetieră reglabilă atât pozitiv, cât și negativ, pentru tehnici cervicale și craniene.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "2"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă frotir greu inflamabilă"],
+      ["Dimensiuni", "199 × 70 × 51 cm"],
+      ["Greutate", "64 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "guth-pro": {
+    "model": "GUTH PRO",
+    "description": "Masă de tratament electrică din două secțiuni din seria PRO, cu cotiere și tetieră cu mai multe poziții (−55° până la +45°) și bază închisă.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Motor TiMOTION"],
+      ["Secțiuni", "2"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC ignifug (BS 5852)"],
+      ["Dimensiuni", "199 × 70 × 54 cm"],
+      ["Greutate", "82 kg"],
+      ["Certificate", "CE · FDA"]
+    ]
+  },
+  "jull-pro": {
+    "model": "JULL PRO",
+    "description": "Masă cu tetieră scurtă, spătar asistat de arc pe gaz și sistem electric de ridicare Hi-Lo lin, pentru o platformă de tratament stabilă.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "TiMOTION · comandă cu piciorul · arc pe gaz cap/picior"],
+      ["Secțiuni", "Tetieră −55°/+45° · Picior 0°/+75° · decupaj facial"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC ignifug (BS 5852)"],
+      ["Dimensiuni", "195 × 60 × 50 cm"],
+      ["Greutate", "94 kg"],
+      ["Certificate", "CE · FDA"]
+    ]
+  },
+  "nott": {
+    "model": "NOTT",
+    "description": "Masă de fizioterapie din cinci secțiuni cu husă frotir, cotiere reglabile pe înălțime și două motoare pentru înălțime și cifoză electrică.",
+    "specs": [
+      ["Interval de înălțime", "51–94 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "2 motoare (înălțime + cifoză) · TiMOTION"],
+      ["Secțiuni", "5 · spătar cu decupaj facial"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "195 × 70 × 58 cm"],
+      ["Greutate", "76 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "nott-pro": {
+    "model": "NOTT PRO",
+    "description": "Masă de fizioterapie din cinci secțiuni din seria PRO, cu husă frotir, cotiere reglabile pe înălțime și două motoare pentru înălțime și cifoză.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "2 motoare (înălțime + cifoză) · TiMOTION"],
+      ["Secțiuni", "5 · spătar cu decupaj facial"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "193 × 70 × 51 cm"],
+      ["Greutate", "98 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "pehr": {
+    "model": "PEHR",
+    "description": "Masă de fizioterapie din două secțiuni cu husă frotir, tetieră înclinabilă, pernă facială și cotiere dedesubt.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · comandă perimetrală"],
+      ["Secțiuni", "2 · Tetieră +30°/−70°"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "193 × 75 × 54 cm"],
+      ["Greutate", "62 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "rila": {
+    "model": "RILA",
+    "description": "Masă de fizioterapie și osteopatie cu cinci secțiuni, cotiere reglabile pe înălțime și tetieră înclinabilă pozitiv/negativ.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · comandă perimetrală"],
+      ["Secțiuni", "5 · secțiune centrală fixă · Tetieră +80°/−40°"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Dimensiuni", "194 × 70 × 53 cm"],
+      ["Greutate", "65 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "rila-pro": {
+    "model": "RILA PRO",
+    "description": "Masă de fizioterapie și osteopatie din seria PRO, cu cinci secțiuni, cotiere reglabile pe înălțime și tetieră reglabilă pozitiv/negativ.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · comandă perimetrală"],
+      ["Secțiuni", "5 · secțiune centrală fixă · decupaj facial"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil foarte rezistentă, ignifugă (albastru sau gri)"],
+      ["Dimensiuni", "193 × 70 × 50 cm"],
+      ["Greutate", "86 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "roth": {
+    "model": "ROTH",
+    "description": "Masă de osteopatie din două secțiuni cu decupaj facial, cotiere laterale rabatabile (până la 80 cm lățime suplimentară) și tetieră reglabilă cu arc pe gaz.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · bară de comandă perimetrală"],
+      ["Secțiuni", "2 · Tetieră +40°/−45° (arc pe gaz) · cotiere rabatabile"],
+      ["Tapițerie", "5 cm · densitate spumă 70 kg/m³"],
+      ["Husă", "Vinil foarte rezistent la abraziune, ignifug"],
+      ["Dimensiuni", "199 × 70 × 51 cm"],
+      ["Greutate", "64 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "still": {
+    "model": "STILL",
+    "description": "Masă de tratament din șapte secțiuni cu sistem electric Hi-Lo puternic, drenaj postural electric și amplitudine mare de mișcare.",
+    "specs": [
+      ["Interval de înălțime", "46,5–96,5 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · drenaj postural prin buton lateral"],
+      ["Secțiuni", "7 · cap/piept/picior reglabile · cotiere rabatabile"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC ignifug (BS 5852)"],
+      ["Dimensiuni", "200 × 70 cm (suprafață utilă)"],
+      ["Greutate", "101 kg"],
+      ["Certificate", "CE · FDA"]
+    ]
+  },
+  "kend-pro": {
+    "model": "KEND PRO",
+    "description": "Masă de tratament hidraulică scurtă, cu secțiune pentru spate și cap asistată de arc pe gaz și bază închisă, ușor de curățat.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm"],
+      ["Capacitate portantă", "250 kg"],
+      ["Reglare", "Hidraulic prin pedală laterală de picior"],
+      ["Secțiuni", "3 · Tetieră −55°/+45° · Picior 0°/+75°"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC greu inflamabil (BS 5852)"],
+      ["Dimensiuni", "195 × 66 cm"],
+      ["Greutate", "87 kg"]
+    ]
+  },
+  "ling-pro": {
+    "model": "LING PRO",
+    "description": "Masă de tratament robustă din două secțiuni, cu reglare hidraulică a înălțimii, roți retractabile și decupaj facial pentru activitatea zilnică din cabinet.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm"],
+      ["Capacitate portantă", "250 kg"],
+      ["Reglare", "Hidraulic (timp de ridicare 12 s)"],
+      ["Secțiuni", "2 · Spătar 20°/70°"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri închis)"],
+      ["Dimensiuni", "195 × 66 cm"],
+      ["Greutate", "77 kg"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "mait-pro": {
+    "model": "MAIT PRO",
+    "description": "Masă de fizioterapie hidraulică populară, cu interval mare de reglare, cotiere tapițate reglabile pe înălțime și soclu închis.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm"],
+      ["Capacitate portantă", "250 kg"],
+      ["Reglare", "Hidraulic prin pedală laterală (12 s)"],
+      ["Secțiuni", "3 · Tetieră −55°/+45° · Picior 0°/+75°"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC greu inflamabil (BS 5852)"],
+      ["Dimensiuni", "195 × 66 cm"],
+      ["Greutate", "85 kg"]
+    ]
+  },
+  "nobu": {
+    "model": "NOBU",
+    "description": "Scaun de masaj portabil, pliabil, din aluminiu ușor, cu suporturi reglabile multiplu și geantă de transport pentru utilizări mobile.",
+    "specs": [
+      ["Capacitate portantă", "180 kg"],
+      ["Reglare", "Tetieră, spătar, șezut și cotiere reglabile"],
+      ["Tapițerie", "5 cm · tapițerie PU"],
+      ["Cadru", "Cadru din aluminiu ușor, pliabil"],
+      ["Dimensiuni", "54 × 74 × 125 cm (desfăcut)"],
+      ["Greutate", "10 kg"],
+      ["Certificate", "CE (93/42/EWG)"]
+    ]
+  },
+  "tenb-pro": {
+    "model": "TENB PRO",
+    "description": "Masă de tratament hidraulică cu tetieră reglabilă multiplu și cotiere pentru examinări variate și tehnici manuale.",
+    "specs": [
+      ["Interval de înălțime", "45–95,5 cm"],
+      ["Capacitate portantă", "250 kg"],
+      ["Reglare", "Hidraulic prin pedală laterală de picior"],
+      ["Secțiuni", "2 · Tetieră 45°/55° · cu cotiere"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC ignifug (BS 5852)"],
+      ["Dimensiuni", "195 × 66 cm"],
+      ["Greutate", "81 kg"]
+    ]
+  },
+  "fix": {
+    "model": "FIX",
+    "description": "Masă de tratament fixă cu cadru alb și husă frotir antibacteriană, ambalată plat și montată în două minute.",
+    "specs": [
+      ["Înălțime", "70 cm (fix)"],
+      ["Capacitate portantă", "225 kg"],
+      ["Spătar", "reglabil 0°–75°"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Frotir, antibacterian (albastru sau gri)"],
+      ["Dimensiuni", "195 × 70 cm"]
+    ]
+  },
+  "disk": {
+    "model": "DISK",
+    "description": "Scaun profesional cu șezut rotund tapițat, bază în cruce cromată cu cinci roți și reglarea înălțimii cu arc pe gaz.",
+    "specs": [
+      ["Interval de înălțime", "49–65 cm"],
+      ["Reglarea înălțimii", "Arc pe gaz"],
+      ["Diametrul șezutului", "35 cm"],
+      ["Roți", "5 · bază în cruce cromată"],
+      ["Husă", "PU"],
+      ["Greutate", "4,5 kg"]
+    ]
+  },
+  "core": {
+    "model": "CORE",
+    "description": "Scaun rotund cu cotieră rabatabilă pivotantă la 360° și șezut tapițat din spumă de densitate ridicată pentru lucru ergonomic.",
+    "specs": [
+      ["Interval de înălțime", "48–64 cm"],
+      ["Reglarea înălțimii", "Arc pe gaz"],
+      ["Cotieră", "rabatabilă · pivotantă la 360°"],
+      ["Diametrul șezutului", "40 cm"],
+      ["Tapițerie", "Spumă de densitate ridicată · 7 cm"],
+      ["Capacitate portantă", "160 kg"]
+    ]
+  },
+  "supp": {
+    "model": "SUPP",
+    "description": "Scaun rotund cu spătar reglabil și tapițerie din spumă cu memorie, îmbrăcat în vinil ignifug.",
+    "specs": [
+      ["Înălțimea șezutului", "47–63 cm"],
+      ["Reglarea înălțimii", "Arc pe gaz"],
+      ["Spătar", "înclinabil până la 25° · reglabil pe înălțime"],
+      ["Diametrul șezutului", "40 cm"],
+      ["Tapițerie", "Spumă cu memorie · 5 cm"],
+      ["Husă", "Vinil ignifug"],
+      ["Capacitate portantă", "160 kg"]
+    ]
+  },
+  "ride": {
+    "model": "RIDE",
+    "description": "Scaun tip șa cu reglarea înălțimii prin arc pneumatic pe gaz, husă PU de calitate superioară și bază în cruce cromată cu cinci roți.",
+    "specs": [
+      ["Interval de înălțime", "49–65 cm"],
+      ["Reglarea înălțimii", "Arc pneumatic pe gaz"],
+      ["Dimensiunile șezutului", "44 × 43 cm"],
+      ["Roți", "5 · bază în cruce cromată"],
+      ["Husă", "PU"],
+      ["Greutate", "4,5 kg"]
+    ]
+  },
+  "weelko-xtract": {
+    "model": "XTRACT",
+    "description": "Masă electrică pentru recoltarea sângelui cu reglare Hi-Lo, cotiere rabatabile și tetieră detașabilă pentru donări de sânge confortabile.",
+    "specs": [
+      ["Interval de înălțime", "56–100 cm"],
+      ["Reglarea înălțimii", "Electric · bară de comandă perimetrală"],
+      ["Capacitate portantă", "250 kg"],
+      ["Roți", "retractabile · 75 mm"],
+      ["Cotiere", "rabatabile"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC, de mare rezistență"],
+      ["Dimensiuni", "174 × 73 × 63 cm"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "ent": {
+    "model": "ENT",
+    "description": "Scaun de tratament electric multifuncțional cu patru motoare pentru ORL, oftalmologie și chirurgie plastică, inclusiv poziția Trendelenburg.",
+    "specs": [
+      ["Interval de înălțime", "59–89 cm"],
+      ["Reglarea înălțimii", "Electric · 4 motoare · telecomandă manuală"],
+      ["Capacitate portantă", "250 kg"],
+      ["Spătar", "înclinabil (−5° până la +35°)"],
+      ["Roți", "125 mm"],
+      ["Tapițerie", "7,5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC (rezistent la foc, murdărie și mucegai)"],
+      ["Dimensiuni", "169 × 73 × 78 cm"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "ob": {
+    "model": "OB",
+    "description": "Scaun ginecologic de examinare electric cu două motoare pentru înălțimea șezutului și înclinare, inclusiv etriere, suport pentru picioare și recipient pentru deșeuri.",
+    "specs": [
+      ["Interval de înălțime", "62–104 cm"],
+      ["Reglarea înălțimii", "Electric · 2 motoare · pedală"],
+      ["Capacitate portantă", "250 kg"],
+      ["Roți", "retractabile · 75 mm"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Vinil PVC, de mare rezistență"],
+      ["Dimensiuni", "148 × 73 × 68 cm"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "alu-screen-1518": {
+    "model": "ALU SCREEN 1518",
+    "description": "Paravan medical mobil din aliaj de aluminiu cu panouri antibacteriene, rezistent la coroziune și cu rulare silențioasă.",
+    "specs": [
+      ["Variantă", "Mobil · extensibil"],
+      ["Panouri", "8 bucăți"],
+      ["Dimensiuni", "Lungime 210 cm · Înălțime 185 cm"],
+      ["Material", "Aluminiu · panouri antibacteriene A+"],
+      ["Culoare", "Alb (personalizabil)"],
+      ["Roți", "Ø 7,5 cm · silențioase"]
+    ]
+  }
+}

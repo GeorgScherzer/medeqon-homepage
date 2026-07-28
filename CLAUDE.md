@@ -43,6 +43,28 @@ ausgelöst durch einen Git-Push von Georg.
   --mist #D5DAE0, --paper #FFF, --mist-blue #E8EEF7, --signal #004AAD,
   --sky #5B9BD5, --brand-700 #003278, --deep-800 #0a1228.
 
+## Mehrsprachigkeit (DE / EN / PL / RO)
+Die Website ist viersprachig: Deutsch liegt im Wurzelverzeichnis, die
+Übersetzungen unter `/en/`, `/pl/`, `/ro/`. Alles wird von `build.py` erzeugt.
+- **Steuerung:** `LANGS`, `AVAILABLE` (welche Seite je Sprache existiert),
+  `NAV_LABELS`, `_FOOT_T`, Länderflaggen-Umschalter (`FLAGS`, `_lang_switcher`).
+- **Wichtige Terminologie:** „Planung" wird im Englischen immer als
+  **„Medical Technology Design"** übersetzt (Marken-/Klarheitsentscheidung).
+- **Übersetzungsdaten** liegen in `i18n/` (JSON) und `content/*.<lang>.html`:
+  - `i18n/ref_<lang>.json` – Projektnamen/-umfang der Referenzen.
+  - `i18n/prod_<quelle>_<lang>.json` – Produktdaten (Modell/Beschreibung/Specs),
+    Schlüssel = `slug`; Zahlen/Einheiten/Normen/Modellcodes bleiben unverändert.
+  - `content/agb.<lang>.html`, `datenschutz.<lang>.html`, `impressum.<lang>.html`
+    – übersetzte Rechtstexte (HTML-Struktur identisch zum Deutschen).
+- **Statische UI-Texte** stehen als Wörterbücher direkt in `build.py`
+  (`_REFUI`, `_PUI`, `_FOOT_T`, `NAV_LABELS`). Fehlende Übersetzungen werden beim
+  Build in `_UIT_MISS` / `_PUIT_MISS` gesammelt (Kontrolle: sollten leer sein).
+- **Neue Inhalte übersetzen:** deutschen Text in Quelle/JSON ergänzen, dann die
+  entsprechenden `i18n/`- bzw. `_PUI`/`_REFUI`-Einträge nachziehen, `build.py`
+  laufen lassen und auf WARN-Meldungen achten.
+- **Hinweis Rechtstexte:** AGB/Datenschutz sind sinngemäß maschinell übersetzt –
+  vor rechtsverbindlicher Nutzung juristisch prüfen lassen.
+
 ## So arbeitet Georg mit Claude weiter (auch nach Monaten)
 1. In der Claude-Desktop-App eine neue Cowork-Aufgabe starten und die
    Desktop-App verbunden lassen (Datei-Brücke).

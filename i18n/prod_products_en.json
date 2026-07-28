@@ -1,0 +1,518 @@
+{
+  "alma-pro": {
+    "model": "ALMA PRO",
+    "description": "Versatile electric chiropractic table for drop, flexion and distraction techniques with adjustable head sections and a T-flexion control bar.",
+    "specs": [
+      ["Height range", "56–90 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drop sections", "4 (cervical, thoracic, lumbar, pelvic)"],
+      ["Drive", "TiMOTION motor"],
+      ["Upholstery", "7.5 cm · foam density 100 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "176 × 72 × 74 cm"],
+      ["Weight", "118 kg"],
+      ["Certificates", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "appa": {
+    "model": "APPA",
+    "description": "Chiropractic treatment couch with a central column, six sections, an electric foot remote control and four drop sections.",
+    "specs": [
+      ["Load capacity", "250 kg"],
+      ["Drop sections", "4 (cervical, thoracic, lumbar, pelvic)"],
+      ["Drive", "TiMOTION column motor (23 s)"],
+      ["Sections", "6"],
+      ["Upholstery", "7 cm · foam density 100 kg/m³"],
+      ["Cover", "Flame-retardant terry cover (blue or dark grey)"],
+      ["Dimensions", "201 × 73 × 82 cm"],
+      ["Weight", "152 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "scall-pro": {
+    "model": "SCALL PRO",
+    "description": "Cost-effective chiropractic table with manual drop sections, tension adjustment and an electric Hi-Lo lift system.",
+    "specs": [
+      ["Height range", "46–80 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drop sections", "4 (cervical, thoracic, lumbar, pelvic)"],
+      ["Drive", "TiMOTION motor"],
+      ["Upholstery", "7.5 cm · foam density 100 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "192 × 62 × 51 cm"],
+      ["Weight", "92 kg"],
+      ["Certificates", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "sido": {
+    "model": "SIDO",
+    "description": "Versatile chiropractic treatment couch with multi-angle adjustment for mobilisation, manipulation, massage and movement therapy.",
+    "specs": [
+      ["Height range", "49–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drop sections", "2 (cervical, thoracic)"],
+      ["Drive", "TiMOTION motor"],
+      ["Upholstery", "7 cm · foam density 100 kg/m³"],
+      ["Cover", "PVC synthetic leather, flame-retardant (BS 5852)"],
+      ["Dimensions", "199 × 70 × 54 cm"],
+      ["Weight", "71 kg"],
+      ["Certificates", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "sido-pro": {
+    "model": "SIDO PRO",
+    "description": "Chiropractic manipulation table with multi-angle adjustment, tilt, invert position and lower lumbar rotation for maximum flexibility.",
+    "specs": [
+      ["Height range", "52–93 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drop sections", "2 (cervical, thoracic)"],
+      ["Drive", "TiMOTION motor"],
+      ["Upholstery", "7 cm · foam density 100 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "199 × 70 × 54 cm"],
+      ["Certificates", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "batec": {
+    "model": "BATEC",
+    "description": "Robust two-section cardiology table with electric height and backrest adjustment, two cardiology cut-outs and a foot remote control.",
+    "specs": [
+      ["Height range", "58–102 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "2"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Heavy-duty PVC vinyl, fireproof"],
+      ["Dimensions", "199 × 75 × 61 cm"],
+      ["Weight", "65 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "bobath": {
+    "model": "BOBATH",
+    "description": "Bobath couch with two sections and an extra-wide 120 cm lying surface for neuromotor rehabilitation, with three face cut-outs.",
+    "specs": [
+      ["Height range", "49–93 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "2"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant terry cover"],
+      ["Dimensions", "194 × 124 × 53 cm"],
+      ["Weight", "101 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "brom": {
+    "model": "BROM",
+    "description": "Three-section treatment couch with electric height adjustment, face cut-out and gas-spring adjustable back and leg sections.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "3"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or dark grey)"],
+      ["Dimensions", "186 × 70 × 54 cm"],
+      ["Weight", "72 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "brom-pro": {
+    "model": "BROM PRO",
+    "description": "Three-section treatment couch of the PRO series with electric height adjustment, face cut-out and gas-spring adjustable back and foot rest.",
+    "specs": [
+      ["Height range", "45–95.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "3"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "186 × 70 × 54 cm"],
+      ["Weight", "82 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "enid": {
+    "model": "ENID",
+    "description": "Robust two-section couch for intensive physiotherapy treatments with electric height adjustment via all-round control.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "2"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "199 × 74 × 51 cm"],
+      ["Weight", "60 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "enid-pro": {
+    "model": "ENID PRO",
+    "description": "Robust two-section couch of the PRO series for intensive treatments with electric height adjustment via all-round control.",
+    "specs": [
+      ["Height range", "45–95.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "2"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "199 × 70 × 50 cm"],
+      ["Weight", "81 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "galley": {
+    "model": "GALLEY",
+    "description": "Seven-section physiotherapy couch with two motors (height and kyphosis), head armrests and folding centre armrests up to 90 cm wide.",
+    "specs": [
+      ["Height range", "51–94 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "2 motors (height + kyphosis) · TiMOTION"],
+      ["Sections", "7"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant terry cover"],
+      ["Dimensions", "195 × 70 × 58 cm"],
+      ["Weight", "76 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "guth": {
+    "model": "GUTH",
+    "description": "Two-section physiotherapy couch with head armrests and a positively and negatively adjustable head section for cervical and cranial techniques.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "2"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant terry cover"],
+      ["Dimensions", "199 × 70 × 51 cm"],
+      ["Weight", "64 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "guth-pro": {
+    "model": "GUTH PRO",
+    "description": "Electric two-section treatment couch of the PRO series with armrests and a multi-position head section (−55° to +45°) and a closed base.",
+    "specs": [
+      ["Height range", "45–95.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION motor"],
+      ["Sections", "2"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "199 × 70 × 54 cm"],
+      ["Weight", "82 kg"],
+      ["Certificates", "CE · FDA"]
+    ]
+  },
+  "jull-pro": {
+    "model": "JULL PRO",
+    "description": "Couch with a short head section, gas-spring-supported backrest and a smooth electric Hi-Lo lift system for a stable treatment platform.",
+    "specs": [
+      ["Height range", "45–95.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "TiMOTION · foot control · gas spring head/leg"],
+      ["Sections", "Head section −55°/+45° · leg 0°/+75° · face cut-out"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "195 × 60 × 50 cm"],
+      ["Weight", "94 kg"],
+      ["Certificates", "CE · FDA"]
+    ]
+  },
+  "nott": {
+    "model": "NOTT",
+    "description": "Five-section physiotherapy couch with terry cover, height-adjustable armrests and two motors for height and electric kyphosis.",
+    "specs": [
+      ["Height range", "51–94 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "2 motors (height + kyphosis) · TiMOTION"],
+      ["Sections", "5 · backrest with face cut-out"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "195 × 70 × 58 cm"],
+      ["Weight", "76 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "nott-pro": {
+    "model": "NOTT PRO",
+    "description": "Five-section physiotherapy couch of the PRO series with terry cover, height-adjustable armrests and two motors for height and kyphosis.",
+    "specs": [
+      ["Height range", "45–95.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "2 motors (height + kyphosis) · TiMOTION"],
+      ["Sections", "5 · backrest with face cut-out"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "193 × 70 × 51 cm"],
+      ["Weight", "98 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "pehr": {
+    "model": "PEHR",
+    "description": "Two-section physiotherapy couch with terry cover, tilting head section, face cushion and armrests underneath.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · all-round control"],
+      ["Sections", "2 · head section +30°/−70°"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "193 × 75 × 54 cm"],
+      ["Weight", "62 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "rila": {
+    "model": "RILA",
+    "description": "Physiotherapy and osteopathy couch with five sections, height-adjustable armrests and a positively/negatively tilting head section.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · all-round control"],
+      ["Sections", "5 · fixed centre section · head section +80°/−40°"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "194 × 70 × 53 cm"],
+      ["Weight", "65 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "rila-pro": {
+    "model": "RILA PRO",
+    "description": "Physiotherapy and osteopathy couch of the PRO series with five sections, height-adjustable armrests and a positively/negatively adjustable head section.",
+    "specs": [
+      ["Height range", "45–95.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · all-round control"],
+      ["Sections", "5 · fixed centre section · face cut-out"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Very durable, flame-retardant vinyl cover (blue or grey)"],
+      ["Dimensions", "193 × 70 × 50 cm"],
+      ["Weight", "86 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "roth": {
+    "model": "ROTH",
+    "description": "Two-section osteopathy couch with face cut-out, folding side armrests (up to 80 cm additional width) and a gas-spring adjustable head rest.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · all-round control bar"],
+      ["Sections", "2 · head section +40°/−45° (gas spring) · folding armrests"],
+      ["Upholstery", "5 cm · foam density 70 kg/m³"],
+      ["Cover", "Highly abrasion-resistant, flame-retardant vinyl"],
+      ["Dimensions", "199 × 70 × 51 cm"],
+      ["Weight", "64 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "still": {
+    "model": "STILL",
+    "description": "Seven-section treatment couch with a powerful electric Hi-Lo system, electric postural drainage and a wide range of movement.",
+    "specs": [
+      ["Height range", "46.5–96.5 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · postural drainage via side button"],
+      ["Sections", "7 · head/chest/leg adjustable · folding armrests"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "200 × 70 cm (usable surface)"],
+      ["Weight", "101 kg"],
+      ["Certificates", "CE · FDA"]
+    ]
+  },
+  "kend-pro": {
+    "model": "KEND PRO",
+    "description": "Short hydraulic treatment couch with gas-spring-supported back and head sections and a closed, easy-to-clean base.",
+    "specs": [
+      ["Height range", "45–95.5 cm"],
+      ["Load capacity", "250 kg"],
+      ["Adjustment", "Hydraulic via side foot pedal"],
+      ["Sections", "3 · head section −55°/+45° · leg 0°/+75°"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "195 × 66 cm"],
+      ["Weight", "87 kg"]
+    ]
+  },
+  "ling-pro": {
+    "model": "LING PRO",
+    "description": "Robust two-section treatment couch with hydraulic height adjustment, retractable castors and a face cut-out for everyday practice use.",
+    "specs": [
+      ["Height range", "45–95.5 cm"],
+      ["Load capacity", "250 kg"],
+      ["Adjustment", "Hydraulic (lift time 12 s)"],
+      ["Sections", "2 · backrest 20°/70°"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or dark grey)"],
+      ["Dimensions", "195 × 66 cm"],
+      ["Weight", "77 kg"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "mait-pro": {
+    "model": "MAIT PRO",
+    "description": "Popular hydraulic physiotherapy couch with a wide adjustment range, padded height-adjustable armrests and a closed base.",
+    "specs": [
+      ["Height range", "45–95.5 cm"],
+      ["Load capacity", "250 kg"],
+      ["Adjustment", "Hydraulic via side pedal (12 s)"],
+      ["Sections", "3 · head section −55°/+45° · leg 0°/+75°"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "195 × 66 cm"],
+      ["Weight", "85 kg"]
+    ]
+  },
+  "nobu": {
+    "model": "NOBU",
+    "description": "Portable, folding massage chair made of lightweight aluminium with multi-adjustable supports and a carry bag for mobile use.",
+    "specs": [
+      ["Load capacity", "180 kg"],
+      ["Adjustment", "Head rest, backrest, seat and armrests adjustable"],
+      ["Upholstery", "5 cm · PU upholstery"],
+      ["Frame", "Lightweight aluminium frame, folding"],
+      ["Dimensions", "54 × 74 × 125 cm (unfolded)"],
+      ["Weight", "10 kg"],
+      ["Certificates", "CE (93/42/EEC)"]
+    ]
+  },
+  "tenb-pro": {
+    "model": "TENB PRO",
+    "description": "Hydraulic treatment couch with a multi-adjustable head rest and armrests for a wide range of examinations and manual techniques.",
+    "specs": [
+      ["Height range", "45–95.5 cm"],
+      ["Load capacity", "250 kg"],
+      ["Adjustment", "Hydraulic via side foot pedal"],
+      ["Sections", "2 · head section 45°/55° · with armrests"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant PVC vinyl (BS 5852)"],
+      ["Dimensions", "195 × 66 cm"],
+      ["Weight", "81 kg"]
+    ]
+  },
+  "fix": {
+    "model": "FIX",
+    "description": "Fixed treatment couch with a white frame and antibacterial terry cover, flat-packed and assembled in two minutes.",
+    "specs": [
+      ["Height", "70 cm (fixed)"],
+      ["Load capacity", "225 kg"],
+      ["Backrest", "0°–75° adjustable"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Terry, antibacterial (blue or grey)"],
+      ["Dimensions", "195 × 70 cm"]
+    ]
+  },
+  "disk": {
+    "model": "DISK",
+    "description": "Professional stool with a round padded seat, chrome-plated five-castor base and gas-lift height adjustment.",
+    "specs": [
+      ["Height range", "49–65 cm"],
+      ["Height adjustment", "Gas spring"],
+      ["Seat diameter", "35 cm"],
+      ["Castors", "5 · chrome-plated base"],
+      ["Cover", "PU"],
+      ["Weight", "4.5 kg"]
+    ]
+  },
+  "core": {
+    "model": "CORE",
+    "description": "Round stool with a 360° swivelling, folding armrest and a padded seat made of high-density foam for ergonomic working.",
+    "specs": [
+      ["Height range", "48–64 cm"],
+      ["Height adjustment", "Gas spring"],
+      ["Armrest", "folding · 360° swivelling"],
+      ["Seat diameter", "40 cm"],
+      ["Upholstery", "High-density foam · 7 cm"],
+      ["Load capacity", "160 kg"]
+    ]
+  },
+  "supp": {
+    "model": "SUPP",
+    "description": "Round stool with an adjustable backrest and memory foam upholstery, covered with flame-retardant vinyl.",
+    "specs": [
+      ["Seat height", "47–63 cm"],
+      ["Height adjustment", "Gas spring"],
+      ["Backrest", "tilting up to 25° · height-adjustable"],
+      ["Seat diameter", "40 cm"],
+      ["Upholstery", "Memory foam · 5 cm"],
+      ["Cover", "Flame-retardant vinyl"],
+      ["Load capacity", "160 kg"]
+    ]
+  },
+  "ride": {
+    "model": "RIDE",
+    "description": "Saddle stool with gas-spring height adjustment, high-quality PU cover and a chrome-plated five-castor base.",
+    "specs": [
+      ["Height range", "49–65 cm"],
+      ["Height adjustment", "Gas spring"],
+      ["Seat dimensions", "44 × 43 cm"],
+      ["Castors", "5 · chrome-plated base"],
+      ["Cover", "PU"],
+      ["Weight", "4.5 kg"]
+    ]
+  },
+  "weelko-xtract": {
+    "model": "XTRACT",
+    "description": "Electric blood-draw couch with Hi-Lo adjustment, fold-up armrests and a removable head section for comfortable blood donation.",
+    "specs": [
+      ["Height range", "56–100 cm"],
+      ["Height adjustment", "Electric · all-round control bar"],
+      ["Load capacity", "250 kg"],
+      ["Castors", "retractable · 75 mm"],
+      ["Armrests", "fold-up"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "PVC vinyl, highly resistant"],
+      ["Dimensions", "174 × 73 × 63 cm"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "ent": {
+    "model": "ENT",
+    "description": "Multifunctional electric treatment chair with four motors for ENT, ophthalmology and plastic surgery, including Trendelenburg position.",
+    "specs": [
+      ["Height range", "59–89 cm"],
+      ["Height adjustment", "Electric · 4 motors · hand remote control"],
+      ["Load capacity", "250 kg"],
+      ["Backrest", "tilting (−5° to +35°)"],
+      ["Castors", "125 mm"],
+      ["Upholstery", "7.5 cm · foam density 36 kg/m³"],
+      ["Cover", "PVC vinyl (fire-, stain- and mould-resistant)"],
+      ["Dimensions", "169 × 73 × 78 cm"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "ob": {
+    "model": "OB",
+    "description": "Electric gynaecological examination chair with two motors for seat height and tilt, including stirrups, foot pads and a waste container.",
+    "specs": [
+      ["Height range", "62–104 cm"],
+      ["Height adjustment", "Electric · 2 motors · pedal"],
+      ["Load capacity", "250 kg"],
+      ["Castors", "retractable · 75 mm"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "PVC vinyl, highly resistant"],
+      ["Dimensions", "148 × 73 × 68 cm"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "alu-screen-1518": {
+    "model": "ALU SCREEN 1518",
+    "description": "Mobile medical partition screen made of aluminium alloy with antibacterial panels, corrosion-resistant and quiet-rolling.",
+    "specs": [
+      ["Design", "Mobile · extendable"],
+      ["Panels", "8 pieces"],
+      ["Dimensions", "Length 210 cm · height 185 cm"],
+      ["Material", "Aluminium · antibacterial A+ panels"],
+      ["Colour", "White (customisable)"],
+      ["Castors", "Ø 7.5 cm · low-noise"]
+    ]
+  }
+}

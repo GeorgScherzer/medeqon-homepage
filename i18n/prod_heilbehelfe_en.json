@@ -1,0 +1,345 @@
+{
+  "levo": {
+    "model": "LEVO",
+    "description": "Lightweight, foldable aluminium wheelchair for everyday use indoors and outdoors – robust frame for easy transport and space-saving storage.",
+    "specs": [
+      ["Frame", "Aluminium, foldable"],
+      ["Seat width", "44 / 46 / 49 / 51 cm"],
+      ["Seat height", "51 cm"],
+      ["Max. load", "120 kg"],
+      ["Weight", "13.7 kg"],
+      ["Tyres", "rear 24\" PU-spoked · front 7\" PU"],
+      ["Armrests", "flip-back and swing-up (PU padding)"],
+      ["Footrests", "removable · length-adjustable"]
+    ]
+  },
+  "gemini-blue": {
+    "model": "Gemini Blue",
+    "description": "Compact, foldable steel wheelchair in blue with 12\" rear wheels and anti-tip device – manoeuvrable indoors and easy to transport.",
+    "specs": [
+      ["Frame", "Steel, foldable"],
+      ["Colour", "Blue"],
+      ["Seat width", "43 / 46 cm"],
+      ["Seat height", "50.5 cm"],
+      ["Max. load", "125 kg"],
+      ["Weight", "15.5 kg"],
+      ["Tyres", "rear 12\" solid rubber · front 8\"×2\""],
+      ["Anti-tip device", "included"]
+    ]
+  },
+  "adapt": {
+    "model": "Adapt",
+    "description": "Wheelchair with 6 wheels; the rear wheels are removable via quick-release to reduce the width and reach tight spaces.",
+    "specs": [
+      ["Frame", "Steel, foldable"],
+      ["Seat width", "46 cm"],
+      ["Seat height", "50 cm"],
+      ["Max. load", "130 kg"],
+      ["Weight", "19 kg (with 24\" wheels)"],
+      ["Tyres", "rear 24\" (quick-release) · front 8\"×2\" · convertible to 12\""],
+      ["Armrests", "flip-back"],
+      ["Footrests", "removable · length-adjustable · swing-away"]
+    ]
+  },
+  "i-travel": {
+    "model": "I-TRAVEL",
+    "description": "Lightweight aluminium transport wheelchair with safety belt and easy folding – ready to use immediately without assembly.",
+    "specs": [
+      ["Frame", "Aluminium, foldable"],
+      ["Seat width", "43 cm"],
+      ["Seat height", "48 cm"],
+      ["Max. load", "136 kg"],
+      ["Weight", "7.5 kg"],
+      ["Tyres", "rear 8\" · front 6\" solid rubber"],
+      ["Footrests", "swing-up"],
+      ["Safety belt", "yes"]
+    ]
+  },
+  "bariatric": {
+    "model": "Bariatric wheelchair (heavy-duty)",
+    "description": "Robust heavy-duty wheelchair with double cross-brace and flame-retardant cover, load capacity up to 182 kg – for users with increased body weight.",
+    "specs": [
+      ["Frame", "Steel, foldable"],
+      ["Seat width", "56 cm"],
+      ["Seat height", "50 cm"],
+      ["Max. load", "182 kg"],
+      ["Weight", "23 kg"],
+      ["Tyres", "rear 24\" solid rubber · front 8\"×2\""],
+      ["Cover", "Oxford, flame-retardant"],
+      ["Footrests", "removable · adjustable"]
+    ]
+  },
+  "dione-i": {
+    "model": "DIONE I",
+    "description": "Care wheelchair with ergonomic seat and numerous adjustment options (tilt-in-space) for high comfort, flexibility and safety.",
+    "specs": [
+      ["Frame", "Steel"],
+      ["Backrest", "reclining 95°–145°"],
+      ["Seat tilt", "0°–32° (tilt-in-space)"],
+      ["Seat width", "37–43 cm (adjustable)"],
+      ["Max. load", "150 kg"],
+      ["Weight", "40 kg"],
+      ["Tyres", "rear 24\" (quick-release) · front 8\"×2\""],
+      ["Headrest", "height-, width- and angle-adjustable"]
+    ]
+  },
+  "proteus-i": {
+    "model": "PROTEUS I",
+    "description": "Reclining wheelchair for transporting people with reduced mobility – independently or with an attendant; backrest recline for high comfort.",
+    "specs": [
+      ["Frame", "Steel"],
+      ["Backrest", "reclining 90°–160°"],
+      ["Seat width", "46 cm"],
+      ["Seat height", "55 cm"],
+      ["Max. load", "120 kg"],
+      ["Weight", "23.5 kg"],
+      ["Tyres", "rear 24\" (quick-release) · front 8\"×2\" PU"],
+      ["Footrests", "removable · swing-up · length-adjustable"]
+    ]
+  },
+  "techride": {
+    "model": "TECHRIDE",
+    "description": "Modern-designed electric wheelchair that combines innovation, comfort and elegance for a unique mobility experience.",
+    "specs": [
+      ["Drive", "2 × 200 W · 24 V"],
+      ["Battery", "Lithium 20 Ah · 24 V"],
+      ["Range", "up to 23 km"],
+      ["Top speed", "8 km/h"],
+      ["Max. load", "150 kg"],
+      ["Weight", "27 kg"],
+      ["Tyres", "rear 10\" pneumatic · front 8\" solid rubber"],
+      ["Foldable", "yes (manual)"]
+    ]
+  },
+  "turbotech": {
+    "model": "TURBOTECH",
+    "description": "Electric wheelchair that combines innovation, flexibility and ergonomic design for daily independence with intelligent control.",
+    "specs": [
+      ["Drive", "2 × 200 W · 24 V"],
+      ["Battery", "Lithium 25 Ah · 24 V"],
+      ["Range", "up to 31 km"],
+      ["Top speed", "10 km/h"],
+      ["Max. load", "150 kg"],
+      ["Weight", "36 kg"],
+      ["Tyres", "rear 12\" pneumatic · front 12\" omnidirectional"],
+      ["Foldable", "yes (manual)"]
+    ]
+  },
+  "robodrive": {
+    "model": "ROBODRIVE",
+    "description": "Electric wheelchair with automatic folding mechanism – combines innovation, comfort and elegance for a unique mobility experience.",
+    "specs": [
+      ["Drive", "2 × 200 W · 24 V"],
+      ["Battery", "Lithium 20 Ah · 24 V"],
+      ["Range", "up to 25 km"],
+      ["Top speed", "6 km/h"],
+      ["Max. load", "120 kg"],
+      ["Weight", "44 kg"],
+      ["Tyres", "rear 10\" pneumatic · front 10\" omnidirectional"],
+      ["Foldable", "yes (automatic)"]
+    ]
+  },
+  "titan": {
+    "model": "TITAN",
+    "description": "Powerful electric wheelchair with reinforced aluminium frame, strong motor and high comfort – for demanding use indoors and outdoors.",
+    "specs": [
+      ["Drive", "2 × 340 W · 24 V"],
+      ["Battery", "2 × 40 Ah · 12 V"],
+      ["Range", "30–36 km"],
+      ["Top speed", "8–10 km/h"],
+      ["Max. load", "130 kg"],
+      ["Weight", "67 kg"],
+      ["Seat width", "44–50 cm (adjustable)"],
+      ["Tyres", "rear 13.5\" pneumatic · front 9\" solid rubber"]
+    ]
+  },
+  "felix": {
+    "model": "FELIX",
+    "description": "Lightweight, foldable electric wheelchair made of aluminium for indoors and outdoors – ideal for transport and storage.",
+    "specs": [
+      ["Drive", "2 × 250 W · 24 V · electromagnetic brake"],
+      ["Battery", "Lithium 24 V · 12 Ah"],
+      ["Range", "20–25 km"],
+      ["Top speed", "6 km/h"],
+      ["Max. load", "130 kg"],
+      ["Weight", "25 kg (without battery)"],
+      ["Tyres", "front 8\" PU · rear 12\" PU"],
+      ["Foldable", "yes (aluminium frame)"]
+    ]
+  },
+  "scooter-perseus": {
+    "model": "Scooter Perseus",
+    "description": "Electric scooter with modern design, high range and safety equipment – comfortable mobility for people with limited movement.",
+    "specs": [
+      ["Drive", "700 W · electromagnetic brakes"],
+      ["Battery", "2 × 24 V · 55 Ah (lead-acid)"],
+      ["Range", "55 km"],
+      ["Top speed", "15 km/h"],
+      ["Max. load", "190 kg"],
+      ["Weight", "106 kg (without battery)"],
+      ["Tyres", "front 11.5\" · rear 13\" pneumatic"],
+      ["Equipment", "suspension · swivel seat · backrest up to 125°"]
+    ]
+  },
+  "scooter-perseus-2": {
+    "model": "Scooter Perseus II",
+    "description": "Electric scooter with modern design, high range and extensive safety equipment for comfortable, independent mobility.",
+    "specs": [
+      ["Drive", "700 W · electromagnetic brakes"],
+      ["Battery", "2 × 24 V · 55 Ah (lead-acid)"],
+      ["Range", "55 km"],
+      ["Top speed", "15 km/h"],
+      ["Max. load", "190 kg"],
+      ["Weight", "106 kg (without battery)"],
+      ["Tyres", "front 11.5\" · rear 13\" pneumatic"],
+      ["Equipment", "suspension · swivel seat · backrest up to 125°"]
+    ]
+  },
+  "walky": {
+    "model": "WALKY (aluminium rollator)",
+    "description": "High-quality aluminium rollator with modern design, seat with backrest strap, basket and walking-stick holder for daily use.",
+    "specs": [
+      ["Material", "Aluminium"],
+      ["Max. load", "136 kg"],
+      ["Weight", "8.5 kg"],
+      ["Seat height", "59 cm"],
+      ["Seat width", "45.5 cm"],
+      ["Handle height", "80–93 cm (adjustable)"],
+      ["Wheels", "8\" solid rubber"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "ruby": {
+    "model": "RUBY",
+    "description": "High-quality rollator with suspension and large wheels for optimal ride comfort indoors and outdoors.",
+    "specs": [
+      ["Material", "Aluminium"],
+      ["Max. load", "136 kg"],
+      ["Weight", "8.5 kg"],
+      ["Seat height", "60 cm"],
+      ["Handle height", "80–93 cm (6 positions)"],
+      ["Suspension", "yes"],
+      ["Wheels", "8\" solid rubber"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "silver-rollator": {
+    "model": "Silver (aluminium rollator)",
+    "description": "Lightweight aluminium rollator with seat, basket and height-adjustable handles – suitable for indoors and outdoors.",
+    "specs": [
+      ["Material", "Aluminium"],
+      ["Max. load", "120 kg"],
+      ["Weight", "7.8 kg"],
+      ["Seat height", "53 cm"],
+      ["Seat width", "45 cm"],
+      ["Handle height", "79–95 cm (adjustable)"],
+      ["Brakes", "hand brakes with locking"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "rollator-blue": {
+    "model": "Rollator Blue",
+    "description": "Foldable steel rollator with seat, basket and height-adjustable handles for indoors and outdoors.",
+    "specs": [
+      ["Material", "Steel"],
+      ["Max. load", "110 kg"],
+      ["Weight", "7 kg"],
+      ["Seat height", "52 cm"],
+      ["Seat width", "46 cm"],
+      ["Handle height", "83–93 cm (adjustable)"],
+      ["Wheels", "8\" PVC solid rubber"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "three-wheel-rollator": {
+    "model": "Three-wheel rollator",
+    "description": "Manoeuvrable, foldable steel rollator (three-wheel) with basket and bag as well as height-adjustable handles for indoors and outdoors.",
+    "specs": [
+      ["Material", "Steel"],
+      ["Max. load", "110 kg"],
+      ["Weight", "7.5 kg"],
+      ["Handle height", "85–95 cm (adjustable)"],
+      ["Brakes", "hand brakes with locking"],
+      ["Wheels", "8\"×2\" solid rubber"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "folding-walker": {
+    "model": "Foldable walking frame",
+    "description": "Foldable walking frame made of aluminium, height-adjustable and lightweight – safe walking aid for indoors and outdoors.",
+    "specs": [
+      ["Material", "Aluminium"],
+      ["Height adjustment", "75–94 cm"],
+      ["Max. load", "115 kg"],
+      ["Weight", "2.6 kg"],
+      ["Width", "56 cm"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "heavy-duty-walker": {
+    "model": "Heavy-duty walking frame (225 kg)",
+    "description": "Foldable heavy-duty walking frame made of aluminium, height-adjustable and with a load capacity up to 225 kg – robust yet lightweight.",
+    "specs": [
+      ["Material", "Aluminium"],
+      ["Height adjustment", "82–107 cm"],
+      ["Max. load", "225 kg"],
+      ["Weight", "3 kg"],
+      ["Width", "60 cm"],
+      ["Foldable", "yes"]
+    ]
+  },
+  "minoa": {
+    "model": "MINOA",
+    "description": "Alternating-pressure air mattress system with adjustable pump for the prevention and treatment of pressure ulcers (stage I–II).",
+    "specs": [
+      ["Type", "Alternating-pressure air mattress system"],
+      ["Max. load", "130 kg"],
+      ["Cycle time", "12 minutes"],
+      ["Pressure range", "50–110 mmHg"],
+      ["Pump", "electric, adjustable (≤ 7 W)"],
+      ["Noise level", "≤ 30 dB"],
+      ["Material", "Medical PVC, 0.3 mm"],
+      ["Dimensions", "200 × 90 × 7 cm"]
+    ]
+  },
+  "premium-ocean": {
+    "model": "Premium Ocean",
+    "description": "Anti-decubitus (pressure-ulcer prevention) bubble mattress with electric air pump for patients with low to medium pressure-ulcer risk (stage I–II).",
+    "specs": [
+      ["Type", "Alternating-pressure bubble mattress"],
+      ["Operating modes", "static & alternating pressure"],
+      ["Max. load", "130 kg"],
+      ["Pressure control", "electric, adjustable (30–130 kg)"],
+      ["Mattress dimensions", "200 × 90 × 7 cm"],
+      ["Pump dimensions", "26 × 12.5 × 8.5 cm"],
+      ["Weight", "3.3 kg"]
+    ]
+  },
+  "stripe": {
+    "model": "STRIPE",
+    "description": "Anti-decubitus (pressure-ulcer prevention) tube mattress with laser ventilation, CPR valve and electric air pump against moisture and pressure ulcers.",
+    "specs": [
+      ["Type", "Alternating-pressure tube mattress, ventilated"],
+      ["Operating modes", "static & alternating pressure"],
+      ["Max. load", "145 kg"],
+      ["Ventilation", "laser micro-perforation · CPR valve"],
+      ["Dimensions", "190 × 85 × 11.5 cm"],
+      ["Cover", "washable up to 60 °C"],
+      ["Weight", "6.3 kg"]
+    ]
+  },
+  "mobiak-irene": {
+    "model": "MOBIAK Irene",
+    "description": "Oxygen concentrator with 1–5 l/min flow and 93 % O₂ concentration, powerful compressor and comprehensive safety alarms.",
+    "specs": [
+      ["Oxygen flow", "1–5 l/min"],
+      ["O₂ concentration", "93 % ± 3"],
+      ["Outlet pressure", "0.4–0.8 bar"],
+      ["Power", "480 W"],
+      ["Noise level", "≤ 48 dB(A)"],
+      ["Weight", "24 kg"],
+      ["Power supply", "230 V / 50 Hz"],
+      ["Alarms", "flow · voltage · purity · overheating"]
+    ]
+  }
+}

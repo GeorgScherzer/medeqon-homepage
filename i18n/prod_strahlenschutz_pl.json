@@ -1,0 +1,1538 @@
+{
+ "vxr-1": {
+  "model": "VXR-1 Fartuch przedni",
+  "description": "Nowoczesny fartuch z ochroną przednią do zastosowań wyłącznie przy frontalnej ekspozycji na promieniowanie. Wszyta w panele tylne guma elastyczna zapewnia optymalne dopasowanie podczas długiego noszenia. Opcjonalnie z ochronnymi panelami tylnymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Fartuch z ochroną przednią (narzutka)"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb (opcjonalnie)"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "85–130 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "vxr-2": {
+  "model": "VXR-2 Fartuch przedni",
+  "description": "Fartuch z ochroną przednią, który można łatwo zapiąć z przodu i ponownie zdjąć. Idealny przy wyłącznie frontalnej ekspozycji – wysoki komfort noszenia i doskonałe dopasowanie. Opcjonalnie z ochroną tylną.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Fartuch z ochroną przednią, zapinany z przodu"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb (opcjonalnie)"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "85–130 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "pxr-sc": {
+  "model": "PXR-SC Fartuch tabardowy",
+  "description": "Nowa interpretacja klasycznego fartucha tabardowego z ulepszonym dopasowaniem w okolicy pach. Dostępny w kilku konfiguracjach z pojedynczym lub podwójnym zapięciem na ramieniu. Klamry tylne w standardzie, opcjonalnie regulowany na wysokość pas elastyczny.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Fartuch tabardowy (narzutka, zakładka)"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb (opcjonalnie)"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "85–130 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "pxr-th": {
+  "model": "PXR-TH Fartuch tabardowy",
+  "description": "Fartuch tabardowy z różnymi opcjami zapięcia i ulepszonym dopasowaniem w okolicy pach. Wszechstronny w użyciu dla różnych użytkowników, z solidną ochroną dookoła dzięki zakładce.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Fartuch tabardowy (narzutka, zakładka)"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb (opcjonalnie)"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "85–130 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "wxr": {
+  "model": "WXR Fartuch płaszczowy",
+  "description": "Fartuch zawijany z dwuwarstwową ochroną w strefie zakładki. Zmienna zakładka dostosowana do różnych sylwetek, kilka wykrojów pod ramiona. Pas elastyczny przenosi ciężar z barków, zapewniając większy komfort podczas długiego noszenia.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Fartuch płaszczowy/zawijany (ochrona dookoła)"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "85–130 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "wxr-f": {
+  "model": "WXR-F Fartuch płaszczowy (lekki)",
+  "description": "Fartuch zawijany na całe ciało z zachodzącymi na siebie strefami przednimi, które przy prawidłowej zakładce osiągają podany poziom ochrony. Zmniejsza ilość materiału rdzeniowego i wagę przy pokryciu dookoła około 60% obwodu ciała.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Fartuch płaszczowy/zawijany (ochrona dookoła)"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "85–130 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-w": {
+  "model": "TXR-W Góra i spódnica",
+  "description": "Dwuczęściowy zestaw ochronny składający się z góry i spódnicy, który równomiernie rozkłada ciężar na barki i biodra. Około 30 cm strefy zakładki dla elastycznego dopasowania rozmiaru i podwójnej ochrony nad newralgicznymi obszarami. Opcjonalnie różne poziomy ochrony z przodu i z tyłu.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Dwuczęściowy – góra (Wrap) + spódnica"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "Góra 50–70 cm · Spódnica 53–70 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Spódnica",
+    "KXR-W Standardowa spódnica zawijana / KXR-F Pełna spódnica zawijana"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-w-lite": {
+  "model": "TXR-W-LITE Góra i spódnica",
+  "description": "Lżejsza wersja TXR-W: zmniejszona zakładka przednia pozwala zaoszczędzić do 15% wagi. Szczególnie odpowiedni jako osobisty fartuch ołowiany z optymalnym dopasowaniem. Opcjonalnie różne poziomy ochrony z przodu i z tyłu.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Dwuczęściowy – góra (Wrap Lite) + spódnica"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "Góra 50–70 cm · Spódnica 53–70 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Spódnica",
+    "KXR-W Standardowa spódnica zawijana / KXR-F Pełna spódnica zawijana"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-b": {
+  "model": "TXR-B Góra i spódnica",
+  "description": "Dwuczęściowy zestaw z elastycznym tyłem zapewniającym szczególnie podpierające, przylegające do ciała dopasowanie – jeden z najwygodniejszych modeli w asortymencie. Ulepszone dopasowanie w okolicy pach z setkami kombinacji dla kobiet i mężczyzn.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Dwuczęściowy – góra z elastycznym tyłem + spódnica"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "Góra 50–70 cm · Spódnica 53–70 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Spódnica",
+    "KXR-W Standardowa spódnica zawijana"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-f": {
+  "model": "TXR-F Góra i spódnica",
+  "description": "Dwuczęściowy zestaw z pełną zakładką – przy prawidłowym noszeniu spełnia pełny podany poziom ochrony zgodnie z IEC 61331-3:2014. Ulepszone dopasowanie w okolicy pach i indywidualne dopasowanie dla kobiet i mężczyzn.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Dwuczęściowy – góra (Full Wrap) + spódnica"
+   ],
+   [
+    "Równoważnik ołowiu (przód)",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Równoważnik ołowiu (tył)",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Długości",
+    "Góra 50–70 cm · Spódnica 53–70 cm"
+   ],
+   [
+    "Rozmiary",
+    "XS–XXL · Wykrój pod ramię S/R/L"
+   ],
+   [
+    "Spódnica",
+    "KXR-F Pełna spódnica zawijana (połowa grubości w panelach przednich)"
+   ],
+   [
+    "Normy",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpv": {
+  "model": "TPV Osłona tarczycy",
+  "description": "Kołnierz na tarczycę do uzupełniającej ochrony okolicy szyi, o zwężającym się ku dołowi kształcie przednim (kształt V). Lekki, dobrze przylegający i dostępny w wielu kolorach i wzorach.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Kołnierz na tarczycę"
+   ],
+   [
+    "Kształt przedni",
+    "zwężający się (kształt V)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Zapięcie",
+    "Rzep"
+   ],
+   [
+    "Normy",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpd": {
+  "model": "TPD Osłona tarczycy",
+  "description": "Kołnierz na tarczycę z kroplowym, wydłużonym ku dołowi przednim pokryciem zapewniającym dodatkową osłonę. Lekki i dobrze przylegający, dostępny w wielu kolorach.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Kołnierz na tarczycę"
+   ],
+   [
+    "Kształt przedni",
+    "kroplowy, wydłużony"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Zapięcie",
+    "Rzep"
+   ],
+   [
+    "Normy",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpdm": {
+  "model": "TPDM Osłona tarczycy (magnetyczna)",
+  "description": "Magnetyczny kołnierz na tarczycę typu D z kroplowym przednim pokryciem. Zapięcie realizowane jest za pomocą wysokiej jakości magnesów neodymowych zamiast rzepu – jest bardziej higieniczne, nie zaczepia włosów i dzięki temu szczególnie odpowiednie dla dłuższych włosów.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Kołnierz na tarczycę (magnetyczny)"
+   ],
+   [
+    "Kształt przedni",
+    "kroplowy (typ D)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Zapięcie",
+    "Zapięcie magnetyczne (neodym)"
+   ],
+   [
+    "Zaleta",
+    "Higieniczny · nie zaczepia włosów"
+   ],
+   [
+    "Normy",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpb": {
+  "model": "TPB Osłona tarczycy",
+  "description": "Kołnierz na tarczycę z szerokim, zaokrąglonym przednim pokryciem zapewniającym szczególnie obszerną osłonę okolicy szyi i górnej części klatki piersiowej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Kołnierz na tarczycę"
+   ],
+   [
+    "Kształt przedni",
+    "szeroki, zaokrąglony"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Zapięcie",
+    "Rzep"
+   ],
+   [
+    "Normy",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "scatter-cap": {
+  "model": "Scatter Cap Light – Czepek ochronny",
+  "description": "Lekki czepek ochronny chroniący przed promieniowaniem rozproszonym w okolicy głowy/czaszki. Wygodny, regulowany i przeznaczony do codziennego użytku.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Czepek na promieniowanie rozproszone"
+   ],
+   [
+    "Zastosowanie",
+    "Ochrona okolicy głowy/czaszki"
+   ],
+   [
+    "Wykonanie",
+    "lekki, regulowany"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "sleeve": {
+  "model": "Sleeve – Ochrona ramienia/barku",
+  "description": "Rękaw chroniący okolicę barku i ramienia przed promieniowaniem rozproszonym – idealny jako uzupełnienie fartucha przy ekspozycji bocznej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ochrona ramienia/barku"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "mini-sleeve": {
+  "model": "Mini Sleeve – krótka ochrona barku",
+  "description": "Krótka wersja rękawa do ukierunkowanej ochrony barku przy minimalnej wadze.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ochrona barku (krótka)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "cricket-pads": {
+  "model": "Cricket Pads – Ochrona nóg/stóp",
+  "description": "Ochrona nóg i opcjonalnie stóp przed promieniowaniem rozproszonym – chroni podudzia i stopy przy ekspozycji blisko podłoża, np. w radiologii interwencyjnej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ochrona nóg/stóp"
+   ],
+   [
+    "Ochrona stóp",
+    "opcjonalnie"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,25 / 0,50 mm Pb"
+   ],
+   [
+    "Materiał rdzenia",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "mammo-shield": {
+  "model": "mammo-SHIELD™ – Ochrona pachy i klatki piersiowej",
+  "description": "Specjalnie opracowana ochrona pachy/klatki piersiowej, która znajduje się pod ramieniem i podąża za jego ruchem – zapewnia dodatkową ochronę wrażliwej okolicy pachy podczas zabiegów chirurgicznych. Integruje się z większością fartuchów ołowianych i części górnych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ochrona pachy/klatki piersiowej"
+   ],
+   [
+    "Zastosowanie",
+    "dodatkowa ochrona pachy podczas zabiegów operacyjnych"
+   ],
+   [
+    "Kompatybilność",
+    "integruje się z większością fartuchów i części górnych"
+   ],
+   [
+    "Zarejestrowany wzór",
+    "Nr 6284862"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "ha172": {
+  "model": "HA172 – Jezdny stojak na fartuchy",
+  "description": "Jezdny stojak do wieszakowego przechowywania fartuchów ochronnych przed promieniowaniem. Stabilna rama na kółkach umożliwiająca elastyczne ustawianie w pomieszczeniu.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdny stojak na fartuchy"
+   ],
+   [
+    "Mobilność",
+    "4 kółka (jezdny)"
+   ],
+   [
+    "Materiał",
+    "Stal nierdzewna/stal"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "psmar": {
+  "model": "PSMAR – Stojak z uchylnymi wieszakami",
+  "description": "Stojak stojący z zintegrowanymi uchylnymi wieszakami do przejrzystego przechowywania wielu fartuchów. Jezdny i oszczędzający miejsce.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Stojak na fartuchy z uchylnymi wieszakami"
+   ],
+   [
+    "Mobilność",
+    "jezdny (kółka)"
+   ],
+   [
+    "Materiał",
+    "Stal, malowana proszkowo"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "ha10kt": {
+  "model": "HA10KT – Mobilny stojak z ramionami uchylnymi",
+  "description": "Mobilny stojak z ramionami uchylnymi do oszczędzającego miejsce wieszania wielu fartuchów na uchylnych ramionach.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Mobilny stojak z ramionami uchylnymi"
+   ],
+   [
+    "Mobilność",
+    "jezdny (kółka)"
+   ],
+   [
+    "Mocowanie",
+    "kilka ramion uchylnych"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "ps10kt": {
+  "model": "PS10KT – Stojak z ramionami uchylnymi",
+  "description": "Jezdny stojak z uchylnymi ramionami do uporządkowanego przechowywania odzieży ochronnej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Stojak z ramionami uchylnymi"
+   ],
+   [
+    "Mobilność",
+    "jezdny (kółka)"
+   ],
+   [
+    "Materiał",
+    "Stal, malowana proszkowo"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "m10s": {
+  "model": "M10S – Obrotowy stojak uchylny",
+  "description": "Stojak stojący z obrotowym systemem ramion uchylnych: fartuchy można, oszczędzając miejsce, wieszać dookoła i łatwo zdejmować.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Obrotowy stojak uchylny"
+   ],
+   [
+    "Funkcja",
+    "obrotowy system ramion uchylnych"
+   ],
+   [
+    "Mobilność",
+    "jezdny (kółka)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "ha5k": {
+  "model": "HA5K – Ścienne ramię uchylne",
+  "description": "Montowane na ścianie ramię uchylne do wieszania wielu fartuchów; uchylne dla łatwego dostępu. Pasuje również jako uchwyt ścienny/drzwiowy (m.in. SKHK, HARODPS10).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ścienne ramię uchylne"
+   ],
+   [
+    "Montaż",
+    "Montaż ścienny"
+   ],
+   [
+    "Mocowanie",
+    "kilka fartuchów"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "hangers": {
+  "model": "Seria wieszaków na fartuchy",
+  "description": "Odpowiednie wieszaki do delikatnego, wiszącego przechowywania fartuchów ochronnych przed promieniowaniem – w różnych wykonaniach (drewno, powlekane tworzywem, drut).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Wieszak na fartuchy"
+   ],
+   [
+    "Wykonania",
+    "Drewno (HA170) · powlekany (PS170) · drut (HA175/HA175C)"
+   ],
+   [
+    "Zastosowanie",
+    "Pojedyncze zawieszenie na stojakach i szynach"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-fitover-l": {
+  "model": "FitOver – Okulary nakładane (rozmiar L)",
+  "description": "Nakładane okulary ochronne rentgenowskie, które wygodnie nosi się na istniejących okularach korekcyjnych – z boczną ochroną przed promieniowaniem.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary nakładane (FitOver)"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-fitover-m": {
+  "model": "FitOver – Okulary nakładane (rozmiar M)",
+  "description": "Nakładane okulary ochronne rentgenowskie, które wygodnie nosi się na istniejących okularach korekcyjnych – z boczną ochroną przed promieniowaniem.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary nakładane (FitOver)"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-52": {
+  "model": "Model 52 – Okulary ochronne rentgenowskie typu wraparound",
+  "description": "Okulary ochronne rentgenowskie typu wraparound z obejmującą oprawą zapewniającą rozszerzoną ochronę boczną. Opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne typu wraparound"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-206": {
+  "model": "Model 206 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-208": {
+  "model": "Model 208 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-400": {
+  "model": "Model 400 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-1205": {
+  "model": "Model 1205 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-9388": {
+  "model": "Model 9388 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-15011": {
+  "model": "Model 15011 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-17012": {
+  "model": "Model 17012 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-20020": {
+  "model": "Model 20020 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-egm": {
+  "model": "Model EGM – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-ex601": {
+  "model": "Model EX601 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-f10": {
+  "model": "Model F10 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-gl1171": {
+  "model": "Model GL1171 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-p820": {
+  "model": "Model P820 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-q100": {
+  "model": "Model Q100 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-q200": {
+  "model": "Model Q200 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-q300": {
+  "model": "Model Q300 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-rg12": {
+  "model": "Model RG12-PTG-038 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-t9538s": {
+  "model": "Model T9538S – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-t9559": {
+  "model": "Model T9559 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-tp280": {
+  "model": "Model TP280 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-x25": {
+  "model": "Model X25 – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie z ołowiowymi szkłami ochronnymi i boczną ochroną przed promieniowaniem. Dostępne opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-rg55": {
+  "model": "Model RG55 – Gogle ochronne (pełne pole widzenia)",
+  "description": "Gogle ochronne rentgenowskie (pełne pole widzenia) z regulowaną opaską na głowę i szczelnie przylegającym dopasowaniem dookoła – możliwe do noszenia również na okularach korekcyjnych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Gogle ochronne (pełne pole widzenia)"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-nike": {
+  "model": "Nike Brazen – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie w sportowej oprawie Nike Brazen – lekkie, wytrzymałe i z boczną ochroną przed promieniowaniem. Opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie (oprawa sportowa)"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-oakley": {
+  "model": "Oakley Gascan – Okulary ochronne rentgenowskie",
+  "description": "Okulary ochronne rentgenowskie w charakterystycznej oprawie Oakley Gascan – sportowy wygląd z boczną ochroną przed promieniowaniem. Opcjonalnie z korekcją wzroku lub bez (RX).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Okulary ochronne rentgenowskie (oprawa sportowa)"
+   ],
+   [
+    "Równoważnik ołowiu (szkła)",
+    "0,75 mm Pb"
+   ],
+   [
+    "Ochrona boczna",
+    "0,50 mm Pb"
+   ],
+   [
+    "Wykonanie",
+    "Z korekcją wzroku lub bez (RX)"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-sideshields": {
+  "model": "Boczna ochrona przed promieniowaniem (Side Shields)",
+  "description": "Boczna ochrona przed promieniowaniem do uzupełnienia kompatybilnych opraw okularowych – dodatkowo chroni okolicę oczu od strony bocznej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Boczna ochrona przed promieniowaniem (nakładka)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,50 mm Pb"
+   ],
+   [
+    "Montaż",
+    "Do kompatybilnych opraw okularowych"
+   ],
+   [
+    "Produkcja",
+    "Wielka Brytania (ROTHBAND)"
+   ]
+  ]
+ }
+}

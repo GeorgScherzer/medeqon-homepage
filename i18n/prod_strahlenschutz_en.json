@@ -1,0 +1,629 @@
+{
+  "vxr-1": {
+    "model": "VXR-1 Front apron",
+    "description": "Modern front-protection apron for applications with exclusively frontal radiation exposure. Elastic sewn into the back panels ensures an optimal fit during long periods of wear. Optionally with protective back panels.",
+    "specs": [
+      ["Type", "Front-protection apron (pull-over)"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb (optional)"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "85–130 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "vxr-2": {
+    "model": "VXR-2 Front apron",
+    "description": "Front-protection apron that simply closes and reopens at the front. Ideal for exclusively frontal exposure – high wearing comfort and an excellent fit. Optionally with back protection.",
+    "specs": [
+      ["Type", "Front-protection apron, front-closing"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb (optional)"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "85–130 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "pxr-sc": {
+    "model": "PXR-SC Tabard apron",
+    "description": "A reinterpretation of the classic tabard apron with an improved fit in the underarm area. Available in several configurations with a single or double shoulder clip. Back buckles as standard, optionally a height-adjustable elastic belt.",
+    "specs": [
+      ["Type", "Tabard apron (pull-over, overlap)"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb (optional)"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "85–130 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "pxr-th": {
+    "model": "PXR-TH Tabard apron",
+    "description": "Tabard apron with various fastening options and an improved underarm fit. Versatile for different wearers, with robust all-round protection thanks to the overlap.",
+    "specs": [
+      ["Type", "Tabard apron (pull-over, overlap)"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb (optional)"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "85–130 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "wxr": {
+    "model": "WXR Wrap-around apron",
+    "description": "Wrap-around apron with double-layer protection in the overlap area. Variable overlap for different body shapes, several armholes. The elastic belt shifts the weight off the shoulders for greater comfort during long periods of wear.",
+    "specs": [
+      ["Type", "Coat/wrap-around apron (all-round protection)"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "85–130 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "wxr-f": {
+    "model": "WXR-F Wrap-around apron (lightweight)",
+    "description": "Full-body wrap-around apron with overlapping front zones that achieve the stated protection level when correctly overlapped. Reduces core material and weight while providing all-round coverage of around 60% of the body circumference.",
+    "specs": [
+      ["Type", "Coat/wrap-around apron (all-round protection)"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "85–130 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "txr-w": {
+    "model": "TXR-W Top & skirt",
+    "description": "Two-piece protective set of top and skirt that distributes the weight evenly across the shoulders and hips. Around 30 cm of overlap zone for flexible size adjustment and double protection over vital areas. Optionally different protection levels front and back.",
+    "specs": [
+      ["Type", "Two-piece – top (wrap) + skirt"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 / 1,0 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "Top 50–70 cm · skirt 53–70 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Skirt", "KXR-W standard wrap skirt / KXR-F full wrap skirt"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "txr-w-lite": {
+    "model": "TXR-W-LITE Top & skirt",
+    "description": "Lighter variant of the TXR-W: reduced front overlap saves up to 15% in weight. Particularly suitable as a personal lead apron with an optimal fit. Optionally different protection levels front and back.",
+    "specs": [
+      ["Type", "Two-piece – top (Wrap Lite) + skirt"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 / 1,0 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "Top 50–70 cm · skirt 53–70 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Skirt", "KXR-W standard wrap skirt / KXR-F full wrap skirt"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "txr-b": {
+    "model": "TXR-B Top & skirt",
+    "description": "Two-piece set with an elastic back for a particularly supportive, close-fitting hold – one of the most comfortable models in the range. Improved underarm fit with hundreds of combinations for women and men.",
+    "specs": [
+      ["Type", "Two-piece – top with elastic back + skirt"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 / 1,0 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "Top 50–70 cm · skirt 53–70 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Skirt", "KXR-W standard wrap skirt"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "txr-f": {
+    "model": "TXR-F Top & skirt",
+    "description": "Two-piece set with full overlap – when worn correctly it meets the full stated protection level to IEC 61331-3:2014. Improved underarm fit and individual fit for women and men.",
+    "specs": [
+      ["Type", "Two-piece – top (Full Wrap) + skirt"],
+      ["Lead equivalent front", "0,25 / 0,35 / 0,50 / 1,0 mm Pb"],
+      ["Lead equivalent back", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Lengths", "Top 50–70 cm · skirt 53–70 cm"],
+      ["Sizes", "XS–XXL · armhole S/R/L"],
+      ["Skirt", "KXR-F full wrap skirt (half thickness in the front panels)"],
+      ["Standards", "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "tpv": {
+    "model": "TPV Thyroid shield",
+    "description": "Thyroid collar for supplementary protection of the neck region, with a tapered front shape (V-shape). Lightweight, conforming and available in numerous colours and patterns.",
+    "specs": [
+      ["Type", "Thyroid collar"],
+      ["Front shape", "tapered (V-shape)"],
+      ["Lead equivalent", "0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Fastening", "Hook-and-loop fastening"],
+      ["Standards", "IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "tpd": {
+    "model": "TPD Thyroid shield",
+    "description": "Thyroid collar with a teardrop-shaped, downward-extended front covering for additional coverage. Lightweight and conforming, available in many colours.",
+    "specs": [
+      ["Type", "Thyroid collar"],
+      ["Front shape", "teardrop-shaped, extended"],
+      ["Lead equivalent", "0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Fastening", "Hook-and-loop fastening"],
+      ["Standards", "IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "tpdm": {
+    "model": "TPDM Thyroid shield (magnetic)",
+    "description": "Magnetic D-Type thyroid collar with a teardrop-shaped front covering. Fastening is via high-quality neodymium magnets instead of hook-and-loop – this is more hygienic, does not catch hair and is therefore particularly suitable for longer hair.",
+    "specs": [
+      ["Type", "Thyroid collar (magnetic)"],
+      ["Front shape", "teardrop-shaped (D-Type)"],
+      ["Lead equivalent", "0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Fastening", "Magnetic fastening (neodymium)"],
+      ["Advantage", "Hygienic · does not catch hair"],
+      ["Standards", "IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "tpb": {
+    "model": "TPB Thyroid shield",
+    "description": "Thyroid collar with a wide, rounded front covering for particularly generous coverage of the neck and upper chest region.",
+    "specs": [
+      ["Type", "Thyroid collar"],
+      ["Front shape", "wide, rounded"],
+      ["Lead equivalent", "0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Fastening", "Hook-and-loop fastening"],
+      ["Standards", "IEC 61331-1:2014 · IEC 61331-3:2014"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "scatter-cap": {
+    "model": "Scatter Cap Light – head cap",
+    "description": "Lightweight head cap to protect against scattered radiation in the head/skull area. Comfortable, adjustable and designed for everyday use.",
+    "specs": [
+      ["Type", "Scattered-radiation head cap"],
+      ["Application", "Protection of the head/skull region"],
+      ["Version", "lightweight, adjustable"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "sleeve": {
+    "model": "Sleeve – arm/shoulder protection",
+    "description": "Sleeve to protect the shoulder and upper-arm area against scattered radiation – ideal as a complement to the apron for lateral exposure.",
+    "specs": [
+      ["Type", "Arm/shoulder protection"],
+      ["Lead equivalent", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "mini-sleeve": {
+    "model": "Mini Sleeve – short shoulder protection",
+    "description": "Short sleeve variant for targeted shoulder protection at minimal weight.",
+    "specs": [
+      ["Type", "Shoulder protection (short)"],
+      ["Lead equivalent", "0,25 / 0,35 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "cricket-pads": {
+    "model": "Cricket Pads – leg/foot protection",
+    "description": "Leg and optional foot protection against scattered radiation – protects the lower legs and feet during near-floor exposure, e.g. in interventional radiology.",
+    "specs": [
+      ["Type", "Leg/foot protection"],
+      ["Foot protection", "optional"],
+      ["Lead equivalent", "0,25 / 0,50 mm Pb"],
+      ["Core material", "LEAD-LT / BILAYER-ET / BILAYER-LF"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "mammo-shield": {
+    "model": "mammo-SHIELD™ – underarm & chest protection",
+    "description": "Specially developed underarm/chest protection that sits under the arm and follows the arm's movement – for additional protection of the sensitive underarm region during surgical procedures. Integrates into most lead aprons and tops.",
+    "specs": [
+      ["Type", "Underarm/chest protection"],
+      ["Application", "additional underarm protection during surgical procedures"],
+      ["Compatibility", "integrates into most aprons & tops"],
+      ["Registered design", "No. 6284862"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "ha172": {
+    "model": "HA172 – mobile apron stand",
+    "description": "Mobile stand for hanging storage of radiation-protection aprons. Sturdy frame with castors for flexible positioning in the room.",
+    "specs": [
+      ["Type", "Mobile apron stand"],
+      ["Mobility", "4 castors (mobile)"],
+      ["Material", "Stainless steel/steel"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "psmar": {
+    "model": "PSMAR – stand with swing arms",
+    "description": "Floor stand with integrated swing arms for clearly organised storage of multiple aprons. Mobile and space-saving.",
+    "specs": [
+      ["Type", "Apron stand with swing arms"],
+      ["Mobility", "mobile (castors)"],
+      ["Material", "Steel, powder-coated"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "ha10kt": {
+    "model": "HA10KT – mobile swing-arm stand",
+    "description": "Mobile swing-arm stand for space-saving hanging of multiple aprons on swivelling arms.",
+    "specs": [
+      ["Type", "Mobile swing-arm stand"],
+      ["Mobility", "mobile (castors)"],
+      ["Capacity", "multiple swing arms"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "ps10kt": {
+    "model": "PS10KT – swing-arm stand",
+    "description": "Mobile stand with swivelling arms for the orderly storage of protective clothing.",
+    "specs": [
+      ["Type", "Swing-arm stand"],
+      ["Mobility", "mobile (castors)"],
+      ["Material", "Steel, powder-coated"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "m10s": {
+    "model": "M10S – rotating swing stand",
+    "description": "Floor stand with a rotating swing-arm system: aprons can be hung all around to save space and are easy to remove.",
+    "specs": [
+      ["Type", "Rotating swing stand"],
+      ["Function", "rotating swing-arm system"],
+      ["Mobility", "mobile (castors)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "ha5k": {
+    "model": "HA5K – wall-mounted swing arm",
+    "description": "Wall-mounted swing arm for hanging multiple aprons; swivels for easy access. Also suitable as a wall/door holder (including SKHK, HARODPS10).",
+    "specs": [
+      ["Type", "Wall-mounted swing arm"],
+      ["Mounting", "Wall mounting"],
+      ["Capacity", "multiple aprons"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "hangers": {
+    "model": "Apron-hanger range",
+    "description": "Matching hangers for the gentle, hanging storage of radiation-protection aprons – in various versions (wood, plastic-coated, wire).",
+    "specs": [
+      ["Type", "Apron hangers"],
+      ["Versions", "Wood (HA170) · coated (PS170) · wire (HA175/HA175C)"],
+      ["Application", "Individual hanging on stands & rails"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-fitover-l": {
+    "model": "FitOver – over-glasses (size L)",
+    "description": "Fit-over X-ray protection glasses worn comfortably over existing prescription glasses – with lateral radiation protection.",
+    "specs": [
+      ["Type", "Over-glasses (FitOver)"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-fitover-m": {
+    "model": "FitOver – over-glasses (size M)",
+    "description": "Fit-over X-ray protection glasses worn comfortably over existing prescription glasses – with lateral radiation protection.",
+    "specs": [
+      ["Type", "Over-glasses (FitOver)"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-52": {
+    "model": "Model 52 – wraparound X-ray protection glasses",
+    "description": "Wraparound X-ray protection glasses with an enclosing frame for extended lateral protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "Wraparound protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-206": {
+    "model": "Model 206 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-208": {
+    "model": "Model 208 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-400": {
+    "model": "Model 400 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-1205": {
+    "model": "Model 1205 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-9388": {
+    "model": "Model 9388 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-15011": {
+    "model": "Model 15011 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-17012": {
+    "model": "Model 17012 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-20020": {
+    "model": "Model 20020 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-egm": {
+    "model": "Model EGM – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-ex601": {
+    "model": "Model EX601 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-f10": {
+    "model": "Model F10 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-gl1171": {
+    "model": "Model GL1171 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-p820": {
+    "model": "Model P820 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-q100": {
+    "model": "Model Q100 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-q200": {
+    "model": "Model Q200 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-q300": {
+    "model": "Model Q300 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-rg12": {
+    "model": "Model RG12-PTG-038 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-t9538s": {
+    "model": "Model T9538S – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-t9559": {
+    "model": "Model T9559 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-tp280": {
+    "model": "Model TP280 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-x25": {
+    "model": "Model X25 – X-ray protection glasses",
+    "description": "X-ray protection glasses with lead-containing protective lenses and lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-rg55": {
+    "model": "Model RG55 – full-vision protective goggles (goggle)",
+    "description": "Full-vision X-ray protection goggles (goggle) with an adjustable head strap and an all-round sealed fit – can also be worn over prescription glasses.",
+    "specs": [
+      ["Type", "Full-vision protective goggles (goggle)"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-nike": {
+    "model": "Nike Brazen – X-ray protection glasses",
+    "description": "X-ray protection glasses in the sporty Nike Brazen frame – lightweight, robust and with lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses (sports frame)"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-oakley": {
+    "model": "Oakley Gascan – X-ray protection glasses",
+    "description": "X-ray protection glasses in the striking Oakley Gascan frame – a sporty look with lateral radiation protection. Available with or without prescription (RX).",
+    "specs": [
+      ["Type", "X-ray protection glasses (sports frame)"],
+      ["Lead equivalent lenses", "0,75 mm Pb"],
+      ["Side protection", "0,50 mm Pb"],
+      ["Version", "With or without prescription (RX)"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  },
+  "gl-sideshields": {
+    "model": "Lateral radiation protection (Side Shields)",
+    "description": "Lateral radiation protection to complement compatible spectacle frames – additionally protects the eye area from the side.",
+    "specs": [
+      ["Type", "Lateral radiation protection (attachment)"],
+      ["Lead equivalent", "0,50 mm Pb"],
+      ["Mounting", "For compatible spectacle frames"],
+      ["Manufacture", "UK (ROTHBAND)"]
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "kenex-310b3": {
+    "model": "310/B-3 – Ecran de protecție radiologică mobil, reglabil pe înălțime",
+    "description": "Ecran de protecție radiologică mobil, compact și ușor de manevrat, pentru spații înguste, direct la masa de examinare. Panou de protecție inferior și fereastră din acril cu plumb, echilibrată în greutate, care se reglează pe înălțime rapid și aproape fără efort. Opțional cu panouri de protecție laterale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de protecție radiologică mobil, reglabil pe înălțime"],
+      ["Panou inferior", "78 × 102 cm · 1,0 mm Pb (@ 150 kV)"],
+      ["Fereastră din acril cu plumb", "70 cm lățime · 0,5 mm Pb (@ 150 kV)"],
+      ["Reglare pe înălțime", "Fereastră 115–188 cm de la sol"],
+      ["Opțiuni", "Panouri de protecție laterale (317/05-01), 0,5 mm Pb, +68 cm per panou (max. 214 cm)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-326-05": {
+    "model": "326/05 – Ecran de protecție radiologică deasupra mesei, reglabil pe înălțime",
+    "description": "Ecran de protecție radiologică mobil care combină caracteristicile sistemelor montate pe tavan și pe masă: o fereastră din acril cu plumb, echilibrată în greutate, este poziționată deasupra pacientului și este reglabilă pe înălțime. Perdele flexibile, reglabile în lățime, creează o zonă de protecție generoasă pentru utilizator și personalul asistent.",
+    "specs": [
+      ["Tip constructiv", "Ecran de protecție radiologică mobil deasupra mesei"],
+      ["Echivalent de plumb", "0,5 mm Pb (continuu)"],
+      ["Fereastră", "50 × 116 cm, cu decupaj în colț"],
+      ["Perdele", "80 cm înălțime · lățime 45–80 cm"],
+      ["Înălțime", "139–169 cm"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-314-05": {
+    "model": "314/05 – Suport mobil cu panou de protecție",
+    "description": "Protecție mobilă compactă, reglabilă pe înălțime, pentru ecranarea țintită a pacientului sau a utilizatorului. Coloana telescopică cu asistență prin arc susține un panou de protecție flexibil; reglare simplă pe înălțime.",
+    "specs": [
+      ["Tip constructiv", "Suport mobil cu panou de protecție, reglabil pe înălțime"],
+      ["Echivalent de plumb", "0,5 mm Pb"],
+      ["Înălțime", "85–120 cm"],
+      ["Suprafață de sprijin", "56 × 56 cm"],
+      ["Panou", "70 × 60 cm"],
+      ["Variante", "314/05-01 panou simplu · 314/05-02 panou dublu (suprapus)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-303b2": {
+    "model": "303/B2/90 – Perete mobil de protecție radiologică",
+    "description": "Perete mobil de protecție radiologică în construcție cu panou fix cu miez de plumb, acoperit pe ambele fețe cu laminat plastic de înaltă presiune și cu fereastră din sticlă cu plumb. Roți pivotante robuste, blocabile, și mânere pentru mobilitate ușoară.",
+    "specs": [
+      ["Tip constructiv", "Perete mobil de protecție radiologică (panou integral)"],
+      ["Echivalent de plumb", "2,2 mm Pb (miez și fereastră)"],
+      ["Dimensiuni", "200 × 90 cm (Î × L)"],
+      ["Fereastră de vizualizare", "25 × 25 cm"],
+      ["Culori", "Alb, crem, gri deschis, gri închis, albastru turcoaz, roz"],
+      ["Dotare", "Roți pivotante blocabile cu frână, protecție de margine din ABS, mânere"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-303b3": {
+    "model": "303/B3/90 – Perete de protecție radiologică panoramic",
+    "description": "Perete mobil de protecție radiologică ca 303/B2/90, însă cu fereastră panoramică lată din sticlă cu plumb pentru vizibilitate extinsă. Construcție cu panou fix cu miez de plumb, laminat de înaltă presiune pe ambele fețe, roți blocabile și mânere.",
+    "specs": [
+      ["Tip constructiv", "Perete mobil de protecție radiologică (panoramic)"],
+      ["Echivalent de plumb", "2,2 mm Pb (miez și fereastră)"],
+      ["Dimensiuni", "200 × 90 cm (Î × L)"],
+      ["Fereastră panoramică", "25 × 62 cm"],
+      ["Culori", "Alb, crem, gri deschis, gri închis, albastru turcoaz, roz"],
+      ["Dotare", "Garnituri din neopren, roți pivotante blocabile, mânere"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-354lr": {
+    "model": "354/P/88-207/LR – Ecran suspendat deasupra capului (acril cu plumb)",
+    "description": "Ecran de protecție suspendat central deasupra capului, din acril cu plumb, cu decupaj pentru conturul pacientului și extensie flexibilă cu perdea; pentru montare pe brațul de suspensie VALiA-MD21+. Protecție statică a părții superioare a corpului.",
+    "specs": [
+      ["Tip constructiv", "Ecran de protecție deasupra capului (suspendat central)"],
+      ["Dimensiuni", "85 × 80 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Material", "Acril cu plumb cu perdea flexibilă"],
+      ["Rotație", "360°"],
+      ["Greutate", "15,8 kg"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-354": {
+    "model": "354 – Ecran deasupra capului cu suspensie centrală",
+    "description": "Ecran de protecție transparent pentru partea superioară a corpului, suspendat central – opțional cu decupaj pentru conturul pacientului. Articulație sferică pentru mișcare de rotație și înclinare la 360°.",
+    "specs": [
+      ["Tip constructiv", "Ecran de protecție deasupra capului (suspensie centrală)"],
+      ["Echivalent de plumb", "0,5 mm Pb (acril cu plumb)"],
+      ["Dimensiuni ecran", "85×80 · 76×61 · 40×50 cm"],
+      ["Mișcare", "Articulație sferică, 360°"],
+      ["Montaj", "Braț · tavan · șină de tavan · perete"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-351": {
+    "model": "351 – Ecran deasupra capului cu pivotare orizontală",
+    "description": "Ecran transparent din acril cu plumb, deasupra capului, cu axă de pivotare orizontală în format landscape. Opțional decupaj pentru conturul pacientului și panouri flexibile cu plumb.",
+    "specs": [
+      ["Tip constructiv", "Ecran de protecție deasupra capului (pivotare orizontală)"],
+      ["Echivalent de plumb", "0,5 mm Pb"],
+      ["Dimensiuni ecran", "60×80 · 40×50 cm"],
+      ["Orientare", "Format landscape"],
+      ["Montaj", "Braț · tavan · șină de tavan · perete"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-350": {
+    "model": "350 – Ecran pentru ochi și tiroidă",
+    "description": "Ecran de protecție transparent, special pentru protecția ochilor și a tiroidei, format landscape cu pivotare orizontală și perdea inferioară flexibilă.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru ochi/tiroidă"],
+      ["Sticlă cu plumb", "≥ 2,2 mm Pb"],
+      ["Perdea inferioară", "0,5 mm Pb"],
+      ["Dimensiuni ecran", "40×50 · 30×40 cm"],
+      ["Coloană", "80 cm (standard)"],
+      ["Montaj", "Tavan · șină · perete"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-354led": {
+    "model": "354/P76/LED – Ecran deasupra capului cu lampă LED",
+    "description": "Combinație între ecranul de protecție 354 suspendat central și o lampă LED de operație integrată – staționar sau mobil (șină de tavan). Protecție a părții superioare a corpului cu iluminare optimă.",
+    "specs": [
+      ["Tip constructiv", "Ecran deasupra capului + lampă LED"],
+      ["Ecran", "76 × 61 cm · 0,5 mm Pb · contur pacient"],
+      ["Opțiuni LED", "130F (70.000 lux) · 150F (110.000) · 300DF SC (160.000)"],
+      ["Conținutul livrării", "Coloană de tavan de 80 cm + 2 brațe"],
+      ["Montaj", "Tavan sau șină (250/420 cm)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-351led": {
+    "model": "351/P68/LED – Ecran deasupra capului cu lampă LED",
+    "description": "Combinație între ecranul de protecție 351 (pivotare orizontală) și o lampă LED de operație integrată, staționar sau mobil.",
+    "specs": [
+      ["Tip constructiv", "Ecran deasupra capului + lampă LED"],
+      ["Ecran", "60 × 80 cm · 0,5 mm Pb"],
+      ["Opțiuni LED", "130F · 150F · 300DF SC"],
+      ["Montaj", "Tavan sau șină (250/420 cm)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-350led": {
+    "model": "350/45/LED – Ecran pentru ochi/tiroidă cu lampă LED",
+    "description": "Combinație între ecranul 350 pentru ochi/tiroidă și o lampă LED de operație integrată, staționar sau mobil.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru ochi/tiroidă + lampă LED"],
+      ["Ecran", "40 × 50 cm · 0,5 mm Pb"],
+      ["Opțiuni LED", "130F · 150F · 300DF SC"],
+      ["Montaj", "Tavan sau șină (250/420 cm)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-308": {
+    "model": "308 – Protecție flexibilă cu plumb deasupra capului",
+    "description": "Ecran de protecție flexibil deasupra capului, din lamele suprapuse de vinil cu plumb, cu partea centrală rabatabilă (buton de apăsare). Braț de suspensie inclus în livrare.",
+    "specs": [
+      ["Tip constructiv", "Protecție flexibilă cu plumb deasupra capului"],
+      ["Echivalent de plumb", "0,5 mm Pb"],
+      ["Dimensiuni", "50 × 100 cm"],
+      ["Material", "Vinil cu plumb (flexibil)"],
+      ["Montaj", "Staționar · perete · șină de tavan"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-3001tc": {
+    "model": "3001/TC – Șină de tavan cu cărucior",
+    "description": "Șină de tavan din aluminiu, de mare rezistență, cu cărucior cu deplasare ușoară și management opțional al cablurilor (lanț port-cablu) pentru suspensia mobilă a ecranelor, lămpilor și monitoarelor.",
+    "specs": [
+      ["Tip constructiv", "Șină de tavan + cărucior"],
+      ["Material", "Aluminiu"],
+      ["Lungimi", "2,5 m · 4,2 m"],
+      ["Cărucior", "1 (max. 2)"],
+      ["Opțiuni", "Ghidaj de cabluri cu lanț port-cablu"],
+      ["Montaj", "Unistrut sau similar"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-333": {
+    "model": "333 – Suspensie pentru monitor",
+    "description": "Sistem de suspensie pentru monitoare cu ecran plat, cu braț cu arc de mare rază de acțiune; staționar, pe șină de tavan sau montat pe perete.",
+    "specs": [
+      ["Tip constructiv", "Suspensie pentru monitor"],
+      ["Sarcină admisă", "5–10 kg"],
+      ["Rază de acțiune", "Braț cu arc 186 cm"],
+      ["Coloană", "80 cm cu articulație dublă"],
+      ["VESA", "100 mm"],
+      ["Montaj", "Staționar · șină · perete"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-300arm": {
+    "model": "300/ARM – Braț de suspensie",
+    "description": "Braț de suspensie robust pentru mișcare flexibilă pe o suprafață mare; cu guler de siguranță brevetat. Pentru montare pe tavan sau pe șină.",
+    "specs": [
+      ["Tip constructiv", "Braț de suspensie (cu arc)"],
+      ["Braț de extensie", "95 cm"],
+      ["Braț cu arc", "91 cm"],
+      ["Sarcină admisă", "până la 18 kg"],
+      ["Siguranță", "guler de siguranță brevetat"],
+      ["Montaj", "Tavan · cărucior"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-300column": {
+    "model": "300/COLUMN – Coloană de tavan cu articulație dublă",
+    "description": "Coloană de tavan din oțel cu două puncte de rotație (un punct cablat electric) pentru conectarea brațului și a lămpii; staționar sau pe cărucior.",
+    "specs": [
+      ["Tip constructiv", "Coloană de tavan (articulație dublă)"],
+      ["Material", "Oțel"],
+      ["Lungimi", "40 · 60 · 80 · 100 cm"],
+      ["Particularitate", "un punct de rotație cablat electric"],
+      ["Montaj", "Tavan · cărucior"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-300p004": {
+    "model": "300/P/004 – Placă de montaj pe tavan",
+    "description": "Placă de montaj din oțel pentru instalarea statică a coloanelor de tavan KENEX, utilizabilă deasupra sau sub tavanele suspendate (coloana separat).",
+    "specs": [
+      ["Tip constructiv", "Placă de montaj pe tavan"],
+      ["Dimensiuni", "73,5 × 34 × 3,4 cm"],
+      ["Material", "Oțel"],
+      ["Montaj", "Deasupra/sub tavanele suspendate"],
+      ["Observație", "Coloana separat"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-300p014": {
+    "model": "300/P/014 – Inel de ancorare în tavan și placă",
+    "description": "Platformă de montaj pentru cavitatea dintre tavanul suspendat și cel masiv (8,5–30 cm). După reglare, o bază de montaj verticală, stabilă (coloana separat).",
+    "specs": [
+      ["Tip constructiv", "Platformă de montaj cu ancorare în tavan"],
+      ["Cavitate de tavan", "8,5–30 cm"],
+      ["Observație", "Coloana separat (standard 80 cm)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "kenex-300p012": {
+    "model": "300/P/012 – Platformă de montaj în cavitatea tavanului",
+    "description": "Platformă de montaj pentru cavitatea dintre tavanul suspendat și cel masiv, până la 90 cm; se livrează demontată și se adaptează exact la distanță.",
+    "specs": [
+      ["Tip constructiv", "Platformă de montaj în cavitatea tavanului"],
+      ["Cavitate de tavan", "până la 90 cm"],
+      ["Livrare", "demontată (adaptabilă)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-78": {
+    "model": "312/E-005 – Ecran de masă pentru partea inferioară a corpului 78 cm",
+    "description": "Ecrane de masă pentru partea inferioară a corpului, cu articulație pivotantă simplă cu fricțiune și ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă pentru partea inferioară a corpului"],
+      ["Dimensiuni", "78 × 70 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație pivotantă simplă cu fricțiune"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-92": {
+    "model": "312/E-010 – Ecran de masă pentru partea inferioară a corpului 92 cm",
+    "description": "Ecrane de masă pentru partea inferioară a corpului, cu articulație dublă cu fricțiune și ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă pentru partea inferioară a corpului"],
+      ["Lățime", "92 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-92cr": {
+    "model": "312/E-013 – Ecran de masă 92 cm, rezistent la coliziune",
+    "description": "Ecran de masă rezistent la coliziune, cu articulație dublă cu fricțiune și ecran suplimentar detașabil de tip lift-off, cu lățimea de 57 cm.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă rezistent la coliziune"],
+      ["Lățime", "92 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Ecran suplimentar", "57 cm lățime, lift-off"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-100": {
+    "model": "312/E-015 – Ecran de masă pentru partea inferioară a corpului 100 cm",
+    "description": "Ecrane de masă pentru partea inferioară a corpului, cu articulație pivotantă simplă cu fricțiune, șină de accesorii integrată de 35 cm și ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă pentru partea inferioară a corpului"],
+      ["Lățime", "100 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație pivotantă simplă cu fricțiune"],
+      ["Șină de accesorii", "35 cm integrată"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-114": {
+    "model": "312/E-020 – Ecran de masă pentru partea inferioară a corpului 114 cm",
+    "description": "Ecrane de masă pentru partea inferioară a corpului, cu articulație dublă cu fricțiune, șină de accesorii integrată de 35 cm și ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă pentru partea inferioară a corpului"],
+      ["Lățime", "114 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Șină de accesorii", "35 cm integrată"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-114cr": {
+    "model": "312/E-023 – Ecran de masă 114 cm, rezistent la coliziune",
+    "description": "Ecran de masă rezistent la coliziune, cu articulație dublă cu fricțiune, șină de accesorii integrată de 35 cm și ecran suplimentar de tip lift-off, cu lățimea de 57 cm.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă rezistent la coliziune"],
+      ["Lățime", "114 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Șină de accesorii", "35 cm integrată"],
+      ["Ecran suplimentar", "57 cm lățime, lift-off"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-89": {
+    "model": "311/DS-020 – Ecran de masă 89 cm cu element rabatabil (Philips)",
+    "description": "Ecran de masă pentru partea inferioară a corpului, cu perdea suprapusă, îmbinare centrală și ecran suplimentar rabatabil în jos, cu lățimea de 52 cm. Pentru mesele Philips Medical Systems.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă pentru partea inferioară a corpului cu element rabatabil"],
+      ["Lățime", "89 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Ecran suplimentar", "52 cm lățime, rabatabil în jos"],
+      ["Perdea", "Suprapusă, cu îmbinare centrală"],
+      ["Compatibilitate", "Philips Medical Systems (nr. piesă 9896-000-77201 & -77202)"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-92ds": {
+    "model": "312/DS-006 – Ecran lateral de masă 92 cm",
+    "description": "Ecran lateral de masă pentru partea inferioară a corpului, cu lățimea de 92 cm, cu articulație dublă cu fricțiune și ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran lateral de masă pentru partea inferioară a corpului"],
+      ["Lățime", "92 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-92ds-cr": {
+    "model": "312/DS-008 – Ecran de masă 92 cm, rezistent la coliziune",
+    "description": "Ecran de masă rezistent la coliziune, cu articulație dublă cu fricțiune și set opțional de ecrane suplimentare.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă rezistent la coliziune"],
+      ["Lățime", "92 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Set de ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-137-5": {
+    "model": "312/DS-039/5 – Ecran de masă 137 cm, rezistent la coliziune",
+    "description": "Ecran de masă rezistent la coliziune, cu două perdele suprapuse, articulație dublă cu fricțiune și șină de accesorii de 57 cm. Ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă rezistent la coliziune"],
+      ["Lățime", "137 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdele", "Două perdele suprapuse"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Șină de accesorii", "57 cm"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-137-6": {
+    "model": "312/DS-039/6 – Ecran de masă 137 cm, rezistent la coliziune",
+    "description": "Ecran de masă rezistent la coliziune, cu două perdele suprapuse, articulație dublă cu fricțiune, șină de accesorii integrată de 57 cm și ecrane suplimentare opționale.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă rezistent la coliziune"],
+      ["Lățime", "137 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdele", "Două perdele suprapuse"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Șină de accesorii", "57 cm integrată"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-137-63": {
+    "model": "312/DS-039/6/3 – Ecran de masă 137 cm, rezistent la coliziune (cu set suplimentar)",
+    "description": "Ecran de masă rezistent la coliziune, cu două perdele suprapuse, articulație dublă cu fricțiune, șină de accesorii integrată de 57 cm și set complet de ecrane suplimentare.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă rezistent la coliziune"],
+      ["Lățime", "137 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdele", "Două perdele suprapuse"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Șină de accesorii", "57 cm integrată"],
+      ["Set suplimentar", "Inclus"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-137deep": {
+    "model": "312/DS-060/1/3 – Ecran de masă 137 cm cu suport de fixare adânc",
+    "description": "Ecran de masă rezistent la coliziune, cu două perdele suprapuse, suport de fixare adânc, articulație dublă cu fricțiune și șină de accesorii integrată de 65 cm. Ecrane suplimentare incluse.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă cu suport de fixare adânc"],
+      ["Lățime", "137 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdele", "Două perdele suprapuse"],
+      ["Articulație", "Articulație dublă cu fricțiune"],
+      ["Șină de accesorii", "65 cm integrată"],
+      ["Ecrane suplimentare", "Incluse"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-162cr": {
+    "model": "312/DS-039/10/4 – Ecran de masă 162 cm, extralat și rezistent la coliziune",
+    "description": "Ecran de masă extralat, rezistent la coliziune, cu două perdele suprapuse; sunt incluse două variante ale șinei de accesorii de 57 cm. Opțional cu sau fără ecrane suplimentare.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă extralat, rezistent la coliziune"],
+      ["Lățime", "162 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdele", "Două perdele suprapuse"],
+      ["Șină de accesorii", "57 cm (două variante incluse)"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-162": {
+    "model": "312/DS-039/9/4 – Ecran de masă 162 cm, extralat",
+    "description": "Ecran de masă extralat, cu perdea flexibilă; sunt incluse două variante ale șinei de accesorii de 57 cm. Opțional cu sau fără ecrane suplimentare.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă extralat"],
+      ["Lățime", "162 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdea", "Flexibilă"],
+      ["Șină de accesorii", "57 cm (două variante incluse)"],
+      ["Ecrane suplimentare", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-deepbracket": {
+    "model": "312/DS-099 – Suport de fixare adânc cu șină de accesorii",
+    "description": "Suport de fixare multifuncțional cu șină de accesorii de 65 cm pentru montarea echipamentelor pe șină lateral de masă pe un blat de masă cu deplasare laterală amplă.",
+    "specs": [
+      ["Tip constructiv", "Suport de fixare / șină de accesorii"],
+      ["Șină de accesorii", "65 cm"],
+      ["Scop", "Echipamente pe șină lateral de masă pe blat de masă cu deplasare laterală"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head": {
+    "model": "313/A2 – Ecran de masă la capătul dinspre cap (personalizat)",
+    "description": "Ecran personalizat pentru capătul dinspre cap: construcție ușoară și robustă, cu secțiune centrală fixă și două brațe laterale pivotante care susțin o perdea flexibilă (0,5 mm Pb). Suport de perete opțional.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap, secțiune centrală fixă + 2 brațe pivotante"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdea", "Flexibilă"],
+      ["Suport de perete", "Opțional"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head-baxter": {
+    "model": "313/A2-018 – Ecran pentru capătul dinspre cap pentru Baxter Carbon FloatLine / SQ14 X-TRA",
+    "description": "Ecran pentru capătul dinspre cap pentru mesele Baxter Carbon FloatLine și SQ14 X-TRA. Construcție ușoară și robustă, cu secțiune centrală fixă și două brațe laterale pivotante cu perdea flexibilă. Suport de perete inclus.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap (specific echipamentului)"],
+      ["Dimensiuni", "120 × 80 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdea", "Flexibilă"],
+      ["Compatibilitate", "Baxter Carbon FloatLine, SQ14 X-TRA"],
+      ["Suport de perete", "Inclus"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head-canon": {
+    "model": "313/A2-014 – Ecran pentru capătul dinspre cap pentru masa basculantă/de cântărire Canon Medical (Toshiba)",
+    "description": "Ecran pentru capătul dinspre cap pentru mesele basculante/de cântărire Canon Medical (Toshiba). Secțiune centrală fixă și două brațe laterale pivotante cu perdea flexibilă. Suport de perete inclus.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap (specific echipamentului)"],
+      ["Dimensiuni", "114 × 78,5 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdea", "Flexibilă"],
+      ["Compatibilitate", "Canon Medical / Toshiba (masă basculantă/de cântărire)"],
+      ["Suport de perete", "Inclus"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head-ge": {
+    "model": "313/A2-010 – Ecran pentru capătul dinspre cap pentru GE Healthcare Elegance",
+    "description": "Ecran pentru capătul dinspre cap pentru mesele GE Healthcare Elegance. Adaptor pentru blatul de masă cu trei secțiuni suspendate, care susțin fiecare câte o perdea flexibilă, precum și trei elemente suplimentare ușoare de tip lift-off. Suport de perete inclus.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap, trei secțiuni suspendate"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Elemente suplimentare", "Trei elemente suplimentare ușoare de tip lift-off"],
+      ["Compatibilitate", "GE Healthcare Elegance"],
+      ["Suport de perete", "Inclus"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head-siemens": {
+    "model": "313/A2-001 – Ecran pentru capătul dinspre cap pentru Siemens Artis / TruSystem (525/7500 mm)",
+    "description": "Ecran pentru capătul dinspre cap pentru mesele largi Siemens Artis 525 mm / TruSystem 7500 mm. Secțiune centrală fixă și două brațe laterale pivotante cu perdea flexibilă. Suport de perete inclus.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap (specific echipamentului)"],
+      ["Dimensiuni", "120 × 80 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdea", "Flexibilă"],
+      ["Compatibilitate", "Siemens Artis (525 mm) / TruSystem (7500 mm)"],
+      ["Suport de perete", "Inclus"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head-zee": {
+    "model": "313/A2-008 – Ecran pentru capătul dinspre cap pentru Siemens Artis zee (MP) 550 mm",
+    "description": "Ecran pentru capătul dinspre cap pentru mesele largi Siemens Artis zee (MP) de 550 mm. Secțiune centrală fixă și două brațe laterale pivotante cu perdea flexibilă. Suport de perete inclus.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap (specific echipamentului)"],
+      ["Dimensiuni", "122 × 80 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Perdea", "Flexibilă"],
+      ["Compatibilitate", "Siemens Artis zee MP (550 mm)"],
+      ["Suport de perete", "Inclus"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-head-a3": {
+    "model": "313/A3 – Ecran pentru capătul dinspre cap cu element rabatabil (Allura AD7)",
+    "description": "Ecran pentru capătul dinspre cap pentru mesele Philips Allura AD7. Secțiune centrală fixă și două brațe laterale pivotante cu perdea flexibilă; ecran suplimentar semi-flexibil, rabatabil în jos, inclus.",
+    "specs": [
+      ["Tip constructiv", "Ecran pentru capătul dinspre cap cu element rabatabil"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Structură", "Secțiune centrală fixă + 2 brațe pivotante"],
+      ["Element suplimentar", "Semi-flexibil, rabatabil în jos (inclus)"],
+      ["Compatibilitate", "Philips Allura AD7"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-footend": {
+    "model": "311/TC – Ecran de masă la capătul dinspre picioare (partea superioară a corpului)",
+    "description": "Ecran de masă la capătul dinspre picioare pentru partea superioară a corpului, cu fereastră de vizualizare din acril cu plumb; pentru utilizare transversal peste masă, spre capătul dinspre picioare.",
+    "specs": [
+      ["Tip constructiv", "Ecran de masă la capătul dinspre picioare"],
+      ["Fereastră", "Acril cu plumb (transparent)"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Utilizare", "Transversal peste masă, capătul dinspre picioare"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-top27": {
+    "model": "312/DS/3.30 – Ecrane suplimentare 27 cm",
+    "description": "Ecrane suplimentare semi-flexibile cu lățimea de 27 cm, pentru completarea ecranelor de masă cu protecție a părții superioare a corpului.",
+    "specs": [
+      ["Tip constructiv", "Ecran suplimentar semi-flexibil"],
+      ["Lățime", "27 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Montaj", "Pe ecranele laterale de masă pentru partea inferioară a corpului"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-top57": {
+    "model": "312/DS/3.32 – Ecrane suplimentare 57 cm",
+    "description": "Ecrane suplimentare semi-flexibile cu lățimea de 57 cm, pentru completarea ecranelor de masă cu protecție a părții superioare a corpului.",
+    "specs": [
+      ["Tip constructiv", "Ecran suplimentar semi-flexibil"],
+      ["Lățime", "57 cm"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Montaj", "Pe ecranele laterale de masă pentru partea inferioară a corpului"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-topset-red": {
+    "model": "312/E/027 – Set de ecrane suplimentare, înălțime redusă",
+    "description": "Set din trei ecrane suplimentare de tip lift-off, cu înălțime redusă. Compatibil cu toate ecranele de masă 312 începând de la lățimea de 114 cm.",
+    "specs": [
+      ["Tip constructiv", "Set de 3 ecrane suplimentare (lift-off)"],
+      ["Înălțime", "Redusă"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Compatibilitate", "Toate ecranele de masă 312 începând de la 114 cm"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-topset": {
+    "model": "312/E/025 – Set de ecrane suplimentare, înălțime standard",
+    "description": "Set din trei ecrane suplimentare de tip lift-off, cu înălțime standard. Compatibil cu toate ecranele de masă 312 începând de la lățimea de 114 cm.",
+    "specs": [
+      ["Tip constructiv", "Set de 3 ecrane suplimentare (lift-off)"],
+      ["Înălțime", "Standard"],
+      ["Echivalent de plumb", "0,5 mm Pb (@ 150 kV)"],
+      ["Compatibilitate", "Toate ecranele de masă 312 începând de la 114 cm"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-wallrack-lb": {
+    "model": "312/W-LB – Suport de perete pentru ecrane pentru partea inferioară a corpului",
+    "description": "Loc de depozitare practic și sigur pentru un ecran de protecție radiologică Kenex pentru partea inferioară a corpului.",
+    "specs": [
+      ["Tip constructiv", "Suport de perete"],
+      ["Pentru", "Un ecran pentru partea inferioară a corpului"],
+      ["Scop", "Depozitare sigură, economisind spațiu"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-wall-lbt": {
+    "model": "312/W-LBT – Set de suporturi de perete pentru ecrane de masă",
+    "description": "Set de suporturi de perete pentru depozitarea sigură a ecranelor de masă Kenex (ecrane pentru partea inferioară a corpului și ecrane suplimentare).",
+    "specs": [
+      ["Tip constructiv", "Set de suporturi de perete"],
+      ["Pentru", "Ecrane pentru partea inferioară a corpului și ecrane suplimentare"],
+      ["Scop", "Depozitare sigură, economisind spațiu"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-wall-top": {
+    "model": "312/W-TOP – Suport de perete pentru ecrane suplimentare",
+    "description": "Suport de perete pentru depozitarea sigură a ecranelor suplimentare detașabile Kenex.",
+    "specs": [
+      ["Tip constructiv", "Suport de perete"],
+      ["Pentru", "Ecrane suplimentare detașabile"],
+      ["Scop", "Depozitare sigură, economisind spațiu"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-mobile": {
+    "model": "1342/A2/F – Cărucior mobil de depozitare (ecrane de masă)",
+    "description": "Cărucior mobil de depozitare pentru două ecrane de masă pentru partea inferioară a corpului și seturi de ecrane suplimentare detașabile.",
+    "specs": [
+      ["Tip constructiv", "Cărucior mobil de depozitare"],
+      ["Capacitate", "2 ecrane pentru partea inferioară a corpului + seturi suplimentare"],
+      ["Roți", "Roți pivotante blocabile"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-mobile-e": {
+    "model": "1342/A2/E – Cărucior mobil de depozitare (capătul dinspre cap și ecran de masă)",
+    "description": "Cărucior mobil de depozitare pentru un ecran pentru capătul dinspre cap, un ecran de masă și un set de ecrane suplimentare detașabile.",
+    "specs": [
+      ["Tip constructiv", "Cărucior mobil de depozitare"],
+      ["Capacitate", "1 ecran pentru capătul dinspre cap + 1 ecran de masă + set suplimentar"],
+      ["Roți", "Roți pivotante blocabile"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-mobile-a3": {
+    "model": "1342/A3/E-001 – Cărucior mobil de depozitare (313/A3-001)",
+    "description": "Cărucior mobil de depozitare pentru un ecran pentru capătul dinspre cap 313/A3-001, un ecran de masă și un set de ecrane suplimentare detașabile.",
+    "specs": [
+      ["Tip constructiv", "Cărucior mobil de depozitare"],
+      ["Capacitate", "1 ecran pentru capătul dinspre cap 313/A3-001 + 1 ecran de masă + set suplimentar"],
+      ["Roți", "Roți pivotante blocabile"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  },
+  "tisch-handles": {
+    "model": "69913 & 69963 – Mânere de schimb",
+    "description": "Mânere de schimb pentru ecranele de masă pentru partea inferioară a corpului.",
+    "specs": [
+      ["Tip constructiv", "Piesă de schimb"],
+      ["Pentru", "Ecrane de masă pentru partea inferioară a corpului"],
+      ["Producător", "KENEX (UK)"]
+    ]
+  }
+}

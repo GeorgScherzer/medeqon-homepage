@@ -1,0 +1,345 @@
+{
+  "levo": {
+    "model": "LEVO",
+    "description": "Lekki, składany wózek inwalidzki z aluminium do codziennego użytku wewnątrz i na zewnątrz – solidna rama zapewniająca łatwy transport i oszczędne przechowywanie.",
+    "specs": [
+      ["Rama", "Aluminium, składana"],
+      ["Szerokość siedziska", "44 / 46 / 49 / 51 cm"],
+      ["Wysokość siedziska", "51 cm"],
+      ["Maks. obciążenie", "120 kg"],
+      ["Waga", "13,7 kg"],
+      ["Ogumienie", "z tyłu 24\" PU-szprychowe · z przodu 7\" PU"],
+      ["Podłokietniki", "składane i odchylane do góry (wyściółka PU)"],
+      ["Podnóżki", "zdejmowane · regulowane na długość"]
+    ]
+  },
+  "gemini-blue": {
+    "model": "Gemini Blue",
+    "description": "Kompaktowy, składany wózek inwalidzki ze stali w kolorze niebieskim z tylnymi kołami 12\" i zabezpieczeniem przed przewróceniem – zwrotny do wnętrz i łatwy w transporcie.",
+    "specs": [
+      ["Rama", "Stal, składana"],
+      ["Kolor", "Niebieski"],
+      ["Szerokość siedziska", "43 / 46 cm"],
+      ["Wysokość siedziska", "50,5 cm"],
+      ["Maks. obciążenie", "125 kg"],
+      ["Waga", "15,5 kg"],
+      ["Ogumienie", "z tyłu 12\" pełna guma · z przodu 8\"×2\""],
+      ["Zabezpieczenie przed przewróceniem", "w zestawie"]
+    ]
+  },
+  "adapt": {
+    "model": "Adapt",
+    "description": "Wózek inwalidzki z 6 kołami; tylne koła są zdejmowane za pomocą szybkozłączki, aby zmniejszyć szerokość i dotrzeć do ciasnych przestrzeni.",
+    "specs": [
+      ["Rama", "Stal, składana"],
+      ["Szerokość siedziska", "46 cm"],
+      ["Wysokość siedziska", "50 cm"],
+      ["Maks. obciążenie", "130 kg"],
+      ["Waga", "19 kg (z kołami 24\")"],
+      ["Ogumienie", "z tyłu 24\" (szybkozłączka) · z przodu 8\"×2\" · możliwość przezbrojenia na 12\""],
+      ["Podłokietniki", "składane"],
+      ["Podnóżki", "zdejmowane · regulowane na długość · odchylane"]
+    ]
+  },
+  "i-travel": {
+    "model": "I-TRAVEL",
+    "description": "Lekki aluminiowy wózek inwalidzki transportowy z pasem bezpieczeństwa i łatwym składaniem – gotowy do użycia od razu, bez montażu.",
+    "specs": [
+      ["Rama", "Aluminium, składana"],
+      ["Szerokość siedziska", "43 cm"],
+      ["Wysokość siedziska", "48 cm"],
+      ["Maks. obciążenie", "136 kg"],
+      ["Waga", "7,5 kg"],
+      ["Ogumienie", "z tyłu 8\" · z przodu 6\" pełna guma"],
+      ["Podnóżki", "odchylane do góry"],
+      ["Pas bezpieczeństwa", "tak"]
+    ]
+  },
+  "bariatric": {
+    "model": "Wózek inwalidzki bariatryczny (do dużych obciążeń)",
+    "description": "Solidny wózek inwalidzki do dużych obciążeń z podwójnym krzyżakiem i trudnopalnym pokryciem, obciążalny do 182 kg – dla użytkowników o zwiększonej masie ciała.",
+    "specs": [
+      ["Rama", "Stal, składana"],
+      ["Szerokość siedziska", "56 cm"],
+      ["Wysokość siedziska", "50 cm"],
+      ["Maks. obciążenie", "182 kg"],
+      ["Waga", "23 kg"],
+      ["Ogumienie", "z tyłu 24\" pełna guma · z przodu 8\"×2\""],
+      ["Pokrycie", "Oxford, trudnopalne"],
+      ["Podnóżki", "zdejmowane · regulowane"]
+    ]
+  },
+  "dione-i": {
+    "model": "DIONE I",
+    "description": "Wózek inwalidzki pielęgnacyjny z ergonomicznym siedziskiem i licznymi możliwościami regulacji (Tilt-in-Space) zapewniający wysoki komfort, elastyczność i bezpieczeństwo.",
+    "specs": [
+      ["Rama", "Stal"],
+      ["Oparcie", "odchylane 95°–145°"],
+      ["Kantowanie siedziska", "0°–32° (Tilt-in-Space)"],
+      ["Szerokość siedziska", "37–43 cm (regulowana)"],
+      ["Maks. obciążenie", "150 kg"],
+      ["Waga", "40 kg"],
+      ["Ogumienie", "z tyłu 24\" (szybkozłączka) · z przodu 8\"×2\""],
+      ["Zagłówek", "regulowany na wysokość, szerokość i kąt"]
+    ]
+  },
+  "proteus-i": {
+    "model": "PROTEUS I",
+    "description": "Wózek inwalidzki z funkcją odchylania (reclining) do transportu osób o ograniczonej mobilności – samodzielnie lub z osobą towarzyszącą; odchylenie oparcia zapewnia wysoki komfort.",
+    "specs": [
+      ["Rama", "Stal"],
+      ["Oparcie", "odchylane 90°–160°"],
+      ["Szerokość siedziska", "46 cm"],
+      ["Wysokość siedziska", "55 cm"],
+      ["Maks. obciążenie", "120 kg"],
+      ["Waga", "23,5 kg"],
+      ["Ogumienie", "z tyłu 24\" (szybkozłączka) · z przodu 8\"×2\" PU"],
+      ["Podnóżki", "zdejmowane · odchylane do góry · regulowane na długość"]
+    ]
+  },
+  "techride": {
+    "model": "TECHRIDE",
+    "description": "Nowocześnie zaprojektowany wózek inwalidzki elektryczny, który łączy innowacyjność, komfort i elegancję, zapewniając wyjątkowe doświadczenie mobilności.",
+    "specs": [
+      ["Napęd", "2 × 200 W · 24 V"],
+      ["Akumulator", "Litowy 20 Ah · 24 V"],
+      ["Zasięg", "do 23 km"],
+      ["Prędkość maksymalna", "8 km/h"],
+      ["Maks. obciążenie", "150 kg"],
+      ["Waga", "27 kg"],
+      ["Ogumienie", "z tyłu 10\" pneumatyczne · z przodu 8\" pełna guma"],
+      ["Składany", "tak (ręcznie)"]
+    ]
+  },
+  "turbotech": {
+    "model": "TURBOTECH",
+    "description": "Wózek inwalidzki elektryczny, który łączy innowacyjność, elastyczność i ergonomiczny design, zapewniając codzienną niezależność dzięki inteligentnemu sterowaniu.",
+    "specs": [
+      ["Napęd", "2 × 200 W · 24 V"],
+      ["Akumulator", "Litowy 25 Ah · 24 V"],
+      ["Zasięg", "do 31 km"],
+      ["Prędkość maksymalna", "10 km/h"],
+      ["Maks. obciążenie", "150 kg"],
+      ["Waga", "36 kg"],
+      ["Ogumienie", "z tyłu 12\" pneumatyczne · z przodu 12\" wielokierunkowe"],
+      ["Składany", "tak (ręcznie)"]
+    ]
+  },
+  "robodrive": {
+    "model": "ROBODRIVE",
+    "description": "Wózek inwalidzki elektryczny z automatycznym mechanizmem składania – łączy innowacyjność, komfort i elegancję, zapewniając wyjątkowe doświadczenie mobilności.",
+    "specs": [
+      ["Napęd", "2 × 200 W · 24 V"],
+      ["Akumulator", "Litowy 20 Ah · 24 V"],
+      ["Zasięg", "do 25 km"],
+      ["Prędkość maksymalna", "6 km/h"],
+      ["Maks. obciążenie", "120 kg"],
+      ["Waga", "44 kg"],
+      ["Ogumienie", "z tyłu 10\" pneumatyczne · z przodu 10\" wielokierunkowe"],
+      ["Składany", "tak (automatycznie)"]
+    ]
+  },
+  "titan": {
+    "model": "TITAN",
+    "description": "Wydajny wózek inwalidzki elektryczny ze wzmocnioną ramą aluminiową, mocnym silnikiem i wysokim komfortem – do wymagającego użytku wewnątrz i na zewnątrz.",
+    "specs": [
+      ["Napęd", "2 × 340 W · 24 V"],
+      ["Akumulator", "2 × 40 Ah · 12 V"],
+      ["Zasięg", "30–36 km"],
+      ["Prędkość maksymalna", "8–10 km/h"],
+      ["Maks. obciążenie", "130 kg"],
+      ["Waga", "67 kg"],
+      ["Szerokość siedziska", "44–50 cm (regulowana)"],
+      ["Ogumienie", "z tyłu 13,5\" pneumatyczne · z przodu 9\" pełna guma"]
+    ]
+  },
+  "felix": {
+    "model": "FELIX",
+    "description": "Lekki, składany wózek inwalidzki elektryczny z aluminium do wnętrz i na zewnątrz – idealny do transportu i przechowywania.",
+    "specs": [
+      ["Napęd", "2 × 250 W · 24 V · hamulec elektromagnetyczny"],
+      ["Akumulator", "Litowy 24 V · 12 Ah"],
+      ["Zasięg", "20–25 km"],
+      ["Prędkość maksymalna", "6 km/h"],
+      ["Maks. obciążenie", "130 kg"],
+      ["Waga", "25 kg (bez akumulatora)"],
+      ["Ogumienie", "z przodu 8\" PU · z tyłu 12\" PU"],
+      ["Składany", "tak (rama aluminiowa)"]
+    ]
+  },
+  "scooter-perseus": {
+    "model": "Scooter Perseus",
+    "description": "Skuter elektryczny o nowoczesnym designie, dużym zasięgu i wyposażeniu bezpieczeństwa – komfortowa mobilność przy ograniczonej sprawności ruchowej.",
+    "specs": [
+      ["Napęd", "700 W · hamulce elektromagnetyczne"],
+      ["Akumulator", "2 × 24 V · 55 Ah (ołowiowy)"],
+      ["Zasięg", "55 km"],
+      ["Prędkość maksymalna", "15 km/h"],
+      ["Maks. obciążenie", "190 kg"],
+      ["Waga", "106 kg (bez akumulatora)"],
+      ["Ogumienie", "z przodu 11,5\" · z tyłu 13\" pneumatyczne"],
+      ["Wyposażenie", "Zawieszenie · obrotowe siedzisko · oparcie do 125°"]
+    ]
+  },
+  "scooter-perseus-2": {
+    "model": "Scooter Perseus II",
+    "description": "Skuter elektryczny o nowoczesnym designie, dużym zasięgu i bogatym wyposażeniu bezpieczeństwa, zapewniający komfortową, niezależną mobilność.",
+    "specs": [
+      ["Napęd", "700 W · hamulce elektromagnetyczne"],
+      ["Akumulator", "2 × 24 V · 55 Ah (ołowiowy)"],
+      ["Zasięg", "55 km"],
+      ["Prędkość maksymalna", "15 km/h"],
+      ["Maks. obciążenie", "190 kg"],
+      ["Waga", "106 kg (bez akumulatora)"],
+      ["Ogumienie", "z przodu 11,5\" · z tyłu 13\" pneumatyczne"],
+      ["Wyposażenie", "Zawieszenie · obrotowe siedzisko · oparcie do 125°"]
+    ]
+  },
+  "walky": {
+    "model": "WALKY (balkonik aluminiowy)",
+    "description": "Wysokiej jakości balkonik aluminiowy o nowoczesnym designie, z siedziskiem z pasem oparcia, koszykiem i uchwytem na laskę do codziennego użytku.",
+    "specs": [
+      ["Materiał", "Aluminium"],
+      ["Maks. obciążenie", "136 kg"],
+      ["Waga", "8,5 kg"],
+      ["Wysokość siedziska", "59 cm"],
+      ["Szerokość siedziska", "45,5 cm"],
+      ["Wysokość uchwytów", "80–93 cm (regulowana)"],
+      ["Koła", "8\" pełna guma"],
+      ["Składany", "tak"]
+    ]
+  },
+  "ruby": {
+    "model": "RUBY",
+    "description": "Wysokiej jakości balkonik z zawieszeniem i dużymi kołami zapewniający optymalny komfort jazdy w pomieszczeniach i na zewnątrz.",
+    "specs": [
+      ["Materiał", "Aluminium"],
+      ["Maks. obciążenie", "136 kg"],
+      ["Waga", "8,5 kg"],
+      ["Wysokość siedziska", "60 cm"],
+      ["Wysokość uchwytów", "80–93 cm (6 pozycji)"],
+      ["Zawieszenie", "tak"],
+      ["Koła", "8\" pełna guma"],
+      ["Składany", "tak"]
+    ]
+  },
+  "silver-rollator": {
+    "model": "Silver (balkonik aluminiowy)",
+    "description": "Lekki balkonik aluminiowy z siedziskiem, koszykiem i uchwytami regulowanymi na wysokość – odpowiedni do wnętrz i na zewnątrz.",
+    "specs": [
+      ["Materiał", "Aluminium"],
+      ["Maks. obciążenie", "120 kg"],
+      ["Waga", "7,8 kg"],
+      ["Wysokość siedziska", "53 cm"],
+      ["Szerokość siedziska", "45 cm"],
+      ["Wysokość uchwytów", "79–95 cm (regulowana)"],
+      ["Hamulce", "hamulce ręczne z blokadą"],
+      ["Składany", "tak"]
+    ]
+  },
+  "rollator-blue": {
+    "model": "Rollator Blue",
+    "description": "Składany balkonik stalowy z siedziskiem, koszykiem i uchwytami regulowanymi na wysokość do użytku wewnątrz i na zewnątrz.",
+    "specs": [
+      ["Materiał", "Stal"],
+      ["Maks. obciążenie", "110 kg"],
+      ["Waga", "7 kg"],
+      ["Wysokość siedziska", "52 cm"],
+      ["Szerokość siedziska", "46 cm"],
+      ["Wysokość uchwytów", "83–93 cm (regulowana)"],
+      ["Koła", "8\" pełna guma PVC"],
+      ["Składany", "tak"]
+    ]
+  },
+  "three-wheel-rollator": {
+    "model": "Balkonik trójkołowy",
+    "description": "Zwrotny, składany balkonik stalowy (trójkołowy) z koszykiem i torbą oraz uchwytami regulowanymi na wysokość do wnętrz i na zewnątrz.",
+    "specs": [
+      ["Materiał", "Stal"],
+      ["Maks. obciążenie", "110 kg"],
+      ["Waga", "7,5 kg"],
+      ["Wysokość uchwytów", "85–95 cm (regulowana)"],
+      ["Hamulce", "hamulce ręczne z blokadą"],
+      ["Koła", "8\"×2\" pełna guma"],
+      ["Składany", "tak"]
+    ]
+  },
+  "folding-walker": {
+    "model": "Składany balkonik (podpórka)",
+    "description": "Składana podpórka do chodzenia z aluminium, regulowana na wysokość i lekka – bezpieczna pomoc do chodzenia wewnątrz i na zewnątrz.",
+    "specs": [
+      ["Materiał", "Aluminium"],
+      ["Regulacja wysokości", "75–94 cm"],
+      ["Maks. obciążenie", "115 kg"],
+      ["Waga", "2,6 kg"],
+      ["Szerokość", "56 cm"],
+      ["Składany", "tak"]
+    ]
+  },
+  "heavy-duty-walker": {
+    "model": "Podpórka do dużych obciążeń (225 kg)",
+    "description": "Składana podpórka do chodzenia do dużych obciążeń z aluminium, regulowana na wysokość i obciążalna do 225 kg – solidna, a mimo to lekka.",
+    "specs": [
+      ["Materiał", "Aluminium"],
+      ["Regulacja wysokości", "82–107 cm"],
+      ["Maks. obciążenie", "225 kg"],
+      ["Waga", "3 kg"],
+      ["Szerokość", "60 cm"],
+      ["Składany", "tak"]
+    ]
+  },
+  "minoa": {
+    "model": "MINOA",
+    "description": "System materaca zmiennociśnieniowego z regulowaną pompą do zapobiegania i leczenia odleżyn (stadium I–II).",
+    "specs": [
+      ["Typ", "System materaca zmiennociśnieniowego"],
+      ["Maks. obciążenie", "130 kg"],
+      ["Czas cyklu", "12 minut"],
+      ["Zakres ciśnienia", "50–110 mmHg"],
+      ["Pompa", "elektryczna, regulowana (≤ 7 W)"],
+      ["Poziom hałasu", "≤ 30 dB"],
+      ["Materiał", "Medyczne PVC, 0,3 mm"],
+      ["Wymiary", "200 × 90 × 7 cm"]
+    ]
+  },
+  "premium-ocean": {
+    "model": "Premium Ocean",
+    "description": "Przeciwodleżynowy materac bąbelkowy z elektryczną pompą powietrza dla pacjentów o niskim i średnim ryzyku odleżyn (stadium I–II).",
+    "specs": [
+      ["Typ", "Zmiennociśnieniowy materac bąbelkowy"],
+      ["Tryby pracy", "statyczny i zmiennociśnieniowy"],
+      ["Maks. obciążenie", "130 kg"],
+      ["Regulacja ciśnienia", "elektryczna, regulowana (30–130 kg)"],
+      ["Wymiary materaca", "200 × 90 × 7 cm"],
+      ["Wymiary pompy", "26 × 12,5 × 8,5 cm"],
+      ["Waga", "3,3 kg"]
+    ]
+  },
+  "stripe": {
+    "model": "STRIPE",
+    "description": "Przeciwodleżynowy materac paskowy z wentylacją laserową, zaworem CPR i elektryczną pompą powietrza przeciw wilgoci i odleżynom.",
+    "specs": [
+      ["Typ", "Zmiennociśnieniowy materac paskowy, wentylowany"],
+      ["Tryby pracy", "statyczny i zmiennociśnieniowy"],
+      ["Maks. obciążenie", "145 kg"],
+      ["Wentylacja", "Mikroperforacja laserowa · zawór CPR"],
+      ["Wymiary", "190 × 85 × 11,5 cm"],
+      ["Pokrycie", "prane do 60 °C"],
+      ["Waga", "6,3 kg"]
+    ]
+  },
+  "mobiak-irene": {
+    "model": "MOBIAK Irene",
+    "description": "Koncentrator tlenu o przepływie 1–5 l/min i stężeniu O₂ 93 %, z mocnym sprężarką i kompleksowymi alarmami bezpieczeństwa.",
+    "specs": [
+      ["Przepływ tlenu", "1–5 l/min"],
+      ["Stężenie O₂", "93 % ± 3"],
+      ["Ciśnienie wylotowe", "0,4–0,8 bar"],
+      ["Moc", "480 W"],
+      ["Poziom hałasu", "≤ 48 dB(A)"],
+      ["Waga", "24 kg"],
+      ["Zasilanie", "230 V / 50 Hz"],
+      ["Alarmy", "Przepływ · napięcie · czystość · przegrzanie"]
+    ]
+  }
+}

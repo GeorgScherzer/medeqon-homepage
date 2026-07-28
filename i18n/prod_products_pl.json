@@ -1,0 +1,518 @@
+{
+  "alma-pro": {
+    "model": "ALMA PRO",
+    "description": "Wszechstronny elektryczny stół chiropraktyczny do technik drop, fleksji i dystrakcji z regulowanymi sekcjami głowy oraz drążkiem sterującym fleksją w kształcie litery T.",
+    "specs": [
+      ["Zakres wysokości", "56–90 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Sekcje drop", "4 (szyjna, piersiowa, lędźwiowa, miedniczna)"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Tapicerka", "7,5 cm · gęstość pianki 100 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "176 × 72 × 74 cm"],
+      ["Waga", "118 kg"],
+      ["Certyfikaty", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "appa": {
+    "model": "APPA",
+    "description": "Chiropraktyczna kozetka zabiegowa z centralną kolumną, sześcioma sekcjami, elektrycznym nożnym pilotem i czterema sekcjami drop.",
+    "specs": [
+      ["Nośność", "250 kg"],
+      ["Sekcje drop", "4 (szyjna, piersiowa, lędźwiowa, miedniczna)"],
+      ["Napęd", "Silnik kolumnowy TiMOTION (23 s)"],
+      ["Sekcje", "6"],
+      ["Tapicerka", "7 cm · gęstość pianki 100 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie frotté (niebieskie lub ciemnoszare)"],
+      ["Wymiary", "201 × 73 × 82 cm"],
+      ["Waga", "152 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "scall-pro": {
+    "model": "SCALL PRO",
+    "description": "Ekonomiczny stół chiropraktyczny z ręcznymi sekcjami drop, regulacją naprężenia i elektrycznym systemem podnoszenia Hi-Lo.",
+    "specs": [
+      ["Zakres wysokości", "46–80 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Sekcje drop", "4 (szyjna, piersiowa, lędźwiowa, miedniczna)"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Tapicerka", "7,5 cm · gęstość pianki 100 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "192 × 62 × 51 cm"],
+      ["Waga", "92 kg"],
+      ["Certyfikaty", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "sido": {
+    "model": "SIDO",
+    "description": "Wszechstronna chiropraktyczna kozetka zabiegowa z regulacją wielokątową do mobilizacji, manipulacji, masażu i terapii ruchowej.",
+    "specs": [
+      ["Zakres wysokości", "49–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Sekcje drop", "2 (szyjna, piersiowa)"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Tapicerka", "7 cm · gęstość pianki 100 kg/m³"],
+      ["Pokrycie", "Skóra ekologiczna PVC, trudnopalna (BS 5852)"],
+      ["Wymiary", "199 × 70 × 54 cm"],
+      ["Waga", "71 kg"],
+      ["Certyfikaty", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "sido-pro": {
+    "model": "SIDO PRO",
+    "description": "Chiropraktyczny stół manipulacyjny z regulacją wielokątową, pochyleniem, pozycją odwróconą i rotacją dolnego odcinka lędźwiowego dla maksymalnej elastyczności.",
+    "specs": [
+      ["Zakres wysokości", "52–93 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Sekcje drop", "2 (szyjna, piersiowa)"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Tapicerka", "7 cm · gęstość pianki 100 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "199 × 70 × 54 cm"],
+      ["Certyfikaty", "ISO 13485 · MDR CE · FDA"]
+    ]
+  },
+  "batec": {
+    "model": "BATEC",
+    "description": "Wytrzymały dwuczęściowy stół kardiologiczny z elektryczną regulacją wysokości i oparcia, dwoma wycięciami kardiologicznymi i nożnym pilotem.",
+    "specs": [
+      ["Zakres wysokości", "58–102 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "2"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Wysoko wytrzymały winyl PVC, ognioodporny"],
+      ["Wymiary", "199 × 75 × 61 cm"],
+      ["Waga", "65 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "bobath": {
+    "model": "BOBATH",
+    "description": "Kozetka Bobath z dwiema sekcjami i wyjątkowo szeroką powierzchnią leżenia 120 cm do rehabilitacji neuromotorycznej, z trzema wycięciami na twarz.",
+    "specs": [
+      ["Zakres wysokości", "49–93 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "2"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie frotté"],
+      ["Wymiary", "194 × 124 × 53 cm"],
+      ["Waga", "101 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "brom": {
+    "model": "BROM",
+    "description": "Trzyczęściowa kozetka zabiegowa z elektryczną regulacją wysokości, wycięciem na twarz oraz sekcją pleców i nóg regulowaną sprężyną gazową.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "3"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub ciemnoszare)"],
+      ["Wymiary", "186 × 70 × 54 cm"],
+      ["Waga", "72 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "brom-pro": {
+    "model": "BROM PRO",
+    "description": "Trzyczęściowa kozetka zabiegowa serii PRO z elektryczną regulacją wysokości, wycięciem na twarz oraz podpórką pleców i stóp regulowaną sprężyną gazową.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "3"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "186 × 70 × 54 cm"],
+      ["Waga", "82 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "enid": {
+    "model": "ENID",
+    "description": "Wytrzymała dwuczęściowa kozetka do intensywnych zabiegów fizjoterapeutycznych z elektryczną regulacją wysokości za pomocą sterowania obwodowego.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "2"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "199 × 74 × 51 cm"],
+      ["Waga", "60 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "enid-pro": {
+    "model": "ENID PRO",
+    "description": "Wytrzymała dwuczęściowa kozetka serii PRO do intensywnych zabiegów z elektryczną regulacją wysokości za pomocą sterowania obwodowego.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "2"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "199 × 70 × 50 cm"],
+      ["Waga", "81 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "galley": {
+    "model": "GALLEY",
+    "description": "Siedmioczęściowa kozetka fizjoterapeutyczna z dwoma silnikami (wysokość i kifoza), podłokietnikami przy głowie i składanymi podłokietnikami środkowymi o szerokości do 90 cm.",
+    "specs": [
+      ["Zakres wysokości", "51–94 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "2 silniki (wysokość + kifoza) · TiMOTION"],
+      ["Sekcje", "7"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie frotté"],
+      ["Wymiary", "195 × 70 × 58 cm"],
+      ["Waga", "76 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "guth": {
+    "model": "GUTH",
+    "description": "Dwuczęściowa kozetka fizjoterapeutyczna z podłokietnikami przy głowie oraz zagłówkiem regulowanym dodatnio i ujemnie do technik szyjnych i czaszkowych.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "2"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie frotté"],
+      ["Wymiary", "199 × 70 × 51 cm"],
+      ["Waga", "64 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "guth-pro": {
+    "model": "GUTH PRO",
+    "description": "Elektryczna dwuczęściowa kozetka zabiegowa serii PRO z podłokietnikami i wielopozycyjnym zagłówkiem (−55° do +45°) oraz zamkniętą podstawą.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Silnik TiMOTION"],
+      ["Sekcje", "2"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "199 × 70 × 54 cm"],
+      ["Waga", "82 kg"],
+      ["Certyfikaty", "CE · FDA"]
+    ]
+  },
+  "jull-pro": {
+    "model": "JULL PRO",
+    "description": "Kozetka z krótkim zagłówkiem, oparciem wspomaganym sprężyną gazową i łagodnym elektrycznym systemem podnoszenia Hi-Lo, zapewniająca stabilną platformę zabiegową.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "TiMOTION · sterowanie nożne · sprężyna gazowa głowa/noga"],
+      ["Sekcje", "Zagłówek −55°/+45° · noga 0°/+75° · wycięcie na twarz"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "195 × 60 × 50 cm"],
+      ["Waga", "94 kg"],
+      ["Certyfikaty", "CE · FDA"]
+    ]
+  },
+  "nott": {
+    "model": "NOTT",
+    "description": "Pięcioczęściowa kozetka fizjoterapeutyczna z pokryciem frotté, regulowanymi wysokościowo podłokietnikami i dwoma silnikami do regulacji wysokości i elektrycznej kifozy.",
+    "specs": [
+      ["Zakres wysokości", "51–94 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "2 silniki (wysokość + kifoza) · TiMOTION"],
+      ["Sekcje", "5 · oparcie z wycięciem na twarz"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "195 × 70 × 58 cm"],
+      ["Waga", "76 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "nott-pro": {
+    "model": "NOTT PRO",
+    "description": "Pięcioczęściowa kozetka fizjoterapeutyczna serii PRO z pokryciem frotté, regulowanymi wysokościowo podłokietnikami i dwoma silnikami do regulacji wysokości i kifozy.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "2 silniki (wysokość + kifoza) · TiMOTION"],
+      ["Sekcje", "5 · oparcie z wycięciem na twarz"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "193 × 70 × 51 cm"],
+      ["Waga", "98 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "pehr": {
+    "model": "PEHR",
+    "description": "Dwuczęściowa kozetka fizjoterapeutyczna z pokryciem frotté, pochylanym zagłówkiem, poduszką na twarz i podłokietnikami umieszczonymi poniżej.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · sterowanie obwodowe"],
+      ["Sekcje", "2 · zagłówek +30°/−70°"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "193 × 75 × 54 cm"],
+      ["Waga", "62 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "rila": {
+    "model": "RILA",
+    "description": "Kozetka fizjoterapeutyczna i osteopatyczna z pięcioma sekcjami, regulowanymi wysokościowo podłokietnikami i zagłówkiem pochylanym dodatnio/ujemnie.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · sterowanie obwodowe"],
+      ["Sekcje", "5 · stała sekcja środkowa · zagłówek +80°/−40°"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "194 × 70 × 53 cm"],
+      ["Waga", "65 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "rila-pro": {
+    "model": "RILA PRO",
+    "description": "Kozetka fizjoterapeutyczna i osteopatyczna serii PRO z pięcioma sekcjami, regulowanymi wysokościowo podłokietnikami i zagłówkiem regulowanym dodatnio/ujemnie.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · sterowanie obwodowe"],
+      ["Sekcje", "5 · stała sekcja środkowa · wycięcie na twarz"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Bardzo wytrzymałe, trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Wymiary", "193 × 70 × 50 cm"],
+      ["Waga", "86 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "roth": {
+    "model": "ROTH",
+    "description": "Dwuczęściowa kozetka osteopatyczna z wycięciem na twarz, składanymi bocznymi podłokietnikami (do 80 cm dodatkowej szerokości) i podpórką głowy regulowaną sprężyną gazową.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · obwodowa listwa sterująca"],
+      ["Sekcje", "2 · zagłówek +40°/−45° (sprężyna gazowa) · składane podłokietniki"],
+      ["Tapicerka", "5 cm · gęstość pianki 70 kg/m³"],
+      ["Pokrycie", "Bardzo odporny na ścieranie, trudnopalny winyl"],
+      ["Wymiary", "199 × 70 × 51 cm"],
+      ["Waga", "64 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "still": {
+    "model": "STILL",
+    "description": "Siedmioczęściowa kozetka zabiegowa z mocnym elektrycznym systemem Hi-Lo, elektrycznym drenażem ułożeniowym i dużym zakresem ruchu.",
+    "specs": [
+      ["Zakres wysokości", "46,5–96,5 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · drenaż ułożeniowy przyciskiem bocznym"],
+      ["Sekcje", "7 · głowa/klatka/noga regulowane · składane podłokietniki"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "200 × 70 cm (powierzchnia użytkowa)"],
+      ["Waga", "101 kg"],
+      ["Certyfikaty", "CE · FDA"]
+    ]
+  },
+  "kend-pro": {
+    "model": "KEND PRO",
+    "description": "Krótka hydrauliczna kozetka zabiegowa z sekcją pleców i głowy wspomaganą sprężyną gazową oraz zamkniętą, łatwą do czyszczenia podstawą.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm"],
+      ["Nośność", "250 kg"],
+      ["Regulacja", "Hydrauliczna za pomocą bocznego pedału nożnego"],
+      ["Sekcje", "3 · zagłówek −55°/+45° · noga 0°/+75°"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "195 × 66 cm"],
+      ["Waga", "87 kg"]
+    ]
+  },
+  "ling-pro": {
+    "model": "LING PRO",
+    "description": "Wytrzymała dwuczęściowa kozetka zabiegowa z hydrauliczną regulacją wysokości, chowanymi kółkami i wycięciem na twarz do codziennej pracy w gabinecie.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm"],
+      ["Nośność", "250 kg"],
+      ["Regulacja", "Hydrauliczna (czas podnoszenia 12 s)"],
+      ["Sekcje", "2 · oparcie 20°/70°"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub ciemnoszare)"],
+      ["Wymiary", "195 × 66 cm"],
+      ["Waga", "77 kg"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "mait-pro": {
+    "model": "MAIT PRO",
+    "description": "Popularna hydrauliczna kozetka fizjoterapeutyczna z dużym zakresem regulacji, wyściełanymi, regulowanymi wysokościowo podłokietnikami i zamkniętą podstawą.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm"],
+      ["Nośność", "250 kg"],
+      ["Regulacja", "Hydrauliczna za pomocą bocznego pedału (12 s)"],
+      ["Sekcje", "3 · zagłówek −55°/+45° · noga 0°/+75°"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "195 × 66 cm"],
+      ["Waga", "85 kg"]
+    ]
+  },
+  "nobu": {
+    "model": "NOBU",
+    "description": "Przenośne, składane krzesło do masażu z lekkiego aluminium z wielokrotnie regulowanymi podpórkami i torbą transportową do zastosowań mobilnych.",
+    "specs": [
+      ["Nośność", "180 kg"],
+      ["Regulacja", "Regulowany zagłówek, oparcie, siedzisko i podłokietniki"],
+      ["Tapicerka", "5 cm · tapicerka PU"],
+      ["Rama", "Lekka rama aluminiowa, składana"],
+      ["Wymiary", "54 × 74 × 125 cm (rozłożone)"],
+      ["Waga", "10 kg"],
+      ["Certyfikaty", "CE (93/42/EWG)"]
+    ]
+  },
+  "tenb-pro": {
+    "model": "TENB PRO",
+    "description": "Hydrauliczna kozetka zabiegowa z wielokrotnie regulowanym zagłówkiem i podłokietnikami do różnorodnych badań i technik manualnych.",
+    "specs": [
+      ["Zakres wysokości", "45–95,5 cm"],
+      ["Nośność", "250 kg"],
+      ["Regulacja", "Hydrauliczna za pomocą bocznego pedału nożnego"],
+      ["Sekcje", "2 · zagłówek 45°/55° · z podłokietnikami"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalny winyl PVC (BS 5852)"],
+      ["Wymiary", "195 × 66 cm"],
+      ["Waga", "81 kg"]
+    ]
+  },
+  "fix": {
+    "model": "FIX",
+    "description": "Stała kozetka zabiegowa z białym stelażem i antybakteryjnym pokryciem frotté, pakowana płasko i montowana w dwie minuty.",
+    "specs": [
+      ["Wysokość", "70 cm (stała)"],
+      ["Nośność", "225 kg"],
+      ["Oparcie", "Regulacja 0°–75°"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Frotté, antybakteryjne (niebieskie lub szare)"],
+      ["Wymiary", "195 × 70 cm"]
+    ]
+  },
+  "disk": {
+    "model": "DISK",
+    "description": "Profesjonalny taboret z okrągłym wyściełanym siedziskiem, chromowaną pięcioramienną podstawą jezdną i regulacją wysokości sprężyną gazową.",
+    "specs": [
+      ["Zakres wysokości", "49–65 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Średnica siedziska", "35 cm"],
+      ["Kółka", "5 · chromowana podstawa"],
+      ["Pokrycie", "PU"],
+      ["Waga", "4,5 kg"]
+    ]
+  },
+  "core": {
+    "model": "CORE",
+    "description": "Okrągły taboret z obrotowym o 360°, składanym podłokietnikiem i wyściełanym siedziskiem z pianki o wysokiej gęstości do ergonomicznej pracy.",
+    "specs": [
+      ["Zakres wysokości", "48–64 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Podłokietnik", "składany · obrotowy o 360°"],
+      ["Średnica siedziska", "40 cm"],
+      ["Tapicerka", "Pianka o wysokiej gęstości · 7 cm"],
+      ["Nośność", "160 kg"]
+    ]
+  },
+  "supp": {
+    "model": "SUPP",
+    "description": "Okrągły taboret z regulowanym oparciem i tapicerką z pianki memory, obity trudnopalnym winylem.",
+    "specs": [
+      ["Wysokość siedziska", "47–63 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Oparcie", "pochylane do 25° · regulowane wysokościowo"],
+      ["Średnica siedziska", "40 cm"],
+      ["Tapicerka", "Pianka memory · 5 cm"],
+      ["Pokrycie", "Trudnopalny winyl"],
+      ["Nośność", "160 kg"]
+    ]
+  },
+  "ride": {
+    "model": "RIDE",
+    "description": "Taboret siodłowy z regulacją wysokości sprężyną gazową, wysokiej jakości pokryciem PU i chromowaną pięcioramienną podstawą jezdną.",
+    "specs": [
+      ["Zakres wysokości", "49–65 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Wymiary siedziska", "44 × 43 cm"],
+      ["Kółka", "5 · chromowana podstawa"],
+      ["Pokrycie", "PU"],
+      ["Waga", "4,5 kg"]
+    ]
+  },
+  "weelko-xtract": {
+    "model": "XTRACT",
+    "description": "Elektryczna kozetka do pobierania krwi z regulacją Hi-Lo, odchylanymi podłokietnikami i zdejmowanym zagłówkiem, zapewniająca komfortowe pobieranie krwi.",
+    "specs": [
+      ["Zakres wysokości", "56–100 cm"],
+      ["Regulacja wysokości", "Elektryczna · obwodowa listwa sterująca"],
+      ["Nośność", "250 kg"],
+      ["Kółka", "chowane · 75 mm"],
+      ["Podłokietniki", "odchylane do góry"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Winyl PVC, wysoko odporny"],
+      ["Wymiary", "174 × 73 × 63 cm"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "ent": {
+    "model": "ENT",
+    "description": "Wielofunkcyjny elektryczny fotel zabiegowy z czterema silnikami do laryngologii, okulistyki i chirurgii plastycznej, z pozycją Trendelenburga.",
+    "specs": [
+      ["Zakres wysokości", "59–89 cm"],
+      ["Regulacja wysokości", "Elektryczna · 4 silniki · pilot ręczny"],
+      ["Nośność", "250 kg"],
+      ["Oparcie", "pochylane (−5° do +35°)"],
+      ["Kółka", "125 mm"],
+      ["Tapicerka", "7,5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Winyl PVC (odporny na ogień, brud i pleśń)"],
+      ["Wymiary", "169 × 73 × 78 cm"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "ob": {
+    "model": "OB",
+    "description": "Elektryczny fotel ginekologiczny z dwoma silnikami do regulacji wysokości siedziska i pochylenia, ze strzemionami, podnóżkami i pojemnikiem na odpady.",
+    "specs": [
+      ["Zakres wysokości", "62–104 cm"],
+      ["Regulacja wysokości", "Elektryczna · 2 silniki · pedał"],
+      ["Nośność", "250 kg"],
+      ["Kółka", "chowane · 75 mm"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Winyl PVC, wysoko odporny"],
+      ["Wymiary", "148 × 73 × 68 cm"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "alu-screen-1518": {
+    "model": "ALU SCREEN 1518",
+    "description": "Mobilny medyczny parawan ze stopu aluminium z antybakteryjnymi panelami, odporny na korozję i cicho jeżdżący.",
+    "specs": [
+      ["Wykonanie", "Mobilny · rozsuwany"],
+      ["Panele", "8 sztuk"],
+      ["Wymiary", "Długość 210 cm · wysokość 185 cm"],
+      ["Materiał", "Aluminium · antybakteryjne panele A+"],
+      ["Kolor", "Biały (dostosowywalny)"],
+      ["Kółka", "Ø 7,5 cm · ciche"]
+    ]
+  }
+}

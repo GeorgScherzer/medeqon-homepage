@@ -1,0 +1,345 @@
+{
+  "levo": {
+    "model": "LEVO",
+    "description": "Scaun rulant ușor, pliabil, din aluminiu, pentru uz zilnic în interior și exterior – cadru robust pentru transport ușor și depozitare economică de spațiu.",
+    "specs": [
+      ["Cadru", "Aluminiu, pliabil"],
+      ["Lățime șezut", "44 / 46 / 49 / 51 cm"],
+      ["Înălțime șezut", "51 cm"],
+      ["Sarcină max.", "120 kg"],
+      ["Greutate", "13,7 kg"],
+      ["Anvelope", "spate 24\" PU cu spițe · față 7\" PU"],
+      ["Cotiere", "rabatabile și pivotante în sus (perne PU)"],
+      ["Suporturi picioare", "detașabile · reglabile pe lungime"]
+    ]
+  },
+  "gemini-blue": {
+    "model": "Gemini Blue",
+    "description": "Scaun rulant compact, pliabil, din oțel, în albastru, cu roți spate de 12\" și protecție anti-răsturnare – manevrabil pentru interior și ușor de transportat.",
+    "specs": [
+      ["Cadru", "Oțel, pliabil"],
+      ["Culoare", "Albastru"],
+      ["Lățime șezut", "43 / 46 cm"],
+      ["Înălțime șezut", "50,5 cm"],
+      ["Sarcină max.", "125 kg"],
+      ["Greutate", "15,5 kg"],
+      ["Anvelope", "spate 12\" cauciuc plin · față 8\"×2\""],
+      ["Protecție anti-răsturnare", "inclusă"]
+    ]
+  },
+  "adapt": {
+    "model": "Adapt",
+    "description": "Scaun rulant cu 6 roți; roțile din spate sunt detașabile prin Quick-Release, pentru a reduce lățimea și a accesa spații înguste.",
+    "specs": [
+      ["Cadru", "Oțel, pliabil"],
+      ["Lățime șezut", "46 cm"],
+      ["Înălțime șezut", "50 cm"],
+      ["Sarcină max.", "130 kg"],
+      ["Greutate", "19 kg (cu roți de 24\")"],
+      ["Anvelope", "spate 24\" (Quick-Release) · față 8\"×2\" · convertibile la 12\""],
+      ["Cotiere", "rabatabile"],
+      ["Suporturi picioare", "detașabile · reglabile pe lungime · pivotante"]
+    ]
+  },
+  "i-travel": {
+    "model": "I-TRAVEL",
+    "description": "Scaun rulant de transport ușor, din aluminiu, cu centură de siguranță și pliere simplă – gata de utilizare imediat, fără montaj.",
+    "specs": [
+      ["Cadru", "Aluminiu, pliabil"],
+      ["Lățime șezut", "43 cm"],
+      ["Înălțime șezut", "48 cm"],
+      ["Sarcină max.", "136 kg"],
+      ["Greutate", "7,5 kg"],
+      ["Anvelope", "spate 8\" · față 6\" cauciuc plin"],
+      ["Suporturi picioare", "pivotante în sus"],
+      ["Centură de siguranță", "da"]
+    ]
+  },
+  "bariatric": {
+    "model": "Scaun rulant bariatric (sarcină mare)",
+    "description": "Scaun rulant robust pentru sarcini mari, cu contravântuire dublă în cruce și husă ignifugă, cu capacitate până la 182 kg – pentru utilizatori cu greutate corporală ridicată.",
+    "specs": [
+      ["Cadru", "Oțel, pliabil"],
+      ["Lățime șezut", "56 cm"],
+      ["Înălțime șezut", "50 cm"],
+      ["Sarcină max.", "182 kg"],
+      ["Greutate", "23 kg"],
+      ["Anvelope", "spate 24\" cauciuc plin · față 8\"×2\""],
+      ["Husă", "Oxford, ignifugă"],
+      ["Suporturi picioare", "detașabile · reglabile"]
+    ]
+  },
+  "dione-i": {
+    "model": "DIONE I",
+    "description": "Scaun rulant de îngrijire cu șezut ergonomic și numeroase posibilități de reglare (Tilt-in-Space) pentru confort ridicat, flexibilitate și siguranță.",
+    "specs": [
+      ["Cadru", "Oțel"],
+      ["Spătar", "înclinabil 95°–145°"],
+      ["Bascularea șezutului", "0°–32° (Tilt-in-Space)"],
+      ["Lățime șezut", "37–43 cm (reglabilă)"],
+      ["Sarcină max.", "150 kg"],
+      ["Greutate", "40 kg"],
+      ["Anvelope", "spate 24\" (Quick-Release) · față 8\"×2\""],
+      ["Tetieră", "reglabilă în înălțime, lățime și unghi"]
+    ]
+  },
+  "proteus-i": {
+    "model": "PROTEUS I",
+    "description": "Scaun rulant reclinabil pentru transportul persoanelor cu mobilitate redusă – autonom sau cu însoțitor; înclinarea spătarului pentru confort ridicat.",
+    "specs": [
+      ["Cadru", "Oțel"],
+      ["Spătar", "înclinabil 90°–160°"],
+      ["Lățime șezut", "46 cm"],
+      ["Înălțime șezut", "55 cm"],
+      ["Sarcină max.", "120 kg"],
+      ["Greutate", "23,5 kg"],
+      ["Anvelope", "spate 24\" (Quick-Release) · față 8\"×2\" PU"],
+      ["Suporturi picioare", "detașabile · pivotante în sus · reglabile pe lungime"]
+    ]
+  },
+  "techride": {
+    "model": "TECHRIDE",
+    "description": "Scaun rulant electric cu design modern, care îmbină inovația, confortul și eleganța pentru o experiență de mobilitate unică.",
+    "specs": [
+      ["Propulsie", "2 × 200 W · 24 V"],
+      ["Baterie", "Litiu 20 Ah · 24 V"],
+      ["Autonomie", "până la 23 km"],
+      ["Viteză maximă", "8 km/h"],
+      ["Sarcină max.", "150 kg"],
+      ["Greutate", "27 kg"],
+      ["Anvelope", "spate 10\" pneumatice · față 8\" cauciuc plin"],
+      ["Pliabil", "da (manual)"]
+    ]
+  },
+  "turbotech": {
+    "model": "TURBOTECH",
+    "description": "Scaun rulant electric care îmbină inovația, flexibilitatea și designul ergonomic pentru independență zilnică, cu control inteligent.",
+    "specs": [
+      ["Propulsie", "2 × 200 W · 24 V"],
+      ["Baterie", "Litiu 25 Ah · 24 V"],
+      ["Autonomie", "până la 31 km"],
+      ["Viteză maximă", "10 km/h"],
+      ["Sarcină max.", "150 kg"],
+      ["Greutate", "36 kg"],
+      ["Anvelope", "spate 12\" pneumatice · față 12\" omnidirecționale"],
+      ["Pliabil", "da (manual)"]
+    ]
+  },
+  "robodrive": {
+    "model": "ROBODRIVE",
+    "description": "Scaun rulant electric cu mecanism automat de pliere – îmbină inovația, confortul și eleganța pentru o experiență de mobilitate unică.",
+    "specs": [
+      ["Propulsie", "2 × 200 W · 24 V"],
+      ["Baterie", "Litiu 20 Ah · 24 V"],
+      ["Autonomie", "până la 25 km"],
+      ["Viteză maximă", "6 km/h"],
+      ["Sarcină max.", "120 kg"],
+      ["Greutate", "44 kg"],
+      ["Anvelope", "spate 10\" pneumatice · față 10\" omnidirecționale"],
+      ["Pliabil", "da (automat)"]
+    ]
+  },
+  "titan": {
+    "model": "TITAN",
+    "description": "Scaun rulant electric de mare putere, cu cadru din aluminiu ranforsat, motor puternic și confort ridicat – pentru utilizare solicitantă în interior și exterior.",
+    "specs": [
+      ["Propulsie", "2 × 340 W · 24 V"],
+      ["Baterie", "2 × 40 Ah · 12 V"],
+      ["Autonomie", "30–36 km"],
+      ["Viteză maximă", "8–10 km/h"],
+      ["Sarcină max.", "130 kg"],
+      ["Greutate", "67 kg"],
+      ["Lățime șezut", "44–50 cm (reglabilă)"],
+      ["Anvelope", "spate 13,5\" pneumatice · față 9\" cauciuc plin"]
+    ]
+  },
+  "felix": {
+    "model": "FELIX",
+    "description": "Scaun rulant electric ușor, pliabil, din aluminiu, pentru interior și exterior – ideal pentru transport și depozitare.",
+    "specs": [
+      ["Propulsie", "2 × 250 W · 24 V · frână electromagn."],
+      ["Baterie", "Litiu 24 V · 12 Ah"],
+      ["Autonomie", "20–25 km"],
+      ["Viteză maximă", "6 km/h"],
+      ["Sarcină max.", "130 kg"],
+      ["Greutate", "25 kg (fără baterie)"],
+      ["Anvelope", "față 8\" PU · spate 12\" PU"],
+      ["Pliabil", "da (cadru din aluminiu)"]
+    ]
+  },
+  "scooter-perseus": {
+    "model": "Scooter Perseus",
+    "description": "Scuter electric cu design modern, autonomie mare și dotări de siguranță – mobilitate confortabilă în cazul mobilității reduse.",
+    "specs": [
+      ["Propulsie", "700 W · frâne electromagn."],
+      ["Baterie", "2 × 24 V · 55 Ah (plumb)"],
+      ["Autonomie", "55 km"],
+      ["Viteză maximă", "15 km/h"],
+      ["Sarcină max.", "190 kg"],
+      ["Greutate", "106 kg (fără baterie)"],
+      ["Anvelope", "față 11,5\" · spate 13\" pneumatice"],
+      ["Dotări", "suspensie · scaun rotativ · spătar până la 125°"]
+    ]
+  },
+  "scooter-perseus-2": {
+    "model": "Scooter Perseus II",
+    "description": "Scuter electric cu design modern, autonomie mare și dotări extinse de siguranță pentru mobilitate confortabilă și independentă.",
+    "specs": [
+      ["Propulsie", "700 W · frâne electromagn."],
+      ["Baterie", "2 × 24 V · 55 Ah (plumb)"],
+      ["Autonomie", "55 km"],
+      ["Viteză maximă", "15 km/h"],
+      ["Sarcină max.", "190 kg"],
+      ["Greutate", "106 kg (fără baterie)"],
+      ["Anvelope", "față 11,5\" · spate 13\" pneumatice"],
+      ["Dotări", "suspensie · scaun rotativ · spătar până la 125°"]
+    ]
+  },
+  "walky": {
+    "model": "WALKY (rolator din aluminiu)",
+    "description": "Rolator din aluminiu de calitate superioară, cu design modern, scaun cu centură de spate, coș și suport pentru baston, pentru uz zilnic.",
+    "specs": [
+      ["Material", "Aluminiu"],
+      ["Sarcină max.", "136 kg"],
+      ["Greutate", "8,5 kg"],
+      ["Înălțime șezut", "59 cm"],
+      ["Lățime șezut", "45,5 cm"],
+      ["Înălțime mânere", "80–93 cm (reglabilă)"],
+      ["Roți", "8\" cauciuc plin"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "ruby": {
+    "model": "RUBY",
+    "description": "Rolator de calitate superioară cu suspensie și roți mari, pentru confort optim la deplasare în interior și exterior.",
+    "specs": [
+      ["Material", "Aluminiu"],
+      ["Sarcină max.", "136 kg"],
+      ["Greutate", "8,5 kg"],
+      ["Înălțime șezut", "60 cm"],
+      ["Înălțime mânere", "80–93 cm (6 poziții)"],
+      ["Suspensie", "da"],
+      ["Roți", "8\" cauciuc plin"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "silver-rollator": {
+    "model": "Silver (rolator din aluminiu)",
+    "description": "Rolator ușor din aluminiu, cu scaun, coș și mânere reglabile pe înălțime – potrivit pentru interior și exterior.",
+    "specs": [
+      ["Material", "Aluminiu"],
+      ["Sarcină max.", "120 kg"],
+      ["Greutate", "7,8 kg"],
+      ["Înălțime șezut", "53 cm"],
+      ["Lățime șezut", "45 cm"],
+      ["Înălțime mânere", "79–95 cm (reglabilă)"],
+      ["Frâne", "frâne de mână cu blocare"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "rollator-blue": {
+    "model": "Rollator Blue",
+    "description": "Rolator pliabil din oțel, cu scaun, coș și mânere reglabile pe înălțime, pentru interior și exterior.",
+    "specs": [
+      ["Material", "Oțel"],
+      ["Sarcină max.", "110 kg"],
+      ["Greutate", "7 kg"],
+      ["Înălțime șezut", "52 cm"],
+      ["Lățime șezut", "46 cm"],
+      ["Înălțime mânere", "83–93 cm (reglabilă)"],
+      ["Roți", "8\" cauciuc plin PVC"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "three-wheel-rollator": {
+    "model": "Rolator cu trei roți",
+    "description": "Rolator din oțel manevrabil, pliabil (cu trei roți), cu coș și geantă, precum și mânere reglabile pe înălțime, pentru interior și exterior.",
+    "specs": [
+      ["Material", "Oțel"],
+      ["Sarcină max.", "110 kg"],
+      ["Greutate", "7,5 kg"],
+      ["Înălțime mânere", "85–95 cm (reglabilă)"],
+      ["Frâne", "frâne de mână cu blocare"],
+      ["Roți", "8\"×2\" cauciuc plin"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "folding-walker": {
+    "model": "Cadru de mers pliabil",
+    "description": "Cadru de mers pliabil din aluminiu, reglabil pe înălțime și ușor – dispozitiv de mers sigur pentru interior și exterior.",
+    "specs": [
+      ["Material", "Aluminiu"],
+      ["Reglaj pe înălțime", "75–94 cm"],
+      ["Sarcină max.", "115 kg"],
+      ["Greutate", "2,6 kg"],
+      ["Lățime", "56 cm"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "heavy-duty-walker": {
+    "model": "Cadru de mers pentru sarcini mari (225 kg)",
+    "description": "Cadru de mers pliabil pentru sarcini mari, din aluminiu, reglabil pe înălțime și cu capacitate până la 225 kg – robust și totuși ușor.",
+    "specs": [
+      ["Material", "Aluminiu"],
+      ["Reglaj pe înălțime", "82–107 cm"],
+      ["Sarcină max.", "225 kg"],
+      ["Greutate", "3 kg"],
+      ["Lățime", "60 cm"],
+      ["Pliabil", "da"]
+    ]
+  },
+  "minoa": {
+    "model": "MINOA",
+    "description": "Sistem de saltea cu aer cu presiune alternativă și pompă reglabilă, pentru prevenirea și tratarea escarelor (stadiul I–II).",
+    "specs": [
+      ["Tip", "Sistem de saltea cu aer cu presiune alternativă"],
+      ["Sarcină max.", "130 kg"],
+      ["Durata ciclului", "12 minute"],
+      ["Interval de presiune", "50–110 mmHg"],
+      ["Pompă", "electrică, reglabilă (≤ 7 W)"],
+      ["Nivel de zgomot", "≤ 30 dB"],
+      ["Material", "PVC medical, 0,3 mm"],
+      ["Dimensiuni", "200 × 90 × 7 cm"]
+    ]
+  },
+  "premium-ocean": {
+    "model": "Premium Ocean",
+    "description": "Saltea anti-decubit (prevenirea escarelor) cu bule și pompă electrică de aer, pentru pacienți cu risc scăzut până la mediu de escare (stadiul I–II).",
+    "specs": [
+      ["Tip", "Saltea cu bule cu presiune alternativă"],
+      ["Moduri de funcționare", "static și presiune alternativă"],
+      ["Sarcină max.", "130 kg"],
+      ["Reglarea presiunii", "electrică, reglabilă (30–130 kg)"],
+      ["Dimensiuni saltea", "200 × 90 × 7 cm"],
+      ["Dimensiuni pompă", "26 × 12,5 × 8,5 cm"],
+      ["Greutate", "3,3 kg"]
+    ]
+  },
+  "stripe": {
+    "model": "STRIPE",
+    "description": "Saltea anti-decubit (prevenirea escarelor) cu benzi, cu ventilație laser, supapă CPR și pompă electrică de aer, împotriva umidității și a escarelor.",
+    "specs": [
+      ["Tip", "Saltea cu benzi cu presiune alternativă, ventilată"],
+      ["Moduri de funcționare", "static și presiune alternativă"],
+      ["Sarcină max.", "145 kg"],
+      ["Ventilație", "microperforație laser · supapă CPR"],
+      ["Dimensiuni", "190 × 85 × 11,5 cm"],
+      ["Husă", "lavabilă până la 60 °C"],
+      ["Greutate", "6,3 kg"]
+    ]
+  },
+  "mobiak-irene": {
+    "model": "MOBIAK Irene",
+    "description": "Concentrator de oxigen cu flux de 1–5 l/min și concentrație de O₂ de 93 %, compresor puternic și alarme de siguranță cuprinzătoare.",
+    "specs": [
+      ["Flux de oxigen", "1–5 l/min"],
+      ["Concentrație O₂", "93 % ± 3"],
+      ["Presiune de ieșire", "0,4–0,8 bar"],
+      ["Putere", "480 W"],
+      ["Nivel de zgomot", "≤ 48 dB(A)"],
+      ["Greutate", "24 kg"],
+      ["Alimentare", "230 V / 50 Hz"],
+      ["Alarme", "flux · tensiune · puritate · supraîncălzire"]
+    ]
+  }
+}

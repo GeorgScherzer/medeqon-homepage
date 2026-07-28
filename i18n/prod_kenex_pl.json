@@ -1,0 +1,1640 @@
+{
+ "kenex-310b3": {
+  "model": "310/B-3 – Mobilna osłona radiologiczna, regulowana wysokość",
+  "description": "Kompaktowa, łatwa w manewrowaniu mobilna osłona radiologiczna do ciasnych przestrzeni bezpośrednio przy stole badawczym. Dolny panel ochronny i odciążone okno z akrylu ołowiowego, którego wysokość można regulować szybko i niemal bez wysiłku. Opcjonalnie z bocznymi panelami ochronnymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdna osłona radiologiczna, regulowana wysokość"
+   ],
+   [
+    "Panel dolny",
+    "78 × 102 cm · 1,0 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Okno z akrylu ołowiowego",
+    "szerokość 70 cm · 0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Regulacja wysokości",
+    "Okno 115–188 cm od podłogi"
+   ],
+   [
+    "Opcje",
+    "Boczne panele ochronne (317/05-01), 0,5 mm Pb, +68 cm na panel (maks. 214 cm)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-326-05": {
+  "model": "326/05 – Nadstołowa osłona radiologiczna, regulowana wysokość",
+  "description": "Mobilna osłona radiologiczna łącząca cechy systemów montowanych na suficie i na stole: odciążone okno z akrylu ołowiowego jest umieszczane nad pacjentem i ma regulowaną wysokość. Elastyczne, regulowane na szerokość zasłony tworzą przestronną strefę ochronną dla użytkowników i personelu pomocniczego.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdna nadstołowa osłona radiologiczna"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (na całej powierzchni)"
+   ],
+   [
+    "Okno",
+    "50 × 116 cm, z wycięciem narożnym"
+   ],
+   [
+    "Zasłony",
+    "wysokość 80 cm · szerokość 45–80 cm"
+   ],
+   [
+    "Wysokość",
+    "139–169 cm"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-314-05": {
+  "model": "314/05 – Mobilny stojak z panelem ochronnym",
+  "description": "Kompaktowa, mobilna osłona z regulacją wysokości do precyzyjnego ekranowania pacjenta lub użytkownika. Teleskopowa kolumna ze wspomaganiem sprężynowym utrzymuje elastyczny panel ochronny; łatwa regulacja wysokości.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdny stojak z panelem ochronnym, regulowana wysokość"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb"
+   ],
+   [
+    "Wysokość",
+    "85–120 cm"
+   ],
+   [
+    "Podstawa",
+    "56 × 56 cm"
+   ],
+   [
+    "Panel",
+    "70 × 60 cm"
+   ],
+   [
+    "Warianty",
+    "314/05-01 panel pojedynczy · 314/05-02 panel podwójny (zachodzący na siebie)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-303b2": {
+  "model": "303/B2/90 – Mobilna ściana osłony radiologicznej",
+  "description": "Jezdna ściana osłony radiologicznej w sztywnej konstrukcji panelowej z rdzeniem ołowiowym, obustronnie pokryta wysokociśnieniowym laminatem z tworzywa sztucznego i wyposażona w okno ze szkła ołowiowego. Solidne, blokowane kółka skrętne i uchwyty zapewniają łatwą mobilność.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdna ściana osłony radiologicznej (pełny panel)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "2,2 mm Pb (rdzeń i okno)"
+   ],
+   [
+    "Wymiary",
+    "200 × 90 cm (wys. × szer.)"
+   ],
+   [
+    "Okno wziernikowe",
+    "25 × 25 cm"
+   ],
+   [
+    "Kolory",
+    "biały, kremowy, jasnoszary, ciemnoszary, turkusowy, różowy"
+   ],
+   [
+    "Wyposażenie",
+    "Blokowane kółka skrętne z hamulcem, ochrona krawędzi ABS, uchwyty"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-303b3": {
+  "model": "303/B3/90 – Panoramiczna ściana osłony radiologicznej",
+  "description": "Jezdna ściana osłony radiologicznej jak 303/B2/90, jednak z szerokim panoramicznym oknem ze szkła ołowiowego dla lepszej widoczności. Sztywna konstrukcja panelowa z rdzeniem ołowiowym, obustronny laminat wysokociśnieniowy, blokowane kółka i uchwyty.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdna ściana osłony radiologicznej (panoramiczna)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "2,2 mm Pb (rdzeń i okno)"
+   ],
+   [
+    "Wymiary",
+    "200 × 90 cm (wys. × szer.)"
+   ],
+   [
+    "Okno panoramiczne",
+    "25 × 62 cm"
+   ],
+   [
+    "Kolory",
+    "biały, kremowy, jasnoszary, ciemnoszary, turkusowy, różowy"
+   ],
+   [
+    "Wyposażenie",
+    "Uszczelki neoprenowe, blokowane kółka skrętne, uchwyty"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-354lr": {
+  "model": "354/P/88-207/LR – Osłona nadgłowowa (akryl ołowiowy)",
+  "description": "Centralnie podwieszana osłona nadgłowowa z akrylu ołowiowego z wycięciem dopasowanym do konturu pacjenta i elastycznym przedłużeniem zasłonowym; do montażu na ramieniu podwieszanym VALiA-MD21+. Statyczna ochrona górnej części ciała.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona nadgłowowa (podwieszana centralnie)"
+   ],
+   [
+    "Wymiary",
+    "85 × 80 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Materiał",
+    "Akryl ołowiowy z elastyczną zasłoną"
+   ],
+   [
+    "Obrót",
+    "360°"
+   ],
+   [
+    "Masa",
+    "15,8 kg"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-354": {
+  "model": "354 – Osłona nadgłowowa z zawieszeniem centralnym",
+  "description": "Przezroczysta, centralnie podwieszana osłona ochronna górnej części ciała – opcjonalnie z wycięciem dopasowanym do konturu pacjenta. Przegub kulowy umożliwiający obrót i pochylanie w zakresie 360°.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona nadgłowowa (zawieszenie centralne)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (akryl ołowiowy)"
+   ],
+   [
+    "Rozmiary osłon",
+    "85×80 · 76×61 · 40×50 cm"
+   ],
+   [
+    "Ruch",
+    "Przegub kulowy, 360°"
+   ],
+   [
+    "Montaż",
+    "Ramię · sufit · szyna sufitowa · ściana"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-351": {
+  "model": "351 – Osłona nadgłowowa z odchylaniem poziomym",
+  "description": "Przezroczysta osłona nadgłowowa z akrylu ołowiowego z poziomą osią odchylania w orientacji poziomej. Opcjonalnie wycięcie dopasowane do konturu pacjenta i elastyczne panele ołowiowe.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona nadgłowowa (odchylanie poziome)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb"
+   ],
+   [
+    "Rozmiary osłon",
+    "60×80 · 40×50 cm"
+   ],
+   [
+    "Orientacja",
+    "Pozioma"
+   ],
+   [
+    "Montaż",
+    "Ramię · sufit · szyna sufitowa · ściana"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-350": {
+  "model": "350 – Osłona oczu i tarczycy",
+  "description": "Przezroczysta osłona ochronna specjalnie do ochrony oczu i tarczycy, orientacja pozioma z odchylaniem poziomym i elastyczną dolną zasłoną.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona oczu/tarczycy"
+   ],
+   [
+    "Szkło ołowiowe",
+    "≥ 2,2 mm Pb"
+   ],
+   [
+    "Zasłona dolna",
+    "0,5 mm Pb"
+   ],
+   [
+    "Rozmiary osłon",
+    "40×50 · 30×40 cm"
+   ],
+   [
+    "Kolumna",
+    "80 cm (standard)"
+   ],
+   [
+    "Montaż",
+    "Sufit · szyna · ściana"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-354led": {
+  "model": "354/P76/LED – Osłona nadgłowowa z lampą LED",
+  "description": "Połączenie centralnie podwieszanej osłony ochronnej 354 i zintegrowanej lampy operacyjnej LED – stacjonarnej lub jezdnej (szyna sufitowa). Ochrona górnej części ciała z optymalnym oświetleniem.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona nadgłowowa + lampa LED"
+   ],
+   [
+    "Osłona",
+    "76 × 61 cm · 0,5 mm Pb · kontur pacjenta"
+   ],
+   [
+    "Opcje LED",
+    "130F (70.000 lux) · 150F (110.000) · 300DF SC (160.000)"
+   ],
+   [
+    "Zakres dostawy",
+    "kolumna sufitowa 80 cm + 2 ramiona"
+   ],
+   [
+    "Montaż",
+    "Sufit lub szyna (250/420 cm)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-351led": {
+  "model": "351/P68/LED – Osłona nadgłowowa z lampą LED",
+  "description": "Połączenie osłony ochronnej 351 (odchylanie poziome) i zintegrowanej lampy operacyjnej LED, stacjonarnej lub jezdnej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona nadgłowowa + lampa LED"
+   ],
+   [
+    "Osłona",
+    "60 × 80 cm · 0,5 mm Pb"
+   ],
+   [
+    "Opcje LED",
+    "130F · 150F · 300DF SC"
+   ],
+   [
+    "Montaż",
+    "Sufit lub szyna (250/420 cm)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-350led": {
+  "model": "350/45/LED – Osłona oczu/tarczycy z lampą LED",
+  "description": "Połączenie osłony oczu/tarczycy 350 i zintegrowanej lampy operacyjnej LED, stacjonarnej lub jezdnej.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona oczu/tarczycy + lampa LED"
+   ],
+   [
+    "Osłona",
+    "40 × 50 cm · 0,5 mm Pb"
+   ],
+   [
+    "Opcje LED",
+    "130F · 150F · 300DF SC"
+   ],
+   [
+    "Montaż",
+    "Sufit lub szyna (250/420 cm)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-308": {
+  "model": "308 – Elastyczna osłona ołowiowa nadgłowowa",
+  "description": "Elastyczna osłona nadgłowowa z zachodzących na siebie lamel z winylu ołowiowego z odchylaną do góry częścią środkową (zatrzask). Ramię podwieszane w zakresie dostawy.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Elastyczna osłona ołowiowa nadgłowowa"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb"
+   ],
+   [
+    "Wymiary",
+    "50 × 100 cm"
+   ],
+   [
+    "Materiał",
+    "Winyl ołowiowy (elastyczny)"
+   ],
+   [
+    "Montaż",
+    "stacjonarny · ściana · szyna sufitowa"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-3001tc": {
+  "model": "3001/TC – Szyna sufitowa z wózkiem jezdnym",
+  "description": "Wysokoobciążalna aluminiowa szyna sufitowa z lekkobieżnym wózkiem jezdnym i opcjonalnym prowadzeniem kabli (łańcuch energetyczny) do jezdnego podwieszania osłon, lamp i monitorów.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Szyna sufitowa + wózek jezdny"
+   ],
+   [
+    "Materiał",
+    "Aluminium"
+   ],
+   [
+    "Długości",
+    "2,5 m · 4,2 m"
+   ],
+   [
+    "Wózek jezdny",
+    "1 (maks. 2)"
+   ],
+   [
+    "Opcje",
+    "Prowadzenie kabli w łańcuchu energetycznym"
+   ],
+   [
+    "Montaż",
+    "Unistrut lub podobny"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-333": {
+  "model": "333 – Zawieszenie monitora",
+  "description": "System zawieszenia do monitorów płaskoekranowych z ramieniem sprężynowym o dużym zasięgu; stacjonarny, na szynie sufitowej lub montowany na ścianie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Zawieszenie monitora"
+   ],
+   [
+    "Udźwig",
+    "5–10 kg"
+   ],
+   [
+    "Zasięg",
+    "Ramię sprężynowe 186 cm"
+   ],
+   [
+    "Kolumna",
+    "80 cm, przegub podwójny"
+   ],
+   [
+    "VESA",
+    "100 mm"
+   ],
+   [
+    "Montaż",
+    "stacjonarny · szyna · ściana"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-300arm": {
+  "model": "300/ARM – Ramię podwieszane",
+  "description": "Solidne ramię podwieszane do elastycznego przemieszczania na dużej powierzchni; z opatentowanym kołnierzem zabezpieczającym. Do montażu na suficie lub szynie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ramię podwieszane (sprężynowe)"
+   ],
+   [
+    "Ramię wysięgnika",
+    "95 cm"
+   ],
+   [
+    "Ramię sprężynowe",
+    "91 cm"
+   ],
+   [
+    "Udźwig",
+    "do 18 kg"
+   ],
+   [
+    "Bezpieczeństwo",
+    "opatentowany kołnierz zabezpieczający"
+   ],
+   [
+    "Montaż",
+    "Sufit · wózek jezdny"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-300column": {
+  "model": "300/COLUMN – Kolumna sufitowa z przegubem podwójnym",
+  "description": "Stalowa kolumna sufitowa z dwoma punktami obrotu (jeden punkt okablowany elektrycznie) do podłączenia ramienia i lampy; stacjonarna lub na wózku jezdnym.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Kolumna sufitowa (przegub podwójny)"
+   ],
+   [
+    "Materiał",
+    "Stal"
+   ],
+   [
+    "Długości",
+    "40 · 60 · 80 · 100 cm"
+   ],
+   [
+    "Cecha szczególna",
+    "jeden punkt obrotu okablowany elektrycznie"
+   ],
+   [
+    "Montaż",
+    "Sufit · wózek jezdny"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-300p004": {
+  "model": "300/P/004 – Płyta montażowa sufitowa",
+  "description": "Stalowa płyta montażowa do stacjonarnej instalacji kolumn sufitowych KENEX, do zastosowania nad lub pod sufitami podwieszanymi (kolumna osobno).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Płyta montażowa sufitowa"
+   ],
+   [
+    "Wymiary",
+    "73,5 × 34 × 3,4 cm"
+   ],
+   [
+    "Materiał",
+    "Stal"
+   ],
+   [
+    "Montaż",
+    "nad/pod sufitami podwieszanymi"
+   ],
+   [
+    "Uwaga",
+    "Kolumna osobno"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-300p014": {
+  "model": "300/P/014 – Pierścień kotwiący sufitowy i płyta",
+  "description": "Platforma montażowa do przestrzeni między sufitem podwieszanym a stropem właściwym (8,5–30 cm). Po wyregulowaniu stanowi pionową, stabilną podstawę montażową (kolumna osobno).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Platforma montażowa z kotwą sufitową"
+   ],
+   [
+    "Przestrzeń sufitowa",
+    "8,5–30 cm"
+   ],
+   [
+    "Uwaga",
+    "Kolumna osobno (standard 80 cm)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "kenex-300p012": {
+  "model": "300/P/012 – Platforma montażowa do przestrzeni sufitowej",
+  "description": "Platforma montażowa do przestrzeni między sufitem podwieszanym a stropem właściwym do 90 cm; dostarczana w częściach i dokładnie dopasowywana do odstępu.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Platforma montażowa do przestrzeni sufitowej"
+   ],
+   [
+    "Przestrzeń sufitowa",
+    "do 90 cm"
+   ],
+   [
+    "Dostawa",
+    "w częściach (z możliwością dopasowania)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-78": {
+  "model": "312/E-005 – Osłona stołowa dolnej części ciała 78 cm",
+  "description": "Osłony stołowe dolnej części ciała z pojedynczym ciernym przegubem odchylnym i opcjonalnymi osłonami nakładkowymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa dolnej części ciała"
+   ],
+   [
+    "Wymiary",
+    "78 × 70 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Pojedynczy cierny przegub odchylny"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-92": {
+  "model": "312/E-010 – Osłona stołowa dolnej części ciała 92 cm",
+  "description": "Osłony stołowe dolnej części ciała z podwójnym przegubem ciernym i opcjonalnymi osłonami nakładkowymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa dolnej części ciała"
+   ],
+   [
+    "Szerokość",
+    "92 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-92cr": {
+  "model": "312/E-013 – Osłona stołowa 92 cm, odporna na kolizje",
+  "description": "Odporna na kolizje osłona stołowa z podwójnym przegubem ciernym i zdejmowaną osłoną nakładkową typu lift-off o szerokości 57 cm.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "92 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Osłona nakładkowa",
+    "szerokość 57 cm, lift-off"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-100": {
+  "model": "312/E-015 – Osłona stołowa dolnej części ciała 100 cm",
+  "description": "Osłony stołowe dolnej części ciała z pojedynczym ciernym przegubem odchylnym, zintegrowaną szyną na akcesoria o długości 35 cm i opcjonalnymi osłonami nakładkowymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa dolnej części ciała"
+   ],
+   [
+    "Szerokość",
+    "100 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Pojedynczy cierny przegub odchylny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "35 cm, zintegrowana"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-114": {
+  "model": "312/E-020 – Osłona stołowa dolnej części ciała 114 cm",
+  "description": "Osłony stołowe dolnej części ciała z podwójnym przegubem ciernym, zintegrowaną szyną na akcesoria 35 cm i opcjonalnymi osłonami nakładkowymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa dolnej części ciała"
+   ],
+   [
+    "Szerokość",
+    "114 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "35 cm, zintegrowana"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-114cr": {
+  "model": "312/E-023 – Osłona stołowa 114 cm, odporna na kolizje",
+  "description": "Odporna na kolizje osłona stołowa z podwójnym przegubem ciernym, zintegrowaną szyną na akcesoria 35 cm i osłoną nakładkową typu lift-off o szerokości 57 cm.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "114 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "35 cm, zintegrowana"
+   ],
+   [
+    "Osłona nakładkowa",
+    "szerokość 57 cm, lift-off"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-89": {
+  "model": "311/DS-020 – Osłona stołowa 89 cm z odchylaną nakładką (Philips)",
+  "description": "Osłona stołowa dolnej części ciała z zachodzącą na siebie zasłoną, połączeniem środkowym i odchylaną w dół osłoną nakładkową o szerokości 52 cm. Do stołów Philips Medical Systems.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa dolnej części ciała z odchylaną nakładką"
+   ],
+   [
+    "Szerokość",
+    "89 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Osłona nakładkowa",
+    "szerokość 52 cm, odchylana w dół"
+   ],
+   [
+    "Zasłona",
+    "Zachodząca na siebie, z połączeniem środkowym"
+   ],
+   [
+    "Kompatybilność",
+    "Philips Medical Systems (nr części 9896-000-77201 i -77202)"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-92ds": {
+  "model": "312/DS-006 – Osłona przystołowa 92 cm",
+  "description": "Przystołowa osłona dolnej części ciała o szerokości 92 cm z podwójnym przegubem ciernym i opcjonalnymi osłonami nakładkowymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Przystołowa osłona dolnej części ciała"
+   ],
+   [
+    "Szerokość",
+    "92 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-92ds-cr": {
+  "model": "312/DS-008 – Osłona stołowa 92 cm, odporna na kolizje",
+  "description": "Odporna na kolizje osłona stołowa z podwójnym przegubem ciernym i opcjonalnym zestawem osłon nakładkowych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "92 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Zestaw osłon nakładkowych",
+    "Opcjonalny"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-137-5": {
+  "model": "312/DS-039/5 – Osłona stołowa 137 cm, odporna na kolizje",
+  "description": "Odporna na kolizje osłona stołowa z dwiema zachodzącymi na siebie zasłonami, podwójnym przegubem ciernym i szyną na akcesoria 57 cm. Opcjonalne osłony nakładkowe.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "137 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłony",
+    "Dwie zachodzące na siebie zasłony"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "57 cm"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-137-6": {
+  "model": "312/DS-039/6 – Osłona stołowa 137 cm, odporna na kolizje",
+  "description": "Odporna na kolizje osłona stołowa z dwiema zachodzącymi na siebie zasłonami, podwójnym przegubem ciernym, zintegrowaną szyną na akcesoria 57 cm i opcjonalnymi osłonami nakładkowymi.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "137 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłony",
+    "Dwie zachodzące na siebie zasłony"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "57 cm, zintegrowana"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-137-63": {
+  "model": "312/DS-039/6/3 – Osłona stołowa 137 cm, odporna na kolizje (z zestawem nakładek)",
+  "description": "Odporna na kolizje osłona stołowa z dwiema zachodzącymi na siebie zasłonami, podwójnym przegubem ciernym, zintegrowaną szyną na akcesoria 57 cm i kompletnym zestawem osłon nakładkowych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "137 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłony",
+    "Dwie zachodzące na siebie zasłony"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "57 cm, zintegrowana"
+   ],
+   [
+    "Zestaw nakładek",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-137deep": {
+  "model": "312/DS-060/1/3 – Osłona stołowa 137 cm z głębokim uchwytem montażowym",
+  "description": "Odporna na kolizje osłona stołowa z dwiema zachodzącymi na siebie zasłonami, głębokim uchwytem montażowym, podwójnym przegubem ciernym i zintegrowaną szyną na akcesoria 65 cm. Osłony nakładkowe w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa z głębokim uchwytem montażowym"
+   ],
+   [
+    "Szerokość",
+    "137 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłony",
+    "Dwie zachodzące na siebie zasłony"
+   ],
+   [
+    "Przegub",
+    "Podwójny przegub cierny"
+   ],
+   [
+    "Szyna na akcesoria",
+    "65 cm, zintegrowana"
+   ],
+   [
+    "Osłony nakładkowe",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-162cr": {
+  "model": "312/DS-039/10/4 – Osłona stołowa 162 cm, ekstraszeroka i odporna na kolizje",
+  "description": "Ekstraszeroka, odporna na kolizje osłona stołowa z dwiema zachodzącymi na siebie zasłonami; dwie wersje szyny na akcesoria 57 cm w zestawie. Do wyboru z osłonami nakładkowymi lub bez nich.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ekstraszeroka, odporna na kolizje osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "162 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłony",
+    "Dwie zachodzące na siebie zasłony"
+   ],
+   [
+    "Szyna na akcesoria",
+    "57 cm (dwie wersje w zestawie)"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-162": {
+  "model": "312/DS-039/9/4 – Osłona stołowa 162 cm, ekstraszeroka",
+  "description": "Ekstraszeroka osłona stołowa z elastyczną zasłoną; dwie wersje szyny na akcesoria 57 cm w zestawie. Do wyboru z osłonami nakładkowymi lub bez nich.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Ekstraszeroka osłona stołowa"
+   ],
+   [
+    "Szerokość",
+    "162 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłona",
+    "Elastyczna"
+   ],
+   [
+    "Szyna na akcesoria",
+    "57 cm (dwie wersje w zestawie)"
+   ],
+   [
+    "Osłony nakładkowe",
+    "Opcjonalne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-deepbracket": {
+  "model": "312/DS-099 – Głęboki uchwyt montażowy z szyną na akcesoria",
+  "description": "Wielofunkcyjny uchwyt montażowy z szyną na akcesoria o długości 65 cm do montażu przystołowego wyposażenia szynowego na blacie stołu z dużym zakresem przesuwu bocznego.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Uchwyt montażowy / szyna na akcesoria"
+   ],
+   [
+    "Szyna na akcesoria",
+    "65 cm"
+   ],
+   [
+    "Przeznaczenie",
+    "Przystołowe wyposażenie szynowe na blacie z przesuwem bocznym"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head": {
+  "model": "313/A2 – Osłona stołowa od strony głowy (na wymiar)",
+  "description": "Wykonana na wymiar osłona od strony głowy: lekka, solidna konstrukcja ze stałą sekcją środkową i dwoma odchylnymi ramionami bocznymi, które utrzymują elastyczną zasłonę (0,5 mm Pb). Uchwyt ścienny opcjonalnie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy, stała sekcja środkowa + 2 ramiona odchylne"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłona",
+    "Elastyczna"
+   ],
+   [
+    "Uchwyt ścienny",
+    "Opcjonalny"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head-baxter": {
+  "model": "313/A2-018 – Osłona od strony głowy do Baxter Carbon FloatLine / SQ14 X-TRA",
+  "description": "Osłona od strony głowy do stołów Baxter Carbon FloatLine i SQ14 X-TRA. Lekka, solidna konstrukcja ze stałą sekcją środkową i dwoma odchylnymi ramionami bocznymi z elastyczną zasłoną. Uchwyt ścienny w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy (dostosowana do urządzenia)"
+   ],
+   [
+    "Wymiary",
+    "120 × 80 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłona",
+    "Elastyczna"
+   ],
+   [
+    "Kompatybilność",
+    "Baxter Carbon FloatLine, SQ14 X-TRA"
+   ],
+   [
+    "Uchwyt ścienny",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head-canon": {
+  "model": "313/A2-014 – Osłona od strony głowy do stołu uchylno-kołyszącego Canon Medical (Toshiba)",
+  "description": "Osłona od strony głowy do stołów uchylno-kołyszących Canon Medical (Toshiba). Stała sekcja środkowa i dwa odchylne ramiona boczne z elastyczną zasłoną. Uchwyt ścienny w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy (dostosowana do urządzenia)"
+   ],
+   [
+    "Wymiary",
+    "114 × 78,5 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłona",
+    "Elastyczna"
+   ],
+   [
+    "Kompatybilność",
+    "Canon Medical / Toshiba (stół uchylno-kołyszący)"
+   ],
+   [
+    "Uchwyt ścienny",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head-ge": {
+  "model": "313/A2-010 – Osłona od strony głowy do GE Healthcare Elegance",
+  "description": "Osłona od strony głowy do stołów GE Healthcare Elegance. Adapter blatu stołu z trzema podwieszanymi sekcjami, z których każda utrzymuje elastyczną zasłonę, oraz trzy lekkie nakładki typu lift-off. Uchwyt ścienny w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy, trzy podwieszane sekcje"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Nakładki",
+    "Trzy lekkie nakładki lift-off"
+   ],
+   [
+    "Kompatybilność",
+    "GE Healthcare Elegance"
+   ],
+   [
+    "Uchwyt ścienny",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head-siemens": {
+  "model": "313/A2-001 – Osłona od strony głowy do Siemens Artis / TruSystem (525/7500 mm)",
+  "description": "Osłona od strony głowy do szerokich stołów Siemens Artis 525 mm / TruSystem 7500 mm. Stała sekcja środkowa i dwa odchylne ramiona boczne z elastyczną zasłoną. Uchwyt ścienny w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy (dostosowana do urządzenia)"
+   ],
+   [
+    "Wymiary",
+    "120 × 80 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłona",
+    "Elastyczna"
+   ],
+   [
+    "Kompatybilność",
+    "Siemens Artis (525 mm) / TruSystem (7500 mm)"
+   ],
+   [
+    "Uchwyt ścienny",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head-zee": {
+  "model": "313/A2-008 – Osłona od strony głowy do Siemens Artis zee (MP) 550 mm",
+  "description": "Osłona od strony głowy do szerokich stołów Siemens Artis zee (MP) 550 mm. Stała sekcja środkowa i dwa odchylne ramiona boczne z elastyczną zasłoną. Uchwyt ścienny w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy (dostosowana do urządzenia)"
+   ],
+   [
+    "Wymiary",
+    "122 × 80 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zasłona",
+    "Elastyczna"
+   ],
+   [
+    "Kompatybilność",
+    "Siemens Artis zee MP (550 mm)"
+   ],
+   [
+    "Uchwyt ścienny",
+    "W zestawie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-head-a3": {
+  "model": "313/A3 – Osłona od strony głowy z odchylaną nakładką (Allura AD7)",
+  "description": "Osłona od strony głowy do stołów Philips Allura AD7. Stała sekcja środkowa i dwa odchylne ramiona boczne z elastyczną zasłoną; półelastyczna, odchylana w dół osłona nakładkowa w zestawie.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona od strony głowy z odchylaną nakładką"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Budowa",
+    "Stała sekcja środkowa + 2 ramiona odchylne"
+   ],
+   [
+    "Nakładka",
+    "Półelastyczna, odchylana w dół (w zestawie)"
+   ],
+   [
+    "Kompatybilność",
+    "Philips Allura AD7"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-footend": {
+  "model": "311/TC – Osłona stołowa od strony stóp (górna część ciała)",
+  "description": "Osłona stołowa od strony stóp do ochrony górnej części ciała z oknem wziernikowym z akrylu ołowiowego; do stosowania w poprzek stołu w kierunku strony stóp.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Osłona stołowa od strony stóp"
+   ],
+   [
+    "Okno",
+    "Akryl ołowiowy (przezroczysty)"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Zastosowanie",
+    "W poprzek stołu, strona stóp"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-top27": {
+  "model": "312/DS/3.30 – Osłony nakładkowe 27 cm",
+  "description": "Półelastyczne osłony nakładkowe o szerokości 27 cm uzupełniające osłony stołowe o ochronę górnej części ciała.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Półelastyczna osłona nakładkowa"
+   ],
+   [
+    "Szerokość",
+    "27 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Montaż",
+    "Na przystołowe osłony dolnej części ciała"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-top57": {
+  "model": "312/DS/3.32 – Osłony nakładkowe 57 cm",
+  "description": "Półelastyczne osłony nakładkowe o szerokości 57 cm uzupełniające osłony stołowe o ochronę górnej części ciała.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Półelastyczna osłona nakładkowa"
+   ],
+   [
+    "Szerokość",
+    "57 cm"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Montaż",
+    "Na przystołowe osłony dolnej części ciała"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-topset-red": {
+  "model": "312/E/027 – Zestaw osłon nakładkowych, obniżona wysokość",
+  "description": "Zestaw trzech osłon nakładkowych typu lift-off o obniżonej wysokości. Kompatybilny ze wszystkimi osłonami stołowymi 312 o szerokości od 114 cm.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "3-częściowy zestaw osłon nakładkowych (lift-off)"
+   ],
+   [
+    "Wysokość",
+    "Obniżona"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Kompatybilność",
+    "Wszystkie osłony stołowe 312 od 114 cm"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-topset": {
+  "model": "312/E/025 – Zestaw osłon nakładkowych, wysokość standardowa",
+  "description": "Zestaw trzech osłon nakładkowych typu lift-off o wysokości standardowej. Kompatybilny ze wszystkimi osłonami stołowymi 312 o szerokości od 114 cm.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "3-częściowy zestaw osłon nakładkowych (lift-off)"
+   ],
+   [
+    "Wysokość",
+    "Standardowa"
+   ],
+   [
+    "Równoważnik ołowiu",
+    "0,5 mm Pb (@ 150 kV)"
+   ],
+   [
+    "Kompatybilność",
+    "Wszystkie osłony stołowe 312 od 114 cm"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-wallrack-lb": {
+  "model": "312/W-LB – Uchwyt ścienny do osłon dolnej części ciała",
+  "description": "Praktyczne i bezpieczne miejsce przechowywania osłony radiologicznej dolnej części ciała Kenex.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Uchwyt ścienny"
+   ],
+   [
+    "Do",
+    "Jedna osłona dolnej części ciała"
+   ],
+   [
+    "Przeznaczenie",
+    "Bezpieczne, oszczędzające miejsce przechowywanie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-wall-lbt": {
+  "model": "312/W-LBT – Zestaw uchwytów ściennych do osłon stołowych",
+  "description": "Zestaw uchwytów ściennych do bezpiecznego przechowywania osłon stołowych Kenex (osłony dolnej części ciała i osłony nakładkowe).",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Zestaw uchwytów ściennych"
+   ],
+   [
+    "Do",
+    "Osłony dolnej części ciała i osłony nakładkowe"
+   ],
+   [
+    "Przeznaczenie",
+    "Bezpieczne, oszczędzające miejsce przechowywanie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-wall-top": {
+  "model": "312/W-TOP – Uchwyt ścienny do osłon nakładkowych",
+  "description": "Uchwyt ścienny do bezpiecznego przechowywania zdejmowanych osłon nakładkowych Kenex.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Uchwyt ścienny"
+   ],
+   [
+    "Do",
+    "Zdejmowane osłony nakładkowe"
+   ],
+   [
+    "Przeznaczenie",
+    "Bezpieczne, oszczędzające miejsce przechowywanie"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-mobile": {
+  "model": "1342/A2/F – Mobilny wózek do przechowywania (osłony stołowe)",
+  "description": "Mobilny wózek do przechowywania dwóch osłon stołowych dolnej części ciała i zdejmowanych zestawów osłon nakładkowych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdny wózek do przechowywania"
+   ],
+   [
+    "Pojemność",
+    "2 osłony dolnej części ciała + zestawy nakładek"
+   ],
+   [
+    "Kółka",
+    "Blokowane kółka skrętne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-mobile-e": {
+  "model": "1342/A2/E – Mobilny wózek do przechowywania (osłona od strony głowy i osłona stołowa)",
+  "description": "Mobilny wózek do przechowywania jednej osłony od strony głowy, jednej osłony stołowej i jednego zdejmowanego zestawu osłon nakładkowych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdny wózek do przechowywania"
+   ],
+   [
+    "Pojemność",
+    "1 osłona od strony głowy + 1 osłona stołowa + zestaw nakładek"
+   ],
+   [
+    "Kółka",
+    "Blokowane kółka skrętne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-mobile-a3": {
+  "model": "1342/A3/E-001 – Mobilny wózek do przechowywania (313/A3-001)",
+  "description": "Mobilny wózek do przechowywania jednej osłony od strony głowy 313/A3-001, jednej osłony stołowej i jednego zdejmowanego zestawu osłon nakładkowych.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Jezdny wózek do przechowywania"
+   ],
+   [
+    "Pojemność",
+    "1 osłona od strony głowy 313/A3-001 + 1 osłona stołowa + zestaw nakładek"
+   ],
+   [
+    "Kółka",
+    "Blokowane kółka skrętne"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ },
+ "tisch-handles": {
+  "model": "69913 i 69963 – Uchwyty zamienne",
+  "description": "Uchwyty zamienne do osłon stołowych dolnej części ciała.",
+  "specs": [
+   [
+    "Konstrukcja",
+    "Część zamienna"
+   ],
+   [
+    "Do",
+    "Osłony stołowe dolnej części ciała"
+   ],
+   [
+    "Producent",
+    "KENEX (UK)"
+   ]
+  ]
+ }
+}

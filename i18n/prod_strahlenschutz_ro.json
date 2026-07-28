@@ -1,0 +1,1538 @@
+{
+ "vxr-1": {
+  "model": "VXR-1 Șorț frontal",
+  "description": "Șorț modern de protecție frontală pentru aplicații cu expunere la radiație exclusiv frontală. Elasticul cusut în panourile de spate asigură o potrivire optimă la purtarea îndelungată. Opțional cu panouri de spate protectoare.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Șorț de protecție frontală (tip pelerină)"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb (opțional)"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "85–130 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "vxr-2": {
+  "model": "VXR-2 Șorț frontal",
+  "description": "Șorț de protecție frontală care se închide și se scoate ușor din față. Ideal în cazul expunerii exclusiv frontale – confort ridicat la purtare și potrivire excelentă. Opțional cu protecție pentru spate.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Șorț de protecție frontală, cu închidere în față"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb (opțional)"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "85–130 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "pxr-sc": {
+  "model": "PXR-SC Șorț tip tabard",
+  "description": "Reinterpretare a clasicului șorț tip tabard, cu potrivire îmbunătățită în zona axilei. Disponibil în mai multe configurații, cu clemă de umăr simplă sau dublă. Catarame de spate din serie, opțional centură elastică reglabilă pe înălțime.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Șorț tip tabard (tip pelerină, cu suprapunere)"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb (opțional)"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "85–130 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "pxr-th": {
+  "model": "PXR-TH Șorț tip tabard",
+  "description": "Șorț tip tabard cu diverse opțiuni de închidere și potrivire îmbunătățită în zona axilei. Utilizabil versatil pentru diferiți purtători, cu protecție circulară robustă prin suprapunere.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Șorț tip tabard (tip pelerină, cu suprapunere)"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb (opțional)"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "85–130 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "wxr": {
+  "model": "WXR Șorț tip manta",
+  "description": "Șorț tip înfășurare cu protecție dublă în zona de suprapunere. Suprapunere variabilă pentru diferite forme corporale, mai multe decupaje pentru braț. Centura elastică transferă greutatea de pe umeri pentru un confort sporit la purtarea îndelungată.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Șorț tip manta/înfășurare (protecție circulară)"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "85–130 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "wxr-f": {
+  "model": "WXR-F Șorț tip manta (ușor)",
+  "description": "Șorț tip înfășurare pentru întregul corp, cu zone frontale suprapuse care, la o suprapunere corectă, ating nivelul de protecție indicat. Reduce materialul de bază și greutatea, cu acoperire circulară de aproximativ 60 % din circumferința corpului.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Șorț tip manta/înfășurare (protecție circulară)"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "85–130 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-w": {
+  "model": "TXR-W Parte superioară și fustă",
+  "description": "Set de protecție din două piese, alcătuit din parte superioară și fustă, care distribuie greutatea uniform pe umeri și șolduri. Zonă de suprapunere de aproximativ 30 cm pentru ajustare flexibilă a mărimii și protecție dublă asupra zonelor vitale. Opțional niveluri de protecție diferite în față și în spate.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Din două piese – parte superioară (Wrap) + fustă"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "Parte superioară 50–70 cm · Fustă 53–70 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Fustă",
+    "KXR-W Fustă standard de înfășurare / KXR-F Fustă cu înfășurare completă"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-w-lite": {
+  "model": "TXR-W-LITE Parte superioară și fustă",
+  "description": "Variantă mai ușoară a TXR-W: suprapunerea frontală redusă economisește până la 15 % din greutate. Deosebit de potrivit ca șorț personal cu plumb, cu potrivire optimă. Opțional niveluri de protecție diferite în față și în spate.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Din două piese – parte superioară (Wrap Lite) + fustă"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "Parte superioară 50–70 cm · Fustă 53–70 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Fustă",
+    "KXR-W Fustă standard de înfășurare / KXR-F Fustă cu înfășurare completă"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-b": {
+  "model": "TXR-B Parte superioară și fustă",
+  "description": "Set din două piese cu spate elastic pentru o potrivire deosebit de susținută, apropiată de corp – unul dintre cele mai confortabile modele din gamă. Potrivire îmbunătățită în zona axilei, cu sute de combinații pentru femei și bărbați.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Din două piese – parte superioară cu spate elastic + fustă"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "Parte superioară 50–70 cm · Fustă 53–70 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Fustă",
+    "KXR-W Fustă standard de înfășurare"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "txr-f": {
+  "model": "TXR-F Parte superioară și fustă",
+  "description": "Set din două piese cu suprapunere completă – atinge, la purtare corectă, întregul nivel de protecție indicat conform IEC 61331-3:2014. Potrivire îmbunătățită în zona axilei și croială individuală pentru femei și bărbați.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Din două piese – parte superioară (Full Wrap) + fustă"
+   ],
+   [
+    "Echivalent de plumb față",
+    "0,25 / 0,35 / 0,50 / 1,0 mm Pb"
+   ],
+   [
+    "Echivalent de plumb spate",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Lungimi",
+    "Parte superioară 50–70 cm · Fustă 53–70 cm"
+   ],
+   [
+    "Mărimi",
+    "XS–XXL · Decupaj braț S/R/L"
+   ],
+   [
+    "Fustă",
+    "KXR-F Fustă cu înfășurare completă (grosime înjumătățită în panourile frontale)"
+   ],
+   [
+    "Standarde",
+    "EU 2016/425 · IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpv": {
+  "model": "TPV Protecție tiroidă",
+  "description": "Guler pentru protecția tiroidei, pentru protecția suplimentară a zonei gâtului, cu formă frontală ascuțită (formă în V). Ușor, mulat pe corp și disponibil în numeroase culori și modele.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Guler pentru protecție tiroidă"
+   ],
+   [
+    "Formă frontală",
+    "ascuțită (formă în V)"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Închidere",
+    "Închidere cu scai"
+   ],
+   [
+    "Standarde",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpd": {
+  "model": "TPD Protecție tiroidă",
+  "description": "Guler pentru protecția tiroidei cu acoperire frontală în formă de picătură, prelungită în jos, pentru acoperire suplimentară. Ușor și mulat pe corp, disponibil în multe culori.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Guler pentru protecție tiroidă"
+   ],
+   [
+    "Formă frontală",
+    "în formă de picătură, prelungită"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Închidere",
+    "Închidere cu scai"
+   ],
+   [
+    "Standarde",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpdm": {
+  "model": "TPDM Protecție tiroidă (magnetic)",
+  "description": "Guler magnetic pentru protecția tiroidei, de tip D-Type, cu acoperire frontală în formă de picătură. Închiderea se realizează prin magneți de neodim de înaltă calitate în locul închiderii cu scai – acest lucru este mai igienic, nu prinde părul și este astfel deosebit de potrivit pentru părul lung.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Guler pentru protecție tiroidă (magnetic)"
+   ],
+   [
+    "Formă frontală",
+    "în formă de picătură (D-Type)"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Închidere",
+    "Închidere magnetică (neodim)"
+   ],
+   [
+    "Avantaj",
+    "Igienic · nu prinde părul"
+   ],
+   [
+    "Standarde",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "tpb": {
+  "model": "TPB Protecție tiroidă",
+  "description": "Guler pentru protecția tiroidei cu acoperire frontală lată, rotunjită, pentru o acoperire deosebit de generoasă a zonei gâtului și a părții superioare a pieptului.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Guler pentru protecție tiroidă"
+   ],
+   [
+    "Formă frontală",
+    "lată, rotunjită"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Închidere",
+    "Închidere cu scai"
+   ],
+   [
+    "Standarde",
+    "IEC 61331-1:2014 · IEC 61331-3:2014"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "scatter-cap": {
+  "model": "Scatter Cap Light – Bonetă",
+  "description": "Bonetă ușoară pentru protecția împotriva radiației difuze în zona capului/craniului. Confortabilă, reglabilă și concepută pentru utilizare zilnică.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Bonetă împotriva radiației difuze"
+   ],
+   [
+    "Utilizare",
+    "Protecția zonei capului/craniului"
+   ],
+   [
+    "Variantă",
+    "ușoară, reglabilă"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "sleeve": {
+  "model": "Sleeve – Protecție braț/umăr",
+  "description": "Mânecă pentru protecția zonei umărului și a brațului superior împotriva radiației difuze – ideală ca supliment la șorț în cazul expunerii laterale.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Protecție braț/umăr"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "mini-sleeve": {
+  "model": "Mini Sleeve – protecție umăr scurtă",
+  "description": "Variantă scurtă de mânecă pentru protecția țintită a umărului, la o greutate minimă.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Protecție umăr (scurtă)"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,25 / 0,35 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "cricket-pads": {
+  "model": "Cricket Pads – Protecție gambă/labă picior",
+  "description": "Protecție pentru gambe și, opțional, pentru labele picioarelor împotriva radiației difuze – protejează gambele și labele picioarelor în cazul expunerii la nivelul solului, de ex. în radiologia intervențională.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Protecție gambă/labă picior"
+   ],
+   [
+    "Protecție labă picior",
+    "opțional"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,25 / 0,50 mm Pb"
+   ],
+   [
+    "Material de bază",
+    "LEAD-LT / BILAYER-ET / BILAYER-LF"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "mammo-shield": {
+  "model": "mammo-SHIELD™ – Protecție axilă și piept",
+  "description": "Protecție axilă/piept special concepută, care se poziționează sub braț și urmează mișcarea brațului – pentru protecția suplimentară a zonei sensibile a axilei în intervențiile chirurgicale. Se integrează în majoritatea șorțurilor cu plumb și a părților superioare.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Protecție axilă/piept"
+   ],
+   [
+    "Utilizare",
+    "protecție suplimentară a axilei în intervențiile chirurgicale"
+   ],
+   [
+    "Compatibilitate",
+    "se integrează în majoritatea șorțurilor și părților superioare"
+   ],
+   [
+    "Design înregistrat",
+    "Nr. 6284862"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "ha172": {
+  "model": "HA172 – Suport mobil pentru șorțuri",
+  "description": "Suport mobil pentru depozitarea suspendată a șorțurilor de protecție împotriva radiației. Cadru stabil cu roți pentru poziționare flexibilă în încăpere.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Suport mobil pentru șorțuri"
+   ],
+   [
+    "Mobilitate",
+    "4 roți (mobil)"
+   ],
+   [
+    "Material",
+    "Oțel inoxidabil/oțel"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "psmar": {
+  "model": "PSMAR – Suport cu brațe pivotante",
+  "description": "Suport de podea cu brațe pivotante integrate pentru depozitarea ordonată a mai multor șorțuri. Mobil și economisește spațiu.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Suport pentru șorțuri cu brațe pivotante"
+   ],
+   [
+    "Mobilitate",
+    "mobil (roți)"
+   ],
+   [
+    "Material",
+    "Oțel, vopsit în câmp electrostatic"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "ha10kt": {
+  "model": "HA10KT – Suport mobil cu braț pivotant",
+  "description": "Suport mobil cu braț pivotant pentru suspendarea mai multor șorțuri pe brațe pivotante, economisind spațiu.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Suport mobil cu braț pivotant"
+   ],
+   [
+    "Mobilitate",
+    "mobil (roți)"
+   ],
+   [
+    "Capacitate",
+    "mai multe brațe pivotante"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "ps10kt": {
+  "model": "PS10KT – Suport cu braț pivotant",
+  "description": "Suport mobil cu brațe pivotante pentru depozitarea ordonată a îmbrăcămintei de protecție.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Suport cu braț pivotant"
+   ],
+   [
+    "Mobilitate",
+    "mobil (roți)"
+   ],
+   [
+    "Material",
+    "Oțel, vopsit în câmp electrostatic"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "m10s": {
+  "model": "M10S – Suport pivotant rotativ",
+  "description": "Suport de podea cu sistem rotativ de brațe pivotante: șorțurile pot fi suspendate de jur împrejur economisind spațiu și pot fi scoase ușor.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Suport pivotant rotativ"
+   ],
+   [
+    "Funcție",
+    "sistem rotativ de brațe pivotante"
+   ],
+   [
+    "Mobilitate",
+    "mobil (roți)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "ha5k": {
+  "model": "HA5K – Braț pivotant de perete",
+  "description": "Braț pivotant montat pe perete pentru suspendarea mai multor șorțuri; pivotant pentru acces ușor. Potrivit și ca suport de perete/ușă (printre altele SKHK, HARODPS10).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Braț pivotant de perete"
+   ],
+   [
+    "Montaj",
+    "Montaj pe perete"
+   ],
+   [
+    "Capacitate",
+    "mai multe șorțuri"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "hangers": {
+  "model": "Seria de umerașe pentru șorțuri",
+  "description": "Umerașe potrivite pentru depozitarea suspendată, delicată a șorțurilor de protecție împotriva radiației – în diverse variante (lemn, acoperit cu plastic, sârmă).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Umeraș pentru șorțuri"
+   ],
+   [
+    "Variante",
+    "Lemn (HA170) · acoperit (PS170) · sârmă (HA175/HA175C)"
+   ],
+   [
+    "Utilizare",
+    "Suspendare individuală pe suporturi și șine"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-fitover-l": {
+  "model": "FitOver – Ochelari de purtat peste (mărime L)",
+  "description": "Ochelari de protecție radiologică de purtat peste, care se poartă comod peste o pereche de ochelari de vedere existentă – cu protecție laterală împotriva radiației.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de purtat peste (FitOver)"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-fitover-m": {
+  "model": "FitOver – Ochelari de purtat peste (mărime M)",
+  "description": "Ochelari de protecție radiologică de purtat peste, care se poartă comod peste o pereche de ochelari de vedere existentă – cu protecție laterală împotriva radiației.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de purtat peste (FitOver)"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-52": {
+  "model": "Model 52 – Ochelari de protecție radiologică wraparound",
+  "description": "Ochelari de protecție radiologică wraparound, cu ramă înconjurătoare pentru protecție laterală extinsă. La alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție wraparound"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-206": {
+  "model": "Model 206 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-208": {
+  "model": "Model 208 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-400": {
+  "model": "Model 400 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-1205": {
+  "model": "Model 1205 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-9388": {
+  "model": "Model 9388 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-15011": {
+  "model": "Model 15011 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-17012": {
+  "model": "Model 17012 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-20020": {
+  "model": "Model 20020 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-egm": {
+  "model": "Model EGM – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-ex601": {
+  "model": "Model EX601 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-f10": {
+  "model": "Model F10 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-gl1171": {
+  "model": "Model GL1171 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-p820": {
+  "model": "Model P820 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-q100": {
+  "model": "Model Q100 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-q200": {
+  "model": "Model Q200 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-q300": {
+  "model": "Model Q300 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-rg12": {
+  "model": "Model RG12-PTG-038 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-t9538s": {
+  "model": "Model T9538S – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-t9559": {
+  "model": "Model T9559 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-tp280": {
+  "model": "Model TP280 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-x25": {
+  "model": "Model X25 – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică cu lentile de protecție cu plumb și protecție laterală împotriva radiației. Disponibili, la alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-rg55": {
+  "model": "Model RG55 – Ochelari de protecție cu vedere completă (Goggle)",
+  "description": "Ochelari de protecție radiologică cu vedere completă (Goggle), cu bandă de cap reglabilă și potrivire etanșă de jur împrejur – pot fi purtați și peste o pereche de ochelari de vedere.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție cu vedere completă (Goggle)"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-nike": {
+  "model": "Nike Brazen – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică în rama sportivă Nike Brazen – ușori, robuști și cu protecție laterală împotriva radiației. La alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică (ramă sport)"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-oakley": {
+  "model": "Oakley Gascan – Ochelari de protecție radiologică",
+  "description": "Ochelari de protecție radiologică în rama distinctivă Oakley Gascan – aspect sportiv cu protecție laterală împotriva radiației. La alegere, cu sau fără dioptrii (RX).",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Ochelari de protecție radiologică (ramă sport)"
+   ],
+   [
+    "Echivalent de plumb lentile",
+    "0,75 mm Pb"
+   ],
+   [
+    "Protecție laterală",
+    "0,50 mm Pb"
+   ],
+   [
+    "Variantă",
+    "Cu sau fără dioptrii (RX)"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ },
+ "gl-sideshields": {
+  "model": "Protecție laterală împotriva radiației (Side Shields)",
+  "description": "Protecție laterală împotriva radiației pentru completarea ramelor de ochelari compatibile – protejează suplimentar zona ochilor din lateral.",
+  "specs": [
+   [
+    "Tip constructiv",
+    "Protecție laterală împotriva radiației (accesoriu)"
+   ],
+   [
+    "Echivalent de plumb",
+    "0,50 mm Pb"
+   ],
+   [
+    "Montaj",
+    "Pentru rame de ochelari compatibile"
+   ],
+   [
+    "Fabricație",
+    "UK (ROTHBAND)"
+   ]
+  ]
+ }
+}

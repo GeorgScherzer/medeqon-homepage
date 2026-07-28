@@ -1,0 +1,659 @@
+{
+ "kenex-310b3": {
+  "model": "310/B-3 – Mobile radiation shield, height-adjustable",
+  "description": "Compact, easily manoeuvrable mobile radiation shield for confined areas directly at the examination table. Lower protective panel and weight-balanced lead-acrylic window that can be height-adjusted quickly and almost effortlessly. Optionally with side protective panels.",
+  "specs": [
+   ["Design", "Mobile radiation shield, height-adjustable"],
+   ["Lower panel", "78 × 102 cm · 1.0 mm Pb (@ 150 kV)"],
+   ["Lead-acrylic window", "70 cm wide · 0.5 mm Pb (@ 150 kV)"],
+   ["Height adjustment", "Window 115–188 cm from floor"],
+   ["Options", "Side protective panels (317/05-01), 0.5 mm Pb, +68 cm per panel (max. 214 cm)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-326-05": {
+  "model": "326/05 – Over-table radiation shield, height-adjustable",
+  "description": "Mobile radiation shield combining the properties of ceiling- and table-mounted systems: a weight-balanced lead-acrylic window is positioned over the patient and is height-adjustable. Flexible, width-adjustable curtains create a generous protection zone for the operator and assisting staff.",
+  "specs": [
+   ["Design", "Mobile over-table radiation shield"],
+   ["Lead equivalent", "0.5 mm Pb (throughout)"],
+   ["Window", "50 × 116 cm, with corner cut-out"],
+   ["Curtains", "80 cm high · width 45–80 cm"],
+   ["Height", "139–169 cm"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-314-05": {
+  "model": "314/05 – Mobile protective panel stand",
+  "description": "Compact, height-adjustable mobile shield for targeted shielding of patient or operator. A telescopic column with spring assistance carries a flexible protective panel; simple height adjustment.",
+  "specs": [
+   ["Design", "Mobile protective panel stand, height-adjustable"],
+   ["Lead equivalent", "0.5 mm Pb"],
+   ["Height", "85–120 cm"],
+   ["Footprint", "56 × 56 cm"],
+   ["Panel", "70 × 60 cm"],
+   ["Variants", "314/05-01 single panel · 314/05-02 double panel (overlapping)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-303b2": {
+  "model": "303/B2/90 – Mobile radiation protection screen",
+  "description": "Mobile radiation protection screen of solid-panel construction with a lead core, laminated on both sides with high-pressure plastic laminate and fitted with a lead-glass window. Robust, lockable castors and handles for easy mobility.",
+  "specs": [
+   ["Design", "Mobile radiation protection screen (solid panel)"],
+   ["Lead equivalent", "2.2 mm Pb (core & window)"],
+   ["Dimensions", "200 × 90 cm (H × W)"],
+   ["Viewing window", "25 × 25 cm"],
+   ["Colours", "White, cream, light grey, dark grey, turquoise blue, pink"],
+   ["Equipment", "Lockable castors with brake, ABS edge protection, handles"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-303b3": {
+  "model": "303/B3/90 – Panoramic radiation protection screen",
+  "description": "Mobile radiation protection screen like the 303/B2/90, but with a wide panoramic lead-glass window for extended visibility. Solid-panel construction with a lead core, high-pressure laminate on both sides, lockable castors and handles.",
+  "specs": [
+   ["Design", "Mobile radiation protection screen (panoramic)"],
+   ["Lead equivalent", "2.2 mm Pb (core & window)"],
+   ["Dimensions", "200 × 90 cm (H × W)"],
+   ["Panoramic window", "25 × 62 cm"],
+   ["Colours", "White, cream, light grey, dark grey, turquoise blue, pink"],
+   ["Equipment", "Neoprene seals, lockable castors, handles"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-354lr": {
+  "model": "354/P/88-207/LR – Overhead shield (lead acrylic)",
+  "description": "Centrally suspended overhead protective shield made of lead acrylic with a patient-contour cut-out and a flexible curtain extension; for mounting on the VALiA-MD21+ suspension arm. Static upper-body protection.",
+  "specs": [
+   ["Design", "Overhead protective shield (centrally suspended)"],
+   ["Dimensions", "85 × 80 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Material", "Lead acrylic with flexible curtain"],
+   ["Rotation", "360°"],
+   ["Weight", "15.8 kg"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-354": {
+  "model": "354 – Overhead shield with central suspension",
+  "description": "Transparent, centrally suspended upper-body protective shield – optionally with a patient-contour cut-out. Ball joint for 360° rotation and tilting movement.",
+  "specs": [
+   ["Design", "Overhead protective shield (central suspension)"],
+   ["Lead equivalent", "0.5 mm Pb (lead acrylic)"],
+   ["Shield sizes", "85×80 · 76×61 · 40×50 cm"],
+   ["Movement", "Ball joint, 360°"],
+   ["Mounting", "Arm · ceiling · ceiling rail · wall"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-351": {
+  "model": "351 – Overhead shield with horizontal swivel",
+  "description": "Transparent lead-acrylic overhead shield with a horizontal swivel axis in landscape format. Optional patient-contour cut-out and flexible lead panels.",
+  "specs": [
+   ["Design", "Overhead protective shield (horizontal swivel)"],
+   ["Lead equivalent", "0.5 mm Pb"],
+   ["Shield sizes", "60×80 · 40×50 cm"],
+   ["Orientation", "Landscape format"],
+   ["Mounting", "Arm · ceiling · ceiling rail · wall"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-350": {
+  "model": "350 – Eye & thyroid shield",
+  "description": "Transparent protective shield designed specifically for eye and thyroid protection, landscape format with horizontal swivel and a flexible lower curtain.",
+  "specs": [
+   ["Design", "Eye/thyroid shield"],
+   ["Lead glass", "≥ 2.2 mm Pb"],
+   ["Lower curtain", "0.5 mm Pb"],
+   ["Shield sizes", "40×50 · 30×40 cm"],
+   ["Column", "80 cm (standard)"],
+   ["Mounting", "Ceiling · rail · wall"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-354led": {
+  "model": "354/P76/LED – Overhead shield with LED lamp",
+  "description": "Combination of a centrally suspended 354 protective shield and an integrated LED surgical lamp – stationary or mobile (ceiling rail). Upper-body protection with optimal illumination.",
+  "specs": [
+   ["Design", "Overhead shield + LED lamp"],
+   ["Shield", "76 × 61 cm · 0.5 mm Pb · patient contour"],
+   ["LED options", "130F (70,000 lux) · 150F (110,000) · 300DF SC (160,000)"],
+   ["Scope of supply", "80 cm ceiling column + 2 arms"],
+   ["Mounting", "Ceiling or rail (250/420 cm)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-351led": {
+  "model": "351/P68/LED – Overhead shield with LED lamp",
+  "description": "Combination of a 351 protective shield (horizontal swivel) and an integrated LED surgical lamp, stationary or mobile.",
+  "specs": [
+   ["Design", "Overhead shield + LED lamp"],
+   ["Shield", "60 × 80 cm · 0.5 mm Pb"],
+   ["LED options", "130F · 150F · 300DF SC"],
+   ["Mounting", "Ceiling or rail (250/420 cm)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-350led": {
+  "model": "350/45/LED – Eye/thyroid shield with LED lamp",
+  "description": "Combination of a 350 eye/thyroid shield and an integrated LED surgical lamp, stationary or mobile.",
+  "specs": [
+   ["Design", "Eye/thyroid shield + LED lamp"],
+   ["Shield", "40 × 50 cm · 0.5 mm Pb"],
+   ["LED options", "130F · 150F · 300DF SC"],
+   ["Mounting", "Ceiling or rail (250/420 cm)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-308": {
+  "model": "308 – Flexible overhead lead shield",
+  "description": "Flexible overhead protective shield made of overlapping lead-vinyl slats with a fold-up central section (press-stud). Suspension arm included.",
+  "specs": [
+   ["Design", "Flexible overhead lead shield"],
+   ["Lead equivalent", "0.5 mm Pb"],
+   ["Dimensions", "50 × 100 cm"],
+   ["Material", "Lead vinyl (flexible)"],
+   ["Mounting", "Stationary · wall · ceiling rail"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-3001tc": {
+  "model": "3001/TC – Ceiling rail with trolley",
+  "description": "Heavy-duty aluminium ceiling rail with a smooth-running trolley and optional cable management (energy chain) for the mobile suspension of shields, lamps and monitors.",
+  "specs": [
+   ["Design", "Ceiling rail + trolley"],
+   ["Material", "Aluminium"],
+   ["Lengths", "2.5 m · 4.2 m"],
+   ["Trolley", "1 (max. 2)"],
+   ["Options", "Energy-chain cable routing"],
+   ["Mounting", "Unistrut or similar"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-333": {
+  "model": "333 – Monitor suspension",
+  "description": "Suspension system for flat-screen monitors with a long-reach spring-balanced arm; stationary, on a ceiling rail or wall-mounted.",
+  "specs": [
+   ["Design", "Monitor suspension"],
+   ["Load capacity", "5–10 kg"],
+   ["Reach", "Spring arm 186 cm"],
+   ["Column", "80 cm double joint"],
+   ["VESA", "100 mm"],
+   ["Mounting", "Stationary · rail · wall"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-300arm": {
+  "model": "300/ARM – Suspension arm",
+  "description": "Robust suspension arm for flexible movement over a large area; with a patented safety collar. For ceiling or rail mounting.",
+  "specs": [
+   ["Design", "Suspension arm (spring-balanced)"],
+   ["Extension arm", "95 cm"],
+   ["Spring arm", "91 cm"],
+   ["Load capacity", "up to 18 kg"],
+   ["Safety", "Patented safety collar"],
+   ["Mounting", "Ceiling · trolley"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-300column": {
+  "model": "300/COLUMN – Ceiling column with double joint",
+  "description": "Steel ceiling column with two pivot points (one point electrically wired) for arm and lamp connection; stationary or on the trolley.",
+  "specs": [
+   ["Design", "Ceiling column (double joint)"],
+   ["Material", "Steel"],
+   ["Lengths", "40 · 60 · 80 · 100 cm"],
+   ["Feature", "One pivot point electrically wired"],
+   ["Mounting", "Ceiling · trolley"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-300p004": {
+  "model": "300/P/004 – Ceiling mounting plate",
+  "description": "Steel mounting plate for the static installation of KENEX ceiling columns, usable above or below suspended ceilings (column supplied separately).",
+  "specs": [
+   ["Design", "Ceiling mounting plate"],
+   ["Dimensions", "73.5 × 34 × 3.4 cm"],
+   ["Material", "Steel"],
+   ["Mounting", "Above/below suspended ceilings"],
+   ["Note", "Column supplied separately"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-300p014": {
+  "model": "300/P/014 – Ceiling anchor ring & plate",
+  "description": "Mounting platform for the void between the suspended and solid ceiling (8.5–30 cm). After adjustment, an upright, stable mounting base (column supplied separately).",
+  "specs": [
+   ["Design", "Ceiling anchor mounting platform"],
+   ["Ceiling void", "8.5–30 cm"],
+   ["Note", "Column supplied separately (standard 80 cm)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "kenex-300p012": {
+  "model": "300/P/012 – Ceiling-void mounting platform",
+  "description": "Mounting platform for the void between the suspended and solid ceiling up to 90 cm; supplied disassembled and adjusted exactly to the spacing.",
+  "specs": [
+   ["Design", "Ceiling-void mounting platform"],
+   ["Ceiling void", "up to 90 cm"],
+   ["Delivery", "Disassembled (adjustable)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-78": {
+  "model": "312/E-005 – Lower-body table shield 78 cm",
+  "description": "Lower-body table shields with a simple friction swivel joint and optional add-on shields.",
+  "specs": [
+   ["Design", "Lower-body table shield"],
+   ["Dimensions", "78 × 70 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Simple friction swivel joint"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-92": {
+  "model": "312/E-010 – Lower-body table shield 92 cm",
+  "description": "Lower-body table shields with a double friction joint and optional add-on shields.",
+  "specs": [
+   ["Design", "Lower-body table shield"],
+   ["Width", "92 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Double friction joint"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-92cr": {
+  "model": "312/E-013 – Table shield 92 cm, collision-resistant",
+  "description": "Collision-resistant table shield with a double friction joint and a 57 cm wide, removable lift-off add-on shield.",
+  "specs": [
+   ["Design", "Collision-resistant table shield"],
+   ["Width", "92 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Double friction joint"],
+   ["Add-on shield", "57 cm wide, lift-off"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-100": {
+  "model": "312/E-015 – Lower-body table shield 100 cm",
+  "description": "Lower-body table shields with a simple friction swivel joint, an integrated 35 cm accessory rail and optional add-on shields.",
+  "specs": [
+   ["Design", "Lower-body table shield"],
+   ["Width", "100 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Simple friction swivel joint"],
+   ["Accessory rail", "35 cm integrated"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-114": {
+  "model": "312/E-020 – Lower-body table shield 114 cm",
+  "description": "Lower-body table shields with a double friction joint, an integrated 35 cm accessory rail and optional add-on shields.",
+  "specs": [
+   ["Design", "Lower-body table shield"],
+   ["Width", "114 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Double friction joint"],
+   ["Accessory rail", "35 cm integrated"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-114cr": {
+  "model": "312/E-023 – Table shield 114 cm, collision-resistant",
+  "description": "Collision-resistant table shield with a double friction joint, an integrated 35 cm accessory rail and a 57 cm wide lift-off add-on shield.",
+  "specs": [
+   ["Design", "Collision-resistant table shield"],
+   ["Width", "114 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Double friction joint"],
+   ["Accessory rail", "35 cm integrated"],
+   ["Add-on shield", "57 cm wide, lift-off"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-89": {
+  "model": "311/DS-020 – Table shield 89 cm with fold-down add-on (Philips)",
+  "description": "Lower-body table shield with an overlapping curtain, central connection and a 52 cm wide fold-down add-on shield. For Philips Medical Systems tables.",
+  "specs": [
+   ["Design", "Lower-body table shield with fold-down add-on"],
+   ["Width", "89 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Add-on shield", "52 cm wide, fold-down"],
+   ["Curtain", "Overlapping, with central connection"],
+   ["Compatibility", "Philips Medical Systems (part no. 9896-000-77201 & -77202)"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-92ds": {
+  "model": "312/DS-006 – Table-side shield 92 cm",
+  "description": "92 cm wide table-side lower-body shield with a double friction joint and optional add-on shields.",
+  "specs": [
+   ["Design", "Table-side lower-body shield"],
+   ["Width", "92 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Double friction joint"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-92ds-cr": {
+  "model": "312/DS-008 – Table shield 92 cm, collision-resistant",
+  "description": "Collision-resistant table shield with a double friction joint and an optional add-on shield set.",
+  "specs": [
+   ["Design", "Collision-resistant table shield"],
+   ["Width", "92 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Joint", "Double friction joint"],
+   ["Add-on shield set", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-137-5": {
+  "model": "312/DS-039/5 – Table shield 137 cm, collision-resistant",
+  "description": "Collision-resistant table shield with two overlapping curtains, a double friction joint and a 57 cm accessory rail. Optional add-on shields.",
+  "specs": [
+   ["Design", "Collision-resistant table shield"],
+   ["Width", "137 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtains", "Two overlapping curtains"],
+   ["Joint", "Double friction joint"],
+   ["Accessory rail", "57 cm"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-137-6": {
+  "model": "312/DS-039/6 – Table shield 137 cm, collision-resistant",
+  "description": "Collision-resistant table shield with two overlapping curtains, a double friction joint, an integrated 57 cm accessory rail and optional add-on shields.",
+  "specs": [
+   ["Design", "Collision-resistant table shield"],
+   ["Width", "137 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtains", "Two overlapping curtains"],
+   ["Joint", "Double friction joint"],
+   ["Accessory rail", "57 cm integrated"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-137-63": {
+  "model": "312/DS-039/6/3 – Table shield 137 cm, collision-resistant (with add-on set)",
+  "description": "Collision-resistant table shield with two overlapping curtains, a double friction joint, an integrated 57 cm accessory rail and a complete add-on shield set.",
+  "specs": [
+   ["Design", "Collision-resistant table shield"],
+   ["Width", "137 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtains", "Two overlapping curtains"],
+   ["Joint", "Double friction joint"],
+   ["Accessory rail", "57 cm integrated"],
+   ["Add-on set", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-137deep": {
+  "model": "312/DS-060/1/3 – Table shield 137 cm with deep mounting bracket",
+  "description": "Collision-resistant table shield with two overlapping curtains, a deep mounting bracket, a double friction joint and an integrated 65 cm accessory rail. Add-on shields included.",
+  "specs": [
+   ["Design", "Table shield with deep mounting bracket"],
+   ["Width", "137 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtains", "Two overlapping curtains"],
+   ["Joint", "Double friction joint"],
+   ["Accessory rail", "65 cm integrated"],
+   ["Add-on shields", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-162cr": {
+  "model": "312/DS-039/10/4 – Table shield 162 cm, extra-wide & collision-resistant",
+  "description": "Extra-wide, collision-resistant table shield with two overlapping curtains; two versions of the 57 cm accessory rail included. Optionally with or without add-on shields.",
+  "specs": [
+   ["Design", "Extra-wide, collision-resistant table shield"],
+   ["Width", "162 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtains", "Two overlapping curtains"],
+   ["Accessory rail", "57 cm (two versions included)"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-162": {
+  "model": "312/DS-039/9/4 – Table shield 162 cm, extra-wide",
+  "description": "Extra-wide table shield with a flexible curtain; two versions of the 57 cm accessory rail included. Optionally with or without add-on shields.",
+  "specs": [
+   ["Design", "Extra-wide table shield"],
+   ["Width", "162 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtain", "Flexible"],
+   ["Accessory rail", "57 cm (two versions included)"],
+   ["Add-on shields", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-deepbracket": {
+  "model": "312/DS-099 – Deep mounting bracket with accessory rail",
+  "description": "Multi-purpose mounting bracket with a 65 cm accessory rail for mounting table-side rail equipment on a table top that travels far laterally.",
+  "specs": [
+   ["Design", "Mounting bracket / accessory rail"],
+   ["Accessory rail", "65 cm"],
+   ["Purpose", "Table-side rail equipment on a laterally travelling table top"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head": {
+  "model": "313/A2 – Head-end table shield (custom-made)",
+  "description": "Custom-made head-end shield: lightweight, robust construction with a fixed central section and two swivelling side arms carrying a flexible curtain (0.5 mm Pb). Wall bracket optional.",
+  "specs": [
+   ["Design", "Head-end shield, fixed central section + 2 swivel arms"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtain", "Flexible"],
+   ["Wall bracket", "Optional"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head-baxter": {
+  "model": "313/A2-018 – Head-end shield for Baxter Carbon FloatLine / SQ14 X-TRA",
+  "description": "Head-end shield for Baxter Carbon FloatLine and SQ14 X-TRA tables. Lightweight, robust construction with a fixed central section and two swivelling side arms with a flexible curtain. Wall bracket included.",
+  "specs": [
+   ["Design", "Head-end shield (machine-specific)"],
+   ["Dimensions", "120 × 80 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtain", "Flexible"],
+   ["Compatibility", "Baxter Carbon FloatLine, SQ14 X-TRA"],
+   ["Wall bracket", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head-canon": {
+  "model": "313/A2-014 – Head-end shield for Canon Medical (Toshiba) tilt/cradle table",
+  "description": "Head-end shield for Canon Medical (Toshiba) tilt/cradle tables. Fixed central section and two swivelling side arms with a flexible curtain. Wall bracket included.",
+  "specs": [
+   ["Design", "Head-end shield (machine-specific)"],
+   ["Dimensions", "114 × 78.5 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtain", "Flexible"],
+   ["Compatibility", "Canon Medical / Toshiba (tilt/cradle table)"],
+   ["Wall bracket", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head-ge": {
+  "model": "313/A2-010 – Head-end shield for GE Healthcare Elegance",
+  "description": "Head-end shield for GE Healthcare Elegance tables. Table-top adapter with three suspended sections, each carrying a flexible curtain, plus three lightweight lift-off add-ons. Wall bracket included.",
+  "specs": [
+   ["Design", "Head-end shield, three suspended sections"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Add-ons", "Three lightweight lift-off add-ons"],
+   ["Compatibility", "GE Healthcare Elegance"],
+   ["Wall bracket", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head-siemens": {
+  "model": "313/A2-001 – Head-end shield for Siemens Artis / TruSystem (525/7500 mm)",
+  "description": "Head-end shield for Siemens 525 mm Artis / 7500 mm TruSystem wide tables. Fixed central section and two swivelling side arms with a flexible curtain. Wall bracket included.",
+  "specs": [
+   ["Design", "Head-end shield (machine-specific)"],
+   ["Dimensions", "120 × 80 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtain", "Flexible"],
+   ["Compatibility", "Siemens Artis (525 mm) / TruSystem (7500 mm)"],
+   ["Wall bracket", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head-zee": {
+  "model": "313/A2-008 – Head-end shield for Siemens Artis zee (MP) 550 mm",
+  "description": "Head-end shield for Siemens 550 mm wide Artis zee (MP) tables. Fixed central section and two swivelling side arms with a flexible curtain. Wall bracket included.",
+  "specs": [
+   ["Design", "Head-end shield (machine-specific)"],
+   ["Dimensions", "122 × 80 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Curtain", "Flexible"],
+   ["Compatibility", "Siemens Artis zee MP (550 mm)"],
+   ["Wall bracket", "Included"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-head-a3": {
+  "model": "313/A3 – Head-end shield with fold-down add-on (Allura AD7)",
+  "description": "Head-end shield for Philips Allura AD7 tables. Fixed central section and two swivelling side arms with a flexible curtain; semi-flexible fold-down add-on shield included.",
+  "specs": [
+   ["Design", "Head-end shield with fold-down add-on"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Construction", "Fixed central section + 2 swivel arms"],
+   ["Add-on", "Semi-flexible, fold-down (included)"],
+   ["Compatibility", "Philips Allura AD7"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-footend": {
+  "model": "311/TC – Foot-end table shield (upper body)",
+  "description": "Foot-end table shield for the upper body with a lead-acrylic viewing window; for use across the table towards the foot end.",
+  "specs": [
+   ["Design", "Foot-end table shield"],
+   ["Window", "Lead acrylic (transparent)"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Use", "Across the table, foot end"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-top27": {
+  "model": "312/DS/3.30 – Add-on shields 27 cm",
+  "description": "27 cm wide, semi-flexible add-on shields to extend the table shields with upper-body protection.",
+  "specs": [
+   ["Design", "Semi-flexible add-on shield"],
+   ["Width", "27 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Mounting", "On table-side lower-body shields"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-top57": {
+  "model": "312/DS/3.32 – Add-on shields 57 cm",
+  "description": "57 cm wide, semi-flexible add-on shields to extend the table shields with upper-body protection.",
+  "specs": [
+   ["Design", "Semi-flexible add-on shield"],
+   ["Width", "57 cm"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Mounting", "On table-side lower-body shields"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-topset-red": {
+  "model": "312/E/027 – Add-on shield set, reduced height",
+  "description": "Set of three lift-off add-on shields in reduced height. Compatible with all 312 table shields from 114 cm wide.",
+  "specs": [
+   ["Design", "3-piece add-on shield set (lift-off)"],
+   ["Height", "Reduced"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Compatibility", "All 312 table shields from 114 cm"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-topset": {
+  "model": "312/E/025 – Add-on shield set, standard height",
+  "description": "Set of three lift-off add-on shields in standard height. Compatible with all 312 table shields from 114 cm wide.",
+  "specs": [
+   ["Design", "3-piece add-on shield set (lift-off)"],
+   ["Height", "Standard"],
+   ["Lead equivalent", "0.5 mm Pb (@ 150 kV)"],
+   ["Compatibility", "All 312 table shields from 114 cm"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-wallrack-lb": {
+  "model": "312/W-LB – Wall bracket for lower-body shields",
+  "description": "A practical and safe storage location for a Kenex lower-body radiation protection shield.",
+  "specs": [
+   ["Design", "Wall bracket"],
+   ["For", "One lower-body shield"],
+   ["Purpose", "Safe, space-saving storage"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-wall-lbt": {
+  "model": "312/W-LBT – Wall bracket set for table shields",
+  "description": "Wall bracket set for the safe storage of Kenex table shields (lower-body and add-on shields).",
+  "specs": [
+   ["Design", "Wall bracket set"],
+   ["For", "Lower-body and add-on shields"],
+   ["Purpose", "Safe, space-saving storage"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-wall-top": {
+  "model": "312/W-TOP – Wall bracket for add-on shields",
+  "description": "Wall bracket for the safe storage of removable Kenex add-on shields.",
+  "specs": [
+   ["Design", "Wall bracket"],
+   ["For", "Removable add-on shields"],
+   ["Purpose", "Safe, space-saving storage"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-mobile": {
+  "model": "1342/A2/F – Mobile storage trolley (table shields)",
+  "description": "Mobile storage trolley for two lower-body table shields and removable add-on shield sets.",
+  "specs": [
+   ["Design", "Mobile storage trolley"],
+   ["Capacity", "2 lower-body shields + add-on sets"],
+   ["Castors", "Lockable castors"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-mobile-e": {
+  "model": "1342/A2/E – Mobile storage trolley (head-end & table shield)",
+  "description": "Mobile storage trolley for one head-end shield, one table shield and one removable add-on shield set.",
+  "specs": [
+   ["Design", "Mobile storage trolley"],
+   ["Capacity", "1 head-end shield + 1 table shield + add-on set"],
+   ["Castors", "Lockable castors"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-mobile-a3": {
+  "model": "1342/A3/E-001 – Mobile storage trolley (313/A3-001)",
+  "description": "Mobile storage trolley for one 313/A3-001 head-end shield, one table shield and one removable add-on shield set.",
+  "specs": [
+   ["Design", "Mobile storage trolley"],
+   ["Capacity", "1 head-end shield 313/A3-001 + 1 table shield + add-on set"],
+   ["Castors", "Lockable castors"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ },
+ "tisch-handles": {
+  "model": "69913 & 69963 – Replacement handles",
+  "description": "Replacement handles for lower-body table shields.",
+  "specs": [
+   ["Design", "Spare part"],
+   ["For", "Lower-body table shields"],
+   ["Manufacturer", "KENEX (UK)"]
+  ]
+ }
+}
