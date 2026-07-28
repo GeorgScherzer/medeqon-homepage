@@ -310,7 +310,11 @@
           "lph": "LPH1-LPH8",
           "umfang": "Errichtung einer PET-CT-Anlage und eines zusätzlichen Arbeitsplatzes für die Aufbereitung der Radionuklide.",
           "kosten": "€ 1,800,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/austausch-pet-ct/1.jpg",
+            "assets/ref/austausch-pet-ct/2.jpg"
+          ]
         },
         {
           "name": "Austausch einer Angiographieanlage",
@@ -335,13 +339,6 @@
           ]
         },
         {
-          "name": "Austausch einer Angiographieanlage 3",
-          "lph": "LPH1-LPH9",
-          "umfang": "Austausch der bestehenden Angiographie-Anlage. Verlegung des Technikraumes der Anlage auf die darüberliegende Ebene. Adaptierung und Modernisierung des Bedienraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverser mobiler und ortsfester Medizintechnik.",
-          "kosten": "€ 1,500,000",
-          "dauer": "3 Jahr"
-        },
-        {
           "name": "Modernisierung einer 8 Betten Intensivstation",
           "lph": "LPH1-LPH2",
           "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume.",
@@ -350,13 +347,6 @@
           "imgs": [
             "assets/ref/modernisierung-einer-8-betten-intensivstation/1.jpg"
           ]
-        },
-        {
-          "name": "Austausch Angiographieanlage",
-          "lph": "LPH1-LPH9",
-          "umfang": "Austausch des Altgeräts auf ein modernes System sowie Modernisierung und Adaptierung des Waschraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-          "kosten": "€ 1,500,000",
-          "dauer": "3 Jahre"
         },
         {
           "name": "Ganzkörper PET CT",
@@ -373,7 +363,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Austausch von zwei Matratzendesinfektionsanlagen inklusive Adaptierung der medizinischen Verbauten aus Metall.",
           "kosten": "€ 1,000,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/austausch-von-zwei-matratzendesinfektoren/1.jpg",
+            "assets/ref/austausch-von-zwei-matratzendesinfektoren/2.jpg"
+          ]
         },
         {
           "name": "Physikalische Medizin Modernisierung und Adaptierung",
@@ -385,13 +379,6 @@
             "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/1.jpg",
             "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/2.jpg"
           ]
-        },
-        {
-          "name": "Austausch Thorax-Aufnahmeplatz",
-          "lph": "LPH1-LPH9",
-          "umfang": "Austausch der Bestandsanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
-          "kosten": "€ 600,000",
-          "dauer": "3 Jahre"
         },
         {
           "name": "Austausch Röntgenaufnahmeplatz",
@@ -479,14 +466,21 @@
           "lph": "LPH1-LPH9",
           "umfang": "Modernisierung und Neustrukturierung der Ambulanzbereiche der Kardiologie und Angiologie (15 Räume).",
           "kosten": "€ 150,000",
-          "dauer": "4 Jahre"
+          "dauer": "4 Jahre",
+          "imgs": [
+            "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/1.jpg",
+            "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/2.jpg"
+          ]
         },
         {
           "name": "Errichtung von Untersuchung- und Behandlungsräumen",
           "lph": "LPH1-LPH9",
           "umfang": "Umfunktionierung von einem Laborbereich zu drei Untersuchungs- und Behandlungsräumen.",
           "kosten": "€ 150,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-von-untersuchung-und-behandlungsraumen/1.jpg"
+          ]
         },
         {
           "name": "Adaptierung der Aufbereitung OP1, OP2 und Z-Steri",
