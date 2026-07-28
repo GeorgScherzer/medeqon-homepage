@@ -1823,7 +1823,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Consulting &amp; Lehre<span class="end-dot">.</span></h2>
       <div class="sub">Herstellerunabhängige Beratung mit technischem Know-how – individuell, praxisnah und lösungsorientiert – sowie akademische Lehr- und Betreuungstätigkeit.</div>
     </div>
-''' + _filter_block(_CONS_GROUPS, add_all=False, collapsed=True) + '''
+''' + _filter_block(_CONS_GROUPS, add_all=True, collapsed=True) + '''
   </div>
 </section>
 
