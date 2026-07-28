@@ -468,7 +468,7 @@ BODY_INDEX = '''<section class="m-hero-main">
           <g font-family="Hanken Grotesk, sans-serif" font-size="14.5" font-weight="700" fill="#0F1B2C">
             <text x="160" y="20" text-anchor="middle">IFC</text>
             <text x="294" y="155" text-anchor="start">REVIT</text>
-            <text x="160" y="288" text-anchor="middle">BCF</text>
+            <text x="160" y="297" text-anchor="middle">BCF</text>
             <text x="26" y="155" text-anchor="end">Daten</text>
           </g>
         </svg>
@@ -3372,7 +3372,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <g font-family="Hanken Grotesk, sans-serif" font-size="14.5" font-weight="700" fill="#0F1B2C">
             <text x="160" y="20" text-anchor="middle">IFC</text>
             <text x="294" y="155" text-anchor="start">REVIT</text>
-            <text x="160" y="288" text-anchor="middle">BCF</text>
+            <text x="160" y="297" text-anchor="middle">BCF</text>
             <text x="26" y="155" text-anchor="end">Data</text>
           </g>
         </svg>
@@ -3664,6 +3664,84 @@ _RO_MAP = [
 
 BODY_INDEX_PL = _tr(BODY_INDEX_EN, _PL_MAP, "PL")
 BODY_INDEX_RO = _tr(BODY_INDEX_EN, _RO_MAP, "RO")
+
+# ---- Integriertes Planungsmodell / Integrated Design Model als Inline-SVG ----
+# Sprachneutral aufgebaute Grafik (verschwimmt mit dem mist-blauen Abschnitt),
+# Beschriftungen je Sprache. Ersetzt das frühere PNG in allen Sprachen.
+import math as _math
+_MDL_C = (750, 512); _MDL_Ro, _MDL_Ri, _MDL_Rc, _MDL_Rl = 252, 152, 140, 190
+_MDL_SEGS = {"arch": (184, 266, "#004AAD"), "med": (274, 356, "#2A6ABC"),
+             "geb": (4, 86, "#4F8BCB"), "betr": (94, 176, "#79A9D6")}
+_MDL_EXT = {"budget": dict(tx=40, ty=250, anc="start", dot_a=250, elbow=(470, 250)),
+            "hyg": dict(tx=1460, ty=250, anc="end", dot_a=290, elbow=(1030, 250)),
+            "user": dict(tx=40, ty=832, anc="start", dot_a=110, elbow=(470, 832)),
+            "reg": dict(tx=1460, ty=832, anc="end", dot_a=70, elbow=(1030, 832))}
+_MDL_TXT = {
+ "de": dict(title="INTEGRIERTES PLANUNGSMODELL", arch="ARCHITEKTUR", med="MEDIZINTECHNIK",
+            geb="GEBÄUDETECHNIK", betr="BETRIEBSORGANISATION",
+            budget="BUDGET", hyg="HYGIENEANFORDERUNGEN", user="NUTZERBEDÜRFNISSE", reg="BEHÖRDLICHE ANFORDERUNGEN",
+            cap1="BIM bildet die zentrale Koordinationsdrehscheibe im Kern der",
+            cap2="Zusammenarbeit. Externe Faktoren prägen den Planungsprozess."),
+ "en": dict(title="INTEGRATED DESIGN MODEL", arch="ARCHITECTURE", med="MEDICAL TECHNOLOGY",
+            geb="BUILDING SERVICES", betr="OPERATIONAL ORG.",
+            budget="BUDGET", hyg="HYGIENE REQUIREMENTS", user="USER NEEDS", reg="REGULATORY REQUIREMENTS",
+            cap1="BIM serves as the central coordination hub at the core of",
+            cap2="collaboration. External factors shape the design process."),
+ "pl": dict(title="ZINTEGROWANY MODEL PROJEKTOWY", arch="ARCHITEKTURA", med="TECHNIKA MEDYCZNA",
+            geb="INSTALACJE BUDYNKU", betr="ORGANIZACJA OPERACYJNA",
+            budget="BUDŻET", hyg="WYMAGANIA HIGIENICZNE", user="POTRZEBY UŻYTKOWNIKÓW", reg="WYMOGI URZĘDOWE",
+            cap1="BIM stanowi centralny węzeł koordynacji w rdzeniu",
+            cap2="współpracy. Czynniki zewnętrzne kształtują proces projektowania."),
+ "ro": dict(title="MODEL DE PROIECTARE INTEGRAT", arch="ARHITECTURĂ", med="TEHNOLOGIE MEDICALĂ",
+            geb="INSTALAȚIILE CLĂDIRII", betr="ORG. OPERAȚIONALĂ",
+            budget="BUGET", hyg="CERINȚE DE IGIENĂ", user="NEVOILE UTILIZATORILOR", reg="CERINȚE DE REGLEMENTARE",
+            cap1="BIM constituie platforma centrală de coordonare în centrul",
+            cap2="colaborării. Factorii externi modelează procesul de proiectare."),
+}
+def _mdl_pt(a_deg, r):
+    a = _math.radians(a_deg)
+    return (_MDL_C[0] + r * _math.cos(a), _MDL_C[1] + r * _math.sin(a))
+def _mdl_seg(a1, a2):
+    P1 = _mdl_pt(a1, _MDL_Ro); P2 = _mdl_pt(a2, _MDL_Ro)
+    P3 = _mdl_pt(a2, _MDL_Ri); P4 = _mdl_pt(a1, _MDL_Ri)
+    return (f'M {P1[0]:.1f} {P1[1]:.1f} A {_MDL_Ro} {_MDL_Ro} 0 0 1 {P2[0]:.1f} {P2[1]:.1f} '
+            f'L {P3[0]:.1f} {P3[1]:.1f} A {_MDL_Ri} {_MDL_Ri} 0 0 0 {P4[0]:.1f} {P4[1]:.1f} Z')
+def _mdl_arc(a1, a2, r):
+    P1 = _mdl_pt(a1, r); P2 = _mdl_pt(a2, r)
+    return f'M {P1[0]:.1f} {P1[1]:.1f} A {r} {r} 0 0 1 {P2[0]:.1f} {P2[1]:.1f}'
+def _design_model_svg(lang):
+    t = _MDL_TXT[lang]; C = _MDL_C; o = []
+    o.append(f'<svg class="m-mtd-svg" viewBox="0 0 1500 1016" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{_html.escape(t["title"])}">')
+    o.append('<defs>')
+    for k, (a1, a2, _c) in _MDL_SEGS.items():
+        o.append(f'<path id="tp-{lang}-{k}" fill="none" d="{_mdl_arc(a1, a2, _MDL_Rl)}"/>')
+    o.append('</defs>')
+    o.append(f'<text x="20" y="48" font-family="IBM Plex Mono, monospace" font-size="34" font-weight="600" letter-spacing="7" fill="#3D6BB0">{_html.escape(t["title"])}</text>')
+    o.append('<line x1="20" y1="86" x2="1480" y2="86" stroke="#C7D3E4" stroke-width="1.5"/>')
+    for k, (a1, a2, c) in _MDL_SEGS.items():
+        o.append(f'<path d="{_mdl_seg(a1, a2)}" fill="{c}"/>')
+    o.append(f'<circle cx="{C[0]}" cy="{C[1]}" r="{_MDL_Rc}" fill="#E8EEF7" stroke="#0F1B2C" stroke-width="2.5"/>')
+    o.append(f'<text x="{C[0]}" y="{C[1]+30}" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="92" font-weight="800" fill="#0F1B2C">BIM</text>')
+    for k in ("arch", "med", "geb", "betr"):
+        lbl = t[k]; fs = 22 if len(lbl) <= 14 else (19 if len(lbl) <= 19 else 17)
+        o.append(f'<text font-family="Hanken Grotesk, sans-serif" font-size="{fs}" font-weight="700" letter-spacing="1" fill="#FFFFFF">'
+                 f'<textPath href="#tp-{lang}-{k}" startOffset="50%" text-anchor="middle">{_html.escape(lbl)}</textPath></text>')
+    for key in ("budget", "hyg", "user", "reg"):
+        e = _MDL_EXT[key]; d = _mdl_pt(e["dot_a"], _MDL_Ro + 2)
+        sx = e["elbow"][0] - 130 if e["anc"] == "start" else e["elbow"][0] + 130
+        o.append(f'<polyline points="{sx},{e["ty"]+10} {e["elbow"][0]},{e["ty"]+10} {d[0]:.1f},{d[1]:.1f}" fill="none" stroke="#2E5C9E" stroke-width="2"/>')
+        o.append(f'<circle cx="{d[0]:.1f}" cy="{d[1]:.1f}" r="6" fill="#2E5C9E"/>')
+        o.append(f'<text x="{e["tx"]}" y="{e["ty"]}" text-anchor="{e["anc"]}" font-family="IBM Plex Mono, monospace" font-size="23" letter-spacing="2" fill="#454F5C">{_html.escape(t[key])}</text>')
+    o.append(f'<text x="{C[0]}" y="945" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="30" font-weight="700" fill="#0F1B2C">{_html.escape(t["cap1"])}</text>')
+    o.append(f'<text x="{C[0]}" y="985" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="30" font-weight="700" fill="#0F1B2C">{_html.escape(t["cap2"])}</text>')
+    o.append('</svg>')
+    return "\n".join(o)
+def _inject_model(body, lang):
+    return _re.sub(r'<img[^>]*integrated-design-model[^>]*>', lambda m: _design_model_svg(lang), body, count=1)
+BODY_INDEX    = _inject_model(BODY_INDEX, "de")
+BODY_INDEX_EN = _inject_model(BODY_INDEX_EN, "en")
+BODY_INDEX_PL = _inject_model(BODY_INDEX_PL, "pl")
+BODY_INDEX_RO = _inject_model(BODY_INDEX_RO, "ro")
 
 BODY_LEISTUNGEN_PL = _tr(BODY_LEISTUNGEN_EN, _LEIST_PL, "PL leistungen")
 BODY_LEISTUNGEN_RO = _tr(BODY_LEISTUNGEN_EN, _LEIST_RO, "RO leistungen")

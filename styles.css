@@ -819,12 +819,13 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-mtd-enable-cap{font-family:var(--font-display);font-weight:700;font-size:19px;line-height:25px;
   letter-spacing:-0.01em;color:var(--brand-700);display:block;margin-bottom:18px}
 .m-mtd-enable-items{display:flex;flex-wrap:wrap;gap:14px 32px}
-.m-mtd-enable-items span{position:relative;padding-left:26px;font-family:var(--font-display);font-weight:700;
+.m-mtd-enable-items span{position:relative;padding-left:18px;font-family:var(--font-display);font-weight:700;
   font-size:16px;line-height:22px;color:var(--brand-700)}
-.m-mtd-enable-items span::before{content:"";position:absolute;left:0;top:4px;width:14px;height:14px;
-  border-radius:50%;border:2px solid var(--signal)}
+.m-mtd-enable-items span::before{content:"";position:absolute;left:2px;top:8px;width:7px;height:7px;
+  border-radius:50%;background:var(--signal)}
 .m-mtd-figure{margin:0 auto;max-width:940px;background:transparent;border:none;box-shadow:none;padding:0}
 .m-mtd-figure img{width:100%;height:auto;display:block}
+.m-mtd-figure .m-mtd-svg,.m-mtd-svg{width:100%;height:auto;display:block}
 
 /* ===== BIM ===== */
 .m-bim-grid{display:grid;grid-template-columns:1.14fr 0.86fr;gap:48px;align-items:center}
