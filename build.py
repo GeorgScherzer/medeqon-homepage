@@ -1593,12 +1593,53 @@ _ref_filter_html = "\n".join(
     + [_ref_fbtn(g["id"], _REF_FLABEL.get(g["id"], g["client"]), _ref_counts[g["id"]])
        for g in _ref_data["groups"]])
 
+# --- medeqon-Icons für Wissenschaft & Forschung (Linien-Stil, blauer Punkt) ---
+_ICON_INK = "#0F1B2C"; _ICON_DOT = "#004AAD"
+_WISS_ICONS = {
+    # Konferenzen – Mikrofon am Rednerpult, blauer Punkt als Highlight
+    "konferenzen": (
+        '<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Konferenzen">'
+        f'<rect x="19.5" y="7.5" width="9" height="17" rx="4.5" stroke="{_ICON_INK}" stroke-width="2.4"/>'
+        f'<path d="M13.5 21a10.5 10.5 0 0 0 21 0" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<path d="M24 31.5V39" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<path d="M18 39h12" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<circle cx="24" cy="12.6" r="2.7" fill="{_ICON_DOT}"/>'
+        '</svg>'),
+    # Publikationen – Dokument mit Textzeilen, blauer Punkt als Schluss-Punkt
+    "publikationen": (
+        '<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Publikationen">'
+        f'<path d="M13 8h14l8 8v24H13z" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linejoin="round"/>'
+        f'<path d="M27 8v8h8" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linejoin="round"/>'
+        f'<path d="M18 23h12" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<path d="M18 28.5h12" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<path d="M18 34h6" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<circle cx="29" cy="34" r="2.3" fill="{_ICON_DOT}"/>'
+        '</svg>'),
+    # Wissenschaftliche Beiträge – Doktorhut, blauer Punkt als Quasten-Perle
+    "beitraege": (
+        '<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wissenschaftliche Beiträge">'
+        f'<path d="M24 10 40 17 24 24 8 17Z" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linejoin="round"/>'
+        f'<path d="M15 20.5v6c0 2.6 18 2.6 18 0v-6" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linejoin="round"/>'
+        f'<path d="M40 17v10" stroke="{_ICON_INK}" stroke-width="2.4" stroke-linecap="round"/>'
+        f'<circle cx="40" cy="29.4" r="2.7" fill="{_ICON_DOT}"/>'
+        '</svg>'),
+}
+
 # --- Generisches Filter-Karten-Raster (Wissenschaft, Consulting) ---
 def _grid_card(gid, it, hidden=False):
     badge = it.get("badge", ""); title = it["title"]; desc = it["desc"]
     img = it.get("img"); link = it.get("link")
-    cls = ("m-refc has-img" if img else "m-refc") + (" is-hidden" if hidden else "")
-    imghtml = (f'            <div class="m-refc-img"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n') if img else ''
+    icon = None
+    if not img:
+        icon = _WISS_ICONS.get(it.get("icon")) if it.get("icon") else _WISS_ICONS.get(gid)
+    has_media = bool(img or icon)
+    cls = ("m-refc has-img" if has_media else "m-refc") + (" is-hidden" if hidden else "")
+    if img:
+        imghtml = f'            <div class="m-refc-img"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n'
+    elif icon:
+        imghtml = f'            <div class="m-refc-icon">{icon}</div>\n'
+    else:
+        imghtml = ''
     bg = f'<span class="m-refc-client">{_html.escape(badge)}</span>' if badge else ''
     head = ('            <div class="m-refc-head">' + bg + '</div>\n') if bg else ''
     linkhtml = ''
@@ -1690,8 +1731,9 @@ _CONS_GROUPS = [
          "img": "assets/ref/kepler-logo.png", "imgalt": "Kepler Universitätsklinikum Linz"},
         {"badge": "Fachvorträge", "title": "ÖVKT",
          "desc": "Aktive Mitarbeit und Fachvorträge für den Österreichischen Verband der Krankenhaustechniker:innen.",
-         "img": "assets/ref/oevkt-logo.jpg", "imgalt": "Österreichischer Verband der Krankenhaustechniker:innen (ÖVKT)"},
-        {"badge": "Akademischer Berater", "title": "Betreuung einer Masterarbeit",
+         "img": "assets/ref/oevkt-logo.jpg", "imgalt": "Österreichischer Verband der Krankenhaustechniker:innen (ÖVKT)",
+         "link": ("https://www.oevkt.at/neu/index.php", "Zum ÖVKT")},
+        {"badge": "Akademischer Berater", "title": "Betreuung einer Masterarbeit", "icon": "beitraege",
          "desc": "Academic Advisor für die Masterarbeit „Enablers and barriers in medical device export to Syria“ (qualitative Studie) an der University of Copenhagen, November 2016 – Dezember 2017."},
     ]),
 ]
