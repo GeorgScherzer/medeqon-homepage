@@ -410,8 +410,8 @@ BODY_INDEX = '''<section class="m-hero-main">
           </g>
           <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785">Jahre</text>
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#6B7785" transform="rotate(-90 22 184)" text-anchor="middle">PROJEKTKOSTEN</text>
-          <rect x="64" y="356" width="99" height="24" rx="5" fill="#E8EEF7"/>
-          <rect x="167" y="356" width="445" height="24" rx="5" fill="#F1F4F8"/>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#CAD9EF"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E0E7F1"/>
           <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANUNG</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#6B7785" text-anchor="middle">BETRIEB</text>
         </svg>
@@ -3314,8 +3314,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           </g>
           <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785">Years</text>
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#6B7785" transform="rotate(-90 22 184)" text-anchor="middle">PROJECT COST</text>
-          <rect x="64" y="356" width="99" height="24" rx="5" fill="#E8EEF7"/>
-          <rect x="167" y="356" width="445" height="24" rx="5" fill="#F1F4F8"/>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#CAD9EF"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E0E7F1"/>
           <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">DESIGN</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#6B7785" text-anchor="middle">OPERATION</text>
         </svg>
@@ -3669,13 +3669,18 @@ BODY_INDEX_RO = _tr(BODY_INDEX_EN, _RO_MAP, "RO")
 # Sprachneutral aufgebaute Grafik (verschwimmt mit dem mist-blauen Abschnitt),
 # Beschriftungen je Sprache. Ersetzt das frühere PNG in allen Sprachen.
 import math as _math
-_MDL_C = (750, 512); _MDL_Ro, _MDL_Ri, _MDL_Rc, _MDL_Rl = 252, 152, 140, 190
+_MDL_C = (750, 512); _MDL_Ro, _MDL_Ri, _MDL_Rc, _MDL_Rl = 286, 172, 118, 229
+_MDL_BIM_FS = 74; _MDL_DOT_GAP = 18
 _MDL_SEGS = {"arch": (184, 266, "#004AAD"), "med": (274, 356, "#2A6ABC"),
              "geb": (4, 86, "#4F8BCB"), "betr": (94, 176, "#79A9D6")}
-_MDL_EXT = {"budget": dict(tx=40, ty=250, anc="start", dot_a=250, elbow=(470, 250)),
-            "hyg": dict(tx=1460, ty=250, anc="end", dot_a=290, elbow=(1030, 250)),
-            "user": dict(tx=40, ty=832, anc="start", dot_a=110, elbow=(470, 832)),
-            "reg": dict(tx=1460, ty=832, anc="end", dot_a=70, elbow=(1030, 832))}
+# Konnektoren: Label mit Unterlinie, Knick zu einem Punkt mit Abstand zum Segment
+_MDL_CORN = {"budget": dict(side="L", vpos="T", dot_a=246),
+             "hyg": dict(side="R", vpos="T", dot_a=294),
+             "user": dict(side="L", vpos="B", dot_a=114),
+             "reg": dict(side="R", vpos="B", dot_a=66)}
+_MDL_UY_T, _MDL_UY_B = 190, 834
+_MDL_UXL_OUT, _MDL_UXL_IN = 80, 430
+_MDL_UXR_OUT, _MDL_UXR_IN = 1420, 1070
 _MDL_TXT = {
  "de": dict(title="INTEGRIERTES PLANUNGSMODELL", arch="ARCHITEKTUR", med="MEDIZINTECHNIK",
             geb="GEBÄUDETECHNIK", betr="BETRIEBSORGANISATION",
@@ -3721,17 +3726,21 @@ def _design_model_svg(lang):
     for k, (a1, a2, c) in _MDL_SEGS.items():
         o.append(f'<path d="{_mdl_seg(a1, a2)}" fill="{c}"/>')
     o.append(f'<circle cx="{C[0]}" cy="{C[1]}" r="{_MDL_Rc}" fill="#E8EEF7" stroke="#0F1B2C" stroke-width="2.5"/>')
-    o.append(f'<text x="{C[0]}" y="{C[1]+30}" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="92" font-weight="800" fill="#0F1B2C">BIM</text>')
+    o.append(f'<text x="{C[0]}" y="{C[1]+26}" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="{_MDL_BIM_FS}" font-weight="800" fill="#0F1B2C">BIM</text>')
     for k in ("arch", "med", "geb", "betr"):
-        lbl = t[k]; fs = 22 if len(lbl) <= 14 else (19 if len(lbl) <= 19 else 17)
+        lbl = t[k]; fs = 26 if len(lbl) <= 14 else (23 if len(lbl) <= 19 else 20)
         o.append(f'<text font-family="Hanken Grotesk, sans-serif" font-size="{fs}" font-weight="700" letter-spacing="1" fill="#FFFFFF">'
                  f'<textPath href="#tp-{lang}-{k}" startOffset="50%" text-anchor="middle">{_html.escape(lbl)}</textPath></text>')
-    for key in ("budget", "hyg", "user", "reg"):
-        e = _MDL_EXT[key]; d = _mdl_pt(e["dot_a"], _MDL_Ro + 2)
-        sx = e["elbow"][0] - 130 if e["anc"] == "start" else e["elbow"][0] + 130
-        o.append(f'<polyline points="{sx},{e["ty"]+10} {e["elbow"][0]},{e["ty"]+10} {d[0]:.1f},{d[1]:.1f}" fill="none" stroke="#2E5C9E" stroke-width="2"/>')
+    for key, cfg in _MDL_CORN.items():
+        uy = _MDL_UY_T if cfg["vpos"] == "T" else _MDL_UY_B
+        if cfg["side"] == "L":
+            uxo, uxi, tx, anc = _MDL_UXL_OUT, _MDL_UXL_IN, _MDL_UXL_OUT, "start"
+        else:
+            uxo, uxi, tx, anc = _MDL_UXR_OUT, _MDL_UXR_IN, _MDL_UXR_OUT, "end"
+        d = _mdl_pt(cfg["dot_a"], _MDL_Ro + _MDL_DOT_GAP)
+        o.append(f'<polyline points="{uxo},{uy} {uxi},{uy} {d[0]:.1f},{d[1]:.1f}" fill="none" stroke="#2E5C9E" stroke-width="2"/>')
         o.append(f'<circle cx="{d[0]:.1f}" cy="{d[1]:.1f}" r="6" fill="#2E5C9E"/>')
-        o.append(f'<text x="{e["tx"]}" y="{e["ty"]}" text-anchor="{e["anc"]}" font-family="IBM Plex Mono, monospace" font-size="23" letter-spacing="2" fill="#454F5C">{_html.escape(t[key])}</text>')
+        o.append(f'<text x="{tx}" y="{uy-13}" text-anchor="{anc}" font-family="IBM Plex Mono, monospace" font-size="23" letter-spacing="2" fill="#454F5C">{_html.escape(t[key])}</text>')
     o.append(f'<text x="{C[0]}" y="945" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="30" font-weight="700" fill="#0F1B2C">{_html.escape(t["cap1"])}</text>')
     o.append(f'<text x="{C[0]}" y="985" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="30" font-weight="700" fill="#0F1B2C">{_html.escape(t["cap2"])}</text>')
     o.append('</svg>')

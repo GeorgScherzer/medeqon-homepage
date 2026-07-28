@@ -779,7 +779,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-iceberg svg{width:100%;height:auto;display:block;max-width:640px;margin:0 auto}
 .m-tco-iceberg figcaption{font-family:var(--font-display);font-weight:700;font-size:18px;color:var(--ink);
   text-align:center;margin-top:6px}
-.m-tco-chart{margin:30px auto 0;max-width:900px;background:var(--paper);border:1px solid var(--mist);border-radius:18px;
+.m-tco-chart{margin:30px auto 0;max-width:900px;background:transparent;border:none;border-radius:18px;
   padding:30px 34px 24px;display:flex;flex-direction:column}
 .m-tco-chart-title{font-family:var(--font-display);font-weight:700;font-size:23px;line-height:29px;
   color:var(--brand-700);margin-bottom:10px}
