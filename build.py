@@ -776,8 +776,11 @@ _DL_NOTE_SS = ("Weitere Sprachversionen des Katalogs (Englisch, Polnisch) sowie 
                "Datenblätter, Produktinformationen und Zertifikate übermitteln wir Ihnen "
                "gerne auf Anfrage.")
 
-_DL_NOTE_ANFRAGE = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
-                    "senden wir Ihnen gerne auf Anfrage zu.")
+_DL_NOTE_ANFRAGE_SS = ("Die Unterlagen zu unseren Produkten des Strahlenschutzes senden "
+                       "wir Ihnen gerne auf Anfrage zu.")
+
+_DL_NOTE_ANFRAGE_HB = ("Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden "
+                       "wir Ihnen gerne auf Anfrage zu.")
 
 _DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produkten der "
                 "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
@@ -1115,7 +1118,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-strahlenschutz", "", [], note=_DL_NOTE_ANFRAGE) + '''
+''' + _downloads_category("06", "downloads-strahlenschutz", "", [], note=_DL_NOTE_ANFRAGE_SS) + '''
     </div>
   </div>
 </section>
@@ -1279,7 +1282,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE) + '''
+''' + _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB) + '''
     </div>
   </div>
 </section>
