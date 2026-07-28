@@ -223,14 +223,14 @@
           "dauer": "1 Jahr"
         },
         {
-          "name": "Austausch einer Angiographieanlage",
+          "name": "Austausch einer Angiographieanlage 2",
           "lph": "LPH1-LPH3",
           "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
           "kosten": "€ 1,600,000",
           "dauer": "1 Jahr"
         },
         {
-          "name": "Austausch einer Angiographieanlage",
+          "name": "Austausch einer Angiographieanlage 3",
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der bestehenden Angiographie-Anlage. Verlegung des Technikraumes der Anlage auf die darüberliegende Ebene. Adaptierung und Modernisierung des Bedienraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverser mobiler und ortsfester Medizintechnik.",
           "kosten": "€ 1,500,000",
@@ -293,7 +293,7 @@
           "dauer": "2 Jahre"
         },
         {
-          "name": "Austausch Röntgenaufnahmeplatz",
+          "name": "Austausch Röntgenaufnahmeplatz 2",
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 460,000",
@@ -307,7 +307,7 @@
           "dauer": "3 Jahre"
         },
         {
-          "name": "Austausch Röntgenaufnahmeplatz",
+          "name": "Austausch Röntgenaufnahmeplatz 3",
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der Bestandsanlage auf ein neues digitales System.",
           "kosten": "€ 350,000",
