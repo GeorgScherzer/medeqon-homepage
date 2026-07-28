@@ -778,6 +778,13 @@ _DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produk
                 "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
                 "Produktkatalog. Neue Datenblätter ergänzen wir laufend.")
 
+_DL_LEAD_MED_REQUEST = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
+                        "senden wir Ihnen gerne auf Anfrage zu.")
+
+_DL_NOTE_MED_REQUEST = ("Kontaktieren Sie uns &ndash; wir übermitteln Ihnen Datenblätter, "
+                        "Produktinformationen und Zertifikate zu unseren Produkten der "
+                        "Medizinischen Einrichtung umgehend.")
+
 # --- Datasheet download area (Datenblätter only), grouped like the product catalogue ---
 _MODEL2PROD = {p["model"]: p for p in _products}
 
@@ -1192,7 +1199,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, note=_DL_NOTE_REQUEST) + '''
+''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED_REQUEST, [], note=_DL_NOTE_MED_REQUEST) + '''
     </div>
   </div>
 </section>
