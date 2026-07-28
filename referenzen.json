@@ -10,7 +10,10 @@
           "lph": "LPH1-LPH5",
           "umfang": "Neuerrichtung einer Intensivstation, spezialisiert auf die Betreuung von neurologischen Patient*innen auf einer Grundfläche von ca. 5.000m² (unter anderem: 20 Intensivzimmer, mehrere Untersuchungs- und Behandlungsräume, einen Phase B-Bereich, spezialisierte EEG-Bereiche und eine Nachbetreuung für Stroke-Unit-Patient*innen).",
           "kosten": "€ 8,000,000",
-          "dauer": "4 Jahre"
+          "dauer": "4 Jahre",
+          "imgs": [
+            "assets/ref/neuerrichtung-von-intensivbereichen-in-der-neurologischen-medizin/1.jpg"
+          ]
         },
         {
           "name": "Errichtung eines intraoperativen MRs",
@@ -28,7 +31,10 @@
           "lph": "LPH1-LPH5",
           "umfang": "Etablierung eines extrakorporalen Zentrums auf eine Grundfläche von ca. 3.500m².",
           "kosten": "€ 1,900,000",
-          "dauer": "4 Jahre"
+          "dauer": "4 Jahre",
+          "imgs": [
+            "assets/ref/neuerrichtung-eines-extrakorporalen-zentrums-und-normalpflegebereiche/1.jpg"
+          ]
         },
         {
           "name": "Austausch Angiographie im Neurologie OP",
@@ -94,7 +100,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Errichtung eines medizinischen Versorgungszentrums mit 9 Untersuchungs- und Behandlungsräumen, einem Labor und einem unreinen Arbeitsraum.",
           "kosten": "€ 500,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/1.jpg",
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/2.jpg"
+          ]
         },
         {
           "name": "Austausch von vier Reinigungs- und Desinfektionsgeräten",
@@ -108,7 +118,10 @@
           "lph": "LPH1-LPH7",
           "umfang": "Errichtung einer IMC-Station mit fünf Patientenzimmern, einem Stützpunkt sowie diverser Nebenräume.",
           "kosten": "€ 350,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-einer-imc-station/1.jpg"
+          ]
         },
         {
           "name": "Austausch Röntgentherapieanlage",
@@ -129,7 +142,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Abbau eines Röntgentherapiegeräts und Umfunktionierung des Raums zu einem Vorbereitungsraum für Behandlungen am Linearbeschleuniger (Atemtraining). Der Vorbereitungsraum beinhaltet einen Oberflächenscanner und einen LINAC-Behandlungstisch.",
           "kosten": "€ 170,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/1.jpg",
+            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/2.jpg"
+          ]
         },
         {
           "name": "Austausch von zwei Reinigungs- und Desinfektionsgeräten",
@@ -143,14 +160,22 @@
           "lph": "LPH1-LPH9",
           "umfang": "Umbau von bestehenden Bettenzimmern der Urologie zu zwei Sonderklassezimmern, inklusive der Errichtung eines modernen unreinen Arbeitsraums.",
           "kosten": "€ 100,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-von-sonderklassezimmern-in-der-urologie/1.jpg",
+            "assets/ref/errichtung-von-sonderklassezimmern-in-der-urologie/2.jpg"
+          ]
         },
         {
           "name": "Errichtung von Sonderklassezimmern in der Orthopädie",
           "lph": "LPH1-LPH9",
           "umfang": "Umbau von bestehenden Bettenzimmern der Orthopädie zu drei Sonderklassezimmern, inklusive der Errichtung eines modernen unreinen Arbeitsraums.",
           "kosten": "€ 100,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-von-sonderklassezimmern-in-der-orthopadie/1.jpg",
+            "assets/ref/errichtung-von-sonderklassezimmern-in-der-orthopadie/2.jpg"
+          ]
         },
         {
           "name": "Umbau einer Pathologie und Neuerrichtung von Kühlzellen",
@@ -167,7 +192,10 @@
           "lph": "LPH5-LPH7",
           "umfang": "Zwei Operationssäle, Intensivstation (ICU) und Intermediate Care Station (IMCU), sowie eine voll ausgestattete radiologische Abteilung",
           "kosten": "€ 8,500,000",
-          "dauer": "2019-2020"
+          "dauer": "2019-2020",
+          "imgs": [
+            "assets/ref/mutter-kind-zentrum-vollausbau-bt61-1/1.jpg"
+          ]
         }
       ]
     },
@@ -199,14 +227,21 @@
           "lph": "LPH1-LPH2",
           "umfang": "Errichtung eines Hybrid-OPs. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik (unter anderem: Herz-Lungen-Maschine, Beatmungsgeräte, Narkosemaschine, Absaugsysteme).",
           "kosten": "€ 4,100,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/errichtung-eines-hybrid-ops/1.jpg",
+            "assets/ref/errichtung-eines-hybrid-ops/2.jpg"
+          ]
         },
         {
           "name": "Modernisierung und Adaptierung von drei OP-Sälen",
           "lph": "LPH1-LPH4",
           "umfang": "Modernisierung und Adaptierung von drei OP-Sälen für den Einsatz von OP-Robotern. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 3,300,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/modernisierung-und-adaptierung-von-drei-op-salen/1.jpg"
+          ]
         },
         {
           "name": "Austausch Linearbeschleuniger 2",
@@ -220,7 +255,10 @@
           "lph": "LPH1-LPH3",
           "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume. Besonderheit: Etablierung der Intensivstation auf den ehemaligen Flächen von Büroräumen.",
           "kosten": "€ 2,500,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-einer-intensivstation-mit-8-bettenplatzen/1.jpg"
+          ]
         },
         {
           "name": "Endoskopie OP",
@@ -272,7 +310,10 @@
           "lph": "LPH1-LPH2",
           "umfang": "Planung und Errichtung einer Intensivstation für acht Betten, POC-Labor, Gerätelager, unreiner Arbeitsraum sowie weitere Nebenräume.",
           "kosten": "€ 1,500,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/modernisierung-einer-8-betten-intensivstation/1.jpg"
+          ]
         },
         {
           "name": "Austausch Angiographieanlage",
@@ -286,7 +327,10 @@
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der bestehenden PET-CT-Anlage. Adaptierung des bestehenden Untersuchungsraums, der Arbeitsplätze im Bedienraum sowie des Technikraums.",
           "kosten": "€ 1,200,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/ganzkorper-pet-ct/1.jpg"
+          ]
         },
         {
           "name": "Austausch von zwei Matratzendesinfektoren",
@@ -300,7 +344,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Modernisierung und Adaptierung der physikalischen Therapie auf ca. 1.380m² Fläche, inklusive der Schmerzambulanz.",
           "kosten": "€ 900,000",
-          "dauer": "5 Jahre"
+          "dauer": "5 Jahre",
+          "imgs": [
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/1.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/2.jpg"
+          ]
         },
         {
           "name": "Austausch Thorax-Aufnahmeplatz",
@@ -347,7 +395,11 @@
           "lph": "LPH5-LPH9",
           "umfang": "Austausch des Durchleuchtungsgeräts, Abwicklung aller behördlichen Tätigkeiten in Bezug auf Laseranwendungen und Modernisierung des Ruheraumes.",
           "kosten": "€ 450,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/etablierung-ercp/1.jpg",
+            "assets/ref/etablierung-ercp/2.jpg"
+          ]
         },
         {
           "name": "Austausch Röntgenaufnahmeplatz 3",
@@ -373,7 +425,11 @@
           "lph": "LPH8",
           "umfang": "Errichtung eines Ambulanzbereichs (unter anderem: Transplantationszentrum, Untersuchung- und Behandlungsräume sowie Bereiche für die Kardiotechnik) für Herz-Thorax-chirurgische Patient*innen auf einer Fläche von ca. 1.900m².",
           "kosten": "€ 250,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/neuerrichtung-von-ambulanzbereichen-herz-thorax-zentrum/1.jpg",
+            "assets/ref/neuerrichtung-von-ambulanzbereichen-herz-thorax-zentrum/2.jpg"
+          ]
         },
         {
           "name": "Neuerrichtung von einem Aufwachraum",
