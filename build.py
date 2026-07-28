@@ -1636,16 +1636,17 @@ _WISS_ICONS = {
 def _grid_card(gid, it, hidden=False):
     badge = it.get("badge", ""); title = it["title"]; desc = it["desc"]
     img = it.get("img"); link = it.get("link")
-    icon = None
+    icon = None; icon_key = None
     if not img:
-        icon = _WISS_ICONS.get(it.get("icon")) if it.get("icon") else _WISS_ICONS.get(gid)
+        icon_key = it.get("icon") or gid
+        icon = _WISS_ICONS.get(icon_key)
     has_media = bool(img or icon)
     cls = ("m-refc has-img" if has_media else "m-refc") + (" is-hidden" if hidden else "")
     if img:
         szcls = (" m-refc-img--" + it["imgsize"]) if it.get("imgsize") else ""
         imghtml = f'            <div class="m-refc-img{szcls}"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n'
     elif icon:
-        imghtml = f'            <div class="m-refc-icon">{icon}</div>\n'
+        imghtml = f'            <div class="m-refc-icon m-refc-icon--{icon_key}">{icon}</div>\n'
     else:
         imghtml = ''
     bg = f'<span class="m-refc-client">{_html.escape(badge)}</span>' if badge else ''

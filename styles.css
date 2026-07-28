@@ -894,6 +894,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-refc-icon{margin:0 -24px 18px;padding:24px;background:var(--paper);border-radius:16px 16px 0 0;
   border-bottom:1px solid var(--mist);display:flex;align-items:center;justify-content:center;min-height:128px}
 .m-refc-icon svg{width:66px;height:66px;display:block}
+.m-refc-icon--beitraege svg{width:88px;height:88px}
 .m-refc-link{display:inline-flex;align-items:center;gap:5px;margin-top:16px;font-family:var(--font-display);
   font-weight:600;font-size:14px;color:var(--signal);text-decoration:none}
 .m-refc-link:hover{color:var(--brand-700);text-decoration:underline}
