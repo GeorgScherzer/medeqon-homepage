@@ -32,57 +32,125 @@ FAVICON = (
     "text-anchor='middle'%3Em%3C/text%3E%3C/svg%3E"
 )
 
-def header(active):
-    def link(href, label):
-        cls = ' class="active"' if label == active else ''
-        return f'    <a href="{href}"{cls}>{label}</a>'
-    links = "\n".join(link(href, label) for href, label in NAV)
+# ---- Mehrsprachigkeit ----------------------------------------------------
+LANGS = [
+    {"code": "de", "prefix": "",    "label": "DE", "name": "Deutsch"},
+    {"code": "en", "prefix": "en/", "label": "EN", "name": "English"},
+    # {"code": "pl", "prefix": "pl/", "label": "PL", "name": "Polski"},
+    # {"code": "ro", "prefix": "ro/", "label": "RO", "name": "Română"},
+]
+# Sprachen, für die eine bestimmte Seite bereits übersetzt vorliegt.
+# Nicht übersetzte Seiten fallen im Menü/Umschalter auf Deutsch zurück.
+AVAILABLE = {
+    "de": {"index.html", "leistungen.html", "produkte.html", "referenzen.html",
+           "management.html", "karriere.html", "kontakt.html",
+           "agb.html", "datenschutz.html", "impressum.html"},
+    "en": {"index.html"},
+}
+
+NAV_LABELS = {
+    "de": {"index.html": "Startseite", "leistungen.html": "Leistungen", "produkte.html": "Produkte",
+           "referenzen.html": "Referenzen", "management.html": "Management",
+           "karriere.html": "Karriere", "kontakt.html": "Kontakt"},
+    "en": {"index.html": "Home", "leistungen.html": "Services", "produkte.html": "Products",
+           "referenzen.html": "References", "management.html": "Management",
+           "karriere.html": "Careers", "kontakt.html": "Contact"},
+}
+
+def _href(filename, lang):
+    """Wurzelabsoluter Link zur Seite in Sprache `lang` (mit Deutsch-Fallback)."""
+    if lang != "de" and filename in AVAILABLE.get(lang, set()):
+        return "/" + lang + "/" + filename
+    return "/" + filename
+
+def _lang_switcher(filename, lang):
+    opts = []
+    for L in LANGS:
+        code = L["code"]
+        on = " is-on" if code == lang else ""
+        cur = ' aria-current="true"' if code == lang else ''
+        opts.append(f'<a class="m-lang-opt{on}" href="{_href(filename, code)}" '
+                    f'hreflang="{code}" lang="{code}"{cur}>{L["label"]}</a>')
+    return ('  <div class="m-lang" role="group" aria-label="Sprache / Language">\n    '
+            + "".join(opts) + '\n  </div>')
+
+def header(filename, lang="de"):
+    labels = NAV_LABELS[lang]
+    def link(fn):
+        cls = ' class="active"' if fn == filename else ''
+        return f'    <a href="{_href(fn, lang)}"{cls}>{labels[fn]}</a>'
+    links = "\n".join(link(fn) for fn, _ in NAV)
     return f'''<header class="m-nav">
-  <a class="brandlogo" href="index.html" aria-label="medeqon — Startseite">
+  <a class="brandlogo" href="{_href("index.html", lang)}" aria-label="medeqon — {labels["index.html"]}">
     <span class="brandlogo-mono" aria-hidden="true">m</span>
     <span class="brandlogo-word">medeqon</span>
   </a>
-  <nav class="m-nav-links" aria-label="Hauptnavigation">
+  <nav class="m-nav-links" aria-label="Navigation">
 {links}
   </nav>
+{_lang_switcher(filename, lang)}
 </header>'''
 
-FOOTER = '''<footer class="m-foot">
+_FOOT_ICONS = {
+    "planung": '<svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 38 L38 38 L10 12 Z"/><path d="M10 27 L21 27"/><circle cx="38" cy="38" r="2.6" class="sig-fill"/></svg>',
+    "consulting": '<svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 13 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 H21 l-7 6 v-6 h-2 a3 3 0 0 1 -3 -3 V16 a3 3 0 0 1 3 -3 Z"/><circle cx="23" cy="22.5" r="2.4" class="sig-fill"/></svg>',
+    "handel": '<svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 8 L39 16 L39 32 L24 40 L9 32 L9 16 Z"/><path d="M9 16 L24 24 L39 16"/><path d="M24 24 L24 40"/><circle cx="24" cy="24" r="2.4" class="sig-fill"/></svg>',
+    "pruefung": '<svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="21" cy="21" r="11"/><path d="M29 29 L39 39"/><path d="M16.5 21.5 l3.5 3.5 l6.5 -7.5" class="sig-stroke"/></svg>',
+}
+_FOOT_T = {
+    "de": {"tagline": "Ingenieurbüro für Medizintechnik.", "svc": "Leistungen",
+           "planung": "Planung", "consulting": "Consulting", "handel": "Handel", "pruefung": "Prüfung",
+           "contact": "Kontakt", "legal": "Rechtliches", "agb": "AGB", "ds": "Datenschutz", "imp": "Impressum",
+           "b1": "Ingenieurbüro — staatlich geprüft", "b2": "Medizinproduktehandel — staatlich geprüft",
+           "b3": "Ingenieurbüros Österreich · EU", "skip": "Zum Inhalt springen"},
+    "en": {"tagline": "Medical technology engineering firm.", "svc": "Services",
+           "planung": "Planning", "consulting": "Consulting", "handel": "Procurement", "pruefung": "Inspection",
+           "contact": "Contact", "legal": "Legal", "agb": "Terms &amp; Conditions", "ds": "Privacy", "imp": "Imprint",
+           "b1": "Engineering firm — state-certified", "b2": "Medical device trade — state-certified",
+           "b3": "Engineering firms Austria · EU", "skip": "Skip to content"},
+}
+
+def footer(lang="de"):
+    t = _FOOT_T[lang]
+    def svc(anchor, key):
+        return (f'        <a class="m-foot-svc" href="{_href("leistungen.html", lang)}#{anchor}">'
+                f'{_FOOT_ICONS[anchor]}<span>{t[key]}</span></a>')
+    return f'''<footer class="m-foot">
   <div class="m-shell m-foot-top">
     <div class="m-foot-brand">
-      <a class="m-foot-logo" href="index.html" aria-label="medeqon — Startseite">
+      <a class="m-foot-logo" href="{_href("index.html", lang)}" aria-label="medeqon">
         <span class="m-foot-mono" aria-hidden="true">m</span>
         <span class="m-foot-word">medeqon</span>
       </a>
-      <div class="m-foot-words">Ingenieurbüro für Medizintechnik.</div>
+      <div class="m-foot-words">{t["tagline"]}</div>
       <div class="m-foot-legalline">medeqon GmbH · FN 672926y · UID ATU83016237</div>
     </div>
     <div class="m-foot-links">
       <div class="m-foot-col">
-        <div class="m-foot-tag">Leistungen</div>
-        <a class="m-foot-svc" href="leistungen.html#planung"><svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 38 L38 38 L10 12 Z"/><path d="M10 27 L21 27"/><circle cx="38" cy="38" r="2.6" class="sig-fill"/></svg><span>Planung</span></a>
-        <a class="m-foot-svc" href="leistungen.html#consulting"><svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 13 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 H21 l-7 6 v-6 h-2 a3 3 0 0 1 -3 -3 V16 a3 3 0 0 1 3 -3 Z"/><circle cx="23" cy="22.5" r="2.4" class="sig-fill"/></svg><span>Consulting</span></a>
-        <a class="m-foot-svc" href="leistungen.html#handel"><svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 8 L39 16 L39 32 L24 40 L9 32 L9 16 Z"/><path d="M9 16 L24 24 L39 16"/><path d="M24 24 L24 40"/><circle cx="24" cy="24" r="2.4" class="sig-fill"/></svg><span>Handel</span></a>
-        <a class="m-foot-svc" href="leistungen.html#pruefung"><svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="21" cy="21" r="11"/><path d="M29 29 L39 39"/><path d="M16.5 21.5 l3.5 3.5 l6.5 -7.5" class="sig-stroke"/></svg><span>Prüfung</span></a>
+        <div class="m-foot-tag">{t["svc"]}</div>
+{svc("planung","planung")}
+{svc("consulting","consulting")}
+{svc("handel","handel")}
+{svc("pruefung","pruefung")}
       </div>
       <div class="m-foot-col">
-        <div class="m-foot-tag">Kontakt</div>
+        <div class="m-foot-tag">{t["contact"]}</div>
         <a href="mailto:office@medeqon.com">office@medeqon.com</a>
         <a href="tel:+4313580045">+43 135 80045</a>
         <a href="https://www.medeqon.com">www.medeqon.com</a>
         <div class="m-foot-plain">Bergstrasse 42/5/3<br>2102 Hagenbrunn · AT</div>
       </div>
       <div class="m-foot-col">
-        <div class="m-foot-tag">Rechtliches</div>
-        <a href="agb.html">AGB</a>
-        <a href="datenschutz.html">Datenschutz</a>
-        <a href="impressum.html">Impressum</a>
+        <div class="m-foot-tag">{t["legal"]}</div>
+        <a href="{_href("agb.html", lang)}">{t["agb"]}</a>
+        <a href="{_href("datenschutz.html", lang)}">{t["ds"]}</a>
+        <a href="{_href("impressum.html", lang)}">{t["imp"]}</a>
       </div>
     </div>
     <div class="m-foot-badges">
-      <img class="m-badge" src="assets/siegel-ingenieurbuero.png" alt="Ingenieurbüro — staatlich geprüft" loading="lazy">
-      <img class="m-badge" src="assets/siegel-medizinproduktehandel.png" alt="Medizinproduktehandel — staatlich geprüft" loading="lazy">
-      <img class="m-badge m-badge-wide" src="assets/siegel-ingenieurbueros-at-eu.png" alt="Ingenieurbüros Österreich · EU" loading="lazy">
+      <img class="m-badge" src="/assets/siegel-ingenieurbuero.png" alt="{t["b1"]}" loading="lazy">
+      <img class="m-badge" src="/assets/siegel-medizinproduktehandel.png" alt="{t["b2"]}" loading="lazy">
+      <img class="m-badge m-badge-wide" src="/assets/siegel-ingenieurbueros-at-eu.png" alt="{t["b3"]}" loading="lazy">
     </div>
   </div>
   <div class="m-shell m-foot-base">
@@ -91,9 +159,9 @@ FOOTER = '''<footer class="m-foot">
   </div>
 </footer>'''
 
-def page(filename, title, desc, active, body):
+def page(filename, title, desc, body, lang="de"):
     return f'''<!doctype html>
-<html lang="de">
+<html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -102,18 +170,18 @@ def page(filename, title, desc, active, body):
 <meta name="theme-color" content="#004AAD">
 <link rel="icon" href="{FAVICON}">
 {FONTS}
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<a class="skip" href="#main">Zum Inhalt springen</a>
+<a class="skip" href="#main">{_FOOT_T[lang]["skip"]}</a>
 
-{header(active)}
+{header(filename, lang)}
 
 <main id="main">
 {body}
 </main>
 
-{FOOTER}
+{footer(lang)}
 
 <script>
 (function(){{
@@ -2041,6 +2109,286 @@ BODY_KARRIERE = '''<section class="m-page-hero">
   </div>
 </section>'''
 
+BODY_INDEX_EN = '''<section class="m-hero-main">
+  <div class="m-shell m-hero-grid">
+    <div class="m-hero-copy">
+      <h1 class="m-hero-title">Engineering for medical technology<span class="end-dot">.</span></h1>
+      <p class="m-hero-sub">We plan, supply and support medical solutions to the highest quality standards.</p>
+    </div>
+    <img class="m-hero-logo" src="/assets/medeqon-logo-white.png" alt="medeqon" width="1618" height="335">
+  </div>
+</section>
+
+<section class="m-slogan" style="background-image:url(/assets/slogan-bg.jpg)">
+  <div class="m-shell">
+    <div class="line"></div>
+    <p>Your partner across the entire life cycle of medical technology<span class="em">.</span></p>
+  </div>
+</section>
+
+<section class="m-section alt">
+  <div class="m-shell">
+    <div class="m-secH">
+      <h2 class="m-bigH">Shaping progress together<span class="end-dot">.</span></h2>
+      <div class="sub">With our many years of experience in medical technology, we offer a comprehensive range of services tailored individually to your requirements. Whether initial concepts and feasibility studies, strategic procurement or the detailed planning of your clinic – we support you competently and reliably in every project phase.</div>
+    </div>
+    <div class="m-svc2-grid">
+      <a class="m-svc2" href="/leistungen.html">
+        <div class="m-svc2-top">
+          <span class="m-svc2-ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 38 L38 38 L10 12 Z"/><path d="M10 27 L21 27"/><circle cx="38" cy="38" r="3.6" class="sig-fill"/></svg></span>
+          <span class="m-svc2-num">01</span>
+        </div>
+        <h3 class="m-svc2-title">Planning<span class="end-dot">.</span></h3>
+        <p class="m-svc2-desc">From idea to implementation – we deliver your medical technology projects. With clear structures and efficient project control we ensure on-time delivery, cost certainty and the highest quality.</p>
+      </a>
+      <a class="m-svc2" href="/leistungen.html">
+        <div class="m-svc2-top">
+          <span class="m-svc2-ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 13 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 H21 l-7 6 v-6 h-2 a3 3 0 0 1 -3 -3 V16 a3 3 0 0 1 3 -3 Z"/><circle cx="23" cy="22.5" r="3.4" class="sig-fill"/></svg></span>
+          <span class="m-svc2-num">02</span>
+        </div>
+        <h3 class="m-svc2-title">Consulting<span class="end-dot">.</span></h3>
+        <p class="m-svc2-desc">Strategies with substance – consulting backed by many years of experience in medical technology. Tailored solutions that optimise processes, reduce costs and deliver lasting results.</p>
+      </a>
+      <a class="m-svc2" href="/leistungen.html">
+        <div class="m-svc2-top">
+          <span class="m-svc2-ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 8 L39 16 L39 32 L24 40 L9 32 L9 16 Z"/><path d="M9 16 L24 24 L39 16"/><path d="M24 24 L24 40"/><circle cx="24" cy="24" r="3.4" class="sig-fill"/></svg></span>
+          <span class="m-svc2-num">03</span>
+        </div>
+        <h3 class="m-svc2-title">Procurement<span class="end-dot">.</span></h3>
+        <p class="m-svc2-desc">Quality that lasts. Solutions that pay off. Durable, low-maintenance medical products and individually tailored solutions – with personal advice and trusting, partnership-based collaboration.</p>
+      </a>
+      <a class="m-svc2" href="/leistungen.html">
+        <div class="m-svc2-top">
+          <span class="m-svc2-ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="21" cy="21" r="11"/><path d="M29 29 L39 39"/><path d="M16.5 21.5 l3.5 3.5 l6.5 -7.5" class="sig-stroke" stroke-width="3.2"/></svg></span>
+          <span class="m-svc2-num">04</span>
+        </div>
+        <h3 class="m-svc2-title">Inspection<span class="end-dot">.</span></h3>
+        <p class="m-svc2-desc">Reliable technical service – maximum safety. Flawless equipment, legally compliant inspections, minimal downtime.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="m-section" id="tco">
+  <div class="m-shell">
+    <div class="m-tco-truecost">
+      <div class="m-tco-intro">
+        <span class="m-tag">Total Cost of Ownership</span>
+        <h2 class="m-bigH">What does medical technology really cost<span class="end-dot">?</span></h2>
+        <p class="m-tco-lead">The purchase price is only the tip of the iceberg. Over the entire life cycle, far higher costs arise – in operation, maintenance, consumables and staff. We know these total costs in detail and factor them into every decision from the outset.</p>
+        <p class="m-tco-principle">Plan early · Reduce total cost · Preserve value long-term<span class="em">.</span></p>
+      </div>
+
+      <figure class="m-tco-iceberg">
+          <svg viewBox="0 0 680 620" role="img" aria-label="Iceberg model: above the waterline the visible acquisition cost, below it the hidden costs such as transport, installation, commissioning, operating costs, staff, consumables, maintenance, training and disposal." xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="icebergGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#6AA0D6"/>
+                <stop offset="0.5" stop-color="#1E63B3"/>
+                <stop offset="1" stop-color="#003278"/>
+              </linearGradient>
+            </defs>
+            <rect x="0" y="210" width="680" height="410" fill="#EDF3FA"/>
+            <polygon points="310,206 322,150 342,118 365,110 388,126 404,172 414,206" fill="#CFE0F2"/>
+            <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
+            <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
+            <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
+            <text x="646" y="202" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#6B7785" text-anchor="end">WATERLINE</text>
+            <line x1="368" y1="112" x2="452" y2="92" stroke="#0F1B2C" stroke-width="1.3"/>
+            <circle cx="368" cy="112" r="4" fill="#004AAD"/>
+            <text x="460" y="84" font-family="IBM Plex Mono, monospace" font-size="12" letter-spacing="1" fill="#6B7785">THE TIP</text>
+            <text x="460" y="107" font-family="Hanken Grotesk, sans-serif" font-size="19" font-weight="700" fill="#0F1B2C">Acquisition cost</text>
+            <g fill="#fff" font-family="Hanken Grotesk, sans-serif" font-size="15.5" font-weight="600" text-anchor="middle">
+              <text x="362" y="248">Transport</text>
+              <text x="362" y="286">Installation</text>
+              <text x="362" y="324">Commissioning</text>
+              <text x="362" y="362">Operating costs</text>
+              <text x="362" y="400">Staff costs</text>
+              <text x="362" y="438">Consumables</text>
+              <text x="362" y="476">Maintenance</text>
+              <text x="362" y="514">Training</text>
+              <text x="362" y="552">Disposal</text>
+            </g>
+            <g>
+              <line x1="54" y1="146" x2="54" y2="208" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="70" y="164" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">VISIBLE</text>
+              <text x="70" y="187" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">what the price</text>
+              <text x="70" y="206" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">shows</text>
+              <line x1="54" y1="250" x2="54" y2="454" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="70" y="300" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">HIDDEN</text>
+              <text x="70" y="323" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">what the device</text>
+              <text x="70" y="343" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">really costs</text>
+            </g>
+          </svg>
+          <figcaption>The purchase price is only the tip of the iceberg.</figcaption>
+        </figure>
+    </div>
+
+    <div class="m-tco-below">
+      <div class="m-tco-split-bar">
+        <span class="seg-acq" style="width:20%"><em>20&thinsp;%</em>Acquisition</span>
+        <span class="seg-op" style="width:80%"><em>80&thinsp;%</em>Operation over the life cycle</span>
+      </div>
+      <p class="m-tco-split-cap">The purchase price typically accounts for only about a fifth of the total cost – most of it arises in ongoing operation: maintenance, consumables, energy and staff.</p>
+    </div>
+  </div>
+</section>
+
+<section class="m-section alt" id="mtd">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Medical technology planning</span>
+      <h2 class="m-bigH">Early planning that pays off across the entire life cycle<span class="end-dot">.</span></h2>
+      <div class="sub">We bring medical technology into the planning from the very first concept phase – this reduces costs, creates schedule and cost certainty and anchors the requirements of later operation right from the start.</div>
+    </div>
+
+    <div class="m-tco-cards">
+        <div class="m-tco-card m-tco-card--early">
+          <span class="m-tco-card-cap">Early integration</span>
+          <p>Requirements for function, operation, infrastructure and cost efficiency are considered from the outset.</p>
+        </div>
+        <div class="m-tco-card m-tco-card--warn">
+          <span class="m-tco-card-cap">Without medical technology planning</span>
+          <p>Higher costs and increased coordination effort in later project phases.</p>
+        </div>
+        <div class="m-tco-card m-tco-card--task">
+          <span class="m-tco-card-cap">Our task</span>
+          <p class="m-tco-card-title">Creating reliable foundations in the early phases<span class="em">.</span></p>
+        </div>
+      </div>
+
+      <figure class="m-tco-chart">
+        <div class="m-tco-chart-title">Cost efficiency through early planning</div>
+        <svg viewBox="0 0 720 400" role="img" aria-label="Diagram: project cost over 30 years – significantly lower life-cycle cost with early planning." xmlns="http://www.w3.org/2000/svg">
+          <line x1="64" y1="48" x2="64" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
+          <line x1="64" y1="320" x2="612" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
+          <polygon points="64,320 163,268 262,198 361,138 460,84 560,58 560,141 411,157 262,179 163,200 64,320" fill="#004AAD" fill-opacity="0.08"/>
+          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="4" stroke-linecap="round"/>
+          <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
+          <circle cx="560" cy="141" r="6" fill="#004AAD"/>
+          <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Cost without</text>
+          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">planning</text>
+          <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Cost with</text>
+          <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">planning</text>
+          <g font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785" text-anchor="middle">
+            <text x="64" y="342">0</text><text x="155" y="342">5</text><text x="246" y="342">10</text>
+            <text x="336" y="342">15</text><text x="427" y="342">20</text><text x="518" y="342">25</text><text x="560" y="342">30</text>
+          </g>
+          <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785">Years</text>
+          <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#6B7785" transform="rotate(-90 22 184)" text-anchor="middle">PROJECT COST</text>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#E8EEF7"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#F1F4F8"/>
+          <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANNING</text>
+          <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#6B7785" text-anchor="middle">OPERATION</text>
+        </svg>
+        <figcaption>Plan early. Lower life-cycle costs.</figcaption>
+      </figure>
+
+    <h3 class="m-mtd-subhead">Medical technology planning as an integral process</h3>
+    <div class="m-mtd-enable">
+      <span class="m-mtd-enable-cap">What our medical technology planning enables</span>
+      <div class="m-mtd-enable-items">
+        <span>Fewer re-plans</span>
+        <span>Schedule &amp; cost certainty</span>
+        <span>Efficient BIM coordination</span>
+        <span>Reliable construction data</span>
+        <span>Integration of operator needs</span>
+      </div>
+    </div>
+    <figure class="m-mtd-figure">
+      <img src="/assets/brands/integrated-design-model-mist.png" alt="Integrated design model – BIM as the central coordination hub between architecture, medical technology, building services and operational organisation, shaped by budget, hygiene requirements, regulatory requirements and user needs." loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<section class="m-section" id="bim">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">BIM</span>
+      <h2 class="m-bigH">BIM-based planning and standardised processes<span class="end-dot">.</span></h2>
+      <div class="sub">Model-based working, in-house databases and repeatable results – the backbone of our medical technology planning.</div>
+    </div>
+    <div class="m-bim-grid">
+      <figure class="m-bim-figure">
+        <svg viewBox="-30 0 400 300" role="img" aria-label="BIM as the central coordination hub – connected with IFC, REVIT, BCF and data." xmlns="http://www.w3.org/2000/svg">
+          <circle cx="160" cy="150" r="118" fill="none" stroke="#E3E9F1" stroke-width="1"/>
+          <circle cx="160" cy="150" r="88" fill="none" stroke="#E3E9F1" stroke-width="1"/>
+          <circle cx="160" cy="150" r="58" fill="none" stroke="#E3E9F1" stroke-width="1"/>
+          <g stroke="#9DBCE3" stroke-width="1.5">
+            <line x1="160" y1="150" x2="160" y2="40"/>
+            <line x1="160" y1="150" x2="270" y2="150"/>
+            <line x1="160" y1="150" x2="160" y2="260"/>
+            <line x1="160" y1="150" x2="50" y2="150"/>
+          </g>
+          <circle cx="160" cy="150" r="50" fill="#004AAD"/>
+          <text x="160" y="147" font-family="Hanken Grotesk, sans-serif" font-size="23" font-weight="700" fill="#fff" text-anchor="middle">BIM</text>
+          <text x="160" y="167" font-family="Hanken Grotesk, sans-serif" font-size="11" font-weight="500" fill="#fff" text-anchor="middle">Coordination</text>
+          <g fill="#fff" stroke="#004AAD" stroke-width="2">
+            <circle cx="160" cy="40" r="17"/><circle cx="270" cy="150" r="17"/>
+            <circle cx="160" cy="260" r="17"/><circle cx="50" cy="150" r="17"/>
+          </g>
+          <g fill="#004AAD" stroke="none">
+            <circle cx="160" cy="40" r="3.2"/><circle cx="270" cy="150" r="3.2"/>
+            <circle cx="160" cy="260" r="3.2"/><circle cx="50" cy="150" r="3.2"/>
+          </g>
+          <g font-family="Hanken Grotesk, sans-serif" font-size="14.5" font-weight="700" fill="#0F1B2C">
+            <text x="160" y="20" text-anchor="middle">IFC</text>
+            <text x="294" y="155" text-anchor="start">REVIT</text>
+            <text x="160" y="288" text-anchor="middle">BCF</text>
+            <text x="26" y="155" text-anchor="end">Data</text>
+          </g>
+        </svg>
+      </figure>
+      <div class="m-bim-points">
+        <div class="m-bim-card">
+          <span class="m-bim-cap">01 · Tool</span>
+          <h3>Model-based approach</h3>
+          <ul>
+            <li>Autodesk Revit as standard tool</li>
+            <li>Model-based planning across all project phases</li>
+            <li>Integration into architecture and building-services models</li>
+          </ul>
+        </div>
+        <div class="m-bim-card">
+          <span class="m-bim-cap">02 · Data</span>
+          <h3>In-house databases</h3>
+          <ul>
+            <li>Equipment and connection database</li>
+            <li>BIM family library</li>
+          </ul>
+        </div>
+        <div class="m-bim-card">
+          <span class="m-bim-cap">03 · Process</span>
+          <h3>Standardised results</h3>
+          <ul>
+            <li>Structured room books and functional programmes</li>
+            <li>Reviewed tender specifications</li>
+            <li>Knowledge base from ongoing project work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="m-cta-banner" style="background-image:url(/assets/cta-banner.jpg)">
+  <div class="m-shell">
+    <div class="m-cta-banner-copy">
+      <div class="line"></div>
+      <h2>Work with us<span class="end-dot">.</span></h2>
+      <a class="m-cta-link" href="/kontakt.html">Get in touch</a>
+    </div>
+  </div>
+</section>'''
+
+# Englische Seiten (werden nach /en/ geschrieben). Weitere folgen nach Freigabe.
+PAGES_EN = [
+    ("index.html", "medeqon · Engineering for medical technology",
+     "medeqon GmbH — Vienna-based engineering firm for medical technology. Planning, consulting, procurement and safety-related inspection of clinical infrastructure.",
+     BODY_INDEX_EN),
+]
+
 PAGES = [
     ("index.html", "medeqon · Ingenieurbüro für Medizintechnik",
      "medeqon GmbH — Wiener Ingenieurbüro für Medizintechnik. Planung, Beratung, Vermittlung und sicherheitstechnische Prüfung klinischer Infrastruktur in DACH und Polen.",
@@ -2075,7 +2423,14 @@ PAGES = [
 ]
 
 for filename, title, desc, active, body in PAGES:
-    html = page(filename, title, desc, active, body)
+    html = page(filename, title, desc, body, lang="de")
     (ROOT / filename).write_text(html, encoding="utf-8")
     print("wrote", filename)
+
+# Englische Seiten nach /en/
+(ROOT / "en").mkdir(exist_ok=True)
+for filename, title, desc, body in PAGES_EN:
+    html = page(filename, title, desc, body, lang="en")
+    (ROOT / "en" / filename).write_text(html, encoding="utf-8")
+    print("wrote", "en/" + filename)
 print("done")
