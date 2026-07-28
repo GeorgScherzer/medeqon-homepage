@@ -56,14 +56,15 @@
       <h2 class="m-bigH">Realisierte Projekte<span class="end-dot">.</span></h2>
       <div class="sub">Unsere Referenzen spiegeln langjährige Erfahrung, technisches Know-how und individuelle Lösungen wider. Gemeinsam mit unseren Kunden realisieren wir Projekte, die höchsten fachlichen und qualitativen Ansprüchen gerecht werden.</div>
     </div>
-    <div class="m-filterable">
+    <div class="m-filterable is-collapsed">
       <div class="m-ref-filter">
-        <button class="m-ref-fbtn is-active" data-filter="all">Alle<span class="m-ref-fbtn-n">51</span></button>
+        <button class="m-ref-fbtn" data-filter="all">Alle<span class="m-ref-fbtn-n">51</span></button>
         <button class="m-ref-fbtn" data-filter="akh-persoenlich">AKH Wien · Persönlich<span class="m-ref-fbtn-n">20</span></button>
         <button class="m-ref-fbtn" data-filter="akh-leitung">AKH Wien · Leitung<span class="m-ref-fbtn-n">29</span></button>
         <button class="m-ref-fbtn" data-filter="schweiz">Schweiz<span class="m-ref-fbtn-n">1</span></button>
         <button class="m-ref-fbtn" data-filter="international">Internationale Projekte<span class="m-ref-fbtn-n">1</span></button>
       </div>
+      <p class="m-ref-hint">Wählen Sie oben eine Kategorie, um die zugehörigen Projekte anzuzeigen.</p>
       <div class="m-ref-grid">
           <article class="m-refc" data-group="akh-persoenlich">
             <div class="m-refc-head">
@@ -643,6 +644,7 @@ document.querySelectorAll('.m-filterable').forEach(function(root){
   var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
   btns.forEach(function(b){b.addEventListener('click',function(){
     var f=b.getAttribute('data-filter');
+    root.classList.remove('is-collapsed');
     btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
     cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
   });});

@@ -865,6 +865,10 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-ref-fbtn.is-active{background:var(--signal);border-color:var(--signal);color:#fff}
 .m-ref-fbtn.is-active .m-ref-fbtn-n{background:rgba(255,255,255,.22);color:#fff}
 .m-ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px}
+.m-ref-hint{display:none;margin:2px 0 0;padding:26px 24px;text-align:center;color:var(--steel);
+  font-size:15.5px;line-height:22px;border:1px dashed var(--mist);border-radius:14px;background:rgba(255,255,255,.5)}
+.m-filterable.is-collapsed .m-ref-hint{display:block}
+.m-filterable.is-collapsed .m-ref-grid{display:none}
 .m-refc{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--mist);
   border-radius:16px;padding:22px 24px;
   transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease)}

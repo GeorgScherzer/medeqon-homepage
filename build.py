@@ -1566,7 +1566,7 @@ def _ref_fbtn(fid, label, count, active=False):
             f'<span class="m-ref-fbtn-n">{count}</span></button>')
 
 _ref_filter_html = "\n".join(
-    [_ref_fbtn("all", "Alle", _ref_total, active=True)]
+    [_ref_fbtn("all", "Alle", _ref_total, active=False)]
     + [_ref_fbtn(g["id"], _REF_FLABEL.get(g["id"], g["client"]), _ref_counts[g["id"]])
        for g in _ref_data["groups"]])
 
@@ -1690,10 +1690,11 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Realisierte Projekte<span class="end-dot">.</span></h2>
       <div class="sub">Unsere Referenzen spiegeln langjährige Erfahrung, technisches Know-how und individuelle Lösungen wider. Gemeinsam mit unseren Kunden realisieren wir Projekte, die höchsten fachlichen und qualitativen Ansprüchen gerecht werden.</div>
     </div>
-    <div class="m-filterable">
+    <div class="m-filterable is-collapsed">
       <div class="m-ref-filter">
 ''' + _ref_filter_html + '''
       </div>
+      <p class="m-ref-hint">Wählen Sie oben eine Kategorie, um die zugehörigen Projekte anzuzeigen.</p>
       <div class="m-ref-grid">
 ''' + _ref_cards_html + '''
       </div>
@@ -1728,6 +1729,7 @@ document.querySelectorAll('.m-filterable').forEach(function(root){
   var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
   btns.forEach(function(b){b.addEventListener('click',function(){
     var f=b.getAttribute('data-filter');
+    root.classList.remove('is-collapsed');
     btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
     cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
   });});
