@@ -901,6 +901,24 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-refc-ilink{color:var(--signal);text-decoration:none;border-bottom:1px solid rgba(0,74,173,.35);white-space:nowrap}
 .m-refc-ilink:hover{border-bottom-color:var(--signal)}
 
+/* Karriere / Offene Positionen */
+.m-ac-wrap{display:grid;gap:14px}
+.m-job-meta{display:inline-flex;flex-wrap:wrap;gap:8px;margin-left:auto;margin-right:14px}
+.m-job-chip{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--ink);background:var(--mist-blue);border-radius:999px;padding:6px 11px;white-space:nowrap}
+.m-job-cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin:20px 0 24px}
+@media(max-width:640px){.m-job-cols{grid-template-columns:1fr;gap:18px}.m-job-meta{margin:8px 0 0 0}}
+.m-job-h{font-family:var(--font-display);font-weight:700;font-size:15px;letter-spacing:.02em;
+  text-transform:uppercase;color:var(--brand-700);margin:0 0 12px}
+.m-jobs-empty{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;
+  padding:52px 28px;border:1px dashed var(--mist);border-radius:16px;background:rgba(255,255,255,.5)}
+.m-jobs-empty-ic{color:var(--steel);margin-bottom:8px}
+.m-jobs-empty-ic svg{width:56px;height:56px}
+.m-jobs-empty-lead{margin:0;font-family:var(--font-display);font-weight:700;font-size:20px;color:var(--ink)}
+.m-jobs-empty-sub{margin:0;font-size:15.5px;line-height:23px;color:var(--steel);max-width:52ch}
+.m-dl-note p a{color:var(--signal);text-decoration:none;border-bottom:1px solid rgba(0,74,173,.35)}
+.m-dl-note p a:hover{border-bottom-color:var(--signal)}
+
 /* Projektkarte mit Foto + Klick zum Vergrößern */
 .m-refc.is-clickable{cursor:pointer}
 .m-refc.is-clickable:focus-visible{outline:2px solid var(--signal);outline-offset:2px}

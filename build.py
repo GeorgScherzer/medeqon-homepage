@@ -4,6 +4,7 @@ Header + footer are identical on every page; only the body changes.
 Run: python3 build.py
 """
 from pathlib import Path
+import urllib.parse as _urlparse
 
 ROOT = Path(__file__).parent
 
@@ -14,6 +15,7 @@ NAV = [
     ("produkte.html", "Produkte"),
     ("referenzen.html", "Referenzen"),
     ("management.html", "Management"),
+    ("karriere.html", "Karriere"),
     ("kontakt.html", "Kontakt"),
 ]
 
@@ -1945,6 +1947,100 @@ BODY_AGB = load_content("agb")
 BODY_DATENSCHUTZ = load_content("datenschutz")
 BODY_IMPRESSUM = load_content("impressum")
 
+# ---- Karriere / Offene Positionen ---------------------------------------
+# Neue Stelle ausschreiben: einfach ein Dict in _JOBS ergänzen. Ist die Liste
+# leer, zeigt die Seite automatisch „aktuell keine Positionen offen".
+#   {"title": "Medizintechniker:in (m/w/d)",
+#    "type": "Vollzeit", "location": "Wien / Hagenbrunn",
+#    "intro": "Kurzbeschreibung der Rolle …",
+#    "tasks": ["Aufgabe 1", "Aufgabe 2"],
+#    "profile": ["Anforderung 1", "Anforderung 2"]},
+_JOBS = []
+
+_KARRIERE_MAIL = "office@medeqon.com"
+
+def _job_mail(subject):
+    return ("mailto:" + _KARRIERE_MAIL + "?subject="
+            + _urlparse.quote(subject))
+
+def _job_html(job):
+    title = _html.escape(job["title"])
+    meta = []
+    for key in ("type", "location"):
+        if job.get(key):
+            meta.append(f'<span class="m-job-chip">{_html.escape(job[key])}</span>')
+    meta_html = ('<span class="m-job-meta">' + "".join(meta) + '</span>') if meta else ''
+    lead = f'          <p class="m-ac-lead">{_html.escape(job["intro"])}</p>\n' if job.get("intro") else ''
+    cols = []
+    if job.get("tasks"):
+        items = "\n".join(f'                <li>{_html.escape(t)}</li>' for t in job["tasks"])
+        cols.append('            <div class="m-job-col">\n'
+                    '              <h4 class="m-job-h">Ihre Aufgaben</h4>\n'
+                    f'              <ul class="ring-list">\n{items}\n              </ul>\n'
+                    '            </div>')
+    if job.get("profile"):
+        items = "\n".join(f'                <li>{_html.escape(t)}</li>' for t in job["profile"])
+        cols.append('            <div class="m-job-col">\n'
+                    '              <h4 class="m-job-h">Ihr Profil</h4>\n'
+                    f'              <ul class="ring-list">\n{items}\n              </ul>\n'
+                    '            </div>')
+    cols_html = ('          <div class="m-job-cols">\n' + "\n".join(cols) + '\n          </div>\n') if cols else ''
+    subject = job.get("mail_subject") or ("Bewerbung: " + job["title"])
+    apply_html = (f'          <a class="m-btn" href="{_job_mail(subject)}">Jetzt bewerben'
+                  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:17px;height:17px"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>\n')
+    return (
+'      <details class="m-ac">\n'
+f'        <summary><span class="m-ac-title">{title}</span>{meta_html}' + CHEV + '</summary>\n'
+'        <div class="m-ac-body">\n'
++ lead + cols_html + apply_html +
+'        </div>\n'
+'      </details>')
+
+def _jobs_section():
+    if _JOBS:
+        return ('      <div class="m-ac-wrap">\n'
+                + "\n".join(_job_html(j) for j in _JOBS) + '\n'
+                '      </div>')
+    return ('      <div class="m-jobs-empty">\n'
+            '        <span class="m-jobs-empty-ic" aria-hidden="true">'
+            '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="15" width="32" height="24" rx="3"/><path d="M18 15v-3a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v3"/><path d="M8 26h32"/><circle cx="24" cy="26" r="2.4" class="sig-fill"/></svg></span>\n'
+            '        <p class="m-jobs-empty-lead">Aktuell sind keine Positionen ausgeschrieben.</p>\n'
+            '        <p class="m-jobs-empty-sub">Wir freuen uns aber jederzeit über Ihre Initiativbewerbung &ndash; siehe unten.</p>\n'
+            '      </div>')
+
+BODY_KARRIERE = '''<section class="m-page-hero">
+  <div class="m-shell">
+    <span class="m-tag">Karriere</span>
+    <h1>Werden Sie Teil von medeqon<span class="end-dot">.</span></h1>
+    <p class="lede">Wir verbinden technisches Know-how mit persönlicher Betreuung und arbeiten an anspruchsvollen Projekten in der Medizintechnik. Wenn Sie Qualität, Verantwortung und den direkten Draht zu Kliniken und Herstellern schätzen, freuen wir uns, Sie kennenzulernen.</p>
+  </div>
+</section>
+
+<section class="m-section" id="offene-positionen">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Offene Positionen</span>
+      <h2 class="m-bigH">Aktuelle Stellenangebote<span class="end-dot">.</span></h2>
+      <div class="sub">Hier finden Sie unsere derzeit ausgeschriebenen Positionen. Klicken Sie eine Stelle an, um Details zu Aufgaben und Profil zu sehen.</div>
+    </div>
+''' + _jobs_section() + '''
+  </div>
+</section>
+
+<section class="m-section alt" id="initiativbewerbung">
+  <div class="m-shell">
+    <div class="m-secH">
+      <span class="m-tag">Initiativbewerbung</span>
+      <h2 class="m-bigH">Keine passende Stelle dabei?<span class="end-dot">.</span></h2>
+      <div class="sub">Überzeugen Sie uns mit Ihrer Initiativbewerbung. Wir sind laufend an engagierten Menschen interessiert, die zu medeqon passen &ndash; unabhängig davon, ob gerade eine Stelle ausgeschrieben ist.</div>
+    </div>
+    <div class="m-dl-note">
+      <p>Senden Sie uns Ihre Bewerbungsunterlagen (Lebenslauf, kurzes Motivationsschreiben) einfach per E-Mail an <a href="mailto:''' + _KARRIERE_MAIL + '''">''' + _KARRIERE_MAIL + '''</a>. Wir melden uns persönlich bei Ihnen.</p>
+      <a class="m-dl-note-btn" href="''' + _job_mail("Initiativbewerbung") + '''">Initiativbewerbung senden</a>
+    </div>
+  </div>
+</section>'''
+
 PAGES = [
     ("index.html", "medeqon · Ingenieurbüro für Medizintechnik",
      "medeqon GmbH — Wiener Ingenieurbüro für Medizintechnik. Planung, Beratung, Vermittlung und sicherheitstechnische Prüfung klinischer Infrastruktur in DACH und Polen.",
@@ -1961,6 +2057,9 @@ PAGES = [
     ("management.html", "Management · medeqon",
      "Das Management von medeqon: zwei erfahrene Medizintechniker:innen mit über 25 Jahren Erfahrung in klinischer Infrastruktur.",
      "Management", BODY_MANAGEMENT),
+    ("karriere.html", "Karriere · medeqon",
+     "Karriere bei medeqon GmbH: offene Positionen in der Medizintechnik und jederzeit die Möglichkeit zur Initiativbewerbung an office@medeqon.com.",
+     "Karriere", BODY_KARRIERE),
     ("kontakt.html", "Kontakt · medeqon",
      "Kontakt zu medeqon GmbH: office@medeqon.com, +43 135 80045, Bergstrasse 42/5/3, 2102 Hagenbrunn.",
      "Kontakt", BODY_KONTAKT),
