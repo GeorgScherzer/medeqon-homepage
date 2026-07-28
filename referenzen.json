@@ -52,7 +52,10 @@
           "lph": "LPH1-LPH2",
           "umfang": "Neuerrichtung eines Planungs-CTs inklusive der benötigten umliegenden Bereiche (Umkleide, Bedienraum und Technikraum). Planung und Ausführung eines Laser-Positionierungssystems, eines Atemsimulationssystems und diverser medizinischer Ausstattungsgegenstände.",
           "kosten": "€ 1,500,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-von-einem-planungs-ct-in-der-strahlentherapie/1.jpg"
+          ]
         },
         {
           "name": "Austausch CT Anlage",
@@ -82,7 +85,10 @@
           "lph": "LPH1-LPH2",
           "umfang": "Austausch von zwei Durchleuchtungsanlagen in separaten Räumen sowie Anpassung der Räume auf die Qualifikation eines \"Eingriffsraumes\". Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 1,000,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-von-zwei-uroskopie-systemen-und-adaptierung-der-untersuchungsraume/1.jpg"
+          ]
         },
         {
           "name": "Austausch einer Durchleuchtungseinheit",
@@ -111,7 +117,10 @@
           "lph": "LPH1-LPH4",
           "umfang": "Abbau von vier Sterilisationsanlagen und Neueinbringung von modernen Geräten. Anpassung der medizinischen Verbauten aus Metall im Bestand entsprechend den neuen Erfordernissen.",
           "kosten": "€ 450,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/austausch-von-vier-reinigungs-und-desinfektionsgeraten/1.jpg"
+          ]
         },
         {
           "name": "Errichtung einer IMC-Station",
@@ -128,14 +137,20 @@
           "lph": "LPH1-LPH9",
           "umfang": "Errichtung einer modernen Röntgentherapie-Anlage inklusive der benötigten Nebenräume (Technikraum, Bedienraum und Umkleide).",
           "kosten": "€ 280,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/austausch-rontgentherapieanlage/1.jpg"
+          ]
         },
         {
           "name": "Austausch von einem Dampfsterilisator",
           "lph": "LPH1-LPH4",
           "umfang": "Austausch des veralteten Dampfsterilisators. Erneuerung des Technikbereichs und der medizinischen Verbauten aus Metall.",
           "kosten": "€ 210,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/austausch-von-einem-dampfsterilisator/1.jpg"
+          ]
         },
         {
           "name": "Errichtung Simulationsraum für die Strahlentherapie",
@@ -153,7 +168,10 @@
           "lph": "LPH1-LPH4",
           "umfang": "Abbau von zwei Altgeräten und Neueinbringung von einem modernen Desinfektionsgerät. Teilung des Projektbereichs in einen reinen und einen unreinen Bereich. Modernisierung beider Bereiche durch geeignete Adaptierungen an den betriebsorganisatorischen Ablauf. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 150,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/austausch-von-zwei-reinigungs-und-desinfektionsgeraten/1.jpg"
+          ]
         },
         {
           "name": "Errichtung von Sonderklassezimmern in der Urologie",
@@ -209,7 +227,10 @@
           "lph": "LPH1-LPH3",
           "umfang": "Austausch des Linearbeschleunigers inklusive des Patient*innen-Positionierungssystems. Modernisierung der Bedien- und Technikräume des Linearbeschleunigers.",
           "kosten": "€ 5,600,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-linearbeschleuniger/1.jpg"
+          ]
         },
         {
           "name": "Austausch Angiographie und Errichtung einer CT-Sliding Gantry",
@@ -248,7 +269,10 @@
           "lph": "LPH1-LPH9",
           "umfang": "Austausch des Linearbeschleunigers inklusive des Patienten-Positionierungssystems. Modernisierung des Bedien- und Technikraums des Linearbeschleunigers und Adaptierung entsprechend der neuen Anlage.",
           "kosten": "€ 2,600,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/austausch-linearbeschleuniger-2/1.jpg"
+          ]
         },
         {
           "name": "Errichtung einer Intensivstation mit 8 Bettenplätzen",
@@ -265,7 +289,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Errichtung eines Endoskopie-OPs. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 2,200,000",
-          "dauer": "4 Jahre"
+          "dauer": "4 Jahre",
+          "imgs": [
+            "assets/ref/endoskopie-op/1.jpg",
+            "assets/ref/endoskopie-op/2.jpg"
+          ]
         },
         {
           "name": "Austausch MR Anlage",
@@ -289,14 +317,22 @@
           "lph": "LPH1-LPH3",
           "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
           "kosten": "€ 1,600,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-einer-angiographieanlage/1.jpg",
+            "assets/ref/austausch-einer-angiographieanlage/2.jpg"
+          ]
         },
         {
           "name": "Austausch einer Angiographieanlage 2",
           "lph": "LPH1-LPH3",
           "umfang": "Austausch der alten Angiographieanlage. Adaptierung und Modernisierung des Schaltraums und des Technikraums.",
           "kosten": "€ 1,600,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-einer-angiographieanlage-2/1.jpg",
+            "assets/ref/austausch-einer-angiographieanlage-2/2.jpg"
+          ]
         },
         {
           "name": "Austausch einer Angiographieanlage 3",
@@ -493,7 +529,13 @@
           "umfang": "Über rund zweieinhalb Jahre vor Ort in Krisen- und Konfliktregionen in Syrien, Jordanien und im Libanon: die bedarfsgerechte Ausstattung medizinischer Einrichtungen unter schwierigsten Rahmenbedingungen – mit Bedarfsanalysen, Gerätebewertungen, Beschaffung, Logistik und der Qualitätsüberprüfung lokaler Händler.",
           "kosten": "€ 8,000,000",
           "dauer": "2,5 Jahre",
-          "full": true
+          "full": true,
+          "imgs": [
+            "assets/ref/krankenhausprojekte-in-kriegsgebieten/1.jpg",
+            "assets/ref/krankenhausprojekte-in-kriegsgebieten/2.jpg",
+            "assets/ref/krankenhausprojekte-in-kriegsgebieten/3.jpg",
+            "assets/ref/krankenhausprojekte-in-kriegsgebieten/4.jpg"
+          ]
         }
       ]
     }
