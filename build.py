@@ -1571,10 +1571,10 @@ _ref_filter_html = "\n".join(
        for g in _ref_data["groups"]])
 
 # --- Generisches Filter-Karten-Raster (Wissenschaft, Consulting) ---
-def _grid_card(gid, it):
+def _grid_card(gid, it, hidden=False):
     badge = it.get("badge", ""); title = it["title"]; desc = it["desc"]
     img = it.get("img"); link = it.get("link")
-    cls = "m-refc has-img" if img else "m-refc"
+    cls = ("m-refc has-img" if img else "m-refc") + (" is-hidden" if hidden else "")
     imghtml = (f'            <div class="m-refc-img"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n') if img else ''
     bg = f'<span class="m-refc-client">{_html.escape(badge)}</span>' if badge else ''
     head = ('            <div class="m-refc-head">' + bg + '</div>\n') if bg else ''
@@ -1597,7 +1597,9 @@ def _filter_block(groups, add_all=True, all_label="Alle"):
         chips.append(_ref_fbtn("all", all_label, total, active=True))
     for idx, (gid, label, items) in enumerate(groups):
         chips.append(_ref_fbtn(gid, label, len(items), active=(not add_all and idx == 0)))
-    cards = [_grid_card(gid, it) for gid, label, items in groups for it in items]
+    active_gid = None if add_all else (groups[0][0] if groups else None)
+    cards = [_grid_card(gid, it, hidden=(active_gid is not None and gid != active_gid))
+             for gid, label, items in groups for it in items]
     return ('    <div class="m-filterable">\n'
             '      <div class="m-ref-filter">\n' + "\n".join(chips) + '\n      </div>\n'
             '      <div class="m-ref-grid">\n' + "\n".join(cards) + '\n      </div>\n'
@@ -1644,13 +1646,11 @@ _PUB_ITEMS = [
 ]
 
 _WISS_GROUPS = [
-    ("vortraege", "Vorträge, Lehre und Konferenzen", _CONF_ITEMS),
+    ("konferenzen", "Konferenzen", _CONF_ITEMS),
     ("publikationen", "Publikationen", _PUB_ITEMS),
     ("beitraege", "Wissenschaftliche Beiträge", [
         {"badge": "Promotion", "title": "Doktorarbeit (PhD)",
          "desc": "„Leading health care facilities in times of armed conflict: what are the constraints for medical equipment management?“ – Dissertation zur Medizintechnik-Beschaffung unter Extrembedingungen."},
-        {"badge": "Akademischer Berater", "title": "Betreuung einer Masterarbeit",
-         "desc": "Academic Advisor für die Masterarbeit „Enablers and barriers in medical device export to Syria“ (qualitative Studie) an der University of Copenhagen, November 2016 – Dezember 2017."},
     ]),
 ]
 
@@ -1662,6 +1662,10 @@ _CONS_GROUPS = [
          "link": ("https://www.who.int/publications/i/item/9789240095212", "Zur WHO-Publikation")},
         {"badge": "Beratungsschwerpunkte", "title": "Medizintechnik & klinische Infrastruktur",
          "desc": "Beschaffung und Bewertung von Medizintechnik, Aufbau und Ausstattung klinischer Bereiche sowie Projekte in Krisen- und Konfliktregionen."},
+    ]),
+    ("lehre", "Lehre", [
+        {"badge": "Akademischer Berater", "title": "Betreuung einer Masterarbeit",
+         "desc": "Academic Advisor für die Masterarbeit „Enablers and barriers in medical device export to Syria“ (qualitative Studie) an der University of Copenhagen, November 2016 – Dezember 2017."},
     ]),
 ]
 
@@ -1716,9 +1720,9 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
 <section class="m-section alt2">
   <div class="m-shell">
     <div class="m-secH">
-      <span class="m-tag">Consulting</span>
-      <h2 class="m-bigH">Beratung &amp; Consulting<span class="end-dot">.</span></h2>
-      <div class="sub">Herstellerunabhängige Beratung mit technischem Know-how – individuell, praxisnah und lösungsorientiert.</div>
+      <span class="m-tag">Consulting und Lehre</span>
+      <h2 class="m-bigH">Consulting &amp; Lehre<span class="end-dot">.</span></h2>
+      <div class="sub">Herstellerunabhängige Beratung mit technischem Know-how – individuell, praxisnah und lösungsorientiert – sowie akademische Lehr- und Betreuungstätigkeit.</div>
     </div>
 ''' + _filter_block(_CONS_GROUPS, add_all=False) + '''
   </div>
