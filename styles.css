@@ -889,6 +889,8 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-refc-img{margin:0 -24px 18px;padding:26px 24px;background:#fff;border-radius:16px 16px 0 0;
   border-bottom:1px solid var(--mist);display:flex;align-items:center;justify-content:center;min-height:128px}
 .m-refc-img img{max-width:96%;max-height:88px;object-fit:contain;display:block}
+.m-refc-img--md img{max-height:116px}
+.m-refc-img--lg img{max-width:100%;max-height:158px}
 .m-refc-icon{margin:0 -24px 18px;padding:24px;background:var(--paper);border-radius:16px 16px 0 0;
   border-bottom:1px solid var(--mist);display:flex;align-items:center;justify-content:center;min-height:128px}
 .m-refc-icon svg{width:66px;height:66px;display:block}

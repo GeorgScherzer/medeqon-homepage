@@ -1642,7 +1642,8 @@ def _grid_card(gid, it, hidden=False):
     has_media = bool(img or icon)
     cls = ("m-refc has-img" if has_media else "m-refc") + (" is-hidden" if hidden else "")
     if img:
-        imghtml = f'            <div class="m-refc-img"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n'
+        szcls = (" m-refc-img--" + it["imgsize"]) if it.get("imgsize") else ""
+        imghtml = f'            <div class="m-refc-img{szcls}"><img src="{img}" alt="{_html.escape(it.get("imgalt", title))}" loading="lazy"></div>\n'
     elif icon:
         imghtml = f'            <div class="m-refc-icon">{icon}</div>\n'
     else:
@@ -1735,10 +1736,10 @@ _CONS_GROUPS = [
     ("lehre", "Lehre", [
         {"badge": "Lehrvortrag", "title": "Kepler Universitätsklinikum Linz",
          "desc": "Lehrvortrag zu den europäischen und rechtlichen Grundlagen der Medizintechnik.",
-         "img": "assets/ref/kepler-logo.png", "imgalt": "Kepler Universitätsklinikum Linz"},
+         "img": "assets/ref/kepler-logo.png", "imgalt": "Kepler Universitätsklinikum Linz", "imgsize": "lg"},
         {"badge": "Fachvorträge", "title": "ÖVKT",
          "desc": "Aktive Mitarbeit und Fachvorträge für den Österreichischen Verband der Krankenhaustechniker:innen.",
-         "img": "assets/ref/oevkt-logo.jpg", "imgalt": "Österreichischer Verband der Krankenhaustechniker:innen (ÖVKT)",
+         "img": "assets/ref/oevkt-logo.jpg", "imgalt": "Österreichischer Verband der Krankenhaustechniker:innen (ÖVKT)", "imgsize": "md",
          "link": ("https://www.oevkt.at/neu/index.php", "Zum ÖVKT")},
         {"badge": "Akademischer Berater", "title": "Betreuung einer Masterarbeit", "icon": "beitraege",
          "desc": "Academic Advisor für die Masterarbeit „Enablers and barriers in medical device export to Syria“ (qualitative Studie) an der University of Copenhagen, November 2016 – Dezember 2017."},
