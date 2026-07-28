@@ -63,14 +63,23 @@ def _href(filename, lang):
         return "/" + lang + "/" + filename
     return "/" + filename
 
+# Landesflaggen als kompakte Inline-SVGs (viewBox 0 0 60 40)
+FLAGS = {
+    "de": '<svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="60" height="40" fill="#000"/><rect y="13.34" width="60" height="13.33" fill="#DD0000"/><rect y="26.67" width="60" height="13.33" fill="#FFCE00"/></svg>',
+    "en": '<svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><clipPath id="flgen"><rect width="60" height="40"/></clipPath><g clip-path="url(#flgen)"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4"/><rect x="24" width="12" height="40" fill="#fff"/><rect y="14" width="60" height="12" fill="#fff"/><rect x="26" width="8" height="40" fill="#C8102E"/><rect y="16" width="60" height="8" fill="#C8102E"/></g></svg>',
+    "pl": '<svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="60" height="20" fill="#fff"/><rect y="20" width="60" height="20" fill="#DC143C"/></svg>',
+    "ro": '<svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="20" height="40" fill="#002B7F"/><rect x="20" width="20" height="40" fill="#FCD116"/><rect x="40" width="20" height="40" fill="#CE1126"/></svg>',
+}
+
 def _lang_switcher(filename, lang):
     opts = []
     for L in LANGS:
         code = L["code"]
         on = " is-on" if code == lang else ""
         cur = ' aria-current="true"' if code == lang else ''
-        opts.append(f'<a class="m-lang-opt{on}" href="{_href(filename, code)}" '
-                    f'hreflang="{code}" lang="{code}"{cur}>{L["label"]}</a>')
+        opts.append(f'<a class="m-flag{on}" href="{_href(filename, code)}" '
+                    f'hreflang="{code}" title="{L["name"]}" aria-label="{L["name"]}"{cur}>'
+                    f'{FLAGS[code]}</a>')
     return ('  <div class="m-lang" role="group" aria-label="Sprache / Language">\n    '
             + "".join(opts) + '\n  </div>')
 
@@ -104,7 +113,7 @@ _FOOT_T = {
            "b1": "Ingenieurbüro — staatlich geprüft", "b2": "Medizinproduktehandel — staatlich geprüft",
            "b3": "Ingenieurbüros Österreich · EU", "skip": "Zum Inhalt springen"},
     "en": {"tagline": "Medical technology engineering firm.", "svc": "Services",
-           "planung": "Planning", "consulting": "Consulting", "handel": "Procurement", "pruefung": "Inspection",
+           "planung": "Medical Technology Design", "consulting": "Consulting", "handel": "Procurement", "pruefung": "Inspection",
            "contact": "Contact", "legal": "Legal", "agb": "Terms &amp; Conditions", "ds": "Privacy", "imp": "Imprint",
            "b1": "Engineering firm — state-certified", "b2": "Medical device trade — state-certified",
            "b3": "Engineering firms Austria · EU", "skip": "Skip to content"},
@@ -2113,7 +2122,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
   <div class="m-shell m-hero-grid">
     <div class="m-hero-copy">
       <h1 class="m-hero-title">Engineering for medical technology<span class="end-dot">.</span></h1>
-      <p class="m-hero-sub">We plan, supply and support medical solutions to the highest quality standards.</p>
+      <p class="m-hero-sub">We design, supply and support medical solutions to the highest quality standards.</p>
     </div>
     <img class="m-hero-logo" src="/assets/medeqon-logo-white.png" alt="medeqon" width="1618" height="335">
   </div>
@@ -2130,7 +2139,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
   <div class="m-shell">
     <div class="m-secH">
       <h2 class="m-bigH">Shaping progress together<span class="end-dot">.</span></h2>
-      <div class="sub">With our many years of experience in medical technology, we offer a comprehensive range of services tailored individually to your requirements. Whether initial concepts and feasibility studies, strategic procurement or the detailed planning of your clinic – we support you competently and reliably in every project phase.</div>
+      <div class="sub">With our many years of experience in medical technology, we offer a comprehensive range of services tailored individually to your requirements. Whether initial concepts and feasibility studies, strategic procurement or the detailed design of your clinic – we support you competently and reliably in every project phase.</div>
     </div>
     <div class="m-svc2-grid">
       <a class="m-svc2" href="/leistungen.html">
@@ -2138,7 +2147,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <span class="m-svc2-ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 38 L38 38 L10 12 Z"/><path d="M10 27 L21 27"/><circle cx="38" cy="38" r="3.6" class="sig-fill"/></svg></span>
           <span class="m-svc2-num">01</span>
         </div>
-        <h3 class="m-svc2-title">Planning<span class="end-dot">.</span></h3>
+        <h3 class="m-svc2-title">Medical Technology Design<span class="end-dot">.</span></h3>
         <p class="m-svc2-desc">From idea to implementation – we deliver your medical technology projects. With clear structures and efficient project control we ensure on-time delivery, cost certainty and the highest quality.</p>
       </a>
       <a class="m-svc2" href="/leistungen.html">
@@ -2176,7 +2185,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
         <span class="m-tag">Total Cost of Ownership</span>
         <h2 class="m-bigH">What does medical technology really cost<span class="end-dot">?</span></h2>
         <p class="m-tco-lead">The purchase price is only the tip of the iceberg. Over the entire life cycle, far higher costs arise – in operation, maintenance, consumables and staff. We know these total costs in detail and factor them into every decision from the outset.</p>
-        <p class="m-tco-principle">Plan early · Reduce total cost · Preserve value long-term<span class="em">.</span></p>
+        <p class="m-tco-principle">Design early · Reduce total cost · Preserve value long-term<span class="em">.</span></p>
       </div>
 
       <figure class="m-tco-iceberg">
@@ -2237,9 +2246,9 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
 <section class="m-section alt" id="mtd">
   <div class="m-shell">
     <div class="m-secH">
-      <span class="m-tag">Medical technology planning</span>
-      <h2 class="m-bigH">Early planning that pays off across the entire life cycle<span class="end-dot">.</span></h2>
-      <div class="sub">We bring medical technology into the planning from the very first concept phase – this reduces costs, creates schedule and cost certainty and anchors the requirements of later operation right from the start.</div>
+      <span class="m-tag">Medical Technology Design</span>
+      <h2 class="m-bigH">Early Medical Technology Design that pays off across the entire life cycle<span class="end-dot">.</span></h2>
+      <div class="sub">We bring medical technology into the design from the very first concept phase – this reduces costs, creates schedule and cost certainty and anchors the requirements of later operation right from the start.</div>
     </div>
 
     <div class="m-tco-cards">
@@ -2248,7 +2257,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <p>Requirements for function, operation, infrastructure and cost efficiency are considered from the outset.</p>
         </div>
         <div class="m-tco-card m-tco-card--warn">
-          <span class="m-tco-card-cap">Without medical technology planning</span>
+          <span class="m-tco-card-cap">Without Medical Technology Design</span>
           <p>Higher costs and increased coordination effort in later project phases.</p>
         </div>
         <div class="m-tco-card m-tco-card--task">
@@ -2258,8 +2267,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
       </div>
 
       <figure class="m-tco-chart">
-        <div class="m-tco-chart-title">Cost efficiency through early planning</div>
-        <svg viewBox="0 0 720 400" role="img" aria-label="Diagram: project cost over 30 years – significantly lower life-cycle cost with early planning." xmlns="http://www.w3.org/2000/svg">
+        <div class="m-tco-chart-title">Cost efficiency through early design</div>
+        <svg viewBox="0 0 720 400" role="img" aria-label="Diagram: project cost over 30 years – significantly lower life-cycle cost with early design." xmlns="http://www.w3.org/2000/svg">
           <line x1="64" y1="48" x2="64" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
           <line x1="64" y1="320" x2="612" y2="320" stroke="#D5DAE0" stroke-width="1.5"/>
           <polygon points="64,320 163,268 262,198 361,138 460,84 560,58 560,141 411,157 262,179 163,200 64,320" fill="#004AAD" fill-opacity="0.08"/>
@@ -2268,9 +2277,9 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
           <circle cx="560" cy="141" r="6" fill="#004AAD"/>
           <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Cost without</text>
-          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">planning</text>
+          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">design</text>
           <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Cost with</text>
-          <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">planning</text>
+          <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">design</text>
           <g font-family="IBM Plex Mono, monospace" font-size="14" fill="#6B7785" text-anchor="middle">
             <text x="64" y="342">0</text><text x="155" y="342">5</text><text x="246" y="342">10</text>
             <text x="336" y="342">15</text><text x="427" y="342">20</text><text x="518" y="342">25</text><text x="560" y="342">30</text>
@@ -2279,15 +2288,15 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#6B7785" transform="rotate(-90 22 184)" text-anchor="middle">PROJECT COST</text>
           <rect x="64" y="356" width="99" height="24" rx="5" fill="#E8EEF7"/>
           <rect x="167" y="356" width="445" height="24" rx="5" fill="#F1F4F8"/>
-          <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANNING</text>
+          <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">DESIGN</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#6B7785" text-anchor="middle">OPERATION</text>
         </svg>
-        <figcaption>Plan early. Lower life-cycle costs.</figcaption>
+        <figcaption>Design early. Lower life-cycle costs.</figcaption>
       </figure>
 
-    <h3 class="m-mtd-subhead">Medical technology planning as an integral process</h3>
+    <h3 class="m-mtd-subhead">Medical Technology Design as an integral process</h3>
     <div class="m-mtd-enable">
-      <span class="m-mtd-enable-cap">What our medical technology planning enables</span>
+      <span class="m-mtd-enable-cap">What our Medical Technology Design enables</span>
       <div class="m-mtd-enable-items">
         <span>Fewer re-plans</span>
         <span>Schedule &amp; cost certainty</span>
@@ -2297,7 +2306,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
       </div>
     </div>
     <figure class="m-mtd-figure">
-      <img src="/assets/brands/integrated-design-model-mist.png" alt="Integrated design model – BIM as the central coordination hub between architecture, medical technology, building services and operational organisation, shaped by budget, hygiene requirements, regulatory requirements and user needs." loading="lazy">
+      <img src="/assets/brands/integrated-design-model-en.png" alt="Integrated design model – BIM as the central coordination hub between architecture, medical technology, building services and operational organisation, shaped by budget, hygiene requirements, regulatory requirements and user needs." loading="lazy">
     </figure>
   </div>
 </section>
@@ -2306,8 +2315,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
   <div class="m-shell">
     <div class="m-secH">
       <span class="m-tag">BIM</span>
-      <h2 class="m-bigH">BIM-based planning and standardised processes<span class="end-dot">.</span></h2>
-      <div class="sub">Model-based working, in-house databases and repeatable results – the backbone of our medical technology planning.</div>
+      <h2 class="m-bigH">BIM-based design and standardised processes<span class="end-dot">.</span></h2>
+      <div class="sub">Model-based working, in-house databases and repeatable results – the backbone of our Medical Technology Design.</div>
     </div>
     <div class="m-bim-grid">
       <figure class="m-bim-figure">
@@ -2346,7 +2355,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <h3>Model-based approach</h3>
           <ul>
             <li>Autodesk Revit as standard tool</li>
-            <li>Model-based planning across all project phases</li>
+            <li>Model-based design across all project phases</li>
             <li>Integration into architecture and building-services models</li>
           </ul>
         </div>
@@ -2385,7 +2394,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
 # Englische Seiten (werden nach /en/ geschrieben). Weitere folgen nach Freigabe.
 PAGES_EN = [
     ("index.html", "medeqon · Engineering for medical technology",
-     "medeqon GmbH — Vienna-based engineering firm for medical technology. Planning, consulting, procurement and safety-related inspection of clinical infrastructure.",
+     "medeqon GmbH — Vienna-based engineering firm for medical technology. Design, consulting, procurement and safety-related inspection of clinical infrastructure.",
      BODY_INDEX_EN),
 ]
 

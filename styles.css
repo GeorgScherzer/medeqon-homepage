@@ -54,13 +54,16 @@ img{max-width:100%}
 .brandlogo-word{font-family:var(--font-display);font-weight:600;font-size:33px;
   letter-spacing:-0.02em;color:var(--ink);text-transform:lowercase}
 .brandlogo-word::after{content:".";color:var(--signal)}
-.m-lang{display:inline-flex;align-items:center;gap:2px;padding:3px;border:1px solid var(--mist);
-  border-radius:999px;background:var(--paper)}
-.m-lang-opt{text-decoration:none;font-family:var(--font-mono);font-size:12.5px;font-weight:500;
-  letter-spacing:.04em;color:var(--steel);padding:5px 11px;border-radius:999px;line-height:1;
-  transition:background var(--dur) var(--ease),color var(--dur) var(--ease)}
-.m-lang-opt:hover{color:var(--ink)}
-.m-lang-opt.is-on{background:var(--signal);color:#fff}
+.m-lang{display:inline-flex;align-items:center;gap:9px}
+.m-flag{display:inline-flex;width:30px;height:20px;border-radius:4px;overflow:hidden;
+  border:1px solid var(--mist);box-shadow:0 1px 2px rgba(15,27,44,.12);
+  opacity:.5;filter:saturate(.9);transition:opacity var(--dur) var(--ease),
+  transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),outline-color var(--dur) var(--ease);
+  outline:2px solid transparent;outline-offset:2px}
+.m-flag svg{width:100%;height:100%;display:block}
+.m-flag:hover{opacity:1;transform:translateY(-1px)}
+.m-flag.is-on{opacity:1;filter:none;outline-color:var(--signal);box-shadow:0 3px 8px -3px rgba(0,74,173,.55)}
+.m-flag:focus-visible{outline-color:var(--signal)}
 .m-nav-links{margin-left:auto;display:flex;gap:32px;flex-wrap:wrap;align-items:center}
 .m-nav-links a{text-decoration:none;color:var(--ink);font-size:20px;font-weight:400;
   padding:6px 0;transition:color var(--dur) var(--ease)}
