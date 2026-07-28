@@ -1663,18 +1663,26 @@ f'            <p class="m-refc-desc m-refc-desc--full">{desc}</p>\n'
 + linkhtml +
 '          </article>')
 
-def _filter_block(groups, add_all=True, all_label="Alle"):
+def _filter_block(groups, add_all=True, all_label="Alle", collapsed=False,
+                  hint="Wählen Sie oben eine Kategorie, um die Beiträge anzuzeigen."):
     total = sum(len(items) for _, _, items in groups)
     chips = []
     if add_all:
-        chips.append(_ref_fbtn("all", all_label, total, active=True))
+        chips.append(_ref_fbtn("all", all_label, total, active=(not collapsed)))
     for idx, (gid, label, items) in enumerate(groups):
-        chips.append(_ref_fbtn(gid, label, len(items), active=(not add_all and idx == 0)))
-    active_gid = None if add_all else (groups[0][0] if groups else None)
+        chips.append(_ref_fbtn(gid, label, len(items),
+                               active=(not collapsed and not add_all and idx == 0)))
+    if collapsed:
+        active_gid = "\0"  # kein Treffer -> alle Karten verborgen
+    else:
+        active_gid = None if add_all else (groups[0][0] if groups else None)
     cards = [_grid_card(gid, it, hidden=(active_gid is not None and gid != active_gid))
              for gid, label, items in groups for it in items]
-    return ('    <div class="m-filterable">\n'
+    root_cls = "m-filterable is-collapsed" if collapsed else "m-filterable"
+    hint_html = (f'      <p class="m-ref-hint">{_html.escape(hint)}</p>\n') if collapsed else ''
+    return ('    <div class="' + root_cls + '">\n'
             '      <div class="m-ref-filter">\n' + "\n".join(chips) + '\n      </div>\n'
+            + hint_html +
             '      <div class="m-ref-grid">\n' + "\n".join(cards) + '\n      </div>\n'
             '    </div>')
 
@@ -1791,7 +1799,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Wissenschaft &amp; Forschung<span class="end-dot">.</span></h2>
       <div class="sub">Wissenschaft und Forschung sind fester Bestandteil unseres Selbstverständnisses. Durch die Mitwirkung an Forschungsprojekten, wissenschaftlichen Beiträgen und dem fachlichen Austausch leisten wir einen aktiven Beitrag zur Weiterentwicklung moderner Medizintechnik und evidenzbasierter Lösungen.</div>
     </div>
-''' + _filter_block(_WISS_GROUPS, add_all=True) + '''
+''' + _filter_block(_WISS_GROUPS, add_all=True, collapsed=True) + '''
   </div>
 </section>
 
@@ -1802,7 +1810,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <h2 class="m-bigH">Consulting &amp; Lehre<span class="end-dot">.</span></h2>
       <div class="sub">Herstellerunabhängige Beratung mit technischem Know-how – individuell, praxisnah und lösungsorientiert – sowie akademische Lehr- und Betreuungstätigkeit.</div>
     </div>
-''' + _filter_block(_CONS_GROUPS, add_all=False) + '''
+''' + _filter_block(_CONS_GROUPS, add_all=False, collapsed=True) + '''
   </div>
 </section>
 
