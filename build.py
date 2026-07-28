@@ -733,9 +733,10 @@ def _downloads_category(num, cid, lead, groups, note=None):
     parts = [
 '      <details class="m-ac" id="' + cid + '">\n'
 '        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">Downloads &amp; Unterlagen</span>' + CHEV + '</summary>\n'
-'        <div class="m-ac-body">\n'
-'          <p class="m-ac-lead">' + lead + '</p>\n'
-'          <div class="m-dl-wrap">']
+'        <div class="m-ac-body">\n']
+    if lead:
+        parts.append('          <p class="m-ac-lead">' + lead + '</p>\n')
+    parts.append('          <div class="m-dl-wrap">')
     for group, items in groups:
         parts.append(
 '            <div class="m-dl-group">\n'
@@ -744,10 +745,11 @@ f'              <div class="m-dl-grouptitle">{_html.escape(group)}</div>\n'
 + "\n".join(_dl_card(it) for it in items) + '\n'
 '              </div>\n'
 '            </div>')
-    if note:
+    if note is not None:
+        note_p = ('              <p>' + note + '</p>\n') if note else ''
         parts.append(
 '            <div class="m-dl-note">\n'
-'              <p>' + note + '</p>\n'
++ note_p +
 '              <a class="m-dl-note-btn" href="kontakt.html">Zur Kontaktseite</a>\n'
 '            </div>')
     parts.append(
@@ -773,6 +775,9 @@ _DL_NOTE_REQUEST = ("Weitere Kataloge und Unterlagen &ndash; Datenblätter, "
 _DL_NOTE_SS = ("Weitere Sprachversionen des Katalogs (Englisch, Polnisch) sowie "
                "Datenblätter, Produktinformationen und Zertifikate übermitteln wir Ihnen "
                "gerne auf Anfrage.")
+
+_DL_NOTE_ANFRAGE = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
+                    "senden wir Ihnen gerne auf Anfrage zu.")
 
 _DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produkten der "
                 "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
@@ -1110,7 +1115,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ, note=_DL_NOTE_SS) + '''
+''' + _downloads_category("06", "downloads-strahlenschutz", "", [], note=_DL_NOTE_ANFRAGE) + '''
     </div>
   </div>
 </section>
@@ -1274,7 +1279,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-heilbehelfe", _DL_LEAD_HB, DL_HB, note=_DL_NOTE_REQUEST) + '''
+''' + _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE) + '''
     </div>
   </div>
 </section>
