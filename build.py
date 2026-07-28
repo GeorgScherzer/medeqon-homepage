@@ -1543,6 +1543,29 @@ def _ref_card(p, gid, client):
     chips = []
     if p.get("lph"):   chips.append(f'<span class="m-refc-chip">{_html.escape(p["lph"])}</span>')
     if p.get("dauer"): chips.append(f'<span class="m-refc-chip">{_html.escape(p["dauer"])}</span>')
+    imgs = p.get("imgs") or []
+    umfang = p.get("umfang", "")
+    if imgs:
+        data_imgs = _html.escape(json.dumps(imgs), quote=True)
+        data_full = _html.escape(umfang, quote=True)
+        cnt = len(imgs)
+        countbadge = (f'<span class="m-refc-cover-n">{cnt} Bilder</span>' if cnt > 1 else '')
+        cover = (
+            '            <div class="m-refc-cover">\n'
+            f'              <img src="{imgs[0]}" alt="{_html.escape(p["name"])}" loading="lazy">\n'
+            f'              {countbadge}\n'
+            '            </div>\n')
+        return (
+f'          <article class="m-refc has-img is-clickable" data-group="{gid}" data-imgs="{data_imgs}" data-full="{data_full}" tabindex="0" role="button" aria-label="{_html.escape(p["name"])} – Details ansehen">\n'
++ cover +
+'            <div class="m-refc-head">\n'
+f'              <span class="m-refc-client">{_html.escape(client)}</span>\n'
+f'              <span class="m-refc-vol">{_ref_vol(n)}</span>\n'
+'            </div>\n'
+f'            <h3 class="m-refc-name">{_html.escape(p["name"])}</h3>\n'
+f'            <p class="m-refc-desc">{_html.escape(umfang)}</p>\n'
+f'            <div class="m-refc-foot">{"".join(chips)}</div>\n'
+'          </article>')
     return (
 f'          <article class="m-refc" data-group="{gid}">\n'
 '            <div class="m-refc-head">\n'
@@ -1550,7 +1573,7 @@ f'              <span class="m-refc-client">{_html.escape(client)}</span>\n'
 f'              <span class="m-refc-vol">{_ref_vol(n)}</span>\n'
 '            </div>\n'
 f'            <h3 class="m-refc-name">{_html.escape(p["name"])}</h3>\n'
-f'            <p class="m-refc-desc{" m-refc-desc--full" if p.get("full") else ""}">{_html.escape(p.get("umfang",""))}</p>\n'
+f'            <p class="m-refc-desc{" m-refc-desc--full" if p.get("full") else ""}">{_html.escape(umfang)}</p>\n'
 f'            <div class="m-refc-foot">{"".join(chips)}</div>\n'
 '          </article>')
 
@@ -1728,6 +1751,25 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   </div>
 </section>
 
+<div class="m-lb" id="refLightbox" hidden aria-hidden="true">
+  <div class="m-lb-backdrop" data-lb-close></div>
+  <div class="m-lb-panel" role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+    <button class="m-lb-x" data-lb-close aria-label="Schließen">&times;</button>
+    <div class="m-lb-media">
+      <img class="m-lb-img" src="" alt="">
+      <button class="m-lb-nav m-lb-prev" aria-label="Vorheriges Bild">&#8249;</button>
+      <button class="m-lb-nav m-lb-next" aria-label="Nächstes Bild">&#8250;</button>
+      <div class="m-lb-dots"></div>
+    </div>
+    <div class="m-lb-body">
+      <span class="m-lb-client"></span>
+      <h3 class="m-lb-title" id="lbTitle"></h3>
+      <p class="m-lb-desc"></p>
+      <div class="m-lb-foot"></div>
+    </div>
+  </div>
+</div>
+
 <script>
 document.querySelectorAll('.m-filterable').forEach(function(root){
   var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
@@ -1738,6 +1780,60 @@ document.querySelectorAll('.m-filterable').forEach(function(root){
     cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
   });});
 });
+(function(){
+  var lb=document.getElementById('refLightbox'); if(!lb) return;
+  var img=lb.querySelector('.m-lb-img'), dots=lb.querySelector('.m-lb-dots'),
+      prev=lb.querySelector('.m-lb-prev'), next=lb.querySelector('.m-lb-next'),
+      media=lb.querySelector('.m-lb-media'),
+      elClient=lb.querySelector('.m-lb-client'), elTitle=lb.querySelector('.m-lb-title'),
+      elDesc=lb.querySelector('.m-lb-desc'), elFoot=lb.querySelector('.m-lb-foot');
+  var imgs=[], idx=0, lastFocus=null;
+  function show(i){
+    idx=(i+imgs.length)%imgs.length;
+    img.src=imgs[idx]; img.alt=elTitle.textContent+' – Bild '+(idx+1);
+    dots.querySelectorAll('button').forEach(function(d,k){d.classList.toggle('is-on',k===idx);});
+  }
+  function open(card){
+    try{imgs=JSON.parse(card.getAttribute('data-imgs'))||[];}catch(e){imgs=[];}
+    if(!imgs.length) return;
+    var cl=card.querySelector('.m-refc-client'), nm=card.querySelector('.m-refc-name'),
+        ft=card.querySelector('.m-refc-foot');
+    elClient.textContent=cl?cl.textContent:'';
+    elTitle.textContent=nm?nm.textContent:'';
+    elDesc.textContent=card.getAttribute('data-full')||'';
+    elFoot.innerHTML=ft?ft.innerHTML:'';
+    dots.innerHTML='';
+    var multi=imgs.length>1;
+    media.classList.toggle('is-single',!multi);
+    if(multi){imgs.forEach(function(_,k){var d=document.createElement('button');
+      d.type='button'; d.setAttribute('aria-label','Bild '+(k+1));
+      d.addEventListener('click',function(){show(k);}); dots.appendChild(d);});}
+    lastFocus=document.activeElement;
+    lb.hidden=false; lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    show(0);
+    lb.querySelector('.m-lb-x').focus();
+  }
+  function close(){
+    lb.hidden=true; lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; img.src='';
+    if(lastFocus&&lastFocus.focus) lastFocus.focus();
+  }
+  document.querySelectorAll('.m-refc.is-clickable').forEach(function(card){
+    card.addEventListener('click',function(){open(card);});
+    card.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();open(card);}});
+  });
+  lb.querySelectorAll('[data-lb-close]').forEach(function(x){x.addEventListener('click',close);});
+  prev.addEventListener('click',function(){show(idx-1);});
+  next.addEventListener('click',function(){show(idx+1);});
+  document.addEventListener('keydown',function(e){
+    if(lb.hidden) return;
+    if(e.key==='Escape') close();
+    else if(e.key==='ArrowLeft') show(idx-1);
+    else if(e.key==='ArrowRight') show(idx+1);
+  });
+})();
 </script>
 
 <section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">

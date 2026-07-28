@@ -17,7 +17,11 @@
           "lph": "LPH5-LPH9",
           "umfang": "Errichtung eines intraoperativen MRs (Kombination aus MRT und Operationsraum) inklusive aller benötigten Nebenräume.",
           "kosten": "€ 3,000,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/errichtung-eines-intraoperativen-mrs/1.jpg",
+            "assets/ref/errichtung-eines-intraoperativen-mrs/2.jpg"
+          ]
         },
         {
           "name": "Neuerrichtung eines Extrakorporalen Zentrums und Normalpflegebereiche",
@@ -31,7 +35,11 @@
           "lph": "LPH5-LPH9",
           "umfang": "Austausch der Angiographieanlage innerhalb des OP-Bereichs im Zuge der Modernisierung der Universitätsklinik für Neurochirurgie.",
           "kosten": "€ 1,900,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-angiographie-im-neurologie-op/1.jpg",
+            "assets/ref/austausch-angiographie-im-neurologie-op/2.jpg"
+          ]
         },
         {
           "name": "Austausch von einem Planungs-CT in der Strahlentherapie",
@@ -45,14 +53,23 @@
           "lph": "LPH8",
           "umfang": "Austausch der Computertomographie im Zuge der Modernisierung der Universitätsklinik für Neurochirurgie.",
           "kosten": "€ 1,200,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-ct-anlage/1.jpg",
+            "assets/ref/austausch-ct-anlage/2.jpg"
+          ]
         },
         {
           "name": "Errichtung von einer Krankenstation für ca. 140 Betten",
           "lph": "LPH5-LPH9",
           "umfang": "Errichtung von einer Krankenstation für ca. 140 Betten im Bereich der Normalpflege über vier Ebenen. Ebene 03: Onkologische Tagesklinik, Ebene 04: Onkologie, Ebene 05: Hämatologie, Ebene 06: Palliativ und Radioonkologie.",
           "kosten": "€ 1,050,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/1.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/2.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/3.jpg"
+          ]
         },
         {
           "name": "Austausch von zwei Uroskopie-Systemen und Adaptierung der Untersuchungsräume",
@@ -66,7 +83,11 @@
           "lph": "LPH1-LPH2",
           "umfang": "Austausch des Altgeräts gegen eine moderne Durchleuchtungsanlage. Vergrößerung des Untersuchungsraumes und Anpassung an die aktuellen behördlichen Vorgaben. Neugestaltung und Modernisierung des Bedienraumes sowie des Technikraums. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste",
           "kosten": "€ 550,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-einer-durchleuchtungseinheit/1.jpg",
+            "assets/ref/austausch-einer-durchleuchtungseinheit/2.jpg"
+          ]
         },
         {
           "name": "Errichtung von einem Medizinischen Versorgungszentrum",
@@ -136,7 +157,10 @@
           "lph": "LPH1-LPH2",
           "umfang": "Neuerrichtung von 39 Kühlzellen im Rahmen der Neugestaltung des gesamten Grundrisses, abgestimmt auf den betriebsorganisatorischen Ablauf. Erweiterung der Seziertische der Obduktion sowie Planung und Einbringung von medizinischen Verbauten aus Metall..",
           "kosten": "€ 530,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/umbau-einer-pathologie-und-neuerrichtung-von-kuhlzellen/1.jpg"
+          ]
         },
         {
           "name": "Mutter-Kind-Zentrum, Vollausbau BT61.1",
@@ -164,7 +188,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der alten Angiographieanlage zu einem biplanen System, sowie Austausch der Computertomographieanlage zu einem CT-System mit einer Sliding Gantry. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 4,100,000",
-          "dauer": "4 Jahr"
+          "dauer": "4 Jahr",
+          "imgs": [
+            "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/1.jpg",
+            "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/2.jpg"
+          ]
         },
         {
           "name": "Errichtung eines Hybrid OPs",
@@ -206,7 +234,10 @@
           "lph": "LPH1-LPH2",
           "umfang": "Austausch der alten MR-Anlage sowie Modernisierung des Vorbereitungsraumes. Modernisierung des Bedien- und Technikraums. Anpassung des Vorbereitungsraums für die Versorgung von Notfallpatient*innen. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik",
           "kosten": "€ 1,900,000",
-          "dauer": "1 Jahr"
+          "dauer": "1 Jahr",
+          "imgs": [
+            "assets/ref/austausch-mr-anlage/1.jpg"
+          ]
         },
         {
           "name": "Austausch PET CT",
@@ -283,21 +314,33 @@
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 500,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/austausch-rontgenaufnahmeplatz/1.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz/2.jpg"
+          ]
         },
         {
           "name": "Neuerrichtung einer Kinder und Jugendpsychiatrie",
           "lph": "LPH8-LPH9",
           "umfang": "Modernisierung des Bestandsgebäudes auf sechs Ebenen. Errichtung eines Zubaus sowie der Aufstockung einer Ebene. Planung und Ausführung diverser mobiler und ortsfester Medizintechnik (EKG-Geräte, EEG, Patientenbetten, Untersuchungsliegen, Defibrillatoren, etc.).",
           "kosten": "€ 480,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/neuerrichtung-einer-kinder-und-jugendpsychiatrie/1.jpg",
+            "assets/ref/neuerrichtung-einer-kinder-und-jugendpsychiatrie/2.jpg"
+          ]
         },
         {
           "name": "Austausch Röntgenaufnahmeplatz 2",
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der bestehenden Röntgenanlage auf ein neues digitales System. Planung und Ausführung von medizinischen Verbauten aus Metall sowie diverse mobile und ortsfeste Medizintechnik.",
           "kosten": "€ 460,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/austausch-rontgenaufnahmeplatz-2/1.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz-2/2.jpg"
+          ]
         },
         {
           "name": "Etablierung ERCP",
@@ -311,7 +354,12 @@
           "lph": "LPH1-LPH9",
           "umfang": "Austausch der Bestandsanlage auf ein neues digitales System.",
           "kosten": "€ 350,000",
-          "dauer": "3 Jahre"
+          "dauer": "3 Jahre",
+          "imgs": [
+            "assets/ref/austausch-rontgenaufnahmeplatz-3/1.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz-3/2.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz-3/3.jpg"
+          ]
         },
         {
           "name": "Errichtung einer Bettendesinfektionsanlage",
@@ -353,7 +401,11 @@
           "lph": "LPH1-LPH9",
           "umfang": "Adaptierung der Aufbereitungsanlagen und Umbau der medizinischen Verbauten aus Metall, damit das OP-Besteck der OP-Roboter gereinigt werden kann. Umbau von Aufbereitungsanlagen für zwei OP-Säle und der zentralen Sterilisation.",
           "kosten": "€ 100,000",
-          "dauer": "2 Jahre"
+          "dauer": "2 Jahre",
+          "imgs": [
+            "assets/ref/adaptierung-der-aufbereitung-op1-op2-und-z-steri/1.jpg",
+            "assets/ref/adaptierung-der-aufbereitung-op1-op2-und-z-steri/2.jpg"
+          ]
         }
       ]
     },
@@ -367,7 +419,10 @@
           "lph": "LPH5-LPH7",
           "umfang": "Das Krankenhaus verfügt über 58 Betten, 12 Beobachtungsbetten, zwei Operationssäle sowie einen Hybrid-Operationssaal, ein Herzkatheterlabor und behandelt jährlich ca. 2.200 stationäre Patienten und ca. 6.200 ambulante Patienten.",
           "kosten": "€ 10,000,000",
-          "dauer": "2019-2020"
+          "dauer": "2019-2020",
+          "imgs": [
+            "assets/ref/herz-neuro-zentrum-bodensee-schweiz/1.jpg"
+          ]
         }
       ]
     },
