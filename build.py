@@ -2424,6 +2424,7 @@ _REFUI = {
   "Details ansehen": "View details",
   "AKH Wien · Persönlich": "AKH Vienna · Personal",
   "AKH Wien · Leitung": "AKH Vienna · Management",
+  "Österreich": "Austria",
   "Schweiz": "Switzerland",
   "Internationale Projekte": "International projects",
   "Konferenzen": "Conferences",
@@ -2480,6 +2481,7 @@ _REFUI = {
   "Details ansehen": "Zobacz szczegóły",
   "AKH Wien · Persönlich": "AKH Wiedeń · Osobiste",
   "AKH Wien · Leitung": "AKH Wiedeń · Kierownictwo",
+  "Österreich": "Austria",
   "Schweiz": "Szwajcaria",
   "Internationale Projekte": "Projekty międzynarodowe",
   "Konferenzen": "Konferencje",
@@ -2536,6 +2538,7 @@ _REFUI = {
   "Details ansehen": "Vedeți detalii",
   "AKH Wien · Persönlich": "AKH Viena · Personal",
   "AKH Wien · Leitung": "AKH Viena · Coordonare",
+  "Österreich": "Austria",
   "Schweiz": "Elveția",
   "Internationale Projekte": "Proiecte internaționale",
   "Konferenzen": "Conferințe",
@@ -2636,10 +2639,21 @@ _ref_groups_html = "\n".join(_ref_group(g, f"{i+1:02d}") for i, g in enumerate(_
 _ref_flags_html = "\n".join(_ref_flag_card(p) for p in _ref_flags)
 
 # --- Filterbares Projektkarten-Raster ---
-_REF_FLABEL = {"akh-persoenlich": "AKH Wien · Persönlich",
-               "akh-leitung": "AKH Wien · Leitung",
+_REF_FLABEL = {"oesterreich": "Österreich",
                "schweiz": "Schweiz",
                "international": "Internationale Projekte"}
+# AKH-Wien-Gruppen (persönlich + Leitung) zu einer Kategorie "Österreich" zusammenfassen
+_REF_GID_MAP = {"akh-persoenlich": "oesterreich", "akh-leitung": "oesterreich"}
+def _ref_gid(g):
+    return _REF_GID_MAP.get(g["id"], g["id"])
+def _ref_filter_defs():
+    order = []; counts = {}
+    for g in _ref_data["groups"]:
+        gid = _ref_gid(g)
+        if gid not in counts:
+            order.append(gid); counts[gid] = 0
+        counts[gid] += len(g["projects"])
+    return [(gid, _REF_FLABEL.get(gid, gid), counts[gid]) for gid in order]
 
 def _ref_card(p, gid, client, lang="de"):
     n = _ref_eurnum(p.get("kosten", ""))
@@ -2682,7 +2696,7 @@ f'            <div class="m-refc-foot">{"".join(chips)}</div>\n'
 '          </article>')
 
 _ref_cards_html = "\n".join(
-    _ref_card(p, g["id"], g["client"]) for g in _ref_data["groups"] for p in g["projects"])
+    _ref_card(p, _ref_gid(g), g["client"]) for g in _ref_data["groups"] for p in g["projects"])
 
 _ref_counts = {g["id"]: len(g["projects"]) for g in _ref_data["groups"]}
 _ref_total = sum(_ref_counts.values())
@@ -2694,19 +2708,17 @@ def _ref_fbtn(fid, label, count, active=False):
 
 def _ref_cards_html_for(lang):
     return "\n".join(
-        _ref_card(p, g["id"], g["client"], lang)
+        _ref_card(p, _ref_gid(g), g["client"], lang)
         for g in _ref_data["groups"] for p in g["projects"])
 
 def _ref_filter_html_for(lang):
     return "\n".join(
         [_ref_fbtn("all", _uit(lang, "Alle"), _ref_total, active=False)]
-        + [_ref_fbtn(g["id"], _uit(lang, _REF_FLABEL.get(g["id"], g["client"])), _ref_counts[g["id"]])
-           for g in _ref_data["groups"]])
+        + [_ref_fbtn(gid, _uit(lang, label), cnt) for gid, label, cnt in _ref_filter_defs()])
 
 _ref_filter_html = "\n".join(
     [_ref_fbtn("all", "Alle", _ref_total, active=False)]
-    + [_ref_fbtn(g["id"], _REF_FLABEL.get(g["id"], g["client"]), _ref_counts[g["id"]])
-       for g in _ref_data["groups"]])
+    + [_ref_fbtn(gid, label, cnt) for gid, label, cnt in _ref_filter_defs()])
 
 # --- medeqon-Icons für Wissenschaft & Forschung (Linien-Stil, blauer Punkt) ---
 _ICON_INK = "#0F1B2C"; _ICON_DOT = "#004AAD"
