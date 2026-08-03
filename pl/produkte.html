@@ -5103,6 +5103,45 @@
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var L=(document.documentElement.lang||'de');
+  var T={de:'Bereich schließen',en:'Close section',pl:'Zamknij sekcję',ro:'Închide secțiunea'};
+  var label=T[L]||T.de;
+  var chev='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>';
+  function closeAndScroll(d){
+    d.open=false;
+    var y=d.getBoundingClientRect().top+window.scrollY-92;
+    window.scrollTo({top:y,behavior:'smooth'});
+  }
+  document.querySelectorAll('.m-acc:not(.m-acc-nested) > details.m-ac').forEach(function(d){
+    var body=d.querySelector(':scope > .m-ac-body');
+    if(!body || body.querySelector(':scope > .m-ac-close')) return;
+    var btn=document.createElement('button');
+    btn.type='button'; btn.className='m-ac-close';
+    btn.innerHTML=chev+'<span>'+label+'</span>';
+    btn.addEventListener('click',function(){ closeAndScroll(d); });
+    body.appendChild(btn);
+  });
+  // Schwebender Schließen-Button: sichtbar, sobald man in eine geöffnete Kategorie gescrollt ist
+  var fab=document.createElement('button');
+  fab.type='button'; fab.className='m-ac-fab'; fab.style.display='none';
+  fab.innerHTML=chev+'<span>'+label+'</span>';
+  document.body.appendChild(fab);
+  function currentOpen(){
+    var vy=90, list=document.querySelectorAll('.m-acc:not(.m-acc-nested) > details.m-ac[open]');
+    for(var i=0;i<list.length;i++){ var r=list[i].getBoundingClientRect();
+      if(r.top < vy && r.bottom > vy+60) return list[i]; }
+    return null;
+  }
+  function updateFab(){ var d=currentOpen(); fab._t=d||null; fab.style.display=d?'inline-flex':'none'; }
+  fab.addEventListener('click',function(){ if(fab._t) closeAndScroll(fab._t); setTimeout(updateFab,60); });
+  window.addEventListener('scroll',updateFab,{passive:true});
+  window.addEventListener('resize',updateFab);
+  document.addEventListener('toggle',updateFab,true);
+  updateFab();
+})();
+</script>
 </main>
 
 <footer class="m-foot">

@@ -387,6 +387,23 @@ details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--sig
 .m-ac-soon{font-family:var(--font-mono);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;
   color:var(--steel);display:inline-flex;align-items:center;gap:8px}
 
+/* Produkte: schwebender Schließen-Button (erscheint beim Scrollen in einer geöffneten Kategorie) */
+.m-ac-fab{position:fixed;right:22px;bottom:22px;z-index:60;display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--signal);border:none;border-radius:999px;padding:13px 20px;cursor:pointer;
+  box-shadow:0 12px 30px -8px rgba(0,74,173,.6);transition:background .15s ease,transform .15s ease}
+.m-ac-fab:hover{background:var(--brand-700);transform:translateY(-2px)}
+.m-ac-fab svg{width:15px;height:15px}
+@media (max-width:600px){.m-ac-fab{right:14px;bottom:14px;padding:12px 16px;font-size:11px}}
+/* Schließen-Button am Ende eines geöffneten Bereichs */
+.m-ac-close{margin:16px 0 0;display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--signal);background:var(--mist-blue);border:1px solid var(--mist);
+  border-radius:999px;padding:11px 20px;cursor:pointer;
+  transition:background .15s ease,border-color .15s ease}
+.m-ac-close:hover{background:#dce7f7;border-color:var(--sky)}
+.m-ac-close svg{width:15px;height:15px}
+
 /* ===== Produkte — verschachteltes Sub-Accordion (Antriebsvarianten) ===== */
 .m-acc-nested{display:grid;gap:12px;margin-top:8px}
 details.m-ac-sub{background:var(--mist-blue);border:1px solid var(--mist)}
