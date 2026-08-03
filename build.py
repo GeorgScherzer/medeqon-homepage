@@ -150,7 +150,7 @@ def footer(lang="de"):
         <span class="m-foot-word">medeqon</span>
       </a>
       <div class="m-foot-words">{t["tagline"]}</div>
-      <div class="m-foot-legalline">medeqon GmbH · FN 672926y · UID ATU83016237</div>
+      <div class="m-foot-legalline">medeqon GmbH<br>FN&nbsp;672926y<br>UID&nbsp;ATU83016237</div>
     </div>
     <div class="m-foot-links">
       <div class="m-foot-col">

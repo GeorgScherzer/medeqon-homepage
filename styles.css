@@ -617,7 +617,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-foot-ico .sig-fill{fill:var(--sky);stroke:none}
 .m-foot-ico .sig-stroke{stroke:var(--sky)}
 .m-foot-words{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px}
-.m-foot-legalline{font-family:var(--font-mono);font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.03em}
+.m-foot-legalline{font-family:var(--font-mono);font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.03em;line-height:1.7}
 .m-foot-col{display:grid;gap:2px;align-content:start}
 .m-foot-tag{font-family:var(--font-mono);font-size:15px;letter-spacing:0.12em;
   text-transform:uppercase;color:var(--sky);margin-bottom:16px}
