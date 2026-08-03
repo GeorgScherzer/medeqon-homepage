@@ -44,7 +44,8 @@
           "dauer": "1 Jahr",
           "imgs": [
             "assets/ref/austausch-angiographie-im-neurologie-op/1.jpg",
-            "assets/ref/austausch-angiographie-im-neurologie-op/2.jpg"
+            "assets/ref/austausch-angiographie-im-neurologie-op/2.jpg",
+            "assets/ref/austausch-angiographie-im-neurologie-op/3.jpg"
           ]
         },
         {
@@ -77,7 +78,13 @@
           "imgs": [
             "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/1.jpg",
             "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/2.jpg",
-            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/3.jpg"
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/3.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/4.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/5.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/6.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/7.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/8.jpg",
+            "assets/ref/errichtung-von-einer-krankenstation-fur-ca-140-betten/9.jpg"
           ]
         },
         {
@@ -109,7 +116,11 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/1.jpg",
-            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/2.jpg"
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/2.jpg",
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/3.jpg",
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/4.jpg",
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/5.jpg",
+            "assets/ref/errichtung-von-einem-medizinischen-versorgungszentrum/6.jpg"
           ]
         },
         {
@@ -139,7 +150,9 @@
           "kosten": "€ 280,000",
           "dauer": "3 Jahre",
           "imgs": [
-            "assets/ref/austausch-rontgentherapieanlage/1.jpg"
+            "assets/ref/austausch-rontgentherapieanlage/1.jpg",
+            "assets/ref/austausch-rontgentherapieanlage/2.jpg",
+            "assets/ref/austausch-rontgentherapieanlage/3.jpg"
           ]
         },
         {
@@ -160,7 +173,10 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/1.jpg",
-            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/2.jpg"
+            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/2.jpg",
+            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/3.jpg",
+            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/4.jpg",
+            "assets/ref/errichtung-simulationsraum-fur-die-strahlentherapie/5.jpg"
           ]
         },
         {
@@ -181,7 +197,8 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/errichtung-von-sonderklassezimmern-in-der-urologie/1.jpg",
-            "assets/ref/errichtung-von-sonderklassezimmern-in-der-urologie/2.jpg"
+            "assets/ref/errichtung-von-sonderklassezimmern-in-der-urologie/2.jpg",
+            "assets/ref/errichtung-von-sonderklassezimmern-in-der-urologie/3.jpg"
           ]
         },
         {
@@ -229,7 +246,8 @@
           "kosten": "€ 5,600,000",
           "dauer": "1 Jahr",
           "imgs": [
-            "assets/ref/austausch-linearbeschleuniger/1.jpg"
+            "assets/ref/austausch-linearbeschleuniger/1.jpg",
+            "assets/ref/austausch-linearbeschleuniger/2.jpg"
           ]
         },
         {
@@ -240,7 +258,9 @@
           "dauer": "4 Jahr",
           "imgs": [
             "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/1.jpg",
-            "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/2.jpg"
+            "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/2.jpg",
+            "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/3.jpg",
+            "assets/ref/austausch-angiographie-und-errichtung-einer-ct-sliding-gantry/4.jpg"
           ]
         },
         {
@@ -251,7 +271,10 @@
           "dauer": "1 Jahr",
           "imgs": [
             "assets/ref/errichtung-eines-hybrid-ops/1.jpg",
-            "assets/ref/errichtung-eines-hybrid-ops/2.jpg"
+            "assets/ref/errichtung-eines-hybrid-ops/2.jpg",
+            "assets/ref/errichtung-eines-hybrid-ops/3.jpg",
+            "assets/ref/errichtung-eines-hybrid-ops/4.jpg",
+            "assets/ref/errichtung-eines-hybrid-ops/5.jpg"
           ]
         },
         {
@@ -271,7 +294,8 @@
           "kosten": "€ 2,600,000",
           "dauer": "2 Jahre",
           "imgs": [
-            "assets/ref/austausch-linearbeschleuniger-2/1.jpg"
+            "assets/ref/austausch-linearbeschleuniger-2/1.jpg",
+            "assets/ref/austausch-linearbeschleuniger-2/2.jpg"
           ]
         },
         {
@@ -292,7 +316,10 @@
           "dauer": "4 Jahre",
           "imgs": [
             "assets/ref/endoskopie-op/1.jpg",
-            "assets/ref/endoskopie-op/2.jpg"
+            "assets/ref/endoskopie-op/2.jpg",
+            "assets/ref/endoskopie-op/3.jpg",
+            "assets/ref/endoskopie-op/4.jpg",
+            "assets/ref/endoskopie-op/5.jpg"
           ]
         },
         {
@@ -302,7 +329,9 @@
           "kosten": "€ 1,900,000",
           "dauer": "1 Jahr",
           "imgs": [
-            "assets/ref/austausch-mr-anlage/1.jpg"
+            "assets/ref/austausch-mr-anlage/1.jpg",
+            "assets/ref/austausch-mr-anlage/2.jpg",
+            "assets/ref/austausch-mr-anlage/3.jpg"
           ]
         },
         {
@@ -313,7 +342,9 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/austausch-pet-ct/1.jpg",
-            "assets/ref/austausch-pet-ct/2.jpg"
+            "assets/ref/austausch-pet-ct/2.jpg",
+            "assets/ref/austausch-pet-ct/3.jpg",
+            "assets/ref/austausch-pet-ct/4.jpg"
           ]
         },
         {
@@ -324,7 +355,11 @@
           "dauer": "1 Jahr",
           "imgs": [
             "assets/ref/austausch-einer-angiographieanlage/1.jpg",
-            "assets/ref/austausch-einer-angiographieanlage/2.jpg"
+            "assets/ref/austausch-einer-angiographieanlage/2.jpg",
+            "assets/ref/austausch-einer-angiographieanlage/3.jpg",
+            "assets/ref/austausch-einer-angiographieanlage/4.jpg",
+            "assets/ref/austausch-einer-angiographieanlage/5.jpg",
+            "assets/ref/austausch-einer-angiographieanlage/6.jpg"
           ]
         },
         {
@@ -366,7 +401,9 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/austausch-von-zwei-matratzendesinfektoren/1.jpg",
-            "assets/ref/austausch-von-zwei-matratzendesinfektoren/2.jpg"
+            "assets/ref/austausch-von-zwei-matratzendesinfektoren/2.jpg",
+            "assets/ref/austausch-von-zwei-matratzendesinfektoren/3.jpg",
+            "assets/ref/austausch-von-zwei-matratzendesinfektoren/4.jpg"
           ]
         },
         {
@@ -377,7 +414,14 @@
           "dauer": "5 Jahre",
           "imgs": [
             "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/1.jpg",
-            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/2.jpg"
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/2.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/3.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/4.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/5.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/6.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/7.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/8.jpg",
+            "assets/ref/physikalische-medizin-modernisierung-und-adaptierung/9.jpg"
           ]
         },
         {
@@ -388,7 +432,8 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/austausch-rontgenaufnahmeplatz/1.jpg",
-            "assets/ref/austausch-rontgenaufnahmeplatz/2.jpg"
+            "assets/ref/austausch-rontgenaufnahmeplatz/2.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz/3.jpg"
           ]
         },
         {
@@ -410,7 +455,9 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/austausch-rontgenaufnahmeplatz-2/1.jpg",
-            "assets/ref/austausch-rontgenaufnahmeplatz-2/2.jpg"
+            "assets/ref/austausch-rontgenaufnahmeplatz-2/2.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz-2/3.jpg",
+            "assets/ref/austausch-rontgenaufnahmeplatz-2/4.jpg"
           ]
         },
         {
@@ -421,7 +468,9 @@
           "dauer": "3 Jahre",
           "imgs": [
             "assets/ref/etablierung-ercp/1.jpg",
-            "assets/ref/etablierung-ercp/2.jpg"
+            "assets/ref/etablierung-ercp/2.jpg",
+            "assets/ref/etablierung-ercp/3.jpg",
+            "assets/ref/etablierung-ercp/4.jpg"
           ]
         },
         {
@@ -454,7 +503,8 @@
           "dauer": "2 Jahre",
           "imgs": [
             "assets/ref/neuerrichtung-von-ambulanzbereichen-herz-thorax-zentrum/1.jpg",
-            "assets/ref/neuerrichtung-von-ambulanzbereichen-herz-thorax-zentrum/2.jpg"
+            "assets/ref/neuerrichtung-von-ambulanzbereichen-herz-thorax-zentrum/2.jpg",
+            "assets/ref/neuerrichtung-von-ambulanzbereichen-herz-thorax-zentrum/3.jpg"
           ]
         },
         {
@@ -475,7 +525,9 @@
           "dauer": "4 Jahre",
           "imgs": [
             "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/1.jpg",
-            "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/2.jpg"
+            "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/2.jpg",
+            "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/3.jpg",
+            "assets/ref/modernisierung-von-ambulanzbereichen-kardiologie-und-angiologie/4.jpg"
           ]
         },
         {
@@ -496,7 +548,8 @@
           "dauer": "2 Jahre",
           "imgs": [
             "assets/ref/adaptierung-der-aufbereitung-op1-op2-und-z-steri/1.jpg",
-            "assets/ref/adaptierung-der-aufbereitung-op1-op2-und-z-steri/2.jpg"
+            "assets/ref/adaptierung-der-aufbereitung-op1-op2-und-z-steri/2.jpg",
+            "assets/ref/adaptierung-der-aufbereitung-op1-op2-und-z-steri/3.jpg"
           ]
         }
       ]
@@ -534,7 +587,8 @@
             "assets/ref/krankenhausprojekte-in-kriegsgebieten/1.jpg",
             "assets/ref/krankenhausprojekte-in-kriegsgebieten/2.jpg",
             "assets/ref/krankenhausprojekte-in-kriegsgebieten/3.jpg",
-            "assets/ref/krankenhausprojekte-in-kriegsgebieten/4.jpg"
+            "assets/ref/krankenhausprojekte-in-kriegsgebieten/4.jpg",
+            "assets/ref/krankenhausprojekte-in-kriegsgebieten/5.jpg"
           ]
         }
       ]
