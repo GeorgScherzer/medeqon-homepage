@@ -824,6 +824,9 @@ textarea.m-input{min-height:150px;resize:vertical}
   font-size:16px;line-height:22px;color:var(--brand-700)}
 .m-mtd-enable-items span::before{content:"";position:absolute;left:2px;top:8px;width:7px;height:7px;
   border-radius:50%;background:var(--signal)}
+/* Deutsch: alle Punkte auf einer Zeile (andere Sprachen dürfen umbrechen) */
+html[lang="de"] .m-mtd-enable-items{gap:14px 20px}
+html[lang="de"] .m-mtd-enable-items span{font-size:15px;white-space:nowrap}
 .m-mtd-figure{margin:0 auto;max-width:940px;background:transparent;border:none;box-shadow:none;padding:0}
 .m-mtd-figure img{width:100%;height:auto;display:block}
 .m-mtd-figure .m-mtd-svg,.m-mtd-svg{width:100%;height:auto;display:block}
