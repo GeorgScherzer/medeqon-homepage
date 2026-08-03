@@ -395,7 +395,7 @@ BODY_INDEX = '''<section class="m-hero-main">
         <svg viewBox="0 0 720 400" role="img" aria-label="Diagramm: Projektkosten über 30 Jahre – mit früher Planung deutlich niedrigere Lebenszykluskosten." xmlns="http://www.w3.org/2000/svg">
           <line x1="64" y1="48" x2="64" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
           <line x1="64" y1="320" x2="612" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
-          <polygon points="64,320 163,268 262,198 361,138 460,84 560,58 560,141 411,157 262,179 163,200 64,320" fill="#004AAD" fill-opacity="0.08"/>
+          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58 L560,141 C520,146 480,151 411,157 C350,162 330,173 262,179 C228,182 205,184 163,200 C138,214 108,252 64,320 Z" fill="#004AAD" fill-opacity="0.08"/>
           <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="4" stroke-linecap="round"/>
           <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="4" stroke-linecap="round"/>
           <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
@@ -404,6 +404,12 @@ BODY_INDEX = '''<section class="m-hero-main">
           <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Planung</text>
           <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Kosten mit</text>
           <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Planung</text>
+          <g stroke-linecap="round">
+            <line x1="560" y1="66" x2="560" y2="133" stroke="#159A55" stroke-width="2.4"/>
+            <polygon points="560,64 555,73 565,73" fill="#159A55"/>
+            <polygon points="560,135 555,126 565,126" fill="#159A55"/>
+          </g>
+          <text x="551" y="106" text-anchor="end" font-family="Hanken Grotesk, sans-serif" font-size="15.5" font-weight="700" fill="#159A55">Ersparnis</text>
           <g font-family="IBM Plex Mono, monospace" font-size="14" fill="#0F1B2C" text-anchor="middle">
             <text x="64" y="342">0</text><text x="155" y="342">5</text><text x="246" y="342">10</text>
             <text x="336" y="342">15</text><text x="427" y="342">20</text><text x="518" y="342">25</text><text x="560" y="342">30</text>
@@ -422,11 +428,11 @@ BODY_INDEX = '''<section class="m-hero-main">
     <div class="m-mtd-enable">
       <span class="m-mtd-enable-cap">Was unsere Medizintechnik-Planung ermöglicht</span>
       <div class="m-mtd-enable-items">
-        <span>Weniger Umplanungen</span>
-        <span>Termin- &amp; Kostensicherheit</span>
-        <span>Effiziente BIM-Koordination</span>
-        <span>Verlässliche Baudaten</span>
-        <span>Integration der Betreiberbedürfnisse</span>
+        <span>Weniger Änderungen</span>
+        <span>Sichere Kosten</span>
+        <span>Verlässliche Termine</span>
+        <span>Effiziente Zusammenarbeit</span>
+        <span>Optimale Betriebsabläufe</span>
       </div>
     </div>
     <figure class="m-mtd-figure">
@@ -3354,7 +3360,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
         <svg viewBox="0 0 720 400" role="img" aria-label="Diagram: project cost over 30 years – significantly lower life-cycle cost with early design." xmlns="http://www.w3.org/2000/svg">
           <line x1="64" y1="48" x2="64" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
           <line x1="64" y1="320" x2="612" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
-          <polygon points="64,320 163,268 262,198 361,138 460,84 560,58 560,141 411,157 262,179 163,200 64,320" fill="#004AAD" fill-opacity="0.08"/>
+          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58 L560,141 C520,146 480,151 411,157 C350,162 330,173 262,179 C228,182 205,184 163,200 C138,214 108,252 64,320 Z" fill="#004AAD" fill-opacity="0.08"/>
           <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="4" stroke-linecap="round"/>
           <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="4" stroke-linecap="round"/>
           <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
@@ -3363,6 +3369,12 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">design</text>
           <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Cost with</text>
           <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">design</text>
+          <g stroke-linecap="round">
+            <line x1="560" y1="66" x2="560" y2="133" stroke="#159A55" stroke-width="2.4"/>
+            <polygon points="560,64 555,73 565,73" fill="#159A55"/>
+            <polygon points="560,135 555,126 565,126" fill="#159A55"/>
+          </g>
+          <text x="551" y="106" text-anchor="end" font-family="Hanken Grotesk, sans-serif" font-size="15.5" font-weight="700" fill="#159A55">Savings</text>
           <g font-family="IBM Plex Mono, monospace" font-size="14" fill="#0F1B2C" text-anchor="middle">
             <text x="64" y="342">0</text><text x="155" y="342">5</text><text x="246" y="342">10</text>
             <text x="336" y="342">15</text><text x="427" y="342">20</text><text x="518" y="342">25</text><text x="560" y="342">30</text>
@@ -3381,11 +3393,11 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
     <div class="m-mtd-enable">
       <span class="m-mtd-enable-cap">What our Medical Technology Design enables</span>
       <div class="m-mtd-enable-items">
-        <span>Fewer re-plans</span>
-        <span>Schedule &amp; cost certainty</span>
-        <span>Efficient BIM coordination</span>
-        <span>Reliable construction data</span>
-        <span>Integration of operator needs</span>
+        <span>Fewer changes</span>
+        <span>Cost certainty</span>
+        <span>Schedule certainty</span>
+        <span>Efficient collaboration</span>
+        <span>Optimised operations</span>
       </div>
     </div>
     <figure class="m-mtd-figure">
@@ -3568,11 +3580,12 @@ _PL_MAP = [
      "Projektowanie techniki medycznej jako proces zintegrowany</h3>"),
     ("What our Medical Technology Design enables</span>",
      "Co umożliwia nasze projektowanie techniki medycznej</span>"),
-    ("<span>Fewer re-plans</span>", "<span>Mniej przeprojektowań</span>"),
-    ("<span>Schedule &amp; cost certainty</span>", "<span>Pewność terminów i kosztów</span>"),
-    ("<span>Efficient BIM coordination</span>", "<span>Sprawna koordynacja BIM</span>"),
-    ("<span>Reliable construction data</span>", "<span>Wiarygodne dane budowlane</span>"),
-    ("<span>Integration of operator needs</span>", "<span>Uwzględnienie potrzeb użytkownika</span>"),
+    ("<span>Fewer changes</span>", "<span>Mniej zmian</span>"),
+    ("<span>Cost certainty</span>", "<span>Pewne koszty</span>"),
+    ("<span>Schedule certainty</span>", "<span>Pewne terminy</span>"),
+    ("<span>Efficient collaboration</span>", "<span>Sprawna współpraca</span>"),
+    ("<span>Optimised operations</span>", "<span>Optymalne procesy eksploatacyjne</span>"),
+    (">Savings</text>", ">Oszczędność</text>"),
     ("Integrated design model – BIM as the central coordination hub between architecture, medical technology, building services and operational organisation, shaped by budget, hygiene requirements, regulatory requirements and user needs.",
      "Zintegrowany model projektowania – BIM jako centralny węzeł koordynacji między architekturą, techniką medyczną, instalacjami budynku i organizacją eksploatacji, kształtowany przez budżet, wymagania higieniczne, wymagania prawne i potrzeby użytkowników."),
     ("BIM-based design and standardised processes", "Projektowanie oparte na BIM i standaryzowane procesy"),
@@ -3686,11 +3699,12 @@ _RO_MAP = [
      "Proiectarea tehnologiei medicale ca proces integrat</h3>"),
     ("What our Medical Technology Design enables</span>",
      "Ce permite proiectarea noastră a tehnologiei medicale</span>"),
-    ("<span>Fewer re-plans</span>", "<span>Mai puține replanificări</span>"),
-    ("<span>Schedule &amp; cost certainty</span>", "<span>Certitudinea termenelor și a costurilor</span>"),
-    ("<span>Efficient BIM coordination</span>", "<span>Coordonare BIM eficientă</span>"),
-    ("<span>Reliable construction data</span>", "<span>Date de construcție fiabile</span>"),
-    ("<span>Integration of operator needs</span>", "<span>Integrarea nevoilor operatorului</span>"),
+    ("<span>Fewer changes</span>", "<span>Mai puține modificări</span>"),
+    ("<span>Cost certainty</span>", "<span>Costuri sigure</span>"),
+    ("<span>Schedule certainty</span>", "<span>Termene fiabile</span>"),
+    ("<span>Efficient collaboration</span>", "<span>Colaborare eficientă</span>"),
+    ("<span>Optimised operations</span>", "<span>Fluxuri de operare optime</span>"),
+    (">Savings</text>", ">Economii</text>"),
     ("Integrated design model – BIM as the central coordination hub between architecture, medical technology, building services and operational organisation, shaped by budget, hygiene requirements, regulatory requirements and user needs.",
      "Model integrat de proiectare – BIM ca nod central de coordonare între arhitectură, tehnologia medicală, instalațiile clădirii și organizarea exploatării, influențat de buget, cerințe de igienă, cerințe legale și nevoile utilizatorilor."),
     ("BIM-based design and standardised processes", "Proiectare bazată pe BIM și procese standardizate"),
