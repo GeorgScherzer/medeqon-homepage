@@ -321,8 +321,8 @@ BODY_INDEX = '''<section class="m-hero-main">
                 <stop offset="1" stop-color="#003278"/>
               </linearGradient>
             </defs>
-            <rect x="0" y="210" width="680" height="410" fill="#EDF3FA"/>
-            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#CFE0F2"/>
+            <rect x="0" y="210" width="680" height="410" fill="#E8EEF7"/>
+            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#D5E1F2"/>
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
@@ -416,8 +416,8 @@ BODY_INDEX = '''<section class="m-hero-main">
           </g>
           <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#0F1B2C">Jahre</text>
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#0F1B2C" transform="rotate(-90 22 184)" text-anchor="middle">PROJEKTKOSTEN</text>
-          <rect x="64" y="356" width="99" height="24" rx="5" fill="#CAD9EF"/>
-          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E0E7F1"/>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#D5E1F2"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E8EEF7"/>
           <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANUNG</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#0F1B2C" text-anchor="middle">BETRIEB</text>
         </svg>
@@ -451,9 +451,9 @@ BODY_INDEX = '''<section class="m-hero-main">
     <div class="m-bim-grid">
       <figure class="m-bim-figure">
         <svg viewBox="-30 0 400 300" role="img" aria-label="BIM als zentrale Koordinationsdrehscheibe – vernetzt mit IFC, REVIT, BCF und Daten." xmlns="http://www.w3.org/2000/svg">
-          <circle cx="160" cy="150" r="118" fill="none" stroke="#E3E9F1" stroke-width="1"/>
-          <circle cx="160" cy="150" r="88" fill="none" stroke="#E3E9F1" stroke-width="1"/>
-          <circle cx="160" cy="150" r="58" fill="none" stroke="#E3E9F1" stroke-width="1"/>
+          <circle cx="160" cy="150" r="118" fill="none" stroke="#E8EEF7" stroke-width="1"/>
+          <circle cx="160" cy="150" r="88" fill="none" stroke="#E8EEF7" stroke-width="1"/>
+          <circle cx="160" cy="150" r="58" fill="none" stroke="#E8EEF7" stroke-width="1"/>
           <g stroke="#9DBCE3" stroke-width="1.5">
             <line x1="160" y1="150" x2="160" y2="40"/>
             <line x1="160" y1="150" x2="270" y2="150"/>
@@ -3352,8 +3352,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
                 <stop offset="1" stop-color="#003278"/>
               </linearGradient>
             </defs>
-            <rect x="0" y="210" width="680" height="410" fill="#EDF3FA"/>
-            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#CFE0F2"/>
+            <rect x="0" y="210" width="680" height="410" fill="#E8EEF7"/>
+            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#D5E1F2"/>
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
@@ -3447,8 +3447,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           </g>
           <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#0F1B2C">Years</text>
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#0F1B2C" transform="rotate(-90 22 184)" text-anchor="middle">PROJECT COST</text>
-          <rect x="64" y="356" width="99" height="24" rx="5" fill="#CAD9EF"/>
-          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E0E7F1"/>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#D5E1F2"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E8EEF7"/>
           <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">DESIGN</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#0F1B2C" text-anchor="middle">OPERATION</text>
         </svg>
@@ -3482,9 +3482,9 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
     <div class="m-bim-grid">
       <figure class="m-bim-figure">
         <svg viewBox="-30 0 400 300" role="img" aria-label="BIM as the central coordination hub – connected with IFC, REVIT, BCF and data." xmlns="http://www.w3.org/2000/svg">
-          <circle cx="160" cy="150" r="118" fill="none" stroke="#E3E9F1" stroke-width="1"/>
-          <circle cx="160" cy="150" r="88" fill="none" stroke="#E3E9F1" stroke-width="1"/>
-          <circle cx="160" cy="150" r="58" fill="none" stroke="#E3E9F1" stroke-width="1"/>
+          <circle cx="160" cy="150" r="118" fill="none" stroke="#E8EEF7" stroke-width="1"/>
+          <circle cx="160" cy="150" r="88" fill="none" stroke="#E8EEF7" stroke-width="1"/>
+          <circle cx="160" cy="150" r="58" fill="none" stroke="#E8EEF7" stroke-width="1"/>
           <g stroke="#9DBCE3" stroke-width="1.5">
             <line x1="160" y1="150" x2="160" y2="40"/>
             <line x1="160" y1="150" x2="270" y2="150"/>
@@ -3857,7 +3857,7 @@ def _design_model_svg(lang):
         o.append(f'<path id="tp-{lang}-{k}" fill="none" d="{_mdl_arc(a1, a2, _MDL_Rl)}"/>')
     o.append('</defs>')
     o.append(f'<text x="20" y="48" font-family="IBM Plex Mono, monospace" font-size="34" font-weight="600" letter-spacing="7" fill="#3D6BB0">{_html.escape(t["title"])}</text>')
-    o.append('<line x1="20" y1="86" x2="1480" y2="86" stroke="#C7D3E4" stroke-width="1.5"/>')
+    o.append('<line x1="20" y1="86" x2="1480" y2="86" stroke="#D5E1F2" stroke-width="1.5"/>')
     for k, (a1, a2, c) in _MDL_SEGS.items():
         o.append(f'<path d="{_mdl_seg(a1, a2)}" fill="{c}"/>')
     o.append(f'<circle cx="{C[0]}" cy="{C[1]}" r="{_MDL_Rc}" fill="#E8EEF7" stroke="#0F1B2C" stroke-width="2.5"/>')

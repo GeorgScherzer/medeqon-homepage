@@ -12,11 +12,11 @@
   --mist-blue:#E8EEF7;
   --signal:#004AAD;
   --sky:#5B9BD5;
-  --deep-700:#0d1830;
-  --deep-800:#0a1228;
-  --deep-900:#060c1d;
-  --brand-700:#003278;       /* dark medeqon blue — icons & headings */
-  --brand-800:#002457;
+  --deep-800:#0A1228;        /* einheitliches dunkles Navy (dunkle Sektionen) */
+  --deep-900:#0A1228;        /* Alias auf dasselbe Navy */
+  --brand-700:#003278;       /* dunkles medeqon-Blau — Icons & Headings */
+  --tint-line:#D5E1F2;       /* heller Blau-Tint für Rahmen/Linien */
+  --ink-hover:#1B2A40;       /* Button-Hover (einziger hellerer Navy-Ton) */
   /* subtle dot watermark (dot & ring identity) */
   --pat-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Ccircle cx='2' cy='2' r='1.5' fill='%23004AAD' fill-opacity='0.14'/%3E%3C/svg%3E");
   --font-sans:'Hanken Grotesk','Aptos','Segoe UI',Calibri,system-ui,-apple-system,Arial,sans-serif;
@@ -75,7 +75,7 @@ img{max-width:100%}
 .m-shell{max-width:1080px;margin:0 auto;padding:0 32px}
 .m-section{padding:96px 0}
 .m-section.alt{background:var(--mist-blue)}
-.m-section.alt2{background:#DCE3EF}
+.m-section.alt2{background:var(--tint-line)}
 .m-tag{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:0.14em;
   text-transform:uppercase;color:var(--steel);display:inline-flex;align-items:center;
   gap:10px;margin-bottom:14px}
@@ -190,7 +190,7 @@ img{max-width:100%}
 .m-cx-label{font-family:var(--font-display);font-weight:700;font-size:19px;color:var(--brand-700);
   text-align:center;white-space:nowrap}
 .m-cx-node:hover .m-hg-ring{transform:translateY(-5px);box-shadow:0 18px 34px -14px rgba(10,18,40,0.65)}
-.m-cx-node:hover .m-hg-ring .sig-fill{fill:#7db4ea}
+.m-cx-node:hover .m-hg-ring .sig-fill{fill:var(--sky)}
 .m-cross-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;
   background:#fff;padding:14px;border-radius:30px;box-shadow:0 22px 54px -22px rgba(10,18,40,0.5)}
 .m-cross-center img{display:block;width:118px;height:auto}
@@ -401,7 +401,7 @@ details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--sig
   color:var(--signal);background:var(--mist-blue);border:1px solid var(--mist);
   border-radius:999px;padding:11px 20px;cursor:pointer;
   transition:background .15s ease,border-color .15s ease}
-.m-ac-close:hover{background:#dce7f7;border-color:var(--sky)}
+.m-ac-close:hover{background:var(--tint-line);border-color:var(--sky)}
 .m-ac-close svg{width:15px;height:15px}
 
 /* ===== Produkte — verschachteltes Sub-Accordion (Antriebsvarianten) ===== */
@@ -585,7 +585,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-sans);font-weight:600;
   font-size:16px;padding:14px 28px;border-radius:6px;border:1px solid transparent;background:var(--ink);
   color:#fff;cursor:pointer;transition:background var(--dur) var(--ease);justify-self:start}
-.m-btn:hover{background:#1B2A40}
+.m-btn:hover{background:var(--ink-hover)}
 .m-btn:disabled{opacity:0.6;cursor:default}
 .m-form-status{font-size:14.5px;line-height:22px}
 .m-form-status.is-ok{color:#1f5e3a}
@@ -771,7 +771,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-card-cap{font-family:var(--font-mono);font-size:11px;letter-spacing:0.13em;text-transform:uppercase;
   display:block;margin-bottom:9px}
 .m-tco-card p{margin:0;font-size:14.5px;line-height:21px;color:var(--ink)}
-.m-tco-card--early{background:#fff;border:1px solid #D5E1F2}
+.m-tco-card--early{background:#fff;border:1px solid var(--tint-line)}
 .m-tco-card--early .m-tco-card-cap{color:var(--signal)}
 .m-tco-card--warn{background:#FBEDEA}
 .m-tco-card--warn .m-tco-card-cap{color:#B23A2E}
@@ -798,7 +798,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-iceberg svg{width:100%;height:auto;display:block;max-width:640px;margin:0 auto}
 .m-tco-iceberg figcaption{font-family:var(--font-display);font-weight:700;font-size:18px;color:var(--ink);
   text-align:center;margin-top:6px}
-.m-tco-chart{margin:30px auto 0;max-width:900px;background:transparent;border:1px solid #A9BCD8;border-radius:18px;
+.m-tco-chart{margin:30px auto 0;max-width:900px;background:transparent;border:1px solid var(--tint-line);border-radius:18px;
   padding:30px 34px 24px;display:flex;flex-direction:column}
 .m-tco-chart-title{font-family:var(--font-display);font-weight:700;font-size:23px;line-height:29px;
   color:var(--brand-700);margin-bottom:10px}
@@ -834,7 +834,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 /* ===== Medizintechnik-Planung ===== */
 .m-mtd-subhead{font-family:var(--font-display);font-weight:700;font-size:27px;line-height:33px;
   letter-spacing:-0.01em;color:var(--brand-700);margin:60px 0 22px}
-.m-mtd-enable{background:#fff;border:1px solid #D5E1F2;border-radius:18px;padding:26px 32px;margin-bottom:32px}
+.m-mtd-enable{background:#fff;border:1px solid var(--tint-line);border-radius:18px;padding:26px 32px;margin-bottom:32px}
 .m-mtd-enable-cap{font-family:var(--font-display);font-weight:700;font-size:19px;line-height:25px;
   letter-spacing:-0.01em;color:var(--brand-700);display:block;margin-bottom:18px}
 .m-mtd-enable-items{display:flex;flex-wrap:wrap;gap:14px 20px}
@@ -977,7 +977,7 @@ textarea.m-input{min-height:150px;resize:vertical}
   border-radius:999px;background:rgba(10,18,40,.55);color:#fff;font-size:26px;line-height:1;
   display:flex;align-items:center;justify-content:center;transition:background var(--dur) var(--ease)}
 .m-lb-x:hover{background:rgba(10,18,40,.82)}
-.m-lb-media{position:relative;background:#0b1526;display:flex;align-items:center;justify-content:center;
+.m-lb-media{position:relative;background:var(--deep-800);display:flex;align-items:center;justify-content:center;
   min-height:240px;max-height:64vh}
 .m-lb-img{max-width:100%;max-height:64vh;object-fit:contain;display:block;margin:auto}
 .m-lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border:none;cursor:pointer;
