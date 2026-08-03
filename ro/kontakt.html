@@ -92,6 +92,7 @@
           <input type="text" name="_honey" class="m-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="_subject" value="Neue Anfrage über medeqon.com">
           <input type="hidden" name="_template" value="table">
+          <div class="m-turnstile"><div class="cf-turnstile" data-sitekey="0x4AAAAAAEFXPvYQbzRLlVhj" data-theme="light" data-language="auto"></div></div>
           <button class="m-btn" type="submit" id="k-submit">Trimite solicitarea</button>
           <div class="m-form-status" id="formStatus" role="status" aria-live="polite"></div>
           <noscript><p class="sub">Vă rugăm activați JavaScript sau scrieți-ne direct la office@medeqon.com.</p></noscript>
@@ -113,6 +114,7 @@
   </div>
 </section>
 
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script>
 (function(){
   var f=document.getElementById("kontaktForm");
@@ -120,22 +122,32 @@
   var s=document.getElementById("formStatus");
   var btn=document.getElementById("k-submit");
   var ENDPOINT="https://formsubmit.co/ajax/office@medeqon.com";
+  var t0=Date.now();
   f.addEventListener("submit", function(e){
     e.preventDefault();
     if(f._honey.value){ return; }
+    if(Date.now()-t0 < 1500){ return; }
     if(!f.checkValidity()){ f.reportValidity(); return; }
+    var tk=f.querySelector('[name="cf-turnstile-response"]');
+    if(!tk || !tk.value){
+      s.className="m-form-status is-err";
+      s.textContent="Vă rugăm să confirmați în verificarea de securitate că nu sunteți robot.";
+      return;
+    }
     btn.disabled=true;
     s.className="m-form-status is-sending"; s.textContent="Se trimite solicitarea …";
-    fetch(ENDPOINT,{method:"POST",headers:{"Accept":"application/json"},body:new FormData(f)})
+    var fd=new FormData(f); fd.delete("cf-turnstile-response");
+    fetch(ENDPOINT,{method:"POST",headers:{"Accept":"application/json"},body:fd})
       .then(function(r){ return r.json().catch(function(){return {};}); })
       .then(function(){
         s.className="m-form-status is-ok";
         s.textContent="Vă mulțumim! Solicitarea a fost trimisă – revenim în curând.";
         f.reset();
+        if(window.turnstile){ turnstile.reset(); }
       })
       .catch(function(){
         s.className="m-form-status is-err";
-        s.innerHTML="A apărut o eroare la trimitere. Vă rugăm scrieți-ne direct la <a href=\"mailto:office@medeqon.com\">office@medeqon.com</a>.";
+        s.innerHTML='A apărut o eroare la trimitere. Vă rugăm scrieți-ne direct la <a href="mailto:office@medeqon.com">office@medeqon.com</a>.';
       })
       .then(function(){ btn.disabled=false; });
   });

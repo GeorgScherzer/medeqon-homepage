@@ -2358,6 +2358,7 @@ BODY_KONTAKT = '''<section class="m-page-hero">
           <input type="text" name="_honey" class="m-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="_subject" value="Neue Anfrage über medeqon.com">
           <input type="hidden" name="_template" value="table">
+          <div class="m-turnstile"><div class="cf-turnstile" data-sitekey="__TURNSTILE_SITEKEY__" data-theme="light" data-language="auto"></div></div>
           <button class="m-btn" type="submit" id="k-submit">Anfrage senden</button>
           <div class="m-form-status" id="formStatus" role="status" aria-live="polite"></div>
           <noscript><p class="sub">Bitte aktivieren Sie JavaScript oder schreiben Sie uns direkt an office@medeqon.com.</p></noscript>
@@ -2379,6 +2380,7 @@ BODY_KONTAKT = '''<section class="m-page-hero">
   </div>
 </section>
 
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script>
 (function(){
   var f=document.getElementById("kontaktForm");
@@ -2386,22 +2388,32 @@ BODY_KONTAKT = '''<section class="m-page-hero">
   var s=document.getElementById("formStatus");
   var btn=document.getElementById("k-submit");
   var ENDPOINT="https://formsubmit.co/ajax/office@medeqon.com";
+  var t0=Date.now();
   f.addEventListener("submit", function(e){
     e.preventDefault();
     if(f._honey.value){ return; }
+    if(Date.now()-t0 < 1500){ return; }
     if(!f.checkValidity()){ f.reportValidity(); return; }
+    var tk=f.querySelector('[name="cf-turnstile-response"]');
+    if(!tk || !tk.value){
+      s.className="m-form-status is-err";
+      s.textContent="Bitte bestätigen Sie im Sicherheits-Check, dass Sie kein Roboter sind.";
+      return;
+    }
     btn.disabled=true;
     s.className="m-form-status is-sending"; s.textContent="Anfrage wird gesendet …";
-    fetch(ENDPOINT,{method:"POST",headers:{"Accept":"application/json"},body:new FormData(f)})
+    var fd=new FormData(f); fd.delete("cf-turnstile-response");
+    fetch(ENDPOINT,{method:"POST",headers:{"Accept":"application/json"},body:fd})
       .then(function(r){ return r.json().catch(function(){return {};}); })
       .then(function(){
         s.className="m-form-status is-ok";
         s.textContent="Vielen Dank! Ihre Anfrage wurde gesendet – wir melden uns zeitnah bei Ihnen.";
         f.reset();
+        if(window.turnstile){ turnstile.reset(); }
       })
       .catch(function(){
         s.className="m-form-status is-err";
-        s.innerHTML="Beim Senden ist ein Fehler aufgetreten. Bitte schreiben Sie uns direkt an <a href=\"mailto:office@medeqon.com\">office@medeqon.com</a>.";
+        s.innerHTML='Beim Senden ist ein Fehler aufgetreten. Bitte schreiben Sie uns direkt an <a href="mailto:office@medeqon.com">office@medeqon.com</a>.';
       })
       .then(function(){ btn.disabled=false; });
   });
@@ -4000,6 +4012,7 @@ BODY_KONTAKT_EN = '''<section class="m-page-hero">
           <input type="text" name="_honey" class="m-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="_subject" value="Neue Anfrage über medeqon.com">
           <input type="hidden" name="_template" value="table">
+          <div class="m-turnstile"><div class="cf-turnstile" data-sitekey="__TURNSTILE_SITEKEY__" data-theme="light" data-language="auto"></div></div>
           <button class="m-btn" type="submit" id="k-submit">Send enquiry</button>
           <div class="m-form-status" id="formStatus" role="status" aria-live="polite"></div>
           <noscript><p class="sub">Please enable JavaScript or write to us directly at office@medeqon.com.</p></noscript>
@@ -4021,6 +4034,7 @@ BODY_KONTAKT_EN = '''<section class="m-page-hero">
   </div>
 </section>
 
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script>
 (function(){
   var f=document.getElementById("kontaktForm");
@@ -4028,22 +4042,32 @@ BODY_KONTAKT_EN = '''<section class="m-page-hero">
   var s=document.getElementById("formStatus");
   var btn=document.getElementById("k-submit");
   var ENDPOINT="https://formsubmit.co/ajax/office@medeqon.com";
+  var t0=Date.now();
   f.addEventListener("submit", function(e){
     e.preventDefault();
     if(f._honey.value){ return; }
+    if(Date.now()-t0 < 1500){ return; }
     if(!f.checkValidity()){ f.reportValidity(); return; }
+    var tk=f.querySelector('[name="cf-turnstile-response"]');
+    if(!tk || !tk.value){
+      s.className="m-form-status is-err";
+      s.textContent="Please confirm in the security check that you are not a robot.";
+      return;
+    }
     btn.disabled=true;
     s.className="m-form-status is-sending"; s.textContent="Sending your enquiry …";
-    fetch(ENDPOINT,{method:"POST",headers:{"Accept":"application/json"},body:new FormData(f)})
+    var fd=new FormData(f); fd.delete("cf-turnstile-response");
+    fetch(ENDPOINT,{method:"POST",headers:{"Accept":"application/json"},body:fd})
       .then(function(r){ return r.json().catch(function(){return {};}); })
       .then(function(){
         s.className="m-form-status is-ok";
         s.textContent="Thank you! Your enquiry has been sent – we'll get back to you shortly.";
         f.reset();
+        if(window.turnstile){ turnstile.reset(); }
       })
       .catch(function(){
         s.className="m-form-status is-err";
-        s.innerHTML="An error occurred while sending. Please write to us directly at <a href=\\"mailto:office@medeqon.com\\">office@medeqon.com</a>.";
+        s.innerHTML='An error occurred while sending. Please write to us directly at <a href="mailto:office@medeqon.com">office@medeqon.com</a>.';
       })
       .then(function(){ btn.disabled=false; });
   });
@@ -4077,6 +4101,8 @@ _KONT_PL = [
     (">Direct</span>", ">Bezpośrednio</span>"),
     (">Office</span>", ">Biuro</span>"),
     ("2102 Hagenbrunn · Austria<br>Mon – Fri · and by appointment", "2102 Hagenbrunn · Austria<br>pon. – pt. · i po umówieniu"),
+    ("Please confirm in the security check that you are not a robot.",
+     "Prosimy potwierdzić w teście bezpieczeństwa, że nie są Państwo robotem."),
     ('s.textContent="Sending your enquiry …";', 's.textContent="Wysyłanie zapytania …";'),
     ("Thank you! Your enquiry has been sent – we'll get back to you shortly.",
      "Dziękujemy! Państwa zapytanie zostało wysłane – wkrótce się odezwiemy."),
@@ -4110,6 +4136,8 @@ _KONT_RO = [
     (">Direct</span>", ">Direct</span>"),
     (">Office</span>", ">Birou</span>"),
     ("2102 Hagenbrunn · Austria<br>Mon – Fri · and by appointment", "2102 Hagenbrunn · Austria<br>Luni – Vineri · și pe bază de programare"),
+    ("Please confirm in the security check that you are not a robot.",
+     "Vă rugăm să confirmați în verificarea de securitate că nu sunteți robot."),
     ('s.textContent="Sending your enquiry …";', 's.textContent="Se trimite solicitarea …";'),
     ("Thank you! Your enquiry has been sent – we'll get back to you shortly.",
      "Vă mulțumim! Solicitarea a fost trimisă – revenim în curând."),
@@ -4118,6 +4146,12 @@ _KONT_RO = [
 ]
 BODY_KONTAKT_PL = _tr(BODY_KONTAKT_EN, _KONT_PL, "KONT-PL")
 BODY_KONTAKT_RO = _tr(BODY_KONTAKT_EN, _KONT_RO, "KONT-RO")
+
+# ---- Cloudflare Turnstile Site-Key (öffentlicher Schlüssel, kommt in die HTML) ----
+# Nach dem Anlegen des Widgets im Cloudflare-Dashboard hier den echten Site-Key eintragen.
+TURNSTILE_SITEKEY = "0x4AAAAAAEFXPvYQbzRLlVhj"
+for _kn in ("BODY_KONTAKT", "BODY_KONTAKT_EN", "BODY_KONTAKT_PL", "BODY_KONTAKT_RO"):
+    globals()[_kn] = globals()[_kn].replace("__TURNSTILE_SITEKEY__", TURNSTILE_SITEKEY)
 
 # ---- Karriere (EN/PL/RO), _JOBS ist leer -> Leerzustand ----
 _KARR_ICON = ('<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" '
