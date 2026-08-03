@@ -1144,3 +1144,25 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-badge{height:78px}
   .m-badge-wide{height:60px}
 }
+
+/* === Blocksatz für längere Textblöcke (alle Seiten & Sprachen) === */
+/* Justify wirkt nur auf mehrzeilige Absätze; kurze/einzeilige Texte bleiben
+   optisch linksbündig. Silbentrennung nutzt das lang-Attribut je Sprache. */
+.m-page-hero .lede,
+.m-hero .lede,
+.m-hero-sub,
+.m-svc2-lead,
+.m-svc2-desc,
+.m-ac-lead,
+.m-pl-desc,
+.m-opt-desc,
+.m-legal p,
+.m-imp-block p,
+.m-prose p,
+.m-refc-desc,
+.m-lb-desc,
+.m-tco-lead,
+.m-tco-principle{
+  text-align:justify;
+  -webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;
+}
