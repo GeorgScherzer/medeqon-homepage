@@ -59,9 +59,22 @@ Statische Website **www.medeqon.com** (medeqon GmbH, Ingenieurbüro für Medizin
 Vanilla-JS, generiert durch ein Python-Skript.
 
 - **Fonts:** Hanken Grotesk (Display) + IBM Plex Mono.
-- **Farb-Tokens** in `styles.css` (`:root`): `--ink #0F1B2C`, `--steel #6B7785`, `--mist #D5DAE0`,
-  `--paper #FFF`, `--mist-blue #E8EEF7`, `--signal #004AAD`, `--sky #5B9BD5`,
-  `--brand-700 #003278`, `--deep-800 #0a1228`.
+- **Farb-Tokens — vereinheitlichtes Blau-System** in `styles.css` (`:root`). Für Blau **nur** diese Tokens
+  verwenden, keine neuen Direkt-Hex-Werte einführen:
+  - `--signal #004AAD` — **Marken-/Logo-Blau** (Leitfarbe: Buttons, Links, Akzente). Entspricht exakt dem Logo.
+  - `--brand-700 #003278` — dunkles Marken-Blau (Icons, Headings-Akzente).
+  - `--sky #5B9BD5` — Hellblau-Akzent (sekundär, Verläufe).
+  - `--ink #0F1B2C` — Text-Navy (Haupttextfarbe).
+  - `--deep-800` / `--deep-900` = `#0A1228` — **ein** einheitliches dunkles Navy für dunkle Sektionen.
+  - `--ink-hover #1B2A40` — Button-Hover.
+  - `--mist-blue #E8EEF7` — heller Blau-Tint für Flächen/Hintergründe.
+  - `--tint-line #D5E1F2` — heller Blau-Tint für Rahmen/Linien.
+  - Neutral: `--steel #6B7785`, `--mist #D5DAE0`, `--paper #FFFFFF`.
+  - **Bewusste Ausnahmen (nicht vereinheitlichen):** die Landesflaggen im Sprachumschalter (offizielle
+    Farben, in `FLAGS`) und die 4 Blaustufen des Planungsmodell-Rings (`_design_model_svg` in `build.py`,
+    müssen als Segmente unterscheidbar bleiben — sind aber aus dem Marken-Blau abgeleitet).
+  - *Historie:* Früher gab es ~25 eng benachbarte Blautöne (u. a. `--deep-700`, `--brand-800` und ~10
+    Pastell-Tints); diese wurden auf die obigen Kernwerte zusammengeführt.
 
 ### 2. Deployment
 - **IONOS Deploy Now**, Projekt-Typ **Static (1 GB/Deployment)**. Ausgelöst durch **git push**
