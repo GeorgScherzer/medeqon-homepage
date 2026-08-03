@@ -67,7 +67,6 @@
         <button class="m-ref-fbtn" data-filter="schweiz">Szwajcaria<span class="m-ref-fbtn-n">1</span></button>
         <button class="m-ref-fbtn" data-filter="international">Projekty międzynarodowe<span class="m-ref-fbtn-n">1</span></button>
       </div>
-      <p class="m-ref-hint">Wybierz kategorię powyżej, aby wyświetlić powiązane projekty.</p>
       <div class="m-ref-grid">
           <article class="m-refc has-img is-clickable" data-group="oesterreich" data-imgs="[&quot;/assets/ref/neuerrichtung-von-intensivbereichen-in-der-neurologischen-medizin/1.jpg&quot;]" data-full="Budowa nowego oddziału intensywnej terapii, specjalizującego się w opiece nad pacjentami neurologicznymi, o powierzchni ok. 5000 m² (m.in.: 20 sal intensywnej terapii, kilka gabinetów badań i zabiegów, obszar fazy B, wyspecjalizowane obszary EEG oraz opiekę pooperacyjną dla pacjentów oddziału udarowego (Stroke Unit))." tabindex="0" role="button" aria-label="Budowa nowych oddziałów intensywnej terapii w neurologii – Zobacz szczegóły">
             <div class="m-refc-cover">
@@ -712,7 +711,6 @@
         <button class="m-ref-fbtn" data-filter="publikationen">Publikacje<span class="m-ref-fbtn-n">7</span></button>
         <button class="m-ref-fbtn" data-filter="beitraege">Wkład naukowy<span class="m-ref-fbtn-n">1</span></button>
       </div>
-      <p class="m-ref-hint">Wybierz kategorię powyżej, aby wyświetlić wpisy.</p>
       <div class="m-ref-grid">
           <article class="m-refc has-img is-hidden" data-group="konferenzen">
             <div class="m-refc-icon m-refc-icon--konferenzen"><svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Konferenzen"><rect x="19.5" y="7.5" width="9" height="17" rx="4.5" stroke="#0F1B2C" stroke-width="2.4"/><path d="M13.5 21a10.5 10.5 0 0 0 21 0" stroke="#0F1B2C" stroke-width="2.4" stroke-linecap="round"/><path d="M24 31.5V39" stroke="#0F1B2C" stroke-width="2.4" stroke-linecap="round"/><path d="M18 39h12" stroke="#0F1B2C" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="12.6" r="2.7" fill="#004AAD"/></svg></div>
@@ -798,7 +796,6 @@
         <button class="m-ref-fbtn" data-filter="consulting">Doradztwo<span class="m-ref-fbtn-n">1</span></button>
         <button class="m-ref-fbtn" data-filter="lehre">Dydaktyka<span class="m-ref-fbtn-n">3</span></button>
       </div>
-      <p class="m-ref-hint">Wybierz kategorię powyżej, aby wyświetlić wpisy.</p>
       <div class="m-ref-grid">
           <article class="m-refc has-img is-hidden" data-group="consulting">
             <div class="m-refc-img"><img src="/assets/ref/who-logo.png" alt="World Health Organization" loading="lazy"></div>
@@ -855,6 +852,13 @@ document.querySelectorAll('.m-filterable').forEach(function(root){
   var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
   btns.forEach(function(b){b.addEventListener('click',function(){
     var f=b.getAttribute('data-filter');
+    // Nochmaliges Klicken auf die bereits aktive Kategorie -> wieder zuklappen
+    if(b.classList.contains('is-active') && !root.classList.contains('is-collapsed')){
+      root.classList.add('is-collapsed');
+      btns.forEach(function(x){x.classList.remove('is-active');});
+      cards.forEach(function(c){c.classList.add('is-hidden');});
+      return;
+    }
     root.classList.remove('is-collapsed');
     btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
     cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});

@@ -2182,7 +2182,7 @@ def _body_produkte(lang):
     swaps = []
     for sub in ("front", "tabard", "wrap", "zweiteiler", "schild", "zubehoer", "brillen", "aufbewahrung"):
         swaps.append((_ss_cards(sub), _ss_cards(sub, lang)))
-    swaps.append((_kenex_cards("mobil"), _kenex_cards("mobil", lang)))
+    swaps.append((_kenex_cards("mobil"), _kenex_cards("mobil", lang=lang)))
     for s in ("ueberkopf", "aufhaengung"):
         swaps.append((_kenex_cards("decken", s), _kenex_cards("decken", s, lang)))
     for s in ("unterkoerper", "kopfende", "top", "aufbewahrung"):
@@ -2805,10 +2805,8 @@ def _filter_block(groups, add_all=True, all_label="Alle", collapsed=False,
     cards = [_grid_card(gid, it, hidden=(active_gid is not None and gid != active_gid), lang=lang)
              for gid, label, items in groups for it in items]
     root_cls = "m-filterable is-collapsed" if collapsed else "m-filterable"
-    hint_html = (f'      <p class="m-ref-hint">{_html.escape(_uit(lang, hint))}</p>\n') if collapsed else ''
     return ('    <div class="' + root_cls + '">\n'
             '      <div class="m-ref-filter">\n' + "\n".join(chips) + '\n      </div>\n'
-            + hint_html +
             '      <div class="m-ref-grid">\n' + "\n".join(cards) + '\n      </div>\n'
             '    </div>')
 
@@ -2910,7 +2908,6 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
       <div class="m-ref-filter">
 ''' + _ref_filter_html + '''
       </div>
-      <p class="m-ref-hint">Wählen Sie oben eine Kategorie, um die zugehörigen Projekte anzuzeigen.</p>
       <div class="m-ref-grid">
 ''' + _ref_cards_html + '''
       </div>
@@ -2964,6 +2961,13 @@ document.querySelectorAll('.m-filterable').forEach(function(root){
   var btns=root.querySelectorAll('.m-ref-fbtn'),cards=root.querySelectorAll('.m-refc');
   btns.forEach(function(b){b.addEventListener('click',function(){
     var f=b.getAttribute('data-filter');
+    // Nochmaliges Klicken auf die bereits aktive Kategorie -> wieder zuklappen
+    if(b.classList.contains('is-active') && !root.classList.contains('is-collapsed')){
+      root.classList.add('is-collapsed');
+      btns.forEach(function(x){x.classList.remove('is-active');});
+      cards.forEach(function(c){c.classList.add('is-hidden');});
+      return;
+    }
     root.classList.remove('is-collapsed');
     btns.forEach(function(x){x.classList.toggle('is-active',x===b);});
     cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-group')===f));});
