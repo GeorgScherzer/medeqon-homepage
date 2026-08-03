@@ -907,7 +907,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-refc-vol{font-family:var(--font-display);font-weight:700;font-size:16px;color:var(--signal);white-space:nowrap}
 .m-refc-name{margin:0 0 10px;font-family:var(--font-display);font-weight:700;font-size:17px;line-height:1.28;
   letter-spacing:-.01em;color:var(--brand-700)}
-.m-refc-desc{margin:0 0 16px;font-size:14px;line-height:21px;color:var(--steel);
+.m-refc-desc{margin:0 0 16px;font-size:15.5px;line-height:23px;color:var(--steel);
   display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .m-refc-foot{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px}
 .m-refc-chip{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
