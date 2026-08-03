@@ -37,8 +37,6 @@ img{max-width:100%}
 ::selection{background:var(--signal);color:#fff}
 .brand{text-transform:lowercase}
 .end-dot{color:var(--signal)}
-.end-dot:empty{display:inline-block;width:0.3em;height:0.3em;border-radius:50%;background:currentColor;vertical-align:baseline;margin-left:0.03em}
-.end-q{font-family:'Arial','Helvetica Neue',Helvetica,sans-serif}
 
 .skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;
   padding:10px 16px;z-index:100;border-radius:4px}
