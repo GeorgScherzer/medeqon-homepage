@@ -322,7 +322,7 @@ BODY_INDEX = '''<section class="m-hero-main">
               </linearGradient>
             </defs>
             <rect x="0" y="210" width="680" height="410" fill="#EDF3FA"/>
-            <polygon points="310,206 322,150 342,118 365,110 388,126 404,172 414,206" fill="#CFE0F2"/>
+            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#CFE0F2"/>
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
@@ -343,10 +343,10 @@ BODY_INDEX = '''<section class="m-hero-main">
               <text x="362" y="552">Entsorgung</text>
             </g>
             <g>
-              <line x1="54" y1="146" x2="54" y2="208" stroke="#004AAD" stroke-width="2.5"/>
-              <text x="70" y="164" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">SICHTBAR</text>
-              <text x="70" y="187" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">was der Preis</text>
-              <text x="70" y="206" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">zeigt</text>
+              <line x1="54" y1="130" x2="54" y2="192" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="70" y="148" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">SICHTBAR</text>
+              <text x="70" y="171" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">was der Preis</text>
+              <text x="70" y="190" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">zeigt</text>
               <line x1="54" y1="250" x2="54" y2="454" stroke="#004AAD" stroke-width="2.5"/>
               <text x="70" y="300" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">VERBORGEN</text>
               <text x="70" y="323" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">was das Gerät</text>
@@ -3281,7 +3281,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
               </linearGradient>
             </defs>
             <rect x="0" y="210" width="680" height="410" fill="#EDF3FA"/>
-            <polygon points="310,206 322,150 342,118 365,110 388,126 404,172 414,206" fill="#CFE0F2"/>
+            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#CFE0F2"/>
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
@@ -3302,10 +3302,10 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
               <text x="362" y="552">Disposal</text>
             </g>
             <g>
-              <line x1="54" y1="146" x2="54" y2="208" stroke="#004AAD" stroke-width="2.5"/>
-              <text x="70" y="164" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">VISIBLE</text>
-              <text x="70" y="187" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">what the price</text>
-              <text x="70" y="206" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">shows</text>
+              <line x1="54" y1="130" x2="54" y2="192" stroke="#004AAD" stroke-width="2.5"/>
+              <text x="70" y="148" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">VISIBLE</text>
+              <text x="70" y="171" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">what the price</text>
+              <text x="70" y="190" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">shows</text>
               <line x1="54" y1="250" x2="54" y2="454" stroke="#004AAD" stroke-width="2.5"/>
               <text x="70" y="300" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1" fill="#004AAD">HIDDEN</text>
               <text x="70" y="323" font-family="Hanken Grotesk, sans-serif" font-size="16" fill="#6B7785">what the device</text>
