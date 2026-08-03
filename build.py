@@ -163,7 +163,7 @@ def footer(lang="de"):
       <div class="m-foot-col">
         <div class="m-foot-tag">{t["contact"]}</div>
         <a href="mailto:office@medeqon.com">office@medeqon.com</a>
-        <a href="tel:+4313580045">+43 135 80045</a>
+        <a href="tel:+4313580045">+43 1 3580045</a>
         <a href="https://www.medeqon.com">www.medeqon.com</a>
         <div class="m-foot-plain">Bergstrasse 42/5/3<br>2102 Hagenbrunn · AT</div>
       </div>
@@ -2368,11 +2368,11 @@ BODY_KONTAKT = '''<section class="m-page-hero">
         <div>
           <span class="k">Direkt</span>
           <a href="mailto:office@medeqon.com">office@medeqon.com</a>
-          <a href="tel:+4313580045">+43 135 80045</a>
+          <a href="tel:+4313580045">+43 1 3580045</a>
         </div>
         <div>
           <span class="k">Büro</span>
-          <p>Bergstraße 42/5/3<br>2102 Hagenbrunn · Österreich<br>Mo – Fr · nach Vereinbarung</p>
+          <p>Bergstraße 42/5/3<br>2102 Hagenbrunn · Österreich<br>Mo – Fr · und nach Vereinbarung</p>
         </div>
       </aside>
     </div>
@@ -4006,11 +4006,11 @@ BODY_KONTAKT_EN = '''<section class="m-page-hero">
         <div>
           <span class="k">Direct</span>
           <a href="mailto:office@medeqon.com">office@medeqon.com</a>
-          <a href="tel:+4313580045">+43 135 80045</a>
+          <a href="tel:+4313580045">+43 1 3580045</a>
         </div>
         <div>
           <span class="k">Office</span>
-          <p>Bergstraße 42/5/3<br>2102 Hagenbrunn · Austria<br>Mon – Fri · by appointment</p>
+          <p>Bergstraße 42/5/3<br>2102 Hagenbrunn · Austria<br>Mon – Fri · and by appointment</p>
         </div>
       </aside>
     </div>
@@ -4072,7 +4072,7 @@ _KONT_PL = [
      "Prosimy włączyć JavaScript lub napisać bezpośrednio na office@medeqon.com."),
     (">Direct</span>", ">Bezpośrednio</span>"),
     (">Office</span>", ">Biuro</span>"),
-    ("2102 Hagenbrunn · Austria<br>Mon – Fri · by appointment", "2102 Hagenbrunn · Austria<br>pon. – pt. · po umówieniu"),
+    ("2102 Hagenbrunn · Austria<br>Mon – Fri · and by appointment", "2102 Hagenbrunn · Austria<br>pon. – pt. · i po umówieniu"),
     ('s.textContent="Sending your enquiry …";', 's.textContent="Wysyłanie zapytania …";'),
     ("Thank you! Your enquiry has been sent – we'll get back to you shortly.",
      "Dziękujemy! Państwa zapytanie zostało wysłane – wkrótce się odezwiemy."),
@@ -4105,7 +4105,7 @@ _KONT_RO = [
      "Vă rugăm activați JavaScript sau scrieți-ne direct la office@medeqon.com."),
     (">Direct</span>", ">Direct</span>"),
     (">Office</span>", ">Birou</span>"),
-    ("2102 Hagenbrunn · Austria<br>Mon – Fri · by appointment", "2102 Hagenbrunn · Austria<br>Luni – Vineri · pe bază de programare"),
+    ("2102 Hagenbrunn · Austria<br>Mon – Fri · and by appointment", "2102 Hagenbrunn · Austria<br>Luni – Vineri · și pe bază de programare"),
     ('s.textContent="Sending your enquiry …";', 's.textContent="Se trimite solicitarea …";'),
     ("Thank you! Your enquiry has been sent – we'll get back to you shortly.",
      "Vă mulțumim! Solicitarea a fost trimisă – revenim în curând."),
@@ -4214,7 +4214,7 @@ PAGES_EN = [
      "The management of medeqon: over 15 years of experience in medical technology and clinical infrastructure.",
      BODY_MANAGEMENT_EN),
     ("kontakt.html", "Contact · medeqon",
-     "Contact medeqon GmbH: office@medeqon.com, +43 135 80045, Bergstraße 42/5/3, 2102 Hagenbrunn, Austria.",
+     "Contact medeqon GmbH: office@medeqon.com, +43 1 3580045, Bergstraße 42/5/3, 2102 Hagenbrunn, Austria.",
      BODY_KONTAKT_EN),
     ("karriere.html", "Careers · medeqon",
      "Careers at medeqon GmbH: open positions in medical technology and the option of a speculative application to office@medeqon.com.",
@@ -4246,7 +4246,7 @@ PAGES_PL = [
      "Kierownictwo medeqon: ponad 15 lat doświadczenia w technice medycznej i infrastrukturze klinicznej.",
      BODY_MANAGEMENT_PL),
     ("kontakt.html", "Kontakt · medeqon",
-     "Kontakt do medeqon GmbH: office@medeqon.com, +43 135 80045, Bergstraße 42/5/3, 2102 Hagenbrunn, Austria.",
+     "Kontakt do medeqon GmbH: office@medeqon.com, +43 1 3580045, Bergstraße 42/5/3, 2102 Hagenbrunn, Austria.",
      BODY_KONTAKT_PL),
     ("karriere.html", "Kariera · medeqon",
      "Kariera w medeqon GmbH: otwarte stanowiska w technice medycznej oraz możliwość aplikacji spontanicznej na office@medeqon.com.",
@@ -4278,7 +4278,7 @@ PAGES_RO = [
      "Conducerea medeqon: peste 15 ani de experiență în tehnologia medicală și infrastructura clinică.",
      BODY_MANAGEMENT_RO),
     ("kontakt.html", "Contact · medeqon",
-     "Contact medeqon GmbH: office@medeqon.com, +43 135 80045, Bergstraße 42/5/3, 2102 Hagenbrunn, Austria.",
+     "Contact medeqon GmbH: office@medeqon.com, +43 1 3580045, Bergstraße 42/5/3, 2102 Hagenbrunn, Austria.",
      BODY_KONTAKT_RO),
     ("karriere.html", "Cariere · medeqon",
      "Cariere la medeqon GmbH: posturi în tehnologia medicală și posibilitatea unei candidaturi spontane la office@medeqon.com.",
@@ -4314,7 +4314,7 @@ PAGES = [
      "Karriere bei medeqon GmbH: offene Positionen in der Medizintechnik und jederzeit die Möglichkeit zur Initiativbewerbung an office@medeqon.com.",
      "Karriere", BODY_KARRIERE),
     ("kontakt.html", "Kontakt · medeqon",
-     "Kontakt zu medeqon GmbH: office@medeqon.com, +43 135 80045, Bergstrasse 42/5/3, 2102 Hagenbrunn.",
+     "Kontakt zu medeqon GmbH: office@medeqon.com, +43 1 3580045, Bergstrasse 42/5/3, 2102 Hagenbrunn.",
      "Kontakt", BODY_KONTAKT),
     ("agb.html", "AGB · medeqon",
      "Allgemeine Geschäftsbedingungen der medeqon GmbH.",
