@@ -1742,7 +1742,13 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     var y=d.getBoundingClientRect().top+window.scrollY-92;
     window.scrollTo({top:y,behavior:'smooth'});
   }
-  document.querySelectorAll('.m-acc:not(.m-acc-nested) > details.m-ac').forEach(function(d){
+  // Blatt-Akkordeons = Kategorien OHNE verschachtelte Akkordeons.
+  // Gibt es Unterkategorien, sitzt die Schließfunktion auf jeder Unterkategorie, sonst auf der Kategorie selbst.
+  var leaves=[];
+  document.querySelectorAll('details.m-ac').forEach(function(d){
+    if(!d.querySelector('details.m-ac')) leaves.push(d);
+  });
+  leaves.forEach(function(d){
     var body=d.querySelector(':scope > .m-ac-body');
     if(!body || body.querySelector(':scope > .m-ac-close')) return;
     var btn=document.createElement('button');
@@ -1751,15 +1757,16 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     btn.addEventListener('click',function(){ closeAndScroll(d); });
     body.appendChild(btn);
   });
-  // Schwebender Schließen-Button: sichtbar, sobald man in eine geöffnete Kategorie gescrollt ist
+  // Schwebender Schließen-Button: sichtbar, sobald man in eine geöffnete (Unter-)Kategorie gescrollt ist
   var fab=document.createElement('button');
   fab.type='button'; fab.className='m-ac-fab'; fab.style.display='none';
   fab.innerHTML=chev+'<span>'+label+'</span>';
   document.body.appendChild(fab);
   function currentOpen(){
-    var vy=90, list=document.querySelectorAll('.m-acc:not(.m-acc-nested) > details.m-ac[open]');
-    for(var i=0;i<list.length;i++){ var r=list[i].getBoundingClientRect();
-      if(r.top < vy && r.bottom > vy+60) return list[i]; }
+    var vy=90;
+    for(var i=0;i<leaves.length;i++){ var d=leaves[i]; if(!d.open) continue;
+      var r=d.getBoundingClientRect();
+      if(r.top < vy && r.bottom > vy+60) return d; }
     return null;
   }
   function updateFab(){ var d=currentOpen(); fab._t=d||null; fab.style.display=d?'inline-flex':'none'; }
