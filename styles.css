@@ -66,9 +66,10 @@ img{max-width:100%}
 .m-flag:focus-visible{outline-color:var(--signal)}
 .m-nav-links{margin-left:auto;display:flex;gap:32px;flex-wrap:wrap;align-items:center}
 .m-nav-links a{text-decoration:none;color:var(--ink);font-size:20px;font-weight:400;
-  padding:6px 0;transition:color var(--dur) var(--ease)}
+  padding:6px 0;border-bottom:3px solid transparent;
+  transition:color var(--dur) var(--ease),border-color var(--dur) var(--ease)}
 .m-nav-links a:hover{color:var(--signal)}
-.m-nav-links a.active{font-weight:600}
+.m-nav-links a.active{font-weight:600;border-bottom-color:var(--signal)}
 
 /* ===== Shell / sections ===== */
 .m-shell{max-width:1080px;margin:0 auto;padding:0 32px}
