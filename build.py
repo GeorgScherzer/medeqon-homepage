@@ -1290,7 +1290,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Produkte</span>
     <h1>Unsere Produkte<span class="end-dot">.</span></h1>
-    <p class="lede">Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir als herstellerunabhängiger Partner nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.</p>
+    <p class="lede">Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir herstellerunabhängig nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.</p>
   </div>
 </section>
 
@@ -1783,7 +1783,7 @@ _PUI = {
  "en": {
   "Produkte": "Products",
   "Unsere Produkte": "Our products",
-  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir als herstellerunabhängiger Partner nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.": "We supply and deliver certified medical products across several categories: radiation protection, medical furnishing, and medical aids &amp; assistive devices. As a manufacturer-independent partner we also procure almost any product and equip entire areas on a project basis. Click a category to explore the individual sections.",
+  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir herstellerunabhängig nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.": "We supply and deliver certified medical products across several categories: radiation protection, medical furnishing, and medical aids &amp; assistive devices. In addition, we procure almost any product manufacturer-independently and equip entire areas on a project basis. Click a category to explore the individual sections.",
   "Strahlenschutz": "Radiation protection",
   "Persönliche Strahlenschutz-Bekleidung „Made in UK\" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme von KENEX. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Personal radiation-protection wear „Made in UK“ from manufacturer ROTHBAND – complemented by suitable storage as well as mobile, ceiling-mounted and table-mounted X-ray protection systems from KENEX. Click a section to expand the models.",
   "Hersteller": "Manufacturer",
@@ -1904,7 +1904,7 @@ _PUI = {
  "pl": {
   "Produkte": "Produkty",
   "Unsere Produkte": "Nasze produkty",
-  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir als herstellerunabhängiger Partner nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.": "Pośredniczymy i dostarczamy certyfikowane wyroby medyczne w kilku kategoriach: ochrona radiologiczna, wyposażenie medyczne oraz środki pomocnicze i wyroby wspomagające. Ponadto jako partner niezależny od producentów zaopatrujemy niemal każdy produkt i wyposażamy całe obszary w oparciu o projekty. Kliknij kategorię, aby odkryć poszczególne obszary.",
+  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir herstellerunabhängig nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.": "Pośredniczymy i dostarczamy certyfikowane wyroby medyczne w kilku kategoriach: ochrona radiologiczna, wyposażenie medyczne oraz środki pomocnicze i wyroby wspomagające. Ponadto zaopatrujemy niemal każdy produkt niezależnie od producenta i wyposażamy całe obszary w oparciu o projekty. Kliknij kategorię, aby odkryć poszczególne obszary.",
   "Strahlenschutz": "Ochrona radiologiczna",
   "Persönliche Strahlenschutz-Bekleidung „Made in UK\" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme von KENEX. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Osobista odzież ochronna przed promieniowaniem „Made in UK“ od producenta ROTHBAND – uzupełniona o odpowiednie przechowywanie oraz mobilne, sufitowe i montowane na stole systemy osłon rentgenowskich firmy KENEX. Kliknij obszar, aby rozwinąć modele.",
   "Hersteller": "Producent",
@@ -2025,7 +2025,7 @@ _PUI = {
  "ro": {
   "Produkte": "Produse",
   "Unsere Produkte": "Produsele noastre",
-  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir als herstellerunabhängiger Partner nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.": "Intermediem și livrăm produse medicale certificate în mai multe categorii: protecție radiologică, mobilier medical și mijloace ajutătoare &amp; dispozitive de asistență. În plus, ca partener independent de producători, achiziționăm aproape orice produs și dotăm zone întregi pe bază de proiect. Faceți clic pe o categorie pentru a descoperi secțiunile individuale.",
+  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir herstellerunabhängig nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.": "Intermediem și livrăm produse medicale certificate în mai multe categorii: protecție radiologică, mobilier medical și mijloace ajutătoare &amp; dispozitive de asistență. În plus, achiziționăm aproape orice produs independent de producător și dotăm zone întregi pe bază de proiect. Faceți clic pe o categorie pentru a descoperi secțiunile individuale.",
   "Strahlenschutz": "Protecție radiologică",
   "Persönliche Strahlenschutz-Bekleidung „Made in UK\" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme von KENEX. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Îmbrăcăminte personală de protecție radiologică „Made in UK“ de la producătorul ROTHBAND – completată de soluții de depozitare adecvate, precum și de sisteme de protecție cu raze X mobile, montate pe tavan și pe masă de la KENEX. Faceți clic pe o secțiune pentru a extinde modelele.",
   "Hersteller": "Producător",
@@ -2147,7 +2147,7 @@ _PUI = {
 
 # Statische Chrome-Strings (Voll-String-Ersetzung auf der Seite; längste zuerst)
 _PROD_CHROME = [
-  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir als herstellerunabhängiger Partner nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.",
+  "Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir herstellerunabhängig nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.",
   "Persönliche Strahlenschutz-Bekleidung „Made in UK\" vom Hersteller ROTHBAND – ergänzt um passende Aufbewahrung sowie mobile, deckenmontierte und tischmontierte Röntgenschutzsysteme von KENEX. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.",
   "Röntgenschutzbrillen für den Schutz der Augen bei Durchleuchtung, interventioneller Bildgebung und Radiologie – in zahlreichen Rahmenformen, mit seitlichem Schutz und wahlweise mit Sehstärke. Bleigläser 0,75 mm Pb, Seitenschutz 0,50 mm Pb.",
