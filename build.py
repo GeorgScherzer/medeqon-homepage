@@ -2463,7 +2463,7 @@ def _ap(lang, path):
 _REFUI = {
  "en": {
   "Referenzen": "References",
-  "Eine Auswahl erfolgreich abgeschlossener Projekte.": "A selection of successfully completed projects.",
+  "Ausgewählte Projekte aus der langjährigen Erfahrung unseres Teams.": "Selected projects drawn from our team's many years of experience.",
   "Kompetenz aus Projekten": "Expertise from projects",
   "Wissen aus Forschung": "Knowledge from research",
   "Vertrauen durch Erfahrung": "Trust through experience",
@@ -2521,7 +2521,7 @@ _REFUI = {
  },
  "pl": {
   "Referenzen": "Referencje",
-  "Eine Auswahl erfolgreich abgeschlossener Projekte.": "Wybór pomyślnie zrealizowanych projektów.",
+  "Ausgewählte Projekte aus der langjährigen Erfahrung unseres Teams.": "Wybrane projekty z wieloletniego doświadczenia naszego zespołu.",
   "Kompetenz aus Projekten": "Kompetencje z projektów",
   "Wissen aus Forschung": "Wiedza z badań",
   "Vertrauen durch Erfahrung": "Zaufanie dzięki doświadczeniu",
@@ -2579,7 +2579,7 @@ _REFUI = {
  },
  "ro": {
   "Referenzen": "Referințe",
-  "Eine Auswahl erfolgreich abgeschlossener Projekte.": "O selecție de proiecte finalizate cu succes.",
+  "Ausgewählte Projekte aus der langjährigen Erfahrung unseres Teams.": "Proiecte selectate din experiența îndelungată a echipei noastre.",
   "Kompetenz aus Projekten": "Competență din proiecte",
   "Wissen aus Forschung": "Cunoaștere din cercetare",
   "Vertrauen durch Erfahrung": "Încredere prin experiență",
@@ -2945,7 +2945,7 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Referenzen</span>
     <h1>Referenzen<span class="end-dot">.</span></h1>
-    <p class="lede">Eine Auswahl erfolgreich abgeschlossener Projekte.</p>
+    <p class="lede">Ausgewählte Projekte aus der langjährigen Erfahrung unseres Teams.</p>
   </div>
 </section>
 
@@ -3105,7 +3105,7 @@ _REF_CHROME = [
     "Unsere Referenzen spiegeln langjährige Erfahrung, technisches Know-how und individuelle Lösungen wider. Gemeinsam mit unseren Kunden realisieren wir Projekte, die höchsten fachlichen und qualitativen Ansprüchen gerecht werden.",
     "Wissenschaft und Forschung sind fester Bestandteil unseres Selbstverständnisses. Durch die Mitwirkung an Forschungsprojekten, wissenschaftlichen Beiträgen und dem fachlichen Austausch leisten wir einen aktiven Beitrag zur Weiterentwicklung moderner Medizintechnik und evidenzbasierter Lösungen.",
     "Herstellerunabhängige Beratung mit technischem Know-how – individuell, praxisnah und lösungsorientiert – sowie akademische Lehr- und Betreuungstätigkeit.",
-    "Eine Auswahl erfolgreich abgeschlossener Projekte.",
+    "Ausgewählte Projekte aus der langjährigen Erfahrung unseres Teams.",
     "Wählen Sie oben eine Kategorie, um die zugehörigen Projekte anzuzeigen.",
     "Akademisches und Wissenschaft",
     "Wissenschaft &amp; Forschung",
