@@ -472,7 +472,11 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 .m-legal-title .end-dot{color:var(--signal)}
 .m-legal h3{font-family:var(--font-sans);font-weight:600;font-size:18px;line-height:26px;
   color:var(--ink);margin:28px 0 10px}
+.m-legal h4{font-family:var(--font-sans);font-weight:600;font-size:16px;line-height:24px;
+  color:var(--brand-700);margin:20px 0 8px}
 .m-legal p{font-size:16px;line-height:24px;color:var(--ink);margin:0 0 12px}
+.m-legal p.m-ds-row{margin:0 0 7px;padding-left:14px;border-left:2px solid var(--tint-line)}
+.m-legal p.m-ds-row strong{color:var(--brand-700)}
 .m-legal p.meta{font-family:var(--font-mono);font-size:11px;color:var(--steel);margin-bottom:20px}
 .m-legal p.m-legal-lead{margin-bottom:8px;font-weight:600}
 .m-legal ol,.m-legal ul{margin:0 0 16px;padding-left:22px;display:grid;gap:8px}
