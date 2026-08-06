@@ -2376,10 +2376,6 @@ BODY_KONTAKT = '''<section class="m-page-hero">
             <label for="k-msg">Nachricht *</label>
             <textarea class="m-input" id="k-msg" name="Nachricht" required></textarea>
           </div>
-          <label class="m-check">
-            <input type="checkbox" name="Datenschutz akzeptiert" value="Ja" required>
-            <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Angaben zur Bearbeitung meiner Anfrage einverstanden.</span>
-          </label>
           <input type="text" name="_honey" class="m-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="_subject" value="Neue Anfrage über medeqon.com">
           <input type="hidden" name="_template" value="table">
@@ -2388,6 +2384,7 @@ BODY_KONTAKT = '''<section class="m-page-hero">
           <div class="m-form-status" id="formStatus" role="status" aria-live="polite"></div>
           <noscript><p class="sub">Bitte aktivieren Sie JavaScript oder schreiben Sie uns direkt an office@medeqon.com.</p></noscript>
         </form>
+        <p class="m-form-note">Mit dem Absenden dieses Kontaktformulars verarbeiten wir Ihre personenbezogenen Daten (Name, E-Mail, Telefonnummer und Nachricht), um Ihre Anfrage zu beantworten. Rechtsgrundlage ist die (vor-)vertragliche Kommunikation gemäß Art. 6 Abs. 1 lit. b DSGVO. Weitere Informationen finden Sie in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
       </div>
 
       <aside class="m-caside">
@@ -4030,10 +4027,6 @@ BODY_KONTAKT_EN = '''<section class="m-page-hero">
             <label for="k-msg">Message *</label>
             <textarea class="m-input" id="k-msg" name="Nachricht" required></textarea>
           </div>
-          <label class="m-check">
-            <input type="checkbox" name="Datenschutz akzeptiert" value="Ja" required>
-            <span>I have read the <a href="/en/datenschutz.html">privacy policy</a> and consent to the processing of my details for handling my enquiry.</span>
-          </label>
           <input type="text" name="_honey" class="m-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="_subject" value="Neue Anfrage über medeqon.com">
           <input type="hidden" name="_template" value="table">
@@ -4042,6 +4035,7 @@ BODY_KONTAKT_EN = '''<section class="m-page-hero">
           <div class="m-form-status" id="formStatus" role="status" aria-live="polite"></div>
           <noscript><p class="sub">Please enable JavaScript or write to us directly at office@medeqon.com.</p></noscript>
         </form>
+        <p class="m-form-note">When you submit this contact form, we process your personal data (name, email, phone number and message) in order to respond to your enquiry. The legal basis is (pre-)contractual communication pursuant to Art. 6(1)(b) GDPR. You can find further information in our <a href="/en/datenschutz.html">privacy policy</a>.</p>
       </div>
 
       <aside class="m-caside">
@@ -4118,8 +4112,8 @@ _KONT_PL = [
     ("<option>Service / inspection</option>", "<option>Serwis / kontrola</option>"),
     ("<option>Other</option>", "<option>Inne</option>"),
     (">Message *</label>", ">Wiadomość *</label>"),
-    ("I have read the <a href=\"/en/datenschutz.html\">privacy policy</a> and consent to the processing of my details for handling my enquiry.",
-     "Zapoznałem/-am się z <a href=\"/pl/datenschutz.html\">polityką prywatności</a> i wyrażam zgodę na przetwarzanie moich danych w celu obsługi zapytania."),
+    ("When you submit this contact form, we process your personal data (name, email, phone number and message) in order to respond to your enquiry. The legal basis is (pre-)contractual communication pursuant to Art. 6(1)(b) GDPR. You can find further information in our <a href=\"/en/datenschutz.html\">privacy policy</a>.",
+     "Wysyłając ten formularz kontaktowy, przetwarzamy Państwa dane osobowe (imię i nazwisko, adres e-mail, numer telefonu, wiadomość) w celu udzielenia odpowiedzi na Państwa zapytanie. Podstawą prawną jest komunikacja (przed)umowna zgodnie z art. 6 ust. 1 lit. b RODO. Więcej informacji znajdą Państwo w naszej <a href=\"/pl/datenschutz.html\">polityce prywatności</a>."),
     (">Send enquiry</button>", ">Wyślij zapytanie</button>"),
     ("Please enable JavaScript or write to us directly at office@medeqon.com.",
      "Prosimy włączyć JavaScript lub napisać bezpośrednio na office@medeqon.com."),
@@ -4153,8 +4147,8 @@ _KONT_RO = [
     ("<option>Service / inspection</option>", "<option>Service / verificare</option>"),
     ("<option>Other</option>", "<option>Altele</option>"),
     (">Message *</label>", ">Mesaj *</label>"),
-    ("I have read the <a href=\"/en/datenschutz.html\">privacy policy</a> and consent to the processing of my details for handling my enquiry.",
-     "Am citit <a href=\"/ro/datenschutz.html\">politica de confidențialitate</a> și sunt de acord cu prelucrarea datelor mele pentru soluționarea solicitării."),
+    ("When you submit this contact form, we process your personal data (name, email, phone number and message) in order to respond to your enquiry. The legal basis is (pre-)contractual communication pursuant to Art. 6(1)(b) GDPR. You can find further information in our <a href=\"/en/datenschutz.html\">privacy policy</a>.",
+     "Prin trimiterea acestui formular de contact, prelucrăm datele dumneavoastră cu caracter personal (nume, e-mail, număr de telefon, mesaj) pentru a răspunde solicitării dumneavoastră. Temeiul juridic este comunicarea (pre)contractuală în conformitate cu art. 6 alin. 1 lit. b RGPD. Mai multe informații găsiți în <a href=\"/ro/datenschutz.html\">politica noastră de confidențialitate</a>."),
     (">Send enquiry</button>", ">Trimite solicitarea</button>"),
     ("Please enable JavaScript or write to us directly at office@medeqon.com.",
      "Vă rugăm activați JavaScript sau scrieți-ne direct la office@medeqon.com."),

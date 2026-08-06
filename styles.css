@@ -601,6 +601,8 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-check{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:20px;color:var(--ink)}
 .m-check input{margin-top:3px;flex:0 0 auto}
 .m-check a{color:var(--signal)}
+.m-form-note{font-size:13px;line-height:20px;color:var(--steel);margin:16px 0 0}
+.m-form-note a{color:var(--signal);text-decoration:underline;text-underline-offset:2px}
 .m-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .m-turnstile{margin:2px 0 2px;min-height:65px}
 .m-btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-sans);font-weight:600;
