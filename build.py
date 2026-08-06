@@ -19,12 +19,8 @@ NAV = [
     ("kontakt.html", "Kontakt"),
 ]
 
-FONTS = (
-    '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
-    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-    '<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700'
-    '&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">'
-)
+# Schriften werden selbst gehostet (siehe @font-face in styles.css) — kein externer Font-Aufruf mehr.
+FONTS = ""
 FAVICON = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
     "%3Crect width='100' height='100' rx='24' fill='%23004AAD'/%3E%3Ctext x='50' y='70' "
@@ -186,6 +182,33 @@ def footer(lang="de"):
   </div>
 </footer>'''
 
+_COOKIE = {
+    "de": ("Diese Website verwendet nur technisch notwendige Cookies, die für den Betrieb erforderlich sind. Es findet kein Tracking statt.", "Datenschutzerklärung", "Verstanden"),
+    "en": ("This website only uses technically necessary cookies required for its operation. No tracking takes place.", "Privacy policy", "Got it"),
+    "pl": ("Ta strona używa wyłącznie technicznie niezbędnych plików cookie, koniecznych do jej działania. Nie odbywa się żadne śledzenie.", "Polityka prywatności", "Rozumiem"),
+    "ro": ("Acest site utilizează doar cookie-uri necesare din punct de vedere tehnic pentru funcționarea sa. Nu are loc nicio urmărire.", "Politica de confidențialitate", "Am înțeles"),
+}
+
+def cookie_banner(lang="de"):
+    txt, more, ok = _COOKIE.get(lang, _COOKIE["de"])
+    ds = _href("datenschutz.html", lang)
+    return f'''<div class="m-cookie" id="cookieBar" role="region" aria-label="Cookie" hidden>
+  <p class="m-cookie-txt">{txt} <a href="{ds}">{more}</a></p>
+  <button class="m-cookie-ok" id="cookieOk" type="button">{ok}</button>
+</div>
+<script>
+(function(){{
+  try{{ if(localStorage.getItem('mq_cookie')==='1') return; }}catch(e){{}}
+  var bar=document.getElementById('cookieBar'); if(!bar) return;
+  bar.removeAttribute('hidden');
+  var b=document.getElementById('cookieOk');
+  if(b) b.addEventListener('click', function(){{
+    bar.setAttribute('hidden','');
+    try{{ localStorage.setItem('mq_cookie','1'); }}catch(e){{}}
+  }});
+}})();
+</script>'''
+
 def page(filename, title, desc, body, lang="de"):
     return f'''<!doctype html>
 <html lang="{lang}">
@@ -236,6 +259,8 @@ def page(filename, title, desc, body, lang="de"):
   }});
 }})();
 </script>
+
+{cookie_banner(lang)}
 
 </body>
 </html>
