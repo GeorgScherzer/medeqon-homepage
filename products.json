@@ -1526,6 +1526,186 @@
   ]
  },
  {
+  "cat": "stuehle",
+  "slug": "ride-pro",
+  "model": "RIDE PRO",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Ergonomischer Sattelstuhl mit verstellbarer Rückenlehne und geformtem Sattelsitz für aktives, aufrechtes Sitzen; verchromtes Sternfußgestell mit 5 Rollen und Gaslift-Höhenverstellung.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "47–63 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gaslift (Gasfeder)"
+   ],
+   [
+    "Rückenlehne",
+    "in Höhe und Winkel verstellbar"
+   ],
+   [
+    "Sitz",
+    "Sattelsitz aus geformtem Schaum"
+   ],
+   [
+    "Sitzdurchmesser",
+    "42 cm"
+   ],
+   [
+    "Polsterung",
+    "4 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz (Ø 58 cm)"
+   ],
+   [
+    "Traglast",
+    "160 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
+  "slug": "ride-fr",
+  "model": "RIDE FR",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Ergonomischer Sattelhocker mit höhenverstellbarem Fußring für aktives Sitzen in erhöhter Position; verchromtes Sternfußgestell mit 5 Rollen, Gaslift und PU-Bezug.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "51–71 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gaslift (Gasfeder)"
+   ],
+   [
+    "Sitz",
+    "Ergonomischer Sattelsitz"
+   ],
+   [
+    "Sitzdurchmesser",
+    "35 cm"
+   ],
+   [
+    "Fußring",
+    "höhenverstellbar"
+   ],
+   [
+    "Polsterung",
+    "4 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz (Ø 48 cm)"
+   ],
+   [
+    "Bezug",
+    "PU"
+   ],
+   [
+    "Traglast",
+    "160 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
+  "slug": "disk-pro",
+  "model": "DISK PRO",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Professioneller Fahrdrehhocker mit rundem Polstersitz und höhenverstellbarem Fußring für erhöhte Arbeitspositionen; verchromtes Fünf-Fuß-Fahrgestell mit Rollen und Gaslift.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "52–72 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gaslift (Gasfeder)"
+   ],
+   [
+    "Sitz",
+    "Rund, gepolstert"
+   ],
+   [
+    "Sitzdurchmesser",
+    "35 cm"
+   ],
+   [
+    "Fußring",
+    "höhenverstellbar"
+   ],
+   [
+    "Polsterung",
+    "6 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz (Ø 56 cm)"
+   ],
+   [
+    "Bezug",
+    "PU"
+   ],
+   [
+    "Traglast",
+    "160 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
+  "slug": "podo",
+  "model": "PODO",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Elektrischer Podologie-Behandlungsstuhl mit drei Sektionen, klappbaren Armlehnen und weit verstellbarem Rücken- und Beinteil für optimale Positionen in Podologie und Fußpflege.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "56–100 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Elektrisch"
+   ],
+   [
+    "Sektionen",
+    "3 · Rücken-, Sitz- und Beinteil"
+   ],
+   [
+    "Rückenlehne",
+    "verstellbar bis 90°"
+   ],
+   [
+    "Beinteil",
+    "verstellbar (25° bis −80°)"
+   ],
+   [
+    "Armlehnen",
+    "gepolstert · klappbar"
+   ],
+   [
+    "Kopfteil",
+    "mit Nackenkissen"
+   ],
+   [
+    "Bezug",
+    "Strapazierfähiges PU (pflegeleicht)"
+   ],
+   [
+    "Maße",
+    "190 × 91 cm"
+   ]
+  ]
+ },
+ {
   "cat": "sichtschutz",
   "slug": "alu-screen-1518",
   "model": "ALU SCREEN 1518",

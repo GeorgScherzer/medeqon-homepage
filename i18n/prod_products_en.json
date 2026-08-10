@@ -514,5 +514,64 @@
       ["Colour", "White (customisable)"],
       ["Castors", "Ø 7.5 cm · low-noise"]
     ]
+  },
+  "ride-pro": {
+    "model": "RIDE PRO",
+    "description": "Ergonomic saddle chair with adjustable backrest and moulded saddle seat for active, upright sitting; chrome-plated five-castor base with gas-lift height adjustment.",
+    "specs": [
+      ["Height range", "47–63 cm"],
+      ["Height adjustment", "Gas lift (gas spring)"],
+      ["Backrest", "adjustable in height and angle"],
+      ["Seat", "moulded-foam saddle seat"],
+      ["Seat diameter", "42 cm"],
+      ["Upholstery", "4 cm"],
+      ["Castors", "5 · chrome-plated base (Ø 58 cm)"],
+      ["Load capacity", "160 kg"]
+    ]
+  },
+  "ride-fr": {
+    "model": "RIDE FR",
+    "description": "Ergonomic saddle stool with height-adjustable footring for active sitting in a raised position; chrome-plated five-castor base with gas lift and PU cover.",
+    "specs": [
+      ["Height range", "51–71 cm"],
+      ["Height adjustment", "Gas lift (gas spring)"],
+      ["Seat", "ergonomic saddle seat"],
+      ["Seat diameter", "35 cm"],
+      ["Footring", "height-adjustable"],
+      ["Upholstery", "4 cm"],
+      ["Castors", "5 · chrome-plated base (Ø 48 cm)"],
+      ["Cover", "PU"],
+      ["Load capacity", "160 kg"]
+    ]
+  },
+  "disk-pro": {
+    "model": "DISK PRO",
+    "description": "Professional mobile stool with round upholstered seat and height-adjustable footring for raised working positions; chrome-plated five-star base with castors and gas lift.",
+    "specs": [
+      ["Height range", "52–72 cm"],
+      ["Height adjustment", "Gas lift (gas spring)"],
+      ["Seat", "round, upholstered"],
+      ["Seat diameter", "35 cm"],
+      ["Footring", "height-adjustable"],
+      ["Upholstery", "6 cm"],
+      ["Castors", "5 · chrome-plated base (Ø 56 cm)"],
+      ["Cover", "PU"],
+      ["Load capacity", "160 kg"]
+    ]
+  },
+  "podo": {
+    "model": "PODO",
+    "description": "Electric podiatry treatment chair with three sections, folding armrests and a widely adjustable back and leg section for optimal positions in podiatry and foot care.",
+    "specs": [
+      ["Height range", "56–100 cm"],
+      ["Height adjustment", "Electric"],
+      ["Sections", "3 · back, seat and leg section"],
+      ["Backrest", "adjustable up to 90°"],
+      ["Leg section", "adjustable (25° to −80°)"],
+      ["Armrests", "padded · folding"],
+      ["Head section", "with neck cushion"],
+      ["Cover", "hard-wearing PU (easy-care)"],
+      ["Dimensions", "190 × 91 cm"]
+    ]
   }
 }

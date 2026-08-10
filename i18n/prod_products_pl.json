@@ -514,5 +514,64 @@
       ["Kolor", "Biały (dostosowywalny)"],
       ["Kółka", "Ø 7,5 cm · ciche"]
     ]
+  },
+  "ride-pro": {
+    "model": "RIDE PRO",
+    "description": "Ergonomiczne krzesło siodłowe z regulowanym oparciem i profilowanym siedziskiem siodłowym do aktywnego, wyprostowanego siedzenia; chromowana pięcioramienna podstawa jezdna z regulacją wysokości sprężyną gazową.",
+    "specs": [
+      ["Zakres wysokości", "47–63 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Oparcie", "regulowane na wysokość i kąt"],
+      ["Siedzisko", "siodłowe z pianki profilowanej"],
+      ["Średnica siedziska", "42 cm"],
+      ["Tapicerka", "4 cm"],
+      ["Kółka", "5 · chromowana podstawa (Ø 58 cm)"],
+      ["Nośność", "160 kg"]
+    ]
+  },
+  "ride-fr": {
+    "model": "RIDE FR",
+    "description": "Ergonomiczny taboret siodłowy z regulowanym podnóżkiem pierścieniowym do aktywnego siedzenia w podwyższonej pozycji; chromowana pięcioramienna podstawa jezdna ze sprężyną gazową i pokryciem PU.",
+    "specs": [
+      ["Zakres wysokości", "51–71 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Siedzisko", "ergonomiczne siodłowe"],
+      ["Średnica siedziska", "35 cm"],
+      ["Podnóżek pierścieniowy", "regulowany na wysokość"],
+      ["Tapicerka", "4 cm"],
+      ["Kółka", "5 · chromowana podstawa (Ø 48 cm)"],
+      ["Pokrycie", "PU"],
+      ["Nośność", "160 kg"]
+    ]
+  },
+  "disk-pro": {
+    "model": "DISK PRO",
+    "description": "Profesjonalny taboret jezdny z okrągłym tapicerowanym siedziskiem i regulowanym podnóżkiem pierścieniowym do podwyższonych pozycji pracy; chromowana pięcioramienna podstawa jezdna z kółkami i sprężyną gazową.",
+    "specs": [
+      ["Zakres wysokości", "52–72 cm"],
+      ["Regulacja wysokości", "Sprężyna gazowa"],
+      ["Siedzisko", "okrągłe, tapicerowane"],
+      ["Średnica siedziska", "35 cm"],
+      ["Podnóżek pierścieniowy", "regulowany na wysokość"],
+      ["Tapicerka", "6 cm"],
+      ["Kółka", "5 · chromowana podstawa (Ø 56 cm)"],
+      ["Pokrycie", "PU"],
+      ["Nośność", "160 kg"]
+    ]
+  },
+  "podo": {
+    "model": "PODO",
+    "description": "Elektryczny fotel podologiczny z trzema sekcjami, składanymi podłokietnikami oraz szeroko regulowaną sekcją oparcia i nóg, zapewniający optymalne pozycje w podologii i pielęgnacji stóp.",
+    "specs": [
+      ["Zakres wysokości", "56–100 cm"],
+      ["Regulacja wysokości", "Elektryczna"],
+      ["Sekcje", "3 · sekcja oparcia, siedziska i nóg"],
+      ["Oparcie", "regulowane do 90°"],
+      ["Sekcja nóg", "regulowana (25° do −80°)"],
+      ["Podłokietniki", "tapicerowane · składane"],
+      ["Zagłówek", "z poduszką pod kark"],
+      ["Pokrycie", "wytrzymały PU (łatwy w pielęgnacji)"],
+      ["Wymiary", "190 × 91 cm"]
+    ]
   }
 }

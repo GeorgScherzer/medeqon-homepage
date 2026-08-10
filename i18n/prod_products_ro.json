@@ -514,5 +514,64 @@
       ["Culoare", "Alb (personalizabil)"],
       ["Roți", "Ø 7,5 cm · silențioase"]
     ]
+  },
+  "ride-pro": {
+    "model": "RIDE PRO",
+    "description": "Scaun tip șa ergonomic cu spătar reglabil și șezut tip șa modelat pentru o ședere activă, dreaptă; bază în cruce cromată cu cinci roți și reglarea înălțimii prin arc pneumatic pe gaz.",
+    "specs": [
+      ["Interval de înălțime", "47–63 cm"],
+      ["Reglarea înălțimii", "Arc pneumatic pe gaz"],
+      ["Spătar", "reglabil pe înălțime și unghi"],
+      ["Șezut", "șa din spumă modelată"],
+      ["Diametrul șezutului", "42 cm"],
+      ["Tapițerie", "4 cm"],
+      ["Roți", "5 · bază în cruce cromată (Ø 58 cm)"],
+      ["Capacitate portantă", "160 kg"]
+    ]
+  },
+  "ride-fr": {
+    "model": "RIDE FR",
+    "description": "Taburet tip șa ergonomic cu inel pentru picioare reglabil pe înălțime pentru o ședere activă în poziție ridicată; bază în cruce cromată cu cinci roți, arc pneumatic pe gaz și husă PU.",
+    "specs": [
+      ["Interval de înălțime", "51–71 cm"],
+      ["Reglarea înălțimii", "Arc pneumatic pe gaz"],
+      ["Șezut", "tip șa ergonomic"],
+      ["Diametrul șezutului", "35 cm"],
+      ["Inel pentru picioare", "reglabil pe înălțime"],
+      ["Tapițerie", "4 cm"],
+      ["Roți", "5 · bază în cruce cromată (Ø 48 cm)"],
+      ["Husă", "PU"],
+      ["Capacitate portantă", "160 kg"]
+    ]
+  },
+  "disk-pro": {
+    "model": "DISK PRO",
+    "description": "Taburet mobil profesional cu șezut rotund tapițat și inel pentru picioare reglabil pe înălțime pentru poziții de lucru ridicate; bază în cruce cromată cu cinci roți și arc pneumatic pe gaz.",
+    "specs": [
+      ["Interval de înălțime", "52–72 cm"],
+      ["Reglarea înălțimii", "Arc pneumatic pe gaz"],
+      ["Șezut", "rotund, tapițat"],
+      ["Diametrul șezutului", "35 cm"],
+      ["Inel pentru picioare", "reglabil pe înălțime"],
+      ["Tapițerie", "6 cm"],
+      ["Roți", "5 · bază în cruce cromată (Ø 56 cm)"],
+      ["Husă", "PU"],
+      ["Capacitate portantă", "160 kg"]
+    ]
+  },
+  "podo": {
+    "model": "PODO",
+    "description": "Scaun de tratament podologic electric cu trei secțiuni, cotiere rabatabile și secțiune de spate și picioare reglabilă pe scară largă, pentru poziții optime în podologie și îngrijirea picioarelor.",
+    "specs": [
+      ["Interval de înălțime", "56–100 cm"],
+      ["Reglarea înălțimii", "Electric"],
+      ["Secțiuni", "3 · secțiunea de spate, șezut și picioare"],
+      ["Spătar", "reglabil până la 90°"],
+      ["Secțiunea pentru picioare", "reglabilă (25° până la −80°)"],
+      ["Cotiere", "tapițate · rabatabile"],
+      ["Tetieră", "cu pernă pentru gât"],
+      ["Husă", "PU rezistent (ușor de întreținut)"],
+      ["Dimensiuni", "190 × 91 cm"]
+    ]
   }
 }

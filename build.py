@@ -1268,7 +1268,8 @@ DL_MED_CATS = [
         ("Chiropraktisch", ["ALMA PRO", "APPA", "SCALL PRO", "SIDO", "SIDO PRO"]),
     ]),
     ("02", "Medizinische Stühle", [
-        (None, ["DISK", "CORE", "SUPP", "RIDE", "XTRACT", "ENT", "OB"]),
+        (None, ["DISK", "CORE", "SUPP", "RIDE", "XTRACT", "ENT", "OB",
+                "RIDE PRO", "RIDE FR", "DISK PRO", "PODO"]),
     ]),
     ("03", "Sichtschutz", [
         (None, ["ALU SCREEN 1518"]),
