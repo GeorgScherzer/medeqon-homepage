@@ -44,21 +44,6 @@
       ["Certificate", "ISO 13485 · MDR CE · FDA"]
     ]
   },
-  "sido": {
-    "model": "SIDO",
-    "description": "Masă de tratament chiropractic versatilă, cu reglare pe mai multe unghiuri, pentru mobilizare, manipulare, masaj și terapie prin mișcare.",
-    "specs": [
-      ["Interval de înălțime", "49–92 cm (electric, Hi-Lo)"],
-      ["Capacitate portantă", "250 kg"],
-      ["Secțiuni drop", "2 (cervical, toracal)"],
-      ["Acționare", "Motor TiMOTION"],
-      ["Tapițerie", "7 cm · densitate spumă 100 kg/m³"],
-      ["Husă", "Piele sintetică PVC, greu inflamabilă (BS 5852)"],
-      ["Dimensiuni", "199 × 70 × 54 cm"],
-      ["Greutate", "71 kg"],
-      ["Certificate", "ISO 13485 · MDR CE · FDA"]
-    ]
-  },
   "sido-pro": {
     "model": "SIDO PRO",
     "description": "Masă de manipulare chiropractică cu reglare pe mai multe unghiuri, înclinare, poziție inversată și rotație lombară inferioară pentru flexibilitate maximă.",

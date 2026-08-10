@@ -139,52 +139,6 @@
  },
  {
   "cat": "chiro",
-  "slug": "sido",
-  "model": "SIDO",
-  "ref": "EL07.2.A66.WF",
-  "image_count": 3,
-  "description": "Vielseitige chiropraktische Behandlungsliege mit Multiwinkelverstellung für Mobilisation, Manipulation, Massage und Bewegungstherapie.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "49–92 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Drop-Sektionen",
-    "2 (zervikal, thorakal)"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION-Motor"
-   ],
-   [
-    "Polsterung",
-    "7 cm · Schaumdichte 100 kg/m³"
-   ],
-   [
-    "Bezug",
-    "PVC-Kunstleder, schwer entflammbar (BS 5852)"
-   ],
-   [
-    "Maße",
-    "199 × 70 × 54 cm"
-   ],
-   [
-    "Gewicht",
-    "71 kg"
-   ],
-   [
-    "Zertifikate",
-    "ISO 13485 · MDR CE · FDA"
-   ]
-  ]
- },
- {
-  "cat": "chiro",
   "slug": "sido-pro",
   "model": "SIDO PRO",
   "ref": "EL07PRO23.2.A66.WF",

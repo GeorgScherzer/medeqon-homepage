@@ -44,21 +44,6 @@
       ["Certyfikaty", "ISO 13485 · MDR CE · FDA"]
     ]
   },
-  "sido": {
-    "model": "SIDO",
-    "description": "Wszechstronna chiropraktyczna kozetka zabiegowa z regulacją wielokątową do mobilizacji, manipulacji, masażu i terapii ruchowej.",
-    "specs": [
-      ["Zakres wysokości", "49–92 cm (elektryczny, Hi-Lo)"],
-      ["Nośność", "250 kg"],
-      ["Sekcje drop", "2 (szyjna, piersiowa)"],
-      ["Napęd", "Silnik TiMOTION"],
-      ["Tapicerka", "7 cm · gęstość pianki 100 kg/m³"],
-      ["Pokrycie", "Skóra ekologiczna PVC, trudnopalna (BS 5852)"],
-      ["Wymiary", "199 × 70 × 54 cm"],
-      ["Waga", "71 kg"],
-      ["Certyfikaty", "ISO 13485 · MDR CE · FDA"]
-    ]
-  },
   "sido-pro": {
     "model": "SIDO PRO",
     "description": "Chiropraktyczny stół manipulacyjny z regulacją wielokątową, pochyleniem, pozycją odwróconą i rotacją dolnego odcinka lędźwiowego dla maksymalnej elastyczności.",

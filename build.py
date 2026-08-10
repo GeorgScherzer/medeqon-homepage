@@ -1202,7 +1202,7 @@ _DL_NOTE_MED_REQUEST = ("Kontaktieren Sie uns &ndash; wir übermitteln Ihnen Dat
 _MODEL2PROD = {p["model"]: p for p in _products}
 
 _DS_WORD = {"de": "Datenblatt", "en": "Data sheet", "pl": "Karta techniczna", "ro": "Fișă tehnică"}
-_DS_NO_PL = {"SIDO"}  # Modelle mit altem Hersteller-Datenblatt (nur DE/EN, noch kein PL)
+_DS_NO_PL = set()  # Modelle ohne PL-Datenblatt (nur DE/EN); aktuell keine
 def _ds_card(model, lang="de"):
     p = _MODEL2PROD.get(model, {})
     title = _html.escape(model)
@@ -1279,7 +1279,7 @@ DL_MED_CATS = [
         ("Elektrisch", ["ENID PRO", "ENID", "GUTH PRO", "GUTH", "ROTH", "RILA PRO",
                         "RILA", "JULL PRO", "BROM PRO", "BROM", "NOTT PRO", "NOTT",
                         "GALLEY", "STILL", "PEHR PRO", "PEHR", "BOBATH", "BATEC", "TILT"]),
-        ("Chiropraktisch", ["ALMA PRO", "APPA", "SCALL PRO", "SIDO", "SIDO PRO"]),
+        ("Chiropraktisch", ["ALMA PRO", "APPA", "SCALL PRO", "SIDO PRO"]),
     ]),
     ("02", "Medizinische Stühle", [
         (None, ["DISK", "DISK PRO", "RIDE", "RIDE PRO", "RIDE FR", "CORE", "SUPP",

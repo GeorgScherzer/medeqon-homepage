@@ -44,21 +44,6 @@
       ["Certificates", "ISO 13485 · MDR CE · FDA"]
     ]
   },
-  "sido": {
-    "model": "SIDO",
-    "description": "Versatile chiropractic treatment couch with multi-angle adjustment for mobilisation, manipulation, massage and movement therapy.",
-    "specs": [
-      ["Height range", "49–92 cm (electric, Hi-Lo)"],
-      ["Load capacity", "250 kg"],
-      ["Drop sections", "2 (cervical, thoracic)"],
-      ["Drive", "TiMOTION motor"],
-      ["Upholstery", "7 cm · foam density 100 kg/m³"],
-      ["Cover", "PVC synthetic leather, flame-retardant (BS 5852)"],
-      ["Dimensions", "199 × 70 × 54 cm"],
-      ["Weight", "71 kg"],
-      ["Certificates", "ISO 13485 · MDR CE · FDA"]
-    ]
-  },
   "sido-pro": {
     "model": "SIDO PRO",
     "description": "Chiropractic manipulation table with multi-angle adjustment, tilt, invert position and lower lumbar rotation for maximum flexibility.",
