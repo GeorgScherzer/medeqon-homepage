@@ -1261,15 +1261,15 @@ def _downloads_datasheets(num, cid, lead, cats, note=None, lang="de"):
 DL_MED_CATS = [
     ("01", "Untersuchungsliegen", [
         ("Fix", ["FIX"]),
-        ("Hydraulisch", ["KEND PRO", "LING PRO", "MAIT PRO", "NOBU", "TENB PRO"]),
-        ("Elektrisch", ["BATEC", "BOBATH", "BROM", "BROM PRO", "ENID", "ENID PRO",
-                        "GALLEY", "GUTH", "GUTH PRO", "JULL PRO", "NOTT", "NOTT PRO",
-                        "PEHR", "RILA", "RILA PRO", "ROTH", "STILL"]),
+        ("Hydraulisch", ["KEND PRO", "LING PRO", "MAIT PRO", "TENB PRO"]),
+        ("Elektrisch", ["ENID PRO", "ENID", "GUTH PRO", "GUTH", "ROTH", "RILA PRO",
+                        "RILA", "JULL PRO", "BROM PRO", "BROM", "NOTT PRO", "NOTT",
+                        "GALLEY", "STILL", "PEHR", "BOBATH", "BATEC"]),
         ("Chiropraktisch", ["ALMA PRO", "APPA", "SCALL PRO", "SIDO", "SIDO PRO"]),
     ]),
     ("02", "Medizinische Stühle", [
         (None, ["DISK", "CORE", "SUPP", "RIDE", "XTRACT", "ENT", "OB",
-                "RIDE PRO", "RIDE FR", "DISK PRO", "PODO"]),
+                "RIDE PRO", "RIDE FR", "DISK PRO", "PODO", "NOBU"]),
     ]),
     ("03", "Sichtschutz", [
         (None, ["ALU SCREEN 1518"]),

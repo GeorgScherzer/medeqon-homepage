@@ -227,149 +227,11 @@
  },
  {
   "cat": "elektrisch",
-  "slug": "batec",
-  "model": "BATEC",
-  "ref": "75.EL02C.2.A66.WF",
+  "slug": "enid-pro",
+  "model": "ENID PRO",
+  "ref": "EL02PRO23SL.1.A66.GF",
   "image_count": 3,
-  "description": "Robuster zweiteiliger Kardiologietisch mit elektrischer Höhen- und Rückenlehnenverstellung, zwei Kardiologie-Aussparungen und Fußfernbedienung.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "58–102 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION-Motor"
-   ],
-   [
-    "Sektionen",
-    "2"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Hochbelastbares PVC-Vinyl, feuerfest"
-   ],
-   [
-    "Maße",
-    "199 × 75 × 61 cm"
-   ],
-   [
-    "Gewicht",
-    "65 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "bobath",
-  "model": "BOBATH",
-  "ref": "EL02W.1.A66.WF",
-  "image_count": 3,
-  "description": "Bobath-Liege mit zwei Sektionen und extra breiter 120-cm-Liegefläche für die neuromotorische Rehabilitation, mit drei Gesichtsausschnitten.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "49–93 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION-Motor"
-   ],
-   [
-    "Sektionen",
-    "2"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Frotteebezug"
-   ],
-   [
-    "Maße",
-    "194 × 124 × 53 cm"
-   ],
-   [
-    "Gewicht",
-    "101 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "brom",
-  "model": "BROM",
-  "ref": "EL03ESL.1.A66.WF",
-  "image_count": 3,
-  "description": "Dreiteilige Behandlungsliege mit elektrischer Höhenverstellung, Gesichtsausschnitt sowie gasfederverstellbarer Rücken- und Beinsektion.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "48–92 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION-Motor"
-   ],
-   [
-    "Sektionen",
-    "3"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Vinylbezug (blau oder dunkelgrau)"
-   ],
-   [
-    "Maße",
-    "186 × 70 × 54 cm"
-   ],
-   [
-    "Gewicht",
-    "72 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "brom-pro",
-  "model": "BROM PRO",
-  "ref": "EL03EPRO23SL.1.A66.GF",
-  "image_count": 3,
-  "description": "Dreiteilige Behandlungsliege der PRO-Serie mit elektrischer Höhenverstellung, Gesichtsausschnitt und gasfederverstellbarer Rücken- und Fußstütze.",
+  "description": "Robuste zweiteilige Liege der PRO-Serie für intensive Behandlungen mit elektrischer Höhenverstellung über Rundumsteuerung.",
   "specs": [
    [
     "Höhenbereich",
@@ -385,7 +247,7 @@
    ],
    [
     "Sektionen",
-    "3"
+    "2"
    ],
    [
     "Polsterung",
@@ -397,11 +259,11 @@
    ],
    [
     "Maße",
-    "186 × 70 × 54 cm"
+    "199 × 70 × 50 cm"
    ],
    [
     "Gewicht",
-    "82 kg"
+    "81 kg"
    ],
    [
     "Zertifikate",
@@ -457,144 +319,6 @@
  },
  {
   "cat": "elektrisch",
-  "slug": "enid-pro",
-  "model": "ENID PRO",
-  "ref": "EL02PRO23SL.1.A66.GF",
-  "image_count": 3,
-  "description": "Robuste zweiteilige Liege der PRO-Serie für intensive Behandlungen mit elektrischer Höhenverstellung über Rundumsteuerung.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "45–95,5 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION-Motor"
-   ],
-   [
-    "Sektionen",
-    "2"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Vinylbezug (blau oder grau)"
-   ],
-   [
-    "Maße",
-    "199 × 70 × 50 cm"
-   ],
-   [
-    "Gewicht",
-    "81 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "galley",
-  "model": "GALLEY",
-  "ref": "EL05ARSL.2.A66.SH.GF",
-  "image_count": 3,
-  "description": "Siebenteilige Physiotherapieliege mit zwei Motoren (Höhe und Kyphose), Kopfarmlehnen und klappbaren Mittelarmlehnen bis 90 cm Breite.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "51–94 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "2 Motoren (Höhe + Kyphose) · TiMOTION"
-   ],
-   [
-    "Sektionen",
-    "7"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Frotteebezug"
-   ],
-   [
-    "Maße",
-    "195 × 70 × 58 cm"
-   ],
-   [
-    "Gewicht",
-    "76 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "guth",
-  "model": "GUTH",
-  "ref": "EL022SL.1.A66.SH.WF",
-  "image_count": 3,
-  "description": "Zweiteilige Physiotherapieliege mit Kopfarmlehnen und positiv wie negativ verstellbarem Kopfteil für zervikale und kraniale Techniken.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "48–92 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION-Motor"
-   ],
-   [
-    "Sektionen",
-    "2"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Frotteebezug"
-   ],
-   [
-    "Maße",
-    "199 × 70 × 51 cm"
-   ],
-   [
-    "Gewicht",
-    "64 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
   "slug": "guth-pro",
   "model": "GUTH PRO",
   "ref": "EL022PRO23SL.1.A66.SH.WF",
@@ -641,149 +365,11 @@
  },
  {
   "cat": "elektrisch",
-  "slug": "jull-pro",
-  "model": "JULL PRO",
-  "ref": "EL03PRO23.1.A66.GF",
+  "slug": "guth",
+  "model": "GUTH",
+  "ref": "EL022SL.1.A66.SH.WF",
   "image_count": 3,
-  "description": "Liege mit kurzem Kopfteil, gasfederunterstützter Rückenlehne und sanftem elektrischem Hi-Lo-Hebesystem für eine stabile Behandlungsplattform.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "45–95,5 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "TiMOTION · Fußsteuerung · Gasfeder Kopf/Bein"
-   ],
-   [
-    "Sektionen",
-    "Kopfteil −55°/+45° · Bein 0°/+75° · Gesichtsaussparung"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Flammhemmendes PVC-Vinyl (BS 5852)"
-   ],
-   [
-    "Maße",
-    "195 × 60 × 50 cm"
-   ],
-   [
-    "Gewicht",
-    "94 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "nott",
-  "model": "NOTT",
-  "ref": "EL05SL.2.A66.SH.WF",
-  "image_count": 3,
-  "description": "Fünfteilige Physiotherapieliege mit Frotteebezug, höhenverstellbaren Armlehnen und zwei Motoren für Höhe und elektrische Kyphose.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "51–94 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "2 Motoren (Höhe + Kyphose) · TiMOTION"
-   ],
-   [
-    "Sektionen",
-    "5 · Rückenlehne mit Gesichtsausschnitt"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Vinylbezug (blau oder grau)"
-   ],
-   [
-    "Maße",
-    "195 × 70 × 58 cm"
-   ],
-   [
-    "Gewicht",
-    "76 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "nott-pro",
-  "model": "NOTT PRO",
-  "ref": "EL05PRO23SL.2.A66.SH.GF",
-  "image_count": 3,
-  "description": "Fünfteilige Physiotherapieliege der PRO-Serie mit Frotteebezug, höhenverstellbaren Armlehnen und zwei Motoren für Höhe und Kyphose.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "45–95,5 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "2 Motoren (Höhe + Kyphose) · TiMOTION"
-   ],
-   [
-    "Sektionen",
-    "5 · Rückenlehne mit Gesichtsausschnitt"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Vinylbezug (blau oder grau)"
-   ],
-   [
-    "Maße",
-    "193 × 70 × 51 cm"
-   ],
-   [
-    "Gewicht",
-    "98 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "pehr",
-  "model": "PEHR",
-  "ref": "EL11SL.1.A66.WF",
-  "image_count": 3,
-  "description": "Zweiteilige Physiotherapieliege mit Frotteebezug, neigbarem Kopfteil, Gesichtskissen und darunterliegenden Armlehnen.",
+  "description": "Zweiteilige Physiotherapieliege mit Kopfarmlehnen und positiv wie negativ verstellbarem Kopfteil für zervikale und kraniale Techniken.",
   "specs": [
    [
     "Höhenbereich",
@@ -795,11 +381,11 @@
    ],
    [
     "Antrieb",
-    "Elektrisch (TiMOTION) · umlaufende Steuerung"
+    "TiMOTION-Motor"
    ],
    [
     "Sektionen",
-    "2 · Kopfteil +30°/−70°"
+    "2"
    ],
    [
     "Polsterung",
@@ -807,107 +393,15 @@
    ],
    [
     "Bezug",
-    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+    "Schwer entflammbarer Frotteebezug"
    ],
    [
     "Maße",
-    "193 × 75 × 54 cm"
+    "199 × 70 × 51 cm"
    ],
    [
     "Gewicht",
-    "62 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "rila",
-  "model": "RILA",
-  "ref": "EL032SL.1.A66.SH.WF",
-  "image_count": 3,
-  "description": "Physio- und Osteopathieliege mit fünf Sektionen, höhenverstellbaren Armlehnen und positiv/negativ neigbarem Kopfteil.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "48–92 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "Elektrisch (TiMOTION) · umlaufende Steuerung"
-   ],
-   [
-    "Sektionen",
-    "5 · feste Mittelsektion · Kopfteil +80°/−40°"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Schwer entflammbarer Vinylbezug (blau oder grau)"
-   ],
-   [
-    "Maße",
-    "194 × 70 × 53 cm"
-   ],
-   [
-    "Gewicht",
-    "65 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE · FDA · ISO 13485:2016"
-   ]
-  ]
- },
- {
-  "cat": "elektrisch",
-  "slug": "rila-pro",
-  "model": "RILA PRO",
-  "ref": "EL032PRO23SL.1.A66.SH.GF",
-  "image_count": 2,
-  "description": "Physio- und Osteopathieliege der PRO-Serie mit fünf Sektionen, höhenverstellbaren Armlehnen und positiv/negativ verstellbarem Kopfteil.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "45–95,5 cm (elektrisch, Hi-Lo)"
-   ],
-   [
-    "Traglast",
-    "250 kg"
-   ],
-   [
-    "Antrieb",
-    "Elektrisch (TiMOTION) · umlaufende Steuerung"
-   ],
-   [
-    "Sektionen",
-    "5 · feste Mittelsektion · Gesichtsausschnitt"
-   ],
-   [
-    "Polsterung",
-    "5 cm · Schaumdichte 36 kg/m³"
-   ],
-   [
-    "Bezug",
-    "Sehr strapazierfähiger, flammhemmender Vinylbezug (blau oder grau)"
-   ],
-   [
-    "Maße",
-    "193 × 70 × 50 cm"
-   ],
-   [
-    "Gewicht",
-    "86 kg"
+    "64 kg"
    ],
    [
     "Zertifikate",
@@ -963,6 +457,374 @@
  },
  {
   "cat": "elektrisch",
+  "slug": "rila-pro",
+  "model": "RILA PRO",
+  "ref": "EL032PRO23SL.1.A66.SH.GF",
+  "image_count": 2,
+  "description": "Physio- und Osteopathieliege der PRO-Serie mit fünf Sektionen, höhenverstellbaren Armlehnen und positiv/negativ verstellbarem Kopfteil.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "45–95,5 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "Elektrisch (TiMOTION) · umlaufende Steuerung"
+   ],
+   [
+    "Sektionen",
+    "5 · feste Mittelsektion · Gesichtsausschnitt"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Sehr strapazierfähiger, flammhemmender Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Maße",
+    "193 × 70 × 50 cm"
+   ],
+   [
+    "Gewicht",
+    "86 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "rila",
+  "model": "RILA",
+  "ref": "EL032SL.1.A66.SH.WF",
+  "image_count": 3,
+  "description": "Physio- und Osteopathieliege mit fünf Sektionen, höhenverstellbaren Armlehnen und positiv/negativ neigbarem Kopfteil.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "48–92 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "Elektrisch (TiMOTION) · umlaufende Steuerung"
+   ],
+   [
+    "Sektionen",
+    "5 · feste Mittelsektion · Kopfteil +80°/−40°"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Maße",
+    "194 × 70 × 53 cm"
+   ],
+   [
+    "Gewicht",
+    "65 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "jull-pro",
+  "model": "JULL PRO",
+  "ref": "EL03PRO23.1.A66.GF",
+  "image_count": 3,
+  "description": "Liege mit kurzem Kopfteil, gasfederunterstützter Rückenlehne und sanftem elektrischem Hi-Lo-Hebesystem für eine stabile Behandlungsplattform.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "45–95,5 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "TiMOTION · Fußsteuerung · Gasfeder Kopf/Bein"
+   ],
+   [
+    "Sektionen",
+    "Kopfteil −55°/+45° · Bein 0°/+75° · Gesichtsaussparung"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Flammhemmendes PVC-Vinyl (BS 5852)"
+   ],
+   [
+    "Maße",
+    "195 × 60 × 50 cm"
+   ],
+   [
+    "Gewicht",
+    "94 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "brom-pro",
+  "model": "BROM PRO",
+  "ref": "EL03EPRO23SL.1.A66.GF",
+  "image_count": 3,
+  "description": "Dreiteilige Behandlungsliege der PRO-Serie mit elektrischer Höhenverstellung, Gesichtsausschnitt und gasfederverstellbarer Rücken- und Fußstütze.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "45–95,5 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "TiMOTION-Motor"
+   ],
+   [
+    "Sektionen",
+    "3"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Maße",
+    "186 × 70 × 54 cm"
+   ],
+   [
+    "Gewicht",
+    "82 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "brom",
+  "model": "BROM",
+  "ref": "EL03ESL.1.A66.WF",
+  "image_count": 3,
+  "description": "Dreiteilige Behandlungsliege mit elektrischer Höhenverstellung, Gesichtsausschnitt sowie gasfederverstellbarer Rücken- und Beinsektion.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "48–92 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "TiMOTION-Motor"
+   ],
+   [
+    "Sektionen",
+    "3"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder dunkelgrau)"
+   ],
+   [
+    "Maße",
+    "186 × 70 × 54 cm"
+   ],
+   [
+    "Gewicht",
+    "72 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "nott-pro",
+  "model": "NOTT PRO",
+  "ref": "EL05PRO23SL.2.A66.SH.GF",
+  "image_count": 3,
+  "description": "Fünfteilige Physiotherapieliege der PRO-Serie mit Frotteebezug, höhenverstellbaren Armlehnen und zwei Motoren für Höhe und Kyphose.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "45–95,5 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "2 Motoren (Höhe + Kyphose) · TiMOTION"
+   ],
+   [
+    "Sektionen",
+    "5 · Rückenlehne mit Gesichtsausschnitt"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Maße",
+    "193 × 70 × 51 cm"
+   ],
+   [
+    "Gewicht",
+    "98 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "nott",
+  "model": "NOTT",
+  "ref": "EL05SL.2.A66.SH.WF",
+  "image_count": 3,
+  "description": "Fünfteilige Physiotherapieliege mit Frotteebezug, höhenverstellbaren Armlehnen und zwei Motoren für Höhe und elektrische Kyphose.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "51–94 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "2 Motoren (Höhe + Kyphose) · TiMOTION"
+   ],
+   [
+    "Sektionen",
+    "5 · Rückenlehne mit Gesichtsausschnitt"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Maße",
+    "195 × 70 × 58 cm"
+   ],
+   [
+    "Gewicht",
+    "76 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "galley",
+  "model": "GALLEY",
+  "ref": "EL05ARSL.2.A66.SH.GF",
+  "image_count": 3,
+  "description": "Siebenteilige Physiotherapieliege mit zwei Motoren (Höhe und Kyphose), Kopfarmlehnen und klappbaren Mittelarmlehnen bis 90 cm Breite.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "51–94 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "2 Motoren (Höhe + Kyphose) · TiMOTION"
+   ],
+   [
+    "Sektionen",
+    "7"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Frotteebezug"
+   ],
+   [
+    "Maße",
+    "195 × 70 × 58 cm"
+   ],
+   [
+    "Gewicht",
+    "76 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
   "slug": "still",
   "model": "STILL",
   "ref": "EL52PRO23SL.2.A66.GF",
@@ -1004,6 +866,240 @@
    [
     "Zertifikate",
     "CE · FDA"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "pehr-pro",
+  "model": "PEHR PRO",
+  "ref": "EL11PRO23SL.1.A66.WF",
+  "image_count": 1,
+  "description": "Zweiteilige Physiotherapieliege mit neigbarer Kopfstütze, Gesichtskissen und darunterliegenden Armlehnen; konturiertes Hauptteil, umlaufender Fußschalter und serienmäßiger Papierrollenhalter.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "48–92 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "Elektrisch (TiMOTION) · umlaufender Fußschalter · Hubzeit 30 s"
+   ],
+   [
+    "Sektionen",
+    "2 · Kopfteil positiv/negativ verstellbar"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Rollen",
+    "einziehbar · 75 mm · Nivellierfüße"
+   ],
+   [
+    "Maße",
+    "197 × 70 cm (Liegefläche)"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "pehr",
+  "model": "PEHR",
+  "ref": "EL11SL.1.A66.WF",
+  "image_count": 3,
+  "description": "Zweiteilige Physiotherapieliege mit Frotteebezug, neigbarem Kopfteil, Gesichtskissen und darunterliegenden Armlehnen.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "48–92 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "Elektrisch (TiMOTION) · umlaufende Steuerung"
+   ],
+   [
+    "Sektionen",
+    "2 · Kopfteil +30°/−70°"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug (blau oder grau)"
+   ],
+   [
+    "Maße",
+    "193 × 75 × 54 cm"
+   ],
+   [
+    "Gewicht",
+    "62 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "bobath",
+  "model": "BOBATH",
+  "ref": "EL02W.1.A66.WF",
+  "image_count": 3,
+  "description": "Bobath-Liege mit zwei Sektionen und extra breiter 120-cm-Liegefläche für die neuromotorische Rehabilitation, mit drei Gesichtsausschnitten.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "49–93 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "TiMOTION-Motor"
+   ],
+   [
+    "Sektionen",
+    "2"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Frotteebezug"
+   ],
+   [
+    "Maße",
+    "194 × 124 × 53 cm"
+   ],
+   [
+    "Gewicht",
+    "101 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "batec",
+  "model": "BATEC",
+  "ref": "75.EL02C.2.A66.WF",
+  "image_count": 3,
+  "description": "Robuster zweiteiliger Kardiologietisch mit elektrischer Höhen- und Rückenlehnenverstellung, zwei Kardiologie-Aussparungen und Fußfernbedienung.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "58–102 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "TiMOTION-Motor"
+   ],
+   [
+    "Sektionen",
+    "2"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Hochbelastbares PVC-Vinyl, feuerfest"
+   ],
+   [
+    "Maße",
+    "199 × 75 × 61 cm"
+   ],
+   [
+    "Gewicht",
+    "65 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
+   ]
+  ]
+ },
+ {
+  "cat": "elektrisch",
+  "slug": "tilt",
+  "model": "TILT",
+  "ref": "EL12.2.A66.WF",
+  "image_count": 1,
+  "description": "Elektrischer Steh-/Kipptisch (Stehbrett) für die Neurorehabilitation mit zwei Motoren für Höhe und vertikale Kippung, Winkelanzeige, Hilfstablett und drei Sicherheitsgurten.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "57–104 cm (elektrisch, Hi-Lo)"
+   ],
+   [
+    "Traglast",
+    "250 kg"
+   ],
+   [
+    "Antrieb",
+    "Elektrisch (TiMOTION) · 2 Motoren (Höhe + Kippung) · Handschalter"
+   ],
+   [
+    "Kippung",
+    "bis 85° · mit Winkelanzeige"
+   ],
+   [
+    "Ausstattung",
+    "3 Sicherheitsgurte · Hilfstablett · Kopfstütze mit Gesichtsöffnung"
+   ],
+   [
+    "Polsterung",
+    "5 cm · Schaumdichte 36 kg/m³"
+   ],
+   [
+    "Bezug",
+    "Schwer entflammbarer Vinylbezug"
+   ],
+   [
+    "Rollen",
+    "einziehbar · 125 mm · Bodenbremse"
+   ],
+   [
+    "Maße",
+    "194 × 64 cm (Liegefläche)"
+   ],
+   [
+    "Zertifikate",
+    "CE · FDA · ISO 13485:2016"
    ]
   ]
  },
@@ -1139,44 +1235,6 @@
  },
  {
   "cat": "hydraulisch",
-  "slug": "nobu",
-  "model": "NOBU",
-  "ref": "CFMC03A.A66",
-  "image_count": 3,
-  "description": "Tragbarer, klappbarer Massagestuhl aus leichtem Aluminium mit mehrfach verstellbaren Stützen und Tragetasche für mobile Anwendungen.",
-  "specs": [
-   [
-    "Traglast",
-    "180 kg"
-   ],
-   [
-    "Verstellung",
-    "Kopfstütze, Rückenlehne, Sitz und Armlehnen verstellbar"
-   ],
-   [
-    "Polsterung",
-    "5 cm · PU-Polsterung"
-   ],
-   [
-    "Rahmen",
-    "Leichter Aluminiumrahmen, klappbar"
-   ],
-   [
-    "Maße",
-    "54 × 74 × 125 cm (aufgeklappt)"
-   ],
-   [
-    "Gewicht",
-    "10 kg"
-   ],
-   [
-    "Zertifikate",
-    "CE (93/42/EWG)"
-   ]
-  ]
- },
- {
-  "cat": "hydraulisch",
   "slug": "tenb-pro",
   "model": "TENB PRO",
   "ref": "EL022PRO29.A66.WF",
@@ -1287,6 +1345,174 @@
  },
  {
   "cat": "stuehle",
+  "slug": "disk-pro",
+  "model": "DISK PRO",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Professioneller Fahrdrehhocker mit rundem Polstersitz und höhenverstellbarem Fußring für erhöhte Arbeitspositionen; verchromtes Fünf-Fuß-Fahrgestell mit Rollen und Gaslift.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "52–72 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gaslift (Gasfeder)"
+   ],
+   [
+    "Sitz",
+    "Rund, gepolstert"
+   ],
+   [
+    "Sitzdurchmesser",
+    "35 cm"
+   ],
+   [
+    "Fußring",
+    "höhenverstellbar"
+   ],
+   [
+    "Polsterung",
+    "6 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz (Ø 56 cm)"
+   ],
+   [
+    "Bezug",
+    "PU"
+   ],
+   [
+    "Traglast",
+    "160 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
+  "slug": "ride",
+  "model": "RIDE",
+  "ref": "MA04.A10",
+  "image_count": 2,
+  "description": "Sattelhocker mit gasdruckgefederter Höhenverstellung, hochwertigem PU-Bezug und verchromtem Fünf-Rollen-Fußkreuz.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "49–65 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gasdruckfeder"
+   ],
+   [
+    "Sitzmaße",
+    "44 × 43 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz"
+   ],
+   [
+    "Bezug",
+    "PU"
+   ],
+   [
+    "Gewicht",
+    "4,5 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
+  "slug": "ride-pro",
+  "model": "RIDE PRO",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Ergonomischer Sattelstuhl mit verstellbarer Rückenlehne und geformtem Sattelsitz für aktives, aufrechtes Sitzen; verchromtes Sternfußgestell mit 5 Rollen und Gaslift-Höhenverstellung.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "47–63 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gaslift (Gasfeder)"
+   ],
+   [
+    "Rückenlehne",
+    "in Höhe und Winkel verstellbar"
+   ],
+   [
+    "Sitz",
+    "Sattelsitz aus geformtem Schaum"
+   ],
+   [
+    "Sitzdurchmesser",
+    "42 cm"
+   ],
+   [
+    "Polsterung",
+    "4 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz (Ø 58 cm)"
+   ],
+   [
+    "Traglast",
+    "160 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
+  "slug": "ride-fr",
+  "model": "RIDE FR",
+  "ref": "auf Anfrage",
+  "image_count": 1,
+  "description": "Ergonomischer Sattelhocker mit höhenverstellbarem Fußring für aktives Sitzen in erhöhter Position; verchromtes Sternfußgestell mit 5 Rollen, Gaslift und PU-Bezug.",
+  "specs": [
+   [
+    "Höhenbereich",
+    "51–71 cm"
+   ],
+   [
+    "Höhenverstellung",
+    "Gaslift (Gasfeder)"
+   ],
+   [
+    "Sitz",
+    "Ergonomischer Sattelsitz"
+   ],
+   [
+    "Sitzdurchmesser",
+    "35 cm"
+   ],
+   [
+    "Fußring",
+    "höhenverstellbar"
+   ],
+   [
+    "Polsterung",
+    "4 cm"
+   ],
+   [
+    "Rollen",
+    "5 · verchromtes Fußkreuz (Ø 48 cm)"
+   ],
+   [
+    "Bezug",
+    "PU"
+   ],
+   [
+    "Traglast",
+    "160 kg"
+   ]
+  ]
+ },
+ {
+  "cat": "stuehle",
   "slug": "core",
   "model": "CORE",
   "ref": "MA15AR.A66",
@@ -1354,40 +1580,6 @@
    [
     "Traglast",
     "160 kg"
-   ]
-  ]
- },
- {
-  "cat": "stuehle",
-  "slug": "ride",
-  "model": "RIDE",
-  "ref": "MA04.A10",
-  "image_count": 2,
-  "description": "Sattelhocker mit gasdruckgefederter Höhenverstellung, hochwertigem PU-Bezug und verchromtem Fünf-Rollen-Fußkreuz.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "49–65 cm"
-   ],
-   [
-    "Höhenverstellung",
-    "Gasdruckfeder"
-   ],
-   [
-    "Sitzmaße",
-    "44 × 43 cm"
-   ],
-   [
-    "Rollen",
-    "5 · verchromtes Fußkreuz"
-   ],
-   [
-    "Bezug",
-    "PU"
-   ],
-   [
-    "Gewicht",
-    "4,5 kg"
    ]
   ]
  },
@@ -1527,140 +1719,6 @@
  },
  {
   "cat": "stuehle",
-  "slug": "ride-pro",
-  "model": "RIDE PRO",
-  "ref": "auf Anfrage",
-  "image_count": 1,
-  "description": "Ergonomischer Sattelstuhl mit verstellbarer Rückenlehne und geformtem Sattelsitz für aktives, aufrechtes Sitzen; verchromtes Sternfußgestell mit 5 Rollen und Gaslift-Höhenverstellung.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "47–63 cm"
-   ],
-   [
-    "Höhenverstellung",
-    "Gaslift (Gasfeder)"
-   ],
-   [
-    "Rückenlehne",
-    "in Höhe und Winkel verstellbar"
-   ],
-   [
-    "Sitz",
-    "Sattelsitz aus geformtem Schaum"
-   ],
-   [
-    "Sitzdurchmesser",
-    "42 cm"
-   ],
-   [
-    "Polsterung",
-    "4 cm"
-   ],
-   [
-    "Rollen",
-    "5 · verchromtes Fußkreuz (Ø 58 cm)"
-   ],
-   [
-    "Traglast",
-    "160 kg"
-   ]
-  ]
- },
- {
-  "cat": "stuehle",
-  "slug": "ride-fr",
-  "model": "RIDE FR",
-  "ref": "auf Anfrage",
-  "image_count": 1,
-  "description": "Ergonomischer Sattelhocker mit höhenverstellbarem Fußring für aktives Sitzen in erhöhter Position; verchromtes Sternfußgestell mit 5 Rollen, Gaslift und PU-Bezug.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "51–71 cm"
-   ],
-   [
-    "Höhenverstellung",
-    "Gaslift (Gasfeder)"
-   ],
-   [
-    "Sitz",
-    "Ergonomischer Sattelsitz"
-   ],
-   [
-    "Sitzdurchmesser",
-    "35 cm"
-   ],
-   [
-    "Fußring",
-    "höhenverstellbar"
-   ],
-   [
-    "Polsterung",
-    "4 cm"
-   ],
-   [
-    "Rollen",
-    "5 · verchromtes Fußkreuz (Ø 48 cm)"
-   ],
-   [
-    "Bezug",
-    "PU"
-   ],
-   [
-    "Traglast",
-    "160 kg"
-   ]
-  ]
- },
- {
-  "cat": "stuehle",
-  "slug": "disk-pro",
-  "model": "DISK PRO",
-  "ref": "auf Anfrage",
-  "image_count": 1,
-  "description": "Professioneller Fahrdrehhocker mit rundem Polstersitz und höhenverstellbarem Fußring für erhöhte Arbeitspositionen; verchromtes Fünf-Fuß-Fahrgestell mit Rollen und Gaslift.",
-  "specs": [
-   [
-    "Höhenbereich",
-    "52–72 cm"
-   ],
-   [
-    "Höhenverstellung",
-    "Gaslift (Gasfeder)"
-   ],
-   [
-    "Sitz",
-    "Rund, gepolstert"
-   ],
-   [
-    "Sitzdurchmesser",
-    "35 cm"
-   ],
-   [
-    "Fußring",
-    "höhenverstellbar"
-   ],
-   [
-    "Polsterung",
-    "6 cm"
-   ],
-   [
-    "Rollen",
-    "5 · verchromtes Fußkreuz (Ø 56 cm)"
-   ],
-   [
-    "Bezug",
-    "PU"
-   ],
-   [
-    "Traglast",
-    "160 kg"
-   ]
-  ]
- },
- {
-  "cat": "stuehle",
   "slug": "podo",
   "model": "PODO",
   "ref": "auf Anfrage",
@@ -1706,11 +1764,49 @@
   ]
  },
  {
+  "cat": "stuehle",
+  "slug": "nobu",
+  "model": "NOBU",
+  "ref": "CFMC03A.A66",
+  "image_count": 3,
+  "description": "Tragbarer, klappbarer Massagestuhl aus leichtem Aluminium mit mehrfach verstellbaren Stützen und Tragetasche für mobile Anwendungen.",
+  "specs": [
+   [
+    "Traglast",
+    "180 kg"
+   ],
+   [
+    "Verstellung",
+    "Kopfstütze, Rückenlehne, Sitz und Armlehnen verstellbar"
+   ],
+   [
+    "Polsterung",
+    "5 cm · PU-Polsterung"
+   ],
+   [
+    "Rahmen",
+    "Leichter Aluminiumrahmen, klappbar"
+   ],
+   [
+    "Maße",
+    "54 × 74 × 125 cm (aufgeklappt)"
+   ],
+   [
+    "Gewicht",
+    "10 kg"
+   ],
+   [
+    "Zertifikate",
+    "CE (93/42/EWG)"
+   ]
+  ]
+ },
+ {
   "cat": "sichtschutz",
   "slug": "alu-screen-1518",
   "model": "ALU SCREEN 1518",
   "ref": "YZSC1518",
-  "image_count": 1,
+  "image_count": 2,
   "description": "Mobile medizinische Trennwand aus Aluminiumlegierung mit antibakteriellen Paneelen, korrosionsbeständig und leise rollend.",
   "specs": [
    [

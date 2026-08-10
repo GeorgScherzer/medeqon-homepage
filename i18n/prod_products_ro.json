@@ -573,5 +573,36 @@
       ["Husă", "PU rezistent (ușor de întreținut)"],
       ["Dimensiuni", "190 × 91 cm"]
     ]
+  },
+  "pehr-pro": {
+    "model": "PEHR PRO",
+    "description": "Masă de fizioterapie din două secțiuni cu tetieră înclinabilă, pernă facială și cotiere dedesubt; secțiune principală conturată, comutator de picior perimetral și suport pentru rola de hârtie în serie.",
+    "specs": [
+      ["Interval de înălțime", "48–92 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · comutator de picior perimetral · timp de ridicare 30 s"],
+      ["Secțiuni", "2 · tetieră reglabilă pozitiv/negativ"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă (albastru sau gri)"],
+      ["Roți", "retractabile · 75 mm · picioare de nivelare"],
+      ["Dimensiuni", "197 × 70 cm (suprafața mesei)"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "tilt": {
+    "model": "TILT",
+    "description": "Masă de verticalizare/înclinare electrică (planșă de verticalizare) pentru neuroreabilitare, cu două motoare pentru înălțime și înclinare verticală, indicator de unghi, tavă auxiliară și trei centuri de siguranță.",
+    "specs": [
+      ["Interval de înălțime", "57–104 cm (electric, Hi-Lo)"],
+      ["Capacitate portantă", "250 kg"],
+      ["Acționare", "Electric (TiMOTION) · 2 motoare (înălțime + înclinare) · comutator manual"],
+      ["Înclinare", "până la 85° · cu indicator de unghi"],
+      ["Dotare", "3 centuri de siguranță · tavă auxiliară · tetieră cu orificiu facial"],
+      ["Tapițerie", "5 cm · densitate spumă 36 kg/m³"],
+      ["Husă", "Husă din vinil greu inflamabilă"],
+      ["Roți", "retractabile · 125 mm · frână de podea"],
+      ["Dimensiuni", "194 × 64 cm (suprafața mesei)"],
+      ["Certificate", "CE · FDA · ISO 13485:2016"]
+    ]
   }
 }

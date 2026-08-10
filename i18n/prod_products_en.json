@@ -573,5 +573,36 @@
       ["Cover", "hard-wearing PU (easy-care)"],
       ["Dimensions", "190 × 91 cm"]
     ]
+  },
+  "pehr-pro": {
+    "model": "PEHR PRO",
+    "description": "Two-section physiotherapy couch with tilting head section, face cushion and armrests underneath; contoured main section, all-round foot switch and paper-roll holder as standard.",
+    "specs": [
+      ["Height range", "48–92 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · all-round foot switch · 30 s lift time"],
+      ["Sections", "2 · head section positive/negative adjustable"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover (blue or grey)"],
+      ["Castors", "retractable · 75 mm · levelling feet"],
+      ["Dimensions", "197 × 70 cm (couch surface)"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "tilt": {
+    "model": "TILT",
+    "description": "Electric tilt/standing table (tilt board) for neurorehabilitation with two motors for height and vertical tilt, angle indicator, auxiliary tray and three safety belts.",
+    "specs": [
+      ["Height range", "57–104 cm (electric, Hi-Lo)"],
+      ["Load capacity", "250 kg"],
+      ["Drive", "Electric (TiMOTION) · 2 motors (height + tilt) · hand switch"],
+      ["Tilt", "up to 85° · with angle indicator"],
+      ["Equipment", "3 safety belts · auxiliary tray · head section with face opening"],
+      ["Upholstery", "5 cm · foam density 36 kg/m³"],
+      ["Cover", "Flame-retardant vinyl cover"],
+      ["Castors", "retractable · 125 mm · floor brake"],
+      ["Dimensions", "194 × 64 cm (couch surface)"],
+      ["Certificates", "CE · FDA · ISO 13485:2016"]
+    ]
   }
 }

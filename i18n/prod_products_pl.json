@@ -573,5 +573,36 @@
       ["Pokrycie", "wytrzymały PU (łatwy w pielęgnacji)"],
       ["Wymiary", "190 × 91 cm"]
     ]
+  },
+  "pehr-pro": {
+    "model": "PEHR PRO",
+    "description": "Dwuczęściowa kozetka fizjoterapeutyczna z pochylanym zagłówkiem, poduszką na twarz i podłokietnikami umieszczonymi poniżej; profilowana część główna, obwodowy przełącznik nożny i uchwyt na rolkę papieru w standardzie.",
+    "specs": [
+      ["Zakres wysokości", "48–92 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · obwodowy przełącznik nożny · czas podnoszenia 30 s"],
+      ["Sekcje", "2 · zagłówek regulowany dodatnio/ujemnie"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe (niebieskie lub szare)"],
+      ["Kółka", "chowane · 75 mm · stopki poziomujące"],
+      ["Wymiary", "197 × 70 cm (powierzchnia leżyska)"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
+  },
+  "tilt": {
+    "model": "TILT",
+    "description": "Elektryczny stół pionizacyjny/uchylny (pionizator) do neurorehabilitacji z dwoma silnikami do regulacji wysokości i pionowego pochylenia, wskaźnikiem kąta, tacą pomocniczą i trzema pasami bezpieczeństwa.",
+    "specs": [
+      ["Zakres wysokości", "57–104 cm (elektryczny, Hi-Lo)"],
+      ["Nośność", "250 kg"],
+      ["Napęd", "Elektryczny (TiMOTION) · 2 silniki (wysokość + pochylenie) · przełącznik ręczny"],
+      ["Pochylenie", "do 85° · ze wskaźnikiem kąta"],
+      ["Wyposażenie", "3 pasy bezpieczeństwa · taca pomocnicza · zagłówek z otworem na twarz"],
+      ["Tapicerka", "5 cm · gęstość pianki 36 kg/m³"],
+      ["Pokrycie", "Trudnopalne pokrycie winylowe"],
+      ["Kółka", "chowane · 125 mm · hamulec podłogowy"],
+      ["Wymiary", "194 × 64 cm (powierzchnia leżyska)"],
+      ["Certyfikaty", "CE · FDA · ISO 13485:2016"]
+    ]
   }
 }
