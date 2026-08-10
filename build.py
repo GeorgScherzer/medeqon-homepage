@@ -1164,8 +1164,8 @@ _DL_LEAD = ("Hier stellen wir Ihnen Unterlagen zum Herunterladen bereit &ndash; 
             "Herstellerkataloge, technische Datenblätter, Produktinformationen sowie "
             "CE- und Konformitätszertifikate. Neue Dokumente ergänzen wir laufend.")
 
-_DL_LEAD_SS = ("Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum "
-               "Herunterladen bereit.")
+_DL_LEAD_SS = ("Hier finden Sie unsere Produktkataloge und Unterlagen zu unseren Produkten "
+               "des Strahlenschutzes. Neue Dokumente ergänzen wir laufend.")
 
 _DL_LEAD_HB = ("Herstellerkataloge, Datenblätter, Produktinformationen und Zertifikate "
                "zu unseren Heilbehelfen und Hilfsmitteln.")
@@ -1188,8 +1188,7 @@ _DL_NOTE_ANFRAGE_MED = ("Die Unterlagen zu unseren Produkten der Medizinischen E
                         "senden wir Ihnen gerne auf Anfrage zu.")
 
 _DL_LEAD_MED = ("Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu "
-                "unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben "
-                "Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.")
+                "unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.")
 
 _DL_LEAD_MED_REQUEST = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
                         "senden wir Ihnen gerne auf Anfrage zu.")
@@ -1272,6 +1271,40 @@ def _downloads_datasheets(num, cid, lead, cats, note=None, lang="de", catalog=No
 '      </details>')
     return "\n".join(parts)
 
+def _downloads_cat_cards(num, cid, lead, cats, note=None, lang="de"):
+    """Wie _downloads_datasheets (nummerierte Kategorien mit Unterüberschriften),
+    aber mit Katalog-/Karten-Einträgen (_dl_card) statt Datenblatt-Karten."""
+    parts = [
+'      <details class="m-ac" id="' + cid + '">\n'
+'        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">' + _puit(lang, "Downloads &amp; Unterlagen") + '</span>' + CHEV + '</summary>\n'
+'        <div class="m-ac-body">\n'
+'          <p class="m-ac-lead">' + _puit(lang, lead) + '</p>\n'
+'          <div class="m-dl-wrap">']
+    for cnum, ctitle, subs in cats:
+        parts.append(
+'            <div class="m-dl-cat">\n'
+'              <div class="m-dl-cat-head"><span class="m-dl-catnum">' + cnum + '</span>'
+'<span class="m-dl-cat-title">' + _html.escape(_puit(lang, ctitle)) + '</span></div>')
+        for subtitle, items in subs:
+            if subtitle:
+                parts.append('              <div class="m-dl-sub">' + _html.escape(_puit(lang, subtitle)) + '</div>')
+            parts.append(
+'              <div class="m-dl-grid">\n'
++ "\n".join(_dl_card(it, lang) for it in items) + '\n'
+'              </div>')
+        parts.append('            </div>')
+    if note:
+        parts.append(
+'            <div class="m-dl-note">\n'
+'              <p>' + _puit(lang, note) + '</p>\n'
+'              <a class="m-dl-note-btn" href="kontakt.html">' + _puit(lang, "Zur Kontaktseite") + '</a>\n'
+'            </div>')
+    parts.append(
+'          </div>\n'
+'        </div>\n'
+'      </details>')
+    return "\n".join(parts)
+
 DL_MED_CATS = [
     ("01", "Untersuchungsliegen", [
         ("Fix", ["FIX"]),
@@ -1301,20 +1334,42 @@ DL_MED_CATALOG = [
 _SSK = "assets/downloads/ss/"
 def _cat3(base):
     return [("DE", _SSK + base + "_DE.pdf"), ("EN", _SSK + base + "_EN.pdf"), ("PL", _SSK + base + "_PL.pdf")]
-DL_STRAHLENSCHUTZ = [
-    ("Herstellerkataloge", [
-        {"title": "Persönliche Schutzausrüstung", "meta": "ROTHBAND · PDF", "icon": "book",
-         "langs": _cat3("Katalog_PSA_ROTHBAND")},
-        {"title": "Schnittbildgebung", "meta": "ROTHBAND · PDF", "icon": "book",
-         "langs": _cat3("Katalog_Schnittbildgebung_ROTHBAND")},
-        {"title": "Strahlenschutzbrillen", "meta": "ROTHBAND · PDF", "icon": "book",
-         "langs": _cat3("Katalog_Strahlenschutzbrillen_ROTHBAND")},
-        {"title": "Zubehör", "meta": "ROTHBAND · PDF", "icon": "book",
-         "langs": _cat3("Katalog_Zubehoer_ROTHBAND")},
+# Strahlenschutz-Download: nummerierte Kategorien wie die Produktbereiche oben.
+# Struktur je Kategorie: (Nummer, Titel, [(Unterüberschrift|None, [Karten]), ...])
+DL_SS = [
+    ("01/02", "Persönliche Schutzausrüstung und Aufbewahrung", [
+        (None, [
+            {"title": "Persönliche Schutzausrüstung", "meta": "ROTHBAND · PDF", "icon": "book",
+             "langs": _cat3("Katalog_PSA_ROTHBAND")},
+            {"title": "Schnittbildgebung", "meta": "ROTHBAND · PDF", "icon": "book",
+             "langs": _cat3("Katalog_Schnittbildgebung_ROTHBAND")},
+            {"title": "Strahlenschutzbrillen", "meta": "ROTHBAND · PDF", "icon": "book",
+             "langs": _cat3("Katalog_Strahlenschutzbrillen_ROTHBAND")},
+            {"title": "Zubehör", "meta": "ROTHBAND · PDF", "icon": "book",
+             "langs": _cat3("Katalog_Zubehoer_ROTHBAND")},
+        ]),
+        ("Innenmaterial der persönlichen Schutzausrüstung", [
+            {"title": "OUTLAST®", "meta": "ROTHBAND · PDF", "icon": "doc",
+             "langs": _cat3("OUTLAST_Innenmaterial")},
+        ]),
     ]),
-    ("Innenmaterial", [
-        {"title": "OUTLAST®", "meta": "ROTHBAND · PDF", "icon": "doc",
-         "langs": _cat3("OUTLAST_Innenmaterial")},
+    ("03", "Mobiler Strahlenschutz", [
+        (None, [
+            {"title": "Produktkatalog", "meta": "KENEX · PDF", "icon": "book",
+             "langs": _cat3("Katalog_Mobiler_Strahlenschutz")},
+        ]),
+    ]),
+    ("04", "Deckenmontierter Strahlenschutz", [
+        (None, [
+            {"title": "Produktkatalog", "meta": "KENEX · PDF", "icon": "book",
+             "langs": _cat3("Katalog_Deckenmontierter_Strahlenschutz")},
+        ]),
+    ]),
+    ("05", "Tischmontierter Strahlenschutz", [
+        (None, [
+            {"title": "Produktkatalog", "meta": "KENEX · PDF", "icon": "book",
+             "langs": _cat3("Katalog_Tischmontierter_Strahlenschutz")},
+        ]),
     ]),
 ]
 
@@ -1560,7 +1615,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ) + '''
+''' + _downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS) + '''
     </div>
   </div>
 </section>
@@ -1912,8 +1967,11 @@ _PUI = {
   "Schnittbildgebung": "Cross-sectional imaging",
   "ROTHBAND · PDF": "ROTHBAND · PDF",
   "OUTLAST®": "OUTLAST®",
-  "Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum Herunterladen bereit.": "Here we provide manufacturer catalogues and product documents for download.",
-  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.": "Here you will find our product catalogue as well as the technical data sheets for our medical-furnishing products &ndash; organised by the same areas as in the catalogue. We add new data sheets on an ongoing basis.",
+  "Hier finden Sie unsere Produktkataloge und Unterlagen zu unseren Produkten des Strahlenschutzes. Neue Dokumente ergänzen wir laufend.": "Here you will find our product catalogues and documents for our radiation-protection products. We add new documents on an ongoing basis.",
+  "Persönliche Schutzausrüstung und Aufbewahrung": "Personal protective equipment and storage",
+  "Innenmaterial der persönlichen Schutzausrüstung": "Inner material of the personal protective equipment",
+  "KENEX · PDF": "KENEX · PDF",
+  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.": "Here you will find our product catalogue as well as the technical data sheets for our medical-furnishing products. We add new documents on an ongoing basis.",
   "Produktkatalog": "Product catalogue",
   "Produktkatalog – Medizinische Einrichtung": "Product catalogue – Medical furnishing",
   "Gesamtkatalog · PDF": "Full catalogue · PDF",
@@ -2036,8 +2094,11 @@ _PUI = {
   "Schnittbildgebung": "Obrazowanie przekrojowe",
   "ROTHBAND · PDF": "ROTHBAND · PDF",
   "OUTLAST®": "OUTLAST®",
-  "Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum Herunterladen bereit.": "Tutaj udostępniamy do pobrania katalogi producenta i dokumenty produktowe.",
-  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.": "Tutaj znajdą Państwo nasz katalog produktów oraz karty techniczne naszych produktów wyposażenia medycznego &ndash; uporządkowane według tych samych obszarów co w katalogu. Nowe karty dodajemy na bieżąco.",
+  "Hier finden Sie unsere Produktkataloge und Unterlagen zu unseren Produkten des Strahlenschutzes. Neue Dokumente ergänzen wir laufend.": "Tutaj znajdą Państwo nasze katalogi produktów oraz dokumenty dotyczące naszych produktów ochrony radiologicznej. Nowe dokumenty dodajemy na bieżąco.",
+  "Persönliche Schutzausrüstung und Aufbewahrung": "Środki ochrony osobistej i przechowywanie",
+  "Innenmaterial der persönlichen Schutzausrüstung": "Materiał wewnętrzny środków ochrony osobistej",
+  "KENEX · PDF": "KENEX · PDF",
+  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.": "Tutaj znajdą Państwo nasz katalog produktów oraz karty techniczne naszych produktów wyposażenia medycznego. Nowe dokumenty dodajemy na bieżąco.",
   "Produktkatalog": "Katalog produktów",
   "Produktkatalog – Medizinische Einrichtung": "Katalog produktów – Wyposażenie medyczne",
   "Gesamtkatalog · PDF": "Pełny katalog · PDF",
@@ -2160,8 +2221,11 @@ _PUI = {
   "Schnittbildgebung": "Imagistică secțională",
   "ROTHBAND · PDF": "ROTHBAND · PDF",
   "OUTLAST®": "OUTLAST®",
-  "Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum Herunterladen bereit.": "Aici vă punem la dispoziție pentru descărcare cataloagele producătorului și documentele de produs.",
-  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.": "Aici găsiți catalogul nostru de produse, precum și fișele tehnice ale produselor noastre de mobilier medical &ndash; organizate pe aceleași categorii ca în catalog. Adăugăm continuu fișe noi.",
+  "Hier finden Sie unsere Produktkataloge und Unterlagen zu unseren Produkten des Strahlenschutzes. Neue Dokumente ergänzen wir laufend.": "Aici găsiți cataloagele noastre de produse și documentele pentru produsele noastre de protecție radiologică. Adăugăm continuu documente noi.",
+  "Persönliche Schutzausrüstung und Aufbewahrung": "Echipament individual de protecție și depozitare",
+  "Innenmaterial der persönlichen Schutzausrüstung": "Material interior al echipamentului individual de protecție",
+  "KENEX · PDF": "KENEX · PDF",
+  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.": "Aici găsiți catalogul nostru de produse, precum și fișele tehnice ale produselor noastre de mobilier medical. Adăugăm continuu documente noi.",
   "Produktkatalog": "Catalog de produse",
   "Produktkatalog – Medizinische Einrichtung": "Catalog de produse – Mobilier medical",
   "Gesamtkatalog · PDF": "Catalog complet · PDF",
@@ -2300,8 +2364,8 @@ def _body_produkte(lang):
     swaps.append((_hb_cards("oxygen"), _hb_cards("oxygen", lang=lang)))
     swaps.append((_optionen_html(), _optionen_html(lang)))
     swaps.append((_farben_html(), _farben_html(lang)))
-    swaps.append((_downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ),
-                  _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ, lang=lang)))
+    swaps.append((_downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS),
+                  _downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS, lang=lang)))
     swaps.append((_downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
                   _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
     swaps.append((_downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB),
