@@ -1187,9 +1187,9 @@ _DL_NOTE_ANFRAGE_HB = ("Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln 
 _DL_NOTE_ANFRAGE_MED = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
                         "senden wir Ihnen gerne auf Anfrage zu.")
 
-_DL_LEAD_MED = ("Hier finden Sie die technischen Datenblätter zu unseren Produkten der "
-                "Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im "
-                "Produktkatalog. Neue Datenblätter ergänzen wir laufend.")
+_DL_LEAD_MED = ("Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu "
+                "unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben "
+                "Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.")
 
 _DL_LEAD_MED_REQUEST = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
                         "senden wir Ihnen gerne auf Anfrage zu.")
@@ -1202,17 +1202,24 @@ _DL_NOTE_MED_REQUEST = ("Kontaktieren Sie uns &ndash; wir übermitteln Ihnen Dat
 _MODEL2PROD = {p["model"]: p for p in _products}
 
 _DS_WORD = {"de": "Datenblatt", "en": "Data sheet", "pl": "Karta techniczna", "ro": "Fișă tehnică"}
+_DS_NO_PL = {"SIDO"}  # Modelle mit altem Hersteller-Datenblatt (nur DE/EN, noch kein PL)
 def _ds_card(model, lang="de"):
     p = _MODEL2PROD.get(model, {})
     title = _html.escape(model)
     ref = p.get("ref", "")
     dw = _DS_WORD.get(lang, "Datenblatt")
-    meta = ("Ref. " + ref + " · " + dw + " · DE / EN") if ref else (dw + " · DE / EN")
-    meta = _html.escape(meta)
     mn = model.replace(" ", "_")
-    de = "assets/downloads/med/Datenblatt_" + mn + ".pdf"
-    en = "assets/downloads/med/DataSheet_" + mn + ".pdf"
+    langbtns = [("DE", "Datenblatt_", "Deutsch", "Datenblatt"),
+                ("EN", "DataSheet_", "English", "Data sheet")]
+    if model not in _DS_NO_PL:
+        langbtns.append(("PL", "KartaTechniczna_", "Polski", "Karta techniczna"))
+    codes = " / ".join(lb for lb, _p, _n, _w in langbtns)
+    meta = ("Ref. " + ref + " · " + dw + " · " + codes) if ref else (dw + " · " + codes)
+    meta = _html.escape(meta)
     icon = _DL_ICONS["doc"]
+    btns = "\n".join(
+        f'                          <a class="m-dl-lang" href="assets/downloads/med/{pre}{mn}.pdf" download aria-label="{word} {title} ({lname}) herunterladen"><span class="m-dl-lc">{lb}</span>{_DL_DOWNLOAD}</a>'
+        for (lb, pre, lname, word) in langbtns)
     return (
 '                      <figure class="m-dl-card">\n'
 f'                        <span class="m-dl-ic">{icon}</span>\n'
@@ -1221,18 +1228,25 @@ f'                          <span class="m-dl-title">{title}</span>\n'
 f'                          <span class="m-dl-meta">{meta}</span>\n'
 '                        </span>\n'
 '                        <span class="m-dl-langs">\n'
-f'                          <a class="m-dl-lang" href="{de}" download aria-label="Datenblatt {title} (Deutsch) herunterladen"><span class="m-dl-lc">DE</span>{_DL_DOWNLOAD}</a>\n'
-f'                          <a class="m-dl-lang" href="{en}" download aria-label="Data sheet {title} (English) herunterladen"><span class="m-dl-lc">EN</span>{_DL_DOWNLOAD}</a>\n'
++ btns + '\n'
 '                        </span>\n'
 '                      </figure>')
 
-def _downloads_datasheets(num, cid, lead, cats, note=None, lang="de"):
+def _downloads_datasheets(num, cid, lead, cats, note=None, lang="de", catalog=None):
     parts = [
 '      <details class="m-ac" id="' + cid + '">\n'
 '        <summary><span class="m-ac-num">' + num + '</span><span class="m-ac-title">' + _puit(lang, "Downloads &amp; Unterlagen") + '</span>' + CHEV + '</summary>\n'
 '        <div class="m-ac-body">\n'
 '          <p class="m-ac-lead">' + _puit(lang, lead) + '</p>\n'
 '          <div class="m-dl-wrap">']
+    if catalog:
+        parts.append(
+'            <div class="m-dl-group">\n'
+'              <div class="m-dl-grouptitle">' + _html.escape(_puit(lang, "Produktkatalog")) + '</div>\n'
+'              <div class="m-dl-grid">\n'
++ "\n".join(_dl_card(it, lang) for it in catalog) + '\n'
+'              </div>\n'
+'            </div>')
     for cnum, ctitle, subs in cats:
         parts.append(
 '            <div class="m-dl-cat">\n'
@@ -1264,16 +1278,24 @@ DL_MED_CATS = [
         ("Hydraulisch", ["KEND PRO", "LING PRO", "MAIT PRO", "TENB PRO"]),
         ("Elektrisch", ["ENID PRO", "ENID", "GUTH PRO", "GUTH", "ROTH", "RILA PRO",
                         "RILA", "JULL PRO", "BROM PRO", "BROM", "NOTT PRO", "NOTT",
-                        "GALLEY", "STILL", "PEHR", "BOBATH", "BATEC"]),
+                        "GALLEY", "STILL", "PEHR PRO", "PEHR", "BOBATH", "BATEC", "TILT"]),
         ("Chiropraktisch", ["ALMA PRO", "APPA", "SCALL PRO", "SIDO", "SIDO PRO"]),
     ]),
     ("02", "Medizinische Stühle", [
-        (None, ["DISK", "CORE", "SUPP", "RIDE", "XTRACT", "ENT", "OB",
-                "RIDE PRO", "RIDE FR", "DISK PRO", "PODO", "NOBU"]),
+        (None, ["DISK", "DISK PRO", "RIDE", "RIDE PRO", "RIDE FR", "CORE", "SUPP",
+                "XTRACT", "ENT", "OB", "PODO", "NOBU"]),
     ]),
     ("03", "Sichtschutz", [
         (None, ["ALU SCREEN 1518"]),
     ]),
+]
+
+# --- Produktkatalog Medizinische Einrichtung (DE/EN/PL) für den Download-Bereich ---
+DL_MED_CATALOG = [
+    {"title": "Produktkatalog – Medizinische Einrichtung", "meta": "Gesamtkatalog · PDF", "icon": "book",
+     "langs": [("DE", "assets/downloads/med/Katalog_Medizinische_Einrichtung_DE.pdf"),
+               ("EN", "assets/downloads/med/Catalogue_Medical_Furnishing_EN.pdf"),
+               ("PL", "assets/downloads/med/Katalog_Wyposazenie_medyczne_PL.pdf")]},
 ]
 
 _SSK = "assets/downloads/ss/"
@@ -1627,7 +1649,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS) + '''
+''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
     </div>
   </div>
 </section>
@@ -1891,7 +1913,10 @@ _PUI = {
   "ROTHBAND · PDF": "ROTHBAND · PDF",
   "OUTLAST®": "OUTLAST®",
   "Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum Herunterladen bereit.": "Here we provide manufacturer catalogues and product documents for download.",
-  "Hier finden Sie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Produktkatalog. Neue Datenblätter ergänzen wir laufend.": "Here you will find the technical data sheets for our medical-furnishing products &ndash; organised by the same areas as in the product catalogue. We add new data sheets on an ongoing basis.",
+  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.": "Here you will find our product catalogue as well as the technical data sheets for our medical-furnishing products &ndash; organised by the same areas as in the catalogue. We add new data sheets on an ongoing basis.",
+  "Produktkatalog": "Product catalogue",
+  "Produktkatalog – Medizinische Einrichtung": "Product catalogue – Medical furnishing",
+  "Gesamtkatalog · PDF": "Full catalogue · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our radiation-protection products on request.",
   "Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our medical-furnishing products on request.",
   "Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our medical aids and assistive devices on request.",
@@ -2012,7 +2037,10 @@ _PUI = {
   "ROTHBAND · PDF": "ROTHBAND · PDF",
   "OUTLAST®": "OUTLAST®",
   "Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum Herunterladen bereit.": "Tutaj udostępniamy do pobrania katalogi producenta i dokumenty produktowe.",
-  "Hier finden Sie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Produktkatalog. Neue Datenblätter ergänzen wir laufend.": "Tutaj znajdą Państwo karty techniczne naszych produktów wyposażenia medycznego &ndash; uporządkowane według tych samych obszarów co w katalogu produktów. Nowe karty dodajemy na bieżąco.",
+  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.": "Tutaj znajdą Państwo nasz katalog produktów oraz karty techniczne naszych produktów wyposażenia medycznego &ndash; uporządkowane według tych samych obszarów co w katalogu. Nowe karty dodajemy na bieżąco.",
+  "Produktkatalog": "Katalog produktów",
+  "Produktkatalog – Medizinische Einrichtung": "Katalog produktów – Wyposażenie medyczne",
+  "Gesamtkatalog · PDF": "Pełny katalog · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych produktów ochrony radiologicznej chętnie prześlemy na życzenie.",
   "Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych produktów wyposażenia medycznego chętnie prześlemy na życzenie.",
   "Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych środków pomocniczych i wyrobów wspomagających chętnie prześlemy na życzenie.",
@@ -2133,7 +2161,10 @@ _PUI = {
   "ROTHBAND · PDF": "ROTHBAND · PDF",
   "OUTLAST®": "OUTLAST®",
   "Hier stellen wir Ihnen Herstellerkataloge und Produktunterlagen zum Herunterladen bereit.": "Aici vă punem la dispoziție pentru descărcare cataloagele producătorului și documentele de produs.",
-  "Hier finden Sie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Produktkatalog. Neue Datenblätter ergänzen wir laufend.": "Aici găsiți fișele tehnice ale produselor noastre de mobilier medical &ndash; organizate pe aceleași categorii ca în catalogul de produse. Adăugăm continuu fișe noi.",
+  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung &ndash; geordnet nach denselben Bereichen wie im Katalog. Neue Datenblätter ergänzen wir laufend.": "Aici găsiți catalogul nostru de produse, precum și fișele tehnice ale produselor noastre de mobilier medical &ndash; organizate pe aceleași categorii ca în catalog. Adăugăm continuu fișe noi.",
+  "Produktkatalog": "Catalog de produse",
+  "Produktkatalog – Medizinische Einrichtung": "Catalog de produse – Mobilier medical",
+  "Gesamtkatalog · PDF": "Catalog complet · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru produsele noastre de protecție radiologică.",
   "Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru produsele noastre de mobilier medical.",
   "Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru mijloacele noastre ajutătoare și dispozitivele de asistență.",
@@ -2271,8 +2302,8 @@ def _body_produkte(lang):
     swaps.append((_farben_html(), _farben_html(lang)))
     swaps.append((_downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ),
                   _downloads_category("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_STRAHLENSCHUTZ, lang=lang)))
-    swaps.append((_downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS),
-                  _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, lang=lang)))
+    swaps.append((_downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
+                  _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
     swaps.append((_downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB),
                   _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB, lang=lang)))
     for de_block, tr_block in swaps:
