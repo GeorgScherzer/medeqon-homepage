@@ -3014,5 +3014,521 @@
         "2000 mm (opcja 2500 mm)"
       ]
     ]
+  },
+  "tr-wt": {
+    "model": "Wózek transportowy WT",
+    "description": "Zamknięty wózek szafkowy do transportu, na dużych kółkach Ø 200 mm – do przewożenia materiałów na dłuższych trasach wewnątrz budynku.",
+    "specs": [
+      [
+        "Wykonanie",
+        "Stal nierdzewna 0H18N9 lub stal malowana proszkowo"
+      ],
+      [
+        "Korpus",
+        "Zamknięty, z drzwiami i półkami"
+      ],
+      [
+        "Kółka",
+        "Ø 200 mm z odbojnikami, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "800 × 600 mm, wysokość 900 mm"
+      ]
+    ]
+  },
+  "tr-wpp": {
+    "model": "Wózek do przewozu posiłków WPP",
+    "description": "Wózek kelnerski i do przewozu posiłków w całości ze stali nierdzewnej – blat w formie jednej lub dwóch wyjmowanych tac, opcjonalnie z półką boczną.",
+    "specs": [
+      [
+        "Wersje",
+        "WPP-01 1015 × 600 × 900 mm · WPP-01/P z półką boczną 510 × 335 mm · WPP-02/G 1290 × 680 × 900 mm"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Tace",
+        "Jedna lub dwie wyjmowane tace"
+      ],
+      [
+        "Kółka",
+        "Ø 125 mm, 2 z blokadą"
+      ],
+      [
+        "Opcje",
+        "Rama ze stali malowanej proszkowo na biało; wersja z kołem napędowym wspomagającym prowadzenie"
+      ]
+    ]
+  },
+  "tr-wmw": {
+    "model": "Wózek wielofunkcyjny WMW",
+    "description": "Wózek oddziałowy w konstrukcji meblowej: rama z profili aluminiowych ze złączami ABS i wypełnieniami laminowanymi dwustronnie – jako szafka, z szufladami lub w kombinacji.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy ze złączami ABS, anodowany lub malowany proszkowo w kolorach RAL"
+      ],
+      [
+        "Wypełnienia",
+        "Płyta MDF laminowana dwustronnie"
+      ],
+      [
+        "Podstawa",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm z odbojnikami, 2 z blokadą"
+      ],
+      [
+        "Wersje",
+        "WMW-1110 i WMW-1110/ABS 640 × 540 × 960 · WMW-1210 640 × 540 × 1030 · WMW-1230 640 × 540 × 1100 · WMW-1450 i WMW-1450/ABS 640 × 540 × 1160 · WMW-2110 845 × 545 × 960 mm"
+      ]
+    ]
+  },
+  "tr-wk": {
+    "model": "Wózek koszowy WK",
+    "description": "Wózek koszowy z ramą z rur niklowo-chromowych i zawieszanymi koszami drucianymi – półki na prowadnicach wysuwanych, do połączenia z uchwytem worka na odpady.",
+    "specs": [
+      [
+        "Rama",
+        "Rury stalowe niklowo-chromowe"
+      ],
+      [
+        "Półki",
+        "Półki koszowe ze stali malowanej proszkowo, opcjonalnie na prowadnicach wysuwanych"
+      ],
+      [
+        "Utylizacja",
+        "Uchwyt worka z pokrywą z tworzywa"
+      ],
+      [
+        "Kółka",
+        "Ø 80 mm, 2 z blokadą"
+      ],
+      [
+        "Wersje",
+        "WK-01/A 410 × 420 × 800 (z uchwytem długość 540 mm) · WK-02/A, B, C 730 × 420 × 800 (z uchwytem 860) · WK-03 780 × 420 × 800 mm (z uchwytem 910)"
+      ],
+      [
+        "Opcja",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ]
+    ]
+  },
+  "tr-wks": {
+    "model": "Wózek koszowy WKS",
+    "description": "Modułowy system wózków koszowych ze stali nierdzewnej: jedna rama nośna, którą dowolnie wyposażasz w kosze, półki i uchwyt worka – pokrywa podnoszona ręcznie.",
+    "specs": [
+      [
+        "Wersje",
+        "WKS-1 575 × 750 × 950 – 1250 mm · WKS-2 575 × 750 × 950 mm · WKS-3 700 × 300 × 900 mm"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Wyposażenie",
+        "Kosze druciane, półki i uchwyt worka na odpady, dowolnie łączone"
+      ],
+      [
+        "Pokrywa",
+        "Tworzywo, podnoszona ręcznie"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm, 2 z blokadą"
+      ]
+    ]
+  },
+  "tr-wz": {
+    "model": "Wózek na bieliznę i odpady WZ",
+    "description": "Stelaż na worki w całości ze stali nierdzewnej, na bieliznę i odpady – pojedynczy, podwójny lub potrójny, pokrywa podnoszona ręcznie lub pedałem, klipsy zabezpieczają worek przed zsunięciem.",
+    "specs": [
+      [
+        "Wersje",
+        "WZ-1KO bez pokrywy · WZ-2KO pojedynczy · WZ2-2KO podwójny · WZ3-2KO potrójny"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Pokrywa",
+        "Ręcznie lub pedałem nożnym, w kilku kolorach"
+      ],
+      [
+        "Obręcz na worek",
+        "Obręcz z klipsami zabezpieczającymi przed zsunięciem"
+      ],
+      [
+        "Kółka",
+        "Ø 50 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary 60 – 80 l",
+        "Pojedynczy 390 × 440 × 680 · podwójny 790 × 440 × 680 · potrójny 1190 × 440 × 680 mm"
+      ],
+      [
+        "Wymiary 100 – 120 l",
+        "Pojedynczy 445 × 495 × 850 · podwójny 900 × 495 × 850 · potrójny 1355 × 495 × 860 mm"
+      ],
+      [
+        "Opcja",
+        "Powłoka silikonowa na obręczy zamiast klipsów; wersja 40 l 315 × 385 × 520 mm"
+      ]
+    ]
+  },
+  "tr-wzs": {
+    "model": "Składany wózek na bieliznę WZs-01",
+    "description": "Stelaż na worki ze składaną ramą nożycową na worki 100 l – składa się na płasko i zajmuje niewiele miejsca.",
+    "specs": [
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Stelaż",
+        "Składany, na worki na bieliznę o pojemności 100 l"
+      ],
+      [
+        "Pokrywa",
+        "Podnoszona ręcznie"
+      ],
+      [
+        "Obręcz na worek",
+        "Obręcz z klipsami zabezpieczającymi przed zsunięciem"
+      ],
+      [
+        "Kółka",
+        "Ø 50 mm, 2 z blokadą"
+      ],
+      [
+        "Opcja",
+        "W całości ze stali malowanej proszkowo"
+      ]
+    ]
+  },
+  "tr-mb": {
+    "model": "Wózek na bieliznę i odpady MB",
+    "description": "Stelaż na worki z ramą ze stali nierdzewnej, pokrywą z ABS i podstawą osłoniętą ABS – pojedynczy, podwójny lub potrójny, pokrywy opcjonalnie z oznaczeniem do segregacji.",
+    "specs": [
+      [
+        "Wersje",
+        "MB-02 pojedynczy · MB2-02 podwójny · MB3-02 potrójny · MB-03 z półką koszową i uchwytem"
+      ],
+      [
+        "Rama i obręcz",
+        "Stal nierdzewna 0H18N9"
+      ],
+      [
+        "Pokrywa",
+        "Tworzywo ABS w kolorze białym lub szarym, ręcznie lub pedałem"
+      ],
+      [
+        "Podstawa",
+        "Stal osłonięta ABS"
+      ],
+      [
+        "Kółka",
+        "Ø 50 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary MB-02",
+        "60 – 80 l 395 × 495 × 695 · 100 – 120 l 395 × 495 × 875 mm"
+      ],
+      [
+        "Wymiary MB2-02 / MB3-02",
+        "Podwójny 815 × 495 × 695 lub 875 · potrójny 1225 × 495 × 695 lub 875 mm"
+      ],
+      [
+        "Wymiary MB-03",
+        "100 – 120 l 880 × 405 × 860 mm"
+      ],
+      [
+        "Opcje",
+        "Powłoka silikonowa na obręczy, pokrywy z oznaczeniem do segregacji odpadów"
+      ]
+    ]
+  },
+  "tr-wcb": {
+    "model": "Wózek na bieliznę i odpady WCB",
+    "description": "Wózek utylizacyjny w konstrukcji meblowej: rama z profili aluminiowych ze złączami ABS i wypełnieniami laminowanymi – część szafkowa i stelaże na worki dowolnie łączone.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy ze złączami ABS, anodowany lub malowany proszkowo w kolorach RAL"
+      ],
+      [
+        "Wypełnienia",
+        "Płyta MDF laminowana dwustronnie"
+      ],
+      [
+        "Pokrywa",
+        "Tworzywo ABS, podnoszona ręcznie"
+      ],
+      [
+        "Obręcz na worek",
+        "Obręcz ze stali nierdzewnej z klipsami; opcjonalnie powłoka silikonowa"
+      ],
+      [
+        "Podstawa",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm z odbojnikami, 2 z blokadą"
+      ],
+      [
+        "Wersje",
+        "WCB-1111, -1121, -1221, -1411 1050 × 580 × 1080 · WCB-2123 i WCB-2133 1100 × 580 × 1080 · WCB-2200 900 × 580 × 1080 · WCB-2223 1450 × 580 × 1080 mm"
+      ]
+    ]
+  },
+  "tr-wzb": {
+    "model": "Wózek na bieliznę i odpady WZB",
+    "description": "Wózek utylizacyjny w całości ze stali nierdzewnej, z zamkniętą częścią szafkową i półką – najwyższy poziom higieny.",
+    "specs": [
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Pokrywa",
+        "Podnoszona ręcznie"
+      ],
+      [
+        "Obręcz na worek",
+        "Obręcz z klipsami; opcjonalnie powłoka silikonowa"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm z odbojnikami, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "1050 × 580 mm, wysokość 1080 mm (z odbojnikami)"
+      ],
+      [
+        "Wymiary szafki",
+        "540 × 520 mm, wysokość 910 mm"
+      ],
+      [
+        "Wymiary półki",
+        "500 × 480 mm"
+      ]
+    ]
+  },
+  "tr-smo": {
+    "model": "Stojak na miski na odpady SMO",
+    "description": "Mobilny stojak na miski na odpady w całości ze stali nierdzewnej, na podstawie pięcioramiennej – z jedną lub dwiema miskami, jako obręcz na worek 30 l albo z wiadrem 10 l.",
+    "specs": [
+      [
+        "Wersje",
+        "SMO-01 jedna miska · SMO-02 dwie miski · SMO-03 obręcz z miską 30 l · SMO-04 i SMO-05 z wiadrem 10 l, SMO-05 z uchwytem"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Miski",
+        "Stal nierdzewna, 3 – 5 l"
+      ],
+      [
+        "Podstawa",
+        "Podstawa pięcioramienna z kółkami Ø 50 mm"
+      ],
+      [
+        "Wymiary SMO-01 / -02",
+        "Podstawa Ø 600 mm, wysokość 840 mm"
+      ],
+      [
+        "Wymiary SMO-03",
+        "Podstawa Ø 600 mm, wysokość 310 mm, miska 30 l"
+      ],
+      [
+        "Wymiary SMO-04 / -05",
+        "Podstawa Ø 480 mm, wiadro 10 l, wysokość wiadra 250 mm"
+      ]
+    ]
+  },
+  "tr-pak": {
+    "model": "Stół pakowy PAK",
+    "description": "Stół pakowy do sterylizatorni w całości ze stali nierdzewnej – wymiary i nadstawki dopasowywane do stanowiska pracy.",
+    "specs": [
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Blat roboczy",
+        "Długość 800 / 1000 / 1200 / 1400 mm, szerokość 500 lub 700 mm"
+      ],
+      [
+        "Wysokość robocza",
+        "800 mm"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Kosze sterylizacyjne KS-1, KS-2, KS-3; nadstawka na 4, 5 lub 6 pojemników uchylnych; półka nad blatem; uchwyt worka na odpady"
+      ],
+      [
+        "Opcje",
+        "Wersja mobilna z kółkami Ø 125 mm; blat z podniesioną krawędzią z trzech stron"
+      ],
+      [
+        "Uwaga",
+        "Wymiary i wyposażenie konfigurowane indywidualnie"
+      ]
+    ]
+  },
+  "tr-rks2": {
+    "model": "Regały szynowe i wolnostojące RKS-2 / RKS-3 / RKS-4",
+    "description": "System regałowy ze stali nierdzewnej jako szyna ścienna lub konstrukcja wolnostojąca – kosze i półki zawiesza się według potrzeb.",
+    "specs": [
+      [
+        "Wersje",
+        "RKS-2 szyna ścienna · RKS-3 konstrukcja wolnostojąca 550 × 450 × 1800 mm · RKS-4 konstrukcja wolnostojąca 550 × 750 × 1800 mm"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Wyposażenie",
+        "Kosze i półki do zawieszenia, na dowolnej wysokości"
+      ]
+    ]
+  },
+  "tr-rks5": {
+    "model": "Regały jezdne RKS-5 / RKS-6 / RKS-7",
+    "description": "Jezdny system regałowy ze stali nierdzewnej na kółkach Ø 125 mm – wyposażany w kosze i półki z jednej lub z obu stron.",
+    "specs": [
+      [
+        "Wersje",
+        "RKS-5 550 × 450 × 1900 mm · RKS-6 550 × 750 × 1900 mm · RKS-7 550 × 750 × 1900 mm, dwustronny"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Wyposażenie",
+        "Kosze i półki do zawieszenia"
+      ],
+      [
+        "Kółka",
+        "Ø 125 mm, 2 z blokadą"
+      ]
+    ]
+  },
+  "tr-rk": {
+    "model": "Regały RK",
+    "description": "Regał z ramą z rur niklowo-chromowych i wysuwanymi koszami drucianymi – blat jako zamontowana na stałe taca ze stali nierdzewnej, ze stopkami poziomującymi.",
+    "specs": [
+      [
+        "Rama",
+        "Rury stalowe niklowo-chromowe ze stopkami poziomującymi"
+      ],
+      [
+        "Półki koszowe",
+        "Stal niklowo-chromowa, opcjonalnie na prowadnicach wysuwanych"
+      ],
+      [
+        "Blat roboczy",
+        "Stal nierdzewna 0H18N9, montowany na stałe"
+      ],
+      [
+        "Kuweta",
+        "Tworzywo"
+      ],
+      [
+        "Opcja",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ]
+    ]
+  },
+  "tr-rm": {
+    "model": "Regał magazynowy RM",
+    "description": "Regał magazynowy w całości ze stali nierdzewnej z czterema lub pięcioma półkami – stopki poziomujące do wyrównania na nierównym podłożu.",
+    "specs": [
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Półki",
+        "4 lub 5 półek, pełne lub perforowane"
+      ],
+      [
+        "Nogi",
+        "Stopki poziomujące"
+      ],
+      [
+        "Wymiary",
+        "Długość 800 / 1000 / 1200 mm, szerokość 400 lub 500 mm, wysokość 1800 mm"
+      ]
+    ]
+  },
+  "tr-sl": {
+    "model": "Stelaże na baseny i kaczki SL / WS",
+    "description": "System uchwytów i suszarek na baseny i kaczki w całości ze stali nierdzewnej – jako szyna nośna do ściany i wózka albo jako regał wolnostojący.",
+    "specs": [
+      [
+        "Wersje",
+        "SL szyna nośna do montażu na ścianie lub wózku · WS regał wolnostojący 600 / 800 / 1000 × 400 × 1800 mm"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Szyna nośna",
+        "Z hakami do mocowania suszarek"
+      ],
+      [
+        "Suszarki",
+        "Na baseny, pokrywy i kaczki, dowolnie łączone"
+      ],
+      [
+        "Taca ociekowa",
+        "Tworzywo; opcjonalnie stal nierdzewna 0H18N9"
+      ],
+      [
+        "Wymiary SL",
+        "Długość 540 / 740 / 840 mm, wysokość 600 – 2000 mm zależnie od wyposażenia"
+      ],
+      [
+        "Opcja",
+        "WS z kółkami Ø 100 mm; półki proste lub skośne"
+      ]
+    ]
+  },
+  "tr-rob": {
+    "model": "Regał na obuwie ROB",
+    "description": "Ścienny regał na obuwie w całości ze stali nierdzewnej – uchwyty w rozstawie 80 mm, jedno- lub wielorzędowy.",
+    "specs": [
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Montaż",
+        "Montaż ścienny"
+      ],
+      [
+        "Rozstaw uchwytów",
+        "80 mm"
+      ],
+      [
+        "Wersje",
+        "Jedno- lub wielorzędowy, długość według potrzeb"
+      ]
+    ]
   }
 }

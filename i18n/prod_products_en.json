@@ -3014,5 +3014,521 @@
         "2000 mm (option 2500 mm)"
       ]
     ]
+  },
+  "tr-wt": {
+    "model": "WT transport trolley",
+    "description": "Enclosed transport cabinet trolley with large Ø 200 mm castors – for moving materials over longer distances within the building.",
+    "specs": [
+      [
+        "Design",
+        "Stainless steel 0H18N9 or powder-coated steel"
+      ],
+      [
+        "Body",
+        "Enclosed, with doors and shelves"
+      ],
+      [
+        "Castors",
+        "Ø 200 mm with buffers, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "800 × 600 mm, height 900 mm"
+      ]
+    ]
+  },
+  "tr-wpp": {
+    "model": "WPP food transport trolley",
+    "description": "Serving and food transport trolley entirely of stainless steel – working surface as one or two removable trays, optionally with a side shelf.",
+    "specs": [
+      [
+        "Versions",
+        "WPP-01 1015 × 600 × 900 mm · WPP-01/P with side shelf 510 × 335 mm · WPP-02/G 1290 × 680 × 900 mm"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Trays",
+        "One or two removable trays"
+      ],
+      [
+        "Castors",
+        "Ø 125 mm, 2 lockable"
+      ],
+      [
+        "Options",
+        "Frame in white powder-coated steel; version with a self-propelled wheel to assist pushing"
+      ]
+    ]
+  },
+  "tr-wmw": {
+    "model": "WMW multifunctional trolley",
+    "description": "Ward trolley in furniture construction: aluminium profile frame with ABS corner connectors and double-sided laminated panels – as a cabinet, with drawers or combined.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile with ABS connectors, anodised or powder-coated in RAL colours"
+      ],
+      [
+        "Panels",
+        "Double-sided laminated MDF board"
+      ],
+      [
+        "Base",
+        "Powder-coated steel"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm with buffers, 2 lockable"
+      ],
+      [
+        "Versions",
+        "WMW-1110 and WMW-1110/ABS 640 × 540 × 960 · WMW-1210 640 × 540 × 1030 · WMW-1230 640 × 540 × 1100 · WMW-1450 and WMW-1450/ABS 640 × 540 × 1160 · WMW-2110 845 × 545 × 960 mm"
+      ]
+    ]
+  },
+  "tr-wk": {
+    "model": "WK basket trolley",
+    "description": "Basket trolley with a nickel-chrome tubular frame and hooked-in wire baskets – shelves on pull-out rails, combinable with a waste bag holder.",
+    "specs": [
+      [
+        "Frame",
+        "Nickel-chrome steel tubing"
+      ],
+      [
+        "Shelves",
+        "Basket shelves in powder-coated steel, optionally on pull-out rails"
+      ],
+      [
+        "Waste disposal",
+        "Bag holder with plastic lid"
+      ],
+      [
+        "Castors",
+        "Ø 80 mm, 2 lockable"
+      ],
+      [
+        "Versions",
+        "WK-01/A 410 × 420 × 800 (540 mm long with handle) · WK-02/A, B, C 730 × 420 × 800 (860 with handle) · WK-03 780 × 420 × 800 mm (910 with handle)"
+      ],
+      [
+        "Option",
+        "Entirely of stainless steel 0H18N9"
+      ]
+    ]
+  },
+  "tr-wks": {
+    "model": "WKS basket trolley",
+    "description": "Modular stainless steel basket trolley system: one base frame that you equip freely with baskets, shelves and a waste bag holder – cover raised by hand.",
+    "specs": [
+      [
+        "Versions",
+        "WKS-1 575 × 750 × 950 – 1250 mm · WKS-2 575 × 750 × 950 mm · WKS-3 700 × 300 × 900 mm"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Equipment",
+        "Wire baskets, shelves and waste bag holder, freely combinable"
+      ],
+      [
+        "Cover",
+        "Plastic, raised by hand"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm, 2 lockable"
+      ]
+    ]
+  },
+  "tr-wz": {
+    "model": "WZ linen and waste trolley",
+    "description": "Bag holder entirely of stainless steel for linen and waste – single, double or triple, lid opened by hand or foot pedal, clips secure the bag against slipping.",
+    "specs": [
+      [
+        "Versions",
+        "WZ-1KO without lid · WZ-2KO single · WZ2-2KO double · WZ3-2KO triple"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Lid",
+        "By hand or foot pedal, in several colours"
+      ],
+      [
+        "Bag rim",
+        "Rim with clips to prevent the bag from slipping"
+      ],
+      [
+        "Castors",
+        "Ø 50 mm, 2 lockable"
+      ],
+      [
+        "Dimensions 60 – 80 l",
+        "Single 390 × 440 × 680 · double 790 × 440 × 680 · triple 1190 × 440 × 680 mm"
+      ],
+      [
+        "Dimensions 100 – 120 l",
+        "Single 445 × 495 × 850 · double 900 × 495 × 850 · triple 1355 × 495 × 860 mm"
+      ],
+      [
+        "Option",
+        "Silicone coat on the rim instead of clips; 40 l version 315 × 385 × 520 mm"
+      ]
+    ]
+  },
+  "tr-wzs": {
+    "model": "WZs-01 folding linen trolley",
+    "description": "Bag holder with a folding scissor frame for 100 l bags – folds flat and stores away in little space.",
+    "specs": [
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Frame",
+        "Folding, for linen bags of 100 l"
+      ],
+      [
+        "Lid",
+        "Raised by hand"
+      ],
+      [
+        "Bag rim",
+        "Rim with clips to prevent the bag from slipping"
+      ],
+      [
+        "Castors",
+        "Ø 50 mm, 2 lockable"
+      ],
+      [
+        "Option",
+        "Entirely of powder-coated steel"
+      ]
+    ]
+  },
+  "tr-mb": {
+    "model": "MB linen and waste trolley",
+    "description": "Bag holder with a stainless steel frame, ABS lid and ABS-clad base – single, double or triple, lids optionally marked for waste segregation.",
+    "specs": [
+      [
+        "Versions",
+        "MB-02 single · MB2-02 double · MB3-02 triple · MB-03 with basket shelf and push handle"
+      ],
+      [
+        "Frame and rim",
+        "Stainless steel 0H18N9"
+      ],
+      [
+        "Lid",
+        "ABS plastic in white or grey, by hand or foot pedal"
+      ],
+      [
+        "Base",
+        "Steel with ABS cladding"
+      ],
+      [
+        "Castors",
+        "Ø 50 mm, 2 lockable"
+      ],
+      [
+        "Dimensions MB-02",
+        "60 – 80 l 395 × 495 × 695 · 100 – 120 l 395 × 495 × 875 mm"
+      ],
+      [
+        "Dimensions MB2-02 / MB3-02",
+        "Double 815 × 495 × 695 or 875 · triple 1225 × 495 × 695 or 875 mm"
+      ],
+      [
+        "Dimensions MB-03",
+        "100 – 120 l 880 × 405 × 860 mm"
+      ],
+      [
+        "Options",
+        "Silicone coat on the rim, lids with markings for waste segregation"
+      ]
+    ]
+  },
+  "tr-wcb": {
+    "model": "WCB linen and waste trolley",
+    "description": "Waste trolley in furniture construction: aluminium profile frame with ABS corner connectors and laminated panels – cabinet section and bag holders freely combinable.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile with ABS connectors, anodised or powder-coated in RAL colours"
+      ],
+      [
+        "Panels",
+        "Double-sided laminated MDF board"
+      ],
+      [
+        "Lid",
+        "ABS plastic, raised by hand"
+      ],
+      [
+        "Bag rim",
+        "Stainless steel rim with clips to prevent slipping; optional silicone coat"
+      ],
+      [
+        "Base",
+        "Powder-coated steel"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm with buffers, 2 lockable"
+      ],
+      [
+        "Versions",
+        "WCB-1111, -1121, -1221, -1411 1050 × 580 × 1080 · WCB-2123 and WCB-2133 1100 × 580 × 1080 · WCB-2200 900 × 580 × 1080 · WCB-2223 1450 × 580 × 1080 mm"
+      ]
+    ]
+  },
+  "tr-wzb": {
+    "model": "WZB linen and waste trolley",
+    "description": "Waste trolley entirely of stainless steel with an enclosed cabinet section and shelf – for the highest hygiene level.",
+    "specs": [
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Lid",
+        "Raised by hand"
+      ],
+      [
+        "Bag rim",
+        "Rim with clips to prevent slipping; optional silicone coat"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm with buffers, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "1050 × 580 mm, height 1080 mm (with buffers)"
+      ],
+      [
+        "Cabinet dimensions",
+        "540 × 520 mm, height 910 mm"
+      ],
+      [
+        "Shelf dimensions",
+        "500 × 480 mm"
+      ]
+    ]
+  },
+  "tr-smo": {
+    "model": "SMO waste bowl stand",
+    "description": "Mobile waste bowl stand entirely of stainless steel on a five-star base – with one or two bowls, as a ring for a 30 l bag or with a 10 l bucket.",
+    "specs": [
+      [
+        "Versions",
+        "SMO-01 one bowl · SMO-02 two bowls · SMO-03 ring with 30 l bowl · SMO-04 and SMO-05 with 10 l bucket, SMO-05 with push handle"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Bowls",
+        "Stainless steel, 3 – 5 l"
+      ],
+      [
+        "Base",
+        "Five-star base with Ø 50 mm castors"
+      ],
+      [
+        "Dimensions SMO-01 / -02",
+        "Base Ø 600 mm, height 840 mm"
+      ],
+      [
+        "Dimensions SMO-03",
+        "Base Ø 600 mm, height 310 mm, bowl 30 l"
+      ],
+      [
+        "Dimensions SMO-04 / -05",
+        "Base Ø 480 mm, bucket 10 l, bucket height 250 mm"
+      ]
+    ]
+  },
+  "tr-pak": {
+    "model": "PAK packing table",
+    "description": "Packing table for sterile goods processing, entirely of stainless steel – dimensions and superstructures are tailored to your workstation.",
+    "specs": [
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Worktop",
+        "Length 800 / 1000 / 1200 / 1400 mm, width 500 or 700 mm"
+      ],
+      [
+        "Working height",
+        "800 mm"
+      ],
+      [
+        "Accessories",
+        "Sterilisation baskets KS-1, KS-2, KS-3; top section for 4, 5 or 6 hinged containers; over-top shelf; waste bag holder"
+      ],
+      [
+        "Options",
+        "Mobile version with Ø 125 mm castors; worktop with raised edges on three sides"
+      ],
+      [
+        "Note",
+        "Dimensions and equipment are configured individually"
+      ]
+    ]
+  },
+  "tr-rks2": {
+    "model": "RKS-2 / RKS-3 / RKS-4 slatted and free-standing racks",
+    "description": "Stainless steel rack system as a wall slat or a free-standing unit – baskets and shelves are hooked in as required.",
+    "specs": [
+      [
+        "Versions",
+        "RKS-2 wall slat · RKS-3 free-standing unit 550 × 450 × 1800 mm · RKS-4 free-standing unit 550 × 750 × 1800 mm"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Equipment",
+        "Baskets and shelves to hook in, at the height of your choice"
+      ]
+    ]
+  },
+  "tr-rks5": {
+    "model": "RKS-5 / RKS-6 / RKS-7 mobile racks",
+    "description": "Mobile stainless steel rack system with Ø 125 mm castors – equipped with baskets and shelves on one or both sides.",
+    "specs": [
+      [
+        "Versions",
+        "RKS-5 550 × 450 × 1900 mm · RKS-6 550 × 750 × 1900 mm · RKS-7 550 × 750 × 1900 mm, double-sided"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Equipment",
+        "Baskets and shelves to hook in"
+      ],
+      [
+        "Castors",
+        "Ø 125 mm, 2 lockable"
+      ]
+    ]
+  },
+  "tr-rk": {
+    "model": "RK racks",
+    "description": "Rack with a nickel-chrome tubular frame and pull-out wire baskets – worktop as a permanently mounted stainless steel tray, with levelling feet.",
+    "specs": [
+      [
+        "Frame",
+        "Nickel-chrome steel tubing with levelling feet"
+      ],
+      [
+        "Basket shelves",
+        "Nickel-chrome steel, optionally on pull-out rails"
+      ],
+      [
+        "Worktop",
+        "Stainless steel 0H18N9, permanently mounted"
+      ],
+      [
+        "Cuvette",
+        "Plastic"
+      ],
+      [
+        "Option",
+        "Entirely of stainless steel 0H18N9"
+      ]
+    ]
+  },
+  "tr-rm": {
+    "model": "RM storage rack",
+    "description": "Storage rack entirely of stainless steel with four or five shelves – levelling feet to align it on uneven floors.",
+    "specs": [
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Shelves",
+        "4 or 5 shelves, solid or perforated"
+      ],
+      [
+        "Feet",
+        "Levelling feet"
+      ],
+      [
+        "Dimensions",
+        "Length 800 / 1000 / 1200 mm, width 400 or 500 mm, height 1800 mm"
+      ]
+    ]
+  },
+  "tr-sl": {
+    "model": "SL / WS racks for bedpans and urinals",
+    "description": "Holder and dryer system for bedpans and urinals, entirely of stainless steel – as a supporting rail for wall and trolley or as a free-standing rack.",
+    "specs": [
+      [
+        "Versions",
+        "SL supporting rail for wall or trolley mounting · WS free-standing rack 600 / 800 / 1000 × 400 × 1800 mm"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Supporting rail",
+        "With hooks to take the dryers"
+      ],
+      [
+        "Dryers",
+        "For bedpans, lids and urinals, freely combinable"
+      ],
+      [
+        "Drip tray",
+        "Plastic; optionally stainless steel 0H18N9"
+      ],
+      [
+        "Dimensions SL",
+        "Length 540 / 740 / 840 mm, height 600 – 2000 mm depending on equipment"
+      ],
+      [
+        "Option",
+        "WS with Ø 100 mm castors; shelves straight or diagonal"
+      ]
+    ]
+  },
+  "tr-rob": {
+    "model": "ROB shoe rack",
+    "description": "Wall-mounted shoe rack entirely of stainless steel – hangers spaced 80 mm apart, in one or several rows.",
+    "specs": [
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Mounting",
+        "Wall mounting"
+      ],
+      [
+        "Hanger spacing",
+        "80 mm"
+      ],
+      [
+        "Versions",
+        "One or several rows, length as required"
+      ]
+    ]
   }
 }

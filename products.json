@@ -3334,5 +3334,593 @@
         "Die gewählte Rollenausführung verändert die Bauhöhe des Tisches"
       ]
     ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wt",
+    "model": "Transportwagen WT",
+    "ref": "WT",
+    "image_count": 2,
+    "description": "Geschlossener Transportschrankwagen mit großen Ø 200 mm Rollen – für den Materialtransport über längere Wege im Haus.",
+    "specs": [
+      [
+        "Ausführung",
+        "Edelstahl 0H18N9 oder Stahl pulverbeschichtet"
+      ],
+      [
+        "Korpus",
+        "Geschlossen, mit Türen und Einlegeböden"
+      ],
+      [
+        "Rollen",
+        "Ø 200 mm mit Puffern, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "800 × 600 mm, Höhe 900 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wpp",
+    "model": "Speisentransportwagen WPP",
+    "ref": "WPP-01 / WPP-01/P / WPP-02/G",
+    "image_count": 3,
+    "description": "Servier- und Speisentransportwagen komplett aus Edelstahl – Arbeitsfläche als eine oder zwei herausnehmbare Wannen, auf Wunsch mit Seitenablage.",
+    "specs": [
+      [
+        "Ausführungen",
+        "WPP-01 1015 × 600 × 900 mm · WPP-01/P mit Seitenablage 510 × 335 mm · WPP-02/G 1290 × 680 × 900 mm"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Ablagen",
+        "Eine oder zwei herausnehmbare Wannen"
+      ],
+      [
+        "Rollen",
+        "Ø 125 mm, 2 feststellbar"
+      ],
+      [
+        "Optionen",
+        "Rahmen aus weiß pulverbeschichtetem Stahl; Ausführung mit angetriebenem Stützrad als Schiebehilfe"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wmw",
+    "model": "Multifunktionswagen WMW",
+    "ref": "WMW-1110 – WMW-2110",
+    "image_count": 7,
+    "description": "Stationswagen in Möbelbauweise: Aluminium-Profilrahmen mit ABS-Eckverbindern und beidseitig beschichteten Füllungen – als Schrank, mit Schubladen oder kombiniert.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofil mit ABS-Verbindern, eloxiert oder pulverbeschichtet nach RAL"
+      ],
+      [
+        "Füllungen",
+        "Beidseitig beschichtete MDF-Platten"
+      ],
+      [
+        "Sockel",
+        "Stahl pulverbeschichtet"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm mit Puffern, 2 feststellbar"
+      ],
+      [
+        "Ausführungen",
+        "WMW-1110 und WMW-1110/ABS 640 × 540 × 960 · WMW-1210 640 × 540 × 1030 · WMW-1230 640 × 540 × 1100 · WMW-1450 und WMW-1450/ABS 640 × 540 × 1160 · WMW-2110 845 × 545 × 960 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wk",
+    "model": "Korbwagen WK",
+    "ref": "WK-01/A · WK-02/A, B, C · WK-03",
+    "image_count": 5,
+    "description": "Korbwagen mit Nickel-Chrom-Rohrrahmen und eingehängten Drahtkörben – Ablagen auf Auszugsschienen, mit Abwurfbeutelhalter kombinierbar.",
+    "specs": [
+      [
+        "Rahmen",
+        "Nickel-Chrom-Stahlrohr"
+      ],
+      [
+        "Ablagen",
+        "Korbablagen aus Stahl pulverbeschichtet, wahlweise auf Auszugsschienen"
+      ],
+      [
+        "Abwurf",
+        "Beutelhalter mit Kunststoffdeckel"
+      ],
+      [
+        "Rollen",
+        "Ø 80 mm, 2 feststellbar"
+      ],
+      [
+        "Ausführungen",
+        "WK-01/A 410 × 420 × 800 (mit Griff 540 mm lang) · WK-02/A, B, C 730 × 420 × 800 (mit Griff 860) · WK-03 780 × 420 × 800 mm (mit Griff 910)"
+      ],
+      [
+        "Option",
+        "Komplett aus Edelstahl 0H18N9"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wks",
+    "model": "Korbwagen WKS",
+    "ref": "WKS-1 / WKS-2 / WKS-3",
+    "image_count": 8,
+    "description": "Modulares Korbwagen-System aus Edelstahl: ein Grundgestell, das Sie mit Körben, Ablagen und Abwurfbeutelhalter frei bestücken – Abdeckung von Hand aufklappbar.",
+    "specs": [
+      [
+        "Ausführungen",
+        "WKS-1 575 × 750 × 950 – 1250 mm · WKS-2 575 × 750 × 950 mm · WKS-3 700 × 300 × 900 mm"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Bestückung",
+        "Drahtkörbe, Ablagen und Abwurfbeutelhalter, frei kombinierbar"
+      ],
+      [
+        "Abdeckung",
+        "Kunststoff, von Hand aufklappbar"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm, 2 feststellbar"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wz",
+    "model": "Wäsche- und Abfallwagen WZ",
+    "ref": "WZ-1KO / WZ-2KO / WZ2-2KO / WZ3-2KO",
+    "image_count": 6,
+    "description": "Sackhalter komplett aus Edelstahl für Wäsche und Abfall – ein-, zwei- oder dreifach, Deckel von Hand oder über Fußpedal, Klemmen sichern den Sack gegen Abrutschen.",
+    "specs": [
+      [
+        "Ausführungen",
+        "WZ-1KO ohne Deckel · WZ-2KO einfach · WZ2-2KO doppelt · WZ3-2KO dreifach"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Deckel",
+        "Von Hand oder über Fußpedal, in mehreren Farben"
+      ],
+      [
+        "Sackaufnahme",
+        "Ring mit Klemmen gegen Abrutschen"
+      ],
+      [
+        "Rollen",
+        "Ø 50 mm, 2 feststellbar"
+      ],
+      [
+        "Maße 60 – 80 l",
+        "Einfach 390 × 440 × 680 · doppelt 790 × 440 × 680 · dreifach 1190 × 440 × 680 mm"
+      ],
+      [
+        "Maße 100 – 120 l",
+        "Einfach 445 × 495 × 850 · doppelt 900 × 495 × 850 · dreifach 1355 × 495 × 860 mm"
+      ],
+      [
+        "Option",
+        "Silikonauflage auf dem Ring statt Klemmen; 40-l-Ausführung 315 × 385 × 520 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wzs",
+    "model": "Faltbarer Wäschewagen WZs-01",
+    "ref": "WZs-01",
+    "image_count": 1,
+    "description": "Sackhalter mit klappbarem Scherengestell für 100-l-Säcke – lässt sich flach zusammenlegen und platzsparend verstauen.",
+    "specs": [
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Gestell",
+        "Klappbar, für Wäschesäcke mit 100 l"
+      ],
+      [
+        "Deckel",
+        "Von Hand aufklappbar"
+      ],
+      [
+        "Sackaufnahme",
+        "Ring mit Klemmen gegen Abrutschen"
+      ],
+      [
+        "Rollen",
+        "Ø 50 mm, 2 feststellbar"
+      ],
+      [
+        "Option",
+        "Komplett aus pulverbeschichtetem Stahl"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-mb",
+    "model": "Wäsche- und Abfallwagen MB",
+    "ref": "MB-02 / MB2-02 / MB3-02 / MB-03",
+    "image_count": 5,
+    "description": "Sackhalter mit Edelstahlrahmen, ABS-Deckel und ABS-verkleidetem Fuß – ein-, zwei- oder dreifach, Deckel auf Wunsch mit Trennkennzeichnung.",
+    "specs": [
+      [
+        "Ausführungen",
+        "MB-02 einfach · MB2-02 doppelt · MB3-02 dreifach · MB-03 mit Korbablage und Schiebegriff"
+      ],
+      [
+        "Rahmen und Ring",
+        "Edelstahl 0H18N9"
+      ],
+      [
+        "Deckel",
+        "ABS-Kunststoff in Weiß oder Grau, von Hand oder über Fußpedal"
+      ],
+      [
+        "Fuß",
+        "Stahl mit ABS-Verkleidung"
+      ],
+      [
+        "Rollen",
+        "Ø 50 mm, 2 feststellbar"
+      ],
+      [
+        "Maße MB-02",
+        "60 – 80 l 395 × 495 × 695 · 100 – 120 l 395 × 495 × 875 mm"
+      ],
+      [
+        "Maße MB2-02 / MB3-02",
+        "Doppelt 815 × 495 × 695 bzw. 875 · dreifach 1225 × 495 × 695 bzw. 875 mm"
+      ],
+      [
+        "Maße MB-03",
+        "100 – 120 l 880 × 405 × 860 mm"
+      ],
+      [
+        "Optionen",
+        "Silikonauflage auf dem Ring, Deckel mit Kennzeichnung zur Abfalltrennung"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wcb",
+    "model": "Wäsche- und Entsorgungswagen WCB",
+    "ref": "WCB-1111 – WCB-2223",
+    "image_count": 8,
+    "description": "Entsorgungswagen in Möbelbauweise: Aluminium-Profilrahmen mit ABS-Eckverbindern und beschichteten Füllungen – Schrankteil und Sackaufnahmen frei kombinierbar.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofil mit ABS-Verbindern, eloxiert oder pulverbeschichtet nach RAL"
+      ],
+      [
+        "Füllungen",
+        "Beidseitig beschichtete MDF-Platten"
+      ],
+      [
+        "Deckel",
+        "ABS-Kunststoff, von Hand aufklappbar"
+      ],
+      [
+        "Sackaufnahme",
+        "Edelstahlring mit Klemmen gegen Abrutschen; Option Silikonauflage"
+      ],
+      [
+        "Sockel",
+        "Stahl pulverbeschichtet"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm mit Puffern, 2 feststellbar"
+      ],
+      [
+        "Ausführungen",
+        "WCB-1111, -1121, -1221, -1411 1050 × 580 × 1080 · WCB-2123 und WCB-2133 1100 × 580 × 1080 · WCB-2200 900 × 580 × 1080 · WCB-2223 1450 × 580 × 1080 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-wzb",
+    "model": "Wäsche- und Entsorgungswagen WZB",
+    "ref": "WZB",
+    "image_count": 3,
+    "description": "Entsorgungswagen komplett aus Edelstahl mit geschlossenem Schrankteil und Ablage – für die höchste Hygienestufe.",
+    "specs": [
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Deckel",
+        "Von Hand aufklappbar"
+      ],
+      [
+        "Sackaufnahme",
+        "Ring mit Klemmen gegen Abrutschen; Option Silikonauflage"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm mit Puffern, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "1050 × 580 mm, Höhe 1080 mm (mit Puffern)"
+      ],
+      [
+        "Maße Schrank",
+        "540 × 520 mm, Höhe 910 mm"
+      ],
+      [
+        "Maße Ablage",
+        "500 × 480 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-smo",
+    "model": "Abwurfständer SMO",
+    "ref": "SMO-01 – SMO-05",
+    "image_count": 5,
+    "description": "Fahrbarer Abwurfständer komplett aus Edelstahl auf Fünf-Stern-Fuß – mit einer oder zwei Schalen, als Ring für 30-l-Sack oder mit 10-l-Eimer.",
+    "specs": [
+      [
+        "Ausführungen",
+        "SMO-01 eine Schale · SMO-02 zwei Schalen · SMO-03 Ring mit 30-l-Schale · SMO-04 und SMO-05 mit 10-l-Eimer, SMO-05 mit Schiebegriff"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Schalen",
+        "Edelstahl, 3 – 5 l"
+      ],
+      [
+        "Fuß",
+        "Fünf-Stern-Fuß mit Ø 50 mm Rollen"
+      ],
+      [
+        "Maße SMO-01 / -02",
+        "Fuß Ø 600 mm, Höhe 840 mm"
+      ],
+      [
+        "Maße SMO-03",
+        "Fuß Ø 600 mm, Höhe 310 mm, Schale 30 l"
+      ],
+      [
+        "Maße SMO-04 / -05",
+        "Fuß Ø 480 mm, Eimer 10 l, Eimerhöhe 250 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-pak",
+    "model": "Packtisch PAK",
+    "ref": "PAK",
+    "image_count": 8,
+    "description": "Packtisch für die Sterilgutaufbereitung komplett aus Edelstahl – Maße und Aufbauten werden auf Ihren Arbeitsplatz zugeschnitten.",
+    "specs": [
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Arbeitsplatte",
+        "Länge 800 / 1000 / 1200 / 1400 mm, Breite 500 oder 700 mm"
+      ],
+      [
+        "Arbeitshöhe",
+        "800 mm"
+      ],
+      [
+        "Zubehör",
+        "Sterilisationskörbe KS-1, KS-2, KS-3; Aufsatz für 4, 5 oder 6 Schwenkbehälter; Oberablage; Abwurfbeutelhalter"
+      ],
+      [
+        "Optionen",
+        "Fahrbare Ausführung mit Ø 125 mm Rollen; Arbeitsplatte mit Aufkantung an drei Seiten"
+      ],
+      [
+        "Hinweis",
+        "Maße und Ausstattung werden individuell angepasst"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-rks2",
+    "model": "Schienen- und Standregale RKS-2 / RKS-3 / RKS-4",
+    "ref": "RKS-2 / RKS-3 / RKS-4",
+    "image_count": 4,
+    "description": "Regalsystem aus Edelstahl als Wandschiene oder freistehendes Gestell – Körbe und Ablagen werden nach Bedarf eingehängt.",
+    "specs": [
+      [
+        "Ausführungen",
+        "RKS-2 Wandschiene · RKS-3 Standgestell 550 × 450 × 1800 mm · RKS-4 Standgestell 550 × 750 × 1800 mm"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Bestückung",
+        "Körbe und Ablagen zum Einhängen, Höhe frei wählbar"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-rks5",
+    "model": "Fahrbare Regale RKS-5 / RKS-6 / RKS-7",
+    "ref": "RKS-5 / RKS-6 / RKS-7",
+    "image_count": 4,
+    "description": "Fahrbares Regalsystem aus Edelstahl mit Ø 125 mm Rollen – einseitig oder doppelseitig bestückbar mit Körben und Ablagen.",
+    "specs": [
+      [
+        "Ausführungen",
+        "RKS-5 550 × 450 × 1900 mm · RKS-6 550 × 750 × 1900 mm · RKS-7 550 × 750 × 1900 mm, doppelseitig"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Bestückung",
+        "Körbe und Ablagen zum Einhängen"
+      ],
+      [
+        "Rollen",
+        "Ø 125 mm, 2 feststellbar"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-rk",
+    "model": "Regale RK",
+    "ref": "RK",
+    "image_count": 4,
+    "description": "Regal mit Nickel-Chrom-Rohrrahmen und ausziehbaren Drahtkörben – Arbeitsplatte als fest montiertes Edelstahl-Tablett, mit Stellfüßen zum Ausrichten.",
+    "specs": [
+      [
+        "Rahmen",
+        "Nickel-Chrom-Stahlrohr mit Stellfüßen zum Ausrichten"
+      ],
+      [
+        "Korbablagen",
+        "Nickel-Chrom-Stahl, wahlweise auf Auszugsschienen"
+      ],
+      [
+        "Arbeitsplatte",
+        "Edelstahl 0H18N9, fest montiert"
+      ],
+      [
+        "Nierenschale",
+        "Kunststoff"
+      ],
+      [
+        "Option",
+        "Komplett aus Edelstahl 0H18N9"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-rm",
+    "model": "Lagerregal RM",
+    "ref": "RM",
+    "image_count": 2,
+    "description": "Lagerregal komplett aus Edelstahl mit vier oder fünf Böden – Stellfüße zum Ausrichten auf unebenem Boden.",
+    "specs": [
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Böden",
+        "4 oder 5 Böden, voll oder gelocht"
+      ],
+      [
+        "Füße",
+        "Stellfüße zum Ausrichten"
+      ],
+      [
+        "Maße",
+        "Länge 800 / 1000 / 1200 mm, Breite 400 oder 500 mm, Höhe 1800 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-sl",
+    "model": "Steckbecken- und Urinflaschenhalter SL / WS",
+    "ref": "SL / WS",
+    "image_count": 6,
+    "description": "Halter- und Trocknersystem für Steckbecken und Urinflaschen komplett aus Edelstahl – als Tragschiene für Wand und Wagen oder als freistehendes Regal.",
+    "specs": [
+      [
+        "Ausführungen",
+        "SL Tragschiene für Wand- oder Wagenmontage · WS freistehendes Regal 600 / 800 / 1000 × 400 × 1800 mm"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Tragschiene",
+        "Mit Haken zur Aufnahme der Trockner"
+      ],
+      [
+        "Trockner",
+        "Für Steckbecken, Deckel und Urinflaschen, frei kombinierbar"
+      ],
+      [
+        "Tropfschale",
+        "Kunststoff; Option Edelstahl 0H18N9"
+      ],
+      [
+        "Maße SL",
+        "Länge 540 / 740 / 840 mm, Höhe 600 – 2000 mm je nach Bestückung"
+      ],
+      [
+        "Option",
+        "WS mit Ø 100 mm Rollen; Böden gerade oder schräg"
+      ]
+    ]
+  },
+  {
+    "cat": "trans",
+    "slug": "tr-rob",
+    "model": "Schuhregal ROB",
+    "ref": "ROB",
+    "image_count": 5,
+    "description": "Wandmontiertes Schuhregal komplett aus Edelstahl – Halter im Abstand von 80 mm, ein- oder mehrreihig.",
+    "specs": [
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Montage",
+        "Wandmontage"
+      ],
+      [
+        "Halterabstand",
+        "80 mm"
+      ],
+      [
+        "Ausführungen",
+        "Ein- oder mehrreihig, Länge nach Bedarf"
+      ]
+    ]
   }
 ]

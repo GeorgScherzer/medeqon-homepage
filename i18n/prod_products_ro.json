@@ -3014,5 +3014,521 @@
         "2000 mm (opțional 2500 mm)"
       ]
     ]
+  },
+  "tr-wt": {
+    "model": "Cărucior de transport WT",
+    "description": "Cărucior-dulap închis pentru transport, cu roți mari de Ø 200 mm – pentru deplasarea materialelor pe distanțe mai lungi în interiorul clădirii.",
+    "specs": [
+      [
+        "Execuție",
+        "Oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic"
+      ],
+      [
+        "Corp",
+        "Închis, cu uși și polițe"
+      ],
+      [
+        "Roți",
+        "Ø 200 mm cu amortizoare, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "800 × 600 mm, înălțime 900 mm"
+      ]
+    ]
+  },
+  "tr-wpp": {
+    "model": "Cărucior pentru transportul hranei WPP",
+    "description": "Cărucior de servire și transport al hranei, integral din oțel inoxidabil – suprafața de lucru sub formă de una sau două tăvi detașabile, opțional cu poliță laterală.",
+    "specs": [
+      [
+        "Variante",
+        "WPP-01 1015 × 600 × 900 mm · WPP-01/P cu poliță laterală 510 × 335 mm · WPP-02/G 1290 × 680 × 900 mm"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Tăvi",
+        "Una sau două tăvi detașabile"
+      ],
+      [
+        "Roți",
+        "Ø 125 mm, 2 cu frână"
+      ],
+      [
+        "Opțiuni",
+        "Cadru din oțel vopsit electrostatic în alb; variantă cu roată motorizată care ajută la împingere"
+      ]
+    ]
+  },
+  "tr-wmw": {
+    "model": "Cărucior multifuncțional WMW",
+    "description": "Cărucior de secție în construcție de mobilier: cadru din profile de aluminiu cu conectori ABS și panouri laminate pe ambele fețe – ca dulap, cu sertare sau combinat.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil din aluminiu cu conectori ABS, anodizat sau vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Panouri",
+        "Plăci MDF laminate pe ambele fețe"
+      ],
+      [
+        "Soclu",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm cu amortizoare, 2 cu frână"
+      ],
+      [
+        "Variante",
+        "WMW-1110 și WMW-1110/ABS 640 × 540 × 960 · WMW-1210 640 × 540 × 1030 · WMW-1230 640 × 540 × 1100 · WMW-1450 și WMW-1450/ABS 640 × 540 × 1160 · WMW-2110 845 × 545 × 960 mm"
+      ]
+    ]
+  },
+  "tr-wk": {
+    "model": "Cărucior cu coșuri WK",
+    "description": "Cărucior cu coșuri, cu cadru din țeavă nichel-crom și coșuri de sârmă agățate – polițe pe ghidaje extensibile, combinabil cu suport pentru sac de deșeuri.",
+    "specs": [
+      [
+        "Cadru",
+        "Țeavă de oțel nichel-crom"
+      ],
+      [
+        "Polițe",
+        "Polițe cu coș din oțel vopsit electrostatic, opțional pe ghidaje extensibile"
+      ],
+      [
+        "Eliminarea deșeurilor",
+        "Suport pentru sac cu capac din plastic"
+      ],
+      [
+        "Roți",
+        "Ø 80 mm, 2 cu frână"
+      ],
+      [
+        "Variante",
+        "WK-01/A 410 × 420 × 800 (cu mâner, lungime 540 mm) · WK-02/A, B, C 730 × 420 × 800 (cu mâner 860) · WK-03 780 × 420 × 800 mm (cu mâner 910)"
+      ],
+      [
+        "Opțional",
+        "Integral din oțel inoxidabil 0H18N9"
+      ]
+    ]
+  },
+  "tr-wks": {
+    "model": "Cărucior cu coșuri WKS",
+    "description": "Sistem modular de cărucioare cu coșuri din oțel inoxidabil: un cadru de bază pe care îl dotați liber cu coșuri, polițe și suport pentru sac – capacul se ridică manual.",
+    "specs": [
+      [
+        "Variante",
+        "WKS-1 575 × 750 × 950 – 1250 mm · WKS-2 575 × 750 × 950 mm · WKS-3 700 × 300 × 900 mm"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Dotare",
+        "Coșuri de sârmă, polițe și suport pentru sac de deșeuri, combinabile liber"
+      ],
+      [
+        "Capac",
+        "Plastic, ridicat manual"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm, 2 cu frână"
+      ]
+    ]
+  },
+  "tr-wz": {
+    "model": "Cărucior pentru lenjerie și deșeuri WZ",
+    "description": "Suport pentru saci, integral din oțel inoxidabil, pentru lenjerie și deșeuri – simplu, dublu sau triplu, capac acționat manual sau cu pedală, cleme care împiedică alunecarea sacului.",
+    "specs": [
+      [
+        "Variante",
+        "WZ-1KO fără capac · WZ-2KO simplu · WZ2-2KO dublu · WZ3-2KO triplu"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Capac",
+        "Manual sau cu pedală, în mai multe culori"
+      ],
+      [
+        "Inel pentru sac",
+        "Inel cu cleme împotriva alunecării"
+      ],
+      [
+        "Roți",
+        "Ø 50 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni 60 – 80 l",
+        "Simplu 390 × 440 × 680 · dublu 790 × 440 × 680 · triplu 1190 × 440 × 680 mm"
+      ],
+      [
+        "Dimensiuni 100 – 120 l",
+        "Simplu 445 × 495 × 850 · dublu 900 × 495 × 850 · triplu 1355 × 495 × 860 mm"
+      ],
+      [
+        "Opțional",
+        "Strat de silicon pe inel în locul clemelor; varianta de 40 l 315 × 385 × 520 mm"
+      ]
+    ]
+  },
+  "tr-wzs": {
+    "model": "Cărucior pliabil pentru lenjerie WZs-01",
+    "description": "Suport pentru saci cu cadru foarfece pliabil, pentru saci de 100 l – se pliază plat și se depozitează cu spațiu minim.",
+    "specs": [
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Cadru",
+        "Pliabil, pentru saci de lenjerie de 100 l"
+      ],
+      [
+        "Capac",
+        "Ridicat manual"
+      ],
+      [
+        "Inel pentru sac",
+        "Inel cu cleme împotriva alunecării"
+      ],
+      [
+        "Roți",
+        "Ø 50 mm, 2 cu frână"
+      ],
+      [
+        "Opțional",
+        "Integral din oțel vopsit electrostatic"
+      ]
+    ]
+  },
+  "tr-mb": {
+    "model": "Cărucior pentru lenjerie și deșeuri MB",
+    "description": "Suport pentru saci cu cadru din oțel inoxidabil, capac din ABS și bază îmbrăcată în ABS – simplu, dublu sau triplu, capace opțional marcate pentru colectare selectivă.",
+    "specs": [
+      [
+        "Variante",
+        "MB-02 simplu · MB2-02 dublu · MB3-02 triplu · MB-03 cu poliță cu coș și mâner de împingere"
+      ],
+      [
+        "Cadru și inel",
+        "Oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Capac",
+        "Plastic ABS alb sau gri, manual sau cu pedală"
+      ],
+      [
+        "Bază",
+        "Oțel îmbrăcat în ABS"
+      ],
+      [
+        "Roți",
+        "Ø 50 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni MB-02",
+        "60 – 80 l 395 × 495 × 695 · 100 – 120 l 395 × 495 × 875 mm"
+      ],
+      [
+        "Dimensiuni MB2-02 / MB3-02",
+        "Dublu 815 × 495 × 695 sau 875 · triplu 1225 × 495 × 695 sau 875 mm"
+      ],
+      [
+        "Dimensiuni MB-03",
+        "100 – 120 l 880 × 405 × 860 mm"
+      ],
+      [
+        "Opțiuni",
+        "Strat de silicon pe inel, capace cu marcaje pentru colectarea selectivă"
+      ]
+    ]
+  },
+  "tr-wcb": {
+    "model": "Cărucior pentru lenjerie și deșeuri WCB",
+    "description": "Cărucior de eliminare a deșeurilor în construcție de mobilier: cadru din profile de aluminiu cu conectori ABS și panouri laminate – secțiunea dulap și suporturile pentru saci se combină liber.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil din aluminiu cu conectori ABS, anodizat sau vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Panouri",
+        "Plăci MDF laminate pe ambele fețe"
+      ],
+      [
+        "Capac",
+        "Plastic ABS, ridicat manual"
+      ],
+      [
+        "Inel pentru sac",
+        "Inel din oțel inoxidabil cu cleme; opțional strat de silicon"
+      ],
+      [
+        "Soclu",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm cu amortizoare, 2 cu frână"
+      ],
+      [
+        "Variante",
+        "WCB-1111, -1121, -1221, -1411 1050 × 580 × 1080 · WCB-2123 și WCB-2133 1100 × 580 × 1080 · WCB-2200 900 × 580 × 1080 · WCB-2223 1450 × 580 × 1080 mm"
+      ]
+    ]
+  },
+  "tr-wzb": {
+    "model": "Cărucior pentru lenjerie și deșeuri WZB",
+    "description": "Cărucior de eliminare a deșeurilor, integral din oțel inoxidabil, cu secțiune de dulap închisă și poliță – pentru cel mai înalt nivel de igienă.",
+    "specs": [
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Capac",
+        "Ridicat manual"
+      ],
+      [
+        "Inel pentru sac",
+        "Inel cu cleme; opțional strat de silicon"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm cu amortizoare, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "1050 × 580 mm, înălțime 1080 mm (cu amortizoare)"
+      ],
+      [
+        "Dimensiuni dulap",
+        "540 × 520 mm, înălțime 910 mm"
+      ],
+      [
+        "Dimensiuni poliță",
+        "500 × 480 mm"
+      ]
+    ]
+  },
+  "tr-smo": {
+    "model": "Stativ pentru boluri de deșeuri SMO",
+    "description": "Stativ mobil pentru boluri de deșeuri, integral din oțel inoxidabil, pe bază cu cinci raze – cu unul sau două boluri, ca inel pentru sac de 30 l sau cu găleată de 10 l.",
+    "specs": [
+      [
+        "Variante",
+        "SMO-01 un bol · SMO-02 două boluri · SMO-03 inel cu bol de 30 l · SMO-04 și SMO-05 cu găleată de 10 l, SMO-05 cu mâner"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Boluri",
+        "Oțel inoxidabil, 3 – 5 l"
+      ],
+      [
+        "Bază",
+        "Bază cu cinci raze, cu roți Ø 50 mm"
+      ],
+      [
+        "Dimensiuni SMO-01 / -02",
+        "Bază Ø 600 mm, înălțime 840 mm"
+      ],
+      [
+        "Dimensiuni SMO-03",
+        "Bază Ø 600 mm, înălțime 310 mm, bol 30 l"
+      ],
+      [
+        "Dimensiuni SMO-04 / -05",
+        "Bază Ø 480 mm, găleată 10 l, înălțimea găleții 250 mm"
+      ]
+    ]
+  },
+  "tr-pak": {
+    "model": "Masă de ambalare PAK",
+    "description": "Masă de ambalare pentru sterilizare, integral din oțel inoxidabil – dimensiunile și suprastructurile se adaptează postului dumneavoastră de lucru.",
+    "specs": [
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Blat de lucru",
+        "Lungime 800 / 1000 / 1200 / 1400 mm, lățime 500 sau 700 mm"
+      ],
+      [
+        "Înălțime de lucru",
+        "800 mm"
+      ],
+      [
+        "Accesorii",
+        "Coșuri de sterilizare KS-1, KS-2, KS-3; suprastructură pentru 4, 5 sau 6 recipiente rabatabile; poliță superioară; suport pentru sac de deșeuri"
+      ],
+      [
+        "Opțiuni",
+        "Variantă mobilă cu roți Ø 125 mm; blat cu margine ridicată pe trei laturi"
+      ],
+      [
+        "Observație",
+        "Dimensiunile și dotarea se configurează individual"
+      ]
+    ]
+  },
+  "tr-rks2": {
+    "model": "Rafturi pe șină și independente RKS-2 / RKS-3 / RKS-4",
+    "description": "Sistem de rafturi din oțel inoxidabil, ca șină de perete sau unitate independentă – coșurile și polițele se agață după necesități.",
+    "specs": [
+      [
+        "Variante",
+        "RKS-2 șină de perete · RKS-3 unitate independentă 550 × 450 × 1800 mm · RKS-4 unitate independentă 550 × 750 × 1800 mm"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Dotare",
+        "Coșuri și polițe de agățat, la înălțimea dorită"
+      ]
+    ]
+  },
+  "tr-rks5": {
+    "model": "Rafturi mobile RKS-5 / RKS-6 / RKS-7",
+    "description": "Sistem mobil de rafturi din oțel inoxidabil, cu roți Ø 125 mm – dotat cu coșuri și polițe pe o parte sau pe ambele părți.",
+    "specs": [
+      [
+        "Variante",
+        "RKS-5 550 × 450 × 1900 mm · RKS-6 550 × 750 × 1900 mm · RKS-7 550 × 750 × 1900 mm, pe ambele părți"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Dotare",
+        "Coșuri și polițe de agățat"
+      ],
+      [
+        "Roți",
+        "Ø 125 mm, 2 cu frână"
+      ]
+    ]
+  },
+  "tr-rk": {
+    "model": "Rafturi RK",
+    "description": "Raft cu cadru din țeavă nichel-crom și coșuri de sârmă extensibile – blat sub formă de tavă din oțel inoxidabil montată fix, cu picioare reglabile.",
+    "specs": [
+      [
+        "Cadru",
+        "Țeavă de oțel nichel-crom cu picioare reglabile"
+      ],
+      [
+        "Polițe cu coș",
+        "Oțel nichel-crom, opțional pe ghidaje extensibile"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel inoxidabil 0H18N9, montat fix"
+      ],
+      [
+        "Tăviță",
+        "Plastic"
+      ],
+      [
+        "Opțional",
+        "Integral din oțel inoxidabil 0H18N9"
+      ]
+    ]
+  },
+  "tr-rm": {
+    "model": "Raft de depozitare RM",
+    "description": "Raft de depozitare integral din oțel inoxidabil, cu patru sau cinci polițe – picioare reglabile pentru aliniere pe pardoseli denivelate.",
+    "specs": [
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Polițe",
+        "4 sau 5 polițe, pline sau perforate"
+      ],
+      [
+        "Picioare",
+        "Picioare reglabile"
+      ],
+      [
+        "Dimensiuni",
+        "Lungime 800 / 1000 / 1200 mm, lățime 400 sau 500 mm, înălțime 1800 mm"
+      ]
+    ]
+  },
+  "tr-sl": {
+    "model": "Rafturi pentru plosca și urinare SL / WS",
+    "description": "Sistem de suporturi și uscătoare pentru plosca și urinare, integral din oțel inoxidabil – ca șină portantă pentru perete și cărucior sau ca raft independent.",
+    "specs": [
+      [
+        "Variante",
+        "SL șină portantă pentru montaj pe perete sau pe cărucior · WS raft independent 600 / 800 / 1000 × 400 × 1800 mm"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Șină portantă",
+        "Cu cârlige pentru fixarea uscătoarelor"
+      ],
+      [
+        "Uscătoare",
+        "Pentru plosca, capace și urinare, combinabile liber"
+      ],
+      [
+        "Tavă de scurgere",
+        "Plastic; opțional oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Dimensiuni SL",
+        "Lungime 540 / 740 / 840 mm, înălțime 600 – 2000 mm în funcție de dotare"
+      ],
+      [
+        "Opțional",
+        "WS cu roți Ø 100 mm; polițe drepte sau înclinate"
+      ]
+    ]
+  },
+  "tr-rob": {
+    "model": "Raft pentru încălțăminte ROB",
+    "description": "Raft de perete pentru încălțăminte, integral din oțel inoxidabil – suporturi la distanță de 80 mm, pe unul sau mai multe rânduri.",
+    "specs": [
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Montaj",
+        "Montaj pe perete"
+      ],
+      [
+        "Distanța dintre suporturi",
+        "80 mm"
+      ],
+      [
+        "Variante",
+        "Pe unul sau mai multe rânduri, lungime după necesități"
+      ]
+    ]
   }
 }
