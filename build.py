@@ -1389,32 +1389,48 @@ DL_MED = [
 
 DL_HB = []
 
-# --- TECHMED-Bereiche (Medizinische Einrichtung 04–12) --------------------
+# --- TECHMED-Bereiche (Medizinische Einrichtung 04–08) --------------------
 # Noch ohne Produktdaten: Bereich lässt sich aufklappen und zeigt den Hinweis,
 # dass die Modelle folgen. Sobald Daten da sind, wird hier auf Produktkarten
 # umgestellt (wie CARDS[...] bei 01–03).
+# Vierter Eintrag je Bereich = Unterbereiche (id, Titel); leer = keine.
 _TM_SOON = "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt."
+_TM_MFR = ('          <img class="m-ac-mfr m-ac-mfr--techmed" src="assets/brands/techmed.png"'
+           ' alt="TECHMED" loading="lazy">\n')
 _TM_CATS = [
-    ("04", "medizinische-wagen",        "Medizinische Wagen"),
-    ("05", "geraetewagen",              "Gerätewagen"),
-    ("06", "behandlungswagen",          "Behandlungswagen"),
-    ("07", "instrumentenwagen",         "Instrumentenwagen"),
-    ("08", "stationswagen",             "Stationswagen"),
-    ("09", "edelstahlmoebel",           "Edelstahlmöbel"),
-    ("10", "transportwagen",            "Transportwagen"),
-    ("11", "sterilisation-lagerung",    "Sterilisation, unreiner Arbeitsraum und Lagerung"),
-    ("12", "nichtmagnetische-produkte", "Nichtmagnetische Produkte"),
+    ("04", "medizinische-wagen",        "Medizinische Wagen", []),
+    ("05", "geraetewagen",              "Gerätewagen", []),
+    ("06", "mobile-edelstahlmoebel",    "Mobile Edelstahlmöbel", [
+        ("behandlungswagen",  "Behandlungswagen"),
+        ("instrumentenwagen", "Instrumentenwagen"),
+        ("stationswagen",     "Stationswagen"),
+        ("transportwagen",    "Transportwagen"),
+    ]),
+    ("07", "sterilisation-lagerung",    "Sterilisation, unreiner Arbeitsraum und Lagerung", []),
+    ("08", "nichtmagnetische-produkte", "Nichtmagnetische Produkte", []),
+    ("09", "schienensysteme",           "Schienensysteme", []),
 ]
 
 def _techmed_sections():
     out = []
-    for num, sid, title in _TM_CATS:
+    for num, sid, title, subs in _TM_CATS:
+        if subs:
+            inner = "\n\n".join(
+f'            <details class="m-ac m-ac-sub" id="{ssid}">\n'
+f'              <summary><span class="m-ac-title">{stitle}</span>' + CHEV + '</summary>\n'
+ '              <div class="m-ac-body">\n'
+f'                <p class="m-ac-lead">{_TM_SOON}</p>\n'
+ '              </div>\n'
+ '            </details>' for ssid, stitle in subs)
+            body = ('          <div class="m-acc m-acc-nested">\n\n'
+                    + inner + '\n\n          </div>\n')
+        else:
+            body = f'          <p class="m-ac-lead">{_TM_SOON}</p>\n'
         out.append(
 f'      <details class="m-ac" id="{sid}">\n'
 f'        <summary><span class="m-ac-num">{num}</span><span class="m-ac-title">{title}</span>' + CHEV + '</summary>\n'
  '        <div class="m-ac-body">\n'
- '          <img class="m-ac-mfr m-ac-mfr--techmed" src="assets/brands/techmed.png" alt="TECHMED" loading="lazy">\n'
-f'          <p class="m-ac-lead">{_TM_SOON}</p>\n'
+ + _TM_MFR + body +
  '        </div>\n'
  '      </details>')
     return "\n\n".join(out)
@@ -1739,7 +1755,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
 ''' + _techmed_sections() + '''
-''' + _downloads_datasheets("13", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
+''' + _downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
     </div>
   </div>
 </section>
@@ -1931,12 +1947,13 @@ _PUI = {
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Manufacturer TECHMED – open website in a new tab",
   "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterilization, soiled utility room and storage",
   "Nichtmagnetische Produkte": "Non-magnetic products",
+  "Schienensysteme": "Rail systems",
   "Medizinische Wagen": "Medical carts",
   "Gerätewagen": "Medical equipment carts",
   "Behandlungswagen": "Treatment carts",
   "Instrumentenwagen": "Instrument carts",
   "Stationswagen": "Ward carts",
-  "Edelstahlmöbel": "Stainless steel furniture",
+  "Mobile Edelstahlmöbel": "Mobile stainless steel furniture",
   "Transportwagen": "Transport trolleys",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "The models for this section are currently being prepared and will be added shortly.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Manufacturer MOBIAK – open website in a new tab",
@@ -2069,12 +2086,13 @@ _PUI = {
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Producent TECHMED – otwórz stronę w nowej karcie",
   "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterylizacja, brudownik i magazynowanie",
   "Nichtmagnetische Produkte": "Produkty niemagnetyczne",
+  "Schienensysteme": "Systemy szynowe",
   "Medizinische Wagen": "Wózki medyczne",
   "Gerätewagen": "Wózki pod aparaturę medyczną",
   "Behandlungswagen": "Wózki zabiegowe",
   "Instrumentenwagen": "Wózki narzędziowe",
   "Stationswagen": "Wózki oddziałowe",
-  "Edelstahlmöbel": "Meble ze stali nierdzewnej",
+  "Mobile Edelstahlmöbel": "Mobilne meble ze stali nierdzewnej",
   "Transportwagen": "Wózki transportowe",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modele w tym obszarze są obecnie przygotowywane i zostaną wkrótce dodane.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producent MOBIAK – otwórz stronę w nowej karcie",
@@ -2207,12 +2225,13 @@ _PUI = {
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Producător TECHMED – deschide site-ul într-o filă nouă",
   "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterilizare, cameră de utilități murdare și depozitare",
   "Nichtmagnetische Produkte": "Produse nemagnetice",
+  "Schienensysteme": "Sisteme de șine",
   "Medizinische Wagen": "Cărucioare medicale",
   "Gerätewagen": "Cărucioare pentru aparatură medicală",
   "Behandlungswagen": "Cărucioare de tratament",
   "Instrumentenwagen": "Cărucioare pentru instrumentar",
   "Stationswagen": "Cărucioare de secție",
-  "Edelstahlmöbel": "Mobilier din oțel inoxidabil",
+  "Mobile Edelstahlmöbel": "Mobilier mobil din oțel inoxidabil",
   "Transportwagen": "Cărucioare de transport",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modelele pentru această secțiune sunt în curs de pregătire și vor fi adăugate în curând.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producător MOBIAK – deschide site-ul într-o filă nouă",
@@ -2363,12 +2382,13 @@ _PROD_CHROME = [
   "Hersteller TECHMED – Website in neuem Tab öffnen",
   "Sterilisation, unreiner Arbeitsraum und Lagerung",
   "Nichtmagnetische Produkte",
+  "Schienensysteme",
   "Medizinische Wagen",
   "Gerätewagen",
   "Behandlungswagen",
   "Instrumentenwagen",
   "Stationswagen",
-  "Edelstahlmöbel",
+  "Mobile Edelstahlmöbel",
   "Transportwagen",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen",
@@ -2445,8 +2465,8 @@ def _body_produkte(lang):
     swaps.append((_farben_html(), _farben_html(lang)))
     swaps.append((_downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS),
                   _downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS, lang=lang)))
-    swaps.append((_downloads_datasheets("13", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
-                  _downloads_datasheets("13", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
+    swaps.append((_downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
+                  _downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
     swaps.append((_downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB),
                   _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB, lang=lang)))
     for de_block, tr_block in swaps:
