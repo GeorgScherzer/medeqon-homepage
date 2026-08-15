@@ -2942,5 +2942,77 @@
         "The chosen castor type changes the overall height of the table"
       ]
     ]
+  },
+  "st-ko2m": {
+    "model": "KO-2m telescopic IV arm",
+    "description": "Wall-mounted stainless steel telescopic arm with a double hook for infusions – four nested tubular elements, extending from 700 to 2000 mm, single or double.",
+    "specs": [
+      [
+        "Versions",
+        "Single · Double (KO-2m double) · With additional rail or glider mount"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Arm",
+        "Four nested, inseparable tubular elements"
+      ],
+      [
+        "Head",
+        "With two hooks"
+      ],
+      [
+        "Length retracted",
+        "700 mm"
+      ],
+      [
+        "Length extended",
+        "2000 mm"
+      ],
+      [
+        "Mounting",
+        "Wall mounting"
+      ]
+    ]
+  },
+  "st-pt": {
+    "model": "PT telescopic privacy screen",
+    "description": "Telescopic stainless steel screen arm with curtain – retracts to save space when not in use, mounted on the wall, on a medi-rail or on a trolley.",
+    "specs": [
+      [
+        "Versions",
+        "PT-01 · PT-02"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Arm",
+        "Four nested, inseparable tubular elements"
+      ],
+      [
+        "Curtain",
+        "Linen fabric or PVC"
+      ],
+      [
+        "Mounting",
+        "Wall mounting, medi-rail mount or trolley"
+      ],
+      [
+        "Trolley",
+        "Powder-coated steel, stainless steel 0H18N9 or ABS plastic"
+      ],
+      [
+        "Length retracted",
+        "700 mm (option 850 mm)"
+      ],
+      [
+        "Length extended",
+        "2000 mm (option 2500 mm)"
+      ]
+    ]
   }
 }

@@ -2714,6 +2714,86 @@
     ]
   },
   {
+    "cat": "station",
+    "slug": "st-ko2m",
+    "model": "Teleskop-Infusionsarm KO-2m",
+    "ref": "KO-2m",
+    "image_count": 4,
+    "description": "Wandmontierter Teleskoparm aus Edelstahl mit Doppelhaken für Infusionen – vier ineinandergeführte Rohrelemente, von 700 auf 2000 mm ausziehbar, einfach oder doppelt.",
+    "specs": [
+      [
+        "Ausführungen",
+        "Einfach · Doppelt (KO-2m double) · Mit zusätzlicher Schienen- bzw. Gleiteraufnahme"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Arm",
+        "Vier ineinandergeführte, unlösbar verbundene Rohrelemente"
+      ],
+      [
+        "Kopf",
+        "Mit zwei Haken"
+      ],
+      [
+        "Länge eingeschoben",
+        "700 mm"
+      ],
+      [
+        "Länge ausgezogen",
+        "2000 mm"
+      ],
+      [
+        "Montage",
+        "Wandmontage"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-pt",
+    "model": "Teleskop-Sichtschutz PT",
+    "ref": "PT-01 / PT-02",
+    "image_count": 2,
+    "description": "Teleskopierbarer Sichtschutzarm aus Edelstahl mit Vorhang – bei Nichtgebrauch platzsparend eingeschoben, wahlweise an der Wand, an der Normschiene oder auf einem Fahrgestell.",
+    "specs": [
+      [
+        "Ausführungen",
+        "PT-01 · PT-02"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Arm",
+        "Vier ineinandergeführte, unlösbar verbundene Rohrelemente"
+      ],
+      [
+        "Vorhang",
+        "Leinengewebe oder PVC"
+      ],
+      [
+        "Montage",
+        "Wandmontage, Normschienenhalter oder Fahrgestell"
+      ],
+      [
+        "Fahrgestell",
+        "Stahl pulverbeschichtet, Edelstahl 0H18N9 oder ABS-Kunststoff"
+      ],
+      [
+        "Länge eingeschoben",
+        "700 mm (Option 850 mm)"
+      ],
+      [
+        "Länge ausgezogen",
+        "2000 mm (Option 2500 mm)"
+      ]
+    ]
+  },
+  {
     "cat": "gvw",
     "slug": "gv-eco",
     "model": "Geräteträger ECO / TOP / MOD",

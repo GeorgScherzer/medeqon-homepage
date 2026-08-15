@@ -2942,5 +2942,77 @@
         "Tipul de roți ales modifică înălțimea mesei"
       ]
     ]
+  },
+  "st-ko2m": {
+    "model": "Braț telescopic pentru perfuzii KO-2m",
+    "description": "Braț telescopic de perete din oțel inoxidabil, cu cârlig dublu pentru perfuzii – patru elemente tubulare glisante, extensibile de la 700 la 2000 mm, simplu sau dublu.",
+    "specs": [
+      [
+        "Variante",
+        "Simplu · Dublu (KO-2m double) · Cu suport suplimentar pentru șină sau glisiere"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Braț",
+        "Patru elemente tubulare glisante, indisociabile"
+      ],
+      [
+        "Cap",
+        "Cu două cârlige"
+      ],
+      [
+        "Lungime retras",
+        "700 mm"
+      ],
+      [
+        "Lungime extins",
+        "2000 mm"
+      ],
+      [
+        "Montaj",
+        "Montaj pe perete"
+      ]
+    ]
+  },
+  "st-pt": {
+    "model": "Paravan telescopic PT",
+    "description": "Braț telescopic de paravanare din oțel inoxidabil, cu perdea – retras ocupă puțin spațiu, montat pe perete, pe șina medicală sau pe un cărucior.",
+    "specs": [
+      [
+        "Variante",
+        "PT-01 · PT-02"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Braț",
+        "Patru elemente tubulare glisante, indisociabile"
+      ],
+      [
+        "Perdea",
+        "Țesătură de in sau PVC"
+      ],
+      [
+        "Montaj",
+        "Montaj pe perete, suport pentru șină medicală sau cărucior"
+      ],
+      [
+        "Cărucior",
+        "Oțel vopsit electrostatic, oțel inoxidabil 0H18N9 sau plastic ABS"
+      ],
+      [
+        "Lungime retras",
+        "700 mm (opțional 850 mm)"
+      ],
+      [
+        "Lungime extins",
+        "2000 mm (opțional 2500 mm)"
+      ]
+    ]
   }
 }
