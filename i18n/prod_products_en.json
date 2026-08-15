@@ -2452,5 +2452,333 @@
         "695 × 640 mm, height 950 mm"
       ]
     ]
+  },
+  "gv-eco": {
+    "model": "ECO / TOP / MOD equipment trolley",
+    "description": "Slim equipment trolleys on an aluminium profile frame – shelves freely adjustable in height, for self-assembly, in three sizes.",
+    "specs": [
+      [
+        "Versions",
+        "ECO 500 × 460 × 1000 mm · TOP 530 × 400 × 900 mm · MOD 735 × 420 × 860 mm"
+      ],
+      [
+        "Frame",
+        "Aluminium profile, powder-coated"
+      ],
+      [
+        "Worktop",
+        "Recessed; ECO/TOP 450 × 320 mm · MOD 655 × 400 mm"
+      ],
+      [
+        "Shelves",
+        "Powder-coated steel, with raised rim"
+      ],
+      [
+        "Levels",
+        "Spacing freely adjustable"
+      ],
+      [
+        "Assembly",
+        "Designed for easy self-assembly"
+      ],
+      [
+        "Castors",
+        "Ø 50 mm, 2 lockable"
+      ],
+      [
+        "Accessories",
+        "Power socket strip, accessories basket, medi-rail"
+      ]
+    ]
+  },
+  "gv-k1": {
+    "model": "K-1 equipment trolley",
+    "description": "Equipment trolley on aluminium columns with drawer or cabinet – eight configurations from a compact side trolley to a tall equipment tower.",
+    "specs": [
+      [
+        "Columns",
+        "Powder-coated aluminium, shelf spacing freely adjustable"
+      ],
+      [
+        "Worktop",
+        "Powder-coated steel, recessed (anti-slip)"
+      ],
+      [
+        "Drawer",
+        "450 × 320 × 155 mm"
+      ],
+      [
+        "Cabinet",
+        "450 × 320 × 284 mm (G-002)"
+      ],
+      [
+        "Versions",
+        "G-001 530 × 400 × 800 · G-002 – G-005 530 × 400 × 900 · G-006 530 × 400 × 1200 · G-007/G-008 790 × 420 × 800 mm"
+      ],
+      [
+        "Worktop dimensions",
+        "450 × 320 mm; G-007/G-008 700 × 400 mm"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Accessories",
+        "Power socket strip, IV pole or articulated arm, medi-rail, accessories basket"
+      ]
+    ]
+  },
+  "gv-k1lux": {
+    "model": "K-1 LUX equipment trolley",
+    "description": "Equipment trolley of the LUX line with coloured fronts in RAL – ABS-clad base, push handle and recessed worktop.",
+    "specs": [
+      [
+        "Columns",
+        "Powder-coated aluminium profile, shelf spacing freely adjustable"
+      ],
+      [
+        "Worktop",
+        "Recessed, powder-coated in RAL colours"
+      ],
+      [
+        "Drawer",
+        "Powder-coated steel in RAL colours"
+      ],
+      [
+        "Base",
+        "Steel with ABS cladding"
+      ],
+      [
+        "Colours",
+        "Fronts to the RAL palette"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "550 × 470 mm, height 900 mm (without accessories)"
+      ],
+      [
+        "Worktop dimensions",
+        "450 × 320 mm"
+      ],
+      [
+        "Accessories",
+        "Power socket strip, IV pole with cable holder, medi-rail, accessories basket, WKP articulated arm"
+      ]
+    ]
+  },
+  "gv-apar": {
+    "model": "APAR workstation trolley",
+    "description": "Mobile workstations on aluminium columns – height-adjustable and expandable into a complete IT workstation with monitor holder, keyboard shelf and cable management.",
+    "specs": [
+      [
+        "Versions",
+        "APAR-1 510 – 670 × 480 – 540 mm, height 800 – 1300 mm · APAR-2 top lengths 450/500/550/600 mm · APAR-3 1200 × 580 mm, height 800 – 1800 mm"
+      ],
+      [
+        "Columns",
+        "Powder-coated aluminium, shelf spacing freely adjustable"
+      ],
+      [
+        "Worktop",
+        "Powder-coated steel, recessed; optionally HPL laminate. APAR-1/-2 450 × 320 mm · APAR-3 1100 × 500 mm"
+      ],
+      [
+        "Height adjustment",
+        "APAR-1 by gas spring, ±150 mm"
+      ],
+      [
+        "Drawer",
+        "450 × 320 × 155 mm; APAR-3 shelf and drawer 500 × 500 mm"
+      ],
+      [
+        "Base",
+        "Steel with ABS cladding"
+      ],
+      [
+        "Castors",
+        "APAR-1 Ø 75 mm · APAR-2/-3 Ø 100 mm (option Ø 75 mm), 2 lockable each"
+      ],
+      [
+        "Trim",
+        "Decorative elements powder-coated to the RAL palette"
+      ],
+      [
+        "Accessories",
+        "Power socket strip, monitor holder, keyboard shelf, cable arm, articulated arm, IV pole, medi-rail, accessories basket, waste bag holder, oxygen cylinder holder"
+      ]
+    ]
+  },
+  "gv-k3c": {
+    "model": "K-3 series C treatment trolley",
+    "description": "Treatment trolley with a permanently mounted stainless steel worktop and raised rim all round – four equipment variants from wire basket to drawer.",
+    "specs": [
+      [
+        "Versions",
+        "C-01 wire baskets · C-02 drawer · C-03 flat shelves · C-04 trays and bowls"
+      ],
+      [
+        "Frame",
+        "Aluminium or steel, white powder-coated"
+      ],
+      [
+        "Worktop",
+        "Stainless steel 0H18N9, permanently mounted, with raised rim"
+      ],
+      [
+        "Drawer and basket shelf",
+        "Powder-coated steel"
+      ],
+      [
+        "Waste bag frame",
+        "Powder-coated steel with plastic lid"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "770 or 950 × 430 or 480 mm, height 880 mm"
+      ],
+      [
+        "Shelf dimensions",
+        "Top 705 × 415 mm · lower 655 × 415 mm; basket 655 × 410 × 90 mm"
+      ],
+      [
+        "Cuvette",
+        "Plastic, 395 × 325 × 65 mm"
+      ],
+      [
+        "Option",
+        "Entirely of stainless steel 0H18N9; tilting bowl, waste bowl and accessories basket in stainless steel"
+      ]
+    ]
+  },
+  "gv-k3d": {
+    "model": "K-3 series D treatment trolley",
+    "description": "Treatment trolley with a removable stainless steel tray – four sizes from a narrow side trolley to a 1000 mm wide ward trolley.",
+    "specs": [
+      [
+        "Versions",
+        "D-01 805 × 430 · D-02 805 × 480 · D-03 1000 × 430 or 480 · D-04 680 × 430 or 480 × 430 mm"
+      ],
+      [
+        "Frame",
+        "Aluminium and steel, white powder-coated"
+      ],
+      [
+        "Worktop",
+        "Stainless steel 0H18N9 as a removable tray, 610 × 358 × 17 mm"
+      ],
+      [
+        "Waste bag frame",
+        "Powder-coated steel with plastic lid"
+      ],
+      [
+        "Accessories basket",
+        "Powder-coated steel, 655 × 410 × 90 mm"
+      ],
+      [
+        "Cuvette",
+        "Plastic, 395 × 325 × 65 mm"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Height",
+        "890 mm"
+      ],
+      [
+        "Material codes",
+        "KO = stainless steel 0H18N9 · ST = powder-coated steel"
+      ],
+      [
+        "Option",
+        "Entirely of stainless steel 0H18N9; tilting bowl, waste bowl and accessories basket in stainless steel"
+      ]
+    ]
+  },
+  "gv-mb3": {
+    "model": "MB-3 multifunctional trolley",
+    "description": "Multifunctional ward trolley with a recessed ABS worktop and coloured column trims – freely combinable with trays, baskets and waste disposal accessories.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile, white powder-coated"
+      ],
+      [
+        "Worktop and shelf",
+        "ABS plastic, recessed (anti-slip)"
+      ],
+      [
+        "Tray",
+        "Stainless steel 0H18N9, optionally removable"
+      ],
+      [
+        "Basket shelf",
+        "Powder-coated steel; optionally stainless steel 0H18N9"
+      ],
+      [
+        "Waste bag frame",
+        "Powder-coated steel with ABS lid"
+      ],
+      [
+        "Base",
+        "Steel with ABS cladding"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "835 × 455 mm, height 880 mm (without accessories)"
+      ],
+      [
+        "Worktop dimensions",
+        "740 × 410 mm"
+      ],
+      [
+        "Accessories",
+        "Waste bag frame, accessories basket, waste bag with tilting lid, needle container, waste bowl, glove box"
+      ]
+    ]
+  },
+  "gv-wl": {
+    "model": "WL ward trolley",
+    "description": "Ward trolley for medication distribution – two removable stainless steel trays per level with a total of 60 medication compartments.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium and steel, white powder-coated"
+      ],
+      [
+        "Shelves",
+        "Stainless steel 0H18N9, two removable trays per level"
+      ],
+      [
+        "Medication compartments",
+        "Plastic, 60 pcs per level"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "660 × 430 mm, height 890 mm"
+      ],
+      [
+        "Option",
+        "Frame and accessories basket in stainless steel 0H18N9, waste bowl in stainless steel"
+      ]
+    ]
   }
 }

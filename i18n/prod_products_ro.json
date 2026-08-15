@@ -2452,5 +2452,333 @@
         "695 × 640 mm, înălțime 950 mm"
       ]
     ]
+  },
+  "gv-eco": {
+    "model": "Cărucior pentru aparatură ECO / TOP / MOD",
+    "description": "Cărucioare zvelte pentru aparatură, pe cadru din profil de aluminiu – rafturi reglabile liber pe înălțime, pentru automontare, în trei dimensiuni.",
+    "specs": [
+      [
+        "Variante",
+        "ECO 500 × 460 × 1000 mm · TOP 530 × 400 × 900 mm · MOD 735 × 420 × 860 mm"
+      ],
+      [
+        "Cadru",
+        "Profil din aluminiu, vopsit electrostatic"
+      ],
+      [
+        "Blat de lucru",
+        "Adâncit; ECO/TOP 450 × 320 mm · MOD 655 × 400 mm"
+      ],
+      [
+        "Rafturi",
+        "Oțel vopsit electrostatic, cu margine ridicată"
+      ],
+      [
+        "Niveluri",
+        "Distanța reglabilă liber"
+      ],
+      [
+        "Montaj",
+        "Conceput pentru automontare simplă"
+      ],
+      [
+        "Roți",
+        "Ø 50 mm, 2 cu frână"
+      ],
+      [
+        "Accesorii",
+        "Prelungitor cu prize, coș pentru accesorii, șină medicală"
+      ]
+    ]
+  },
+  "gv-k1": {
+    "model": "Cărucior pentru aparatură K-1",
+    "description": "Cărucior pentru aparatură pe coloane de aluminiu, cu sertar sau dulap – opt configurații, de la căruciorul auxiliar compact până la turnul înalt pentru aparatură.",
+    "specs": [
+      [
+        "Coloane",
+        "Aluminiu vopsit electrostatic, distanța dintre rafturi reglabilă liber"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel vopsit electrostatic, adâncit (antialunecare)"
+      ],
+      [
+        "Sertar",
+        "450 × 320 × 155 mm"
+      ],
+      [
+        "Dulap",
+        "450 × 320 × 284 mm (G-002)"
+      ],
+      [
+        "Variante",
+        "G-001 530 × 400 × 800 · G-002 – G-005 530 × 400 × 900 · G-006 530 × 400 × 1200 · G-007/G-008 790 × 420 × 800 mm"
+      ],
+      [
+        "Dimensiuni blat",
+        "450 × 320 mm; G-007/G-008 700 × 400 mm"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Accesorii",
+        "Prelungitor cu prize, stativ pentru perfuzii sau braț articulat, șină medicală, coș pentru accesorii"
+      ]
+    ]
+  },
+  "gv-k1lux": {
+    "model": "Cărucior pentru aparatură K-1 LUX",
+    "description": "Cărucior pentru aparatură din gama LUX, cu fronturi colorate în nuanțe RAL – bază îmbrăcată în ABS, mâner de împingere și blat adâncit.",
+    "specs": [
+      [
+        "Coloane",
+        "Profil din aluminiu vopsit electrostatic, distanța dintre rafturi reglabilă liber"
+      ],
+      [
+        "Blat de lucru",
+        "Adâncit, vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Sertar",
+        "Oțel vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Bază",
+        "Oțel îmbrăcat în ABS"
+      ],
+      [
+        "Culori",
+        "Fronturi conform paletarului RAL"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "550 × 470 mm, înălțime 900 mm (fără accesorii)"
+      ],
+      [
+        "Dimensiuni blat",
+        "450 × 320 mm"
+      ],
+      [
+        "Accesorii",
+        "Prelungitor cu prize, stativ pentru perfuzii cu suport de cabluri, șină medicală, coș pentru accesorii, braț articulat WKP"
+      ]
+    ]
+  },
+  "gv-apar": {
+    "model": "Cărucior de lucru APAR",
+    "description": "Posturi de lucru mobile pe coloane de aluminiu – reglabile pe înălțime și extensibile într-un post informatic complet, cu suport de monitor, poliță pentru tastatură și ghidaj de cabluri.",
+    "specs": [
+      [
+        "Variante",
+        "APAR-1 510 – 670 × 480 – 540 mm, înălțime 800 – 1300 mm · APAR-2 lungimi de blat 450/500/550/600 mm · APAR-3 1200 × 580 mm, înălțime 800 – 1800 mm"
+      ],
+      [
+        "Coloane",
+        "Aluminiu vopsit electrostatic, distanța dintre rafturi reglabilă liber"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel vopsit electrostatic, adâncit; opțional placă HPL. APAR-1/-2 450 × 320 mm · APAR-3 1100 × 500 mm"
+      ],
+      [
+        "Reglarea înălțimii",
+        "APAR-1 cu arc cu gaz, ±150 mm"
+      ],
+      [
+        "Sertar",
+        "450 × 320 × 155 mm; APAR-3 poliță și sertar 500 × 500 mm"
+      ],
+      [
+        "Bază",
+        "Oțel îmbrăcat în ABS"
+      ],
+      [
+        "Roți",
+        "APAR-1 Ø 75 mm · APAR-2/-3 Ø 100 mm (opțional Ø 75 mm), câte 2 cu frână"
+      ],
+      [
+        "Elemente decorative",
+        "Vopsite electrostatic conform paletarului RAL"
+      ],
+      [
+        "Accesorii",
+        "Prelungitor cu prize, suport de monitor, poliță pentru tastatură, braț pentru cabluri, braț articulat, stativ pentru perfuzii, șină medicală, coș pentru accesorii, suport pentru sac de deșeuri, suport pentru butelie de oxigen"
+      ]
+    ]
+  },
+  "gv-k3c": {
+    "model": "Cărucior de tratament K-3 seria C",
+    "description": "Cărucior de tratament cu blat din oțel inoxidabil montat fix și margine ridicată pe tot conturul – patru variante de dotare, de la coșuri de sârmă până la sertar.",
+    "specs": [
+      [
+        "Variante",
+        "C-01 coșuri de sârmă · C-02 sertar · C-03 polițe netede · C-04 tăvi și boluri"
+      ],
+      [
+        "Cadru",
+        "Aluminiu sau oțel, vopsit electrostatic în alb"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel inoxidabil 0H18N9, montat fix, cu margine ridicată"
+      ],
+      [
+        "Sertar și poliță cu coș",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Cadru pentru sac",
+        "Oțel vopsit electrostatic cu capac din plastic"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "770 sau 950 × 430 sau 480 mm, înălțime 880 mm"
+      ],
+      [
+        "Dimensiuni polițe",
+        "Sus 705 × 415 mm · jos 655 × 415 mm; coș 655 × 410 × 90 mm"
+      ],
+      [
+        "Tăviță renală",
+        "Plastic, 395 × 325 × 65 mm"
+      ],
+      [
+        "Opțional",
+        "Integral din oțel inoxidabil 0H18N9; bol rabatabil, bol pentru deșeuri și coș pentru accesorii din oțel inoxidabil"
+      ]
+    ]
+  },
+  "gv-k3d": {
+    "model": "Cărucior de tratament K-3 seria D",
+    "description": "Cărucior de tratament cu tavă detașabilă din oțel inoxidabil – patru dimensiuni, de la căruciorul auxiliar îngust până la căruciorul de secție lat de 1000 mm.",
+    "specs": [
+      [
+        "Variante",
+        "D-01 805 × 430 · D-02 805 × 480 · D-03 1000 × 430 sau 480 · D-04 680 × 430 sau 480 × 430 mm"
+      ],
+      [
+        "Cadru",
+        "Aluminiu și oțel, vopsite electrostatic în alb"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel inoxidabil 0H18N9 sub formă de tavă detașabilă, 610 × 358 × 17 mm"
+      ],
+      [
+        "Cadru pentru sac",
+        "Oțel vopsit electrostatic cu capac din plastic"
+      ],
+      [
+        "Coș pentru accesorii",
+        "Oțel vopsit electrostatic, 655 × 410 × 90 mm"
+      ],
+      [
+        "Tăviță renală",
+        "Plastic, 395 × 325 × 65 mm"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Înălțime",
+        "890 mm"
+      ],
+      [
+        "Coduri de material",
+        "KO = oțel inoxidabil 0H18N9 · ST = oțel vopsit electrostatic"
+      ],
+      [
+        "Opțional",
+        "Integral din oțel inoxidabil 0H18N9; bol rabatabil, bol pentru deșeuri și coș pentru accesorii din oțel inoxidabil"
+      ]
+    ]
+  },
+  "gv-mb3": {
+    "model": "Cărucior multifuncțional MB-3",
+    "description": "Cărucior de secție multifuncțional cu blat adâncit din ABS și măști colorate pe coloane – combinabil liber cu tăvi, coșuri și accesorii pentru eliminarea deșeurilor.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil din aluminiu, vopsit electrostatic în alb"
+      ],
+      [
+        "Blat și poliță",
+        "Plastic ABS, adâncite (antialunecare)"
+      ],
+      [
+        "Tavă",
+        "Oțel inoxidabil 0H18N9, opțional detașabilă"
+      ],
+      [
+        "Poliță cu coș",
+        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Cadru pentru sac",
+        "Oțel vopsit electrostatic cu capac din ABS"
+      ],
+      [
+        "Bază",
+        "Oțel îmbrăcat în ABS"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "835 × 455 mm, înălțime 880 mm (fără accesorii)"
+      ],
+      [
+        "Dimensiuni blat",
+        "740 × 410 mm"
+      ],
+      [
+        "Accesorii",
+        "Cadru pentru sac, coș pentru accesorii, sac cu capac rabatabil, recipient pentru ace, bol pentru deșeuri, cutie pentru mănuși"
+      ]
+    ]
+  },
+  "gv-wl": {
+    "model": "Cărucior de secție WL",
+    "description": "Cărucior de secție pentru distribuirea medicamentelor – câte două tăvi detașabile din oțel inoxidabil pe fiecare nivel, cu 60 de compartimente pentru medicamente în total.",
+    "specs": [
+      [
+        "Cadru",
+        "Aluminiu și oțel, vopsite electrostatic în alb"
+      ],
+      [
+        "Polițe",
+        "Oțel inoxidabil 0H18N9, câte două tăvi detașabile pe nivel"
+      ],
+      [
+        "Compartimente pentru medicamente",
+        "Plastic, 60 buc. pe nivel"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "660 × 430 mm, înălțime 890 mm"
+      ],
+      [
+        "Opțional",
+        "Cadru și coș pentru accesorii din oțel inoxidabil 0H18N9, bol pentru deșeuri din oțel inoxidabil"
+      ]
+    ]
   }
 }

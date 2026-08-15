@@ -2452,5 +2452,333 @@
         "695 × 640 mm, wysokość 950 mm"
       ]
     ]
+  },
+  "gv-eco": {
+    "model": "Wózek pod aparaturę ECO / TOP / MOD",
+    "description": "Smukłe wózki pod aparaturę na ramie z profilu aluminiowego – półki z dowolną regulacją wysokości, do samodzielnego montażu, w trzech rozmiarach.",
+    "specs": [
+      [
+        "Wersje",
+        "ECO 500 × 460 × 1000 mm · TOP 530 × 400 × 900 mm · MOD 735 × 420 × 860 mm"
+      ],
+      [
+        "Rama",
+        "Profil aluminiowy, malowany proszkowo"
+      ],
+      [
+        "Blat roboczy",
+        "Wgłębiony; ECO/TOP 450 × 320 mm · MOD 655 × 400 mm"
+      ],
+      [
+        "Półki",
+        "Stal malowana proszkowo, z podniesioną krawędzią"
+      ],
+      [
+        "Poziomy",
+        "Odstęp regulowany dowolnie"
+      ],
+      [
+        "Montaż",
+        "Do łatwego montażu we własnym zakresie"
+      ],
+      [
+        "Kółka",
+        "Ø 50 mm, 2 z blokadą"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Listwa zasilająca, koszyk na akcesoria, szyna medyczna"
+      ]
+    ]
+  },
+  "gv-k1": {
+    "model": "Wózek pod aparaturę K-1",
+    "description": "Wózek pod aparaturę na kolumnach aluminiowych, z szufladą lub szafką – osiem konfiguracji, od kompaktowego wózka pomocniczego po wysoką wieżę aparaturową.",
+    "specs": [
+      [
+        "Kolumny",
+        "Aluminium malowane proszkowo, odstęp półek regulowany dowolnie"
+      ],
+      [
+        "Blat roboczy",
+        "Stal malowana proszkowo, wgłębiony (zabezpieczenie przed zsuwaniem)"
+      ],
+      [
+        "Szuflada",
+        "450 × 320 × 155 mm"
+      ],
+      [
+        "Szafka",
+        "450 × 320 × 284 mm (G-002)"
+      ],
+      [
+        "Wersje",
+        "G-001 530 × 400 × 800 · G-002 – G-005 530 × 400 × 900 · G-006 530 × 400 × 1200 · G-007/G-008 790 × 420 × 800 mm"
+      ],
+      [
+        "Wymiary blatu",
+        "450 × 320 mm; G-007/G-008 700 × 400 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Listwa zasilająca, stojak infuzyjny lub ramię przegubowe, szyna medyczna, koszyk na akcesoria"
+      ]
+    ]
+  },
+  "gv-k1lux": {
+    "model": "Wózek pod aparaturę K-1 LUX",
+    "description": "Wózek pod aparaturę z serii LUX z kolorowymi frontami w kolorach RAL – podstawa osłonięta ABS, uchwyt do prowadzenia i wgłębiony blat.",
+    "specs": [
+      [
+        "Kolumny",
+        "Profil aluminiowy malowany proszkowo, odstęp półek regulowany dowolnie"
+      ],
+      [
+        "Blat roboczy",
+        "Wgłębiony, malowany proszkowo w kolorach RAL"
+      ],
+      [
+        "Szuflada",
+        "Stal malowana proszkowo w kolorach RAL"
+      ],
+      [
+        "Podstawa",
+        "Stal osłonięta ABS"
+      ],
+      [
+        "Kolory",
+        "Fronty według palety RAL"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "550 × 470 mm, wysokość 900 mm (bez wyposażenia dodatkowego)"
+      ],
+      [
+        "Wymiary blatu",
+        "450 × 320 mm"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Listwa zasilająca, stojak infuzyjny z uchwytem na kable, szyna medyczna, koszyk na akcesoria, ramię przegubowe WKP"
+      ]
+    ]
+  },
+  "gv-apar": {
+    "model": "Wózek stanowiskowy APAR",
+    "description": "Mobilne stanowiska pracy na kolumnach aluminiowych – z regulacją wysokości, rozbudowywalne do pełnego stanowiska komputerowego z uchwytem monitora, półką na klawiaturę i prowadzeniem kabli.",
+    "specs": [
+      [
+        "Wersje",
+        "APAR-1 510 – 670 × 480 – 540 mm, wysokość 800 – 1300 mm · APAR-2 długości blatu 450/500/550/600 mm · APAR-3 1200 × 580 mm, wysokość 800 – 1800 mm"
+      ],
+      [
+        "Kolumny",
+        "Aluminium malowane proszkowo, odstęp półek regulowany dowolnie"
+      ],
+      [
+        "Blat roboczy",
+        "Stal malowana proszkowo, wgłębiony; opcjonalnie płyta HPL. APAR-1/-2 450 × 320 mm · APAR-3 1100 × 500 mm"
+      ],
+      [
+        "Regulacja wysokości",
+        "APAR-1 sprężyną gazową, ±150 mm"
+      ],
+      [
+        "Szuflada",
+        "450 × 320 × 155 mm; APAR-3 półka i szuflada 500 × 500 mm"
+      ],
+      [
+        "Podstawa",
+        "Stal osłonięta ABS"
+      ],
+      [
+        "Kółka",
+        "APAR-1 Ø 75 mm · APAR-2/-3 Ø 100 mm (opcja Ø 75 mm), po 2 z blokadą"
+      ],
+      [
+        "Elementy ozdobne",
+        "Malowane proszkowo według palety RAL"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Listwa zasilająca, uchwyt monitora, półka na klawiaturę, ramię na kable, ramię przegubowe, stojak infuzyjny, szyna medyczna, koszyk na akcesoria, uchwyt worka na odpady, uchwyt butli tlenowej"
+      ]
+    ]
+  },
+  "gv-k3c": {
+    "model": "Wózek zabiegowy K-3 seria C",
+    "description": "Wózek zabiegowy z blatem ze stali nierdzewnej zamontowanym na stałe, z podniesioną krawędzią – cztery warianty wyposażenia, od koszy drucianych po szufladę.",
+    "specs": [
+      [
+        "Wersje",
+        "C-01 kosze druciane · C-02 szuflada · C-03 gładkie półki · C-04 wanienki i miski"
+      ],
+      [
+        "Rama",
+        "Aluminium lub stal, malowane proszkowo na biało"
+      ],
+      [
+        "Blat roboczy",
+        "Stal nierdzewna 0H18N9, montowany na stałe, z podniesioną krawędzią"
+      ],
+      [
+        "Szuflada i półka koszowa",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Rama na worek",
+        "Stal malowana proszkowo z pokrywą z tworzywa"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "770 lub 950 × 430 lub 480 mm, wysokość 880 mm"
+      ],
+      [
+        "Wymiary półek",
+        "Górna 705 × 415 mm · dolna 655 × 415 mm; kosz 655 × 410 × 90 mm"
+      ],
+      [
+        "Kuweta",
+        "Tworzywo, 395 × 325 × 65 mm"
+      ],
+      [
+        "Opcja",
+        "W całości ze stali nierdzewnej 0H18N9; miska uchylna, miska na odpady i koszyk na akcesoria ze stali nierdzewnej"
+      ]
+    ]
+  },
+  "gv-k3d": {
+    "model": "Wózek zabiegowy K-3 seria D",
+    "description": "Wózek zabiegowy z wyjmowaną tacą ze stali nierdzewnej – cztery rozmiary, od wąskiego wózka pomocniczego po wózek oddziałowy o szerokości 1000 mm.",
+    "specs": [
+      [
+        "Wersje",
+        "D-01 805 × 430 · D-02 805 × 480 · D-03 1000 × 430 lub 480 · D-04 680 × 430 lub 480 × 430 mm"
+      ],
+      [
+        "Rama",
+        "Aluminium i stal, malowane proszkowo na biało"
+      ],
+      [
+        "Blat roboczy",
+        "Stal nierdzewna 0H18N9 w formie wyjmowanej tacy, 610 × 358 × 17 mm"
+      ],
+      [
+        "Rama na worek",
+        "Stal malowana proszkowo z pokrywą z tworzywa"
+      ],
+      [
+        "Koszyk na akcesoria",
+        "Stal malowana proszkowo, 655 × 410 × 90 mm"
+      ],
+      [
+        "Kuweta",
+        "Tworzywo, 395 × 325 × 65 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wysokość",
+        "890 mm"
+      ],
+      [
+        "Oznaczenia materiałów",
+        "KO = stal nierdzewna 0H18N9 · ST = stal malowana proszkowo"
+      ],
+      [
+        "Opcja",
+        "W całości ze stali nierdzewnej 0H18N9; miska uchylna, miska na odpady i koszyk na akcesoria ze stali nierdzewnej"
+      ]
+    ]
+  },
+  "gv-mb3": {
+    "model": "Wózek wielofunkcyjny MB-3",
+    "description": "Wielofunkcyjny wózek oddziałowy z wgłębionym blatem z ABS i kolorowymi osłonami kolumn – dowolnie łączony z wanienkami, koszami i wyposażeniem do utylizacji.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy, malowany proszkowo na biało"
+      ],
+      [
+        "Blat i półka",
+        "Tworzywo ABS, wgłębione (zabezpieczenie przed zsuwaniem)"
+      ],
+      [
+        "Taca",
+        "Stal nierdzewna 0H18N9, opcjonalnie wyjmowana"
+      ],
+      [
+        "Półka koszowa",
+        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+      ],
+      [
+        "Rama na worek",
+        "Stal malowana proszkowo z pokrywą ABS"
+      ],
+      [
+        "Podstawa",
+        "Stal osłonięta ABS"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "835 × 455 mm, wysokość 880 mm (bez wyposażenia dodatkowego)"
+      ],
+      [
+        "Wymiary blatu",
+        "740 × 410 mm"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Rama na worek, koszyk na akcesoria, worek z pokrywą uchylną, pojemnik na igły, miska na odpady, pojemnik na rękawice"
+      ]
+    ]
+  },
+  "gv-wl": {
+    "model": "Wózek oddziałowy WL",
+    "description": "Wózek oddziałowy do dystrybucji leków – na każdym poziomie dwie wyjmowane tace ze stali nierdzewnej, łącznie 60 przegródek na leki.",
+    "specs": [
+      [
+        "Rama",
+        "Aluminium i stal, malowane proszkowo na biało"
+      ],
+      [
+        "Półki",
+        "Stal nierdzewna 0H18N9, po dwie wyjmowane tace na poziom"
+      ],
+      [
+        "Przegródki na leki",
+        "Tworzywo, 60 szt. na poziom"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "660 × 430 mm, wysokość 890 mm"
+      ],
+      [
+        "Opcja",
+        "Rama i koszyk na akcesoria ze stali nierdzewnej 0H18N9, miska na odpady ze stali nierdzewnej"
+      ]
+    ]
   }
 }
