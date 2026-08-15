@@ -327,6 +327,8 @@ BODY_INDEX = '''<section class="m-hero-main">
   </div>
 </section>
 
+<!--FLYER-->
+
 <section class="m-section" id="tco">
   <div class="m-shell">
     <div class="m-tco-truecost">
@@ -535,8 +537,6 @@ BODY_INDEX = '''<section class="m-hero-main">
     </div>
   </div>
 </section>
-
-<!--FLYER-->
 
 <section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">
   <div class="m-shell">
@@ -1413,21 +1413,30 @@ _FLYERS = [
                                      "ro": "Mobilier medical"}),
 ]
 _FLY_T = {
- "de": dict(tag="Unterlagen", h2="Unsere Flyer",
-            lede="Kompakt aufbereitet auf wenigen Seiten: unsere Leistungen in der Medizintechnik-Planung "
-                 "und unser gesamtes Produktprogramm. Titelbild anklicken zum Ansehen, Pfeil zum Herunterladen.",
+ "de": dict(tag="Flyer & Unterlagen", h2="Ihr Überblick zum Mitnehmen",
+            lede="Ob Neubau, Umbau oder Neuausstattung: Auf wenigen Seiten sehen Sie, was Sie von uns erwarten "
+                 "können – eine Medizintechnik-Planung, die Kosten früh sichtbar macht und Termine hält, und ein "
+                 "Produktprogramm zertifizierter Hersteller, mit dem wir ganze Bereiche ausstatten. Kompakt "
+                 "aufbereitet, sofort verständlich und ideal zum Weitergeben an Bauherren, Architekten und Einkauf.",
             pages="Seiten", open="ansehen", dl="herunterladen", pdf="PDF"),
- "en": dict(tag="Documents", h2="Our flyers",
-            lede="Concise and on a few pages: our medical technology design services and our complete product "
-                 "range. Click the cover to view, the arrow to download.",
+ "en": dict(tag="Flyers & documents", h2="Your overview to take away",
+            lede="New build, refurbishment or re-equipment: a few pages show what you can expect from us – Medical "
+                 "Technology Design that makes costs visible early and keeps to schedule, and a range of products "
+                 "from certified manufacturers with which we equip entire areas. Concise, immediately clear and "
+                 "ideal for passing on to clients, architects and procurement.",
             pages="pages", open="view", dl="download", pdf="PDF"),
- "pl": dict(tag="Materiały", h2="Nasze ulotki",
-            lede="Zwięźle na kilku stronach: nasze usługi w zakresie projektowania techniki medycznej oraz cały "
-                 "asortyment produktów. Kliknij okładkę, aby obejrzeć, strzałkę, aby pobrać.",
+ "pl": dict(tag="Ulotki i materiały", h2="Przegląd, który weźmiesz ze sobą",
+            lede="Nowa budowa, przebudowa czy ponowne wyposażenie: na kilku stronach zobaczysz, czego możesz od nas "
+                 "oczekiwać – projektowanie techniki medycznej, które wcześnie uwidacznia koszty i pilnuje terminów, "
+                 "oraz asortyment certyfikowanych producentów, którym wyposażamy całe obszary. Zwięźle, zrozumiale "
+                 "i idealnie do przekazania inwestorom, architektom i działom zakupów.",
             pages="stron", open="zobacz", dl="pobierz", pdf="PDF"),
- "ro": dict(tag="Documente", h2="Pliantele noastre",
-            lede="Concis, pe câteva pagini: serviciile noastre de proiectare a tehnologiei medicale și întreaga "
-                 "gamă de produse. Faceți clic pe copertă pentru vizualizare, pe săgeată pentru descărcare.",
+ "ro": dict(tag="Pliante și documente", h2="Imaginea de ansamblu, pe scurt",
+            lede="Construcție nouă, modernizare sau reechipare: în doar câteva pagini vedeți ce puteți aștepta de la "
+                 "noi – o proiectare a tehnologiei medicale care face costurile vizibile din timp și respectă "
+                 "termenele, precum și o gamă de produse de la producători certificați cu care dotăm zone întregi. "
+                 "Concis, ușor de înțeles și ideal de transmis beneficiarilor, arhitecților și departamentelor de "
+                 "achiziții.",
             pages="pagini", open="vizualizare", dl="descărcare", pdf="PDF"),
 }
 
@@ -3635,6 +3644,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
   </div>
 </section>
 
+<!--FLYER-->
+
 <section class="m-section" id="tco">
   <div class="m-shell">
     <div class="m-tco-truecost">
@@ -3843,8 +3854,6 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
     </div>
   </div>
 </section>
-
-<!--FLYER-->
 
 <section class="m-cta-banner" style="background-image:url(/assets/cta-banner.jpg)">
   <div class="m-shell">
