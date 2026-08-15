@@ -1758,7 +1758,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
         <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
-        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Schienensysteme). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
       </div>
       <div class="m-mfr">
         <span class="m-mfr-cap">Hersteller</span>
@@ -2073,7 +2073,7 @@ _PUI = {
   "Modell verfügbar": "model available",
   "Produkte verfügbar": "products available",
   "Medizinische Einrichtung": "Medical furnishing",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to privacy screening. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (medical trolleys, stainless steel furniture, non-magnetic products). Click a section to expand the models.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Schienensysteme). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to sterile goods logistics. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (carts and tables, transport and waste disposal, ward and outpatient equipment, MRI equipment, rail systems). Click a section to expand the models.",
   "Untersuchungsliegen": "Examination couches",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Examination and treatment couches for practice and clinic – organised by design type.",
   "Fix": "Fixed",
@@ -2209,7 +2209,7 @@ _PUI = {
   "Modell verfügbar": "dostępny model",
   "Produkte verfügbar": "dostępnych produktów",
   "Medizinische Einrichtung": "Wyposażenie medyczne",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po parawany. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki medyczne, meble ze stali nierdzewnej, produkty niemagnetyczne). Kliknij obszar, aby rozwinąć modele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Schienensysteme). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po logistykę materiałów sterylnych. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki i stoliki, transport i utylizacja, wyposażenie oddziałów i ambulatoriów, wyposażenie do MRI, systemy szynowe). Kliknij obszar, aby rozwinąć modele.",
   "Untersuchungsliegen": "Leżanki do badań",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Leżanki do badań i zabiegów dla gabinetu i kliniki – podzielone według typu konstrukcji.",
   "Fix": "Stałe",
@@ -2345,7 +2345,7 @@ _PUI = {
   "Modell verfügbar": "model disponibil",
   "Produkte verfügbar": "produse disponibile",
   "Medizinische Einrichtung": "Mobilier medical",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la paravane. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare medicale, mobilier din oțel inoxidabil, produse nemagnetice). Faceți clic pe o secțiune pentru a extinde modelele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Schienensysteme). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la logistica materialelor sterile. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare și mese, transport și eliminarea deșeurilor, dotări pentru secții și ambulatoriu, dotări pentru RMN, sisteme de șine). Faceți clic pe o secțiune pentru a extinde modelele.",
   "Untersuchungsliegen": "Canapele de examinare",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Canapele de examinare și tratament pentru cabinet și clinică – organizate după tipul constructiv.",
   "Fix": "Fixe",
@@ -2443,7 +2443,7 @@ _PROD_CHROME = [
   "Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – vom Hersteller KENEX.",
   "Aufgehängte Überkopf-Schutzschilde und komplette Aufhängungssysteme (Deckenschienen, Säulen, Arme, Monitor-Aufhängung) – zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich. Vom Hersteller KENEX.",
   "Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – Unterkörper-, Kopfende- und Aufsatz-Schilde sowie passende Aufbewahrung. Vom Hersteller KENEX.",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Schienensysteme). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.",
   "Behandlungs-, Blutabnahme- und Arbeitsstühle sowie Hocker für den medizinischen Einsatz.",
   "Sicht- und Trennwandsysteme für diskrete, flexibel teilbare Raumbereiche.",
