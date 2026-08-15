@@ -1487,17 +1487,13 @@ _TM_SOON = "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kür
 _TM_MFR = ('          <img class="m-ac-mfr m-ac-mfr--techmed" src="assets/brands/techmed.png"'
            ' alt="TECHMED" loading="lazy">\n')
 _TM_CATS = [
-    ("04", "medizinische-wagen",        "Medizinische Wagen", []),
-    ("05", "geraetewagen",              "Gerätewagen", []),
-    ("06", "mobile-edelstahlmoebel",    "Mobile Edelstahlmöbel", [
-        ("behandlungswagen",  "Behandlungswagen"),
-        ("instrumentenwagen", "Instrumentenwagen"),
-        ("stationswagen",     "Stationswagen"),
-        ("transportwagen",    "Transportwagen"),
-    ]),
-    ("07", "sterilisation-lagerung",    "Sterilisation, unreiner Arbeitsraum und Lagerung", []),
-    ("08", "nichtmagnetische-produkte", "Nichtmagnetische Produkte", []),
-    ("09", "schienensysteme",           "Schienensysteme", []),
+    ("04", "medizinische-wagen",       "Medizinische Wagen", []),
+    ("05", "geraete-versorgungswagen", "Geräte- &amp; Versorgungswagen", []),
+    ("06", "behandlungstische",        "Behandlungs-, Instrumenten- &amp; Stationstische", []),
+    ("07", "transport-sterilgut",      "Transport, Entsorgung &amp; Sterilgutlogistik", []),
+    ("08", "stations-ambulanz",        "Stations- und Ambulanzausstattung", []),
+    ("09", "mrt-ausstattung",          "MRT-Ausstattung (nicht-magnetisch)", []),
+    ("10", "schienensysteme",          "Schienensysteme", []),
 ]
 
 def _techmed_sections():
@@ -1846,7 +1842,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
 ''' + _techmed_sections() + '''
-''' + _downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
+''' + _downloads_datasheets("11", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
     </div>
   </div>
 </section>
@@ -2036,16 +2032,13 @@ _PUI = {
   "Hersteller KENEX – Website in neuem Tab öffnen": "Manufacturer KENEX – open website in a new tab",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Manufacturer COINFYCARE – open website in a new tab",
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Manufacturer TECHMED – open website in a new tab",
-  "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterilization, soiled utility room and storage",
-  "Nichtmagnetische Produkte": "Non-magnetic products",
   "Schienensysteme": "Rail systems",
   "Medizinische Wagen": "Medical carts",
-  "Gerätewagen": "Medical equipment carts",
-  "Behandlungswagen": "Treatment carts",
-  "Instrumentenwagen": "Instrument carts",
-  "Stationswagen": "Ward carts",
-  "Mobile Edelstahlmöbel": "Mobile stainless steel furniture",
-  "Transportwagen": "Transport trolleys",
+  "Geräte- &amp; Versorgungswagen": "Equipment &amp; supply carts",
+  "Behandlungs-, Instrumenten- &amp; Stationstische": "Treatment, instrument &amp; ward tables",
+  "Transport, Entsorgung &amp; Sterilgutlogistik": "Transport, waste disposal &amp; sterile goods logistics",
+  "Stations- und Ambulanzausstattung": "Ward and outpatient equipment",
+  "MRT-Ausstattung (nicht-magnetisch)": "MRI equipment (non-magnetic)",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "The models for this section are currently being prepared and will be added shortly.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Manufacturer MOBIAK – open website in a new tab",
   "Persönlicher Strahlenschutz": "Personal radiation protection",
@@ -2175,16 +2168,13 @@ _PUI = {
   "Hersteller KENEX – Website in neuem Tab öffnen": "Producent KENEX – otwórz stronę w nowej karcie",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Producent COINFYCARE – otwórz stronę w nowej karcie",
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Producent TECHMED – otwórz stronę w nowej karcie",
-  "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterylizacja, brudownik i magazynowanie",
-  "Nichtmagnetische Produkte": "Produkty niemagnetyczne",
   "Schienensysteme": "Systemy szynowe",
   "Medizinische Wagen": "Wózki medyczne",
-  "Gerätewagen": "Wózki pod aparaturę medyczną",
-  "Behandlungswagen": "Wózki zabiegowe",
-  "Instrumentenwagen": "Wózki narzędziowe",
-  "Stationswagen": "Wózki oddziałowe",
-  "Mobile Edelstahlmöbel": "Mobilne meble ze stali nierdzewnej",
-  "Transportwagen": "Wózki transportowe",
+  "Geräte- &amp; Versorgungswagen": "Wózki pod aparaturę i zaopatrzeniowe",
+  "Behandlungs-, Instrumenten- &amp; Stationstische": "Stoliki zabiegowe, narzędziowe i oddziałowe",
+  "Transport, Entsorgung &amp; Sterilgutlogistik": "Transport, utylizacja i logistyka materiałów sterylnych",
+  "Stations- und Ambulanzausstattung": "Wyposażenie oddziałów i ambulatoriów",
+  "MRT-Ausstattung (nicht-magnetisch)": "Wyposażenie do MRI (niemagnetyczne)",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modele w tym obszarze są obecnie przygotowywane i zostaną wkrótce dodane.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producent MOBIAK – otwórz stronę w nowej karcie",
   "Persönlicher Strahlenschutz": "Osobista ochrona radiologiczna",
@@ -2314,16 +2304,13 @@ _PUI = {
   "Hersteller KENEX – Website in neuem Tab öffnen": "Producător KENEX – deschide site-ul într-o filă nouă",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Producător COINFYCARE – deschide site-ul într-o filă nouă",
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Producător TECHMED – deschide site-ul într-o filă nouă",
-  "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterilizare, cameră de utilități murdare și depozitare",
-  "Nichtmagnetische Produkte": "Produse nemagnetice",
   "Schienensysteme": "Sisteme de șine",
   "Medizinische Wagen": "Cărucioare medicale",
-  "Gerätewagen": "Cărucioare pentru aparatură medicală",
-  "Behandlungswagen": "Cărucioare de tratament",
-  "Instrumentenwagen": "Cărucioare pentru instrumentar",
-  "Stationswagen": "Cărucioare de secție",
-  "Mobile Edelstahlmöbel": "Mobilier mobil din oțel inoxidabil",
-  "Transportwagen": "Cărucioare de transport",
+  "Geräte- &amp; Versorgungswagen": "Cărucioare pentru aparatură și aprovizionare",
+  "Behandlungs-, Instrumenten- &amp; Stationstische": "Mese de tratament, pentru instrumentar și de secție",
+  "Transport, Entsorgung &amp; Sterilgutlogistik": "Transport, eliminarea deșeurilor și logistica materialelor sterile",
+  "Stations- und Ambulanzausstattung": "Dotări pentru secții și ambulatoriu",
+  "MRT-Ausstattung (nicht-magnetisch)": "Dotări pentru RMN (nemagnetice)",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modelele pentru această secțiune sunt în curs de pregătire și vor fi adăugate în curând.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producător MOBIAK – deschide site-ul într-o filă nouă",
   "Persönlicher Strahlenschutz": "Protecție radiologică personală",
@@ -2471,16 +2458,13 @@ _PROD_CHROME = [
   "Hersteller KENEX – Website in neuem Tab öffnen",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen",
   "Hersteller TECHMED – Website in neuem Tab öffnen",
-  "Sterilisation, unreiner Arbeitsraum und Lagerung",
-  "Nichtmagnetische Produkte",
   "Schienensysteme",
   "Medizinische Wagen",
-  "Gerätewagen",
-  "Behandlungswagen",
-  "Instrumentenwagen",
-  "Stationswagen",
-  "Mobile Edelstahlmöbel",
-  "Transportwagen",
+  "Geräte- &amp; Versorgungswagen",
+  "Behandlungs-, Instrumenten- &amp; Stationstische",
+  "Transport, Entsorgung &amp; Sterilgutlogistik",
+  "Stations- und Ambulanzausstattung",
+  "MRT-Ausstattung (nicht-magnetisch)",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen",
   "Herstellerunabhängige Produktbeschaffung",
@@ -2556,8 +2540,8 @@ def _body_produkte(lang):
     swaps.append((_farben_html(), _farben_html(lang)))
     swaps.append((_downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS),
                   _downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS, lang=lang)))
-    swaps.append((_downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
-                  _downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
+    swaps.append((_downloads_datasheets("11", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
+                  _downloads_datasheets("11", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
     swaps.append((_downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB),
                   _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB, lang=lang)))
     for de_block, tr_block in swaps:
