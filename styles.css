@@ -820,6 +820,10 @@ textarea.m-input{min-height:150px;resize:vertical}
   background:var(--signal);color:#fff;text-decoration:none;font-weight:600;font-size:14px;
   transition:background var(--dur) var(--ease),transform var(--dur) var(--ease)}
 .m-dl-note-btn:hover{background:var(--brand-700);transform:translateY(-1px)}
+/* Hinweiskasten ohne Button (z. B. Feldstaerke-Hinweis im MRT-Bereich) */
+.m-dl-note--plain{margin:0 0 22px;padding:15px 20px;border-left:3px solid var(--signal);
+  border-radius:0 14px 14px 0}
+.m-dl-note--plain p{font-size:15px;line-height:22px}
 
 /* ===== Beschaffung / Sourcing CTA ===== */
 .m-src-cta{margin-top:30px;padding:28px 32px;background:var(--mist-blue);border:1px solid var(--mist);

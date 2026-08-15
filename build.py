@@ -992,7 +992,7 @@ def _cards(cat, lang="de"):
     return "\n\n".join(_render_liege(p, lang) for p in _products if p["cat"] == cat)
 def _count(cat):
     return sum(1 for p in _products if p["cat"] == cat)
-CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz")}
+CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz", "mrt")}
 
 # ---- Heilbehelfe & Hilfsmittel ----
 _hb = json.loads((ROOT / "heilbehelfe.json").read_text(encoding="utf-8"))
@@ -1492,9 +1492,28 @@ _TM_CATS = [
     ("06", "behandlungstische",        "Behandlungs-, Instrumenten- &amp; Stationstische", []),
     ("07", "transport-sterilgut",      "Transport, Entsorgung &amp; Sterilgutlogistik", []),
     ("08", "stations-ambulanz",        "Stations- und Ambulanzausstattung", []),
-    ("09", "mrt-ausstattung",          "MRT-Ausstattung (nicht-magnetisch)", []),
     ("10", "schienensysteme",          "Schienensysteme", []),
 ]
+
+_MRT_LEAD = "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden."
+_MRT_NOTE = "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an."
+
+def _mrt_section():
+    return (
+'      <details class="m-ac" id="mrt-ausstattung">\n'
+'        <summary><span class="m-ac-num">09</span><span class="m-ac-title">MRT-Ausstattung (nicht-magnetisch)</span>' + CHEV + '</summary>\n'
+'        <div class="m-ac-body">\n'
++ _TM_MFR +
+f'          <p class="m-ac-lead">{_MRT_LEAD}</p>\n'
+'          <div class="m-dl-note m-dl-note--plain">\n'
+f'            <p>{_MRT_NOTE}</p>\n'
+'          </div>\n'
+f'          <p class="m-pl-count">{_count("mrt")} Modelle verfügbar</p>\n'
+'          <div class="m-pl-list">\n'
++ CARDS["mrt"] + '\n'
+'          </div>\n'
+'        </div>\n'
+'      </details>')
 
 def _techmed_sections():
     out = []
@@ -1511,6 +1530,8 @@ f'                <p class="m-ac-lead">{_TM_SOON}</p>\n'
                     + inner + '\n\n          </div>\n')
         else:
             body = f'          <p class="m-ac-lead">{_TM_SOON}</p>\n'
+        if sid == "schienensysteme":
+            out.append(_mrt_section())
         out.append(
 f'      <details class="m-ac" id="{sid}">\n'
 f'        <summary><span class="m-ac-num">{num}</span><span class="m-ac-title">{title}</span>' + CHEV + '</summary>\n'
@@ -2070,6 +2091,8 @@ _PUI = {
   "Aufsatz- &amp; Fußende-Schilde": "Add-on &amp; foot-end shields",
   "Aufbewahrung &amp; Zubehör": "Storage &amp; accessories",
   "Modelle verfügbar": "models available",
+  "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.": "Equipment that can stay inside the MRI room: couch, foot stools, IV stand, trolleys and screens – made entirely of non-magnetic materials, so that workflows do not end at the zone boundary.",
+  "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.": "Important note: all products in this section are approved for magnetic field strengths of up to 3 tesla. For systems with a higher field strength, please contact us.",
   "Modell verfügbar": "model available",
   "Produkte verfügbar": "products available",
   "Medizinische Einrichtung": "Medical furnishing",
@@ -2206,6 +2229,8 @@ _PUI = {
   "Aufsatz- &amp; Fußende-Schilde": "Osłony nakładane i na podnóżek",
   "Aufbewahrung &amp; Zubehör": "Przechowywanie i akcesoria",
   "Modelle verfügbar": "dostępnych modeli",
+  "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.": "Wyposażenie, które może pozostać w pomieszczeniu MRI: leżanka, podesty, stojak infuzyjny, wózki i parawany – w całości z materiałów niemagnetycznych, aby praca nie kończyła się na granicy strefy.",
+  "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.": "Ważna informacja: wszystkie produkty w tym obszarze są dopuszczone do natężenia pola magnetycznego do 3 tesli. W przypadku systemów o wyższym natężeniu prosimy o kontakt.",
   "Modell verfügbar": "dostępny model",
   "Produkte verfügbar": "dostępnych produktów",
   "Medizinische Einrichtung": "Wyposażenie medyczne",
@@ -2342,6 +2367,8 @@ _PUI = {
   "Aufsatz- &amp; Fußende-Schilde": "Ecrane tip supliment &amp; pentru capătul de la picioare",
   "Aufbewahrung &amp; Zubehör": "Depozitare și accesorii",
   "Modelle verfügbar": "modele disponibile",
+  "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.": "Dotări care pot rămâne în camera RMN: canapea, taburete, stativ pentru perfuzii, cărucioare și paravane – realizate integral din materiale nemagnetice, astfel încât fluxul de lucru să nu se oprească la limita zonei.",
+  "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.": "Notă importantă: toate produsele din această secțiune sunt aprobate pentru intensități ale câmpului magnetic de până la 3 tesla. Pentru sisteme cu intensitate mai mare, vă rugăm să ne contactați.",
   "Modell verfügbar": "model disponibil",
   "Produkte verfügbar": "produse disponibile",
   "Medizinische Einrichtung": "Mobilier medical",
@@ -2500,6 +2527,8 @@ _PROD_CHROME = [
   "Front-Schürzen",
   "Unsere Produkte",
   "Modelle verfügbar",
+  "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.",
+  "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.",
   "Modell verfügbar",
   "Produkte verfügbar",
   "Strahlenschutz",
@@ -2528,7 +2557,7 @@ def _body_produkte(lang):
         swaps.append((_kenex_cards("decken", s), _kenex_cards("decken", s, lang)))
     for s in ("unterkoerper", "kopfende", "top", "aufbewahrung"):
         swaps.append((_kenex_cards("tisch", s), _kenex_cards("tisch", s, lang)))
-    for c in ("fix", "hydraulisch", "elektrisch", "chiro", "stuehle", "sichtschutz"):
+    for c in ("fix", "hydraulisch", "elektrisch", "chiro", "stuehle", "sichtschutz", "mrt"):
         swaps.append((_cards(c), _cards(c, lang)))
     swaps.append((_hb_cards("rollstuehle"), _hb_cards("rollstuehle", lang=lang)))
     swaps.append((_hb_cards("erollstuehle"), _hb_cards("erollstuehle", lang=lang)))
