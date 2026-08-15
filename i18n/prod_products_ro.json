@@ -1952,5 +1952,217 @@
         "315 × 385 × 520 mm până la 1355 × 495 × 850 mm"
       ]
     ]
+  },
+  "wg-anaesthesie": {
+    "model": "Cărucioare de anestezie și pentru seringi",
+    "description": "Tot ce este necesar pentru inducerea anesteziei la îndemână pe un singur cărucior – cu suprastructură cu închidere centralizată, blat lateral extensibil și sertare compartimentate după fluxul dumneavoastră.",
+    "specs": [
+      [
+        "Variante",
+        "ABS · oțel vopsit (ST) · oțel inoxidabil (KO)"
+      ],
+      [
+        "Corp și blat",
+        "ABS: corp din oțel cu blat ABS · ST: ambele din oțel vopsit electrostatic · KO: ambele din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Variantă modulară",
+        "VITAL (AVIT): cadru din profile de aluminiu, umplutura și blatul la alegere"
+      ],
+      [
+        "Dimensiuni",
+        "600 × 500 mm, înălțime de lucru 1000 mm"
+      ],
+      [
+        "Înălțime totală",
+        "1300–1700 mm cu suprastructură"
+      ],
+      [
+        "Roți",
+        "Ø 125 mm, 2 cu frână"
+      ],
+      [
+        "Doar VITAL",
+        "Suprastructură cu 4, 5 sau 6 recipiente rabatabile, închidere centralizată, separatoare și etichete pentru sertare"
+      ],
+      [
+        "Accesorii",
+        "Blat lateral extensibil, stativ pentru perfuzii, șină pentru instrumentar, recipient pentru deșeuri cu capac basculant, dozator de mănuși, recipient pentru ace, coș pentru catetere, tăviță renală, coș pentru accesorii, recipient pentru instrumentar"
+      ]
+    ]
+  },
+  "wg-reanimation": {
+    "model": "Cărucioare de resuscitare și urgență",
+    "description": "În urgență fiecare secundă contează: raftul pentru defibrilator, placa RCP și suportul pentru butelia de oxigen sunt fixate pe cărucior – echipa ajunge la pat complet dotată.",
+    "specs": [
+      [
+        "Variante",
+        "ABS · oțel vopsit (ST) · oțel inoxidabil (KO)"
+      ],
+      [
+        "Echipament de urgență",
+        "Raft pentru defibrilator, placă RCP, suport pentru butelia de oxigen"
+      ],
+      [
+        "Corp și blat",
+        "ABS: corp din oțel cu blat ABS · ST: oțel vopsit electrostatic · KO: corp din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Variantă modulară",
+        "VITAL (RVIT): cadru din profile de aluminiu, plus priză multiplă, închidere centralizată și etichete pentru sertare"
+      ],
+      [
+        "Dimensiuni",
+        "600 × 500 mm (REN-06: lățime 700 mm), înălțime de lucru 1000 mm"
+      ],
+      [
+        "Roți",
+        "Ø 125 mm cu tampoane, 2 cu frână"
+      ],
+      [
+        "Accesorii",
+        "Blat lateral extensibil, stativ pentru perfuzii, șină pentru instrumentar, recipient pentru deșeuri cu capac basculant, dozator de mănuși, recipient pentru ace, coș pentru catetere, tăviță renală, coș pentru accesorii, recipient pentru instrumentar"
+      ]
+    ]
+  },
+  "wg-multi": {
+    "model": "Cărucioare multifuncționale și de secție",
+    "description": "Căruciorul flexibil pentru aprovizionarea zilnică a secției – cinci lățimi și un interior din sertare, tăvi și coșuri pe care le combinați liber.",
+    "specs": [
+      [
+        "Variante",
+        "ABS · oțel vopsit (ST) · oțel inoxidabil (KO)"
+      ],
+      [
+        "Lățimi",
+        "400, 700, 800 și 900 mm (MULTI-02 până la MULTI-06)"
+      ],
+      [
+        "Dimensiuni",
+        "Adâncime 500 mm, înălțime de lucru 1000 mm"
+      ],
+      [
+        "Corp și blat",
+        "ABS: corp din oțel cu blat ABS · ST: ambele din oțel vopsit electrostatic · KO: ambele din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Roți",
+        "Ø 125 mm, 2 cu frână"
+      ],
+      [
+        "Dotare interioară",
+        "Tăvi și coșuri extensibile în diverse dimensiuni"
+      ],
+      [
+        "Accesorii",
+        "Blat lateral extensibil, șină pentru instrumentar, recipient pentru deșeuri cu capac basculant, dozator de mănuși, recipient pentru ace, coș pentru catetere, suprastructură, dozator de săpun"
+      ]
+    ]
+  },
+  "wg-optimum": {
+    "model": "Cărucioare de tratament OPTIMUM",
+    "description": "Linia de design cu cadru alb din aluminiu și fronturi colorate – trei variante pentru resuscitare, secție și tratament, configurate după nevoile dumneavoastră.",
+    "specs": [
+      [
+        "Variante",
+        "R (resuscitare) · Z (secție) · P (blat extensibil în față)"
+      ],
+      [
+        "Cadru",
+        "Profil din aluminiu vopsit electrostatic, alb"
+      ],
+      [
+        "Corp și sertare",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Blat de lucru",
+        "ABS cu trei margini ridicate; blat suplimentar retractabil (R, Z) sau extensibil în față (P)"
+      ],
+      [
+        "Opțiune",
+        "Blat suplimentar din oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic"
+      ],
+      [
+        "Dimensiuni",
+        "700 × 500 × 1000 mm, corp 600 × 500 mm, rafturi 600 × 500 mm"
+      ],
+      [
+        "Înălțime totală",
+        "1700 mm (tip Z)"
+      ],
+      [
+        "Echipament de urgență",
+        "Stativ pentru perfuzii și suport pentru butelia de oxigen la tipurile R și Z"
+      ],
+      [
+        "Design",
+        "Fronturi, mânere și elemente decorative colorate conform paletei TECH-MED"
+      ],
+      [
+        "Accesorii",
+        "Recipiente rabatabile, rafturi, coș pentru accesorii, recipient pentru deșeuri, recipiente pentru instrumentar și mănuși, recipient pentru ace, coș pentru catetere, priză multiplă, blat lateral extensibil"
+      ]
+    ]
+  },
+  "wg-k5": {
+    "model": "Dulap auxiliar K-5",
+    "description": "Dulap auxiliar compact pe bază cu cinci raze – manevrabil pe roți mici și disponibil fie cu dulap cu sertare, fie ca simplă masă pentru instrumentar.",
+    "specs": [
+      [
+        "Corp",
+        "Dulap cu sertare, oțel vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Blat de lucru",
+        "Adâncit, vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Bază",
+        "Bază cu cinci raze, cromată sau vopsită electrostatic, Ø 600 mm"
+      ],
+      [
+        "Roți",
+        "Ø 55 mm, 3 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "450 × 450 mm, înălțime 800 mm"
+      ],
+      [
+        "Variante",
+        "Cu dulap cu sertare sau ca simplă masă pentru instrumentar"
+      ]
+    ]
+  },
+  "wg-k6": {
+    "model": "Cărucior compact K-6",
+    "description": "Cel mai mic cărucior mobil din gamă: două niveluri, blat din oțel inoxidabil cu margini ridicate și mâner de împingere – ideal pentru sala de tratament și ambulatoriu.",
+    "specs": [
+      [
+        "Cadru",
+        "Oțel vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel inoxidabil 0H18N9 cu margini ridicate, 450 × 320 mm"
+      ],
+      [
+        "Sertar",
+        "Oțel vopsit electrostatic, 450 × 320 × 155 mm"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "500 × 400 × 800 mm"
+      ],
+      [
+        "Dotare",
+        "Două niveluri, mâner de împingere"
+      ]
+    ]
   }
 }

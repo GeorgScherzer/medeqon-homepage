@@ -1952,5 +1952,217 @@
         "315 × 385 × 520 mm to 1355 × 495 × 850 mm"
       ]
     ]
+  },
+  "wg-anaesthesie": {
+    "model": "Anaesthetic & syringe trolleys",
+    "description": "Everything for anaesthesia induction within reach on one trolley – with a centrally lockable top section, slide-out side top and drawers you divide to suit your workflow.",
+    "specs": [
+      [
+        "Versions",
+        "ABS · coated steel (ST) · stainless steel (KO)"
+      ],
+      [
+        "Cabinet and worktop",
+        "ABS: steel cabinet with ABS top · ST: both powder-coated steel · KO: both stainless steel 0H18N9"
+      ],
+      [
+        "Modular version",
+        "VITAL (AVIT): aluminium profile frame, panels and top freely selectable"
+      ],
+      [
+        "Dimensions",
+        "600 × 500 mm, working height 1000 mm"
+      ],
+      [
+        "Overall height",
+        "1300–1700 mm including top section"
+      ],
+      [
+        "Castors",
+        "Ø 125 mm, 2 lockable"
+      ],
+      [
+        "VITAL only",
+        "Top section with 4, 5 or 6 tilting containers, central lock, drawer dividers and labels"
+      ],
+      [
+        "Accessories",
+        "Slide-out side top, IV pole, instrument rail, waste bin with swing lid, glove dispenser, sharps container, catheter basket, kidney dish, accessory basket, instrument container"
+      ]
+    ]
+  },
+  "wg-reanimation": {
+    "model": "Resuscitation & emergency trolleys",
+    "description": "In an emergency every second counts: defibrillator shelf, CPR board and oxygen cylinder holder are permanently on the trolley – the team rolls up to the bed fully equipped.",
+    "specs": [
+      [
+        "Versions",
+        "ABS · coated steel (ST) · stainless steel (KO)"
+      ],
+      [
+        "Emergency equipment",
+        "Defibrillator shelf, CPR board, oxygen cylinder holder"
+      ],
+      [
+        "Cabinet and worktop",
+        "ABS: steel cabinet with ABS top · ST: powder-coated steel · KO: stainless steel 0H18N9 cabinet"
+      ],
+      [
+        "Modular version",
+        "VITAL (RVIT): aluminium profile frame, plus power strip, central lock and drawer labels"
+      ],
+      [
+        "Dimensions",
+        "600 × 500 mm (REN-06: 700 mm wide), working height 1000 mm"
+      ],
+      [
+        "Castors",
+        "Ø 125 mm with bumpers, 2 lockable"
+      ],
+      [
+        "Accessories",
+        "Slide-out side top, IV pole, instrument rail, waste bin with swing lid, glove dispenser, sharps container, catheter basket, kidney dish, accessory basket, instrument container"
+      ]
+    ]
+  },
+  "wg-multi": {
+    "model": "Multifunctional & ward trolleys",
+    "description": "The flexible trolley for daily ward supply – five widths and an interior of drawers, trays and baskets that you combine freely.",
+    "specs": [
+      [
+        "Versions",
+        "ABS · coated steel (ST) · stainless steel (KO)"
+      ],
+      [
+        "Widths",
+        "400, 700, 800 and 900 mm (MULTI-02 to MULTI-06)"
+      ],
+      [
+        "Dimensions",
+        "Depth 500 mm, working height 1000 mm"
+      ],
+      [
+        "Cabinet and worktop",
+        "ABS: steel cabinet with ABS top · ST: both powder-coated steel · KO: both stainless steel 0H18N9"
+      ],
+      [
+        "Castors",
+        "Ø 125 mm, 2 lockable"
+      ],
+      [
+        "Interior",
+        "Pull-out trays and baskets in various sizes"
+      ],
+      [
+        "Accessories",
+        "Slide-out side top, instrument rail, waste bin with swing lid, glove dispenser, sharps container, catheter basket, top section, soap dispenser"
+      ]
+    ]
+  },
+  "wg-optimum": {
+    "model": "OPTIMUM treatment trolleys",
+    "description": "The design line with a white aluminium frame and coloured fronts – three versions for resuscitation, ward and treatment, configured to your requirements.",
+    "specs": [
+      [
+        "Versions",
+        "R (resuscitation) · Z (ward) · P (worktop pulls out to the front)"
+      ],
+      [
+        "Frame",
+        "Aluminium profile, powder-coated white"
+      ],
+      [
+        "Cabinet and drawers",
+        "Powder-coated steel"
+      ],
+      [
+        "Worktop",
+        "ABS with three raised edges; additional worktop retractable (R, Z) or pulling out to the front (P)"
+      ],
+      [
+        "Option",
+        "Additional worktop of stainless steel 0H18N9 or powder-coated steel"
+      ],
+      [
+        "Dimensions",
+        "700 × 500 × 1000 mm, cabinet 600 × 500 mm, shelves 600 × 500 mm"
+      ],
+      [
+        "Overall height",
+        "1700 mm (type Z)"
+      ],
+      [
+        "Emergency equipment",
+        "IV pole and oxygen cylinder holder on types R and Z"
+      ],
+      [
+        "Design",
+        "Fronts, handles and decorative elements in colour according to the TECH-MED colour card"
+      ],
+      [
+        "Accessories",
+        "Tilting containers, shelves, accessory basket, waste bin, instrument and glove containers, sharps container, catheter basket, power strip, slide-out side top"
+      ]
+    ]
+  },
+  "wg-k5": {
+    "model": "K-5 assistant cabinet",
+    "description": "Compact assistant cabinet on a five-star base – manoeuvrable on small castors and available either with a drawer cabinet or as a plain instrument table.",
+    "specs": [
+      [
+        "Cabinet",
+        "Drawer cabinet, powder-coated steel in RAL colours"
+      ],
+      [
+        "Worktop",
+        "Recessed, powder-coated; optionally stainless steel 0H18N9"
+      ],
+      [
+        "Base",
+        "Five-star base, chrome-plated or powder-coated, Ø 600 mm"
+      ],
+      [
+        "Castors",
+        "Ø 55 mm, 3 lockable"
+      ],
+      [
+        "Dimensions",
+        "450 × 450 mm, height 800 mm"
+      ],
+      [
+        "Versions",
+        "With drawer cabinet or as a plain instrument table"
+      ]
+    ]
+  },
+  "wg-k6": {
+    "model": "K-6 compact trolley",
+    "description": "The smallest mobile trolley of the range: two levels, a stainless steel top with raised edges and a push handle – ideal for treatment room and outpatient clinic.",
+    "specs": [
+      [
+        "Frame",
+        "Powder-coated steel in RAL colours"
+      ],
+      [
+        "Worktop",
+        "Stainless steel 0H18N9 with raised edges, 450 × 320 mm"
+      ],
+      [
+        "Drawer",
+        "Powder-coated steel, 450 × 320 × 155 mm"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "500 × 400 × 800 mm"
+      ],
+      [
+        "Features",
+        "Two levels, push handle"
+      ]
+    ]
   }
 }

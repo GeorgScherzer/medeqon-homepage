@@ -992,7 +992,7 @@ def _cards(cat, lang="de"):
     return "\n\n".join(_render_liege(p, lang) for p in _products if p["cat"] == cat)
 def _count(cat):
     return sum(1 for p in _products if p["cat"] == cat)
-CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz", "mrt")}
+CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz", "mrt", "wagen")}
 
 # ---- Heilbehelfe & Hilfsmittel ----
 _hb = json.loads((ROOT / "heilbehelfe.json").read_text(encoding="utf-8"))
@@ -1492,28 +1492,34 @@ _TM_CATS = [
     ("06", "behandlungstische",        "Behandlungs-, Instrumenten- &amp; Stationstische", []),
     ("07", "transport-sterilgut",      "Transport, Entsorgung &amp; Sterilgutlogistik", []),
     ("08", "stations-ambulanz",        "Stations- und Ambulanzausstattung", []),
+    ("09", "mrt-ausstattung",          "MRT-Ausstattung (nicht-magnetisch)", []),
     ("10", "schienensysteme",          "Schienensysteme", []),
 ]
 
 _MRT_LEAD = "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden."
 _MRT_NOTE = "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an."
+_WG_LEAD = "Fahrbare Wagen für Anästhesie, Notfall, Station und Behandlung – wahlweise mit geschlossenem Stahlkorpus oder als modulare Aluminium-Plattform, die Sie Schublade für Schublade auf Ihren Ablauf zuschneiden."
+_WG_NOTE1 = "Einheitlich aufgebaut: 500 mm Korpustiefe, 1000 mm Arbeitshöhe, vertiefte Arbeitsplatte mit drei Aufkantungen und Ø 125 mm Rollen mit zwei Feststellern. Fronten und Griffe sind farbig nach TECH-MED-Farbkarte erhältlich – so lassen sich Stationen auf einen Blick unterscheiden. Das Zubehörprogramm ist über alle Baureihen hinweg identisch und frei kombinierbar."
+_WG_NOTE2 = "Materialausführungen: ABS = Stahlkorpus mit Arbeitsplatte aus ABS-Kunststoff · ST = Korpus und Arbeitsplatte aus pulverbeschichtetem Stahl · KO = Korpus und Arbeitsplatte aus Edelstahl 0H18N9 für die höchste Hygienestufe."
 
-def _mrt_section():
-    return (
-'      <details class="m-ac" id="mrt-ausstattung">\n'
-'        <summary><span class="m-ac-num">09</span><span class="m-ac-title">MRT-Ausstattung (nicht-magnetisch)</span>' + CHEV + '</summary>\n'
-'        <div class="m-ac-body">\n'
-+ _TM_MFR +
-f'          <p class="m-ac-lead">{_MRT_LEAD}</p>\n'
-'          <div class="m-dl-note m-dl-note--plain">\n'
-f'            <p>{_MRT_NOTE}</p>\n'
-'          </div>\n'
-f'          <p class="m-pl-count">{_count("mrt")} Modelle verfügbar</p>\n'
-'          <div class="m-pl-list">\n'
-+ CARDS["mrt"] + '\n'
-'          </div>\n'
-'        </div>\n'
-'      </details>')
+# Bereiche mit echten Produktkarten: sid -> (Kategorie in products.json, Lead, [Hinweise])
+_TM_CARDS = {
+    "medizinische-wagen": ("wagen", _WG_LEAD, [_WG_NOTE1, _WG_NOTE2]),
+    "mrt-ausstattung":    ("mrt",   _MRT_LEAD, [_MRT_NOTE]),
+}
+
+def _tm_card_body(catkey, lead, notes):
+    hinweise = ""
+    if notes:
+        hinweise = ('          <div class="m-dl-note m-dl-note--plain">\n'
+                    + "".join(f'            <p>{n}</p>\n' for n in notes)
+                    + '          </div>\n')
+    return (f'          <p class="m-ac-lead">{lead}</p>\n'
+            + hinweise
+            + f'          <p class="m-pl-count">{_count(catkey)} Modelle verfügbar</p>\n'
+              '          <div class="m-pl-list">\n'
+            + CARDS[catkey] + '\n'
+              '          </div>\n')
 
 def _techmed_sections():
     out = []
@@ -1528,10 +1534,10 @@ f'                <p class="m-ac-lead">{_TM_SOON}</p>\n'
  '            </details>' for ssid, stitle in subs)
             body = ('          <div class="m-acc m-acc-nested">\n\n'
                     + inner + '\n\n          </div>\n')
+        elif sid in _TM_CARDS:
+            body = _tm_card_body(*_TM_CARDS[sid])
         else:
             body = f'          <p class="m-ac-lead">{_TM_SOON}</p>\n'
-        if sid == "schienensysteme":
-            out.append(_mrt_section())
         out.append(
 f'      <details class="m-ac" id="{sid}">\n'
 f'        <summary><span class="m-ac-num">{num}</span><span class="m-ac-title">{title}</span>' + CHEV + '</summary>\n'
@@ -2091,6 +2097,9 @@ _PUI = {
   "Aufsatz- &amp; Fußende-Schilde": "Add-on &amp; foot-end shields",
   "Aufbewahrung &amp; Zubehör": "Storage &amp; accessories",
   "Modelle verfügbar": "models available",
+  "Fahrbare Wagen für Anästhesie, Notfall, Station und Behandlung – wahlweise mit geschlossenem Stahlkorpus oder als modulare Aluminium-Plattform, die Sie Schublade für Schublade auf Ihren Ablauf zuschneiden.": "Mobile trolleys for anaesthesia, emergency, ward and treatment – either with a closed steel cabinet or as a modular aluminium platform that you tailor drawer by drawer to your workflow.",
+  "Einheitlich aufgebaut: 500 mm Korpustiefe, 1000 mm Arbeitshöhe, vertiefte Arbeitsplatte mit drei Aufkantungen und Ø 125 mm Rollen mit zwei Feststellern. Fronten und Griffe sind farbig nach TECH-MED-Farbkarte erhältlich – so lassen sich Stationen auf einen Blick unterscheiden. Das Zubehörprogramm ist über alle Baureihen hinweg identisch und frei kombinierbar.": "Built to one standard: 500 mm cabinet depth, 1000 mm working height, a recessed worktop with three raised edges and Ø 125 mm castors with two brakes. Fronts and handles are available in colour according to the TECH-MED colour card, so wards can be told apart at a glance. The accessory programme is identical across all series and freely combinable.",
+  "Materialausführungen: ABS = Stahlkorpus mit Arbeitsplatte aus ABS-Kunststoff · ST = Korpus und Arbeitsplatte aus pulverbeschichtetem Stahl · KO = Korpus und Arbeitsplatte aus Edelstahl 0H18N9 für die höchste Hygienestufe.": "Material versions: ABS = steel cabinet with an ABS plastic worktop · ST = cabinet and worktop of powder-coated steel · KO = cabinet and worktop of stainless steel 0H18N9 for the highest hygiene level.",
   "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.": "Equipment that can stay inside the MRI room: couch, foot stools, IV stand, trolleys and screens – made entirely of non-magnetic materials, so that workflows do not end at the zone boundary.",
   "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.": "Important note: all products in this section are approved for magnetic field strengths of up to 3 tesla. For systems with a higher field strength, please contact us.",
   "Modell verfügbar": "model available",
@@ -2229,6 +2238,9 @@ _PUI = {
   "Aufsatz- &amp; Fußende-Schilde": "Osłony nakładane i na podnóżek",
   "Aufbewahrung &amp; Zubehör": "Przechowywanie i akcesoria",
   "Modelle verfügbar": "dostępnych modeli",
+  "Fahrbare Wagen für Anästhesie, Notfall, Station und Behandlung – wahlweise mit geschlossenem Stahlkorpus oder als modulare Aluminium-Plattform, die Sie Schublade für Schublade auf Ihren Ablauf zuschneiden.": "Wózki jezdne do anestezjologii, sytuacji nagłych, oddziału i zabiegów – z zamkniętym korpusem stalowym albo jako modułowa platforma aluminiowa, którą szuflada po szufladzie dopasujesz do swojego procesu.",
+  "Einheitlich aufgebaut: 500 mm Korpustiefe, 1000 mm Arbeitshöhe, vertiefte Arbeitsplatte mit drei Aufkantungen und Ø 125 mm Rollen mit zwei Feststellern. Fronten und Griffe sind farbig nach TECH-MED-Farbkarte erhältlich – so lassen sich Stationen auf einen Blick unterscheiden. Das Zubehörprogramm ist über alle Baureihen hinweg identisch und frei kombinierbar.": "Jednolita konstrukcja: głębokość korpusu 500 mm, wysokość robocza 1000 mm, wgłębiony blat z trzema krawędziami oraz kółka Ø 125 mm z dwiema blokadami. Fronty i uchwyty dostępne są w kolorach według karty kolorów TECH-MED – dzięki temu oddziały rozróżnia się na pierwszy rzut oka. Program akcesoriów jest identyczny dla wszystkich serii i dowolnie łączony.",
+  "Materialausführungen: ABS = Stahlkorpus mit Arbeitsplatte aus ABS-Kunststoff · ST = Korpus und Arbeitsplatte aus pulverbeschichtetem Stahl · KO = Korpus und Arbeitsplatte aus Edelstahl 0H18N9 für die höchste Hygienestufe.": "Wersje materiałowe: ABS = korpus stalowy z blatem z tworzywa ABS · ST = korpus i blat ze stali malowanej proszkowo · KO = korpus i blat ze stali nierdzewnej 0H18N9 dla najwyższego poziomu higieny.",
   "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.": "Wyposażenie, które może pozostać w pomieszczeniu MRI: leżanka, podesty, stojak infuzyjny, wózki i parawany – w całości z materiałów niemagnetycznych, aby praca nie kończyła się na granicy strefy.",
   "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.": "Ważna informacja: wszystkie produkty w tym obszarze są dopuszczone do natężenia pola magnetycznego do 3 tesli. W przypadku systemów o wyższym natężeniu prosimy o kontakt.",
   "Modell verfügbar": "dostępny model",
@@ -2367,6 +2379,9 @@ _PUI = {
   "Aufsatz- &amp; Fußende-Schilde": "Ecrane tip supliment &amp; pentru capătul de la picioare",
   "Aufbewahrung &amp; Zubehör": "Depozitare și accesorii",
   "Modelle verfügbar": "modele disponibile",
+  "Fahrbare Wagen für Anästhesie, Notfall, Station und Behandlung – wahlweise mit geschlossenem Stahlkorpus oder als modulare Aluminium-Plattform, die Sie Schublade für Schublade auf Ihren Ablauf zuschneiden.": "Cărucioare mobile pentru anestezie, urgență, secție și tratament – fie cu corp închis din oțel, fie ca platformă modulară din aluminiu, pe care o adaptați sertar cu sertar fluxului dumneavoastră.",
+  "Einheitlich aufgebaut: 500 mm Korpustiefe, 1000 mm Arbeitshöhe, vertiefte Arbeitsplatte mit drei Aufkantungen und Ø 125 mm Rollen mit zwei Feststellern. Fronten und Griffe sind farbig nach TECH-MED-Farbkarte erhältlich – so lassen sich Stationen auf einen Blick unterscheiden. Das Zubehörprogramm ist über alle Baureihen hinweg identisch und frei kombinierbar.": "Construcție unitară: adâncimea corpului 500 mm, înălțime de lucru 1000 mm, blat adâncit cu trei margini ridicate și roți Ø 125 mm cu două frâne. Fronturile și mânerele sunt disponibile colorate conform paletei TECH-MED, astfel încât secțiile se disting dintr-o privire. Programul de accesorii este identic pentru toate seriile și se combină liber.",
+  "Materialausführungen: ABS = Stahlkorpus mit Arbeitsplatte aus ABS-Kunststoff · ST = Korpus und Arbeitsplatte aus pulverbeschichtetem Stahl · KO = Korpus und Arbeitsplatte aus Edelstahl 0H18N9 für die höchste Hygienestufe.": "Variante de material: ABS = corp din oțel cu blat din plastic ABS · ST = corp și blat din oțel vopsit electrostatic · KO = corp și blat din oțel inoxidabil 0H18N9 pentru cel mai înalt nivel de igienă.",
   "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.": "Dotări care pot rămâne în camera RMN: canapea, taburete, stativ pentru perfuzii, cărucioare și paravane – realizate integral din materiale nemagnetice, astfel încât fluxul de lucru să nu se oprească la limita zonei.",
   "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.": "Notă importantă: toate produsele din această secțiune sunt aprobate pentru intensități ale câmpului magnetic de până la 3 tesla. Pentru sisteme cu intensitate mai mare, vă rugăm să ne contactați.",
   "Modell verfügbar": "model disponibil",
@@ -2527,6 +2542,9 @@ _PROD_CHROME = [
   "Front-Schürzen",
   "Unsere Produkte",
   "Modelle verfügbar",
+  "Fahrbare Wagen für Anästhesie, Notfall, Station und Behandlung – wahlweise mit geschlossenem Stahlkorpus oder als modulare Aluminium-Plattform, die Sie Schublade für Schublade auf Ihren Ablauf zuschneiden.",
+  "Einheitlich aufgebaut: 500 mm Korpustiefe, 1000 mm Arbeitshöhe, vertiefte Arbeitsplatte mit drei Aufkantungen und Ø 125 mm Rollen mit zwei Feststellern. Fronten und Griffe sind farbig nach TECH-MED-Farbkarte erhältlich – so lassen sich Stationen auf einen Blick unterscheiden. Das Zubehörprogramm ist über alle Baureihen hinweg identisch und frei kombinierbar.",
+  "Materialausführungen: ABS = Stahlkorpus mit Arbeitsplatte aus ABS-Kunststoff · ST = Korpus und Arbeitsplatte aus pulverbeschichtetem Stahl · KO = Korpus und Arbeitsplatte aus Edelstahl 0H18N9 für die höchste Hygienestufe.",
   "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden.",
   "Wichtiger Hinweis: Alle Produkte dieses Bereichs sind für Magnetfeldstärken bis 3 Tesla zugelassen. Für Systeme mit höherer Feldstärke sprechen Sie uns bitte an.",
   "Modell verfügbar",
@@ -2557,7 +2575,7 @@ def _body_produkte(lang):
         swaps.append((_kenex_cards("decken", s), _kenex_cards("decken", s, lang)))
     for s in ("unterkoerper", "kopfende", "top", "aufbewahrung"):
         swaps.append((_kenex_cards("tisch", s), _kenex_cards("tisch", s, lang)))
-    for c in ("fix", "hydraulisch", "elektrisch", "chiro", "stuehle", "sichtschutz", "mrt"):
+    for c in ("fix", "hydraulisch", "elektrisch", "chiro", "stuehle", "sichtschutz", "mrt", "wagen"):
         swaps.append((_cards(c), _cards(c, lang)))
     swaps.append((_hb_cards("rollstuehle"), _hb_cards("rollstuehle", lang=lang)))
     swaps.append((_hb_cards("erollstuehle"), _hb_cards("erollstuehle", lang=lang)))

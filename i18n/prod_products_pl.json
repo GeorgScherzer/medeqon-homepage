@@ -1952,5 +1952,217 @@
         "315 × 385 × 520 mm do 1355 × 495 × 850 mm"
       ]
     ]
+  },
+  "wg-anaesthesie": {
+    "model": "Wózki anestezjologiczne i na strzykawki",
+    "description": "Wszystko do indukcji znieczulenia pod ręką na jednym wózku – z centralnie zamykaną nadstawką, wysuwanym blatem bocznym i szufladami dzielonymi według Twojego procesu.",
+    "specs": [
+      [
+        "Wersje",
+        "ABS · stal lakierowana (ST) · stal nierdzewna (KO)"
+      ],
+      [
+        "Korpus i blat",
+        "ABS: korpus stalowy z blatem ABS · ST: oba z stali malowanej proszkowo · KO: oba ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Wersja modułowa",
+        "VITAL (AVIT): rama z profili aluminiowych, wypełnienie i blat do wyboru"
+      ],
+      [
+        "Wymiary",
+        "600 × 500 mm, wysokość robocza 1000 mm"
+      ],
+      [
+        "Wysokość całkowita",
+        "1300–1700 mm z nadstawką"
+      ],
+      [
+        "Kółka",
+        "Ø 125 mm, 2 z blokadą"
+      ],
+      [
+        "Tylko VITAL",
+        "Nadstawka z 4, 5 lub 6 pojemnikami uchylnymi, zamek centralny, przegrody i etykiety szuflad"
+      ],
+      [
+        "Akcesoria",
+        "Wysuwany blat boczny, stojak infuzyjny, listwa narzędziowa, pojemnik na odpady z pokrywą uchylną, podajnik rękawic, pojemnik na igły, kosz na cewniki, miska nerkowata, kosz na akcesoria, pojemnik na narzędzia"
+      ]
+    ]
+  },
+  "wg-reanimation": {
+    "model": "Wózki reanimacyjne i ratunkowe",
+    "description": "W nagłym wypadku liczy się każda sekunda: półka na defibrylator, deska do RKO i uchwyt na butlę tlenową są na stałe przy wózku – zespół podjeżdża do łóżka z pełnym wyposażeniem.",
+    "specs": [
+      [
+        "Wersje",
+        "ABS · stal lakierowana (ST) · stal nierdzewna (KO)"
+      ],
+      [
+        "Wyposażenie ratunkowe",
+        "Półka na defibrylator, deska do RKO, uchwyt na butlę tlenową"
+      ],
+      [
+        "Korpus i blat",
+        "ABS: korpus stalowy z blatem ABS · ST: stal malowana proszkowo · KO: korpus ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Wersja modułowa",
+        "VITAL (RVIT): rama z profili aluminiowych, dodatkowo listwa zasilająca, zamek centralny i etykiety szuflad"
+      ],
+      [
+        "Wymiary",
+        "600 × 500 mm (REN-06: szer. 700 mm), wysokość robocza 1000 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 125 mm z odbojnikami, 2 z blokadą"
+      ],
+      [
+        "Akcesoria",
+        "Wysuwany blat boczny, stojak infuzyjny, listwa narzędziowa, pojemnik na odpady z pokrywą uchylną, podajnik rękawic, pojemnik na igły, kosz na cewniki, miska nerkowata, kosz na akcesoria, pojemnik na narzędzia"
+      ]
+    ]
+  },
+  "wg-multi": {
+    "model": "Wózki wielofunkcyjne i oddziałowe",
+    "description": "Elastyczny wózek do codziennego zaopatrzenia oddziału – pięć szerokości i wnętrze z szuflad, tac i koszy, które dowolnie łączysz.",
+    "specs": [
+      [
+        "Wersje",
+        "ABS · stal lakierowana (ST) · stal nierdzewna (KO)"
+      ],
+      [
+        "Szerokości",
+        "400, 700, 800 i 900 mm (MULTI-02 do MULTI-06)"
+      ],
+      [
+        "Wymiary",
+        "Głębokość 500 mm, wysokość robocza 1000 mm"
+      ],
+      [
+        "Korpus i blat",
+        "ABS: korpus stalowy z blatem ABS · ST: oba z stali malowanej proszkowo · KO: oba ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Kółka",
+        "Ø 125 mm, 2 z blokadą"
+      ],
+      [
+        "Wyposażenie wewnętrzne",
+        "Wysuwane tace i kosze w różnych rozmiarach"
+      ],
+      [
+        "Akcesoria",
+        "Wysuwany blat boczny, listwa narzędziowa, pojemnik na odpady z pokrywą uchylną, podajnik rękawic, pojemnik na igły, kosz na cewniki, nadstawka, dozownik mydła"
+      ]
+    ]
+  },
+  "wg-optimum": {
+    "model": "Wózki zabiegowe OPTIMUM",
+    "description": "Linia wzornicza z białą ramą aluminiową i kolorowymi frontami – trzy wersje do resuscytacji, oddziału i zabiegów, konfigurowane według potrzeb.",
+    "specs": [
+      [
+        "Wersje",
+        "R (resuscytacja) · Z (oddział) · P (blat wysuwany do przodu)"
+      ],
+      [
+        "Rama",
+        "Profil aluminiowy malowany proszkowo na biało"
+      ],
+      [
+        "Korpus i szuflady",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Blat roboczy",
+        "ABS z trzema krawędziami; blat dodatkowy chowany (R, Z) lub wysuwany do przodu (P)"
+      ],
+      [
+        "Opcja",
+        "Blat dodatkowy ze stali nierdzewnej 0H18N9 lub stali malowanej proszkowo"
+      ],
+      [
+        "Wymiary",
+        "700 × 500 × 1000 mm, korpus 600 × 500 mm, półki 600 × 500 mm"
+      ],
+      [
+        "Wysokość całkowita",
+        "1700 mm (typ Z)"
+      ],
+      [
+        "Wyposażenie ratunkowe",
+        "Stojak infuzyjny i uchwyt na butlę tlenową w typach R i Z"
+      ],
+      [
+        "Wzornictwo",
+        "Fronty, uchwyty i elementy dekoracyjne w kolorach według karty kolorów TECH-MED"
+      ],
+      [
+        "Akcesoria",
+        "Pojemniki uchylne, półki, kosz na akcesoria, pojemnik na odpady, pojemniki na narzędzia i rękawice, pojemnik na igły, kosz na cewniki, listwa zasilająca, wysuwany blat boczny"
+      ]
+    ]
+  },
+  "wg-k5": {
+    "model": "Szafka pomocnicza K-5",
+    "description": "Kompaktowa szafka pomocnicza na podstawie pięcioramiennej – zwrotna na małych kółkach, dostępna z szafką z szufladami lub jako sam stolik narzędziowy.",
+    "specs": [
+      [
+        "Korpus",
+        "Szafka z szufladami, stal malowana proszkowo w kolorach RAL"
+      ],
+      [
+        "Blat roboczy",
+        "Wgłębiony, malowany proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+      ],
+      [
+        "Podstawa",
+        "Podstawa pięcioramienna, chromowana lub malowana proszkowo, Ø 600 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 55 mm, 3 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "450 × 450 mm, wysokość 800 mm"
+      ],
+      [
+        "Wersje",
+        "Z szafką z szufladami lub jako sam stolik narzędziowy"
+      ]
+    ]
+  },
+  "wg-k6": {
+    "model": "Wózek kompaktowy K-6",
+    "description": "Najmniejszy wózek jezdny serii: dwa poziomy, blat ze stali nierdzewnej z podniesionymi krawędziami i uchwyt do prowadzenia – idealny do gabinetu zabiegowego i ambulatorium.",
+    "specs": [
+      [
+        "Rama",
+        "Stal malowana proszkowo w kolorach RAL"
+      ],
+      [
+        "Blat roboczy",
+        "Stal nierdzewna 0H18N9 z podniesionymi krawędziami, 450 × 320 mm"
+      ],
+      [
+        "Szuflada",
+        "Stal malowana proszkowo, 450 × 320 × 155 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "500 × 400 × 800 mm"
+      ],
+      [
+        "Wyposażenie",
+        "Dwa poziomy, uchwyt do prowadzenia"
+      ]
+    ]
   }
 }

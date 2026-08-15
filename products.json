@@ -2156,5 +2156,241 @@
         "315 × 385 × 520 mm bis 1355 × 495 × 850 mm"
       ]
     ]
+  },
+  {
+    "cat": "wagen",
+    "slug": "wg-anaesthesie",
+    "model": "Anästhesie- & Spritzenwagen",
+    "ref": "ANS / AVIT",
+    "image_count": 8,
+    "description": "Alles für die Narkoseeinleitung griffbereit an einem Wagen – mit zentral verriegelbarem Aufsatz, ausziehbarer Seitenplatte und Schubladen, die sich nach Ihrem Ablauf einteilen lassen.",
+    "specs": [
+      [
+        "Ausführungen",
+        "ABS · Stahl lackiert (ST) · Edelstahl (KO)"
+      ],
+      [
+        "Korpus und Arbeitsplatte",
+        "ABS: Stahlkorpus mit ABS-Platte · ST: beides pulverbeschichteter Stahl · KO: beides Edelstahl 0H18N9"
+      ],
+      [
+        "Modulare Variante",
+        "VITAL (AVIT): Aluminium-Profilrahmen, Füllung und Platte frei wählbar"
+      ],
+      [
+        "Maße",
+        "600 × 500 mm, Arbeitshöhe 1000 mm"
+      ],
+      [
+        "Gesamthöhe",
+        "1300–1700 mm mit Aufbau"
+      ],
+      [
+        "Rollen",
+        "Ø 125 mm, 2 feststellbar"
+      ],
+      [
+        "Nur VITAL",
+        "Aufsatz mit 4, 5 oder 6 Kippbehältern, Zentralverriegelung, Schubladenteiler und -etiketten"
+      ],
+      [
+        "Zubehör",
+        "Ausziehbare Seitenplatte, Infusionsständer, Instrumentenschiene, Abwurfbehälter mit Schwenkdeckel, Handschuhspender, Kanülenabwurf, Katheterkorb, Nierenschale, Zubehörkorb, Instrumentenbehälter"
+      ]
+    ]
+  },
+  {
+    "cat": "wagen",
+    "slug": "wg-reanimation",
+    "model": "Reanimations- & Notfallwagen",
+    "ref": "REN / RVIT",
+    "image_count": 8,
+    "description": "Im Notfall zählt jeder Handgriff: Defibrillator-Ablage, CPR-Brett und Sauerstoffflaschenhalter sind fest am Wagen – das Team rollt mit kompletter Ausstattung ans Bett.",
+    "specs": [
+      [
+        "Ausführungen",
+        "ABS · Stahl lackiert (ST) · Edelstahl (KO)"
+      ],
+      [
+        "Notfallausstattung",
+        "Defibrillator-Ablage, CPR-Brett, Sauerstoffflaschenhalter"
+      ],
+      [
+        "Korpus und Arbeitsplatte",
+        "ABS: Stahlkorpus mit ABS-Platte · ST: pulverbeschichteter Stahl · KO: Korpus Edelstahl 0H18N9"
+      ],
+      [
+        "Modulare Variante",
+        "VITAL (RVIT): Aluminium-Profilrahmen, zusätzlich Steckdosenleiste, Zentralverriegelung und Schubladenetiketten"
+      ],
+      [
+        "Maße",
+        "600 × 500 mm (REN-06: 700 mm breit), Arbeitshöhe 1000 mm"
+      ],
+      [
+        "Rollen",
+        "Ø 125 mm mit Puffern, 2 feststellbar"
+      ],
+      [
+        "Zubehör",
+        "Ausziehbare Seitenplatte, Infusionsständer, Instrumentenschiene, Abwurfbehälter mit Schwenkdeckel, Handschuhspender, Kanülenabwurf, Katheterkorb, Nierenschale, Zubehörkorb, Instrumentenbehälter"
+      ]
+    ]
+  },
+  {
+    "cat": "wagen",
+    "slug": "wg-multi",
+    "model": "Multifunktions- & Stationswagen",
+    "ref": "MULTI-02 – MULTI-06",
+    "image_count": 6,
+    "description": "Der flexible Wagen für die tägliche Stationsversorgung – fünf Baubreiten und ein Innenleben aus Schubladen, Tabletts und Körben, das Sie frei zusammenstellen.",
+    "specs": [
+      [
+        "Ausführungen",
+        "ABS · Stahl lackiert (ST) · Edelstahl (KO)"
+      ],
+      [
+        "Baubreiten",
+        "400, 700, 800 und 900 mm (MULTI-02 bis MULTI-06)"
+      ],
+      [
+        "Maße",
+        "Tiefe 500 mm, Arbeitshöhe 1000 mm"
+      ],
+      [
+        "Korpus und Arbeitsplatte",
+        "ABS: Stahlkorpus mit ABS-Platte · ST: beides pulverbeschichteter Stahl · KO: beides Edelstahl 0H18N9"
+      ],
+      [
+        "Rollen",
+        "Ø 125 mm, 2 feststellbar"
+      ],
+      [
+        "Innenausstattung",
+        "Ausziehbare Tabletts und Körbe in verschiedenen Größen"
+      ],
+      [
+        "Zubehör",
+        "Ausziehbare Seitenplatte, Instrumentenschiene, Abwurfbehälter mit Schwenkdeckel, Handschuhspender, Kanülenabwurf, Katheterkorb, Aufsatz, Seifenspender"
+      ]
+    ]
+  },
+  {
+    "cat": "wagen",
+    "slug": "wg-optimum",
+    "model": "Behandlungswagen OPTIMUM",
+    "ref": "OPTIMUM R / Z / P",
+    "image_count": 6,
+    "description": "Die Designlinie mit weißem Aluminiumrahmen und farbigen Fronten – drei Ausführungen für Reanimation, Station und Behandlung, konfiguriert nach Ihrem Bedarf.",
+    "specs": [
+      [
+        "Ausführungen",
+        "R (Reanimation) · Z (Station) · P (Arbeitsplatte nach vorne ausziehbar)"
+      ],
+      [
+        "Rahmen",
+        "Aluminiumprofil, pulverbeschichtet weiß"
+      ],
+      [
+        "Korpus und Schubladen",
+        "Stahl, pulverbeschichtet"
+      ],
+      [
+        "Arbeitsplatte",
+        "ABS mit drei Aufkantungen; Zusatzplatte einschiebbar (R, Z) oder nach vorne ausziehbar (P)"
+      ],
+      [
+        "Option",
+        "Zusatzplatte aus Edelstahl 0H18N9 oder pulverbeschichtetem Stahl"
+      ],
+      [
+        "Maße",
+        "700 × 500 × 1000 mm, Korpus 600 × 500 mm, Ablagen 600 × 500 mm"
+      ],
+      [
+        "Gesamthöhe",
+        "1700 mm (Typ Z)"
+      ],
+      [
+        "Notfallausstattung",
+        "Infusionsständer und Sauerstoffflaschenhalter bei Typ R und Z"
+      ],
+      [
+        "Gestaltung",
+        "Fronten, Griffe und Dekorelemente farbig nach TECH-MED-Farbkarte"
+      ],
+      [
+        "Zubehör",
+        "Kippbehälter, Ablagen, Zubehörkorb, Abwurfbehälter, Instrumenten- und Handschuhbehälter, Kanülenabwurf, Katheterkorb, Steckdosenleiste, ausziehbare Seitenplatte"
+      ]
+    ]
+  },
+  {
+    "cat": "wagen",
+    "slug": "wg-k5",
+    "model": "Beistellschrank K-5",
+    "ref": "K-5",
+    "image_count": 5,
+    "description": "Kompakter Beistellschrank auf Fünf-Stern-Fuß – wendig auf kleinen Rollen und wahlweise mit Schubladenschrank oder als reiner Instrumententisch.",
+    "specs": [
+      [
+        "Korpus",
+        "Schubladenschrank, Stahl pulverbeschichtet nach RAL"
+      ],
+      [
+        "Arbeitsplatte",
+        "Vertieft, pulverbeschichtet; optional Edelstahl 0H18N9"
+      ],
+      [
+        "Fuß",
+        "Fünf-Stern-Fuß, verchromt oder pulverbeschichtet, Ø 600 mm"
+      ],
+      [
+        "Rollen",
+        "Ø 55 mm, 3 feststellbar"
+      ],
+      [
+        "Maße",
+        "450 × 450 mm, Höhe 800 mm"
+      ],
+      [
+        "Ausführungen",
+        "Mit Schubladenschrank oder als reiner Instrumententisch"
+      ]
+    ]
+  },
+  {
+    "cat": "wagen",
+    "slug": "wg-k6",
+    "model": "Kompaktwagen K-6",
+    "ref": "K-6",
+    "image_count": 7,
+    "description": "Der kleinste fahrbare Wagen der Reihe: zwei Ebenen, Edelstahlplatte mit erhöhten Kanten und Schiebegriff – ideal für Behandlungsraum und Ambulanz.",
+    "specs": [
+      [
+        "Rahmen",
+        "Stahl, pulverbeschichtet nach RAL"
+      ],
+      [
+        "Arbeitsplatte",
+        "Edelstahl 0H18N9 mit erhöhten Kanten, 450 × 320 mm"
+      ],
+      [
+        "Schublade",
+        "Stahl pulverbeschichtet, 450 × 320 × 155 mm"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "500 × 400 × 800 mm"
+      ],
+      [
+        "Ausstattung",
+        "Zwei Ebenen, Schiebegriff"
+      ]
+    ]
   }
 ]
