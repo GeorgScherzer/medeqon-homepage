@@ -2217,7 +2217,11 @@
       ],
       [
         "Korpus und Arbeitsplatte",
-        "ABS: Stahlkorpus mit ABS-Platte · ST: pulverbeschichteter Stahl · KO: Korpus Edelstahl 0H18N9"
+        "ABS: Stahlkorpus mit ABS-Platte · ST: komplett pulverbeschichteter Stahl nach RAL · KO: komplett Edelstahl 0H18N9"
+      ],
+      [
+        "Modelle",
+        "REN-01 bis REN-05 · REN-06 mit 700 mm Breite"
       ],
       [
         "Modulare Variante",
@@ -2232,8 +2236,12 @@
         "Ø 125 mm mit Puffern, 2 feststellbar"
       ],
       [
+        "Erweiterbarkeit",
+        "Zubehör lässt sich ohne Eingriff in die Konstruktion tauschen oder ergänzen"
+      ],
+      [
         "Zubehör",
-        "Ausziehbare Seitenplatte, Infusionsständer, Instrumentenschiene, Abwurfbehälter mit Schwenkdeckel, Handschuhspender, Kanülenabwurf, Katheterkorb, Nierenschale, Zubehörkorb, Instrumentenbehälter"
+        "Ausziehbare Seitenplatte, Instrumentenschiene, Infusionsständer, Abwurfbehälter mit Schwenkdeckel, Handschuhspender, Kanülenabwurf, Katheterkorb, Nierenschale, Zubehörkorb, Instrumentenbehälter, Schubladenteiler, Zentralverriegelung, Schubladenetiketten, Steckdosenleiste"
       ]
     ]
   },
@@ -2241,7 +2249,7 @@
     "cat": "wagen",
     "slug": "wg-multi",
     "model": "Multifunktions- & Stationswagen",
-    "ref": "MULTI-02 – MULTI-06",
+    "ref": "MULTI-01 – MULTI-06",
     "image_count": 6,
     "description": "Der flexible Wagen für die tägliche Stationsversorgung – fünf Baubreiten und ein Innenleben aus Schubladen, Tabletts und Körben, das Sie frei zusammenstellen.",
     "specs": [
@@ -2251,7 +2259,7 @@
       ],
       [
         "Baubreiten",
-        "400, 700, 800 und 900 mm (MULTI-02 bis MULTI-06)"
+        "400, 700, 800 und 900 mm (MULTI-01 bis MULTI-06)"
       ],
       [
         "Maße",

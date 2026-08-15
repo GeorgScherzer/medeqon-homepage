@@ -2005,7 +2005,11 @@
       ],
       [
         "Korpus i blat",
-        "ABS: korpus stalowy z blatem ABS · ST: stal malowana proszkowo · KO: korpus ze stali nierdzewnej 0H18N9"
+        "ABS: korpus stalowy z blatem ABS · ST: w całości stal lakierowana wg RAL · KO: w całości stal nierdzewna 0H18N9"
+      ],
+      [
+        "Modele",
+        "REN-01 do REN-05 · REN-06 o szerokości 700 mm"
       ],
       [
         "Wersja modułowa",
@@ -2020,8 +2024,12 @@
         "Ø 125 mm z odbojnikami, 2 z blokadą"
       ],
       [
+        "Rozbudowa",
+        "Akcesoria można wymieniać lub dokładać bez ingerencji w konstrukcję"
+      ],
+      [
         "Akcesoria",
-        "Wysuwany blat boczny, stojak infuzyjny, listwa narzędziowa, pojemnik na odpady z pokrywą uchylną, podajnik rękawic, pojemnik na igły, kosz na cewniki, miska nerkowata, kosz na akcesoria, pojemnik na narzędzia"
+        "Wysuwany blat boczny, listwa narzędziowa, stojak infuzyjny, pojemnik na odpady z pokrywą uchylną, podajnik rękawic, pojemnik na igły, kosz na cewniki, miska nerkowata, kosz na akcesoria, pojemnik na narzędzia, przegrody szuflad, zamek centralny, etykiety szuflad, listwa zasilająca"
       ]
     ]
   },
@@ -2035,7 +2043,7 @@
       ],
       [
         "Szerokości",
-        "400, 700, 800 i 900 mm (MULTI-02 do MULTI-06)"
+        "400, 700, 800 i 900 mm (MULTI-01 do MULTI-06)"
       ],
       [
         "Wymiary",
