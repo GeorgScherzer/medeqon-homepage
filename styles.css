@@ -380,6 +380,13 @@ a.m-mfr-chip:hover,a.m-mfr-chip:focus-visible{transform:translateY(-2px);
 .m-hexbg-l::after{left:0;top:78px;opacity:.8;background-image:var(--hexbg2);background-position:left center;
   -webkit-mask-image:linear-gradient(90deg,#000 0,#000 45%,transparent 100%),linear-gradient(180deg,#000 60%,transparent 100%);
           mask-image:linear-gradient(90deg,#000 0,#000 45%,transparent 100%),linear-gradient(180deg,#000 60%,transparent 100%)}
+/* Der Inhalt ist mittig begrenzt (m-shell 1080px). Auf schmaleren Desktops bleibt
+   links zu wenig Platz, das TECHMED-Motiv liegt dann teilweise unter dem Text –
+   dort wird es zurueckgenommen, damit der Text gut lesbar bleibt.
+   Unter 900px greift ohnehin die Mobil-Regel (opacity .13). */
+@media (min-width:901px) and (max-width:1700px){
+  #medizinische-einrichtung.m-hexbg-l::after{opacity:.40}
+}
 .m-hexbg .m-shell{position:relative;z-index:1}
 .m-acc{display:grid;gap:14px}
 details.m-ac{background:var(--paper);border:1px solid var(--mist);border-radius:14px;
@@ -398,6 +405,7 @@ details.m-ac[open] > summary .m-ac-chev{transform:rotate(180deg);color:var(--sig
 .m-ac-body > .m-ac-mfr{margin:0 0 16px}
 .m-ac-mfr--rothband{height:32px}
 .m-ac-mfr--kenex{height:36px}
+.m-ac-mfr--techmed{height:30px}
 .m-ac-body{padding:2px 28px 30px}
 .m-ac-lead{font-size:16px;line-height:24px;color:var(--ink);max-width:74ch;margin:0 0 20px}
 .m-ac-src{font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;

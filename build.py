@@ -1389,6 +1389,36 @@ DL_MED = [
 
 DL_HB = []
 
+# --- TECHMED-Bereiche (Medizinische Einrichtung 04–12) --------------------
+# Noch ohne Produktdaten: Bereich lässt sich aufklappen und zeigt den Hinweis,
+# dass die Modelle folgen. Sobald Daten da sind, wird hier auf Produktkarten
+# umgestellt (wie CARDS[...] bei 01–03).
+_TM_SOON = "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt."
+_TM_CATS = [
+    ("04", "medizinische-wagen",        "Medizinische Wagen"),
+    ("05", "geraetewagen",              "Gerätewagen"),
+    ("06", "behandlungswagen",          "Behandlungswagen"),
+    ("07", "instrumentenwagen",         "Instrumentenwagen"),
+    ("08", "stationswagen",             "Stationswagen"),
+    ("09", "edelstahlmoebel",           "Edelstahlmöbel"),
+    ("10", "transportwagen",            "Transportwagen"),
+    ("11", "sterilisation-lagerung",    "Sterilisation, unreiner Arbeitsraum und Lagerung"),
+    ("12", "nichtmagnetische-produkte", "Nichtmagnetische Produkte"),
+]
+
+def _techmed_sections():
+    out = []
+    for num, sid, title in _TM_CATS:
+        out.append(
+f'      <details class="m-ac" id="{sid}">\n'
+f'        <summary><span class="m-ac-num">{num}</span><span class="m-ac-title">{title}</span>' + CHEV + '</summary>\n'
+ '        <div class="m-ac-body">\n'
+ '          <img class="m-ac-mfr m-ac-mfr--techmed" src="assets/brands/techmed.png" alt="TECHMED" loading="lazy">\n'
+f'          <p class="m-ac-lead">{_TM_SOON}</p>\n'
+ '        </div>\n'
+ '      </details>')
+    return "\n\n".join(out)
+
 BODY_PRODUKTE = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Produkte</span>
@@ -1625,7 +1655,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
         <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
-        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
       </div>
       <div class="m-mfr">
         <span class="m-mfr-cap">Hersteller</span>
@@ -1707,7 +1737,9 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
           </div>
         </div>
       </details>
-''' + _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
+
+''' + _techmed_sections() + '''
+''' + _downloads_datasheets("13", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
     </div>
   </div>
 </section>
@@ -1897,6 +1929,16 @@ _PUI = {
   "Hersteller KENEX – Website in neuem Tab öffnen": "Manufacturer KENEX – open website in a new tab",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Manufacturer COINFYCARE – open website in a new tab",
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Manufacturer TECHMED – open website in a new tab",
+  "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterilization, soiled utility room and storage",
+  "Nichtmagnetische Produkte": "Non-magnetic products",
+  "Medizinische Wagen": "Medical carts",
+  "Gerätewagen": "Medical equipment carts",
+  "Behandlungswagen": "Treatment carts",
+  "Instrumentenwagen": "Instrument carts",
+  "Stationswagen": "Ward carts",
+  "Edelstahlmöbel": "Stainless steel furniture",
+  "Transportwagen": "Transport trolleys",
+  "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "The models for this section are currently being prepared and will be added shortly.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Manufacturer MOBIAK – open website in a new tab",
   "Persönlicher Strahlenschutz": "Personal radiation protection",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.": "Radiation-protection wear for direct personal protection – aprons, two-piece sets, thyroid shields and complementary accessories. Focus on ergonomics, weight distribution, protective performance and wearing comfort.",
@@ -1930,7 +1972,7 @@ _PUI = {
   "Modell verfügbar": "model available",
   "Produkte verfügbar": "products available",
   "Medizinische Einrichtung": "Medical furnishing",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to privacy screening. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (medical trolleys, stainless steel furniture, non-magnetic products). Click a section to expand the models.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to privacy screening. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (medical trolleys, stainless steel furniture, non-magnetic products). Click a section to expand the models.",
   "Untersuchungsliegen": "Examination couches",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Examination and treatment couches for practice and clinic – organised by design type.",
   "Fix": "Fixed",
@@ -2025,6 +2067,16 @@ _PUI = {
   "Hersteller KENEX – Website in neuem Tab öffnen": "Producent KENEX – otwórz stronę w nowej karcie",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Producent COINFYCARE – otwórz stronę w nowej karcie",
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Producent TECHMED – otwórz stronę w nowej karcie",
+  "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterylizacja, brudownik i magazynowanie",
+  "Nichtmagnetische Produkte": "Produkty niemagnetyczne",
+  "Medizinische Wagen": "Wózki medyczne",
+  "Gerätewagen": "Wózki pod aparaturę medyczną",
+  "Behandlungswagen": "Wózki zabiegowe",
+  "Instrumentenwagen": "Wózki narzędziowe",
+  "Stationswagen": "Wózki oddziałowe",
+  "Edelstahlmöbel": "Meble ze stali nierdzewnej",
+  "Transportwagen": "Wózki transportowe",
+  "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modele w tym obszarze są obecnie przygotowywane i zostaną wkrótce dodane.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producent MOBIAK – otwórz stronę w nowej karcie",
   "Persönlicher Strahlenschutz": "Osobista ochrona radiologiczna",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.": "Odzież ochronna przed promieniowaniem do bezpośredniej ochrony osób – fartuchy, komplety dwuczęściowe, osłony tarczycy i uzupełniające akcesoria. Nacisk na ergonomię, rozkład masy, skuteczność ochrony i komfort noszenia.",
@@ -2058,7 +2110,7 @@ _PUI = {
   "Modell verfügbar": "dostępny model",
   "Produkte verfügbar": "dostępnych produktów",
   "Medizinische Einrichtung": "Wyposażenie medyczne",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po parawany. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki medyczne, meble ze stali nierdzewnej, produkty niemagnetyczne). Kliknij obszar, aby rozwinąć modele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po parawany. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki medyczne, meble ze stali nierdzewnej, produkty niemagnetyczne). Kliknij obszar, aby rozwinąć modele.",
   "Untersuchungsliegen": "Leżanki do badań",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Leżanki do badań i zabiegów dla gabinetu i kliniki – podzielone według typu konstrukcji.",
   "Fix": "Stałe",
@@ -2153,6 +2205,16 @@ _PUI = {
   "Hersteller KENEX – Website in neuem Tab öffnen": "Producător KENEX – deschide site-ul într-o filă nouă",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Producător COINFYCARE – deschide site-ul într-o filă nouă",
   "Hersteller TECHMED – Website in neuem Tab öffnen": "Producător TECHMED – deschide site-ul într-o filă nouă",
+  "Sterilisation, unreiner Arbeitsraum und Lagerung": "Sterilizare, cameră de utilități murdare și depozitare",
+  "Nichtmagnetische Produkte": "Produse nemagnetice",
+  "Medizinische Wagen": "Cărucioare medicale",
+  "Gerätewagen": "Cărucioare pentru aparatură medicală",
+  "Behandlungswagen": "Cărucioare de tratament",
+  "Instrumentenwagen": "Cărucioare pentru instrumentar",
+  "Stationswagen": "Cărucioare de secție",
+  "Edelstahlmöbel": "Mobilier din oțel inoxidabil",
+  "Transportwagen": "Cărucioare de transport",
+  "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modelele pentru această secțiune sunt în curs de pregătire și vor fi adăugate în curând.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producător MOBIAK – deschide site-ul într-o filă nouă",
   "Persönlicher Strahlenschutz": "Protecție radiologică personală",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.": "Îmbrăcăminte de protecție radiologică pentru protecția directă a persoanei – șorțuri, seturi din două piese, protecții pentru tiroidă și accesorii complementare. Accent pe ergonomie, distribuția greutății, performanța de protecție și confortul purtării.",
@@ -2186,7 +2248,7 @@ _PUI = {
   "Modell verfügbar": "model disponibil",
   "Produkte verfügbar": "produse disponibile",
   "Medizinische Einrichtung": "Mobilier medical",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la paravane. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare medicale, mobilier din oțel inoxidabil, produse nemagnetice). Faceți clic pe o secțiune pentru a extinde modelele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la paravane. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare medicale, mobilier din oțel inoxidabil, produse nemagnetice). Faceți clic pe o secțiune pentru a extinde modelele.",
   "Untersuchungsliegen": "Canapele de examinare",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Canapele de examinare și tratament pentru cabinet și clinică – organizate după tipul constructiv.",
   "Fix": "Fixe",
@@ -2284,7 +2346,7 @@ _PROD_CHROME = [
   "Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – vom Hersteller KENEX.",
   "Aufgehängte Überkopf-Schutzschilde und komplette Aufhängungssysteme (Deckenschienen, Säulen, Arme, Monitor-Aufhängung) – zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich. Vom Hersteller KENEX.",
   "Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – Unterkörper-, Kopfende- und Aufsatz-Schilde sowie passende Aufbewahrung. Vom Hersteller KENEX.",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wagen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.",
   "Behandlungs-, Blutabnahme- und Arbeitsstühle sowie Hocker für den medizinischen Einsatz.",
   "Sicht- und Trennwandsysteme für diskrete, flexibel teilbare Raumbereiche.",
@@ -2299,6 +2361,16 @@ _PROD_CHROME = [
   "Hersteller KENEX – Website in neuem Tab öffnen",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen",
   "Hersteller TECHMED – Website in neuem Tab öffnen",
+  "Sterilisation, unreiner Arbeitsraum und Lagerung",
+  "Nichtmagnetische Produkte",
+  "Medizinische Wagen",
+  "Gerätewagen",
+  "Behandlungswagen",
+  "Instrumentenwagen",
+  "Stationswagen",
+  "Edelstahlmöbel",
+  "Transportwagen",
+  "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen",
   "Herstellerunabhängige Produktbeschaffung",
   "Tischmontierter Strahlenschutz",
@@ -2373,8 +2445,8 @@ def _body_produkte(lang):
     swaps.append((_farben_html(), _farben_html(lang)))
     swaps.append((_downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS),
                   _downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS, lang=lang)))
-    swaps.append((_downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
-                  _downloads_datasheets("04", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
+    swaps.append((_downloads_datasheets("13", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
+                  _downloads_datasheets("13", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
     swaps.append((_downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB),
                   _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB, lang=lang)))
     for de_block, tr_block in swaps:
