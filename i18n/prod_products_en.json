@@ -2172,5 +2172,285 @@
         "Two levels, push handle"
       ]
     ]
+  },
+  "st-wd2": {
+    "model": "WD-2 bedside cabinet",
+    "description": "Mobile bedside cabinet with an open steel frame, drawer and cupboard compartment – drawer and door can be opened on one or both sides.",
+    "specs": [
+      [
+        "Cabinet",
+        "Drawer and cupboard compartment, powder-coated steel in RAL colours"
+      ],
+      [
+        "Opening",
+        "Drawer and door on one or both sides"
+      ],
+      [
+        "Worktop",
+        "Laminated board with PVC edges; optionally ABS plastic"
+      ],
+      [
+        "Frame",
+        "Steel, powder-coated"
+      ],
+      [
+        "Basket shelf",
+        "Powder-coated steel; optionally stainless steel 0H18N9"
+      ],
+      [
+        "Castors",
+        "Ø 50 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "430 × 410 mm, height 880 mm"
+      ]
+    ]
+  },
+  "st-wd7": {
+    "model": "WD-7 bedside cabinet",
+    "description": "Bedside cabinet with a closed steel body, lateral ABS bottle compartment and a recessed worktop.",
+    "specs": [
+      [
+        "Cabinet",
+        "Cupboard and drawer, powder-coated steel"
+      ],
+      [
+        "Opening",
+        "Drawer and door on one or both sides"
+      ],
+      [
+        "Bottle compartment",
+        "Lateral, ABS plastic"
+      ],
+      [
+        "Worktop",
+        "Waterproof HPL laminate or ABS, recessed"
+      ],
+      [
+        "Castors",
+        "Ø 55 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "525 × 460 mm, height 880 mm"
+      ]
+    ]
+  },
+  "st-wd8": {
+    "model": "WD-8 bedside cabinet",
+    "description": "Column-type bedside cabinet on an ABS-clad steel base – with a pull-out side shelf and a recessed ABS worktop.",
+    "specs": [
+      [
+        "Cabinet",
+        "Cupboard and drawer, powder-coated steel in RAL colours"
+      ],
+      [
+        "Opening",
+        "Drawer and door on one side"
+      ],
+      [
+        "Worktop",
+        "ABS plastic, recessed"
+      ],
+      [
+        "Side shelf",
+        "Waterproof HPL laminate, sliding"
+      ],
+      [
+        "Column",
+        "Aluminium tubular frame, powder-coated"
+      ],
+      [
+        "Base",
+        "Steel with ABS cladding, 4 castors Ø 55 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "480 × 400 mm, height 880 mm"
+      ]
+    ]
+  },
+  "st-sp1": {
+    "model": "FRIEND SP-1 overbed table",
+    "description": "Mobile overbed table with an H-shaped base and tilting top – height-adjustable manually or conveniently by gas spring.",
+    "specs": [
+      [
+        "Versions",
+        "SP-1 (lacquered MDF top) · SP-1ABS (ABS, recessed) · SP-1ABS-2 (split ABS top)"
+      ],
+      [
+        "Height adjustment",
+        "850–1300 mm, manual"
+      ],
+      [
+        "Height adjustment by gas spring",
+        "850–1150 mm"
+      ],
+      [
+        "Top tilt",
+        "0–60°"
+      ],
+      [
+        "Base frame",
+        "Powder-coated steel; optionally stainless steel 0H18N9"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Base dimensions",
+        "730 × 430 mm"
+      ],
+      [
+        "Top dimensions",
+        "730 × 410 mm (ABS) or 735 × 430 mm (MDF)"
+      ]
+    ]
+  },
+  "st-sp2": {
+    "model": "FRIEND SP-2 overbed table",
+    "description": "Overbed table on a curved, ABS-clad steel base – height-adjustable manually or by gas spring, with a tilting top.",
+    "specs": [
+      [
+        "Versions",
+        "SP-2 (steel frame) · SP-2ABS-2 (split ABS top, recessed)"
+      ],
+      [
+        "Height adjustment",
+        "850–1300 mm, manual"
+      ],
+      [
+        "Height adjustment by gas spring",
+        "850–1150 mm"
+      ],
+      [
+        "Top tilt",
+        "0–60°"
+      ],
+      [
+        "Frame",
+        "Steel, powder-coated"
+      ],
+      [
+        "Base",
+        "Steel with ABS cladding"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, 2 lockable"
+      ],
+      [
+        "Base dimensions",
+        "765 × 455 mm"
+      ],
+      [
+        "Top dimensions",
+        "730 × 410 mm"
+      ]
+    ]
+  },
+  "st-sk": {
+    "model": "SK IV pole stand",
+    "description": "Mobile stainless steel IV pole stand with a telescopic column and five-leg base – four head versions and a wide range of accessories.",
+    "specs": [
+      [
+        "Versions",
+        "SK-01 (plastic base, Ø 575 mm) · SK-02 (base in stainless steel 0H18N9 or powder-coated steel, Ø 600 mm)"
+      ],
+      [
+        "Head",
+        "Stainless steel 0H18N9"
+      ],
+      [
+        "Outer column",
+        "Stainless steel 0H18N9 or powder-coated steel, Ø 25 mm"
+      ],
+      [
+        "Inner column",
+        "Stainless steel 0H18N9, Ø 16 mm"
+      ],
+      [
+        "Height adjustment",
+        "1320–2150 mm"
+      ],
+      [
+        "Base",
+        "5 legs, castors Ø 50 mm, all lockable"
+      ],
+      [
+        "Head versions",
+        "G-01 (2 hooks) · G-02 (4 hooks) · G-03 (2 bottles) · G-04 (2 hooks + 2 bottles)"
+      ],
+      [
+        "Accessories",
+        "Push handle, power strip, waste bin, shelf, drip container"
+      ]
+    ]
+  },
+  "st-po": {
+    "model": "PO foot stool",
+    "description": "Foot stool made entirely of stainless steel 0H18N9 with a non-slip tread – one or two steps, optionally with height-adjustable handrails.",
+    "specs": [
+      [
+        "Design",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Tread",
+        "Non-slip coating"
+      ],
+      [
+        "Feet",
+        "Height-adjustable"
+      ],
+      [
+        "One step",
+        "480 × 320 mm, height 130 / 220 / 280 mm"
+      ],
+      [
+        "Two steps",
+        "480 × 650 mm, height 400 mm"
+      ],
+      [
+        "With handrails",
+        "480 × 650 mm, height 400 mm; overall height 1115–1360 mm"
+      ],
+      [
+        "Handrails",
+        "Height-adjustable"
+      ]
+    ]
+  },
+  "st-wp1": {
+    "model": "WP-1 injection chair",
+    "description": "Injection and blood sampling chair with upholstered armrests adjustable in height and rotation – upholstery resistant to disinfectants.",
+    "specs": [
+      [
+        "Frame",
+        "Powder-coated steel (ST); optionally stainless steel 0H18N9 (KO)"
+      ],
+      [
+        "Upholstery",
+        "Seat, backrest and armrests, washable and resistant to disinfectants"
+      ],
+      [
+        "Armrests",
+        "Height and rotation adjustable, 580–930 mm"
+      ],
+      [
+        "Seat",
+        "500 × 450 mm"
+      ],
+      [
+        "Seat height",
+        "510 mm"
+      ],
+      [
+        "Dimensions",
+        "695 × 640 mm, height 950 mm"
+      ]
+    ]
   }
 }

@@ -2172,5 +2172,285 @@
         "Două niveluri, mâner de împingere"
       ]
     ]
+  },
+  "st-wd2": {
+    "model": "Noptieră WD-2",
+    "description": "Noptieră mobilă cu cadru deschis din oțel, sertar și compartiment cu ușă – sertarul și ușa se pot deschide pe o parte sau pe ambele părți.",
+    "specs": [
+      [
+        "Corp",
+        "Sertar și compartiment cu ușă, oțel vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Deschidere",
+        "Sertar și ușă pe o parte sau pe ambele părți"
+      ],
+      [
+        "Blat de lucru",
+        "Placă laminată cu cant PVC; opțional plastic ABS"
+      ],
+      [
+        "Cadru",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Coș de depozitare",
+        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Roți",
+        "Ø 50 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "430 × 410 mm, înălțime 880 mm"
+      ]
+    ]
+  },
+  "st-wd7": {
+    "model": "Noptieră WD-7",
+    "description": "Noptieră cu corp închis din oțel, compartiment lateral pentru sticlă din ABS și blat adâncit.",
+    "specs": [
+      [
+        "Corp",
+        "Dulap și sertar, oțel vopsit electrostatic"
+      ],
+      [
+        "Deschidere",
+        "Sertar și ușă pe o parte sau pe ambele părți"
+      ],
+      [
+        "Compartiment pentru sticlă",
+        "Lateral, plastic ABS"
+      ],
+      [
+        "Blat de lucru",
+        "Placă HPL rezistentă la apă sau ABS, adâncit"
+      ],
+      [
+        "Roți",
+        "Ø 55 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "525 × 460 mm, înălțime 880 mm"
+      ]
+    ]
+  },
+  "st-wd8": {
+    "model": "Noptieră WD-8",
+    "description": "Noptieră în construcție pe coloană, pe bază din oțel îmbrăcată în ABS – cu poliță laterală extensibilă și blat adâncit din ABS.",
+    "specs": [
+      [
+        "Corp",
+        "Dulap și sertar, oțel vopsit electrostatic în culori RAL"
+      ],
+      [
+        "Deschidere",
+        "Sertar și ușă pe o singură parte"
+      ],
+      [
+        "Blat de lucru",
+        "Plastic ABS, adâncit"
+      ],
+      [
+        "Poliță laterală",
+        "Placă HPL rezistentă la apă, extensibilă"
+      ],
+      [
+        "Coloană",
+        "Cadru tubular din aluminiu, vopsit electrostatic"
+      ],
+      [
+        "Bază",
+        "Oțel îmbrăcat în ABS, 4 roți Ø 55 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "480 × 400 mm, înălțime 880 mm"
+      ]
+    ]
+  },
+  "st-sp1": {
+    "model": "Masă pentru pat FRIEND SP-1",
+    "description": "Masă mobilă pentru pat, cu bază în formă de H și blat înclinabil – reglabilă pe înălțime manual sau confortabil prin arc cu gaz.",
+    "specs": [
+      [
+        "Variante",
+        "SP-1 (blat din MDF lăcuit) · SP-1ABS (ABS, adâncit) · SP-1ABS-2 (blat ABS divizat)"
+      ],
+      [
+        "Reglarea înălțimii",
+        "850–1300 mm, manual"
+      ],
+      [
+        "Reglarea înălțimii cu arc cu gaz",
+        "850–1150 mm"
+      ],
+      [
+        "Înclinarea blatului",
+        "0–60°"
+      ],
+      [
+        "Cadru de bază",
+        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni bază",
+        "730 × 430 mm"
+      ],
+      [
+        "Dimensiuni blat",
+        "730 × 410 mm (ABS) sau 735 × 430 mm (MDF)"
+      ]
+    ]
+  },
+  "st-sp2": {
+    "model": "Masă pentru pat FRIEND SP-2",
+    "description": "Masă pentru pat pe bază curbată din oțel, îmbrăcată în ABS – reglabilă pe înălțime manual sau prin arc cu gaz, cu blat înclinabil.",
+    "specs": [
+      [
+        "Variante",
+        "SP-2 (cadru din oțel) · SP-2ABS-2 (blat ABS divizat, adâncit)"
+      ],
+      [
+        "Reglarea înălțimii",
+        "850–1300 mm, manual"
+      ],
+      [
+        "Reglarea înălțimii cu arc cu gaz",
+        "850–1150 mm"
+      ],
+      [
+        "Înclinarea blatului",
+        "0–60°"
+      ],
+      [
+        "Cadru",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Bază",
+        "Oțel îmbrăcat în ABS"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni bază",
+        "765 × 455 mm"
+      ],
+      [
+        "Dimensiuni blat",
+        "730 × 410 mm"
+      ]
+    ]
+  },
+  "st-sk": {
+    "model": "Stativ pentru perfuzii SK",
+    "description": "Stativ mobil pentru perfuzii din oțel inoxidabil, cu coloană telescopică și bază cu cinci picioare – patru variante de cap și accesorii numeroase.",
+    "specs": [
+      [
+        "Variante",
+        "SK-01 (bază din plastic, Ø 575 mm) · SK-02 (bază din oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic, Ø 600 mm)"
+      ],
+      [
+        "Cap",
+        "Oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Coloană exterioară",
+        "Oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic, Ø 25 mm"
+      ],
+      [
+        "Coloană interioară",
+        "Oțel inoxidabil 0H18N9, Ø 16 mm"
+      ],
+      [
+        "Reglarea înălțimii",
+        "1320–2150 mm"
+      ],
+      [
+        "Bază",
+        "5 picioare, roți Ø 50 mm, toate cu frână"
+      ],
+      [
+        "Variante de cap",
+        "G-01 (2 cârlige) · G-02 (4 cârlige) · G-03 (2 flacoane) · G-04 (2 cârlige + 2 flacoane)"
+      ],
+      [
+        "Accesorii",
+        "Mâner, prelungitor cu prize, recipient pentru deșeuri, poliță, flacon de secreții"
+      ]
+    ]
+  },
+  "st-po": {
+    "model": "Taburet cu trepte PO",
+    "description": "Taburet cu trepte realizat integral din oțel inoxidabil 0H18N9, cu suprafață antiderapantă – cu una sau două trepte, opțional cu mânere reglabile.",
+    "specs": [
+      [
+        "Execuție",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Suprafață de călcare",
+        "Strat antiderapant"
+      ],
+      [
+        "Picioare",
+        "Reglabile pe înălțime"
+      ],
+      [
+        "Cu o treaptă",
+        "480 × 320 mm, înălțime 130 / 220 / 280 mm"
+      ],
+      [
+        "Cu două trepte",
+        "480 × 650 mm, înălțime 400 mm"
+      ],
+      [
+        "Cu mânere",
+        "480 × 650 mm, înălțime 400 mm; înălțime totală 1115–1360 mm"
+      ],
+      [
+        "Mânere",
+        "Reglabile pe înălțime"
+      ]
+    ]
+  },
+  "st-wp1": {
+    "model": "Scaun pentru injecții WP-1",
+    "description": "Scaun pentru injecții și recoltare de sânge, cu suporturi de braț tapițate, reglabile pe înălțime și pivotante – tapițerie rezistentă la dezinfectanți.",
+    "specs": [
+      [
+        "Cadru",
+        "Oțel vopsit electrostatic (ST); opțional oțel inoxidabil 0H18N9 (KO)"
+      ],
+      [
+        "Tapițerie",
+        "Ședere, spătar și suporturi de braț, lavabile și rezistente la dezinfectanți"
+      ],
+      [
+        "Suporturi de braț",
+        "Reglabile pe înălțime și pivotante, 580–930 mm"
+      ],
+      [
+        "Ședere",
+        "500 × 450 mm"
+      ],
+      [
+        "Înălțimea șezutului",
+        "510 mm"
+      ],
+      [
+        "Dimensiuni",
+        "695 × 640 mm, înălțime 950 mm"
+      ]
+    ]
   }
 }

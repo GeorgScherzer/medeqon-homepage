@@ -2400,5 +2400,317 @@
         "Zwei Ebenen, Schiebegriff"
       ]
     ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-wd2",
+    "model": "Nachtkästchen WD-2",
+    "ref": "WD-2",
+    "image_count": 3,
+    "description": "Fahrbares Nachtkästchen mit offenem Stahlrahmen, Schublade und Schrankfach – Schublade und Tür wahlweise ein- oder beidseitig zu öffnen.",
+    "specs": [
+      [
+        "Korpus",
+        "Schublade und Schrankfach, Stahl pulverbeschichtet nach RAL"
+      ],
+      [
+        "Öffnung",
+        "Schublade und Tür ein- oder beidseitig"
+      ],
+      [
+        "Arbeitsplatte",
+        "Laminatplatte mit PVC-Kanten; optional ABS-Kunststoff"
+      ],
+      [
+        "Rahmen",
+        "Stahl, pulverbeschichtet"
+      ],
+      [
+        "Ablagekorb",
+        "Stahl pulverbeschichtet; optional Edelstahl 0H18N9"
+      ],
+      [
+        "Rollen",
+        "Ø 50 mm, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "430 × 410 mm, Höhe 880 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-wd7",
+    "model": "Nachtkästchen WD-7",
+    "ref": "WD-7",
+    "image_count": 3,
+    "description": "Nachtkästchen mit geschlossenem Stahlkorpus, seitlichem Flascheneinschub aus ABS und vertiefter Arbeitsplatte.",
+    "specs": [
+      [
+        "Korpus",
+        "Schrank und Schublade, Stahl pulverbeschichtet"
+      ],
+      [
+        "Öffnung",
+        "Schublade und Tür ein- oder beidseitig"
+      ],
+      [
+        "Flascheneinschub",
+        "Seitlich, ABS-Kunststoff"
+      ],
+      [
+        "Arbeitsplatte",
+        "Wasserfeste HPL-Schichtstoffplatte oder ABS, vertieft"
+      ],
+      [
+        "Rollen",
+        "Ø 55 mm, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "525 × 460 mm, Höhe 880 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-wd8",
+    "model": "Nachtkästchen WD-8",
+    "ref": "WD-8",
+    "image_count": 3,
+    "description": "Nachtkästchen in Säulenbauweise auf ABS-verkleidetem Stahlfuß – mit ausziehbarer Seitenablage und vertiefter ABS-Arbeitsplatte.",
+    "specs": [
+      [
+        "Korpus",
+        "Schrank und Schublade, Stahl pulverbeschichtet nach RAL"
+      ],
+      [
+        "Öffnung",
+        "Schublade und Tür einseitig"
+      ],
+      [
+        "Arbeitsplatte",
+        "ABS-Kunststoff, vertieft"
+      ],
+      [
+        "Seitenablage",
+        "Wasserfeste HPL-Schichtstoffplatte, ausziehbar"
+      ],
+      [
+        "Säule",
+        "Aluminium-Rohrrahmen, pulverbeschichtet"
+      ],
+      [
+        "Fuß",
+        "Stahl mit ABS-Verkleidung, 4 Rollen Ø 55 mm, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "480 × 400 mm, Höhe 880 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-sp1",
+    "model": "Beistelltisch FRIEND SP-1",
+    "ref": "SP-1 / SP-1ABS / SP-1ABS-2",
+    "image_count": 4,
+    "description": "Fahrbarer Bettbeistelltisch mit H-Fahrgestell und neigbarer Platte – höhenverstellbar von Hand oder komfortabel über Gasfeder.",
+    "specs": [
+      [
+        "Ausführungen",
+        "SP-1 (lackierte MDF-Platte) · SP-1ABS (ABS, vertieft) · SP-1ABS-2 (geteilte ABS-Platte)"
+      ],
+      [
+        "Höhenverstellung",
+        "850–1300 mm, manuell"
+      ],
+      [
+        "Höhenverstellung Gasfeder",
+        "850–1150 mm"
+      ],
+      [
+        "Plattenneigung",
+        "0–60°"
+      ],
+      [
+        "Fahrgestell",
+        "Stahl pulverbeschichtet; optional Edelstahl 0H18N9"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm, 2 feststellbar"
+      ],
+      [
+        "Maße Fahrgestell",
+        "730 × 430 mm"
+      ],
+      [
+        "Maße Platte",
+        "730 × 410 mm (ABS) bzw. 735 × 430 mm (MDF)"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-sp2",
+    "model": "Beistelltisch FRIEND SP-2",
+    "ref": "SP-2 / SP-2ABS-2",
+    "image_count": 4,
+    "description": "Bettbeistelltisch auf geschwungenem, ABS-verkleidetem Stahlfuß – höhenverstellbar von Hand oder über Gasfeder, Platte neigbar.",
+    "specs": [
+      [
+        "Ausführungen",
+        "SP-2 (Stahlrahmen) · SP-2ABS-2 (geteilte ABS-Platte, vertieft)"
+      ],
+      [
+        "Höhenverstellung",
+        "850–1300 mm, manuell"
+      ],
+      [
+        "Höhenverstellung Gasfeder",
+        "850–1150 mm"
+      ],
+      [
+        "Plattenneigung",
+        "0–60°"
+      ],
+      [
+        "Rahmen",
+        "Stahl, pulverbeschichtet"
+      ],
+      [
+        "Fuß",
+        "Stahl mit ABS-Verkleidung"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm, 2 feststellbar"
+      ],
+      [
+        "Maße Fuß",
+        "765 × 455 mm"
+      ],
+      [
+        "Maße Platte",
+        "730 × 410 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-sk",
+    "model": "Infusionsständer SK",
+    "ref": "SK-01 / SK-02",
+    "image_count": 8,
+    "description": "Fahrbarer Infusionsständer aus Edelstahl mit teleskopierbarer Säule und Fünf-Bein-Fußkreuz – vier Kopfvarianten und umfangreiches Zubehör.",
+    "specs": [
+      [
+        "Ausführungen",
+        "SK-01 (Fuß aus Kunststoff, Ø 575 mm) · SK-02 (Fuß aus Edelstahl 0H18N9 oder Stahl pulverbeschichtet, Ø 600 mm)"
+      ],
+      [
+        "Kopf",
+        "Edelstahl 0H18N9"
+      ],
+      [
+        "Außensäule",
+        "Edelstahl 0H18N9 oder Stahl pulverbeschichtet, Ø 25 mm"
+      ],
+      [
+        "Innensäule",
+        "Edelstahl 0H18N9, Ø 16 mm"
+      ],
+      [
+        "Höhenverstellung",
+        "1320–2150 mm"
+      ],
+      [
+        "Fußkreuz",
+        "5 Beine, Rollen Ø 50 mm, alle feststellbar"
+      ],
+      [
+        "Kopfvarianten",
+        "G-01 (2 Haken) · G-02 (4 Haken) · G-03 (2 Flaschen) · G-04 (2 Haken + 2 Flaschen)"
+      ],
+      [
+        "Zubehör",
+        "Schiebegriff, Steckdosenleiste, Abwurfbehälter, Ablage, Sekretflasche"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-po",
+    "model": "Auftritt PO",
+    "ref": "PO",
+    "image_count": 3,
+    "description": "Auftritt komplett aus Edelstahl 0H18N9 mit rutschhemmender Trittfläche – ein- oder zweistufig, auf Wunsch mit höhenverstellbaren Haltegriffen.",
+    "specs": [
+      [
+        "Ausführung",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Trittfläche",
+        "Rutschhemmend beschichtet"
+      ],
+      [
+        "Füße",
+        "Höhenverstellbar"
+      ],
+      [
+        "Einstufig",
+        "480 × 320 mm, Höhe 130 / 220 / 280 mm"
+      ],
+      [
+        "Zweistufig",
+        "480 × 650 mm, Höhe 400 mm"
+      ],
+      [
+        "Mit Haltegriffen",
+        "480 × 650 mm, Höhe 400 mm; Gesamthöhe 1115–1360 mm"
+      ],
+      [
+        "Haltegriffe",
+        "Höhenverstellbar"
+      ]
+    ]
+  },
+  {
+    "cat": "station",
+    "slug": "st-wp1",
+    "model": "Injektionsstuhl WP-1",
+    "ref": "WP-1",
+    "image_count": 1,
+    "description": "Injektions- und Blutabnahmestuhl mit gepolsterten Armauflagen, die sich in Höhe und Schwenkung verstellen lassen – Bezug desinfektionsmittelbeständig.",
+    "specs": [
+      [
+        "Rahmen",
+        "Stahl pulverbeschichtet (ST); optional Edelstahl 0H18N9 (KO)"
+      ],
+      [
+        "Polsterung",
+        "Sitz, Rückenlehne und Armauflagen, abwaschbar und desinfektionsmittelbeständig"
+      ],
+      [
+        "Armauflagen",
+        "Höhe und Schwenkung verstellbar, 580–930 mm"
+      ],
+      [
+        "Sitzfläche",
+        "500 × 450 mm"
+      ],
+      [
+        "Sitzhöhe",
+        "510 mm"
+      ],
+      [
+        "Maße",
+        "695 × 640 mm, Höhe 950 mm"
+      ]
+    ]
   }
 ]

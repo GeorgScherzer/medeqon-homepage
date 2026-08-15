@@ -2172,5 +2172,285 @@
         "Dwa poziomy, uchwyt do prowadzenia"
       ]
     ]
+  },
+  "st-wd2": {
+    "model": "Szafka przyłóżkowa WD-2",
+    "description": "Mobilna szafka przyłóżkowa z otwartą ramą stalową, szufladą i schowkiem – szuflada i drzwi otwierane jedno- lub dwustronnie.",
+    "specs": [
+      [
+        "Korpus",
+        "Szuflada i schowek, stal malowana proszkowo w kolorach RAL"
+      ],
+      [
+        "Otwieranie",
+        "Szuflada i drzwi jedno- lub dwustronnie"
+      ],
+      [
+        "Blat roboczy",
+        "Płyta laminowana z obrzeżem PVC; opcjonalnie tworzywo ABS"
+      ],
+      [
+        "Rama",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Koszyk",
+        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+      ],
+      [
+        "Kółka",
+        "Ø 50 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "430 × 410 mm, wysokość 880 mm"
+      ]
+    ]
+  },
+  "st-wd7": {
+    "model": "Szafka przyłóżkowa WD-7",
+    "description": "Szafka przyłóżkowa z zamkniętym korpusem stalowym, bocznym schowkiem na butelkę z ABS i wgłębionym blatem.",
+    "specs": [
+      [
+        "Korpus",
+        "Szafka i szuflada, stal malowana proszkowo"
+      ],
+      [
+        "Otwieranie",
+        "Szuflada i drzwi jedno- lub dwustronnie"
+      ],
+      [
+        "Schowek na butelkę",
+        "Boczny, tworzywo ABS"
+      ],
+      [
+        "Blat roboczy",
+        "Wodoodporna płyta HPL lub ABS, wgłębiony"
+      ],
+      [
+        "Kółka",
+        "Ø 55 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "525 × 460 mm, wysokość 880 mm"
+      ]
+    ]
+  },
+  "st-wd8": {
+    "model": "Szafka przyłóżkowa WD-8",
+    "description": "Szafka przyłóżkowa w konstrukcji kolumnowej na stalowej podstawie osłoniętej ABS – z wysuwaną półką boczną i wgłębionym blatem z ABS.",
+    "specs": [
+      [
+        "Korpus",
+        "Szafka i szuflada, stal malowana proszkowo w kolorach RAL"
+      ],
+      [
+        "Otwieranie",
+        "Szuflada i drzwi jednostronnie"
+      ],
+      [
+        "Blat roboczy",
+        "Tworzywo ABS, wgłębiony"
+      ],
+      [
+        "Półka boczna",
+        "Wodoodporna płyta HPL, wysuwana"
+      ],
+      [
+        "Kolumna",
+        "Rama z rur aluminiowych, malowana proszkowo"
+      ],
+      [
+        "Podstawa",
+        "Stal osłonięta ABS, 4 kółka Ø 55 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "480 × 400 mm, wysokość 880 mm"
+      ]
+    ]
+  },
+  "st-sp1": {
+    "model": "Stolik przyłóżkowy FRIEND SP-1",
+    "description": "Mobilny stolik przyłóżkowy z podstawą w kształcie litery H i uchylnym blatem – regulacja wysokości ręczna lub wygodnie sprężyną gazową.",
+    "specs": [
+      [
+        "Wersje",
+        "SP-1 (blat z lakierowanego MDF) · SP-1ABS (ABS, wgłębiony) · SP-1ABS-2 (dzielony blat ABS)"
+      ],
+      [
+        "Regulacja wysokości",
+        "850–1300 mm, ręcznie"
+      ],
+      [
+        "Regulacja wysokości sprężyną gazową",
+        "850–1150 mm"
+      ],
+      [
+        "Pochylenie blatu",
+        "0–60°"
+      ],
+      [
+        "Podstawa jezdna",
+        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary podstawy",
+        "730 × 430 mm"
+      ],
+      [
+        "Wymiary blatu",
+        "730 × 410 mm (ABS) lub 735 × 430 mm (MDF)"
+      ]
+    ]
+  },
+  "st-sp2": {
+    "model": "Stolik przyłóżkowy FRIEND SP-2",
+    "description": "Stolik przyłóżkowy na wyprofilowanej stalowej podstawie osłoniętej ABS – regulacja wysokości ręczna lub sprężyną gazową, blat uchylny.",
+    "specs": [
+      [
+        "Wersje",
+        "SP-2 (rama stalowa) · SP-2ABS-2 (dzielony blat ABS, wgłębiony)"
+      ],
+      [
+        "Regulacja wysokości",
+        "850–1300 mm, ręcznie"
+      ],
+      [
+        "Regulacja wysokości sprężyną gazową",
+        "850–1150 mm"
+      ],
+      [
+        "Pochylenie blatu",
+        "0–60°"
+      ],
+      [
+        "Rama",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Podstawa",
+        "Stal osłonięta ABS"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary podstawy",
+        "765 × 455 mm"
+      ],
+      [
+        "Wymiary blatu",
+        "730 × 410 mm"
+      ]
+    ]
+  },
+  "st-sk": {
+    "model": "Stojak infuzyjny SK",
+    "description": "Mobilny stojak infuzyjny ze stali nierdzewnej z teleskopową kolumną i pięcioramienną podstawą – cztery warianty głowicy i bogate wyposażenie dodatkowe.",
+    "specs": [
+      [
+        "Wersje",
+        "SK-01 (podstawa z tworzywa, Ø 575 mm) · SK-02 (podstawa ze stali nierdzewnej 0H18N9 lub stali malowanej proszkowo, Ø 600 mm)"
+      ],
+      [
+        "Głowica",
+        "Stal nierdzewna 0H18N9"
+      ],
+      [
+        "Kolumna zewnętrzna",
+        "Stal nierdzewna 0H18N9 lub stal malowana proszkowo, Ø 25 mm"
+      ],
+      [
+        "Kolumna wewnętrzna",
+        "Stal nierdzewna 0H18N9, Ø 16 mm"
+      ],
+      [
+        "Regulacja wysokości",
+        "1320–2150 mm"
+      ],
+      [
+        "Podstawa",
+        "5 ramion, kółka Ø 50 mm, wszystkie z blokadą"
+      ],
+      [
+        "Warianty głowicy",
+        "G-01 (2 haczyki) · G-02 (4 haczyki) · G-03 (2 butelki) · G-04 (2 haczyki + 2 butelki)"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Uchwyt, listwa zasilająca, pojemnik na odpady, półka, butla na wydzielinę"
+      ]
+    ]
+  },
+  "st-po": {
+    "model": "Podest PO",
+    "description": "Podest w całości ze stali nierdzewnej 0H18N9 z antypoślizgową powierzchnią – jedno- lub dwustopniowy, opcjonalnie z regulowanymi poręczami.",
+    "specs": [
+      [
+        "Wykonanie",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Powierzchnia",
+        "Powłoka antypoślizgowa"
+      ],
+      [
+        "Nogi",
+        "Regulowane na wysokość"
+      ],
+      [
+        "Jednostopniowy",
+        "480 × 320 mm, wysokość 130 / 220 / 280 mm"
+      ],
+      [
+        "Dwustopniowy",
+        "480 × 650 mm, wysokość 400 mm"
+      ],
+      [
+        "Z poręczami",
+        "480 × 650 mm, wysokość 400 mm; wysokość całkowita 1115–1360 mm"
+      ],
+      [
+        "Poręcze",
+        "Regulowane na wysokość"
+      ]
+    ]
+  },
+  "st-wp1": {
+    "model": "Fotel do iniekcji WP-1",
+    "description": "Fotel do iniekcji i pobierania krwi z tapicerowanymi podłokietnikami regulowanymi na wysokość i obrotowo – tapicerka odporna na dezynfekcję.",
+    "specs": [
+      [
+        "Rama",
+        "Stal malowana proszkowo (ST); opcjonalnie stal nierdzewna 0H18N9 (KO)"
+      ],
+      [
+        "Tapicerka",
+        "Siedzisko, oparcie i podłokietniki, zmywalna i odporna na dezynfekcję"
+      ],
+      [
+        "Podłokietniki",
+        "Regulacja wysokości i obrotu, 580–930 mm"
+      ],
+      [
+        "Siedzisko",
+        "500 × 450 mm"
+      ],
+      [
+        "Wysokość siedziska",
+        "510 mm"
+      ],
+      [
+        "Wymiary",
+        "695 × 640 mm, wysokość 950 mm"
+      ]
+    ]
   }
 }
