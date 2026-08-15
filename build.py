@@ -536,6 +536,8 @@ BODY_INDEX = '''<section class="m-hero-main">
   </div>
 </section>
 
+<!--FLYER-->
+
 <section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">
   <div class="m-shell">
     <div class="m-cta-banner-copy">
@@ -1389,6 +1391,84 @@ DL_MED = [
 
 DL_HB = []
 
+# ===================== Flyer-Sektion (Startseite + Produkte) =====================
+# PDFs und Titelbilder liegen in assets/downloads/flyer/:
+#   Flyer_<slug>_medeqon_<DE|EN|PL|RO>.pdf   und   cover_<slug>_<de|en|pl|ro>.jpg
+_FLYERS = [
+    ("planung",                  4, {"de": "Medizintechnik-Planung",
+                                     "en": "Medical Technology Design",
+                                     "pl": "Projektowanie techniki medycznej",
+                                     "ro": "Proiectarea tehnologiei medicale"}),
+    ("produktuebersicht",        2, {"de": "Produktübersicht",
+                                     "en": "Product overview",
+                                     "pl": "Przegląd produktów",
+                                     "ro": "Prezentare produse"}),
+    ("strahlenschutz",           2, {"de": "Strahlenschutz",
+                                     "en": "Radiation protection",
+                                     "pl": "Ochrona radiologiczna",
+                                     "ro": "Protecție la radiații"}),
+    ("medizinische-einrichtung", 2, {"de": "Medizinische Einrichtung",
+                                     "en": "Medical furnishing",
+                                     "pl": "Wyposażenie medyczne",
+                                     "ro": "Mobilier medical"}),
+]
+_FLY_T = {
+ "de": dict(tag="Unterlagen", h2="Unsere Flyer",
+            lede="Kompakt aufbereitet auf wenigen Seiten: unsere Leistungen in der Medizintechnik-Planung "
+                 "und unser gesamtes Produktprogramm. Titelbild anklicken zum Ansehen, Pfeil zum Herunterladen.",
+            pages="Seiten", open="ansehen", dl="herunterladen", pdf="PDF"),
+ "en": dict(tag="Documents", h2="Our flyers",
+            lede="Concise and on a few pages: our medical technology design services and our complete product "
+                 "range. Click the cover to view, the arrow to download.",
+            pages="pages", open="view", dl="download", pdf="PDF"),
+ "pl": dict(tag="Materiały", h2="Nasze ulotki",
+            lede="Zwięźle na kilku stronach: nasze usługi w zakresie projektowania techniki medycznej oraz cały "
+                 "asortyment produktów. Kliknij okładkę, aby obejrzeć, strzałkę, aby pobrać.",
+            pages="stron", open="zobacz", dl="pobierz", pdf="PDF"),
+ "ro": dict(tag="Documente", h2="Pliantele noastre",
+            lede="Concis, pe câteva pagini: serviciile noastre de proiectare a tehnologiei medicale și întreaga "
+                 "gamă de produse. Faceți clic pe copertă pentru vizualizare, pe săgeată pentru descărcare.",
+            pages="pagini", open="vizualizare", dl="descărcare", pdf="PDF"),
+}
+
+def _flyer_section(lang="de", sid="flyer"):
+    t = _FLY_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    cards = []
+    for slug, pages, titles in _FLYERS:
+        title = _html.escape(titles[lang])
+        pdf = f'{ap}downloads/flyer/Flyer_{slug}_medeqon_{lang.upper()}.pdf'
+        cover = f'{ap}downloads/flyer/cover_{slug}_{lang}.jpg'
+        cards.append(
+'        <figure class="m-fly">\n'
+f'          <a class="m-fly-cover" href="{pdf}" target="_blank" rel="noopener" aria-label="{title} – {t["open"]}">\n'
+f'            <img src="{cover}" alt="{title}" width="646" height="914" loading="lazy">\n'
+'          </a>\n'
+'          <figcaption class="m-fly-foot">\n'
+'            <span class="m-fly-txt">\n'
+f'              <span class="m-fly-title">{title}</span>\n'
+f'              <span class="m-fly-meta">{t["pdf"]} &middot; {pages} {t["pages"]}</span>\n'
+'            </span>\n'
+f'            <a class="m-dl-btn" href="{pdf}" download aria-label="{title} – {t["dl"]}">{_DL_DOWNLOAD}</a>\n'
+'          </figcaption>\n'
+'        </figure>')
+    return (
+f'<section class="m-graphic-sec m-fly-sec" id="{sid}" style="background-image:url({ap}slogan-bg.jpg)">\n'
+'  <div class="m-shell">\n'
+'    <div class="m-fly-head">\n'
+f'      <span class="m-tag">{t["tag"]}</span>\n'
+f'      <h2 class="m-bigH">{t["h2"]}<span class="end-dot">.</span></h2>\n'
+f'      <p class="lede">{t["lede"]}</p>\n'
+'    </div>\n'
+'    <div class="m-fly-grid">\n'
++ "\n".join(cards) + '\n'
+'    </div>\n'
+'  </div>\n'
+'</section>')
+
+def _inject_flyer(body, lang):
+    return body.replace("<!--FLYER-->", _flyer_section(lang))
+
 # --- TECHMED-Bereiche (Medizinische Einrichtung 04–08) --------------------
 # Noch ohne Produktdaten: Bereich lässt sich aufklappen und zeigt den Hinweis,
 # dass die Modelle folgen. Sobald Daten da sind, wird hier auf Produktkarten
@@ -1442,6 +1522,8 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     <p class="lede">Wir vermitteln und liefern zertifizierte Medizinprodukte in mehreren Kategorien: Strahlenschutz, Medizinische Einrichtung und Heilbehelfe &amp; Hilfsmittel. Darüber hinaus beschaffen wir herstellerunabhängig nahezu jedes Produkt und statten ganze Bereiche projektbasiert aus. Klicken Sie eine Kategorie an, um die einzelnen Bereiche zu entdecken.</p>
   </div>
 </section>
+
+<!--FLYER-->
 
 <section class="m-section m-hexbg m-hexbg-l" id="strahlenschutz" style="--hexbg:url('assets/brands/ss-hero.jpg');--hexbg2:url('assets/brands/kenex-hero.jpg')">
   <div class="m-shell">
@@ -2442,7 +2524,7 @@ _PROD_CHROME = [
 
 def _body_produkte(lang):
     if lang == "de":
-        return BODY_PRODUKTE
+        return _inject_flyer(BODY_PRODUKTE, "de")
     body = BODY_PRODUKTE
     # 1) Produktkarten- und Bausteine je Sprache neu erzeugen und tauschen
     swaps = []
@@ -2483,11 +2565,14 @@ def _body_produkte(lang):
     # 3) Asset-Pfade root-absolut, Kontakt-Link sprachspezifisch
     body = body.replace("assets/", "/assets/")
     body = body.replace('href="kontakt.html"', f'href="/{lang}/kontakt.html"')
-    return body
+    return _inject_flyer(body, lang)
 
 BODY_PRODUKTE_EN = _body_produkte("en")
 BODY_PRODUKTE_PL = _body_produkte("pl")
 BODY_PRODUKTE_RO = _body_produkte("ro")
+# DE-Seite nutzt BODY_PRODUKTE direkt – Flyer-Reihe erst jetzt einsetzen,
+# damit EN/PL/RO oben noch vom Marker ausgehen konnten.
+BODY_PRODUKTE = _inject_flyer(BODY_PRODUKTE, "de")
 
 BODY_MANAGEMENT = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -3759,6 +3844,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
   </div>
 </section>
 
+<!--FLYER-->
+
 <section class="m-cta-banner" style="background-image:url(/assets/cta-banner.jpg)">
   <div class="m-shell">
     <div class="m-cta-banner-copy">
@@ -4099,10 +4186,16 @@ def _design_model_svg(lang):
     return "\n".join(o)
 def _inject_model(body, lang):
     return _re.sub(r'<img[^>]*integrated-design-model[^>]*>', lambda m: _design_model_svg(lang), body, count=1)
+
 BODY_INDEX    = _inject_model(BODY_INDEX, "de")
 BODY_INDEX_EN = _inject_model(BODY_INDEX_EN, "en")
 BODY_INDEX_PL = _inject_model(BODY_INDEX_PL, "pl")
 BODY_INDEX_RO = _inject_model(BODY_INDEX_RO, "ro")
+
+BODY_INDEX    = _inject_flyer(BODY_INDEX, "de")
+BODY_INDEX_EN = _inject_flyer(BODY_INDEX_EN, "en")
+BODY_INDEX_PL = _inject_flyer(BODY_INDEX_PL, "pl")
+BODY_INDEX_RO = _inject_flyer(BODY_INDEX_RO, "ro")
 
 BODY_LEISTUNGEN_PL = _tr(BODY_LEISTUNGEN_EN, _LEIST_PL, "PL leistungen")
 BODY_LEISTUNGEN_RO = _tr(BODY_LEISTUNGEN_EN, _LEIST_RO, "RO leistungen")
