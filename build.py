@@ -980,8 +980,8 @@ def _render_liege(p, lang="de"):
 '                  <article class="m-pl">\n'
 + _gallery(p, lang) + '\n'
 '                    <div class="m-pl-info">\n'
-f'                      <span class="m-pl-ref">Ref. {_html.escape(p["ref"])}</span>\n'
-f'                      <h4 class="m-pl-name">{_html.escape(model)}</h4>\n'
++ (f'                      <span class="m-pl-ref">Ref. {_html.escape(p["ref"])}</span>\n' if p.get("ref") else '')
++ f'                      <h4 class="m-pl-name">{_html.escape(model)}</h4>\n'
 f'                      <p class="m-pl-desc">{_html.escape(desc)}</p>\n'
 '                      <ul class="m-pl-specs">\n'
 f'{specs}\n'

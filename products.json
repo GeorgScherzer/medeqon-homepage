@@ -1301,7 +1301,7 @@
     "cat": "stuehle",
     "slug": "disk-pro",
     "model": "DISK PRO",
-    "ref": "auf Anfrage",
+    "ref": "",
     "image_count": 1,
     "description": "Professioneller Fahrdrehhocker mit rundem Polstersitz und höhenverstellbarem Fußring für erhöhte Arbeitspositionen; verchromtes Fünf-Fuß-Fahrgestell mit Rollen und Gaslift.",
     "specs": [
@@ -1381,7 +1381,7 @@
     "cat": "stuehle",
     "slug": "ride-pro",
     "model": "RIDE PRO",
-    "ref": "auf Anfrage",
+    "ref": "",
     "image_count": 1,
     "description": "Ergonomischer Sattelstuhl mit verstellbarer Rückenlehne und geformtem Sattelsitz für aktives, aufrechtes Sitzen; verchromtes Sternfußgestell mit 5 Rollen und Gaslift-Höhenverstellung.",
     "specs": [
@@ -1423,7 +1423,7 @@
     "cat": "stuehle",
     "slug": "ride-fr",
     "model": "RIDE FR",
-    "ref": "auf Anfrage",
+    "ref": "",
     "image_count": 1,
     "description": "Ergonomischer Sattelhocker mit höhenverstellbarem Fußring für aktives Sitzen in erhöhter Position; verchromtes Sternfußgestell mit 5 Rollen, Gaslift und PU-Bezug.",
     "specs": [
@@ -1675,7 +1675,7 @@
     "cat": "stuehle",
     "slug": "podo",
     "model": "PODO",
-    "ref": "auf Anfrage",
+    "ref": "",
     "image_count": 1,
     "description": "Elektrischer Podologie-Behandlungsstuhl mit drei Sektionen, klappbaren Armlehnen und weit verstellbarem Rücken- und Beinteil für optimale Positionen in Podologie und Fußpflege.",
     "specs": [
@@ -1793,7 +1793,7 @@
     "cat": "mrt",
     "slug": "mr-liege",
     "model": "MRT-Liege",
-    "ref": "auf Anfrage",
+    "ref": "",
     "image_count": 2,
     "description": "Fahrbare Patientenliege komplett aus nicht-magnetischen Werkstoffen für den Einsatz direkt im MRT-Raum – zweiteilig gepolstert mit manuell verstellbarem Kopfteil.",
     "specs": [
@@ -1937,7 +1937,7 @@
     "cat": "mrt",
     "slug": "mr-instrumententisch",
     "model": "Instrumententisch",
-    "ref": "E-02MR (Serie K-4MR)",
+    "ref": "E-02MR / K-4MR",
     "image_count": 1,
     "description": "Fahrbarer Instrumententisch in nicht-magnetischer Ausführung – Arbeitsplatte mit umlaufend hochgezogenem Rand, manuell in der Höhe verstellbar.",
     "specs": [
@@ -2013,7 +2013,7 @@
     "cat": "mrt",
     "slug": "mr-stationswagen",
     "model": "Stationswagen",
-    "ref": "K-3MR, Serie C",
+    "ref": "K-3MR/C",
     "image_count": 1,
     "description": "Nicht-magnetischer Stationswagen für Pflege und Vorbereitung im MRT-Bereich – Platte und Ablage aus pulverbeschichtetem Aluminium, umfangreich erweiterbar.",
     "specs": [
@@ -2051,7 +2051,7 @@
     "cat": "mrt",
     "slug": "mr-multiwagen",
     "model": "Multifunktionswagen",
-    "ref": "K-3MR, Serie D",
+    "ref": "K-3MR/D",
     "image_count": 2,
     "description": "Multifunktionaler Stationswagen in nicht-magnetischer Ausführung mit zusätzlicher Ablageebene – frei konfigurierbar für Visite, Verbandwechsel und Vorbereitung.",
     "specs": [
@@ -2119,7 +2119,7 @@
     "cat": "mrt",
     "slug": "mr-waeschewagen",
     "model": "Wäsche- und Abfallwagen",
-    "ref": "Serie WZ-MR",
+    "ref": "WZ-MR",
     "image_count": 4,
     "description": "Nicht-magnetischer Sammelwagen für Wäsche und Abfall, ein- bis dreifach ausgeführt und jederzeit um weitere Segmente erweiterbar.",
     "specs": [
