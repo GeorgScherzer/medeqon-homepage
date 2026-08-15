@@ -2780,5 +2780,167 @@
         "Rama i koszyk na akcesoria ze stali nierdzewnej 0H18N9, miska na odpady ze stali nierdzewnej"
       ]
     ]
+  },
+  "bt-stko": {
+    "model": "Wózek zabiegowy STKO",
+    "description": "Mobilny wózek zabiegowy z wgłębionym blatem i uchwytem do prowadzenia – w całości ze stali nierdzewnej albo ze stali malowanej proszkowo na kolorowo, z bogatym wyposażeniem dodatkowym.",
+    "specs": [
+      [
+        "Wersje",
+        "KO w całości ze stali nierdzewnej 0H18N9 · ST w całości ze stali malowanej proszkowo"
+      ],
+      [
+        "Blat roboczy",
+        "Wgłębiony (zabezpieczenie przed zsuwaniem); długości 450 / 500 / 550 / 600 mm, KO dodatkowo 1000 mm, ST dodatkowo 1100 mm"
+      ],
+      [
+        "Rozmiary",
+        "STKO-02 570 × 550 × 900 mm (blat 450 × 500 mm) · STKO-04 1270 × 550 × 900 mm (blat 1100 × 500 mm) · STKO-01/F z nadstawką 570 × 550 × 1600 mm"
+      ],
+      [
+        "Uchwyty",
+        "Wersja ST z profilu stalowego o przekroju kwadratowym, na krótszych bokach"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm z odbojnikami, 2 z blokadą"
+      ],
+      [
+        "Kolory",
+        "KO opcjonalnie z kolorowymi frontami · ST w całości według karty kolorów RAL / TECH-MED"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Miski uchylne, uchwyt worka na odpady z pokrywą, półka wysuwana, półka uchylna, nadstawka na 4 – 6 pojemników uchylnych, pojemnik na narzędzia, podajnik rękawic, pojemnik na igły, koszyk na akcesoria, stojak infuzyjny z regulacją wysokości, koszyk na cewniki"
+      ],
+      [
+        "Uwaga",
+        "Wybrana długość blatu określa całkowitą długość wózka"
+      ]
+    ]
+  },
+  "bt-sz": {
+    "model": "Wózek zabiegowy SZ",
+    "description": "Smukły wózek opatrunkowy z blatem ze stali nierdzewnej i płaską miską uchylną – rama z rur stalowych malowanych proszkowo na biało, do zmiany opatrunków i drobnych zabiegów.",
+    "specs": [
+      [
+        "Rama",
+        "Rury stalowe, malowane proszkowo na biało"
+      ],
+      [
+        "Blat roboczy",
+        "Stal nierdzewna 0H18N9"
+      ],
+      [
+        "Miska uchylna",
+        "Płaska, stal nierdzewna"
+      ],
+      [
+        "Kółka",
+        "Ø 50 mm, 2 z blokadą"
+      ],
+      [
+        "Wymiary",
+        "740 × 410 mm, wysokość 810 mm"
+      ]
+    ]
+  },
+  "bt-e02": {
+    "model": "Stolik narzędziowy E-02",
+    "description": "Mobilny stolik narzędziowy z blatem ze stali nierdzewnej i ręczną regulacją wysokości – blat z podniesionymi krawędziami lub z wgłębieniem.",
+    "specs": [
+      [
+        "Blat",
+        "Stal nierdzewna 0H18N9, z podniesionymi krawędziami lub z wgłębieniem"
+      ],
+      [
+        "Regulacja wysokości",
+        "Ręczna, 850 – 1300 mm"
+      ],
+      [
+        "Podstawa",
+        "Stal malowana proszkowo"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm"
+      ],
+      [
+        "Wymiary",
+        "750 × 500 mm, wysokość 850 – 1300 mm"
+      ],
+      [
+        "Wymiary blatu",
+        "750 × 500 mm"
+      ],
+      [
+        "Opcja",
+        "W całości ze stali nierdzewnej 0H18N9 (AISI 304)"
+      ]
+    ]
+  },
+  "bt-e03": {
+    "model": "Stolik narzędziowy E-03KO",
+    "description": "Duży stolik narzędziowy w całości ze stali nierdzewnej, z regulacją wysokości korbą – powierzchnia robocza 1100 × 600 mm, do zastosowania na bloku operacyjnym.",
+    "specs": [
+      [
+        "Wykonanie",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Blat",
+        "Z wgłębieniem, 1100 × 600 mm"
+      ],
+      [
+        "Regulacja wysokości",
+        "Korbą ręczną, 850 – 1200 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, wszystkie z blokadą"
+      ],
+      [
+        "Wymiary",
+        "1100 × 600 mm, wysokość 850 – 1200 mm"
+      ]
+    ]
+  },
+  "bt-k4": {
+    "model": "Stolik narzędziowy K-4",
+    "description": "Stolik narzędziowy w całości ze stali nierdzewnej, z wgłębionym blatem obracanym o 360° – regulacja wysokości hydrauliczna pedałem lub elektryczna przełącznikiem nożnym.",
+    "specs": [
+      [
+        "Wersje",
+        "MAYO E-01 hydrauliczna z pedałem, 950 – 1320 mm · Elektryczna E-01KO/E z siłownikiem elektrycznym, 910 – 1310 mm"
+      ],
+      [
+        "Materiał",
+        "W całości ze stali nierdzewnej 0H18N9"
+      ],
+      [
+        "Blat",
+        "Wgłębiony, obracany o 360°, 750 × 500 mm"
+      ],
+      [
+        "Napęd elektryczny",
+        "Przełączniki nożne przy podstawie, wbudowany akumulator o bezpiecznym napięciu 24 V, automatyczne zabezpieczenie przeciążeniowe, optyczno-dźwiękowa sygnalizacja niskiego naładowania, zewnętrzna ładowarka"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm pojedyncze lub podwójne, 2 z blokadą; opcja Ø 100 mm podwójne"
+      ],
+      [
+        "Wymiary",
+        "750 × 500 mm, wysokość 910 – 1320 mm zależnie od wersji"
+      ],
+      [
+        "Opcje",
+        "Zdejmowany blat ułatwiający dokładną dezynfekcję (zwalniany jednym ruchem dźwigni), blokada obrotu blatu"
+      ],
+      [
+        "Uwaga",
+        "Wybrany rodzaj kółek zmienia wysokość stolika"
+      ]
+    ]
   }
 }

@@ -2780,5 +2780,167 @@
         "Frame and accessories basket in stainless steel 0H18N9, waste bowl in stainless steel"
       ]
     ]
+  },
+  "bt-stko": {
+    "model": "STKO treatment trolley",
+    "description": "Mobile treatment trolley with a recessed worktop and push handle – available entirely in stainless steel or in colour-coated powder-varnished steel, with a wide range of add-on accessories.",
+    "specs": [
+      [
+        "Versions",
+        "KO entirely of stainless steel 0H18N9 · ST entirely of powder-coated steel"
+      ],
+      [
+        "Worktop",
+        "Recessed (anti-slip); lengths 450 / 500 / 550 / 600 mm, KO additionally 1000 mm, ST additionally 1100 mm"
+      ],
+      [
+        "Sizes",
+        "STKO-02 570 × 550 × 900 mm (top 450 × 500 mm) · STKO-04 1270 × 550 × 900 mm (top 1100 × 500 mm) · STKO-01/F with superstructure 570 × 550 × 1600 mm"
+      ],
+      [
+        "Push handles",
+        "ST version with square powder-coated steel profile on the short sides"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm with buffers, 2 lockable"
+      ],
+      [
+        "Colours",
+        "KO optionally with coloured fronts · ST entirely to the RAL / TECH-MED colour chart"
+      ],
+      [
+        "Accessories",
+        "Tilting bowls, waste bag holder with lid, pull-out shelf, tilting shelf, top section for 4 – 6 swing containers, instrument container, glove dispenser, needle container, accessories basket, height-adjustable IV pole, catheter basket"
+      ],
+      [
+        "Note",
+        "The chosen top length determines the overall length of the trolley"
+      ]
+    ]
+  },
+  "bt-sz": {
+    "model": "SZ treatment trolley",
+    "description": "Slim dressing trolley with a stainless steel worktop and a flat tilting bowl – white powder-coated tubular steel frame for dressing changes and minor procedures.",
+    "specs": [
+      [
+        "Frame",
+        "Tubular steel, white powder-coated"
+      ],
+      [
+        "Worktop",
+        "Stainless steel 0H18N9"
+      ],
+      [
+        "Tilting bowl",
+        "Flat, stainless steel"
+      ],
+      [
+        "Castors",
+        "Ø 50 mm, 2 lockable"
+      ],
+      [
+        "Dimensions",
+        "740 × 410 mm, height 810 mm"
+      ]
+    ]
+  },
+  "bt-e02": {
+    "model": "E-02 instrument table",
+    "description": "Mobile instrument table with a stainless steel top and manual height adjustment – top available with raised edges or with a recess.",
+    "specs": [
+      [
+        "Top",
+        "Stainless steel 0H18N9, with raised edges or with a recess"
+      ],
+      [
+        "Height adjustment",
+        "Manual, 850 – 1300 mm"
+      ],
+      [
+        "Base frame",
+        "Steel, powder-coated"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm"
+      ],
+      [
+        "Dimensions",
+        "750 × 500 mm, height 850 – 1300 mm"
+      ],
+      [
+        "Top dimensions",
+        "750 × 500 mm"
+      ],
+      [
+        "Option",
+        "Entirely of stainless steel 0H18N9 (AISI 304)"
+      ]
+    ]
+  },
+  "bt-e03": {
+    "model": "E-03KO instrument table",
+    "description": "Large instrument table entirely of stainless steel with crank height adjustment – 1100 × 600 mm working surface for use in the operating theatre.",
+    "specs": [
+      [
+        "Design",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Top",
+        "With recess, 1100 × 600 mm"
+      ],
+      [
+        "Height adjustment",
+        "By hand crank, 850 – 1200 mm"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, all lockable"
+      ],
+      [
+        "Dimensions",
+        "1100 × 600 mm, height 850 – 1200 mm"
+      ]
+    ]
+  },
+  "bt-k4": {
+    "model": "K-4 instrument table",
+    "description": "Instrument table entirely of stainless steel with a recessed top that rotates through 360° – height adjustment hydraulically by foot pedal or electrically by footswitch.",
+    "specs": [
+      [
+        "Versions",
+        "MAYO E-01 hydraulic with foot pedal, 950 – 1320 mm · Electric E-01KO/E with electric actuator, 910 – 1310 mm"
+      ],
+      [
+        "Material",
+        "Entirely of stainless steel 0H18N9"
+      ],
+      [
+        "Top",
+        "Recessed, rotates through 360°, 750 × 500 mm"
+      ],
+      [
+        "Electric drive",
+        "Footswitches at the base, built-in rechargeable battery at 24 V safety extra-low voltage, automatic overload protection, optical and acoustic low-charge warning, external charger"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm single or double, 2 lockable; option Ø 100 mm double castors"
+      ],
+      [
+        "Dimensions",
+        "750 × 500 mm, height 910 – 1320 mm depending on version"
+      ],
+      [
+        "Options",
+        "Removable top for thorough wipe disinfection (released with one movement of the lever), lock for the top rotation"
+      ],
+      [
+        "Note",
+        "The chosen castor type changes the overall height of the table"
+      ]
+    ]
   }
 }

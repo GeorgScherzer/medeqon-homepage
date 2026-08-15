@@ -2780,5 +2780,167 @@
         "Cadru și coș pentru accesorii din oțel inoxidabil 0H18N9, bol pentru deșeuri din oțel inoxidabil"
       ]
     ]
+  },
+  "bt-stko": {
+    "model": "Cărucior de tratament STKO",
+    "description": "Cărucior mobil de tratament cu blat adâncit și mâner de împingere – integral din oțel inoxidabil sau din oțel vopsit electrostatic colorat, cu accesorii numeroase.",
+    "specs": [
+      [
+        "Variante",
+        "KO integral din oțel inoxidabil 0H18N9 · ST integral din oțel vopsit electrostatic"
+      ],
+      [
+        "Blat de lucru",
+        "Adâncit (antialunecare); lungimi 450 / 500 / 550 / 600 mm, KO suplimentar 1000 mm, ST suplimentar 1100 mm"
+      ],
+      [
+        "Dimensiuni",
+        "STKO-02 570 × 550 × 900 mm (blat 450 × 500 mm) · STKO-04 1270 × 550 × 900 mm (blat 1100 × 500 mm) · STKO-01/F cu suprastructură 570 × 550 × 1600 mm"
+      ],
+      [
+        "Mânere",
+        "Varianta ST cu profil de oțel cu secțiune pătrată, pe laturile scurte"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm cu amortizoare, 2 cu frână"
+      ],
+      [
+        "Culori",
+        "KO opțional cu fronturi colorate · ST integral conform paletarului RAL / TECH-MED"
+      ],
+      [
+        "Accesorii",
+        "Boluri rabatabile, suport pentru sac de deșeuri cu capac, poliță extensibilă, poliță rabatabilă, suprastructură pentru 4 – 6 recipiente rabatabile, recipient pentru instrumentar, dozator de mănuși, recipient pentru ace, coș pentru accesorii, stativ pentru perfuzii reglabil pe înălțime, coș pentru catetere"
+      ],
+      [
+        "Observație",
+        "Lungimea aleasă a blatului determină lungimea totală a căruciorului"
+      ]
+    ]
+  },
+  "bt-sz": {
+    "model": "Cărucior de tratament SZ",
+    "description": "Cărucior de pansamente zvelt, cu blat din oțel inoxidabil și bol rabatabil plat – cadru din țeavă de oțel vopsită electrostatic în alb, pentru schimbarea pansamentelor și intervenții minore.",
+    "specs": [
+      [
+        "Cadru",
+        "Țeavă de oțel, vopsită electrostatic în alb"
+      ],
+      [
+        "Blat de lucru",
+        "Oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Bol rabatabil",
+        "Plat, din oțel inoxidabil"
+      ],
+      [
+        "Roți",
+        "Ø 50 mm, 2 cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "740 × 410 mm, înălțime 810 mm"
+      ]
+    ]
+  },
+  "bt-e02": {
+    "model": "Masă pentru instrumentar E-02",
+    "description": "Masă mobilă pentru instrumentar cu blat din oțel inoxidabil și reglare manuală pe înălțime – blat cu margini ridicate sau cu adâncitură.",
+    "specs": [
+      [
+        "Blat",
+        "Oțel inoxidabil 0H18N9, cu margini ridicate sau cu adâncitură"
+      ],
+      [
+        "Reglarea înălțimii",
+        "Manual, 850 – 1300 mm"
+      ],
+      [
+        "Cadru de bază",
+        "Oțel vopsit electrostatic"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm"
+      ],
+      [
+        "Dimensiuni",
+        "750 × 500 mm, înălțime 850 – 1300 mm"
+      ],
+      [
+        "Dimensiuni blat",
+        "750 × 500 mm"
+      ],
+      [
+        "Opțional",
+        "Integral din oțel inoxidabil 0H18N9 (AISI 304)"
+      ]
+    ]
+  },
+  "bt-e03": {
+    "model": "Masă pentru instrumentar E-03KO",
+    "description": "Masă mare pentru instrumentar, integral din oțel inoxidabil, cu reglare pe înălțime prin manivelă – suprafață de lucru 1100 × 600 mm, pentru blocul operator.",
+    "specs": [
+      [
+        "Execuție",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Blat",
+        "Cu adâncitură, 1100 × 600 mm"
+      ],
+      [
+        "Reglarea înălțimii",
+        "Prin manivelă, 850 – 1200 mm"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, toate cu frână"
+      ],
+      [
+        "Dimensiuni",
+        "1100 × 600 mm, înălțime 850 – 1200 mm"
+      ]
+    ]
+  },
+  "bt-k4": {
+    "model": "Masă pentru instrumentar K-4",
+    "description": "Masă pentru instrumentar integral din oțel inoxidabil, cu blat adâncit rotativ la 360° – reglare pe înălțime hidraulic prin pedală sau electric prin întrerupător de picior.",
+    "specs": [
+      [
+        "Variante",
+        "MAYO E-01 hidraulic cu pedală, 950 – 1320 mm · Electric E-01KO/E cu actuator electric, 910 – 1310 mm"
+      ],
+      [
+        "Material",
+        "Integral din oțel inoxidabil 0H18N9"
+      ],
+      [
+        "Blat",
+        "Adâncit, rotativ la 360°, 750 × 500 mm"
+      ],
+      [
+        "Acționare electrică",
+        "Întrerupătoare de picior la bază, acumulator încorporat cu tensiune de siguranță 24 V, protecție automată la suprasarcină, avertizare optică și sonoră la baterie descărcată, încărcător extern"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm simple sau duble, 2 cu frână; opțional Ø 100 mm duble"
+      ],
+      [
+        "Dimensiuni",
+        "750 × 500 mm, înălțime 910 – 1320 mm în funcție de variantă"
+      ],
+      [
+        "Opțiuni",
+        "Blat detașabil pentru dezinfecție riguroasă (eliberat printr-o singură mișcare a pârghiei), blocarea rotirii blatului"
+      ],
+      [
+        "Observație",
+        "Tipul de roți ales modifică înălțimea mesei"
+      ]
+    ]
   }
 }

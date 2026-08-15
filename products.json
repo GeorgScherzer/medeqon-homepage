@@ -3072,5 +3072,187 @@
         "Rahmen und Zubehörkorb aus Edelstahl 0H18N9, Abwurfschale aus Edelstahl"
       ]
     ]
+  },
+  {
+    "cat": "btisch",
+    "slug": "bt-stko",
+    "model": "Behandlungstisch STKO",
+    "ref": "STKO-01 / -02 / -04 · KO und ST",
+    "image_count": 8,
+    "description": "Fahrbarer Behandlungstisch mit vertiefter Arbeitsplatte und Schiebebügel – wahlweise komplett aus Edelstahl oder aus farbig pulverbeschichtetem Stahl, mit umfangreichem Anbauzubehör.",
+    "specs": [
+      [
+        "Ausführungen",
+        "KO komplett aus Edelstahl 0H18N9 · ST komplett aus pulverbeschichtetem Stahl"
+      ],
+      [
+        "Arbeitsplatte",
+        "Vertieft (Rutschschutz); Längen 450 / 500 / 550 / 600 mm, KO zusätzlich 1000 mm, ST zusätzlich 1100 mm"
+      ],
+      [
+        "Baugrößen",
+        "STKO-02 570 × 550 × 900 mm (Platte 450 × 500 mm) · STKO-04 1270 × 550 × 900 mm (Platte 1100 × 500 mm) · STKO-01/F mit Aufbau 570 × 550 × 1600 mm"
+      ],
+      [
+        "Schiebegriffe",
+        "ST-Ausführung mit Vierkant-Stahlprofil an den Schmalseiten"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm mit Puffern, 2 feststellbar"
+      ],
+      [
+        "Farben",
+        "KO auf Wunsch mit farbigen Fronten · ST komplett nach RAL- bzw. TECH-MED-Farbkarte"
+      ],
+      [
+        "Zubehör",
+        "Kippschalen, Abwurfbeutelhalter mit Deckel, Auszugsablage, Kippablage, Aufsatz für 4 – 6 Schwenkbehälter, Instrumentenbehälter, Handschuhspender, Kanülenbehälter, Zubehörkorb, höhenverstellbarer Infusionsständer, Katheterkorb"
+      ],
+      [
+        "Hinweis",
+        "Die gewählte Plattenlänge bestimmt die Gesamtlänge des Tisches"
+      ]
+    ]
+  },
+  {
+    "cat": "btisch",
+    "slug": "bt-sz",
+    "model": "Behandlungstisch SZ",
+    "ref": "SZ",
+    "image_count": 2,
+    "description": "Schlanker Verbandwagen mit Edelstahl-Arbeitsplatte und flacher Kippschale – weiß pulverbeschichteter Stahlrohrrahmen für Verbandwechsel und kleine Eingriffe.",
+    "specs": [
+      [
+        "Rahmen",
+        "Stahlrohr, weiß pulverbeschichtet"
+      ],
+      [
+        "Arbeitsplatte",
+        "Edelstahl 0H18N9"
+      ],
+      [
+        "Kippschale",
+        "Flach, Edelstahl"
+      ],
+      [
+        "Rollen",
+        "Ø 50 mm, 2 feststellbar"
+      ],
+      [
+        "Maße",
+        "740 × 410 mm, Höhe 810 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "btisch",
+    "slug": "bt-e02",
+    "model": "Instrumententisch E-02",
+    "ref": "E-02",
+    "image_count": 3,
+    "description": "Fahrbarer Instrumententisch mit Edelstahlplatte und manueller Höhenverstellung – Platte wahlweise mit hochgezogenem Rand oder mit Vertiefung.",
+    "specs": [
+      [
+        "Arbeitsplatte",
+        "Edelstahl 0H18N9, mit hochgezogenem Rand oder mit Vertiefung"
+      ],
+      [
+        "Höhenverstellung",
+        "Manuell, 850 – 1300 mm"
+      ],
+      [
+        "Untergestell",
+        "Stahl, pulverbeschichtet"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm"
+      ],
+      [
+        "Maße",
+        "750 × 500 mm, Höhe 850 – 1300 mm"
+      ],
+      [
+        "Maße Arbeitsplatte",
+        "750 × 500 mm"
+      ],
+      [
+        "Option",
+        "Komplett aus Edelstahl 0H18N9 (AISI 304)"
+      ]
+    ]
+  },
+  {
+    "cat": "btisch",
+    "slug": "bt-e03",
+    "model": "Instrumententisch E-03KO",
+    "ref": "E-03KO",
+    "image_count": 1,
+    "description": "Großer Instrumententisch komplett aus Edelstahl mit Kurbel-Höhenverstellung – Arbeitsfläche 1100 × 600 mm für den Einsatz im OP.",
+    "specs": [
+      [
+        "Ausführung",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Arbeitsplatte",
+        "Mit Vertiefung, 1100 × 600 mm"
+      ],
+      [
+        "Höhenverstellung",
+        "Über Handkurbel, 850 – 1200 mm"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm, alle feststellbar"
+      ],
+      [
+        "Maße",
+        "1100 × 600 mm, Höhe 850 – 1200 mm"
+      ]
+    ]
+  },
+  {
+    "cat": "btisch",
+    "slug": "bt-k4",
+    "model": "Instrumententisch K-4",
+    "ref": "E-01 (MAYO) / E-01KO/E (elektrisch)",
+    "image_count": 6,
+    "description": "Instrumententisch komplett aus Edelstahl mit um 360° drehbarer, vertiefter Platte – Höhenverstellung hydraulisch über Fußpedal oder elektrisch über Fußschalter.",
+    "specs": [
+      [
+        "Ausführungen",
+        "MAYO E-01 hydraulisch mit Fußpedal, 950 – 1320 mm · Elektrisch E-01KO/E mit Elektroantrieb, 910 – 1310 mm"
+      ],
+      [
+        "Material",
+        "Komplett aus Edelstahl 0H18N9"
+      ],
+      [
+        "Arbeitsplatte",
+        "Vertieft, um 360° drehbar, 750 × 500 mm"
+      ],
+      [
+        "Elektroantrieb",
+        "Fußschalter am Sockel, integrierter Akku mit 24 V Schutzkleinspannung, automatische Überlastsicherung, optisch-akustische Ladewarnung, externes Ladegerät"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm einfach oder doppelt, 2 feststellbar; Option Ø 100 mm Doppelrollen"
+      ],
+      [
+        "Maße",
+        "750 × 500 mm, Höhe 910 – 1320 mm je nach Ausführung"
+      ],
+      [
+        "Optionen",
+        "Abnehmbare Platte für die Wischdesinfektion (mit einem Handgriff lösbar), Arretierung der Plattendrehung"
+      ],
+      [
+        "Hinweis",
+        "Die gewählte Rollenausführung verändert die Bauhöhe des Tisches"
+      ]
+    ]
   }
 ]
