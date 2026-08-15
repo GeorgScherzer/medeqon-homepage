@@ -353,6 +353,8 @@ a.m-mfr-chip:hover,a.m-mfr-chip:focus-visible{transform:translateY(-2px);
   box-shadow:0 12px 28px rgba(15,27,44,.13);border-color:var(--sky)}
 .m-mfr-chip--rothband img{display:block;height:26px;width:auto}
 .m-mfr-chip--kenex img{display:block;height:30px;width:auto}
+.m-mfr-chip--coinfy img{display:block;height:30px;width:auto}
+.m-mfr-chip--techmed img{display:block;height:30px;width:auto}
 
 /* --- Headquarters als weiches Wasserzeichen im Sektionskopf --- */
 .m-mfrbg{position:relative;overflow:hidden}
@@ -1105,7 +1107,8 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-shell{padding:0 20px}
   .m-section{padding:64px 0}
   .m-cat-head.has-mfr{gap:20px}
-  .m-mfr{align-items:flex-start}
+  .m-mfr{align-items:flex-start;flex:1 1 100%;min-width:0}
+  .m-mfr-chips{justify-content:flex-start}
   .m-mfrbg::before{height:360px}
   .m-hexbg::before,.m-hexbg-l::after{top:0;left:auto;right:0;width:76%;height:300px;opacity:.13;
     -webkit-mask-image:linear-gradient(180deg,#000 0,transparent 100%);

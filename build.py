@@ -1620,17 +1620,20 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
   </div>
 </section>
 
-<section class="m-section alt m-hexbg m-hexbg--photo" id="medizinische-einrichtung" style="--hexbg:url('assets/brands/med-hero.jpg')">
+<section class="m-section alt m-hexbg m-hexbg-l m-hexbg--photo" id="medizinische-einrichtung" style="--hexbg:url('assets/brands/med-hero.jpg');--hexbg2:url('assets/brands/techmed-hero.jpg')">
   <div class="m-shell">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
         <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
-        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert vom Hersteller COINFYCARE. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
       </div>
-      <a class="m-mfr m-mfr--coinfy" href="https://www.coinfycare.com/en" target="_blank" rel="noopener" aria-label="Hersteller COINFYCARE – Website in neuem Tab öffnen">
+      <div class="m-mfr">
         <span class="m-mfr-cap">Hersteller</span>
-        <span class="m-mfr-chip"><img src="assets/brands/coinfycare.png" alt="COINFYCARE" loading="lazy"></span>
-      </a>
+        <div class="m-mfr-chips">
+          <a class="m-mfr-chip m-mfr-chip--coinfy" href="https://www.coinfycare.com/en" target="_blank" rel="noopener" aria-label="Hersteller COINFYCARE – Website in neuem Tab öffnen"><img src="assets/brands/coinfycare.png" alt="COINFYCARE" loading="lazy"></a>
+          <a class="m-mfr-chip m-mfr-chip--techmed" href="https://en.techmed.com.pl/" target="_blank" rel="noopener" aria-label="Hersteller TECHMED – Website in neuem Tab öffnen"><img src="assets/brands/techmed.png" alt="TECHMED" loading="lazy"></a>
+        </div>
+      </div>
     </div>
 
     <div class="m-acc">
@@ -1893,6 +1896,7 @@ _PUI = {
   "Hersteller ROTHBAND – Website in neuem Tab öffnen": "Manufacturer ROTHBAND – open website in a new tab",
   "Hersteller KENEX – Website in neuem Tab öffnen": "Manufacturer KENEX – open website in a new tab",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Manufacturer COINFYCARE – open website in a new tab",
+  "Hersteller TECHMED – Website in neuem Tab öffnen": "Manufacturer TECHMED – open website in a new tab",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Manufacturer MOBIAK – open website in a new tab",
   "Persönlicher Strahlenschutz": "Personal radiation protection",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.": "Radiation-protection wear for direct personal protection – aprons, two-piece sets, thyroid shields and complementary accessories. Focus on ergonomics, weight distribution, protective performance and wearing comfort.",
@@ -1926,7 +1930,7 @@ _PUI = {
   "Modell verfügbar": "model available",
   "Produkte verfügbar": "products available",
   "Medizinische Einrichtung": "Medical furnishing",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert vom Hersteller COINFYCARE. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to privacy screening. Supplied by manufacturer COINFYCARE. Click a section to expand the models.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to privacy screening. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (medical trolleys, stainless steel furniture, non-magnetic products). Click a section to expand the models.",
   "Untersuchungsliegen": "Examination couches",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Examination and treatment couches for practice and clinic – organised by design type.",
   "Fix": "Fixed",
@@ -2020,6 +2024,7 @@ _PUI = {
   "Hersteller ROTHBAND – Website in neuem Tab öffnen": "Producent ROTHBAND – otwórz stronę w nowej karcie",
   "Hersteller KENEX – Website in neuem Tab öffnen": "Producent KENEX – otwórz stronę w nowej karcie",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Producent COINFYCARE – otwórz stronę w nowej karcie",
+  "Hersteller TECHMED – Website in neuem Tab öffnen": "Producent TECHMED – otwórz stronę w nowej karcie",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producent MOBIAK – otwórz stronę w nowej karcie",
   "Persönlicher Strahlenschutz": "Osobista ochrona radiologiczna",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.": "Odzież ochronna przed promieniowaniem do bezpośredniej ochrony osób – fartuchy, komplety dwuczęściowe, osłony tarczycy i uzupełniające akcesoria. Nacisk na ergonomię, rozkład masy, skuteczność ochrony i komfort noszenia.",
@@ -2053,7 +2058,7 @@ _PUI = {
   "Modell verfügbar": "dostępny model",
   "Produkte verfügbar": "dostępnych produktów",
   "Medizinische Einrichtung": "Wyposażenie medyczne",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert vom Hersteller COINFYCARE. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po parawany. Dostarczane przez producenta COINFYCARE. Kliknij obszar, aby rozwinąć modele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po parawany. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki medyczne, meble ze stali nierdzewnej, produkty niemagnetyczne). Kliknij obszar, aby rozwinąć modele.",
   "Untersuchungsliegen": "Leżanki do badań",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Leżanki do badań i zabiegów dla gabinetu i kliniki – podzielone według typu konstrukcji.",
   "Fix": "Stałe",
@@ -2147,6 +2152,7 @@ _PUI = {
   "Hersteller ROTHBAND – Website in neuem Tab öffnen": "Producător ROTHBAND – deschide site-ul într-o filă nouă",
   "Hersteller KENEX – Website in neuem Tab öffnen": "Producător KENEX – deschide site-ul într-o filă nouă",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen": "Producător COINFYCARE – deschide site-ul într-o filă nouă",
+  "Hersteller TECHMED – Website in neuem Tab öffnen": "Producător TECHMED – deschide site-ul într-o filă nouă",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producător MOBIAK – deschide site-ul într-o filă nouă",
   "Persönlicher Strahlenschutz": "Protecție radiologică personală",
   "Strahlenschutzbekleidung für den direkten Personenschutz – Schürzen, Zweiteiler, Schilddrüsenschutz und ergänzendes Zubehör. Fokus auf Ergonomie, Gewichtsverteilung, Schutzleistung und Tragekomfort.": "Îmbrăcăminte de protecție radiologică pentru protecția directă a persoanei – șorțuri, seturi din două piese, protecții pentru tiroidă și accesorii complementare. Accent pe ergonomie, distribuția greutății, performanța de protecție și confortul purtării.",
@@ -2180,7 +2186,7 @@ _PUI = {
   "Modell verfügbar": "model disponibil",
   "Produkte verfügbar": "produse disponibile",
   "Medizinische Einrichtung": "Mobilier medical",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert vom Hersteller COINFYCARE. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la paravane. Livrat de producătorul COINFYCARE. Faceți clic pe o secțiune pentru a extinde modelele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la paravane. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare medicale, mobilier din oțel inoxidabil, produse nemagnetice). Faceți clic pe o secțiune pentru a extinde modelele.",
   "Untersuchungsliegen": "Canapele de examinare",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Canapele de examinare și tratament pentru cabinet și clinică – organizate după tipul constructiv.",
   "Fix": "Fixe",
@@ -2278,7 +2284,7 @@ _PROD_CHROME = [
   "Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – vom Hersteller KENEX.",
   "Aufgehängte Überkopf-Schutzschilde und komplette Aufhängungssysteme (Deckenschienen, Säulen, Arme, Monitor-Aufhängung) – zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich. Vom Hersteller KENEX.",
   "Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – Unterkörper-, Kopfende- und Aufsatz-Schilde sowie passende Aufbewahrung. Vom Hersteller KENEX.",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert vom Hersteller COINFYCARE. Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zum Sichtschutz. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (medizinische Wägen, Edelstahlmöbel, nichtmagnetische Produkte). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.",
   "Behandlungs-, Blutabnahme- und Arbeitsstühle sowie Hocker für den medizinischen Einsatz.",
   "Sicht- und Trennwandsysteme für diskrete, flexibel teilbare Raumbereiche.",
@@ -2292,6 +2298,7 @@ _PROD_CHROME = [
   "Hersteller ROTHBAND – Website in neuem Tab öffnen",
   "Hersteller KENEX – Website in neuem Tab öffnen",
   "Hersteller COINFYCARE – Website in neuem Tab öffnen",
+  "Hersteller TECHMED – Website in neuem Tab öffnen",
   "Hersteller MOBIAK – Website in neuem Tab öffnen",
   "Herstellerunabhängige Produktbeschaffung",
   "Tischmontierter Strahlenschutz",
