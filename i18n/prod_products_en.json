@@ -1963,7 +1963,7 @@
       ],
       [
         "Cabinet and worktop",
-        "ABS: steel cabinet with ABS top · ST: both powder-coated steel · KO: both stainless steel 0H18N9"
+        "ABS: steel cabinet with ABS top · ST: both powder-coated steel · KO: both stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Modular version",
@@ -2005,7 +2005,7 @@
       ],
       [
         "Cabinet and worktop",
-        "ABS: steel cabinet with ABS top · ST: entirely powder-coated steel in RAL · KO: entirely stainless steel 0H18N9"
+        "ABS: steel cabinet with ABS top · ST: entirely powder-coated steel in RAL · KO: entirely stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Models",
@@ -2051,7 +2051,7 @@
       ],
       [
         "Cabinet and worktop",
-        "ABS: steel cabinet with ABS top · ST: both powder-coated steel · KO: both stainless steel 0H18N9"
+        "ABS: steel cabinet with ABS top · ST: both powder-coated steel · KO: both stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Castors",
@@ -2089,7 +2089,7 @@
       ],
       [
         "Option",
-        "Additional worktop of stainless steel 0H18N9 or powder-coated steel"
+        "Additional worktop of stainless steel 0H18N9 (austenitic, 1.4301) or powder-coated steel"
       ],
       [
         "Dimensions",
@@ -2123,7 +2123,7 @@
       ],
       [
         "Worktop",
-        "Recessed, powder-coated; optionally stainless steel 0H18N9"
+        "Recessed, powder-coated; optionally stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Base",
@@ -2153,7 +2153,7 @@
       ],
       [
         "Worktop",
-        "Stainless steel 0H18N9 with raised edges, 450 × 320 mm"
+        "Stainless steel 0H18N9 (austenitic, 1.4301) with raised edges, 450 × 320 mm"
       ],
       [
         "Drawer",
@@ -2195,7 +2195,7 @@
       ],
       [
         "Basket shelf",
-        "Powder-coated steel; optionally stainless steel 0H18N9"
+        "Powder-coated steel; optionally stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Castors",
@@ -2293,7 +2293,7 @@
       ],
       [
         "Base frame",
-        "Powder-coated steel; optionally stainless steel 0H18N9"
+        "Powder-coated steel; optionally stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Castors",
@@ -2357,19 +2357,19 @@
     "specs": [
       [
         "Versions",
-        "SK-01 (plastic base, Ø 575 mm) · SK-02 (base in stainless steel 0H18N9 or powder-coated steel, Ø 600 mm)"
+        "SK-01 (plastic base, Ø 575 mm) · SK-02 (base in stainless steel 0H18N9 (austenitic, 1.4301) or powder-coated steel, Ø 600 mm)"
       ],
       [
         "Head",
-        "Stainless steel 0H18N9"
+        "Stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Outer column",
-        "Stainless steel 0H18N9 or powder-coated steel, Ø 25 mm"
+        "Stainless steel 0H18N9 (austenitic, 1.4301) or powder-coated steel, Ø 25 mm"
       ],
       [
         "Inner column",
-        "Stainless steel 0H18N9, Ø 16 mm"
+        "Stainless steel 0H18N9 (austenitic, 1.4301), Ø 16 mm"
       ],
       [
         "Height adjustment",
@@ -2391,11 +2391,11 @@
   },
   "st-po": {
     "model": "PO foot stool",
-    "description": "Foot stool made entirely of stainless steel 0H18N9 with a non-slip tread – one or two steps, optionally with height-adjustable handrails.",
+    "description": "Foot stool made entirely of stainless steel 0H18N9 (austenitic, 1.4301) with a non-slip tread – one or two steps, optionally with height-adjustable handrails.",
     "specs": [
       [
         "Design",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Tread",
@@ -2429,7 +2429,7 @@
     "specs": [
       [
         "Frame",
-        "Powder-coated steel (ST); optionally stainless steel 0H18N9 (KO)"
+        "Powder-coated steel (ST); optionally stainless steel 0H18N9 (austenitic, 1.4301, KO)"
       ],
       [
         "Upholstery",
@@ -2627,7 +2627,7 @@
       ],
       [
         "Worktop",
-        "Stainless steel 0H18N9, permanently mounted, with raised rim"
+        "Stainless steel 0H18N9 (austenitic, 1.4301), permanently mounted, with raised rim"
       ],
       [
         "Drawer and basket shelf",
@@ -2655,7 +2655,7 @@
       ],
       [
         "Option",
-        "Entirely of stainless steel 0H18N9; tilting bowl, waste bowl and accessories basket in stainless steel"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301); tilting bowl, waste bowl and accessories basket in stainless steel"
       ]
     ]
   },
@@ -2673,7 +2673,7 @@
       ],
       [
         "Worktop",
-        "Stainless steel 0H18N9 as a removable tray, 610 × 358 × 17 mm"
+        "Stainless steel 0H18N9 (austenitic, 1.4301) as a removable tray, 610 × 358 × 17 mm"
       ],
       [
         "Waste bag frame",
@@ -2697,11 +2697,11 @@
       ],
       [
         "Material codes",
-        "KO = stainless steel 0H18N9 · ST = powder-coated steel"
+        "KO = stainless steel 0H18N9 (austenitic, 1.4301) · ST = powder-coated steel"
       ],
       [
         "Option",
-        "Entirely of stainless steel 0H18N9; tilting bowl, waste bowl and accessories basket in stainless steel"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301); tilting bowl, waste bowl and accessories basket in stainless steel"
       ]
     ]
   },
@@ -2719,11 +2719,11 @@
       ],
       [
         "Tray",
-        "Stainless steel 0H18N9, optionally removable"
+        "Stainless steel 0H18N9 (austenitic, 1.4301), optionally removable"
       ],
       [
         "Basket shelf",
-        "Powder-coated steel; optionally stainless steel 0H18N9"
+        "Powder-coated steel; optionally stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Waste bag frame",
@@ -2761,7 +2761,7 @@
       ],
       [
         "Shelves",
-        "Stainless steel 0H18N9, two removable trays per level"
+        "Stainless steel 0H18N9 (austenitic, 1.4301), two removable trays per level"
       ],
       [
         "Medication compartments",
@@ -2777,7 +2777,7 @@
       ],
       [
         "Option",
-        "Frame and accessories basket in stainless steel 0H18N9, waste bowl in stainless steel"
+        "Frame and accessories basket in stainless steel 0H18N9 (austenitic, 1.4301), waste bowl in stainless steel"
       ]
     ]
   },
@@ -2787,7 +2787,7 @@
     "specs": [
       [
         "Versions",
-        "KO entirely of stainless steel 0H18N9 · ST entirely of powder-coated steel"
+        "KO entirely of stainless steel 0H18N9 (austenitic, 1.4301) · ST entirely of powder-coated steel"
       ],
       [
         "Worktop",
@@ -2829,7 +2829,7 @@
       ],
       [
         "Worktop",
-        "Stainless steel 0H18N9"
+        "Stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Tilting bowl",
@@ -2851,7 +2851,7 @@
     "specs": [
       [
         "Top",
-        "Stainless steel 0H18N9, with raised edges or with a recess"
+        "Stainless steel 0H18N9 (austenitic, 1.4301), with raised edges or with a recess"
       ],
       [
         "Height adjustment",
@@ -2875,7 +2875,7 @@
       ],
       [
         "Option",
-        "Entirely of stainless steel 0H18N9 (AISI 304)"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301, AISI 304)"
       ]
     ]
   },
@@ -2885,7 +2885,7 @@
     "specs": [
       [
         "Design",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Top",
@@ -2915,7 +2915,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Top",
@@ -2953,7 +2953,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Arm",
@@ -2987,7 +2987,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Arm",
@@ -3003,7 +3003,7 @@
       ],
       [
         "Trolley",
-        "Powder-coated steel, stainless steel 0H18N9 or ABS plastic"
+        "Powder-coated steel, stainless steel 0H18N9 (austenitic, 1.4301) or ABS plastic"
       ],
       [
         "Length retracted",
@@ -3021,7 +3021,7 @@
     "specs": [
       [
         "Design",
-        "Stainless steel 0H18N9 or powder-coated steel"
+        "Stainless steel 0H18N9 (austenitic, 1.4301) or powder-coated steel"
       ],
       [
         "Body",
@@ -3047,7 +3047,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Trays",
@@ -3115,7 +3115,7 @@
       ],
       [
         "Option",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ]
     ]
   },
@@ -3129,7 +3129,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Equipment",
@@ -3155,7 +3155,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Lid",
@@ -3189,7 +3189,7 @@
     "specs": [
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Frame",
@@ -3223,7 +3223,7 @@
       ],
       [
         "Frame and rim",
-        "Stainless steel 0H18N9"
+        "Stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Lid",
@@ -3295,7 +3295,7 @@
     "specs": [
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Lid",
@@ -3333,7 +3333,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Bowls",
@@ -3363,7 +3363,7 @@
     "specs": [
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Worktop",
@@ -3397,7 +3397,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Equipment",
@@ -3415,7 +3415,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Equipment",
@@ -3441,7 +3441,7 @@
       ],
       [
         "Worktop",
-        "Stainless steel 0H18N9, permanently mounted"
+        "Stainless steel 0H18N9 (austenitic, 1.4301), permanently mounted"
       ],
       [
         "Cuvette",
@@ -3449,7 +3449,7 @@
       ],
       [
         "Option",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ]
     ]
   },
@@ -3459,7 +3459,7 @@
     "specs": [
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Shelves",
@@ -3485,7 +3485,7 @@
       ],
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Supporting rail",
@@ -3497,7 +3497,7 @@
       ],
       [
         "Drip tray",
-        "Plastic; optionally stainless steel 0H18N9"
+        "Plastic; optionally stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Dimensions SL",
@@ -3515,7 +3515,7 @@
     "specs": [
       [
         "Material",
-        "Entirely of stainless steel 0H18N9"
+        "Entirely of stainless steel 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Mounting",

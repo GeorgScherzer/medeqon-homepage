@@ -1963,7 +1963,7 @@
       ],
       [
         "Korpus i blat",
-        "ABS: korpus stalowy z blatem ABS · ST: oba z stali malowanej proszkowo · KO: oba ze stali nierdzewnej 0H18N9"
+        "ABS: korpus stalowy z blatem ABS · ST: oba z stali malowanej proszkowo · KO: oba ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Wersja modułowa",
@@ -2005,7 +2005,7 @@
       ],
       [
         "Korpus i blat",
-        "ABS: korpus stalowy z blatem ABS · ST: w całości stal lakierowana wg RAL · KO: w całości stal nierdzewna 0H18N9"
+        "ABS: korpus stalowy z blatem ABS · ST: w całości stal lakierowana wg RAL · KO: w całości stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Modele",
@@ -2051,7 +2051,7 @@
       ],
       [
         "Korpus i blat",
-        "ABS: korpus stalowy z blatem ABS · ST: oba z stali malowanej proszkowo · KO: oba ze stali nierdzewnej 0H18N9"
+        "ABS: korpus stalowy z blatem ABS · ST: oba z stali malowanej proszkowo · KO: oba ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Kółka",
@@ -2089,7 +2089,7 @@
       ],
       [
         "Opcja",
-        "Blat dodatkowy ze stali nierdzewnej 0H18N9 lub stali malowanej proszkowo"
+        "Blat dodatkowy ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301) lub stali malowanej proszkowo"
       ],
       [
         "Wymiary",
@@ -2123,7 +2123,7 @@
       ],
       [
         "Blat roboczy",
-        "Wgłębiony, malowany proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+        "Wgłębiony, malowany proszkowo; opcjonalnie stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Podstawa",
@@ -2153,7 +2153,7 @@
       ],
       [
         "Blat roboczy",
-        "Stal nierdzewna 0H18N9 z podniesionymi krawędziami, 450 × 320 mm"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301) z podniesionymi krawędziami, 450 × 320 mm"
       ],
       [
         "Szuflada",
@@ -2195,7 +2195,7 @@
       ],
       [
         "Koszyk",
-        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Kółka",
@@ -2293,7 +2293,7 @@
       ],
       [
         "Podstawa jezdna",
-        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Kółka",
@@ -2357,19 +2357,19 @@
     "specs": [
       [
         "Wersje",
-        "SK-01 (podstawa z tworzywa, Ø 575 mm) · SK-02 (podstawa ze stali nierdzewnej 0H18N9 lub stali malowanej proszkowo, Ø 600 mm)"
+        "SK-01 (podstawa z tworzywa, Ø 575 mm) · SK-02 (podstawa ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301) lub stali malowanej proszkowo, Ø 600 mm)"
       ],
       [
         "Głowica",
-        "Stal nierdzewna 0H18N9"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Kolumna zewnętrzna",
-        "Stal nierdzewna 0H18N9 lub stal malowana proszkowo, Ø 25 mm"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301) lub stal malowana proszkowo, Ø 25 mm"
       ],
       [
         "Kolumna wewnętrzna",
-        "Stal nierdzewna 0H18N9, Ø 16 mm"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301), Ø 16 mm"
       ],
       [
         "Regulacja wysokości",
@@ -2391,11 +2391,11 @@
   },
   "st-po": {
     "model": "Podest PO",
-    "description": "Podest w całości ze stali nierdzewnej 0H18N9 z antypoślizgową powierzchnią – jedno- lub dwustopniowy, opcjonalnie z regulowanymi poręczami.",
+    "description": "Podest w całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301) z antypoślizgową powierzchnią – jedno- lub dwustopniowy, opcjonalnie z regulowanymi poręczami.",
     "specs": [
       [
         "Wykonanie",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Powierzchnia",
@@ -2429,7 +2429,7 @@
     "specs": [
       [
         "Rama",
-        "Stal malowana proszkowo (ST); opcjonalnie stal nierdzewna 0H18N9 (KO)"
+        "Stal malowana proszkowo (ST); opcjonalnie stal nierdzewna 0H18N9 (austenityczna, 1.4301, KO)"
       ],
       [
         "Tapicerka",
@@ -2627,7 +2627,7 @@
       ],
       [
         "Blat roboczy",
-        "Stal nierdzewna 0H18N9, montowany na stałe, z podniesioną krawędzią"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301), montowany na stałe, z podniesioną krawędzią"
       ],
       [
         "Szuflada i półka koszowa",
@@ -2655,7 +2655,7 @@
       ],
       [
         "Opcja",
-        "W całości ze stali nierdzewnej 0H18N9; miska uchylna, miska na odpady i koszyk na akcesoria ze stali nierdzewnej"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301); miska uchylna, miska na odpady i koszyk na akcesoria ze stali nierdzewnej"
       ]
     ]
   },
@@ -2673,7 +2673,7 @@
       ],
       [
         "Blat roboczy",
-        "Stal nierdzewna 0H18N9 w formie wyjmowanej tacy, 610 × 358 × 17 mm"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301) w formie wyjmowanej tacy, 610 × 358 × 17 mm"
       ],
       [
         "Rama na worek",
@@ -2697,11 +2697,11 @@
       ],
       [
         "Oznaczenia materiałów",
-        "KO = stal nierdzewna 0H18N9 · ST = stal malowana proszkowo"
+        "KO = stal nierdzewna 0H18N9 (austenityczna, 1.4301) · ST = stal malowana proszkowo"
       ],
       [
         "Opcja",
-        "W całości ze stali nierdzewnej 0H18N9; miska uchylna, miska na odpady i koszyk na akcesoria ze stali nierdzewnej"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301); miska uchylna, miska na odpady i koszyk na akcesoria ze stali nierdzewnej"
       ]
     ]
   },
@@ -2719,11 +2719,11 @@
       ],
       [
         "Taca",
-        "Stal nierdzewna 0H18N9, opcjonalnie wyjmowana"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301), opcjonalnie wyjmowana"
       ],
       [
         "Półka koszowa",
-        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9"
+        "Stal malowana proszkowo; opcjonalnie stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Rama na worek",
@@ -2761,7 +2761,7 @@
       ],
       [
         "Półki",
-        "Stal nierdzewna 0H18N9, po dwie wyjmowane tace na poziom"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301), po dwie wyjmowane tace na poziom"
       ],
       [
         "Przegródki na leki",
@@ -2777,7 +2777,7 @@
       ],
       [
         "Opcja",
-        "Rama i koszyk na akcesoria ze stali nierdzewnej 0H18N9, miska na odpady ze stali nierdzewnej"
+        "Rama i koszyk na akcesoria ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301), miska na odpady ze stali nierdzewnej"
       ]
     ]
   },
@@ -2787,7 +2787,7 @@
     "specs": [
       [
         "Wersje",
-        "KO w całości ze stali nierdzewnej 0H18N9 · ST w całości ze stali malowanej proszkowo"
+        "KO w całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301) · ST w całości ze stali malowanej proszkowo"
       ],
       [
         "Blat roboczy",
@@ -2829,7 +2829,7 @@
       ],
       [
         "Blat roboczy",
-        "Stal nierdzewna 0H18N9"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Miska uchylna",
@@ -2851,7 +2851,7 @@
     "specs": [
       [
         "Blat",
-        "Stal nierdzewna 0H18N9, z podniesionymi krawędziami lub z wgłębieniem"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301), z podniesionymi krawędziami lub z wgłębieniem"
       ],
       [
         "Regulacja wysokości",
@@ -2875,7 +2875,7 @@
       ],
       [
         "Opcja",
-        "W całości ze stali nierdzewnej 0H18N9 (AISI 304)"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301, AISI 304)"
       ]
     ]
   },
@@ -2885,7 +2885,7 @@
     "specs": [
       [
         "Wykonanie",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Blat",
@@ -2915,7 +2915,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Blat",
@@ -2953,7 +2953,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Ramię",
@@ -2987,7 +2987,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Ramię",
@@ -3003,7 +3003,7 @@
       ],
       [
         "Wózek",
-        "Stal malowana proszkowo, stal nierdzewna 0H18N9 lub tworzywo ABS"
+        "Stal malowana proszkowo, stal nierdzewna 0H18N9 (austenityczna, 1.4301) lub tworzywo ABS"
       ],
       [
         "Długość po złożeniu",
@@ -3021,7 +3021,7 @@
     "specs": [
       [
         "Wykonanie",
-        "Stal nierdzewna 0H18N9 lub stal malowana proszkowo"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301) lub stal malowana proszkowo"
       ],
       [
         "Korpus",
@@ -3047,7 +3047,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Tace",
@@ -3115,7 +3115,7 @@
       ],
       [
         "Opcja",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ]
     ]
   },
@@ -3129,7 +3129,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Wyposażenie",
@@ -3155,7 +3155,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Pokrywa",
@@ -3189,7 +3189,7 @@
     "specs": [
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Stelaż",
@@ -3223,7 +3223,7 @@
       ],
       [
         "Rama i obręcz",
-        "Stal nierdzewna 0H18N9"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Pokrywa",
@@ -3295,7 +3295,7 @@
     "specs": [
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Pokrywa",
@@ -3333,7 +3333,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Miski",
@@ -3363,7 +3363,7 @@
     "specs": [
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Blat roboczy",
@@ -3397,7 +3397,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Wyposażenie",
@@ -3415,7 +3415,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Wyposażenie",
@@ -3441,7 +3441,7 @@
       ],
       [
         "Blat roboczy",
-        "Stal nierdzewna 0H18N9, montowany na stałe"
+        "Stal nierdzewna 0H18N9 (austenityczna, 1.4301), montowany na stałe"
       ],
       [
         "Kuweta",
@@ -3449,7 +3449,7 @@
       ],
       [
         "Opcja",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ]
     ]
   },
@@ -3459,7 +3459,7 @@
     "specs": [
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Półki",
@@ -3485,7 +3485,7 @@
       ],
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Szyna nośna",
@@ -3497,7 +3497,7 @@
       ],
       [
         "Taca ociekowa",
-        "Tworzywo; opcjonalnie stal nierdzewna 0H18N9"
+        "Tworzywo; opcjonalnie stal nierdzewna 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Wymiary SL",
@@ -3515,7 +3515,7 @@
     "specs": [
       [
         "Materiał",
-        "W całości ze stali nierdzewnej 0H18N9"
+        "W całości ze stali nierdzewnej 0H18N9 (austenityczna, 1.4301)"
       ],
       [
         "Montaż",

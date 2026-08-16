@@ -2171,7 +2171,7 @@
       ],
       [
         "Korpus und Arbeitsplatte",
-        "ABS: Stahlkorpus mit ABS-Platte · ST: beides pulverbeschichteter Stahl · KO: beides Edelstahl 0H18N9"
+        "ABS: Stahlkorpus mit ABS-Platte · ST: beides pulverbeschichteter Stahl · KO: beides Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Modulare Variante",
@@ -2217,7 +2217,7 @@
       ],
       [
         "Korpus und Arbeitsplatte",
-        "ABS: Stahlkorpus mit ABS-Platte · ST: komplett pulverbeschichteter Stahl nach RAL · KO: komplett Edelstahl 0H18N9"
+        "ABS: Stahlkorpus mit ABS-Platte · ST: komplett pulverbeschichteter Stahl nach RAL · KO: komplett Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Modelle",
@@ -2267,7 +2267,7 @@
       ],
       [
         "Korpus und Arbeitsplatte",
-        "ABS: Stahlkorpus mit ABS-Platte · ST: beides pulverbeschichteter Stahl · KO: beides Edelstahl 0H18N9"
+        "ABS: Stahlkorpus mit ABS-Platte · ST: beides pulverbeschichteter Stahl · KO: beides Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Rollen",
@@ -2309,7 +2309,7 @@
       ],
       [
         "Option",
-        "Zusatzplatte aus Edelstahl 0H18N9 oder pulverbeschichtetem Stahl"
+        "Zusatzplatte aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) oder pulverbeschichtetem Stahl"
       ],
       [
         "Maße",
@@ -2347,7 +2347,7 @@
       ],
       [
         "Arbeitsplatte",
-        "Vertieft, pulverbeschichtet; optional Edelstahl 0H18N9"
+        "Vertieft, pulverbeschichtet; optional Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Fuß",
@@ -2381,7 +2381,7 @@
       ],
       [
         "Arbeitsplatte",
-        "Edelstahl 0H18N9 mit erhöhten Kanten, 450 × 320 mm"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) mit erhöhten Kanten, 450 × 320 mm"
       ],
       [
         "Schublade",
@@ -2427,7 +2427,7 @@
       ],
       [
         "Ablagekorb",
-        "Stahl pulverbeschichtet; optional Edelstahl 0H18N9"
+        "Stahl pulverbeschichtet; optional Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Rollen",
@@ -2537,7 +2537,7 @@
       ],
       [
         "Fahrgestell",
-        "Stahl pulverbeschichtet; optional Edelstahl 0H18N9"
+        "Stahl pulverbeschichtet; optional Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Rollen",
@@ -2609,19 +2609,19 @@
     "specs": [
       [
         "Ausführungen",
-        "SK-01 (Fuß aus Kunststoff, Ø 575 mm) · SK-02 (Fuß aus Edelstahl 0H18N9 oder Stahl pulverbeschichtet, Ø 600 mm)"
+        "SK-01 (Fuß aus Kunststoff, Ø 575 mm) · SK-02 (Fuß aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) oder Stahl pulverbeschichtet, Ø 600 mm)"
       ],
       [
         "Kopf",
-        "Edelstahl 0H18N9"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Außensäule",
-        "Edelstahl 0H18N9 oder Stahl pulverbeschichtet, Ø 25 mm"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) oder Stahl pulverbeschichtet, Ø 25 mm"
       ],
       [
         "Innensäule",
-        "Edelstahl 0H18N9, Ø 16 mm"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), Ø 16 mm"
       ],
       [
         "Höhenverstellung",
@@ -2647,11 +2647,11 @@
     "model": "Auftritt PO",
     "ref": "PO",
     "image_count": 3,
-    "description": "Auftritt komplett aus Edelstahl 0H18N9 mit rutschhemmender Trittfläche – ein- oder zweistufig, auf Wunsch mit höhenverstellbaren Haltegriffen.",
+    "description": "Auftritt komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) mit rutschhemmender Trittfläche – ein- oder zweistufig, auf Wunsch mit höhenverstellbaren Haltegriffen.",
     "specs": [
       [
         "Ausführung",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Trittfläche",
@@ -2689,7 +2689,7 @@
     "specs": [
       [
         "Rahmen",
-        "Stahl pulverbeschichtet (ST); optional Edelstahl 0H18N9 (KO)"
+        "Stahl pulverbeschichtet (ST); optional Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301, KO)"
       ],
       [
         "Polsterung",
@@ -2727,7 +2727,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Arm",
@@ -2765,7 +2765,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Arm",
@@ -2781,7 +2781,7 @@
       ],
       [
         "Fahrgestell",
-        "Stahl pulverbeschichtet, Edelstahl 0H18N9 oder ABS-Kunststoff"
+        "Stahl pulverbeschichtet, Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) oder ABS-Kunststoff"
       ],
       [
         "Länge eingeschoben",
@@ -2987,7 +2987,7 @@
       ],
       [
         "Arbeitsplatte",
-        "Edelstahl 0H18N9, fest montiert, mit hochgezogenem Rand"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), fest montiert, mit hochgezogenem Rand"
       ],
       [
         "Schublade und Korbablage",
@@ -3015,7 +3015,7 @@
       ],
       [
         "Option",
-        "Komplett aus Edelstahl 0H18N9; Kippschale, Abwurfschale und Zubehörkorb aus Edelstahl"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301); Kippschale, Abwurfschale und Zubehörkorb aus Edelstahl"
       ]
     ]
   },
@@ -3037,7 +3037,7 @@
       ],
       [
         "Arbeitsplatte",
-        "Edelstahl 0H18N9 als herausnehmbares Tablett, 610 × 358 × 17 mm"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) als herausnehmbares Tablett, 610 × 358 × 17 mm"
       ],
       [
         "Abwurfrahmen",
@@ -3061,11 +3061,11 @@
       ],
       [
         "Materialkürzel",
-        "KO = Edelstahl 0H18N9 · ST = pulverbeschichteter Stahl"
+        "KO = Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) · ST = pulverbeschichteter Stahl"
       ],
       [
         "Option",
-        "Komplett aus Edelstahl 0H18N9; Kippschale, Abwurfschale und Zubehörkorb aus Edelstahl"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301); Kippschale, Abwurfschale und Zubehörkorb aus Edelstahl"
       ]
     ]
   },
@@ -3087,11 +3087,11 @@
       ],
       [
         "Tablett",
-        "Edelstahl 0H18N9, optional herausnehmbar"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), optional herausnehmbar"
       ],
       [
         "Korbablage",
-        "Stahl pulverbeschichtet; Option Edelstahl 0H18N9"
+        "Stahl pulverbeschichtet; Option Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Abwurfrahmen",
@@ -3133,7 +3133,7 @@
       ],
       [
         "Ablagen",
-        "Edelstahl 0H18N9, je Ebene zwei herausnehmbare Tabletts"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), je Ebene zwei herausnehmbare Tabletts"
       ],
       [
         "Medikamentenfächer",
@@ -3149,7 +3149,7 @@
       ],
       [
         "Option",
-        "Rahmen und Zubehörkorb aus Edelstahl 0H18N9, Abwurfschale aus Edelstahl"
+        "Rahmen und Zubehörkorb aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), Abwurfschale aus Edelstahl"
       ]
     ]
   },
@@ -3163,7 +3163,7 @@
     "specs": [
       [
         "Ausführungen",
-        "KO komplett aus Edelstahl 0H18N9 · ST komplett aus pulverbeschichtetem Stahl"
+        "KO komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) · ST komplett aus pulverbeschichtetem Stahl"
       ],
       [
         "Arbeitsplatte",
@@ -3209,7 +3209,7 @@
       ],
       [
         "Arbeitsplatte",
-        "Edelstahl 0H18N9"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Kippschale",
@@ -3235,7 +3235,7 @@
     "specs": [
       [
         "Arbeitsplatte",
-        "Edelstahl 0H18N9, mit hochgezogenem Rand oder mit Vertiefung"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), mit hochgezogenem Rand oder mit Vertiefung"
       ],
       [
         "Höhenverstellung",
@@ -3259,7 +3259,7 @@
       ],
       [
         "Option",
-        "Komplett aus Edelstahl 0H18N9 (AISI 304)"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301, AISI 304)"
       ]
     ]
   },
@@ -3273,7 +3273,7 @@
     "specs": [
       [
         "Ausführung",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Arbeitsplatte",
@@ -3307,7 +3307,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Arbeitsplatte",
@@ -3345,7 +3345,7 @@
     "specs": [
       [
         "Ausführung",
-        "Edelstahl 0H18N9 oder Stahl pulverbeschichtet"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) oder Stahl pulverbeschichtet"
       ],
       [
         "Korpus",
@@ -3375,7 +3375,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Ablagen",
@@ -3451,7 +3451,7 @@
       ],
       [
         "Option",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ]
     ]
   },
@@ -3469,7 +3469,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Bestückung",
@@ -3499,7 +3499,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Deckel",
@@ -3537,7 +3537,7 @@
     "specs": [
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Gestell",
@@ -3575,7 +3575,7 @@
       ],
       [
         "Rahmen und Ring",
-        "Edelstahl 0H18N9"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Deckel",
@@ -3655,7 +3655,7 @@
     "specs": [
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Deckel",
@@ -3697,7 +3697,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Schalen",
@@ -3731,7 +3731,7 @@
     "specs": [
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Arbeitsplatte",
@@ -3769,7 +3769,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Bestückung",
@@ -3791,7 +3791,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Bestückung",
@@ -3821,7 +3821,7 @@
       ],
       [
         "Arbeitsplatte",
-        "Edelstahl 0H18N9, fest montiert"
+        "Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301), fest montiert"
       ],
       [
         "Nierenschale",
@@ -3829,7 +3829,7 @@
       ],
       [
         "Option",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ]
     ]
   },
@@ -3843,7 +3843,7 @@
     "specs": [
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Böden",
@@ -3873,7 +3873,7 @@
       ],
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Tragschiene",
@@ -3885,7 +3885,7 @@
       ],
       [
         "Tropfschale",
-        "Kunststoff; Option Edelstahl 0H18N9"
+        "Kunststoff; Option Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Maße SL",
@@ -3907,7 +3907,7 @@
     "specs": [
       [
         "Material",
-        "Komplett aus Edelstahl 0H18N9"
+        "Komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301)"
       ],
       [
         "Montage",

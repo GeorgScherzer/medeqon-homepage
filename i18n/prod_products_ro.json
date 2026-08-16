@@ -1963,7 +1963,7 @@
       ],
       [
         "Corp și blat",
-        "ABS: corp din oțel cu blat ABS · ST: ambele din oțel vopsit electrostatic · KO: ambele din oțel inoxidabil 0H18N9"
+        "ABS: corp din oțel cu blat ABS · ST: ambele din oțel vopsit electrostatic · KO: ambele din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Variantă modulară",
@@ -2005,7 +2005,7 @@
       ],
       [
         "Corp și blat",
-        "ABS: corp din oțel cu blat ABS · ST: integral oțel vopsit electrostatic în RAL · KO: integral oțel inoxidabil 0H18N9"
+        "ABS: corp din oțel cu blat ABS · ST: integral oțel vopsit electrostatic în RAL · KO: integral oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Modele",
@@ -2051,7 +2051,7 @@
       ],
       [
         "Corp și blat",
-        "ABS: corp din oțel cu blat ABS · ST: ambele din oțel vopsit electrostatic · KO: ambele din oțel inoxidabil 0H18N9"
+        "ABS: corp din oțel cu blat ABS · ST: ambele din oțel vopsit electrostatic · KO: ambele din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Roți",
@@ -2089,7 +2089,7 @@
       ],
       [
         "Opțiune",
-        "Blat suplimentar din oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic"
+        "Blat suplimentar din oțel inoxidabil 0H18N9 (austenitic, 1.4301) sau oțel vopsit electrostatic"
       ],
       [
         "Dimensiuni",
@@ -2123,7 +2123,7 @@
       ],
       [
         "Blat de lucru",
-        "Adâncit, vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+        "Adâncit, vopsit electrostatic; opțional oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Bază",
@@ -2153,7 +2153,7 @@
       ],
       [
         "Blat de lucru",
-        "Oțel inoxidabil 0H18N9 cu margini ridicate, 450 × 320 mm"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301) cu margini ridicate, 450 × 320 mm"
       ],
       [
         "Sertar",
@@ -2195,7 +2195,7 @@
       ],
       [
         "Coș de depozitare",
-        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Roți",
@@ -2293,7 +2293,7 @@
       ],
       [
         "Cadru de bază",
-        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Roți",
@@ -2357,19 +2357,19 @@
     "specs": [
       [
         "Variante",
-        "SK-01 (bază din plastic, Ø 575 mm) · SK-02 (bază din oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic, Ø 600 mm)"
+        "SK-01 (bază din plastic, Ø 575 mm) · SK-02 (bază din oțel inoxidabil 0H18N9 (austenitic, 1.4301) sau oțel vopsit electrostatic, Ø 600 mm)"
       ],
       [
         "Cap",
-        "Oțel inoxidabil 0H18N9"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Coloană exterioară",
-        "Oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic, Ø 25 mm"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301) sau oțel vopsit electrostatic, Ø 25 mm"
       ],
       [
         "Coloană interioară",
-        "Oțel inoxidabil 0H18N9, Ø 16 mm"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301), Ø 16 mm"
       ],
       [
         "Reglarea înălțimii",
@@ -2391,11 +2391,11 @@
   },
   "st-po": {
     "model": "Taburet cu trepte PO",
-    "description": "Taburet cu trepte realizat integral din oțel inoxidabil 0H18N9, cu suprafață antiderapantă – cu una sau două trepte, opțional cu mânere reglabile.",
+    "description": "Taburet cu trepte realizat integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301), cu suprafață antiderapantă – cu una sau două trepte, opțional cu mânere reglabile.",
     "specs": [
       [
         "Execuție",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Suprafață de călcare",
@@ -2429,7 +2429,7 @@
     "specs": [
       [
         "Cadru",
-        "Oțel vopsit electrostatic (ST); opțional oțel inoxidabil 0H18N9 (KO)"
+        "Oțel vopsit electrostatic (ST); opțional oțel inoxidabil 0H18N9 (austenitic, 1.4301, KO)"
       ],
       [
         "Tapițerie",
@@ -2627,7 +2627,7 @@
       ],
       [
         "Blat de lucru",
-        "Oțel inoxidabil 0H18N9, montat fix, cu margine ridicată"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301), montat fix, cu margine ridicată"
       ],
       [
         "Sertar și poliță cu coș",
@@ -2655,7 +2655,7 @@
       ],
       [
         "Opțional",
-        "Integral din oțel inoxidabil 0H18N9; bol rabatabil, bol pentru deșeuri și coș pentru accesorii din oțel inoxidabil"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301); bol rabatabil, bol pentru deșeuri și coș pentru accesorii din oțel inoxidabil"
       ]
     ]
   },
@@ -2673,7 +2673,7 @@
       ],
       [
         "Blat de lucru",
-        "Oțel inoxidabil 0H18N9 sub formă de tavă detașabilă, 610 × 358 × 17 mm"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301) sub formă de tavă detașabilă, 610 × 358 × 17 mm"
       ],
       [
         "Cadru pentru sac",
@@ -2697,11 +2697,11 @@
       ],
       [
         "Coduri de material",
-        "KO = oțel inoxidabil 0H18N9 · ST = oțel vopsit electrostatic"
+        "KO = oțel inoxidabil 0H18N9 (austenitic, 1.4301) · ST = oțel vopsit electrostatic"
       ],
       [
         "Opțional",
-        "Integral din oțel inoxidabil 0H18N9; bol rabatabil, bol pentru deșeuri și coș pentru accesorii din oțel inoxidabil"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301); bol rabatabil, bol pentru deșeuri și coș pentru accesorii din oțel inoxidabil"
       ]
     ]
   },
@@ -2719,11 +2719,11 @@
       ],
       [
         "Tavă",
-        "Oțel inoxidabil 0H18N9, opțional detașabilă"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301), opțional detașabilă"
       ],
       [
         "Poliță cu coș",
-        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9"
+        "Oțel vopsit electrostatic; opțional oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Cadru pentru sac",
@@ -2761,7 +2761,7 @@
       ],
       [
         "Polițe",
-        "Oțel inoxidabil 0H18N9, câte două tăvi detașabile pe nivel"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301), câte două tăvi detașabile pe nivel"
       ],
       [
         "Compartimente pentru medicamente",
@@ -2777,7 +2777,7 @@
       ],
       [
         "Opțional",
-        "Cadru și coș pentru accesorii din oțel inoxidabil 0H18N9, bol pentru deșeuri din oțel inoxidabil"
+        "Cadru și coș pentru accesorii din oțel inoxidabil 0H18N9 (austenitic, 1.4301), bol pentru deșeuri din oțel inoxidabil"
       ]
     ]
   },
@@ -2787,7 +2787,7 @@
     "specs": [
       [
         "Variante",
-        "KO integral din oțel inoxidabil 0H18N9 · ST integral din oțel vopsit electrostatic"
+        "KO integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301) · ST integral din oțel vopsit electrostatic"
       ],
       [
         "Blat de lucru",
@@ -2829,7 +2829,7 @@
       ],
       [
         "Blat de lucru",
-        "Oțel inoxidabil 0H18N9"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Bol rabatabil",
@@ -2851,7 +2851,7 @@
     "specs": [
       [
         "Blat",
-        "Oțel inoxidabil 0H18N9, cu margini ridicate sau cu adâncitură"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301), cu margini ridicate sau cu adâncitură"
       ],
       [
         "Reglarea înălțimii",
@@ -2875,7 +2875,7 @@
       ],
       [
         "Opțional",
-        "Integral din oțel inoxidabil 0H18N9 (AISI 304)"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301, AISI 304)"
       ]
     ]
   },
@@ -2885,7 +2885,7 @@
     "specs": [
       [
         "Execuție",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Blat",
@@ -2915,7 +2915,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Blat",
@@ -2953,7 +2953,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Braț",
@@ -2987,7 +2987,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Braț",
@@ -3003,7 +3003,7 @@
       ],
       [
         "Cărucior",
-        "Oțel vopsit electrostatic, oțel inoxidabil 0H18N9 sau plastic ABS"
+        "Oțel vopsit electrostatic, oțel inoxidabil 0H18N9 (austenitic, 1.4301) sau plastic ABS"
       ],
       [
         "Lungime retras",
@@ -3021,7 +3021,7 @@
     "specs": [
       [
         "Execuție",
-        "Oțel inoxidabil 0H18N9 sau oțel vopsit electrostatic"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301) sau oțel vopsit electrostatic"
       ],
       [
         "Corp",
@@ -3047,7 +3047,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Tăvi",
@@ -3115,7 +3115,7 @@
       ],
       [
         "Opțional",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ]
     ]
   },
@@ -3129,7 +3129,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Dotare",
@@ -3155,7 +3155,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Capac",
@@ -3189,7 +3189,7 @@
     "specs": [
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Cadru",
@@ -3223,7 +3223,7 @@
       ],
       [
         "Cadru și inel",
-        "Oțel inoxidabil 0H18N9"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Capac",
@@ -3295,7 +3295,7 @@
     "specs": [
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Capac",
@@ -3333,7 +3333,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Boluri",
@@ -3363,7 +3363,7 @@
     "specs": [
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Blat de lucru",
@@ -3397,7 +3397,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Dotare",
@@ -3415,7 +3415,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Dotare",
@@ -3441,7 +3441,7 @@
       ],
       [
         "Blat de lucru",
-        "Oțel inoxidabil 0H18N9, montat fix"
+        "Oțel inoxidabil 0H18N9 (austenitic, 1.4301), montat fix"
       ],
       [
         "Tăviță",
@@ -3449,7 +3449,7 @@
       ],
       [
         "Opțional",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ]
     ]
   },
@@ -3459,7 +3459,7 @@
     "specs": [
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Polițe",
@@ -3485,7 +3485,7 @@
       ],
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Șină portantă",
@@ -3497,7 +3497,7 @@
       ],
       [
         "Tavă de scurgere",
-        "Plastic; opțional oțel inoxidabil 0H18N9"
+        "Plastic; opțional oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Dimensiuni SL",
@@ -3515,7 +3515,7 @@
     "specs": [
       [
         "Material",
-        "Integral din oțel inoxidabil 0H18N9"
+        "Integral din oțel inoxidabil 0H18N9 (austenitic, 1.4301)"
       ],
       [
         "Montaj",
