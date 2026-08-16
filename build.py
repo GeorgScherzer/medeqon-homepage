@@ -1189,8 +1189,11 @@ _DL_NOTE_ANFRAGE_HB = ("Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln 
 _DL_NOTE_ANFRAGE_MED = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
                         "senden wir Ihnen gerne auf Anfrage zu.")
 
-_DL_LEAD_MED = ("Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu "
-                "unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.")
+_DL_LEAD_MED = ("Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen "
+                "Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der "
+                "COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt "
+                "Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. "
+                "Neue Dokumente ergänzen wir laufend.")
 
 _DL_LEAD_MED_REQUEST = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
                         "senden wir Ihnen gerne auf Anfrage zu.")
@@ -1243,7 +1246,7 @@ def _downloads_datasheets(num, cid, lead, cats, note=None, lang="de", catalog=No
     if catalog:
         parts.append(
 '            <div class="m-dl-group">\n'
-'              <div class="m-dl-grouptitle">' + _html.escape(_puit(lang, "Produktkatalog")) + '</div>\n'
+'              <div class="m-dl-grouptitle">' + _html.escape(_puit(lang, "Produktkataloge & Farbkarten")) + '</div>\n'
 '              <div class="m-dl-grid">\n'
 + "\n".join(_dl_card(it, lang) for it in catalog) + '\n'
 '              </div>\n'
@@ -1325,12 +1328,25 @@ DL_MED_CATS = [
     ]),
 ]
 
-# --- Produktkatalog Medizinische Einrichtung (DE/EN/PL) für den Download-Bereich ---
+# --- Produktkataloge & Farbkarten Medizinische Einrichtung für den Download-Bereich ---
+# Bereiche 01–03 (COINFYCARE): eigener Katalog, DE/EN/PL.
+# Bereiche 04–09 (TECH-MED): eigener Katalog + Farbkarten, DE/EN/PL/RO.
+_MEDK = "assets/downloads/med/"
+def _med4(base):
+    return [(lb, _MEDK + base + "_" + lb + ".pdf") for lb in ("DE", "EN", "PL", "RO")]
+
 DL_MED_CATALOG = [
-    {"title": "Produktkatalog – Medizinische Einrichtung", "meta": "Gesamtkatalog · PDF", "icon": "book",
-     "langs": [("DE", "assets/downloads/med/Katalog_Medizinische_Einrichtung_DE.pdf"),
-               ("EN", "assets/downloads/med/Catalogue_Medical_Furnishing_EN.pdf"),
-               ("PL", "assets/downloads/med/Katalog_Wyposazenie_medyczne_PL.pdf")]},
+    {"title": "Produktkatalog · Bereiche 01–03",
+     "meta": "COINFYCARE · PDF", "icon": "book",
+     "langs": [("DE", _MEDK + "Katalog_Medizinische_Einrichtung_DE.pdf"),
+               ("EN", _MEDK + "Catalogue_Medical_Furnishing_EN.pdf"),
+               ("PL", _MEDK + "Katalog_Wyposazenie_medyczne_PL.pdf")]},
+    {"title": "Produktkatalog · Bereiche 04–09",
+     "meta": "TECH-MED · PDF", "icon": "book",
+     "langs": _med4("Katalog_TECHMED")},
+    {"title": "Farbkarten · Bereiche 04–09",
+     "meta": "TECH-MED · PDF", "icon": "doc",
+     "langs": _med4("Farbkarten_TECHMED")},
 ]
 
 _SSK = "assets/downloads/ss/"
@@ -2168,10 +2184,14 @@ _PUI = {
   "Persönliche Schutzausrüstung und Aufbewahrung": "Personal protective equipment and storage",
   "Innenmaterial der persönlichen Schutzausrüstung": "Inner material of the personal protective equipment",
   "KENEX · PDF": "KENEX · PDF",
-  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.": "Here you will find our product catalogue as well as the technical data sheets for our medical-furnishing products. We add new documents on an ongoing basis.",
+  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Here you will find our product catalogues and colour cards as well as the technical data sheets for our medical-furnishing products. The COINFYCARE catalogue covers sections 01–03, while the TECH-MED catalogue and its colour cards cover sections 04–09 including the rail systems. We add new documents on an ongoing basis.",
   "Produktkatalog": "Product catalogue",
-  "Produktkatalog – Medizinische Einrichtung": "Product catalogue – Medical furnishing",
-  "Gesamtkatalog · PDF": "Full catalogue · PDF",
+  "Produktkataloge & Farbkarten": "Product catalogues & colour cards",
+  "Produktkatalog · Bereiche 01–03": "Product catalogue · Sections 01–03",
+  "Produktkatalog · Bereiche 04–09": "Product catalogue · Sections 04–09",
+  "Farbkarten · Bereiche 04–09": "Colour cards · Sections 04–09",
+  "COINFYCARE · PDF": "COINFYCARE · PDF",
+  "TECH-MED · PDF": "TECH-MED · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our radiation-protection products on request.",
   "Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our medical-furnishing products on request.",
   "Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our medical aids and assistive devices on request.",
@@ -2316,10 +2336,14 @@ _PUI = {
   "Persönliche Schutzausrüstung und Aufbewahrung": "Środki ochrony osobistej i przechowywanie",
   "Innenmaterial der persönlichen Schutzausrüstung": "Materiał wewnętrzny środków ochrony osobistej",
   "KENEX · PDF": "KENEX · PDF",
-  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.": "Tutaj znajdą Państwo nasz katalog produktów oraz karty techniczne naszych produktów wyposażenia medycznego. Nowe dokumenty dodajemy na bieżąco.",
+  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Tutaj znajdą Państwo nasze katalogi produktów i wzorniki kolorów oraz karty techniczne naszych produktów wyposażenia medycznego. Katalog COINFYCARE obejmuje obszary 01–03, a katalog TECH-MED wraz z wzornikami kolorów – obszary 04–09, w tym systemy szynowe. Nowe dokumenty dodajemy na bieżąco.",
   "Produktkatalog": "Katalog produktów",
-  "Produktkatalog – Medizinische Einrichtung": "Katalog produktów – Wyposażenie medyczne",
-  "Gesamtkatalog · PDF": "Pełny katalog · PDF",
+  "Produktkataloge & Farbkarten": "Katalogi produktów i wzorniki kolorów",
+  "Produktkatalog · Bereiche 01–03": "Katalog produktów · Obszary 01–03",
+  "Produktkatalog · Bereiche 04–09": "Katalog produktów · Obszary 04–09",
+  "Farbkarten · Bereiche 04–09": "Wzorniki kolorów · Obszary 04–09",
+  "COINFYCARE · PDF": "COINFYCARE · PDF",
+  "TECH-MED · PDF": "TECH-MED · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych produktów ochrony radiologicznej chętnie prześlemy na życzenie.",
   "Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych produktów wyposażenia medycznego chętnie prześlemy na życzenie.",
   "Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych środków pomocniczych i wyrobów wspomagających chętnie prześlemy na życzenie.",
@@ -2464,10 +2488,14 @@ _PUI = {
   "Persönliche Schutzausrüstung und Aufbewahrung": "Echipament individual de protecție și depozitare",
   "Innenmaterial der persönlichen Schutzausrüstung": "Material interior al echipamentului individual de protecție",
   "KENEX · PDF": "KENEX · PDF",
-  "Hier finden Sie unseren Produktkatalog sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Neue Dokumente ergänzen wir laufend.": "Aici găsiți catalogul nostru de produse, precum și fișele tehnice ale produselor noastre de mobilier medical. Adăugăm continuu documente noi.",
+  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Aici găsiți cataloagele noastre de produse și cartelele de culori, precum și fișele tehnice ale produselor noastre de mobilier medical. Catalogul COINFYCARE acoperă secțiunile 01–03, iar catalogul TECH-MED împreună cu cartelele de culori acoperă secțiunile 04–09, inclusiv sistemele de șine. Adăugăm continuu documente noi.",
   "Produktkatalog": "Catalog de produse",
-  "Produktkatalog – Medizinische Einrichtung": "Catalog de produse – Mobilier medical",
-  "Gesamtkatalog · PDF": "Catalog complet · PDF",
+  "Produktkataloge & Farbkarten": "Cataloage de produse și cartele de culori",
+  "Produktkatalog · Bereiche 01–03": "Catalog de produse · Secțiunile 01–03",
+  "Produktkatalog · Bereiche 04–09": "Catalog de produse · Secțiunile 04–09",
+  "Farbkarten · Bereiche 04–09": "Cartele de culori · Secțiunile 04–09",
+  "COINFYCARE · PDF": "COINFYCARE · PDF",
+  "TECH-MED · PDF": "TECH-MED · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru produsele noastre de protecție radiologică.",
   "Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru produsele noastre de mobilier medical.",
   "Die Unterlagen zu unseren Heilbehelfen und Hilfsmitteln senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru mijloacele noastre ajutătoare și dispozitivele de asistență.",
