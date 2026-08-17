@@ -5322,7 +5322,8 @@ def _vet_flyer_section(lang):
     t = _VET_T[lang]
     ap = "assets/" if lang == "de" else "/assets/"
     pdf = f'{ap}downloads/flyer/Flyer_veterinaermedizin_medeqon_DE.pdf'
-    cover = f'{ap}downloads/flyer/cover_veterinaermedizin_de.jpg'
+    # ?v= erhöhen, sobald ein neues Flyer-PDF/Cover eingespielt wird (Browser-Cache)
+    cover = f'{ap}downloads/flyer/cover_veterinaermedizin_de.jpg?v=2'
     title = t["fly_title"]
     return (
 f'<section class="m-graphic-sec m-fly-sec m-fly-sec--solo" id="flyer" style="background-image:url({ap}slogan-bg.jpg)">\n'
@@ -5393,7 +5394,7 @@ def _body_veterinaer(lang):
     ap = "assets/" if lang == "de" else "/assets/"
     badges = "\n".join(f'        <li>{b}</li>' for b in t["badges"])
     photos = "\n".join(
-f'      <img src="{ap}vet/vet{i+1}.jpg" alt="{_html.escape(alt)}" width="1400" height="1050" loading="lazy">'
+f'    <img src="{ap}vet/vet{i+1}.jpg" alt="{_html.escape(alt)}" width="1400" height="1050" loading="lazy">'
         for i, alt in enumerate(t["photos"]))
     svcs = []
     for s in t["services"]:
@@ -5427,7 +5428,9 @@ f'          <span class="m-vt-step-text">{tx}</span>\n'
 </section>
 
 <section class="m-vt-strip" aria-hidden="true">
+  <div class="m-vt-strip-row">
 {photos}
+  </div>
 </section>
 
 {_vet_flyer_section(lang)}
