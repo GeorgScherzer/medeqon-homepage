@@ -14,6 +14,7 @@ NAV = [
     ("leistungen.html", "Leistungen"),
     ("produkte.html", "Produkte"),
     ("referenzen.html", "Referenzen"),
+    ("veterinaer.html", "Veterinär"),
     ("management.html", "Management"),
     ("karriere.html", "Karriere"),
     ("kontakt.html", "Kontakt"),
@@ -39,25 +40,29 @@ LANGS = [
 # Nicht übersetzte Seiten fallen im Menü/Umschalter auf Deutsch zurück.
 AVAILABLE = {
     "de": {"index.html", "leistungen.html", "produkte.html", "referenzen.html",
-           "management.html", "karriere.html", "kontakt.html",
+           "veterinaer.html", "management.html", "karriere.html", "kontakt.html",
            "agb.html", "datenschutz.html", "impressum.html"},
-    "en": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
-    "pl": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
-    "ro": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
+    "en": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
+    "pl": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
+    "ro": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
 }
 
 NAV_LABELS = {
     "de": {"index.html": "Startseite", "leistungen.html": "Leistungen", "produkte.html": "Produkte",
-           "referenzen.html": "Referenzen", "management.html": "Management",
+           "referenzen.html": "Referenzen", "veterinaer.html": "Veterinär",
+           "management.html": "Management",
            "karriere.html": "Karriere", "kontakt.html": "Kontakt"},
     "en": {"index.html": "Home", "leistungen.html": "Services", "produkte.html": "Products",
-           "referenzen.html": "References", "management.html": "Management",
+           "referenzen.html": "References", "veterinaer.html": "Veterinary",
+           "management.html": "Management",
            "karriere.html": "Careers", "kontakt.html": "Contact"},
     "pl": {"index.html": "Start", "leistungen.html": "Usługi", "produkte.html": "Produkty",
-           "referenzen.html": "Referencje", "management.html": "Kierownictwo",
+           "referenzen.html": "Referencje", "veterinaer.html": "Weterynaria",
+           "management.html": "Kierownictwo",
            "karriere.html": "Kariera", "kontakt.html": "Kontakt"},
     "ro": {"index.html": "Acasă", "leistungen.html": "Servicii", "produkte.html": "Produse",
-           "referenzen.html": "Referințe", "management.html": "Management",
+           "referenzen.html": "Referințe", "veterinaer.html": "Veterinar",
+           "management.html": "Management",
            "karriere.html": "Cariere", "kontakt.html": "Contact"},
 }
 
@@ -1618,11 +1623,16 @@ _PART_T = {
     }),
 }
 
-def _partner_section(lang="de", sid="partner"):
+def _partner_section(lang="de", sid="partner", only=None):
+    """`only` = Menge von Partner-Slugs; leere Gruppen entfallen. None = alle Partner."""
     t = _PART_T[lang]
     ap = "assets/" if lang == "de" else "/assets/"
     groups = []
     for gid, items in _PARTNERS:
+        if only is not None:
+            items = [p for p in items if p[0] in only]
+            if not items:
+                continue
         cards = []
         for slug, name, url in items:
             aria = _html.escape(t["aria"].format(name=name))
@@ -4833,6 +4843,659 @@ BODY_KARRIERE_RO = _karriere_body(
     "Trimite candidatura spontană", "Candidatura%20spontana")
 
 # Übersetzte Seiten je Sprache (weitere Seiten folgen). Modellgrafik = englische Version.
+
+# ===================== Veterinärmedizin (eigene Seite) =====================
+# Quelle der Texte: Flyer "Veterinärmedizin" (…\11. HANDEL\Flyer medeqon Handel\Flyer Veterinär).
+# Die Seite wird komplett aus _VET_T generiert — keine _tr-Maps nötig.
+_VET_SVC_ICONS = {
+ "kosten": ('<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<rect x="9" y="9" width="30" height="30" rx="3"/><path d="M9 19 L39 19"/>'
+            '<path d="M19 19 L19 39"/><circle cx="29" cy="29" r="3.2" class="sig-fill"/></svg>'),
+ "umbau":  ('<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<path d="M6 40 L42 40"/><path d="M11 40 L11 16 L24 10 L24 40"/>'
+            '<path d="M24 23 L37 27 L37 40"/><circle cx="30.5" cy="33" r="3" class="sig-fill"/></svg>'),
+ "hand":   ('<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<path d="M24 8 L39 16 L39 32 L24 40 L9 32 L9 16 Z"/><path d="M9 16 L24 24 L39 16"/>'
+            '<path d="M24 24 L24 40"/><circle cx="24" cy="24" r="3.4" class="sig-fill"/></svg>'),
+}
+
+# Produktbilder je Kachel (liegen unter assets/vet/prod/)
+_VET_TILE_IMGS = {
+ "psa":         ["apron", "glasses", "collar"],
+ "raum":        ["mobile", "ceiling", "storage"],
+ "einrichtung": ["ridepro", "insttable", "infusion"],
+}
+# Herstellerlogos je Kachel: (slug, Name, URL) — Logos aus assets/brands/
+_VET_TILE_MFR = {
+ "psa":         [("rothband", "ROTHBAND", "https://www.rothband.com/de")],
+ "raum":        [("kenex", "KENEX", "https://www.kenex.co.uk"),
+                 ("rothband", "ROTHBAND", "https://www.rothband.com/de")],
+ "einrichtung": [("coinfycare", "COINFYCARE", "https://www.coinfycare.com/en"),
+                 ("techmed", "TECHMED", "https://en.techmed.com.pl/")],
+}
+# Sprungziel auf der Produktseite je Kachel
+_VET_TILE_ANCHOR = {
+ "psa":         "persoenlicher-strahlenschutz",
+ "raum":        "mobiler-strahlenschutz",
+ "einrichtung": "medizinische-einrichtung",
+}
+# Partner, die auf der Veterinär-Seite gezeigt werden
+_VET_PARTNERS = ("coinfycare", "techmed", "elers", "rothband", "kenex")
+
+_VET_T = {
+ # ------------------------------------------------------------------ DE ---
+ "de": dict(
+  tag="Veterinärmedizin",
+  h1="Veterinärmedizin",
+  claim="Geplant, eingerichtet, geschützt.",
+  lede=("Räume, die zu Ihren Abläufen passen. Ein Team, das sicher arbeitet. Und ein Ansprechpartner "
+        "statt vieler: Für Tierarztpraxen, Tierkliniken und Ambulatorien übernehmen wir "
+        "<b>Neuplanung und Renovierung</b>, die <b>medizinische Einrichtung</b> und den "
+        "<b>zertifizierten Strahlenschutz</b> &ndash; aus einer Hand."),
+  badges=["Neubau &amp; Renovierung", "Medizintechnik-Planung", "Zertifizierter Strahlenschutz",
+          "Geprüft nach EN 61331", "Ein Ansprechpartner"],
+  photos=["Tierarzt bei der Untersuchung eines Hundes",
+          "Praxisteam in Strahlenschutzschürzen bei einer Röntgenaufnahme",
+          "Röntgenaufnahme eines Hundes mit Schutzschürze",
+          "Tierärztin untersucht eine Katze mit dem Stethoskop"],
+  fly_tag="Flyer &amp; Unterlagen",
+  fly_h2="Ihr Überblick zum Mitnehmen",
+  fly_lede=("Alles Wichtige für Tierarztpraxen, Tierkliniken und Ambulatorien auf drei Seiten: "
+            "Schutzausrüstung für das Praxisteam, Strahlenschutz im Röntgenraum, medizinische "
+            "Einrichtung und unsere Planungsleistungen. Kompakt aufbereitet, sofort verständlich "
+            "und ideal zum Weitergeben an Bauherren, Architekten und Einkauf."),
+  fly_title="Veterinärmedizin",
+  fly_pages="3 Seiten", fly_pdf="PDF", fly_open="ansehen", fly_dl="herunterladen", fly_lang="",
+  svc_tag="Leistungen",
+  svc_h2="Ein Ansprechpartner &ndash; von der ersten Skizze bis zur Inbetriebnahme",
+  svc_sub=("Ob neue Praxis, Erweiterung oder Umbau im Bestand: Wir planen die Medizintechnik, "
+           "koordinieren die Gewerke und liefern die Ausstattung. Sie führen Ihren Betrieb weiter "
+           "&ndash; wir halten den Rest zusammen."),
+  services=[
+    dict(key="kosten", num="01", title="Sie kennen Ihre Kosten &ndash; früh",
+         text=("Geräteaufstellung, Medien- und Elektroanschlüsse und der Strahlenschutznachweis "
+               "stehen fest, bevor gebaut wird. Teure Änderungen auf der Baustelle entfallen, und "
+               "Sie entscheiden auf gesicherter Grundlage."),
+         tags=["Medizintechnik-Planung", "LPH 1&ndash;9", "Raumbücher", "Kostensteuerung"]),
+    dict(key="umbau", num="02", title="Sie behandeln weiter &ndash; auch während des Umbaus",
+         text=("Ob neue Praxis, Erweiterung oder Umbau im Bestand: Wir legen die Bauabschnitte um "
+               "Ihren Betrieb herum, koordinieren Gewerke, Termine und Abnahmen und halten die "
+               "Ausfallzeiten so kurz wie möglich."),
+         tags=["Neubau &amp; Renovierung", "Umbau im Betrieb", "Bauüberwachung", "Abnahmen"]),
+    dict(key="hand", num="03", title="Sie bekommen alles aus einer Hand",
+         text=("Den Großteil Ihrer Ausstattung decken wir mit unseren bewährten Standardpartnern ab. "
+               "Brauchen Sie darüber hinaus etwas &ndash; ein Spezialgerät, ein bestimmtes Fabrikat, "
+               "Zubehör oder Ersatzteile &ndash;, beschaffen wir das zusätzlich für Sie. Ein "
+               "Ansprechpartner statt vieler Lieferanten."),
+         tags=["Bewährte Standardpartner", "Sonderwünsche auf Anfrage", "Zubehör &amp; Ersatzteile",
+               "Ein Ansprechpartner"]),
+  ],
+  abl_title="So läuft ein Projekt bei uns ab",
+  abl_steps=[
+    ("01", "Bedarf &amp; Begehung",
+           "Wir kommen zu Ihnen. Sie müssen nichts vorbereiten und nichts vorab wissen."),
+    ("02", "Planung &amp; Angebot",
+           "Raumkonzept, Geräte und Strahlenschutz mit klarer Kostenübersicht &ndash; "
+           "Sie entscheiden auf sicherer Basis."),
+    ("03", "Umsetzung &amp; Lieferung",
+           "Wir koordinieren Gewerke und Termine, liefern und montieren. "
+           "Sie behalten den Praxisbetrieb."),
+    ("04", "Abnahme &amp; Service",
+           "Einweisung, Dokumentation und wiederkehrende Prüfungen &ndash; auch Jahre danach."),
+  ],
+  prod_tag="Produkte",
+  prod_h2="So schützen Sie Ihr Team &ndash; und statten Ihre Praxis aus",
+  prod_sub=("In der Tiermedizin wird das Tier während der Aufnahme meist von Hand gehalten. Deshalb "
+            "beginnt gute Ausstattung beim Strahlenschutz &ndash; am Körper und im Raum &ndash; und "
+            "endet bei Wagen, Tischen und Liegen, die den Praxisalltag mitmachen. Alle Modelle mit "
+            "technischen Daten und Datenblättern finden Sie auf unserer Produktseite."),
+  tiles=[
+    dict(key="psa", title="Persönliche Schutzausrüstung für das Praxisteam",
+         text=("In der Tiermedizin wird das Tier während der Aufnahme meist von Hand gehalten "
+               "&ndash; Ihr Team steht dabei unmittelbar im Streustrahlenfeld. Zertifizierte "
+               "Schutzkleidung in allen Schnitten, Schilddrüsenschutz, Strahlenschutzbrillen und "
+               "Röntgenhandschuhe halten die Dosisbelastung niedrig, ohne die Arbeit zu bremsen. "
+               "Mit Name und Praxislogo greift jede und jeder sofort zur eigenen, passenden Schürze."),
+         tags=["Frontschürzen", "Umhangschürzen", "Wickelschürzen",
+               "Zweiteiler &ndash; Oberteil &amp; Rock", "Schilddrüsenschutz",
+               "Strahlenschutzbrillen", "Röntgenhandschuhe", "Name &amp; Praxislogo"]),
+    dict(key="raum", title="Strahlenschutz im Röntgen- und Behandlungsraum",
+         text=("Was nicht am Körper getragen werden muss, entlastet Ihr Team spürbar: fahrbare "
+               "Schutzwände mit Sichtfenster lassen Sie das Tier im Blick behalten, deckenmontierte "
+               "Überkopfschilde schützen am Tisch, und Schürzenständer lagern die Bleischicht "
+               "formschonend &ndash; das verlängert die Lebensdauer Ihrer Schutzkleidung. Wir "
+               "stimmen die Systeme auf Raumgröße, Gerätetyp und Ihren Arbeitsablauf ab."),
+         tags=["Fahrbare Schutzwände", "Sichtfenster", "Überkopf-Schutzschilde",
+               "Aufhängungssysteme", "Tischmontierte Schilde", "Schürzenständer",
+               "Wandhalterungen", "Formschonende Lagerung"]),
+    dict(key="einrichtung", title="Medizinische Einrichtung für Praxis und Klinik",
+         text=("Ausstattung, die den Praxisalltag mitmacht: <b>Multifunktionswagen</b>, die Sie "
+               "modular auf Ihre Abläufe konfigurieren, höhenverstellbare <b>Instrumententische</b> "
+               "und fahrbare <b>Infusionsständer</b>. Robust, hygienisch leicht zu reinigen und in "
+               "mehreren Ausführungen erhältlich &ndash; wir zeigen Ihnen die Variante, die zu Ihrem "
+               "Raum passt, und liefern komplett."),
+         tags=["Multifunktionswagen", "Instrumententische", "Infusionsständer",
+               "Behandlungs- &amp; Untersuchungsliegen", "Fahrdrehhocker", "Edelstahlmöbel",
+               "Sichtschutz", "Modular konfigurierbar"]),
+  ],
+  tile_link="Modelle ansehen",
+  mfr_cap="Hersteller",
+  note_title="Alle Produkte im Detail",
+  note_text=("Die vollständige Übersicht mit technischen Infos, Datenblättern und Downloads finden "
+             "Sie auf unserer Produktseite."),
+  note_link="Zur Produktseite",
+  cta_h2="Arbeiten Sie mit uns",
+  cta_link="Kontakt aufnehmen",
+  aria_mfr="Hersteller {name} – Website in neuem Tab öffnen",
+ ),
+ # ------------------------------------------------------------------ EN ---
+ "en": dict(
+  tag="Veterinary medicine",
+  h1="Veterinary medicine",
+  claim="Designed, furnished, protected.",
+  lede=("Rooms that match your workflows. A team that works safely. And one point of contact "
+        "instead of many: for veterinary practices, animal hospitals and clinics we handle "
+        "<b>new builds and refurbishment</b>, the <b>medical furnishing</b> and "
+        "<b>certified radiation protection</b> &ndash; all from a single source."),
+  badges=["New build &amp; refurbishment", "Medical Technology Design", "Certified radiation protection",
+          "Tested to EN 61331", "One point of contact"],
+  photos=["Veterinarian examining a dog",
+          "Practice team in protective aprons during an X-ray exposure",
+          "X-ray of a dog, handler wearing a protective apron",
+          "Veterinarian examining a cat with a stethoscope"],
+  fly_tag="Flyers &amp; documents",
+  fly_h2="Your overview to take away",
+  fly_lede=("Everything that matters for veterinary practices, animal hospitals and clinics on three "
+            "pages: protective equipment for the practice team, radiation protection in the X-ray "
+            "room, medical furnishing and our design services. Concise, immediately clear and ideal "
+            "for passing on to clients, architects and procurement."),
+  fly_title="Veterinary medicine",
+  fly_pages="3 pages", fly_pdf="PDF", fly_open="view", fly_dl="download",
+  fly_lang=" &middot; German",
+  svc_tag="Services",
+  svc_h2="One point of contact &ndash; from the first sketch to commissioning",
+  svc_sub=("Whether a new practice, an extension or a refurbishment of existing premises: we design "
+           "the medical technology, coordinate the trades and supply the equipment. You keep your "
+           "practice running &ndash; we hold the rest together."),
+  services=[
+    dict(key="kosten", num="01", title="You know your costs &ndash; early",
+         text=("Equipment layout, media and electrical connections and the radiation protection "
+               "certificate are settled before construction begins. Expensive changes on site are "
+               "avoided, and you decide on a sound basis."),
+         tags=["Medical Technology Design", "Service phases 1&ndash;9", "Room books", "Cost control"]),
+    dict(key="umbau", num="02", title="You keep treating &ndash; even during the works",
+         text=("Whether a new practice, an extension or a refurbishment of existing premises: we lay "
+               "out the construction phases around your operation, coordinate trades, dates and "
+               "acceptances and keep downtime as short as possible."),
+         tags=["New build &amp; refurbishment", "Refurbishment in operation", "Construction supervision",
+               "Acceptances"]),
+    dict(key="hand", num="03", title="You get everything from a single source",
+         text=("We cover the bulk of your equipment with our proven standard partners. If you need "
+               "anything beyond that &ndash; a specialist device, a particular make, accessories or "
+               "spare parts &ndash; we procure it for you as well. One point of contact instead of "
+               "many suppliers."),
+         tags=["Proven standard partners", "Special requests on enquiry", "Accessories &amp; spare parts",
+               "One point of contact"]),
+  ],
+  abl_title="How a project runs with us",
+  abl_steps=[
+    ("01", "Requirements &amp; site visit",
+           "We come to you. You need not prepare anything or know anything in advance."),
+    ("02", "Design &amp; quotation",
+           "Room concept, equipment and radiation protection with a clear cost overview &ndash; "
+           "you decide on a sound basis."),
+    ("03", "Delivery &amp; installation",
+           "We coordinate trades and dates, deliver and install. You keep your practice running."),
+    ("04", "Acceptance &amp; service",
+           "Instruction, documentation and recurring inspections &ndash; even years later."),
+  ],
+  prod_tag="Products",
+  prod_h2="Protecting your team &ndash; and equipping your practice",
+  prod_sub=("In veterinary medicine the animal is usually held by hand during the exposure. Good "
+            "equipment therefore starts with radiation protection &ndash; on the body and in the "
+            "room &ndash; and ends with trolleys, tables and couches that stand up to daily "
+            "practice. All models with technical data and data sheets are on our products page."),
+  tiles=[
+    dict(key="psa", title="Personal protective equipment for the practice team",
+         text=("In veterinary medicine the animal is usually held by hand during the exposure "
+               "&ndash; your team stands directly in the scattered radiation field. Certified "
+               "protective wear in every cut, thyroid shields, protective eyewear and X-ray gloves "
+               "keep the dose low without slowing the work down. With name and practice logo, "
+               "everyone reaches straight for their own, properly fitting apron."),
+         tags=["Front aprons", "Tabard aprons", "Wrap-around aprons",
+               "Two-piece &ndash; top &amp; skirt", "Thyroid shields",
+               "Protective eyewear", "X-ray gloves", "Name &amp; practice logo"]),
+    dict(key="raum", title="Radiation protection in the X-ray and treatment room",
+         text=("Whatever does not have to be worn takes a noticeable load off your team: mobile "
+               "screens with a viewing window let you keep an eye on the animal, ceiling-mounted "
+               "overhead shields protect at the table, and apron stands store the lead layer without "
+               "creasing it &ndash; which extends the life of your protective wear. We match the "
+               "systems to room size, equipment type and your workflow."),
+         tags=["Mobile screens", "Viewing windows", "Overhead shields",
+               "Suspension systems", "Table-mounted shields", "Apron stands",
+               "Wall brackets", "Crease-free storage"]),
+    dict(key="einrichtung", title="Medical furnishing for practice and clinic",
+         text=("Equipment that stands up to daily practice: <b>multifunction trolleys</b> you "
+               "configure modularly around your workflows, height-adjustable "
+               "<b>instrument tables</b> and mobile <b>infusion stands</b>. Robust, easy to clean "
+               "hygienically and available in several versions &ndash; we show you the variant that "
+               "suits your room and deliver the complete set."),
+         tags=["Multifunction trolleys", "Instrument tables", "Infusion stands",
+               "Treatment &amp; examination couches", "Swivel stools", "Stainless steel furniture",
+               "Privacy screens", "Modular configuration"]),
+  ],
+  tile_link="View models",
+  mfr_cap="Manufacturers",
+  note_title="All products in detail",
+  note_text=("The complete overview with technical information, data sheets and downloads is on our "
+             "products page."),
+  note_link="To the products page",
+  cta_h2="Work with us",
+  cta_link="Get in touch",
+  aria_mfr="Manufacturer {name} – open website in a new tab",
+ ),
+ # ------------------------------------------------------------------ PL ---
+ "pl": dict(
+  tag="Weterynaria",
+  h1="Weterynaria",
+  claim="Zaprojektowane, wyposażone, zabezpieczone.",
+  lede=("Pomieszczenia dopasowane do Państwa procesów. Zespół, który pracuje bezpiecznie. I jeden "
+        "partner zamiast wielu: dla gabinetów weterynaryjnych, klinik dla zwierząt i ambulatoriów "
+        "realizujemy <b>nowe budowy i modernizacje</b>, <b>wyposażenie medyczne</b> oraz "
+        "<b>certyfikowaną ochronę radiologiczną</b> &ndash; z jednego źródła."),
+  badges=["Budowa i modernizacja", "Projektowanie techniki medycznej",
+          "Certyfikowana ochrona radiologiczna", "Badane wg EN 61331", "Jeden partner"],
+  photos=["Lekarz weterynarii badający psa",
+          "Zespół w fartuchach ochronnych podczas zdjęcia rentgenowskiego",
+          "Zdjęcie rentgenowskie psa, osoba przytrzymująca w fartuchu ochronnym",
+          "Lekarka weterynarii badająca kota stetoskopem"],
+  fly_tag="Ulotki i materiały",
+  fly_h2="Przegląd, który weźmiesz ze sobą",
+  fly_lede=("Wszystko, co najważniejsze dla gabinetów weterynaryjnych, klinik dla zwierząt i "
+            "ambulatoriów na trzech stronach: odzież ochronna dla zespołu, ochrona radiologiczna w "
+            "pracowni RTG, wyposażenie medyczne oraz nasze usługi projektowe. Zwięźle, zrozumiale i "
+            "idealnie do przekazania inwestorom, architektom i działom zakupów."),
+  fly_title="Weterynaria",
+  fly_pages="3 strony", fly_pdf="PDF", fly_open="zobacz", fly_dl="pobierz",
+  fly_lang=" &middot; niemiecki",
+  svc_tag="Usługi",
+  svc_h2="Jeden partner &ndash; od pierwszego szkicu do uruchomienia",
+  svc_sub=("Nowy gabinet, rozbudowa czy przebudowa w istniejącym obiekcie: projektujemy technikę "
+           "medyczną, koordynujemy branże i dostarczamy wyposażenie. Państwo prowadzą działalność "
+           "dalej &ndash; my trzymamy resztę w ryzach."),
+  services=[
+    dict(key="kosten", num="01", title="Znają Państwo swoje koszty &ndash; wcześnie",
+         text=("Rozmieszczenie urządzeń, przyłącza mediów i elektryki oraz dokumentacja ochrony "
+               "radiologicznej są ustalone, zanim ruszy budowa. Kosztowne zmiany na budowie "
+               "odpadają, a Państwo decydują na pewnej podstawie."),
+         tags=["Projektowanie techniki medycznej", "Fazy usługowe 1&ndash;9", "Książki pomieszczeń",
+               "Zarządzanie kosztami"]),
+    dict(key="umbau", num="02", title="Leczą Państwo dalej &ndash; także podczas przebudowy",
+         text=("Nowy gabinet, rozbudowa czy przebudowa w istniejącym obiekcie: układamy etapy prac "
+               "wokół Państwa działalności, koordynujemy branże, terminy i odbiory oraz "
+               "utrzymujemy przestoje na możliwie najkrótszym poziomie."),
+         tags=["Budowa i modernizacja", "Przebudowa w trakcie pracy", "Nadzór budowlany", "Odbiory"]),
+    dict(key="hand", num="03", title="Otrzymują Państwo wszystko z jednego źródła",
+         text=("Większość wyposażenia pokrywamy naszymi sprawdzonymi partnerami standardowymi. Jeśli "
+               "potrzebują Państwo czegoś ponadto &ndash; urządzenia specjalistycznego, konkretnej "
+               "marki, akcesoriów lub części zamiennych &ndash; zaopatrzymy Państwa dodatkowo. Jeden "
+               "partner zamiast wielu dostawców."),
+         tags=["Sprawdzeni partnerzy standardowi", "Życzenia specjalne na zapytanie",
+               "Akcesoria i części zamienne", "Jeden partner"]),
+  ],
+  abl_title="Tak przebiega u nas projekt",
+  abl_steps=[
+    ("01", "Potrzeby i wizja lokalna",
+           "Przyjeżdżamy do Państwa. Nie trzeba niczego przygotowywać ani wiedzieć z góry."),
+    ("02", "Projekt i oferta",
+           "Koncepcja pomieszczeń, urządzenia i ochrona radiologiczna z jasnym zestawieniem kosztów "
+           "&ndash; decydują Państwo na pewnej podstawie."),
+    ("03", "Realizacja i dostawa",
+           "Koordynujemy branże i terminy, dostarczamy i montujemy. Państwo prowadzą gabinet dalej."),
+    ("04", "Odbiór i serwis",
+           "Instruktaż, dokumentacja i przeglądy okresowe &ndash; także po latach."),
+  ],
+  prod_tag="Produkty",
+  prod_h2="Tak chronią Państwo zespół &ndash; i wyposażają gabinet",
+  prod_sub=("W weterynarii zwierzę jest podczas ekspozycji zwykle przytrzymywane ręcznie. Dlatego "
+            "dobre wyposażenie zaczyna się od ochrony radiologicznej &ndash; na ciele i w "
+            "pomieszczeniu &ndash; a kończy na wózkach, stolikach i leżankach, które wytrzymują "
+            "codzienną pracę. Wszystkie modele z danymi technicznymi i kartami technicznymi "
+            "znajdą Państwo na naszej stronie produktowej."),
+  tiles=[
+    dict(key="psa", title="Środki ochrony indywidualnej dla zespołu gabinetu",
+         text=("W weterynarii zwierzę jest podczas ekspozycji zwykle przytrzymywane ręcznie &ndash; "
+               "Państwa zespół stoi bezpośrednio w polu promieniowania rozproszonego. Certyfikowana "
+               "odzież ochronna we wszystkich krojach, osłony tarczycy, okulary ochronne i rękawice "
+               "rentgenowskie utrzymują dawkę na niskim poziomie, nie spowalniając pracy. Dzięki "
+               "imieniu i logo gabinetu każdy od razu sięga po własny, dopasowany fartuch."),
+         tags=["Fartuchy przednie", "Fartuchy narzutowe", "Fartuchy zawijane",
+               "Komplet dwuczęściowy &ndash; góra i spódnica", "Osłony tarczycy",
+               "Okulary ochronne", "Rękawice rentgenowskie", "Imię i logo gabinetu"]),
+    dict(key="raum", title="Ochrona radiologiczna w pracowni RTG i sali zabiegowej",
+         text=("Wszystko, czego nie trzeba nosić na sobie, odciąża zespół w odczuwalny sposób: "
+               "mobilne parawany ochronne z oknem podglądowym pozwalają mieć zwierzę na oku, "
+               "sufitowe osłony nadgłowowe chronią przy stole, a wieszaki na fartuchy przechowują "
+               "warstwę ołowiu bez zagnieceń &ndash; to wydłuża żywotność odzieży ochronnej. "
+               "Dobieramy systemy do wielkości pomieszczenia, typu aparatu i Państwa procesu pracy."),
+         tags=["Mobilne parawany ochronne", "Okna podglądowe", "Osłony nadgłowowe",
+               "Systemy zawieszeń", "Osłony montowane na stole", "Wieszaki na fartuchy",
+               "Uchwyty ścienne", "Przechowywanie bez zagnieceń"]),
+    dict(key="einrichtung", title="Wyposażenie medyczne dla gabinetu i kliniki",
+         text=("Wyposażenie, które wytrzymuje codzienną pracę: <b>wózki wielofunkcyjne</b>, które "
+               "konfigurują Państwo modułowo pod swoje procesy, stoliki narzędziowe o regulowanej "
+               "wysokości oraz jezdne <b>stojaki infuzyjne</b>. Solidne, łatwe do higienicznego "
+               "czyszczenia i dostępne w kilku wykonaniach &ndash; pokażemy Państwu wariant pasujący "
+               "do pomieszczenia i dostarczymy komplet."),
+         tags=["Wózki wielofunkcyjne", "Stoliki narzędziowe", "Stojaki infuzyjne",
+               "Leżanki zabiegowe i do badań", "Taborety obrotowe", "Meble ze stali nierdzewnej",
+               "Parawany", "Konfiguracja modułowa"]),
+  ],
+  tile_link="Zobacz modele",
+  mfr_cap="Producenci",
+  note_title="Wszystkie produkty w szczegółach",
+  note_text=("Pełny przegląd z informacjami technicznymi, kartami technicznymi i materiałami do "
+             "pobrania znajdą Państwo na naszej stronie produktowej."),
+  note_link="Na stronę produktową",
+  cta_h2="Pracujmy razem",
+  cta_link="Skontaktuj się z nami",
+  aria_mfr="Producent {name} – otwórz stronę w nowej karcie",
+ ),
+ # ------------------------------------------------------------------ RO ---
+ "ro": dict(
+  tag="Medicină veterinară",
+  h1="Medicină veterinară",
+  claim="Proiectat, dotat, protejat.",
+  lede=("Spații care se potrivesc fluxurilor dumneavoastră. O echipă care lucrează în siguranță. Și "
+        "un singur partener în locul mai multora: pentru cabinete veterinare, clinici pentru animale "
+        "și ambulatorii realizăm <b>construcții noi și modernizări</b>, <b>mobilierul medical</b> și "
+        "<b>protecția la radiații certificată</b> &ndash; dintr-o singură sursă."),
+  badges=["Construcție nouă și modernizare", "Proiectarea tehnologiei medicale",
+          "Protecție la radiații certificată", "Testat conform EN 61331", "Un singur partener"],
+  photos=["Medic veterinar examinând un câine",
+          "Echipa cabinetului în șorțuri de protecție în timpul unei radiografii",
+          "Radiografia unui câine, persoana care ține animalul poartă șorț de protecție",
+          "Medic veterinar examinând o pisică cu stetoscopul"],
+  fly_tag="Pliante și documente",
+  fly_h2="Imaginea de ansamblu, pe scurt",
+  fly_lede=("Tot ce contează pentru cabinete veterinare, clinici pentru animale și ambulatorii, în "
+            "trei pagini: echipament de protecție pentru echipă, protecție la radiații în sala de "
+            "radiologie, mobilier medical și serviciile noastre de proiectare. Concis, ușor de "
+            "înțeles și ideal de transmis beneficiarilor, arhitecților și departamentelor de "
+            "achiziții."),
+  fly_title="Medicină veterinară",
+  fly_pages="3 pagini", fly_pdf="PDF", fly_open="vizualizare", fly_dl="descărcare",
+  fly_lang=" &middot; germană",
+  svc_tag="Servicii",
+  svc_h2="Un singur partener &ndash; de la prima schiță până la punerea în funcțiune",
+  svc_sub=("Fie că este vorba de un cabinet nou, de o extindere sau de o modernizare în clădirea "
+           "existentă: proiectăm tehnologia medicală, coordonăm meseriile și livrăm dotările. "
+           "Dumneavoastră vă continuați activitatea &ndash; noi ținem restul laolaltă."),
+  services=[
+    dict(key="kosten", num="01", title="Vă cunoașteți costurile &ndash; din timp",
+         text=("Amplasarea echipamentelor, racordurile de utilități și electrice, precum și "
+               "documentația de protecție la radiații sunt stabilite înainte de începerea "
+               "lucrărilor. Modificările costisitoare pe șantier dispar, iar dumneavoastră decideți "
+               "pe o bază sigură."),
+         tags=["Proiectarea tehnologiei medicale", "Fazele de proiectare 1&ndash;9",
+               "Cărți ale încăperilor", "Controlul costurilor"]),
+    dict(key="umbau", num="02", title="Continuați tratamentele &ndash; chiar și în timpul lucrărilor",
+         text=("Fie că este vorba de un cabinet nou, de o extindere sau de o modernizare în clădirea "
+               "existentă: organizăm etapele de execuție în jurul activității dumneavoastră, "
+               "coordonăm meseriile, termenele și recepțiile și menținem întreruperile cât mai "
+               "scurte cu putință."),
+         tags=["Construcție nouă și modernizare", "Modernizare în timpul activității",
+               "Supravegherea lucrărilor", "Recepții"]),
+    dict(key="hand", num="03", title="Primiți totul dintr-o singură sursă",
+         text=("Cea mai mare parte a dotărilor o acoperim cu partenerii noștri standard, verificați "
+               "în timp. Dacă aveți nevoie de ceva în plus &ndash; un aparat special, o anumită "
+               "marcă, accesorii sau piese de schimb &ndash;, le achiziționăm suplimentar pentru "
+               "dumneavoastră. Un singur partener în locul multor furnizori."),
+         tags=["Parteneri standard verificați", "Cerințe speciale la cerere",
+               "Accesorii și piese de schimb", "Un singur partener"]),
+  ],
+  abl_title="Așa se desfășoară un proiect la noi",
+  abl_steps=[
+    ("01", "Necesar și vizită la fața locului",
+           "Venim la dumneavoastră. Nu trebuie să pregătiți nimic și nici să știți nimic dinainte."),
+    ("02", "Proiectare și ofertă",
+           "Concept de spațiu, echipamente și protecție la radiații, cu o imagine clară a costurilor "
+           "&ndash; decideți pe o bază sigură."),
+    ("03", "Execuție și livrare",
+           "Coordonăm meseriile și termenele, livrăm și montăm. Dumneavoastră vă continuați "
+           "activitatea."),
+    ("04", "Recepție și service",
+           "Instruire, documentație și verificări periodice &ndash; chiar și după ani."),
+  ],
+  prod_tag="Produse",
+  prod_h2="Așa vă protejați echipa &ndash; și vă dotați cabinetul",
+  prod_sub=("În medicina veterinară animalul este de regulă ținut cu mâna în timpul expunerii. De "
+            "aceea, o dotare bună începe cu protecția la radiații &ndash; pe corp și în încăpere "
+            "&ndash; și se încheie cu cărucioare, mese și canapele care fac față activității "
+            "zilnice. Toate modelele, cu date tehnice și fișe tehnice, se află pe pagina noastră "
+            "de produse."),
+  tiles=[
+    dict(key="psa", title="Echipament individual de protecție pentru echipa cabinetului",
+         text=("În medicina veterinară animalul este de regulă ținut cu mâna în timpul expunerii "
+               "&ndash; echipa dumneavoastră se află direct în câmpul de radiație împrăștiată. "
+               "Îmbrăcămintea de protecție certificată, în toate croielile, protecțiile pentru "
+               "tiroidă, ochelarii de protecție și mănușile radiologice mențin doza scăzută, fără a "
+               "încetini activitatea. Cu numele și sigla cabinetului, fiecare ia imediat propriul "
+               "șorț, pe măsură."),
+         tags=["Șorțuri frontale", "Șorțuri tip pelerină", "Șorțuri înfășurate",
+               "Set din două piese &ndash; bluză și fustă", "Protecții pentru tiroidă",
+               "Ochelari de protecție", "Mănuși radiologice", "Nume și siglă"]),
+    dict(key="raum", title="Protecție la radiații în sala de radiologie și de tratament",
+         text=("Tot ce nu trebuie purtat pe corp descarcă simțitor echipa: paravanele mobile de "
+               "protecție cu fereastră de vizualizare vă permit să urmăriți animalul, ecranele "
+               "montate pe tavan protejează la masă, iar suporturile pentru șorțuri păstrează "
+               "stratul de plumb fără cute &ndash; ceea ce prelungește durata de viață a "
+               "echipamentului de protecție. Adaptăm sistemele la dimensiunea încăperii, la tipul "
+               "aparatului și la fluxul dumneavoastră de lucru."),
+         tags=["Paravane mobile de protecție", "Ferestre de vizualizare", "Ecrane pentru zona capului",
+               "Sisteme de suspendare", "Ecrane montate pe masă", "Suporturi pentru șorțuri",
+               "Suporturi de perete", "Depozitare fără cute"]),
+    dict(key="einrichtung", title="Mobilier medical pentru cabinet și clinică",
+         text=("Dotări care fac față activității zilnice: <b>cărucioare multifuncționale</b>, pe care "
+               "le configurați modular în funcție de fluxurile dumneavoastră, <b>mese pentru "
+               "instrumente</b> reglabile pe înălțime și <b>stative de perfuzie</b> mobile. "
+               "Robuste, ușor de curățat igienic și disponibile în mai multe variante &ndash; vă "
+               "arătăm varianta potrivită încăperii dumneavoastră și livrăm complet."),
+         tags=["Cărucioare multifuncționale", "Mese pentru instrumente", "Stative de perfuzie",
+               "Canapele de tratament și examinare", "Scaune rotative", "Mobilier din oțel inoxidabil",
+               "Paravane", "Configurare modulară"]),
+  ],
+  tile_link="Vedeți modelele",
+  mfr_cap="Producători",
+  note_title="Toate produsele în detaliu",
+  note_text=("Prezentarea completă, cu informații tehnice, fișe tehnice și materiale de descărcat, "
+             "se află pe pagina noastră de produse."),
+  note_link="Către pagina de produse",
+  cta_h2="Lucrați cu noi",
+  cta_link="Contactați-ne",
+  aria_mfr="Producător {name} – deschideți site-ul într-o filă nouă",
+ ),
+}
+
+
+def _vet_flyer_section(lang):
+    """Download-Kachel für den Veterinär-Flyer — gleicher Kartenstil wie auf der Produktseite."""
+    t = _VET_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    pdf = f'{ap}downloads/flyer/Flyer_veterinaermedizin_medeqon_DE.pdf'
+    cover = f'{ap}downloads/flyer/cover_veterinaermedizin_de.jpg'
+    title = t["fly_title"]
+    return (
+f'<section class="m-graphic-sec m-fly-sec m-fly-sec--solo" id="flyer" style="background-image:url({ap}slogan-bg.jpg)">\n'
+'  <div class="m-shell m-fly-solo">\n'
+'    <div class="m-fly-head">\n'
+f'      <span class="m-tag">{t["fly_tag"]}</span>\n'
+f'      <h2 class="m-bigH">{t["fly_h2"]}<span class="end-dot">.</span></h2>\n'
+f'      <p class="lede">{t["fly_lede"]}</p>\n'
+'    </div>\n'
+'    <div class="m-fly-grid m-fly-grid--one">\n'
+'      <figure class="m-fly">\n'
+f'        <a class="m-fly-cover" href="{pdf}" target="_blank" rel="noopener" aria-label="{title} &ndash; {t["fly_open"]}">\n'
+f'          <img src="{cover}" alt="{title}" width="646" height="914" loading="lazy">\n'
+'        </a>\n'
+'        <figcaption class="m-fly-foot">\n'
+'          <span class="m-fly-txt">\n'
+f'            <span class="m-fly-title">{title}</span>\n'
+f'            <span class="m-fly-meta">{t["fly_pdf"]} &middot; {t["fly_pages"]}{t["fly_lang"]}</span>\n'
+'          </span>\n'
+f'          <a class="m-dl-btn" href="{pdf}" download aria-label="{title} &ndash; {t["fly_dl"]}">{_DL_DOWNLOAD}</a>\n'
+'        </figcaption>\n'
+'      </figure>\n'
+'    </div>\n'
+'  </div>\n'
+'</section>')
+
+
+def _vet_tiles(lang):
+    t = _VET_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    out = []
+    for tile in t["tiles"]:
+        k = tile["key"]
+        shots = "\n".join(
+f'          <img src="{ap}vet/prod/{n}.jpg" alt="" loading="lazy">'
+            for n in _VET_TILE_IMGS[k])
+        tags = "\n".join(f'          <li>{x}</li>' for x in tile["tags"])
+        mfrs = "\n".join(
+f'          <a class="m-mfr-chip m-mfr-chip--{slug}" href="{url}" target="_blank" rel="noopener" '
+f'aria-label="{_html.escape(t["aria_mfr"].format(name=name))}">'
+f'<img src="{ap}brands/{slug}.png" alt="{_html.escape(name)}" loading="lazy"></a>'
+            for slug, name, url in _VET_TILE_MFR[k])
+        href = _href("produkte.html", lang) + "#" + _VET_TILE_ANCHOR[k]
+        out.append(
+f'      <article class="m-vt-tile" id="vt-{k}">\n'
+'        <div class="m-vt-shots">\n' + shots + '\n'
+'        </div>\n'
+'        <div class="m-vt-body">\n'
+f'          <h3 class="m-vt-title">{tile["title"]}</h3>\n'
+f'          <p class="m-vt-text">{tile["text"]}</p>\n'
+'          <ul class="m-vt-tags">\n' + tags + '\n'
+'          </ul>\n'
+'          <div class="m-vt-foot">\n'
+'            <div class="m-vt-mfrs">\n'
+f'              <span class="m-mfr-cap">{t["mfr_cap"]}</span>\n'
+'              <div class="m-mfr-chips">\n' + mfrs + '\n'
+'              </div>\n'
+'            </div>\n'
+f'            <a class="m-vt-more" href="{href}">{t["tile_link"]}</a>\n'
+'          </div>\n'
+'        </div>\n'
+'      </article>')
+    return "\n".join(out)
+
+
+def _body_veterinaer(lang):
+    t = _VET_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    badges = "\n".join(f'        <li>{b}</li>' for b in t["badges"])
+    photos = "\n".join(
+f'      <img src="{ap}vet/vet{i+1}.jpg" alt="{_html.escape(alt)}" width="1400" height="1050" loading="lazy">'
+        for i, alt in enumerate(t["photos"]))
+    svcs = []
+    for s in t["services"]:
+        tags = "\n".join(f'            <li>{x}</li>' for x in s["tags"])
+        svcs.append(
+f'      <article class="m-vt-svc" id="vt-svc-{s["key"]}">\n'
+'        <div class="m-vt-svc-top">\n'
+f'          <span class="m-svc2-ico">{_VET_SVC_ICONS[s["key"]]}</span>\n'
+f'          <span class="m-svc2-num">{s["num"]}</span>\n'
+'        </div>\n'
+f'        <h3 class="m-vt-svc-title">{s["title"]}</h3>\n'
+f'        <p class="m-vt-svc-text">{s["text"]}</p>\n'
+'        <ul class="m-vt-tags">\n' + tags + '\n'
+'        </ul>\n'
+'      </article>')
+    steps = "\n".join(
+f'        <li class="m-vt-step">\n'
+f'          <span class="m-vt-step-num">{n}</span>\n'
+f'          <span class="m-vt-step-title">{ti}</span>\n'
+f'          <span class="m-vt-step-text">{tx}</span>\n'
+'        </li>' for n, ti, tx in t["abl_steps"])
+    return f'''<section class="m-page-hero m-vt-hero">
+  <div class="m-shell">
+    <span class="m-tag">{t["tag"]}</span>
+    <h1>{t["h1"]}<span class="end-dot">.</span><span class="m-vt-claim">{t["claim"]}</span></h1>
+    <p class="lede">{t["lede"]}</p>
+    <ul class="m-vt-badges">
+{badges}
+    </ul>
+  </div>
+</section>
+
+<section class="m-vt-strip" aria-hidden="true">
+{photos}
+</section>
+
+{_vet_flyer_section(lang)}
+
+<section class="m-section" id="leistungen">
+  <div class="m-shell">
+    <div class="m-cat-head">
+      <span class="m-tag">{t["svc_tag"]}</span>
+      <h2>{t["svc_h2"]}<span class="end-dot">.</span></h2>
+      <div class="sub">{t["svc_sub"]}</div>
+    </div>
+    <div class="m-vt-svcgrid">
+{chr(10).join(svcs)}
+    </div>
+
+    <div class="m-vt-abl">
+      <h3 class="m-vt-abl-title">{t["abl_title"]}<span class="end-dot">.</span></h3>
+      <ol class="m-vt-steps">
+{steps}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="m-section alt" id="produkte">
+  <div class="m-shell">
+    <div class="m-cat-head">
+      <span class="m-tag">{t["prod_tag"]}</span>
+      <h2>{t["prod_h2"]}<span class="end-dot">.</span></h2>
+      <div class="sub">{t["prod_sub"]}</div>
+    </div>
+    <div class="m-vt-tiles">
+{_vet_tiles(lang)}
+    </div>
+
+    <a class="m-vt-note" href="{_href("produkte.html", lang)}">
+      <span class="m-vt-note-ico">{_DL_ICONS["book"]}</span>
+      <span class="m-vt-note-txt">
+        <span class="m-vt-note-title">{t["note_title"]}</span>
+        <span class="m-vt-note-text">{t["note_text"]}</span>
+      </span>
+      <span class="m-vt-note-link">{t["note_link"]}</span>
+    </a>
+  </div>
+</section>
+
+{_partner_section(lang, sid="partner", only=_VET_PARTNERS)}
+
+<section class="m-cta-banner" style="background-image:url({ap}cta-banner.jpg)">
+  <div class="m-shell">
+    <div class="m-cta-banner-copy">
+      <div class="line"></div>
+      <h2>{t["cta_h2"]}<span class="end-dot">.</span></h2>
+      <a class="m-cta-link" href="{_href("kontakt.html", lang)}">{t["cta_link"]}</a>
+    </div>
+  </div>
+</section>'''
+
+BODY_VETERINAER    = _body_veterinaer("de")
+BODY_VETERINAER_EN = _body_veterinaer("en")
+BODY_VETERINAER_PL = _body_veterinaer("pl")
+BODY_VETERINAER_RO = _body_veterinaer("ro")
+
+
 PAGES_EN = [
     ("index.html", "medeqon · Engineering for medical technology",
      "medeqon GmbH — Vienna-based engineering firm for medical technology. Design, consulting, procurement and safety-related inspection of clinical infrastructure.",
@@ -4846,6 +5509,9 @@ PAGES_EN = [
     ("referenzen.html", "References · medeqon",
      "Personal project references by Georg Scherzer: over 50 realised projects at AKH Vienna and VAMED with around € 84 million medical-technology procurement volume.",
      BODY_REFERENZEN_EN),
+    ("veterinaer.html", "Veterinary medicine · medeqon",
+     "medeqon for veterinary practices, animal hospitals and clinics: Medical Technology Design, medical furnishing and certified radiation protection from a single source.",
+     BODY_VETERINAER_EN),
     ("management.html", "Management · medeqon",
      "The management of medeqon: over 15 years of experience in medical technology and clinical infrastructure.",
      BODY_MANAGEMENT_EN),
@@ -4878,6 +5544,9 @@ PAGES_PL = [
     ("referenzen.html", "Referencje · medeqon",
      "Osobiste referencje projektowe Georga Scherzera: ponad 50 zrealizowanych projektów w AKH Wiedeń i VAMED o wolumenie zaopatrzenia w technikę medyczną ok. 84 mln €.",
      BODY_REFERENZEN_PL),
+    ("veterinaer.html", "Weterynaria · medeqon",
+     "medeqon dla gabinetów weterynaryjnych, klinik dla zwierząt i ambulatoriów: projektowanie techniki medycznej, wyposażenie medyczne i certyfikowana ochrona radiologiczna z jednego źródła.",
+     BODY_VETERINAER_PL),
     ("management.html", "Kierownictwo · medeqon",
      "Kierownictwo medeqon: ponad 15 lat doświadczenia w technice medycznej i infrastrukturze klinicznej.",
      BODY_MANAGEMENT_PL),
@@ -4910,6 +5579,9 @@ PAGES_RO = [
     ("referenzen.html", "Referințe · medeqon",
      "Referințe de proiect personale ale lui Georg Scherzer: peste 50 de proiecte realizate la AKH Viena și VAMED, cu un volum de achiziții de tehnologie medicală de cca. 84 mil. €.",
      BODY_REFERENZEN_RO),
+    ("veterinaer.html", "Medicină veterinară · medeqon",
+     "medeqon pentru cabinete veterinare, clinici pentru animale și ambulatorii: proiectarea tehnologiei medicale, mobilier medical și protecție la radiații certificată, dintr-o singură sursă.",
+     BODY_VETERINAER_RO),
     ("management.html", "Management · medeqon",
      "Conducerea medeqon: peste 15 ani de experiență în tehnologia medicală și infrastructura clinică.",
      BODY_MANAGEMENT_RO),
@@ -4943,6 +5615,9 @@ PAGES = [
     ("referenzen.html", "Referenzen · medeqon",
      "Persönliche Projektreferenzen von Georg Scherzer: über 50 realisierte Projekte am AKH Wien und bei VAMED mit rund € 84 Mio. Beschaffungsvolumen Medizintechnik.",
      "Referenzen", BODY_REFERENZEN),
+    ("veterinaer.html", "Veterinärmedizin · medeqon",
+     "medeqon für Tierarztpraxen, Tierkliniken und Ambulatorien: Medizintechnik-Planung, medizinische Einrichtung und zertifizierter Strahlenschutz aus einer Hand.",
+     "Veterinär", BODY_VETERINAER),
     ("management.html", "Management · medeqon",
      "Das Management von medeqon: zwei erfahrene Medizintechniker:innen mit über 25 Jahren Erfahrung in klinischer Infrastruktur.",
      "Management", BODY_MANAGEMENT),
