@@ -538,6 +538,8 @@ BODY_INDEX = '''<section class="m-hero-main">
   </div>
 </section>
 
+<!--PARTNER-->
+
 <section class="m-cta-banner" style="background-image:url(assets/cta-banner.jpg)">
   <div class="m-shell">
     <div class="m-cta-banner-copy">
@@ -1493,6 +1495,162 @@ f'      <p class="lede">{t["lede"]}</p>\n'
 
 def _inject_flyer(body, lang):
     return body.replace("<!--FLYER-->", _flyer_section(lang))
+
+# ===================== Partner-Sektion (Startseite) =====================
+# Logos liegen als freigestellte PNGs in assets/brands/<slug>.png.
+# Die Anzeigehöhe je Logo steuert `.m-part--<slug> .m-part-logo img` in styles.css.
+_PARTNERS = [
+    ("hersteller", [
+        ("coinfycare", "COINFYCARE",    "https://www.coinfycare.com/en"),
+        ("techmed",    "TECHMED",       "https://en.techmed.com.pl/"),
+        ("mobiak",     "MOBIAK",        "https://www.mobiak.com/en/"),
+        ("elers",      "ELERS MEDICAL", "https://elers.com"),
+        ("rothband",   "ROTHBAND",      "https://www.rothband.com/de"),
+        ("kenex",      "KENEX",         "https://www.kenex.co.uk"),
+    ]),
+    ("planung", [
+        ("plandata",   "PLANDATA",      "https://plandata.eu"),
+    ]),
+]
+
+_PART_T = {
+ "de": dict(
+    tag="Partner", h2="Gemeinsam mit starken Partnern",
+    lede="Planung und Lieferung sind nur so gut wie das Netzwerk dahinter. Wir arbeiten seit Jahren "
+         "mit einer festen Gruppe zertifizierter Hersteller und spezialisierter Partnerfirmen "
+         "zusammen &ndash; kurze Wege zur Entwicklung, verlässliche Verfügbarkeit und Sonderlösungen, "
+         "die in keinem Katalog stehen. Das ist der Unterschied, den Sie im Projekt merken.",
+    groups={"hersteller": "Hersteller &amp; Zulieferer", "planung": "Planung &amp; BIM"},
+    aria="Partner {name} – Website in neuem Tab öffnen",
+    roles={
+      "coinfycare": "Untersuchungs- und Behandlungsliegen, medizinische Stühle und Sichtschutz – "
+                    "die Basis unserer Medizinischen Einrichtung.",
+      "techmed":    "Klinikeinrichtung aus Edelstahl: Wagen, Behandlungs- und Instrumententische, "
+                    "Transport- und Sterilgutlogistik sowie MRT-Ausstattung.",
+      "mobiak":     "Heilbehelfe und Hilfsmittel – von Rollstühlen und Gehhilfen bis zu "
+                    "Anti-Dekubitus-Systemen und Sauerstoffversorgung.",
+      "elers":      "Antimikrobielle Einweg-Sichtschutzvorhänge aus Finnland – Hygiene ohne "
+                    "Waschkreislauf.",
+      "rothband":   "Persönliche Strahlenschutz-Bekleidung aus britischer Fertigung – Schürzen, "
+                    "Zweiteiler, Schilddrüsenschutz und Röntgenschutzbrillen.",
+      "kenex":      "Montierter Strahlenschutz: mobile, decken- und tischmontierte Schutzsysteme "
+                    "für OP und interventionelle Radiologie.",
+      "plandata":   "Unser BIM-Partner aus Wien: Erstellung und Pflege unserer "
+                    "Revit-Familienbibliothek und der zugehörigen Datenstandards.",
+    }),
+ "en": dict(
+    tag="Partners", h2="Together with strong partners",
+    lede="Design and delivery are only as good as the network behind them. For years we have worked "
+         "with a fixed group of certified manufacturers and specialised partner companies &ndash; "
+         "short routes to development, reliable availability and custom solutions that are in no "
+         "catalogue. That is the difference you notice in a project.",
+    groups={"hersteller": "Manufacturers &amp; suppliers", "planung": "Design &amp; BIM"},
+    aria="Partner {name} – open website in a new tab",
+    roles={
+      "coinfycare": "Examination and treatment couches, medical chairs and privacy screens – "
+                    "the basis of our medical furnishing.",
+      "techmed":    "Hospital furnishing in stainless steel: trolleys, treatment and instrument "
+                    "tables, transport and sterile goods logistics, plus MRI equipment.",
+      "mobiak":     "Medical aids and assistive devices – from wheelchairs and walking aids to "
+                    "anti-decubitus systems and oxygen supply.",
+      "elers":      "Antimicrobial disposable privacy curtains from Finland – hygiene without a "
+                    "laundry cycle.",
+      "rothband":   "Personal radiation-protection wear made in the UK – aprons, two-piece sets, "
+                    "thyroid shields and X-ray protective eyewear.",
+      "kenex":      "Mounted radiation protection: mobile, ceiling- and table-mounted shielding "
+                    "systems for the OR and interventional radiology.",
+      "plandata":   "Our BIM partner from Vienna: creation and maintenance of our Revit family "
+                    "library and the associated data standards.",
+    }),
+ "pl": dict(
+    tag="Partnerzy", h2="Razem z silnymi partnerami",
+    lede="Projektowanie i dostawy są tak dobre, jak sieć, która za nimi stoi. Od lat współpracujemy "
+         "ze stałą grupą certyfikowanych producentów i wyspecjalizowanych firm partnerskich &ndash; "
+         "krótkie drogi do działów rozwoju, niezawodna dostępność i rozwiązania specjalne, których "
+         "nie ma w żadnym katalogu. To różnica, którą widać w projekcie.",
+    groups={"hersteller": "Producenci i dostawcy", "planung": "Projektowanie i BIM"},
+    aria="Partner {name} – otwórz stronę w nowej karcie",
+    roles={
+      "coinfycare": "Leżanki do badań i zabiegów, krzesła medyczne i parawany – podstawa naszego "
+                    "wyposażenia medycznego.",
+      "techmed":    "Wyposażenie szpitali ze stali nierdzewnej: wózki, stoliki zabiegowe i "
+                    "narzędziowe, transport i logistyka materiałów sterylnych oraz wyposażenie do MR.",
+      "mobiak":     "Środki pomocnicze i wyroby wspomagające – od wózków inwalidzkich i pomocy do "
+                    "chodzenia po systemy przeciwodleżynowe i zaopatrzenie w tlen.",
+      "elers":      "Antybakteryjne jednorazowe zasłony parawanowe z Finlandii – higiena bez obiegu "
+                    "pralniczego.",
+      "rothband":   "Osobista odzież ochronna przed promieniowaniem produkcji brytyjskiej – "
+                    "fartuchy, komplety dwuczęściowe, osłony tarczycy i okulary rentgenowskie.",
+      "kenex":      "Montowana ochrona radiologiczna: mobilne, sufitowe i stołowe systemy osłon na "
+                    "blok operacyjny i radiologię zabiegową.",
+      "plandata":   "Nasz partner BIM z Wiednia: tworzenie i utrzymanie naszej biblioteki rodzin "
+                    "Revit oraz powiązanych standardów danych.",
+    }),
+ "ro": dict(
+    tag="Parteneri", h2="Împreună cu parteneri puternici",
+    lede="Proiectarea și livrarea sunt la fel de bune ca rețeaua din spatele lor. De ani de zile "
+         "colaborăm cu un grup constant de producători certificați și firme partenere specializate "
+         "&ndash; drum scurt către departamentele de dezvoltare, disponibilitate sigură și soluții "
+         "speciale care nu se găsesc în niciun catalog. Aceasta este diferența pe care o simțiți în "
+         "proiect.",
+    groups={"hersteller": "Producători și furnizori", "planung": "Proiectare și BIM"},
+    aria="Partener {name} – deschideți site-ul într-o filă nouă",
+    roles={
+      "coinfycare": "Canapele de examinare și tratament, scaune medicale și paravane – baza "
+                    "mobilierului nostru medical.",
+      "techmed":    "Dotări pentru clinici din oțel inoxidabil: cărucioare, mese de tratament și "
+                    "pentru instrumente, transport și logistica materialelor sterile, dotări pentru RMN.",
+      "mobiak":     "Mijloace ajutătoare și dispozitive de asistență – de la scaune rulante și cadre "
+                    "de mers până la sisteme antiescară și alimentare cu oxigen.",
+      "elers":      "Draperii de intimitate de unică folosință, antimicrobiene, din Finlanda – "
+                    "igienă fără circuit de spălare.",
+      "rothband":   "Îmbrăcăminte individuală de protecție la radiații, fabricată în Marea Britanie "
+                    "– șorțuri, seturi din două piese, protecții pentru tiroidă și ochelari de "
+                    "protecție radiologică.",
+      "kenex":      "Protecție radiologică montată: sisteme mobile, montate pe tavan și pe masă, "
+                    "pentru sala de operație și radiologia intervențională.",
+      "plandata":   "Partenerul nostru BIM din Viena: crearea și întreținerea bibliotecii noastre de "
+                    "familii Revit și a standardelor de date aferente.",
+    }),
+}
+
+def _partner_section(lang="de", sid="partner"):
+    t = _PART_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    groups = []
+    for gid, items in _PARTNERS:
+        cards = []
+        for slug, name, url in items:
+            aria = _html.escape(t["aria"].format(name=name))
+            cards.append(
+f'        <a class="m-part m-part--{slug}" href="{url}" target="_blank" rel="noopener" aria-label="{aria}">\n'
+'          <span class="m-part-logo">'
+f'<img src="{ap}brands/{slug}.png" alt="{_html.escape(name)}" loading="lazy"></span>\n'
+f'          <span class="m-part-role">{t["roles"][slug]}</span>\n'
+'        </a>')
+        groups.append(
+'      <div class="m-part-group">\n'
+f'        <div class="m-part-cap">{t["groups"][gid]}</div>\n'
+'        <div class="m-part-grid">\n'
++ "\n".join(cards) + '\n'
+'        </div>\n'
+'      </div>')
+    return (
+f'<section class="m-graphic-sec m-part-sec" id="{sid}" style="background-image:url({ap}slogan-bg.jpg)">\n'
+'  <div class="m-shell">\n'
+'    <div class="m-fly-head">\n'
+f'      <span class="m-tag">{t["tag"]}</span>\n'
+f'      <h2 class="m-bigH">{t["h2"]}<span class="end-dot">.</span></h2>\n'
+f'      <p class="lede">{t["lede"]}</p>\n'
+'    </div>\n'
+'    <div class="m-part-wrap">\n'
++ "\n".join(groups) + '\n'
+'    </div>\n'
+'  </div>\n'
+'</section>')
+
+def _inject_partner(body, lang):
+    return body.replace("<!--PARTNER-->", _partner_section(lang))
 
 # --- TECHMED-Bereiche (Medizinische Einrichtung 04–08) --------------------
 # Noch ohne Produktdaten: Bereich lässt sich aufklappen und zeigt den Hinweis,
@@ -3967,6 +4125,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
   </div>
 </section>
 
+<!--PARTNER-->
+
 <section class="m-cta-banner" style="background-image:url(/assets/cta-banner.jpg)">
   <div class="m-shell">
     <div class="m-cta-banner-copy">
@@ -4313,10 +4473,10 @@ BODY_INDEX_EN = _inject_model(BODY_INDEX_EN, "en")
 BODY_INDEX_PL = _inject_model(BODY_INDEX_PL, "pl")
 BODY_INDEX_RO = _inject_model(BODY_INDEX_RO, "ro")
 
-BODY_INDEX    = _inject_flyer(BODY_INDEX, "de")
-BODY_INDEX_EN = _inject_flyer(BODY_INDEX_EN, "en")
-BODY_INDEX_PL = _inject_flyer(BODY_INDEX_PL, "pl")
-BODY_INDEX_RO = _inject_flyer(BODY_INDEX_RO, "ro")
+BODY_INDEX    = _inject_partner(_inject_flyer(BODY_INDEX, "de"), "de")
+BODY_INDEX_EN = _inject_partner(_inject_flyer(BODY_INDEX_EN, "en"), "en")
+BODY_INDEX_PL = _inject_partner(_inject_flyer(BODY_INDEX_PL, "pl"), "pl")
+BODY_INDEX_RO = _inject_partner(_inject_flyer(BODY_INDEX_RO, "ro"), "ro")
 
 BODY_LEISTUNGEN_PL = _tr(BODY_LEISTUNGEN_EN, _LEIST_PL, "PL leistungen")
 BODY_LEISTUNGEN_RO = _tr(BODY_LEISTUNGEN_EN, _LEIST_RO, "RO leistungen")
