@@ -674,7 +674,9 @@ BODY_LEISTUNGEN = '''<section class="m-page-hero">
       </article>
     </div>
   </div>
-</section>'''
+</section>
+
+<!--PARTNER-->'''
 
 BODY_LEISTUNGEN_EN = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -800,7 +802,9 @@ BODY_LEISTUNGEN_EN = '''<section class="m-page-hero">
       </article>
     </div>
   </div>
-</section>'''
+</section>
+
+<!--PARTNER-->'''
 
 _LEIST_PL = [
     ("<span class=\"m-tag\">Services</span>", "<span class=\"m-tag\">Usługi</span>"),
@@ -4480,6 +4484,12 @@ BODY_INDEX_RO = _inject_partner(_inject_flyer(BODY_INDEX_RO, "ro"), "ro")
 
 BODY_LEISTUNGEN_PL = _tr(BODY_LEISTUNGEN_EN, _LEIST_PL, "PL leistungen")
 BODY_LEISTUNGEN_RO = _tr(BODY_LEISTUNGEN_EN, _LEIST_RO, "RO leistungen")
+
+# Partner-Sektion (gleiche Reihe wie auf der Startseite) ans Seitenende setzen
+BODY_LEISTUNGEN    = _inject_partner(BODY_LEISTUNGEN,    "de")
+BODY_LEISTUNGEN_EN = _inject_partner(BODY_LEISTUNGEN_EN, "en")
+BODY_LEISTUNGEN_PL = _inject_partner(BODY_LEISTUNGEN_PL, "pl")
+BODY_LEISTUNGEN_RO = _inject_partner(BODY_LEISTUNGEN_RO, "ro")
 
 # ---- Management (EN + PL/RO) ----
 BODY_MANAGEMENT_EN = '''<section class="m-page-hero">
