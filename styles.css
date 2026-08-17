@@ -1286,8 +1286,8 @@ textarea.m-input{min-height:150px;resize:vertical}
   padding:8px 16px;background:rgba(255,255,255,0.06)}
 
 /* Fotostreifen direkt unter dem Seitenkopf */
-.m-vt-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--deep-800)}
-.m-vt-strip img{display:block;width:100%;height:210px;object-fit:cover}
+.m-vt-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--deep-800)}
+.m-vt-strip img{display:block;width:100%;height:172px;object-fit:cover}
 
 /* Flyer-Sektion mit einer einzelnen Karte: Text links, Karte rechts */
 .m-fly-solo{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:20px 56px;align-items:start}
@@ -1370,15 +1370,14 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-vt-steps{grid-template-columns:repeat(2,1fr);gap:22px}
 }
 @media (max-width:900px){
-  .m-vt-strip img{height:150px}
+  .m-vt-strip img{height:132px}
   .m-vt-shots img{height:180px}
   .m-vt-body{padding:22px 22px 24px}
   .m-vt-title{font-size:21px;line-height:28px}
   .m-vt-abl{padding:24px 22px 26px}
 }
 @media (max-width:640px){
-  .m-vt-strip{grid-template-columns:repeat(2,1fr)}
-  .m-vt-strip img{height:130px}
+  .m-vt-strip img{height:104px}
   .m-vt-steps{grid-template-columns:1fr}
   .m-vt-note{flex-wrap:wrap;gap:14px}
   .m-vt-note-link{margin-left:0}
