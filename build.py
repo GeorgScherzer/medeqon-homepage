@@ -1793,6 +1793,57 @@ _AKT_PROJECTS = [
                   "suportului respirator.",
         },
     },
+    {
+        "slug": "pabianice-pcm",
+        "imgs": ["aktuell/pabianice-1.jpg",
+                 "aktuell/pabianice-2.jpg"],
+        "alt": {
+            "de": ["Pabianickie Centrum Medyczne in Pabianice, Polen",
+                   "Wechseldruck-Matratzensystem MOBIAK MINOA zur Dekubitusprophylaxe"],
+            "en": ["Pabianickie Centrum Medyczne in Pabianice, Poland",
+                   "MOBIAK MINOA alternating-pressure mattress system for pressure-ulcer prevention"],
+            "pl": ["Pabianickie Centrum Medyczne w Pabianicach",
+                   "System materaca zmiennociśnieniowego MOBIAK MINOA do profilaktyki odleżyn"],
+            "ro": ["Pabianickie Centrum Medyczne din Pabianice, Polonia",
+                   "Sistem de saltea cu presiune alternantă MOBIAK MINOA pentru prevenirea escarelor"],
+        },
+        "title": {
+            "de": "Krankenhaus Pabianice · Medizinische Ausstattung",
+            "en": "Pabianice hospital · Medical equipment supply",
+            "pl": "Szpital w Pabianicach · wyposażenie medyczne",
+            "ro": "Spitalul Pabianice · dotare medicală",
+        },
+        "desc": {
+            "de": "Das Pabianickie Centrum Medyczne bei Łódź rüstet seine Stationen Schritt für Schritt "
+                  "neu aus. In mehreren Lieferetappen bringen wir die Diagnostik für den Stationsalltag "
+                  "ins Haus – Blutzucker- und Fiebermessung, Otoskope, Blutdruckmessgeräte und "
+                  "Stethoskope –, dazu Druckminderer für die medizinische Gasversorgung und "
+                  "Wechseldruck-Matratzensysteme MOBIAK MINOA. Jede Position stimmen wir vorab mit dem "
+                  "Haus ab, passen Ausführung und Zubehör an die Anforderungen der Stationen an und "
+                  "begleiten die Lieferungen bis zum reibungslosen Einsatz.",
+            "en": "Pabianickie Centrum Medyczne near Łódź is renewing its wards step by step. Across "
+                  "several delivery stages we supply the diagnostics of everyday ward work – blood "
+                  "glucose and temperature measurement, otoscopes, blood pressure monitors and "
+                  "stethoscopes – plus pressure regulators for the medical gas supply and MOBIAK MINOA "
+                  "alternating-pressure mattress systems. Every item is agreed with the hospital in "
+                  "advance, matched in version and accessories to what the wards need, and accompanied "
+                  "through to trouble-free use.",
+            "pl": "Pabianickie Centrum Medyczne pod Łodzią krok po kroku odnawia wyposażenie swoich "
+                  "oddziałów. W kilku etapach dostaw dostarczamy diagnostykę codziennej pracy oddziału "
+                  "– glukometry i termometry, otoskopy, ciśnieniomierze i stetoskopy – a także "
+                  "reduktory do instalacji gazów medycznych oraz materace zmiennociśnieniowe MOBIAK "
+                  "MINOA. Każdą pozycję uzgadniamy wcześniej ze szpitalem, dobieramy wersję i "
+                  "akcesoria do potrzeb oddziałów i towarzyszymy dostawom aż do bezproblemowego "
+                  "uruchomienia.",
+            "ro": "Pabianickie Centrum Medyczne, lângă Łódź, își reînnoiește secțiile pas cu pas. În mai "
+                  "multe etape de livrare furnizăm dotarea de diagnostic pentru activitatea zilnică – "
+                  "glucometre și termometre, otoscoape, tensiometre și stetoscoape – la care se adaugă "
+                  "reductoare pentru instalația de gaze medicale și sisteme de saltele cu presiune "
+                  "alternantă MOBIAK MINOA. Fiecare poziție este agreată în prealabil cu spitalul, "
+                  "adaptată ca variantă și accesorii la nevoile secțiilor și însoțită până la "
+                  "utilizarea fără probleme.",
+        },
+    },
 ]
 
 _AKT_T = {
@@ -1802,7 +1853,7 @@ _AKT_T = {
     lede="Eine Auswahl unserer aktuellen Tätigkeiten &ndash; ein Einblick in Projekte, die uns "
          "derzeit beschäftigen. Von der Planung über die Lieferung bis zur Inbetriebnahme ist "
          "medeqon europaweit und international im Einsatz.",
-    aria="{name} – Bilder ansehen", imgs="Bilder", img="Bild",
+    aria="{name} – Bilder ansehen", img="Bild",
     close="Schließen", prev="Vorheriges Bild", next="Nächstes Bild"),
  "en": dict(
     tag="Current activities",
@@ -1810,7 +1861,7 @@ _AKT_T = {
     lede="A selection of our current activities &ndash; an insight into the projects keeping us "
          "busy at the moment. From design and supply through to commissioning, medeqon is at work "
          "across Europe and internationally.",
-    aria="{name} – view images", imgs="images", img="Image",
+    aria="{name} – view images", img="Image",
     close="Close", prev="Previous image", next="Next image"),
  "pl": dict(
     tag="Bieżące działania",
@@ -1818,7 +1869,7 @@ _AKT_T = {
     lede="Wybór naszych bieżących działań &ndash; wgląd w projekty, którymi zajmujemy się obecnie. "
          "Od projektowania przez dostawę po uruchomienie &ndash; medeqon działa w całej Europie i "
          "na rynkach międzynarodowych.",
-    aria="{name} – zobacz zdjęcia", imgs="zdjęć", img="Obraz",
+    aria="{name} – zobacz zdjęcia", img="Obraz",
     close="Zamknij", prev="Poprzedni obraz", next="Następny obraz"),
  "ro": dict(
     tag="Activități curente",
@@ -1826,9 +1877,24 @@ _AKT_T = {
     lede="O selecție a activităților noastre curente &ndash; o privire asupra proiectelor care ne "
          "preocupă în acest moment. De la proiectare și livrare până la punerea în funcțiune, "
          "medeqon este activ în toată Europa și pe plan internațional.",
-    aria="{name} – vedeți imaginile", imgs="imagini", img="Imaginea",
+    aria="{name} – vedeți imaginile", img="Imaginea",
     close="Închide", prev="Imaginea anterioară", next="Imaginea următoare"),
 }
+
+# Beschriftung des Bildzähler-Badges („3 Bilder") — gemeinsam benutzt von den
+# Projektkarten der Referenzen (_ref_card) und den Karten der Aktuellen Tätigkeiten
+# (_akt_card). Polnisch unterscheidet zwei Pluralformen: 2–4 (aber nicht 12–14)
+# „zdjęcia", sonst die Genitivform „zdjęć". Die anderen Sprachen haben nur eine Form.
+_IMG_WORDS = {
+    "de": ("Bilder",  "Bilder"),
+    "en": ("images",  "images"),
+    "pl": ("zdjęcia", "zdjęć"),
+    "ro": ("imagini", "imagini"),
+}
+
+def _img_count_word(lang, n):
+    few, many = _IMG_WORDS.get(lang, _IMG_WORDS["de"])
+    return few if (2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14) else many
 
 def _akt_card(p, lang):
     t = _AKT_T[lang]
@@ -1839,7 +1905,7 @@ def _akt_card(p, lang):
     desc = p["desc"][lang]
     data = _html.escape(json.dumps([{"src": s, "alt": a} for s, a in zip(imgs, alts)]), quote=True)
     cnt = len(imgs)
-    badge = (f'<span class="m-refc-cover-n">{cnt} {t["imgs"]}</span>' if cnt > 1 else '')
+    badge = (f'<span class="m-refc-cover-n">{cnt} {_img_count_word(lang, cnt)}</span>' if cnt > 1 else '')
     return (
 f'        <article class="m-refc has-img m-akt-card" data-akt="{data}" tabindex="0" role="button" '
 f'aria-label="{_html.escape(t["aria"].format(name=name))}">\n'
@@ -3598,7 +3664,7 @@ def _ref_card(p, gid, client, lang="de"):
         data_imgs = _html.escape(json.dumps(imgs), quote=True)
         data_full = _html.escape(umfang, quote=True)
         cnt = len(imgs)
-        countbadge = (f'<span class="m-refc-cover-n">{cnt} {_uit(lang, "Bilder")}</span>' if cnt > 1 else '')
+        countbadge = (f'<span class="m-refc-cover-n">{cnt} {_img_count_word(lang, cnt)}</span>' if cnt > 1 else '')
         cover = (
             '            <div class="m-refc-cover">\n'
             f'              <img src="{imgs[0]}" alt="{_html.escape(name)}" loading="lazy">\n'
