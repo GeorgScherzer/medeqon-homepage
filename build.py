@@ -623,7 +623,9 @@ BODY_INDEX = '''<section class="m-hero-main">
       <a class="m-cta-link" href="kontakt.html">Kontakt aufnehmen</a>
     </div>
   </div>
-</section>'''
+</section>
+
+<!--AKTUELL-->'''
 
 BODY_LEISTUNGEN = '''<section class="m-page-hero">
   <div class="m-shell">
@@ -1736,6 +1738,207 @@ f'      <p class="lede">{t["lede"]}</p>\n'
 
 def _inject_partner(body, lang):
     return body.replace("<!--PARTNER-->", _partner_section(lang))
+
+# --- Aktuelle Tätigkeiten (Startseite + Referenzen) -----------------------
+# Bewusst schlank gehalten: je Projekt nur Titel, kurze Beschreibung und ein
+# paar Bilder. Keine Kennzahlen, keine Chips, keine Links. Eingesetzt über den
+# Marker <!--AKTUELL--> (überlebt _tr(...), deshalb keine _PL_MAP/_RO_MAP-Einträge).
+# Optik = Projektkarten der Referenzen (.m-refc) + eigene Lightbox (#aktLightbox).
+
+_AKT_PROJECTS = [
+    {
+        "slug": "tashkent-cdpqmw",
+        "imgs": ["aktuell/tashkent-1.jpg",
+                 "aktuell/tashkent-2.jpg",
+                 "aktuell/tashkent-3.jpg"],
+        "alt": {
+            "de": ["Center for Development of Professional Qualification of Medical Workers in Taschkent",
+                   "Offene Neugeborenen-Reanimationseinheit im Einsatz",
+                   "Erstversorgung und Wärmemanagement am offenen Reanimationsplatz"],
+            "en": ["Center for Development of Professional Qualification of Medical Workers in Tashkent",
+                   "Open neonatal resuscitation unit in use",
+                   "Initial care and thermal management at the open resuscitation station"],
+            "pl": ["Center for Development of Professional Qualification of Medical Workers w Taszkencie",
+                   "Otwarte stanowisko do resuscytacji noworodków w użyciu",
+                   "Pierwsze zaopatrzenie i zarządzanie temperaturą na otwartym stanowisku resuscytacyjnym"],
+            "ro": ["Center for Development of Professional Qualification of Medical Workers din Tașkent",
+                   "Unitate deschisă de resuscitare neonatală în utilizare",
+                   "Primul ajutor și managementul termic la postul deschis de resuscitare"],
+        },
+        "title": {
+            "de": "Trainingszentrum Taschkent · Neonatale Reanimation",
+            "en": "Tashkent training centre · neonatal resuscitation",
+            "pl": "Centrum szkoleniowe w Taszkencie · resuscytacja noworodków",
+            "ro": "Centrul de instruire Tașkent · resuscitare neonatală",
+        },
+        "desc": {
+            "de": "Für das Simulationszentrum des Center for Development of Professional Qualification "
+                  "of Medical Workers (CDPQMW) in Taschkent, Usbekistan, statten wir derzeit einen "
+                  "Trainingsplatz mit einer offenen Reanimations- und Stabilisierungseinheit für "
+                  "Neugeborene aus – für realitätsnahes Üben von Erstversorgung, Wärmemanagement "
+                  "und Atemunterstützung.",
+            "en": "For the simulation centre of the Center for Development of Professional Qualification "
+                  "of Medical Workers (CDPQMW) in Tashkent, Uzbekistan, we are currently equipping a "
+                  "training station with an open neonatal resuscitation and stabilisation platform "
+                  "– for realistic training in initial care, thermal management and respiratory "
+                  "support.",
+            "pl": "Dla centrum symulacji Center for Development of Professional Qualification of Medical "
+                  "Workers (CDPQMW) w Taszkencie w Uzbekistanie wyposażamy obecnie stanowisko szkoleniowe "
+                  "w otwartą platformę do resuscytacji i stabilizacji noworodków – do realistycznych "
+                  "ćwiczeń pierwszego zaopatrzenia, zarządzania temperaturą i wsparcia oddechowego.",
+            "ro": "Pentru centrul de simulare al Center for Development of Professional Qualification of "
+                  "Medical Workers (CDPQMW) din Tașkent, Uzbekistan, echipăm în prezent un post de "
+                  "instruire cu o platformă deschisă de resuscitare și stabilizare a nou-născuților "
+                  "– pentru exersarea realistă a primului ajutor, a managementului termic și a "
+                  "suportului respirator.",
+        },
+    },
+]
+
+_AKT_T = {
+ "de": dict(
+    tag="Aktuelle Tätigkeiten",
+    h2="Woran wir gerade arbeiten",
+    lede="Eine Auswahl unserer aktuellen Tätigkeiten &ndash; ein Einblick in Projekte, die uns "
+         "derzeit beschäftigen. Von der Planung über die Lieferung bis zur Inbetriebnahme ist "
+         "medeqon europaweit und international im Einsatz.",
+    aria="{name} – Bilder ansehen", imgs="Bilder", img="Bild",
+    close="Schließen", prev="Vorheriges Bild", next="Nächstes Bild"),
+ "en": dict(
+    tag="Current activities",
+    h2="What we are working on right now",
+    lede="A selection of our current activities &ndash; an insight into the projects keeping us "
+         "busy at the moment. From design and supply through to commissioning, medeqon is at work "
+         "across Europe and internationally.",
+    aria="{name} – view images", imgs="images", img="Image",
+    close="Close", prev="Previous image", next="Next image"),
+ "pl": dict(
+    tag="Bieżące działania",
+    h2="Nad czym właśnie pracujemy",
+    lede="Wybór naszych bieżących działań &ndash; wgląd w projekty, którymi zajmujemy się obecnie. "
+         "Od projektowania przez dostawę po uruchomienie &ndash; medeqon działa w całej Europie i "
+         "na rynkach międzynarodowych.",
+    aria="{name} – zobacz zdjęcia", imgs="zdjęć", img="Obraz",
+    close="Zamknij", prev="Poprzedni obraz", next="Następny obraz"),
+ "ro": dict(
+    tag="Activități curente",
+    h2="La ce lucrăm chiar acum",
+    lede="O selecție a activităților noastre curente &ndash; o privire asupra proiectelor care ne "
+         "preocupă în acest moment. De la proiectare și livrare până la punerea în funcțiune, "
+         "medeqon este activ în toată Europa și pe plan internațional.",
+    aria="{name} – vedeți imaginile", imgs="imagini", img="Imaginea",
+    close="Închide", prev="Imaginea anterioară", next="Imaginea următoare"),
+}
+
+def _akt_card(p, lang):
+    t = _AKT_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    imgs = [ap + i for i in p["imgs"]]
+    alts = p["alt"][lang]
+    name = p["title"][lang]
+    desc = p["desc"][lang]
+    data = _html.escape(json.dumps([{"src": s, "alt": a} for s, a in zip(imgs, alts)]), quote=True)
+    cnt = len(imgs)
+    badge = (f'<span class="m-refc-cover-n">{cnt} {t["imgs"]}</span>' if cnt > 1 else '')
+    return (
+f'        <article class="m-refc has-img m-akt-card" data-akt="{data}" tabindex="0" role="button" '
+f'aria-label="{_html.escape(t["aria"].format(name=name))}">\n'
+'          <div class="m-refc-cover">\n'
+f'            <img src="{imgs[0]}" alt="{_html.escape(alts[0])}" loading="lazy">\n'
+f'            {badge}\n'
+'          </div>\n'
+f'          <h3 class="m-refc-name">{_html.escape(name)}</h3>\n'
+f'          <p class="m-refc-desc m-refc-desc--full">{_html.escape(desc)}</p>\n'
+'        </article>')
+
+def _aktuell_section(lang="de", sid="aktuelles"):
+    t = _AKT_T[lang]
+    cards = "\n".join(_akt_card(p, lang) for p in _AKT_PROJECTS)
+    return f'''<section class="m-akt-sec" id="{sid}">
+  <div class="m-shell">
+    <div class="m-fly-head">
+      <span class="m-tag">{t["tag"]}</span>
+      <h2 class="m-bigH">{t["h2"]}<span class="end-dot">.</span></h2>
+      <p class="lede">{t["lede"]}</p>
+    </div>
+    <div class="m-akt-grid">
+{cards}
+    </div>
+  </div>
+</section>
+
+<div class="m-lb" id="aktLightbox" hidden aria-hidden="true">
+  <div class="m-lb-backdrop" data-akt-close></div>
+  <div class="m-lb-panel" role="dialog" aria-modal="true" aria-labelledby="aktLbTitle">
+    <button class="m-lb-x" data-akt-close aria-label="{t["close"]}">&times;</button>
+    <div class="m-lb-media">
+      <img class="m-lb-img" src="" alt="">
+      <button class="m-lb-nav m-lb-prev" aria-label="{t["prev"]}">&#8249;</button>
+      <button class="m-lb-nav m-lb-next" aria-label="{t["next"]}">&#8250;</button>
+      <div class="m-lb-dots"></div>
+    </div>
+    <div class="m-lb-body">
+      <h3 class="m-lb-title" id="aktLbTitle"></h3>
+      <p class="m-lb-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){{
+  var lb=document.getElementById('aktLightbox'); if(!lb) return;
+  var img=lb.querySelector('.m-lb-img'), dots=lb.querySelector('.m-lb-dots'),
+      prev=lb.querySelector('.m-lb-prev'), next=lb.querySelector('.m-lb-next'),
+      media=lb.querySelector('.m-lb-media'),
+      elTitle=lb.querySelector('.m-lb-title'), elDesc=lb.querySelector('.m-lb-desc');
+  var items=[], idx=0, lastFocus=null;
+  function show(i){{
+    idx=(i+items.length)%items.length;
+    img.src=items[idx].src; img.alt=items[idx].alt||'{t["img"]} '+(idx+1);
+    dots.querySelectorAll('button').forEach(function(d,k){{d.classList.toggle('is-on',k===idx);}});
+  }}
+  function open(card){{
+    try{{items=JSON.parse(card.getAttribute('data-akt'))||[];}}catch(e){{items=[];}}
+    if(!items.length) return;
+    var nm=card.querySelector('.m-refc-name'), ds=card.querySelector('.m-refc-desc');
+    elTitle.textContent=nm?nm.textContent:'';
+    elDesc.textContent=ds?ds.textContent:'';
+    dots.innerHTML='';
+    var multi=items.length>1;
+    media.classList.toggle('is-single',!multi);
+    if(multi){{items.forEach(function(_,k){{var d=document.createElement('button');
+      d.type='button'; d.setAttribute('aria-label','{t["img"]} '+(k+1));
+      d.addEventListener('click',function(){{show(k);}}); dots.appendChild(d);}});}}
+    lastFocus=document.activeElement;
+    lb.hidden=false; lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    show(0);
+    lb.querySelector('.m-lb-x').focus();
+  }}
+  function close(){{
+    lb.hidden=true; lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; img.src='';
+    if(lastFocus&&lastFocus.focus) lastFocus.focus();
+  }}
+  document.querySelectorAll('.m-akt-card').forEach(function(card){{
+    card.addEventListener('click',function(){{open(card);}});
+    card.addEventListener('keydown',function(e){{
+      if(e.key==='Enter'||e.key===' '){{e.preventDefault();open(card);}}}});
+  }});
+  lb.querySelectorAll('[data-akt-close]').forEach(function(x){{x.addEventListener('click',close);}});
+  prev.addEventListener('click',function(){{show(idx-1);}});
+  next.addEventListener('click',function(){{show(idx+1);}});
+  document.addEventListener('keydown',function(e){{
+    if(lb.hidden) return;
+    if(e.key==='Escape') close();
+    else if(e.key==='ArrowLeft') show(idx-1);
+    else if(e.key==='ArrowRight') show(idx+1);
+  }});
+}})();
+</script>'''
+
+def _inject_aktuell(body, lang):
+    return body.replace("<!--AKTUELL-->", _aktuell_section(lang))
 
 # --- TECHMED-Bereiche (Medizinische Einrichtung 04–08) --------------------
 # Noch ohne Produktdaten: Bereich lässt sich aufklappen und zeigt den Hinweis,
@@ -3625,6 +3828,8 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
   </div>
 </section>
 
+<!--AKTUELL-->
+
 <section class="m-section" id="projektreferenzen">
   <div class="m-shell">
     <div class="m-secH">
@@ -3793,7 +3998,7 @@ _REF_JSWORD = {"en": "Image", "pl": "Obraz", "ro": "Imaginea"}
 
 def _body_referenzen(lang):
     if lang == "de":
-        return BODY_REFERENZEN
+        return _inject_aktuell(BODY_REFERENZEN, "de")
     body = BODY_REFERENZEN
     # 1) Daten-Blöcke gegen sprachspezifische Varianten tauschen
     body = body.replace(_ref_filter_html, _ref_filter_html_for(lang))
@@ -3811,11 +4016,15 @@ def _body_referenzen(lang):
     jw = _REF_JSWORD[lang]
     body = body.replace("' – Bild '+(idx+1)", f"' – {jw} '+(idx+1)")
     body = body.replace("'Bild '+(k+1)", f"'{jw} '+(k+1)")
-    return body
+    # 4) „Aktuelle Tätigkeiten" zuletzt einsetzen – der Marker überlebt alle
+    #    Ersetzungen oben, die fertige Sektion soll davon unberührt bleiben.
+    return _inject_aktuell(body, lang)
 
 BODY_REFERENZEN_EN = _body_referenzen("en")
 BODY_REFERENZEN_PL = _body_referenzen("pl")
 BODY_REFERENZEN_RO = _body_referenzen("ro")
+# zuletzt, weil die Fremdsprachen von der noch unveränderten Vorlage ausgehen
+BODY_REFERENZEN    = _body_referenzen("de")
 
 def legal_body(tag, title):
     return f'''<section class="m-page-hero">
@@ -4220,7 +4429,9 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
       <a class="m-cta-link" href="/en/kontakt.html">Get in touch</a>
     </div>
   </div>
-</section>'''
+</section>
+
+<!--AKTUELL-->'''
 
 def _tr(html, pairs, label=""):
     for a, b in pairs:
@@ -4562,6 +4773,11 @@ BODY_INDEX    = _inject_partner(_inject_flyer(BODY_INDEX, "de"), "de")
 BODY_INDEX_EN = _inject_partner(_inject_flyer(BODY_INDEX_EN, "en"), "en")
 BODY_INDEX_PL = _inject_partner(_inject_flyer(BODY_INDEX_PL, "pl"), "pl")
 BODY_INDEX_RO = _inject_partner(_inject_flyer(BODY_INDEX_RO, "ro"), "ro")
+
+BODY_INDEX    = _inject_aktuell(BODY_INDEX,    "de")
+BODY_INDEX_EN = _inject_aktuell(BODY_INDEX_EN, "en")
+BODY_INDEX_PL = _inject_aktuell(BODY_INDEX_PL, "pl")
+BODY_INDEX_RO = _inject_aktuell(BODY_INDEX_RO, "ro")
 
 BODY_LEISTUNGEN_PL = _tr(BODY_LEISTUNGEN_EN, _LEIST_PL, "PL leistungen")
 BODY_LEISTUNGEN_RO = _tr(BODY_LEISTUNGEN_EN, _LEIST_RO, "RO leistungen")

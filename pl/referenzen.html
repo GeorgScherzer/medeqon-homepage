@@ -52,6 +52,96 @@
   </div>
 </section>
 
+<section class="m-akt-sec" id="aktuelles">
+  <div class="m-shell">
+    <div class="m-fly-head">
+      <span class="m-tag">Bieżące działania</span>
+      <h2 class="m-bigH">Nad czym właśnie pracujemy<span class="end-dot">.</span></h2>
+      <p class="lede">Wybór naszych bieżących działań &ndash; wgląd w projekty, którymi zajmujemy się obecnie. Od projektowania przez dostawę po uruchomienie &ndash; medeqon działa w całej Europie i na rynkach międzynarodowych.</p>
+    </div>
+    <div class="m-akt-grid">
+        <article class="m-refc has-img m-akt-card" data-akt="[{&quot;src&quot;: &quot;/assets/aktuell/tashkent-1.jpg&quot;, &quot;alt&quot;: &quot;Center for Development of Professional Qualification of Medical Workers w Taszkencie&quot;}, {&quot;src&quot;: &quot;/assets/aktuell/tashkent-2.jpg&quot;, &quot;alt&quot;: &quot;Otwarte stanowisko do resuscytacji noworodk\u00f3w w u\u017cyciu&quot;}, {&quot;src&quot;: &quot;/assets/aktuell/tashkent-3.jpg&quot;, &quot;alt&quot;: &quot;Pierwsze zaopatrzenie i zarz\u0105dzanie temperatur\u0105 na otwartym stanowisku resuscytacyjnym&quot;}]" tabindex="0" role="button" aria-label="Centrum szkoleniowe w Taszkencie · resuscytacja noworodków – zobacz zdjęcia">
+          <div class="m-refc-cover">
+            <img src="/assets/aktuell/tashkent-1.jpg" alt="Center for Development of Professional Qualification of Medical Workers w Taszkencie" loading="lazy">
+            <span class="m-refc-cover-n">3 zdjęć</span>
+          </div>
+          <h3 class="m-refc-name">Centrum szkoleniowe w Taszkencie · resuscytacja noworodków</h3>
+          <p class="m-refc-desc m-refc-desc--full">Dla centrum symulacji Center for Development of Professional Qualification of Medical Workers (CDPQMW) w Taszkencie w Uzbekistanie wyposażamy obecnie stanowisko szkoleniowe w otwartą platformę do resuscytacji i stabilizacji noworodków – do realistycznych ćwiczeń pierwszego zaopatrzenia, zarządzania temperaturą i wsparcia oddechowego.</p>
+        </article>
+    </div>
+  </div>
+</section>
+
+<div class="m-lb" id="aktLightbox" hidden aria-hidden="true">
+  <div class="m-lb-backdrop" data-akt-close></div>
+  <div class="m-lb-panel" role="dialog" aria-modal="true" aria-labelledby="aktLbTitle">
+    <button class="m-lb-x" data-akt-close aria-label="Zamknij">&times;</button>
+    <div class="m-lb-media">
+      <img class="m-lb-img" src="" alt="">
+      <button class="m-lb-nav m-lb-prev" aria-label="Poprzedni obraz">&#8249;</button>
+      <button class="m-lb-nav m-lb-next" aria-label="Następny obraz">&#8250;</button>
+      <div class="m-lb-dots"></div>
+    </div>
+    <div class="m-lb-body">
+      <h3 class="m-lb-title" id="aktLbTitle"></h3>
+      <p class="m-lb-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var lb=document.getElementById('aktLightbox'); if(!lb) return;
+  var img=lb.querySelector('.m-lb-img'), dots=lb.querySelector('.m-lb-dots'),
+      prev=lb.querySelector('.m-lb-prev'), next=lb.querySelector('.m-lb-next'),
+      media=lb.querySelector('.m-lb-media'),
+      elTitle=lb.querySelector('.m-lb-title'), elDesc=lb.querySelector('.m-lb-desc');
+  var items=[], idx=0, lastFocus=null;
+  function show(i){
+    idx=(i+items.length)%items.length;
+    img.src=items[idx].src; img.alt=items[idx].alt||'Obraz '+(idx+1);
+    dots.querySelectorAll('button').forEach(function(d,k){d.classList.toggle('is-on',k===idx);});
+  }
+  function open(card){
+    try{items=JSON.parse(card.getAttribute('data-akt'))||[];}catch(e){items=[];}
+    if(!items.length) return;
+    var nm=card.querySelector('.m-refc-name'), ds=card.querySelector('.m-refc-desc');
+    elTitle.textContent=nm?nm.textContent:'';
+    elDesc.textContent=ds?ds.textContent:'';
+    dots.innerHTML='';
+    var multi=items.length>1;
+    media.classList.toggle('is-single',!multi);
+    if(multi){items.forEach(function(_,k){var d=document.createElement('button');
+      d.type='button'; d.setAttribute('aria-label','Obraz '+(k+1));
+      d.addEventListener('click',function(){show(k);}); dots.appendChild(d);});}
+    lastFocus=document.activeElement;
+    lb.hidden=false; lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    show(0);
+    lb.querySelector('.m-lb-x').focus();
+  }
+  function close(){
+    lb.hidden=true; lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; img.src='';
+    if(lastFocus&&lastFocus.focus) lastFocus.focus();
+  }
+  document.querySelectorAll('.m-akt-card').forEach(function(card){
+    card.addEventListener('click',function(){open(card);});
+    card.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();open(card);}});
+  });
+  lb.querySelectorAll('[data-akt-close]').forEach(function(x){x.addEventListener('click',close);});
+  prev.addEventListener('click',function(){show(idx-1);});
+  next.addEventListener('click',function(){show(idx+1);});
+  document.addEventListener('keydown',function(e){
+    if(lb.hidden) return;
+    if(e.key==='Escape') close();
+    else if(e.key==='ArrowLeft') show(idx-1);
+    else if(e.key==='ArrowRight') show(idx+1);
+  });
+})();
+</script>
+
 <section class="m-section" id="projektreferenzen">
   <div class="m-shell">
     <div class="m-secH">

@@ -455,6 +455,96 @@
     </div>
   </div>
 </section>
+
+<section class="m-akt-sec" id="aktuelles">
+  <div class="m-shell">
+    <div class="m-fly-head">
+      <span class="m-tag">Activități curente</span>
+      <h2 class="m-bigH">La ce lucrăm chiar acum<span class="end-dot">.</span></h2>
+      <p class="lede">O selecție a activităților noastre curente &ndash; o privire asupra proiectelor care ne preocupă în acest moment. De la proiectare și livrare până la punerea în funcțiune, medeqon este activ în toată Europa și pe plan internațional.</p>
+    </div>
+    <div class="m-akt-grid">
+        <article class="m-refc has-img m-akt-card" data-akt="[{&quot;src&quot;: &quot;/assets/aktuell/tashkent-1.jpg&quot;, &quot;alt&quot;: &quot;Center for Development of Professional Qualification of Medical Workers din Ta\u0219kent&quot;}, {&quot;src&quot;: &quot;/assets/aktuell/tashkent-2.jpg&quot;, &quot;alt&quot;: &quot;Unitate deschis\u0103 de resuscitare neonatal\u0103 \u00een utilizare&quot;}, {&quot;src&quot;: &quot;/assets/aktuell/tashkent-3.jpg&quot;, &quot;alt&quot;: &quot;Primul ajutor \u0219i managementul termic la postul deschis de resuscitare&quot;}]" tabindex="0" role="button" aria-label="Centrul de instruire Tașkent · resuscitare neonatală – vedeți imaginile">
+          <div class="m-refc-cover">
+            <img src="/assets/aktuell/tashkent-1.jpg" alt="Center for Development of Professional Qualification of Medical Workers din Tașkent" loading="lazy">
+            <span class="m-refc-cover-n">3 imagini</span>
+          </div>
+          <h3 class="m-refc-name">Centrul de instruire Tașkent · resuscitare neonatală</h3>
+          <p class="m-refc-desc m-refc-desc--full">Pentru centrul de simulare al Center for Development of Professional Qualification of Medical Workers (CDPQMW) din Tașkent, Uzbekistan, echipăm în prezent un post de instruire cu o platformă deschisă de resuscitare și stabilizare a nou-născuților – pentru exersarea realistă a primului ajutor, a managementului termic și a suportului respirator.</p>
+        </article>
+    </div>
+  </div>
+</section>
+
+<div class="m-lb" id="aktLightbox" hidden aria-hidden="true">
+  <div class="m-lb-backdrop" data-akt-close></div>
+  <div class="m-lb-panel" role="dialog" aria-modal="true" aria-labelledby="aktLbTitle">
+    <button class="m-lb-x" data-akt-close aria-label="Închide">&times;</button>
+    <div class="m-lb-media">
+      <img class="m-lb-img" src="" alt="">
+      <button class="m-lb-nav m-lb-prev" aria-label="Imaginea anterioară">&#8249;</button>
+      <button class="m-lb-nav m-lb-next" aria-label="Imaginea următoare">&#8250;</button>
+      <div class="m-lb-dots"></div>
+    </div>
+    <div class="m-lb-body">
+      <h3 class="m-lb-title" id="aktLbTitle"></h3>
+      <p class="m-lb-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var lb=document.getElementById('aktLightbox'); if(!lb) return;
+  var img=lb.querySelector('.m-lb-img'), dots=lb.querySelector('.m-lb-dots'),
+      prev=lb.querySelector('.m-lb-prev'), next=lb.querySelector('.m-lb-next'),
+      media=lb.querySelector('.m-lb-media'),
+      elTitle=lb.querySelector('.m-lb-title'), elDesc=lb.querySelector('.m-lb-desc');
+  var items=[], idx=0, lastFocus=null;
+  function show(i){
+    idx=(i+items.length)%items.length;
+    img.src=items[idx].src; img.alt=items[idx].alt||'Imaginea '+(idx+1);
+    dots.querySelectorAll('button').forEach(function(d,k){d.classList.toggle('is-on',k===idx);});
+  }
+  function open(card){
+    try{items=JSON.parse(card.getAttribute('data-akt'))||[];}catch(e){items=[];}
+    if(!items.length) return;
+    var nm=card.querySelector('.m-refc-name'), ds=card.querySelector('.m-refc-desc');
+    elTitle.textContent=nm?nm.textContent:'';
+    elDesc.textContent=ds?ds.textContent:'';
+    dots.innerHTML='';
+    var multi=items.length>1;
+    media.classList.toggle('is-single',!multi);
+    if(multi){items.forEach(function(_,k){var d=document.createElement('button');
+      d.type='button'; d.setAttribute('aria-label','Imaginea '+(k+1));
+      d.addEventListener('click',function(){show(k);}); dots.appendChild(d);});}
+    lastFocus=document.activeElement;
+    lb.hidden=false; lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    show(0);
+    lb.querySelector('.m-lb-x').focus();
+  }
+  function close(){
+    lb.hidden=true; lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; img.src='';
+    if(lastFocus&&lastFocus.focus) lastFocus.focus();
+  }
+  document.querySelectorAll('.m-akt-card').forEach(function(card){
+    card.addEventListener('click',function(){open(card);});
+    card.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();open(card);}});
+  });
+  lb.querySelectorAll('[data-akt-close]').forEach(function(x){x.addEventListener('click',close);});
+  prev.addEventListener('click',function(){show(idx-1);});
+  next.addEventListener('click',function(){show(idx+1);});
+  document.addEventListener('keydown',function(e){
+    if(lb.hidden) return;
+    if(e.key==='Escape') close();
+    else if(e.key==='ArrowLeft') show(idx-1);
+    else if(e.key==='ArrowRight') show(idx+1);
+  });
+})();
+</script>
 </main>
 
 <footer class="m-foot">

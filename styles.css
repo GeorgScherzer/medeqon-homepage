@@ -1412,3 +1412,26 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-vt-mfrs .m-mfr-chip--techmed img{height:28px}
 .m-vt-mfrs .m-mfr-chip--rothband img{height:24px}
 .m-vt-mfrs .m-mfr-chip--kenex img{height:28px}
+
+/* ===== Aktuelle Tätigkeiten (Startseite + Referenzen) =====
+   Eigener Hintergrund: heller Blauton mit dem Punkte-Wasserzeichen der
+   Wort-Bild-Marke – bewusst anders als die Foto-Sektionen (slogan-bg) und
+   als die dunklen Bänder darüber/darunter. Karten = Referenz-Projektkarten. */
+.m-akt-sec{position:relative;isolation:isolate;padding:78px 0 86px;
+  background:var(--mist-blue);
+  border-top:1px solid var(--tint-line);border-bottom:1px solid var(--tint-line)}
+.m-akt-sec::before{content:"";position:absolute;inset:0;z-index:0;
+  background-image:var(--pat-light);background-repeat:repeat}
+.m-akt-sec .m-shell{position:relative;z-index:1}
+.m-akt-grid{display:flex;flex-wrap:wrap;gap:22px;align-items:stretch}
+.m-akt-card{flex:1 1 340px;max-width:460px;cursor:pointer}
+.m-akt-card:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.m-akt-card:hover .m-refc-cover img{transform:scale(1.055)}
+.m-akt-card .m-refc-name::after{content:"\2197";font-size:.82em;color:var(--sky);
+  margin-left:6px;font-weight:700;vertical-align:1px}
+.m-akt-card .m-refc-desc{margin-bottom:0}
+@media (max-width:900px){
+  .m-akt-sec{padding:60px 0 66px}
+  .m-akt-sec .m-fly-head .m-bigH{font-size:34px;line-height:40px}
+}
+@media (max-width:560px){.m-akt-card{flex:1 1 100%;max-width:none}}
