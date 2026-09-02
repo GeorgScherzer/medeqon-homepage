@@ -5,6 +5,7 @@ Run: python3 build.py
 """
 from pathlib import Path
 import urllib.parse as _urlparse
+import json, html as _html
 
 ROOT = Path(__file__).parent
 
@@ -214,6 +215,101 @@ def cookie_banner(lang="de"):
 }})();
 </script>'''
 
+# ---- Produkt-Lightbox (Klick-Galerie, gleiche Optik wie auf der Referenzen-Seite) ----
+_LB_T = {
+    "de": {"close": "Schließen", "prev": "Vorheriges Bild", "next": "Nächstes Bild",
+           "img": "Bild", "open": "Bilder ansehen"},
+    "en": {"close": "Close", "prev": "Previous image", "next": "Next image",
+           "img": "Image", "open": "View images"},
+    "pl": {"close": "Zamknij", "prev": "Poprzedni obraz", "next": "Następny obraz",
+           "img": "Zdjęcie", "open": "Zobacz zdjęcia"},
+    "ro": {"close": "Închide", "prev": "Imaginea anterioară", "next": "Imaginea următoare",
+           "img": "Imaginea", "open": "Vedeți imaginile"},
+}
+
+def _prod_lightbox(lang="de", body=""):
+    """Overlay + Steuerung für die Produktgalerien. Nur auf Seiten mit Produktkarten."""
+    if "m-pl-gallery" not in body:
+        return ""
+    t = _LB_T.get(lang, _LB_T["de"])
+    return '''<div class="m-lb" id="prodLightbox" hidden aria-hidden="true">
+  <div class="m-lb-backdrop" data-lb-close></div>
+  <div class="m-lb-panel" role="dialog" aria-modal="true" aria-labelledby="plbTitle">
+    <button class="m-lb-x" data-lb-close aria-label="''' + _html.escape(t["close"]) + '''">&times;</button>
+    <div class="m-lb-media">
+      <img class="m-lb-img" src="" alt="">
+      <button class="m-lb-nav m-lb-prev" aria-label="''' + _html.escape(t["prev"]) + '''">&#8249;</button>
+      <button class="m-lb-nav m-lb-next" aria-label="''' + _html.escape(t["next"]) + '''">&#8250;</button>
+      <div class="m-lb-dots"></div>
+    </div>
+    <div class="m-lb-body">
+      <span class="m-lb-client"></span>
+      <h3 class="m-lb-title" id="plbTitle"></h3>
+      <p class="m-lb-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var lb=document.getElementById('prodLightbox'); if(!lb) return;
+  var IMG=''' + json.dumps(t["img"], ensure_ascii=False) + ''';
+  var img=lb.querySelector('.m-lb-img'), dots=lb.querySelector('.m-lb-dots'),
+      prev=lb.querySelector('.m-lb-prev'), next=lb.querySelector('.m-lb-next'),
+      media=lb.querySelector('.m-lb-media'),
+      elClient=lb.querySelector('.m-lb-client'), elTitle=lb.querySelector('.m-lb-title'),
+      elDesc=lb.querySelector('.m-lb-desc');
+  var imgs=[], idx=0, lastFocus=null;
+  function show(i){
+    idx=(i+imgs.length)%imgs.length;
+    img.src=imgs[idx]; img.alt=elTitle.textContent+' – '+IMG+' '+(idx+1);
+    dots.querySelectorAll('button').forEach(function(d,k){d.classList.toggle('is-on',k===idx);});
+  }
+  function open(f){
+    imgs=[]; f.querySelectorAll('.m-pl-shot').forEach(function(s){
+      var u=s.getAttribute('src'); if(u) imgs.push(u);});
+    if(!imgs.length) return;
+    var art=f.closest('.m-pl');
+    var rf=art?art.querySelector('.m-pl-ref'):null, nm=art?art.querySelector('.m-pl-name'):null,
+        ds=art?art.querySelector('.m-pl-desc'):null;
+    elClient.textContent=rf?rf.textContent:'';
+    elTitle.textContent=nm?nm.textContent:'';
+    elDesc.textContent=ds?ds.textContent:'';
+    dots.innerHTML='';
+    var multi=imgs.length>1;
+    media.classList.toggle('is-single',!multi);
+    if(multi){imgs.forEach(function(_,k){var d=document.createElement('button');
+      d.type='button'; d.setAttribute('aria-label',IMG+' '+(k+1));
+      d.addEventListener('click',function(){show(k);}); dots.appendChild(d);});}
+    lastFocus=document.activeElement;
+    lb.hidden=false; lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    show(0);
+    lb.querySelector('.m-lb-x').focus();
+  }
+  function close(){
+    lb.hidden=true; lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; img.src='';
+    if(lastFocus&&lastFocus.focus) lastFocus.focus();
+  }
+  document.querySelectorAll('.m-pl-frame').forEach(function(f){
+    f.addEventListener('click',function(){open(f);});
+    f.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();open(f);}});
+  });
+  lb.querySelectorAll('[data-lb-close]').forEach(function(x){x.addEventListener('click',close);});
+  prev.addEventListener('click',function(){show(idx-1);});
+  next.addEventListener('click',function(){show(idx+1);});
+  document.addEventListener('keydown',function(e){
+    if(lb.hidden) return;
+    if(e.key==='Escape') close();
+    else if(e.key==='ArrowLeft') show(idx-1);
+    else if(e.key==='ArrowRight') show(idx+1);
+  });
+})();
+</script>
+'''
+
 def page(filename, title, desc, body, lang="de"):
     return f'''<!doctype html>
 <html lang="{lang}">
@@ -238,33 +334,7 @@ def page(filename, title, desc, body, lang="de"):
 
 {footer(lang)}
 
-<script>
-(function(){{
-  var frames = document.querySelectorAll('.m-pl-frame');
-  frames.forEach(function(f){{
-    var shots = f.querySelectorAll('.m-pl-shot');
-    var dots  = f.querySelectorAll('.m-pl-dots i');
-    var n = shots.length;
-    if (n < 2) return;
-    var cur = 0;
-    function show(i){{
-      if (i === cur) return;
-      cur = i;
-      shots.forEach(function(s,k){{ s.classList.toggle('is-on', k === i); }});
-      dots.forEach(function(d,k){{ d.classList.toggle('on', k === i); }});
-    }}
-    f.addEventListener('pointermove', function(e){{
-      var r = f.getBoundingClientRect();
-      var x = (e.clientX - r.left) / r.width;
-      var i = Math.floor(x * n);
-      if (i < 0) i = 0; if (i > n - 1) i = n - 1;
-      show(i);
-    }});
-    f.addEventListener('pointerleave', function(){{ show(0); }});
-  }});
-}})();
-</script>
-
+{_prod_lightbox(lang, body)}
 {cookie_banner(lang)}
 
 </body>
@@ -976,9 +1046,10 @@ def _gallery(p, lang="de"):
         d = "".join(('<i class="on"></i>' if i == 0 else '<i></i>') for i in range(n))
         dots = f'\n                        <div class="m-pl-dots">{d}</div>'
     tall = " m-pl-frame--tall" if p.get("fit") == "tall" else ""
+    openlbl = _html.escape(f'{model_raw} – {_LB_T.get(lang, _LB_T["de"])["open"]}')
     return (
 '                    <div class="m-pl-gallery">\n'
-f'                      <div class="m-pl-frame{tall}" data-count="{n}">\n'
+f'                      <div class="m-pl-frame{tall}" data-count="{n}" role="button" tabindex="0" aria-label="{openlbl}">\n'
 + "\n".join(shots) + dots + '\n'
 '                      </div>\n'
 '                    </div>')

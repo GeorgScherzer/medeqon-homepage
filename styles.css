@@ -449,8 +449,16 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
   background:var(--paper);border:1px solid var(--mist);border-radius:16px;padding:24px}
 .m-pl-gallery{display:grid;gap:10px}
 .m-pl-frame{position:relative;width:100%;aspect-ratio:4 / 3;background:#fff;
-  border:1px solid var(--mist);border-radius:12px;overflow:hidden;touch-action:pan-y}
-.m-pl-frame[data-count]:not([data-count="1"]){cursor:ew-resize}
+  border:1px solid var(--mist);border-radius:12px;overflow:hidden;touch-action:pan-y;cursor:zoom-in}
+.m-pl-frame:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+/* Lupe als Hinweis, dass sich die Galerie per Klick öffnet (rein per CSS, kein Extra-Markup) */
+.m-pl-frame::after{content:"";position:absolute;top:10px;right:10px;z-index:3;
+  width:34px;height:34px;border-radius:999px;border:1px solid var(--tint-line);pointer-events:none;
+  background:rgba(255,255,255,.94) url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20fill%3D%27none%27%20stroke%3D%27%23003278%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%3E%3Ccircle%20cx%3D%2711%27%20cy%3D%2711%27%20r%3D%276%27%2F%3E%3Cpath%20d%3D%27M15.6%2015.6%2020%2020%27%2F%3E%3Cpath%20d%3D%27M11%208.6v4.8M8.6%2011h4.8%27%2F%3E%3C%2Fsvg%3E") center / 18px 18px no-repeat;
+  box-shadow:0 6px 16px -8px rgba(6,12,28,.5);
+  opacity:0;transform:scale(.9);transition:opacity var(--dur) var(--ease),transform var(--dur) var(--ease)}
+.m-pl-frame:hover::after,.m-pl-frame:focus-visible::after{opacity:1;transform:none}
+@media (hover:none),(max-width:700px){.m-pl-frame::after{opacity:1;transform:none}}
 .m-pl-frame.m-pl-frame--tall{aspect-ratio:3 / 4}
 .m-pl-shot{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;
   opacity:0;transition:opacity .18s ease;user-select:none;-webkit-user-drag:none}
@@ -1098,6 +1106,14 @@ textarea.m-input{min-height:150px;resize:vertical}
   letter-spacing:-.01em;color:var(--brand-700)}
 .m-lb-desc{margin:0 0 16px;font-size:16px;line-height:23px;color:var(--ink)}
 .m-lb-foot{display:flex;flex-wrap:wrap;gap:8px}
+/* Produkt-Lightbox: Zeilen ohne Inhalt (z. B. fehlende Ref-Nummer) nicht mitrendern */
+.m-lb-client:empty{display:none}
+.m-lb-client:empty + .m-lb-title{margin-top:0}
+.m-lb-desc:empty{display:none}
+#prodLightbox .m-lb-desc{margin-bottom:0}
+/* Produktbilder sind weiß freigestellt -> dunkle Punkte statt weißer */
+#prodLightbox .m-lb-dots button{background:rgba(15,27,44,.28)}
+#prodLightbox .m-lb-dots button.is-on{background:var(--signal)}
 @media(max-width:560px){.m-lb-title{font-size:18px}.m-lb-body{padding:16px 20px 22px}.m-lb-nav{width:40px;height:40px;font-size:20px}}
 
 .m-ref-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
