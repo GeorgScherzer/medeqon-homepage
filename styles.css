@@ -1414,17 +1414,14 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-vt-mfrs .m-mfr-chip--kenex img{height:28px}
 
 /* ===== Aktuelle Tätigkeiten (Startseite + Referenzen) =====
-   Eigener Hintergrund: heller Blauton mit dem Punkte-Wasserzeichen der
-   Wort-Bild-Marke – bewusst anders als die Foto-Sektionen (slogan-bg) und
-   als die dunklen Bänder darüber/darunter. Karten = Referenz-Projektkarten. */
-.m-akt-sec{position:relative;isolation:isolate;padding:78px 0 86px;
-  background:var(--mist-blue);
+   Hintergrund wie die Flyer- und die Partner-Reihe (.m-graphic-sec + slogan-bg.jpg),
+   dazu je eine Haarlinie oben/unten, weil der Bereich direkt an dunkle Blöcke
+   (CTA-Banner, Fußzeile) bzw. an die Slogan-Sektion der Referenzen grenzt.
+   Karten = Projektkarten der Referenzen (.m-refc). */
+.m-akt-sec{padding:78px 0 86px;
   border-top:1px solid var(--tint-line);border-bottom:1px solid var(--tint-line)}
-.m-akt-sec::before{content:"";position:absolute;inset:0;z-index:0;
-  background-image:var(--pat-light);background-repeat:repeat}
-.m-akt-sec .m-shell{position:relative;z-index:1}
 .m-akt-grid{display:flex;flex-wrap:wrap;gap:22px;align-items:stretch}
-.m-akt-card{flex:1 1 340px;max-width:460px;cursor:pointer}
+.m-akt-card{flex:1 1 340px;max-width:497px;cursor:pointer}
 .m-akt-card:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 .m-akt-card:hover .m-refc-cover img{transform:scale(1.055)}
 .m-akt-card .m-refc-name::after{content:"\2197";font-size:.82em;color:var(--sky);

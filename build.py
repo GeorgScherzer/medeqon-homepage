@@ -1844,6 +1844,77 @@ _AKT_PROJECTS = [
                   "utilizarea fără probleme.",
         },
     },
+    {
+        "slug": "ukraine-wiederaufbau",
+        "imgs": ["aktuell/ukraine-1.jpg",
+                 "aktuell/ukraine-2.jpg",
+                 "aktuell/ukraine-3.jpg",
+                 "aktuell/ukraine-4.jpg"],
+        "alt": {
+            "de": ["Kriegsbeschädigtes Kinderkrankenhaus Ochmatdyt in Kiew",
+                   "Logo der österreichischen Initiative „Ukraine Wiederaufbau – Point of Contact“",
+                   "Ukraine Recovery Conference 2026",
+                   "Zerstörter Wohnblock in der Ukraine"],
+            "en": ["War-damaged Okhmatdyt children's hospital in Kyiv",
+                   "Logo of the Austrian initiative “Ukraine Wiederaufbau – Point of Contact”",
+                   "Ukraine Recovery Conference 2026",
+                   "Destroyed residential block in Ukraine"],
+            "pl": ["Uszkodzony wskutek wojny szpital dziecięcy Ochmatdyt w Kijowie",
+                   "Logo austriackiej inicjatywy „Ukraine Wiederaufbau – Point of Contact”",
+                   "Ukraine Recovery Conference 2026",
+                   "Zniszczony blok mieszkalny na Ukrainie"],
+            "ro": ["Spitalul de copii Ohmatdit din Kiev, avariat de război",
+                   "Logoul inițiativei austriece „Ukraine Wiederaufbau – Point of Contact”",
+                   "Ukraine Recovery Conference 2026",
+                   "Bloc de locuințe distrus în Ucraina"],
+        },
+        "title": {
+            "de": "Wiederaufbau Ukraine · Cluster Gesundheit",
+            "en": "Reconstruction of Ukraine · health cluster",
+            "pl": "Odbudowa Ukrainy · klaster zdrowia",
+            "ro": "Reconstrucția Ucrainei · clusterul sănătate",
+        },
+        "desc": {
+            "de": "medeqon ist neu im Cluster Gesundheit der österreichischen Initiative „Ukraine "
+                  "Wiederaufbau“ – der Plattform des Außenministeriums, die unter Regierungskoordinator "
+                  "Wolfgang Anzengruber den österreichischen Beitrag zum Wiederaufbau bündelt. Wir "
+                  "bringen dort ein, was sich nicht aus Unterlagen lernen lässt: Aus rund zweieinhalb "
+                  "Jahren vor Ort in Syrien, Jordanien und im Libanon wissen wir, wie ein Krankenhaus "
+                  "unter Kriegsbedingungen wirklich läuft – Strom- und Gasversorgung, "
+                  "Sterilgutaufbereitung, Ersatzteile, Instandhaltung und Personal. Die WHO hat seit "
+                  "Februar 2022 mehr als 2.800 Angriffe auf das ukrainische Gesundheitswesen "
+                  "verifiziert. Wer diese Häuser wieder in Betrieb nimmt, braucht Planung und "
+                  "Ausstattung, die im Alltag halten – nicht nur auf dem Papier.",
+            "en": "medeqon has joined the health cluster of the Austrian initiative “Ukraine "
+                  "Wiederaufbau” – the Foreign Ministry’s platform that brings together Austria’s "
+                  "contribution to the reconstruction under government coordinator Wolfgang "
+                  "Anzengruber. What we contribute cannot be learned from documents: some two and a "
+                  "half years on site in Syria, Jordan and Lebanon taught us how a hospital really runs "
+                  "under wartime conditions – power and gas supply, sterile processing, spare parts, "
+                  "maintenance and staff. Since February 2022 the WHO has verified more than 2,800 "
+                  "attacks on Ukrainian health care. Bringing those buildings back into service takes "
+                  "design and equipment that hold up in daily use, not just on paper.",
+            "pl": "medeqon dołączył do klastra zdrowia austriackiej inicjatywy „Ukraine Wiederaufbau” – "
+                  "platformy Ministerstwa Spraw Zagranicznych, która pod kierunkiem koordynatora "
+                  "rządowego Wolfganga Anzengrubera skupia austriacki wkład w odbudowę. Wnosimy tam to, "
+                  "czego nie da się nauczyć z dokumentów: około dwóch i pół roku pracy na miejscu w "
+                  "Syrii, Jordanii i Libanie nauczyło nas, jak szpital naprawdę działa w warunkach "
+                  "wojennych – zasilanie w prąd i gazy medyczne, sterylizacja, części zamienne, "
+                  "utrzymanie ruchu i personel. WHO zweryfikowała od lutego 2022 roku ponad 2800 ataków "
+                  "na ukraińską ochronę zdrowia. Ponowne uruchomienie tych obiektów wymaga projektów i "
+                  "wyposażenia, które sprawdzają się w codziennej pracy, a nie tylko na papierze.",
+            "ro": "medeqon face parte de curând din clusterul sănătate al inițiativei austriece „Ukraine "
+                  "Wiederaufbau” – platforma Ministerului de Externe care reunește, sub coordonatorul "
+                  "guvernamental Wolfgang Anzengruber, contribuția Austriei la reconstrucție. Aducem "
+                  "acolo ceea ce nu se poate învăța din documente: aproximativ doi ani și jumătate "
+                  "petrecuți la fața locului în Siria, Iordania și Liban ne-au arătat cum funcționează "
+                  "cu adevărat un spital în condiții de război – alimentarea cu energie și gaze "
+                  "medicale, sterilizarea, piesele de schimb, mentenanța și personalul. Din februarie "
+                  "2022, OMS a verificat peste 2.800 de atacuri asupra sistemului de sănătate "
+                  "ucrainean. Repunerea în funcțiune a acestor clădiri cere proiectare și dotări care "
+                  "rezistă în activitatea zilnică, nu doar pe hârtie.",
+        },
+    },
 ]
 
 _AKT_T = {
@@ -1919,8 +1990,9 @@ f'          <p class="m-refc-desc m-refc-desc--full">{_html.escape(desc)}</p>\n'
 
 def _aktuell_section(lang="de", sid="aktuelles"):
     t = _AKT_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
     cards = "\n".join(_akt_card(p, lang) for p in _AKT_PROJECTS)
-    return f'''<section class="m-akt-sec" id="{sid}">
+    return f'''<section class="m-graphic-sec m-akt-sec" id="{sid}" style="background-image:url({ap}slogan-bg.jpg)">
   <div class="m-shell">
     <div class="m-fly-head">
       <span class="m-tag">{t["tag"]}</span>
