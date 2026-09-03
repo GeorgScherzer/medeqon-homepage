@@ -1915,6 +1915,72 @@ _AKT_PROJECTS = [
                   "rezistă în activitatea zilnică, nu doar pe hârtie.",
         },
     },
+    {
+        # Eigene Grafiken statt Fotos – deshalb Bilder je Sprache.
+        # Erzeugt von _gen_akh.py (siehe Ordner „CLAUDE Anleitung für Änderungen“).
+        "slug": "akh-labor-sequenzierung",
+        "imgs": {l: [f"aktuell/akh-1-{l}.jpg",
+                     f"aktuell/akh-2-{l}.jpg",
+                     f"aktuell/akh-3-{l}.jpg"] for l in ("de", "en", "pl", "ro")},
+        "alt": {
+            "de": ["Grafik: 120 mögliche Gerätekombinationen für die Prozesskette des Labors",
+                   "Grafik: Prozesskette von der DNA-/RNA-Extraktion bis zur Auswertung in der Cloud",
+                   "Grafik: Leistungsbild Vorentwurf – Medizintechnik, Bauangaben und BIM-Methode"],
+            "en": ["Graphic: 120 possible equipment combinations for the laboratory process chain",
+                   "Graphic: process chain from DNA/RNA extraction to analysis in the cloud",
+                   "Graphic: scope of services – medical technology, building data and BIM method"],
+            "pl": ["Grafika: 120 możliwych kombinacji urządzeń dla łańcucha procesu laboratorium",
+                   "Grafika: łańcuch procesu od ekstrakcji DNA/RNA po analizę w chmurze",
+                   "Grafika: zakres usług – technika medyczna, dane budowlane i metoda BIM"],
+            "ro": ["Grafic: 120 de combinații posibile de echipamente pentru lanțul de proces",
+                   "Grafic: lanțul de proces de la extracția ADN/ARN la analiza în cloud",
+                   "Grafic: prestații – tehnologie medicală, date de construcție și metoda BIM"],
+        },
+        "title": {
+            "de": "AKH Wien · Planung eines Sequenzierlabors",
+            "en": "Vienna General Hospital · sequencing laboratory design",
+            "pl": "AKH Wiedeń · projektowanie laboratorium sekwencjonowania",
+            "ro": "AKH Viena · proiectarea unui laborator de secvențiere",
+        },
+        "desc": {
+            "de": "Am Wiener AKH planen wir derzeit im Vorentwurf einen neuen Laborbereich für die "
+                  "Bearbeitung humaner Bioproben – durchgängig von der Extraktion der Nukleinsäuren "
+                  "bis zur bioinformatischen Auswertung der Sequenzierdaten. Vier Geräte sind zu "
+                  "beschaffen; aus 15 Herstelleroptionen ergeben sich 120 mögliche Kombinationen für "
+                  "die Prozesskette. Wir bewerten diese Vielfalt strukturiert, verdichten sie "
+                  "gemeinsam mit Auftraggeber und Nutzern auf eine technisch, betrieblich und "
+                  "wirtschaftlich tragfähige Lösung und leiten daraus rechtzeitig belastbare "
+                  "Bauangaben für Hochbau und Gebäudetechnik ab. Geplant wird durchgängig nach der "
+                  "BIM-Methode.",
+            "en": "At Vienna General Hospital we are currently preparing the preliminary design of a "
+                  "new laboratory area for processing human biosamples – seamlessly from nucleic acid "
+                  "extraction through to the bioinformatic analysis of the sequencing data. Four "
+                  "devices have to be procured; 15 manufacturer options add up to 120 possible "
+                  "combinations for the process chain. We assess that variety in a structured way, "
+                  "condense it together with client and users into one technically, operationally and "
+                  "economically viable solution, and derive reliable building data for structural "
+                  "works and building services in good time. The entire project is designed using the "
+                  "BIM method.",
+            "pl": "W wiedeńskim AKH opracowujemy obecnie koncepcję wstępną nowego obszaru "
+                  "laboratoryjnego do obróbki ludzkich próbek biologicznych – w sposób ciągły od "
+                  "ekstrakcji kwasów nukleinowych po bioinformatyczną analizę danych "
+                  "sekwencjonowania. Do zakupu przewidziano cztery urządzenia; z 15 opcji "
+                  "producentów wynika 120 możliwych kombinacji dla całego łańcucha procesu. Oceniamy "
+                  "tę różnorodność w uporządkowany sposób, wspólnie z inwestorem i użytkownikami "
+                  "sprowadzamy ją do rozwiązania wykonalnego technicznie, operacyjnie i ekonomicznie, "
+                  "a następnie w odpowiednim czasie przekazujemy wiarygodne dane budowlane dla "
+                  "konstrukcji i instalacji budynku. Cały projekt powstaje w metodzie BIM.",
+            "ro": "La AKH Viena elaborăm în prezent proiectul preliminar al unei noi zone de "
+                  "laborator pentru prelucrarea probelor biologice umane – continuu, de la extracția "
+                  "acizilor nucleici până la analiza bioinformatică a datelor de secvențiere. Trebuie "
+                  "achiziționate patru echipamente; din 15 opțiuni de producători rezultă 120 de "
+                  "combinații posibile pentru lanțul de proces. Evaluăm structurat această "
+                  "diversitate, o consolidăm împreună cu beneficiarul și utilizatorii într-o soluție "
+                  "viabilă tehnic, operațional și economic și derivăm din ea, la timp, date de "
+                  "construcție fiabile pentru structură și instalațiile clădirii. Întregul proiect "
+                  "este realizat prin metoda BIM.",
+        },
+    },
 ]
 
 _AKT_T = {
@@ -1970,7 +2036,12 @@ def _img_count_word(lang, n):
 def _akt_card(p, lang):
     t = _AKT_T[lang]
     ap = "assets/" if lang == "de" else "/assets/"
-    imgs = [ap + i for i in p["imgs"]]
+    # "imgs" ist entweder eine Liste (gleiche Bilder in allen Sprachen) oder ein
+    # Dict {lang: [...]} – nötig bei selbst erzeugten Grafiken mit Text im Bild.
+    src = p["imgs"]
+    if isinstance(src, dict):
+        src = src.get(lang) or src["de"]
+    imgs = [ap + i for i in src]
     alts = p["alt"][lang]
     name = p["title"][lang]
     desc = p["desc"][lang]
