@@ -1981,6 +1981,50 @@ _AKT_PROJECTS = [
                   "este realizat prin metoda BIM.",
         },
     },
+    {
+        "slug": "vkmb-consulting",
+        "imgs": ["aktuell/vkmb-1.jpg",
+                 "aktuell/vkmb-2.jpg"],
+        "alt": {
+            "de": ["Medizinischer Universitätscampus Wien",
+                   "Logo der VKMB"],
+            "en": ["Vienna Medical University Campus",
+                   "VKMB logo"],
+            "pl": ["Kampus Medycznego Uniwersytetu Wiedeńskiego",
+                   "Logo VKMB"],
+            "ro": ["Campusul Universitar Medical din Viena",
+                   "Logoul VKMB"],
+        },
+        "title": {
+            "de": "VKMB · Consulting in der Medizintechnik-Planung",
+            "en": "VKMB · consulting in medical technology design",
+            "pl": "VKMB · doradztwo w projektowaniu techniki medycznej",
+            "ro": "VKMB · consultanță în proiectarea tehnologiei medicale",
+        },
+        "desc": {
+            "de": "Im Auftrag der VKMB begleiten wir die Medizintechnik-Planung beratend und sichern "
+                  "gemeinsam mit dem Team des Kunden die Qualität der erstellten Planungsunterlagen. "
+                  "Ein unabhängiger zweiter Blick auf Vollständigkeit, technische Plausibilität und "
+                  "Betriebstauglichkeit – damit Entscheidungen auf belastbaren Grundlagen fallen und "
+                  "Korrekturen dort erfolgen, wo sie noch nichts kosten: in der Planung.",
+            "en": "On behalf of VKMB we support the medical technology design in an advisory role and, "
+                  "together with the client’s team, safeguard the quality of the planning documents. "
+                  "An independent second opinion on completeness, technical plausibility and "
+                  "operational suitability – so that decisions rest on solid ground and corrections "
+                  "are made where they still cost nothing: in the design phase.",
+            "pl": "Na zlecenie VKMB wspieramy doradczo projektowanie techniki medycznej i wspólnie z "
+                  "zespołem klienta dbamy o jakość opracowanej dokumentacji projektowej. Niezależne "
+                  "drugie spojrzenie na kompletność, wiarygodność techniczną i przydatność "
+                  "eksploatacyjną – aby decyzje zapadały na solidnych podstawach, a korekty "
+                  "następowały tam, gdzie jeszcze nic nie kosztują: na etapie projektowania.",
+            "ro": "La solicitarea VKMB însoțim consultativ proiectarea tehnologiei medicale și "
+                  "asigurăm, împreună cu echipa clientului, calitatea documentației de proiectare "
+                  "elaborate. O a doua opinie independentă privind exhaustivitatea, plauzibilitatea "
+                  "tehnică și adecvarea operațională – pentru ca deciziile să se bazeze pe fundamente "
+                  "solide, iar corecturile să se facă acolo unde încă nu costă nimic: în faza de "
+                  "proiectare.",
+        },
+    },
 ]
 
 _AKT_T = {
