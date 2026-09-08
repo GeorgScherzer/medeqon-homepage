@@ -3530,5 +3530,385 @@
         "Jedno- lub wielorzędowy, długość według potrzeb"
       ]
     ]
+  },
+  "nn-bm0": {
+    "model": "Łóżeczko niemowlęce BM0",
+    "description": "Jezdne łóżeczko niemowlęce z przezroczystą wanienką z tworzywa na stelażu z rury stalowej malowanej proszkowo – solidny model podstawowy na oddziały położnicze i noworodkowe.",
+    "specs": [
+      [
+        "Stelaż",
+        "Stelaż z rury stalowej malowanej proszkowo"
+      ],
+      [
+        "Wanienka",
+        "Przezroczyste tworzywo (PC), wyposażona w materacyk"
+      ],
+      [
+        "Wymiary wewnętrzne wanienki",
+        "660 × 410 × 220 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wymiary całkowite",
+        "830 × 570 × 995 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wysokość",
+        "Stała – bez regulacji"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, z blokadą"
+      ],
+      [
+        "Kolory",
+        "Stelaż malowany proszkowo według palety RAL lub wzornika TECH-MED"
+      ]
+    ]
+  },
+  "nn-bm1": {
+    "model": "Łóżeczko niemowlęce BM1",
+    "description": "Jezdne łóżeczko niemowlęce na białej kolumnie aluminiowej malowanej proszkowo z podstawą gwiaździstą – niewielka powierzchnia ustawienia, opcjonalnie z regulacją wysokości sprężyną gazową.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy, malowany proszkowo na biało"
+      ],
+      [
+        "Wanienka",
+        "Przezroczyste tworzywo (PC), wyposażona w materacyk"
+      ],
+      [
+        "Wymiary wewnętrzne wanienki",
+        "660 × 410 × 220 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wymiary całkowite",
+        "755 × 480 × 970 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Regulacja wysokości",
+        "Opcja: sprężyna gazowa, 970 – 1270 mm"
+      ],
+      [
+        "Podstawa",
+        "Stal z osłoną z tworzywa ABS"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm z tworzywa, z blokadą"
+      ],
+      [
+        "Akcesoria",
+        "Koszyk na akcesoria"
+      ],
+      [
+        "Kolory",
+        "Elementy ozdobne malowane proszkowo według palety RAL lub wzornika TECH-MED"
+      ]
+    ]
+  },
+  "nn-bm2": {
+    "model": "Łóżeczko niemowlęce BM2",
+    "description": "Jezdne łóżeczko niemowlęce na dwóch kolumnach aluminiowych ze standardową regulacją wysokości – do wyboru z koszykami lub z szafką na bieliznę i materiały pielęgnacyjne.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy, malowany proszkowo na biało"
+      ],
+      [
+        "Wanienka",
+        "Przezroczyste tworzywo (PC), wyposażona w materacyk"
+      ],
+      [
+        "Wymiary wewnętrzne wanienki",
+        "660 × 410 × 220 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wymiary całkowite",
+        "815 × 480 × 970 – 1270 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Regulacja wysokości",
+        "970 – 1270 mm"
+      ],
+      [
+        "Podstawa",
+        "Stal z osłoną z tworzywa ABS"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm z tworzywa, z blokadą"
+      ],
+      [
+        "Wersje",
+        "Bez zabudowy · z jednym lub dwoma koszykami · z dwudrzwiową szafką"
+      ],
+      [
+        "Kolory",
+        "Elementy ozdobne i fronty szafki malowane proszkowo według palety RAL lub wzornika TECH-MED"
+      ]
+    ]
+  },
+  "nn-agatka": {
+    "model": "Stanowisko pielęgnacji niemowląt AGATKA",
+    "description": "Modułowe stanowisko pielęgnacyjne na ramie z profili aluminiowych: moduł umywalkowy, kąpielowy, przewijak i stół zabiegowy można ustawić pojedynczo lub połączyć w jeden ciąg.",
+    "specs": [
+      [
+        "Rama",
+        "Profile aluminiowe ze złączami ABS, anodowane lub malowane proszkowo według palety RAL, z regulowanymi nóżkami"
+      ],
+      [
+        "Wypełnienia",
+        "Płyta wiórowa laminowana obustronnie"
+      ],
+      [
+        "Blaty",
+        "Moduły A (wanienka), U (umywalka) i B (przewijak) z laminatu poliestrowo-szklanego; moduł C (stół zabiegowy) z płyty wiórowej"
+      ],
+      [
+        "Materacyk",
+        "Przewijak i stół zabiegowy wyposażone w materacyk"
+      ],
+      [
+        "Wymiary modułów",
+        "U 400 × 580 × 900 mm · A 800 lub 900 × 580 × 900 mm · B 700 × 580 × 900 mm · C 900 × 580 × 900 mm (dł. × gł. × wys.)"
+      ],
+      [
+        "Wersje",
+        "Standard: moduły wolnostojące z oddzielnymi blatami · opcja: moduły na wspólnej ramie, jednolity blat dla zestawu A + B"
+      ],
+      [
+        "Opcja",
+        "Jezdna podstawa stalowa z kółkami Ø 100 mm (moduł B i B1)"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Przedłużona bateria umywalkowa lub z wyciąganą słuchawką, bateria z termostatem, promiennik ciepła, pojemnik na odpady, wysuwana półka na wagę niemowlęcą"
+      ]
+    ]
+  },
+  "nn-kacperek": {
+    "model": "Stanowisko pielęgnacji niemowląt KACPEREK",
+    "description": "Modułowe stanowisko pielęgnacyjne w zabudowie meblowej z korpusem z płyty laminowanej i frontami z lakierowanego MDF – jako pojedynczy moduł lub jako ciąg umywalkowo-kąpielowo-przewijakowy.",
+    "specs": [
+      [
+        "Korpus i półki",
+        "Płyta wiórowa laminowana obustronnie, z nóżkami do poziomowania"
+      ],
+      [
+        "Fronty",
+        "Płyta MDF, lakierowana proszkowo według palety RAL"
+      ],
+      [
+        "Blaty",
+        "Moduły A (wanienka), U (umywalka) i B (przewijak) z laminatu poliestrowo-szklanego"
+      ],
+      [
+        "Materacyk",
+        "Przewijak wyposażony w materacyk"
+      ],
+      [
+        "Wymiary modułów",
+        "U 400 × 580 × 900 mm · A 800 lub 900 × 580 × 900 mm · B 700 × 580 × 900 mm · P 250 × 580 × 900 mm (dł. × gł. × wys.)"
+      ],
+      [
+        "Wersje",
+        "Standard: moduły wolnostojące z oddzielnymi blatami · opcja: moduły na wspólnej ramie, jednolity blat dla zestawu A + B"
+      ],
+      [
+        "Opcja",
+        "Jezdna podstawa stalowa z kółkami Ø 100 mm (moduł B)"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Przedłużona bateria umywalkowa lub z wyciąganą słuchawką, bateria z termostatem, promiennik ciepła, pojemnik na odpady, wysuwana półka na wagę niemowlęcą"
+      ]
+    ]
+  },
+  "nn-rn": {
+    "model": "Przewijak RN",
+    "description": "Jezdny przewijak z uchylnymi bandami z pleksi z trzech stron i szafką – na tyle kompaktowy, by zmieścić się w sali chorych, z wysuwaną półką na wagę niemowlęcą.",
+    "specs": [
+      [
+        "Wersje",
+        "RN-01 z szufladami · RN-02 z drzwiczkami i szufladą"
+      ],
+      [
+        "Blat",
+        "Stal malowana proszkowo z materacykiem, otoczony z trzech stron uchylnymi bandami z pleksi"
+      ],
+      [
+        "Korpus",
+        "Płyta wiórowa, z drzwiczkami lub szufladami"
+      ],
+      [
+        "Fronty",
+        "Płyta MDF, laminowana według palety RAL lub wzornika TECH-MED"
+      ],
+      [
+        "Podstawa",
+        "Tworzywo ABS lub stal malowana proszkowo"
+      ],
+      [
+        "Wymiary całkowite",
+        "700 × 550 × 1090 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wysokość robocza",
+        "900 mm; bandy z pleksi o wysokości 190 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm, dwa z blokadą"
+      ]
+    ]
+  },
+  "nn-sam": {
+    "model": "Przewijak SAM",
+    "description": "Jezdny przewijak z obszernym blatem, bandami z pleksi z trzech stron i półką na wagę niemowlęcą – do wyboru z otwartymi wnękami, drzwiczkami lub szufladami.",
+    "specs": [
+      [
+        "Wersje",
+        "SAM-01 otwarte wnęki z blokiem szuflad · SAM-01S otwarte wnęki z drzwiczkami · SAM-02S szuflada i szafka dwudrzwiowa · SAM-03 drzwiczki i cztery szuflady"
+      ],
+      [
+        "Blat",
+        "Stal malowana proszkowo z materacykiem, otoczony z trzech stron bandami z pleksi"
+      ],
+      [
+        "Korpus",
+        "Płyta meblowa laminowana w kolorze białym, z drzwiczkami lub szufladami"
+      ],
+      [
+        "Fronty",
+        "Płyta MDF, lakierowana według palety RAL lub wzornika TECH-MED"
+      ],
+      [
+        "Półka na wagę",
+        "Półka z płyty meblowej z relingiem zabezpieczającym sprzęt przed zsunięciem"
+      ],
+      [
+        "Wymiary całkowite",
+        "1000 × 700 × 1050 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wysokość robocza",
+        "900 mm"
+      ],
+      [
+        "Kółka",
+        "Ø 100 mm, dwa z blokadą"
+      ]
+    ]
+  },
+  "nn-sptm": {
+    "model": "Przewijak SPTM",
+    "description": "Jezdny stół przewijakowo-zabiegowy na ramie aluminiowej z szyną instrumentalną na pełen program akcesoriów – opcjonalnie z elektryczną regulacją wysokości.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy, malowany proszkowo na biało; podstawa ze stali malowanej proszkowo na biało"
+      ],
+      [
+        "Blat",
+        "A(2) stal malowana proszkowo z obrzeżem ABS, materacykiem i tapicerowanym obramowaniem z trzech stron · B(1) płyta meblowa z materacykiem zamocowanym na stałe i tapicerowanymi bandami z trzech stron"
+      ],
+      [
+        "Zabudowa",
+        "Szafka, półka i szuflada z białej płyty meblowej laminowanej"
+      ],
+      [
+        "Fronty",
+        "Płyta meblowa laminowana według wzornika TECH-MED"
+      ],
+      [
+        "Wymiary całkowite",
+        "900 × 700 × 970 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Wysokość robocza",
+        "900 mm"
+      ],
+      [
+        "Opcja",
+        "Elektryczna regulacja wysokości 650 – 1300 mm, ze stopkami do poziomowania"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm, wszystkie z blokadą"
+      ],
+      [
+        "Akcesoria",
+        "Wysuwana półka na wagę niemowlęcą, uchwyt na pudełko rękawiczek, pojemnik na narzędzia, koszyk na akcesoria, pojemnik na odpady lub uchwyt worka z pokrywą – montowane na szynie instrumentalnej przy ramie"
+      ]
+    ]
+  },
+  "nn-sptm2": {
+    "model": "Przewijak SPTM2",
+    "description": "Wąski przewijak serii SPTM z w pełni tapicerowaną leżyską i tapicerowanymi bandami z trzech stron – opcjonalnie z regulacją wysokości sprężyną gazową.",
+    "specs": [
+      [
+        "Rama",
+        "Profil aluminiowy, malowany proszkowo na biało; podstawa ze stali z osłoną z tworzywa ABS w kolorze białym"
+      ],
+      [
+        "Blat",
+        "Tapicerowany, z tapicerowanymi bandami z trzech stron o szerokości 50 mm i wysokości 70 mm"
+      ],
+      [
+        "Zabudowa",
+        "Szafka, półka i szuflada z białej płyty wiórowej laminowanej"
+      ],
+      [
+        "Fronty",
+        "Płyta meblowa MDF lakierowana proszkowo według wzornika TECH-MED"
+      ],
+      [
+        "Wymiary całkowite",
+        "480 × 755 × 900 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Ze sprężyną gazową",
+        "480 × 755 × 700 – 1030 mm (dł. × szer. × wys.)"
+      ],
+      [
+        "Kółka",
+        "Ø 75 mm w obudowie z tworzywa, wszystkie z blokadą"
+      ],
+      [
+        "Akcesoria",
+        "Uchwyt na pudełko rękawiczek, pojemnik na narzędzia, koszyk na akcesoria, pojemnik na odpady lub uchwyt worka z pokrywą – montowane na szynie instrumentalnej przy ramie"
+      ]
+    ]
+  },
+  "nn-bp": {
+    "model": "Stół przewijakowo-zabiegowy BP",
+    "description": "Stacjonarny stół przewijakowo-zabiegowy z szafką w trzech szerokościach – od wąskiego stanowiska pojedynczego po stanowisko o szerokości 1500 mm z wagą i promiennikiem ciepła.",
+    "specs": [
+      [
+        "Wielkości",
+        "BP-1 / BP-2 700 × 580 × 900 mm · BP-3 1100 × 580 × 900 mm · BP-4 / BP-5 / BP-6 / BP-6/A 1500 × 580 × 900 mm (szer. × gł. × wys.)"
+      ],
+      [
+        "Korpus",
+        "Płyta wiórowa laminowana w kolorze białym"
+      ],
+      [
+        "Fronty",
+        "Płyta meblowa MDF lakierowana (drzwiczki, szuflady) według wzornika TECH-MED"
+      ],
+      [
+        "Materacyk",
+        "Wyposażony w materacyk"
+      ],
+      [
+        "Ustawienie",
+        "Stacjonarne, z regulowanymi stopkami do poziomowania"
+      ],
+      [
+        "Wyposażenie dodatkowe",
+        "Promiennik ciepła, pojemnik na odpady, wysuwana półka na wagę niemowlęcą, lampa do fototerapii, waga niemowlęca"
+      ]
+    ]
   }
 }

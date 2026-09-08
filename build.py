@@ -1076,7 +1076,7 @@ def _cards(cat, lang="de"):
     return "\n\n".join(_render_liege(p, lang) for p in _products if p["cat"] == cat)
 def _count(cat):
     return sum(1 for p in _products if p["cat"] == cat)
-CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz", "mrt", "wagen", "station", "gvw", "btisch", "trans")}
+CARDS = {c: _cards(c) for c in ("chiro", "elektrisch", "hydraulisch", "fix", "stuehle", "sichtschutz", "mrt", "wagen", "station", "gvw", "btisch", "trans", "neo")}
 
 # ---- Heilbehelfe & Hilfsmittel ----
 _hb = json.loads((ROOT / "heilbehelfe.json").read_text(encoding="utf-8"))
@@ -1276,7 +1276,7 @@ _DL_NOTE_ANFRAGE_MED = ("Die Unterlagen zu unseren Produkten der Medizinischen E
 _DL_LEAD_MED = ("Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen "
                 "Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der "
                 "COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt "
-                "Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. "
+                "Farbkarten die Bereiche 04–10 einschließlich Schienensysteme. "
                 "Neue Dokumente ergänzen wir laufend.")
 
 _DL_LEAD_MED_REQUEST = ("Die Unterlagen zu unseren Produkten der Medizinischen Einrichtung "
@@ -1414,7 +1414,7 @@ DL_MED_CATS = [
 
 # --- Produktkataloge & Farbkarten Medizinische Einrichtung für den Download-Bereich ---
 # Bereiche 01–03 (COINFYCARE): eigener Katalog, DE/EN/PL.
-# Bereiche 04–09 (TECH-MED): eigener Katalog + Farbkarten, DE/EN/PL/RO.
+# Bereiche 04–10 (TECH-MED): eigener Katalog + Farbkarten, DE/EN/PL/RO.
 _MEDK = "assets/downloads/med/"
 def _med4(base):
     return [(lb, _MEDK + base + "_" + lb + ".pdf") for lb in ("DE", "EN", "PL", "RO")]
@@ -1425,10 +1425,10 @@ DL_MED_CATALOG = [
      "langs": [("DE", _MEDK + "Katalog_Medizinische_Einrichtung_DE.pdf"),
                ("EN", _MEDK + "Catalogue_Medical_Furnishing_EN.pdf"),
                ("PL", _MEDK + "Katalog_Wyposazenie_medyczne_PL.pdf")]},
-    {"title": "Produktkatalog · Bereiche 04–09",
+    {"title": "Produktkatalog · Bereiche 04–10",
      "meta": "TECH-MED · PDF", "icon": "book",
      "langs": _med4("Katalog_TECHMED")},
-    {"title": "Farbkarten · Bereiche 04–09",
+    {"title": "Farbkarten · Bereiche 04–10",
      "meta": "TECH-MED · PDF", "icon": "doc",
      "langs": _med4("Farbkarten_TECHMED")},
 ]
@@ -2208,6 +2208,7 @@ _TM_CATS = [
     ("07", "transport-sterilgut",      "Transport, Entsorgung &amp; Sterilgutlogistik", []),
     ("08", "stations-ambulanz",        "Stations- und Ambulanzausstattung", []),
     ("09", "mrt-ausstattung",          "MRT-Ausstattung (nicht-magnetisch)", []),
+    ("10", "neonatologie",             "Neonatologie &amp; Säuglingspflege", []),
 ]
 
 _MRT_LEAD = "Ausstattung, die im MRT-Raum verbleiben kann: Liege, Tritte, Infusionsständer, Wagen und Sichtschutz – komplett aus nicht-magnetischen Werkstoffen, damit Arbeitsabläufe nicht am Zonenübergang enden."
@@ -2224,6 +2225,9 @@ _BT_NOTE = "Materialausführungen: KO = komplett aus Edelstahl 0H18N9 (austeniti
 _TR_LEAD = "Transport, Entsorgung und Sterilgutlogistik in einem Bereich: Transport- und Speisenwagen, Korbwagen für den innerbetrieblichen Materialfluss, Wäsche- und Abfallwagen für die Entsorgung sowie Packtische und Regalsysteme für die Sterilgutaufbereitung und das Lager."
 _TR_NOTE = "Ein Baukasten für alle Regalsysteme: Körbe, Ablagen, Abwurfbeutelhalter und Trockner werden in dieselben Schienen und Gestelle eingehängt – ob als Wandschiene, Standregal oder fahrbarer Wagen. Die Entsorgungswagen gibt es in zwei Bauweisen: komplett aus Edelstahl 0H18N9 (austenitischer Edelstahl 1.4301) für die höchste Hygienestufe (WZ, WZB, MB) oder in Möbelbauweise mit Aluminium-Profilrahmen und farbigen Füllungen nach RAL (WMW, WCB)."
 
+_NEO_LEAD = "Ausstattung für Neugeborenen- und Säuglingsstationen: fahrbare Babybetten mit transparenter Wanne, modulare Pflegeplätze mit Wasch-, Bade- und Wickelmodul sowie Wickel- und Behandlungstische – mobil oder stationär, mit Ablage für die Säuglingswaage und Zubehör an der Normschiene."
+_NEO_NOTE = "Farbgebung nach TECH-MED-Farbkarte: Rahmen, Fronten und Auflagen sind in mehreren RAL-Farbtönen erhältlich – so lassen sich Zimmer und Bereiche freundlich und gut unterscheidbar gestalten. Die Pflegeplätze AGATKA und KACPEREK sind aus denselben Modulen aufgebaut (U Waschbecken · A Badewanne · B Wickeltisch · C Behandlungstisch bzw. P Zwischenmodul) und lassen sich einzeln stellen oder auf einem gemeinsamen Rahmen zu einer durchgehenden Zeile verbinden. Die Zusatzausstattung – Wärmestrahler, Auszugsablage für die Säuglingswaage, Abwurfbehälter, Handschuhspender und Instrumentenbehälter – ist über die Baureihen hinweg identisch und frei kombinierbar."
+
 # Bereiche mit echten Produktkarten: sid -> (Kategorie in products.json, Lead, [Hinweise])
 _TM_CARDS = {
     "medizinische-wagen":       ("wagen",   _WG_LEAD,  [_WG_NOTE1, _WG_NOTE2]),
@@ -2232,6 +2236,7 @@ _TM_CARDS = {
     "transport-sterilgut":      ("trans",   _TR_LEAD,  [_TR_NOTE]),
     "stations-ambulanz":        ("station", _ST_LEAD,  [_ST_NOTE]),
     "mrt-ausstattung":          ("mrt",     _MRT_LEAD, [_MRT_NOTE]),
+    "neonatologie":             ("neo",     _NEO_LEAD, [_NEO_NOTE]),
 }
 
 def _tm_card_body(catkey, lead, notes):
@@ -2511,7 +2516,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
     <div class="m-cat-head has-mfr">
       <div class="m-cat-head-text">
         <h2>Medizinische Einrichtung<span class="end-dot">.</span></h2>
-        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
+        <div class="sub">Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Neonatologie und Säuglingspflege). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.</div>
       </div>
       <div class="m-mfr">
         <span class="m-mfr-cap">Hersteller</span>
@@ -2595,7 +2600,7 @@ BODY_PRODUKTE = '''<section class="m-page-hero">
       </details>
 
 ''' + _techmed_sections() + '''
-''' + _downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
+''' + _downloads_datasheets("11", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG) + '''
     </div>
   </div>
 </section>
@@ -2791,6 +2796,9 @@ _PUI = {
   "Transport, Entsorgung &amp; Sterilgutlogistik": "Transport, waste disposal &amp; sterile goods logistics",
   "Stations- und Ambulanzausstattung": "Ward and outpatient equipment",
   "MRT-Ausstattung (nicht-magnetisch)": "MRI equipment (non-magnetic)",
+  "Neonatologie &amp; Säuglingspflege": "Neonatal &amp; infant care",
+  "Ausstattung für Neugeborenen- und Säuglingsstationen: fahrbare Babybetten mit transparenter Wanne, modulare Pflegeplätze mit Wasch-, Bade- und Wickelmodul sowie Wickel- und Behandlungstische – mobil oder stationär, mit Ablage für die Säuglingswaage und Zubehör an der Normschiene.": "Equipment for neonatal and infant wards: mobile baby cribs with a transparent tub, modular nursing stations with washing, bathing and changing modules, plus nursing and treatment tables – mobile or stationary, with a shelf for neonatal scales and accessories on the instrument rail.",
+  "Farbgebung nach TECH-MED-Farbkarte: Rahmen, Fronten und Auflagen sind in mehreren RAL-Farbtönen erhältlich – so lassen sich Zimmer und Bereiche freundlich und gut unterscheidbar gestalten. Die Pflegeplätze AGATKA und KACPEREK sind aus denselben Modulen aufgebaut (U Waschbecken · A Badewanne · B Wickeltisch · C Behandlungstisch bzw. P Zwischenmodul) und lassen sich einzeln stellen oder auf einem gemeinsamen Rahmen zu einer durchgehenden Zeile verbinden. Die Zusatzausstattung – Wärmestrahler, Auszugsablage für die Säuglingswaage, Abwurfbehälter, Handschuhspender und Instrumentenbehälter – ist über die Baureihen hinweg identisch und frei kombinierbar.": "Colours to the TECH-MED colour card: frames, fronts and pads are available in several RAL shades – so rooms and areas can be given a friendly, easily distinguishable look. The AGATKA and KACPEREK nursing stations are built from the same modules (U washbasin · A bathtub · B nursing table · C treatment table or P intermediate module) and can be placed individually or joined on a combined frame into a continuous run. The additional equipment – warmer, slide-out shelf for neonatal scales, waste bin, glove box holder and instrument container – is identical across all series and can be combined freely.",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "The models for this section are currently being prepared and will be added shortly.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Manufacturer MOBIAK – open website in a new tab",
   "Persönlicher Strahlenschutz": "Personal radiation protection",
@@ -2838,7 +2846,7 @@ _PUI = {
   "Modell verfügbar": "model available",
   "Produkte verfügbar": "products available",
   "Medizinische Einrichtung": "Medical furnishing",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to sterile goods logistics. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (carts and tables, transport and waste disposal, ward and outpatient equipment, MRI equipment). Click a section to expand the models.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Neonatologie und Säuglingspflege). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Equipment and furnishing for clinical areas – from the examination station to sterile goods logistics. Supplied by COINFYCARE (couches, chairs, privacy screens) and TECHMED (carts and tables, transport and waste disposal, ward and outpatient equipment, MRI equipment, neonatal and infant care). Click a section to expand the models.",
   "Untersuchungsliegen": "Examination couches",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Examination and treatment couches for practice and clinic – organised by design type.",
   "Fix": "Fixed",
@@ -2883,12 +2891,12 @@ _PUI = {
   "Persönliche Schutzausrüstung und Aufbewahrung": "Personal protective equipment and storage",
   "Innenmaterial der persönlichen Schutzausrüstung": "Inner material of the personal protective equipment",
   "KENEX · PDF": "KENEX · PDF",
-  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Here you will find our product catalogues and colour cards as well as the technical data sheets for our medical-furnishing products. The COINFYCARE catalogue covers sections 01–03, while the TECH-MED catalogue and its colour cards cover sections 04–09 including the rail systems. We add new documents on an ongoing basis.",
+  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–10 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Here you will find our product catalogues and colour cards as well as the technical data sheets for our medical-furnishing products. The COINFYCARE catalogue covers sections 01–03, while the TECH-MED catalogue and its colour cards cover sections 04–10 including the rail systems. We add new documents on an ongoing basis.",
   "Produktkatalog": "Product catalogue",
   "Produktkataloge & Farbkarten": "Product catalogues & colour cards",
   "Produktkatalog · Bereiche 01–03": "Product catalogue · Sections 01–03",
-  "Produktkatalog · Bereiche 04–09": "Product catalogue · Sections 04–09",
-  "Farbkarten · Bereiche 04–09": "Colour cards · Sections 04–09",
+  "Produktkatalog · Bereiche 04–10": "Product catalogue · Sections 04–10",
+  "Farbkarten · Bereiche 04–10": "Colour cards · Sections 04–10",
   "COINFYCARE · PDF": "COINFYCARE · PDF",
   "TECH-MED · PDF": "TECH-MED · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "We are happy to send you the documents for our radiation-protection products on request.",
@@ -2943,6 +2951,9 @@ _PUI = {
   "Transport, Entsorgung &amp; Sterilgutlogistik": "Transport, utylizacja i logistyka materiałów sterylnych",
   "Stations- und Ambulanzausstattung": "Wyposażenie oddziałów i ambulatoriów",
   "MRT-Ausstattung (nicht-magnetisch)": "Wyposażenie do MRI (niemagnetyczne)",
+  "Neonatologie &amp; Säuglingspflege": "Neonatologia i pielęgnacja niemowląt",
+  "Ausstattung für Neugeborenen- und Säuglingsstationen: fahrbare Babybetten mit transparenter Wanne, modulare Pflegeplätze mit Wasch-, Bade- und Wickelmodul sowie Wickel- und Behandlungstische – mobil oder stationär, mit Ablage für die Säuglingswaage und Zubehör an der Normschiene.": "Wyposażenie oddziałów noworodkowych i niemowlęcych: jezdne łóżeczka niemowlęce z przezroczystą wanienką, modułowe stanowiska pielęgnacyjne z modułem umywalkowym, kąpielowym i przewijakiem oraz przewijaki i stoły zabiegowe – jezdne lub stacjonarne, z półką na wagę niemowlęcą i akcesoriami na szynie instrumentalnej.",
+  "Farbgebung nach TECH-MED-Farbkarte: Rahmen, Fronten und Auflagen sind in mehreren RAL-Farbtönen erhältlich – so lassen sich Zimmer und Bereiche freundlich und gut unterscheidbar gestalten. Die Pflegeplätze AGATKA und KACPEREK sind aus denselben Modulen aufgebaut (U Waschbecken · A Badewanne · B Wickeltisch · C Behandlungstisch bzw. P Zwischenmodul) und lassen sich einzeln stellen oder auf einem gemeinsamen Rahmen zu einer durchgehenden Zeile verbinden. Die Zusatzausstattung – Wärmestrahler, Auszugsablage für die Säuglingswaage, Abwurfbehälter, Handschuhspender und Instrumentenbehälter – ist über die Baureihen hinweg identisch und frei kombinierbar.": "Kolorystyka według wzornika TECH-MED: ramy, fronty i materacyki dostępne są w wielu odcieniach RAL – dzięki temu sale i strefy można urządzić przyjaźnie i czytelnie. Stanowiska AGATKA i KACPEREK zbudowane są z tych samych modułów (U umywalka · A wanienka · B przewijak · C stół zabiegowy lub P moduł pośredni) i mogą stać pojedynczo albo zostać połączone na wspólnej ramie w jeden ciąg. Wyposażenie dodatkowe – promiennik ciepła, wysuwana półka na wagę niemowlęcą, pojemnik na odpady, uchwyt na pudełko rękawiczek i pojemnik na narzędzia – jest identyczne dla wszystkich serii i dowolnie łączone.",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modele w tym obszarze są obecnie przygotowywane i zostaną wkrótce dodane.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producent MOBIAK – otwórz stronę w nowej karcie",
   "Persönlicher Strahlenschutz": "Osobista ochrona radiologiczna",
@@ -2990,7 +3001,7 @@ _PUI = {
   "Modell verfügbar": "dostępny model",
   "Produkte verfügbar": "dostępnych produktów",
   "Medizinische Einrichtung": "Wyposażenie medyczne",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po logistykę materiałów sterylnych. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki i stoliki, transport i utylizacja, wyposażenie oddziałów i ambulatoriów, wyposażenie do MRI). Kliknij obszar, aby rozwinąć modele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Neonatologie und Säuglingspflege). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Wyposażenie i umeblowanie obszarów klinicznych – od stanowiska badań po logistykę materiałów sterylnych. Dostarczane przez COINFYCARE (leżanki, krzesła, parawany) oraz TECHMED (wózki i stoliki, transport i utylizacja, wyposażenie oddziałów i ambulatoriów, wyposażenie do MRI, neonatologia i pielęgnacja niemowląt). Kliknij obszar, aby rozwinąć modele.",
   "Untersuchungsliegen": "Leżanki do badań",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Leżanki do badań i zabiegów dla gabinetu i kliniki – podzielone według typu konstrukcji.",
   "Fix": "Stałe",
@@ -3035,12 +3046,12 @@ _PUI = {
   "Persönliche Schutzausrüstung und Aufbewahrung": "Środki ochrony osobistej i przechowywanie",
   "Innenmaterial der persönlichen Schutzausrüstung": "Materiał wewnętrzny środków ochrony osobistej",
   "KENEX · PDF": "KENEX · PDF",
-  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Tutaj znajdą Państwo nasze katalogi produktów i wzorniki kolorów oraz karty techniczne naszych produktów wyposażenia medycznego. Katalog COINFYCARE obejmuje obszary 01–03, a katalog TECH-MED wraz z wzornikami kolorów – obszary 04–09, w tym systemy szynowe. Nowe dokumenty dodajemy na bieżąco.",
+  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–10 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Tutaj znajdą Państwo nasze katalogi produktów i wzorniki kolorów oraz karty techniczne naszych produktów wyposażenia medycznego. Katalog COINFYCARE obejmuje obszary 01–03, a katalog TECH-MED wraz z wzornikami kolorów – obszary 04–10, w tym systemy szynowe. Nowe dokumenty dodajemy na bieżąco.",
   "Produktkatalog": "Katalog produktów",
   "Produktkataloge & Farbkarten": "Katalogi produktów i wzorniki kolorów",
   "Produktkatalog · Bereiche 01–03": "Katalog produktów · Obszary 01–03",
-  "Produktkatalog · Bereiche 04–09": "Katalog produktów · Obszary 04–09",
-  "Farbkarten · Bereiche 04–09": "Wzorniki kolorów · Obszary 04–09",
+  "Produktkatalog · Bereiche 04–10": "Katalog produktów · Obszary 04–10",
+  "Farbkarten · Bereiche 04–10": "Wzorniki kolorów · Obszary 04–10",
   "COINFYCARE · PDF": "COINFYCARE · PDF",
   "TECH-MED · PDF": "TECH-MED · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "Dokumenty dotyczące naszych produktów ochrony radiologicznej chętnie prześlemy na życzenie.",
@@ -3095,6 +3106,9 @@ _PUI = {
   "Transport, Entsorgung &amp; Sterilgutlogistik": "Transport, eliminarea deșeurilor și logistica materialelor sterile",
   "Stations- und Ambulanzausstattung": "Dotări pentru secții și ambulatoriu",
   "MRT-Ausstattung (nicht-magnetisch)": "Dotări pentru RMN (nemagnetice)",
+  "Neonatologie &amp; Säuglingspflege": "Neonatologie și îngrijirea sugarilor",
+  "Ausstattung für Neugeborenen- und Säuglingsstationen: fahrbare Babybetten mit transparenter Wanne, modulare Pflegeplätze mit Wasch-, Bade- und Wickelmodul sowie Wickel- und Behandlungstische – mobil oder stationär, mit Ablage für die Säuglingswaage und Zubehör an der Normschiene.": "Dotări pentru secțiile de nou-născuți și sugari: pătuțuri mobile cu cuvă transparentă, posturi de îngrijire modulare cu module de spălare, baie și înfășat, precum și mese de înfășat și de tratament – mobile sau staționare, cu raft pentru cântarul de sugari și accesorii pe șina portaccesorii.",
+  "Farbgebung nach TECH-MED-Farbkarte: Rahmen, Fronten und Auflagen sind in mehreren RAL-Farbtönen erhältlich – so lassen sich Zimmer und Bereiche freundlich und gut unterscheidbar gestalten. Die Pflegeplätze AGATKA und KACPEREK sind aus denselben Modulen aufgebaut (U Waschbecken · A Badewanne · B Wickeltisch · C Behandlungstisch bzw. P Zwischenmodul) und lassen sich einzeln stellen oder auf einem gemeinsamen Rahmen zu einer durchgehenden Zeile verbinden. Die Zusatzausstattung – Wärmestrahler, Auszugsablage für die Säuglingswaage, Abwurfbehälter, Handschuhspender und Instrumentenbehälter – ist über die Baureihen hinweg identisch und frei kombinierbar.": "Culori conform cartelei de culori TECH-MED: cadrele, fronturile și saltelele sunt disponibile în mai multe nuanțe RAL – astfel, saloanele și zonele pot fi amenajate prietenos și ușor de diferențiat. Posturile AGATKA și KACPEREK sunt construite din aceleași module (U lavoar · A cadă de baie · B masă de înfășat · C masă de tratament, respectiv P modul intermediar) și pot fi amplasate individual sau unite pe un cadru comun într-un ansamblu continuu. Dotările suplimentare – radiant de căldură, raft extensibil pentru cântarul de sugari, recipient pentru deșeuri, suport pentru cutia de mănuși și recipient pentru instrumente – sunt identice pentru toate seriile și pot fi combinate liber.",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.": "Modelele pentru această secțiune sunt în curs de pregătire și vor fi adăugate în curând.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen": "Producător MOBIAK – deschide site-ul într-o filă nouă",
   "Persönlicher Strahlenschutz": "Protecție radiologică personală",
@@ -3142,7 +3156,7 @@ _PUI = {
   "Modell verfügbar": "model disponibil",
   "Produkte verfügbar": "produse disponibile",
   "Medizinische Einrichtung": "Mobilier medical",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la logistica materialelor sterile. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare și mese, transport și eliminarea deșeurilor, dotări pentru secții și ambulatoriu, dotări pentru RMN). Faceți clic pe o secțiune pentru a extinde modelele.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Neonatologie und Säuglingspflege). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.": "Echipamente și mobilier pentru zonele clinice – de la postul de examinare până la logistica materialelor sterile. Livrate de COINFYCARE (canapele, scaune, paravane) și TECHMED (cărucioare și mese, transport și eliminarea deșeurilor, dotări pentru secții și ambulatoriu, dotări pentru RMN, neonatologie și îngrijirea sugarilor). Faceți clic pe o secțiune pentru a extinde modelele.",
   "Untersuchungsliegen": "Canapele de examinare",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.": "Canapele de examinare și tratament pentru cabinet și clinică – organizate după tipul constructiv.",
   "Fix": "Fixe",
@@ -3187,12 +3201,12 @@ _PUI = {
   "Persönliche Schutzausrüstung und Aufbewahrung": "Echipament individual de protecție și depozitare",
   "Innenmaterial der persönlichen Schutzausrüstung": "Material interior al echipamentului individual de protecție",
   "KENEX · PDF": "KENEX · PDF",
-  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–09 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Aici găsiți cataloagele noastre de produse și cartelele de culori, precum și fișele tehnice ale produselor noastre de mobilier medical. Catalogul COINFYCARE acoperă secțiunile 01–03, iar catalogul TECH-MED împreună cu cartelele de culori acoperă secțiunile 04–09, inclusiv sistemele de șine. Adăugăm continuu documente noi.",
+  "Hier finden Sie unsere Produktkataloge und Farbkarten sowie die technischen Datenblätter zu unseren Produkten der Medizinischen Einrichtung. Der COINFYCARE-Katalog deckt die Bereiche 01–03 ab, der TECH-MED-Katalog samt Farbkarten die Bereiche 04–10 einschließlich Schienensysteme. Neue Dokumente ergänzen wir laufend.": "Aici găsiți cataloagele noastre de produse și cartelele de culori, precum și fișele tehnice ale produselor noastre de mobilier medical. Catalogul COINFYCARE acoperă secțiunile 01–03, iar catalogul TECH-MED împreună cu cartelele de culori acoperă secțiunile 04–10, inclusiv sistemele de șine. Adăugăm continuu documente noi.",
   "Produktkatalog": "Catalog de produse",
   "Produktkataloge & Farbkarten": "Cataloage de produse și cartele de culori",
   "Produktkatalog · Bereiche 01–03": "Catalog de produse · Secțiunile 01–03",
-  "Produktkatalog · Bereiche 04–09": "Catalog de produse · Secțiunile 04–09",
-  "Farbkarten · Bereiche 04–09": "Cartele de culori · Secțiunile 04–09",
+  "Produktkatalog · Bereiche 04–10": "Catalog de produse · Secțiunile 04–10",
+  "Farbkarten · Bereiche 04–10": "Cartele de culori · Secțiunile 04–10",
   "COINFYCARE · PDF": "COINFYCARE · PDF",
   "TECH-MED · PDF": "TECH-MED · PDF",
   "Die Unterlagen zu unseren Produkten des Strahlenschutzes senden wir Ihnen gerne auf Anfrage zu.": "Vă trimitem cu plăcere, la cerere, documentele pentru produsele noastre de protecție radiologică.",
@@ -3244,7 +3258,7 @@ _PROD_CHROME = [
   "Fahrbare, frei positionierbare Röntgenschutzsysteme für flexible Einsätze im OP und in der interventionellen Radiologie – vom Hersteller KENEX.",
   "Aufgehängte Überkopf-Schutzschilde und komplette Aufhängungssysteme (Deckenschienen, Säulen, Arme, Monitor-Aufhängung) – zur deutlichen Reduktion der Streustrahlung im Arbeitsbereich. Vom Hersteller KENEX.",
   "Am Untersuchungstisch montierte Schutzschilde für die interventionelle Radiologie – Unterkörper-, Kopfende- und Aufsatz-Schilde sowie passende Aufbewahrung. Vom Hersteller KENEX.",
-  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
+  "Ausstattung und Einrichtung für klinische Bereiche – vom Untersuchungsplatz bis zur Sterilgutlogistik. Geliefert von COINFYCARE (Liegen, Stühle, Sichtschutz) und TECHMED (Wagen und Tische, Transport und Entsorgung, Stations- und Ambulanzausstattung, MRT-Ausstattung, Neonatologie und Säuglingspflege). Klicken Sie einen Bereich an, um die Modelle aufzuklappen.",
   "Untersuchungs- und Behandlungsliegen für Praxis und Klinik – nach Bauart gegliedert.",
   "Behandlungs-, Blutabnahme- und Arbeitsstühle sowie Hocker für den medizinischen Einsatz.",
   "Sicht- und Trennwandsysteme für diskrete, flexibel teilbare Raumbereiche.",
@@ -3265,6 +3279,9 @@ _PROD_CHROME = [
   "Transport, Entsorgung &amp; Sterilgutlogistik",
   "Stations- und Ambulanzausstattung",
   "MRT-Ausstattung (nicht-magnetisch)",
+  "Neonatologie &amp; Säuglingspflege",
+  "Ausstattung für Neugeborenen- und Säuglingsstationen: fahrbare Babybetten mit transparenter Wanne, modulare Pflegeplätze mit Wasch-, Bade- und Wickelmodul sowie Wickel- und Behandlungstische – mobil oder stationär, mit Ablage für die Säuglingswaage und Zubehör an der Normschiene.",
+  "Farbgebung nach TECH-MED-Farbkarte: Rahmen, Fronten und Auflagen sind in mehreren RAL-Farbtönen erhältlich – so lassen sich Zimmer und Bereiche freundlich und gut unterscheidbar gestalten. Die Pflegeplätze AGATKA und KACPEREK sind aus denselben Modulen aufgebaut (U Waschbecken · A Badewanne · B Wickeltisch · C Behandlungstisch bzw. P Zwischenmodul) und lassen sich einzeln stellen oder auf einem gemeinsamen Rahmen zu einer durchgehenden Zeile verbinden. Die Zusatzausstattung – Wärmestrahler, Auszugsablage für die Säuglingswaage, Abwurfbehälter, Handschuhspender und Instrumentenbehälter – ist über die Baureihen hinweg identisch und frei kombinierbar.",
   "Die Modelle zu diesem Bereich werden derzeit aufbereitet und in Kürze ergänzt.",
   "Hersteller MOBIAK – Website in neuem Tab öffnen",
   "Herstellerunabhängige Produktbeschaffung",
@@ -3341,7 +3358,7 @@ def _body_produkte(lang):
         swaps.append((_kenex_cards("decken", s), _kenex_cards("decken", s, lang)))
     for s in ("unterkoerper", "kopfende", "top", "aufbewahrung"):
         swaps.append((_kenex_cards("tisch", s), _kenex_cards("tisch", s, lang)))
-    for c in ("fix", "hydraulisch", "elektrisch", "chiro", "stuehle", "sichtschutz", "mrt", "wagen", "station", "gvw", "btisch", "trans"):
+    for c in ("fix", "hydraulisch", "elektrisch", "chiro", "stuehle", "sichtschutz", "mrt", "wagen", "station", "gvw", "btisch", "trans", "neo"):
         swaps.append((_cards(c), _cards(c, lang)))
     swaps.append((_hb_cards("rollstuehle"), _hb_cards("rollstuehle", lang=lang)))
     swaps.append((_hb_cards("erollstuehle"), _hb_cards("erollstuehle", lang=lang)))
@@ -3353,8 +3370,8 @@ def _body_produkte(lang):
     swaps.append((_farben_html(), _farben_html(lang)))
     swaps.append((_downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS),
                   _downloads_cat_cards("06", "downloads-strahlenschutz", _DL_LEAD_SS, DL_SS, lang=lang)))
-    swaps.append((_downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
-                  _downloads_datasheets("10", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
+    swaps.append((_downloads_datasheets("11", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG),
+                  _downloads_datasheets("11", "downloads-medizinische-einrichtung", _DL_LEAD_MED, DL_MED_CATS, catalog=DL_MED_CATALOG, lang=lang)))
     swaps.append((_downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB),
                   _downloads_category("06", "downloads-heilbehelfe", "", [], note=_DL_NOTE_ANFRAGE_HB, lang=lang)))
     for de_block, tr_block in swaps:

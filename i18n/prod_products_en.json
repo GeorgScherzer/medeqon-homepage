@@ -3530,5 +3530,385 @@
         "One or several rows, length as required"
       ]
     ]
+  },
+  "nn-bm0": {
+    "model": "BM0 baby crib",
+    "description": "Mobile baby crib with a transparent plastic tub on a powder-coated tubular steel frame – the robust entry-level model for maternity and newborn rooms.",
+    "specs": [
+      [
+        "Frame",
+        "Tubular frame of powder-coated steel"
+      ],
+      [
+        "Tub",
+        "Transparent plastic (PC), fitted with mattress"
+      ],
+      [
+        "Internal tub dimensions",
+        "660 × 410 × 220 mm (L × W × H)"
+      ],
+      [
+        "Overall dimensions",
+        "830 × 570 × 995 mm (L × W × H)"
+      ],
+      [
+        "Height",
+        "Fixed – no height adjustment"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, with brake"
+      ],
+      [
+        "Colours",
+        "Frame powder-coated to the RAL or TECH-MED colour card"
+      ]
+    ]
+  },
+  "nn-bm1": {
+    "model": "BM1 baby crib",
+    "description": "Mobile baby crib on a white powder-coated aluminium column with a star base – a slim footprint, optionally with gas-spring height adjustment.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile, white powder-coated"
+      ],
+      [
+        "Tub",
+        "Transparent plastic (PC), fitted with mattress"
+      ],
+      [
+        "Internal tub dimensions",
+        "660 × 410 × 220 mm (L × W × H)"
+      ],
+      [
+        "Overall dimensions",
+        "755 × 480 × 970 mm (L × W × H)"
+      ],
+      [
+        "Height adjustment",
+        "Option: gas spring, 970 – 1270 mm"
+      ],
+      [
+        "Base",
+        "Steel with ABS plastic cover"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm plastic castors, with brake"
+      ],
+      [
+        "Accessories",
+        "Storage basket"
+      ],
+      [
+        "Colours",
+        "Decorative elements powder-coated to the RAL or TECH-MED colour card"
+      ]
+    ]
+  },
+  "nn-bm2": {
+    "model": "BM2 baby crib",
+    "description": "Mobile baby crib on two aluminium columns with height adjustment as standard – available with storage baskets or with a cabinet for linen and care supplies.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile, white powder-coated"
+      ],
+      [
+        "Tub",
+        "Transparent plastic (PC), fitted with mattress"
+      ],
+      [
+        "Internal tub dimensions",
+        "660 × 410 × 220 mm (L × W × H)"
+      ],
+      [
+        "Overall dimensions",
+        "815 × 480 × 970 – 1270 mm (L × W × H)"
+      ],
+      [
+        "Height adjustment",
+        "970 – 1270 mm"
+      ],
+      [
+        "Base",
+        "Steel with ABS plastic cover"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm plastic castors, with brake"
+      ],
+      [
+        "Versions",
+        "Without substructure · with one or two storage baskets · with a two-door cabinet"
+      ],
+      [
+        "Colours",
+        "Decorative elements and cabinet fronts powder-coated to the RAL or TECH-MED colour card"
+      ]
+    ]
+  },
+  "nn-agatka": {
+    "model": "AGATKA baby nursing station",
+    "description": "Modular nursing station on an aluminium profile frame: washbasin, bathtub, nursing and treatment modules can be placed individually or combined into a continuous run.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profiles with ABS connectors, anodised or powder-coated to the RAL colour card, with adjustable feet"
+      ],
+      [
+        "Infill panels",
+        "Chipboard laminated on both sides"
+      ],
+      [
+        "Worktops",
+        "Modules A (bathtub), U (washbasin) and B (nursing table) of glass-polyester laminate; module C (treatment table) of chipboard"
+      ],
+      [
+        "Mattress",
+        "Nursing and treatment modules fitted with a mattress"
+      ],
+      [
+        "Module dimensions",
+        "U 400 × 580 × 900 mm · A 800 or 900 × 580 × 900 mm · B 700 × 580 × 900 mm · C 900 × 580 × 900 mm (L × D × H)"
+      ],
+      [
+        "Versions",
+        "Standard: stand-alone modules with separate worktops · option: modules on a combined frame, monolithic worktop for the A + B set"
+      ],
+      [
+        "Option",
+        "Mobile steel base with Ø 100 mm castors (modules B and B1)"
+      ],
+      [
+        "Additional equipment",
+        "Extended basin mixer tap or pull-out shower, thermostatic tap, warmer, waste bin, slide-out shelf for neonatal scales"
+      ]
+    ]
+  },
+  "nn-kacperek": {
+    "model": "KACPEREK baby nursing station",
+    "description": "Modular nursing station in cabinet construction with a laminated chipboard carcass and lacquered MDF fronts – as a single module or as a continuous washing, bathing and nursing run.",
+    "specs": [
+      [
+        "Carcass & shelves",
+        "Chipboard laminated on both sides, with levelling feet"
+      ],
+      [
+        "Fronts",
+        "MDF board, powder-lacquered to the RAL colour card"
+      ],
+      [
+        "Worktops",
+        "Modules A (bathtub), U (washbasin) and B (nursing table) of glass-polyester laminate"
+      ],
+      [
+        "Mattress",
+        "Nursing module fitted with a mattress"
+      ],
+      [
+        "Module dimensions",
+        "U 400 × 580 × 900 mm · A 800 or 900 × 580 × 900 mm · B 700 × 580 × 900 mm · P 250 × 580 × 900 mm (L × D × H)"
+      ],
+      [
+        "Versions",
+        "Standard: stand-alone modules with separate worktops · option: modules on a combined frame, monolithic worktop for the A + B set"
+      ],
+      [
+        "Option",
+        "Mobile steel base with Ø 100 mm castors (module B)"
+      ],
+      [
+        "Additional equipment",
+        "Extended basin mixer tap or pull-out shower, thermostatic tap, warmer, waste bin, slide-out shelf for neonatal scales"
+      ]
+    ]
+  },
+  "nn-rn": {
+    "model": "RN nursing table",
+    "description": "Mobile nursing table with tilting plexiglass bands on three sides and a cabinet below – compact enough for the patient room, with a slide-out shelf for neonatal scales.",
+    "specs": [
+      [
+        "Versions",
+        "RN-01 with drawers · RN-02 with door and drawer"
+      ],
+      [
+        "Worktop",
+        "Powder-coated steel with mattress, surrounded on three sides by tilting plexiglass bands"
+      ],
+      [
+        "Carcass",
+        "Chipboard, with doors or drawers"
+      ],
+      [
+        "Fronts",
+        "MDF board, laminated to the RAL or TECH-MED colour card"
+      ],
+      [
+        "Base",
+        "ABS plastic or powder-coated steel"
+      ],
+      [
+        "Overall dimensions",
+        "700 × 550 × 1090 mm (L × W × H)"
+      ],
+      [
+        "Working height",
+        "900 mm; plexiglass bands 190 mm high"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm, two lockable"
+      ]
+    ]
+  },
+  "nn-sam": {
+    "model": "SAM nursing table",
+    "description": "Mobile nursing table with a generous work surface, plexiglass bands on three sides and a shelf for neonatal scales – with open compartments, doors or drawers.",
+    "specs": [
+      [
+        "Versions",
+        "SAM-01 open compartments with drawer block · SAM-01S open compartments with door · SAM-02S drawer and two-door cabinet · SAM-03 door and four drawers"
+      ],
+      [
+        "Worktop",
+        "Powder-coated steel with mattress, surrounded on three sides by plexiglass bands"
+      ],
+      [
+        "Carcass",
+        "Laminated furniture board in white, with doors or drawers"
+      ],
+      [
+        "Fronts",
+        "MDF board, lacquered to the RAL or TECH-MED colour card"
+      ],
+      [
+        "Scales shelf",
+        "Furniture-board shelf with railings to prevent the equipment from sliding"
+      ],
+      [
+        "Overall dimensions",
+        "1000 × 700 × 1050 mm (L × W × H)"
+      ],
+      [
+        "Working height",
+        "900 mm"
+      ],
+      [
+        "Castors",
+        "Ø 100 mm, two lockable"
+      ]
+    ]
+  },
+  "nn-sptm": {
+    "model": "SPTM nursing table",
+    "description": "Mobile nursing and treatment table on an aluminium frame with an instrument rail for the full accessory range – optionally with electric height adjustment.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile, white powder-coated; base of powder-coated steel in white"
+      ],
+      [
+        "Worktop",
+        "A(2) powder-coated steel with ABS edges, mattress and upholstered surround on three sides · B(1) furniture board with permanently fixed mattress and upholstered bands on three sides"
+      ],
+      [
+        "Substructure",
+        "Cabinet, shelf and drawer of white laminated furniture board"
+      ],
+      [
+        "Fronts",
+        "Laminated furniture board to the TECH-MED colour card"
+      ],
+      [
+        "Overall dimensions",
+        "900 × 700 × 970 mm (L × W × H)"
+      ],
+      [
+        "Working height",
+        "900 mm"
+      ],
+      [
+        "Option",
+        "Electric height adjustment 650 – 1300 mm, with levelling feet"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm, all lockable"
+      ],
+      [
+        "Accessories",
+        "Slide-out shelf for neonatal scales, glove box holder, instrument container, accessories basket, waste bin or waste bag holder with lid – mounted on the instrument rail on the frame"
+      ]
+    ]
+  },
+  "nn-sptm2": {
+    "model": "SPTM2 nursing table",
+    "description": "Narrow nursing table of the SPTM series with a fully upholstered lying surface and upholstered bands on three sides – optionally with gas-spring height adjustment.",
+    "specs": [
+      [
+        "Frame",
+        "Aluminium profile, white powder-coated; base of steel with ABS plastic cover in white"
+      ],
+      [
+        "Worktop",
+        "Upholstered, with upholstered bands on three sides, 50 mm wide and 70 mm high"
+      ],
+      [
+        "Substructure",
+        "Cabinet, shelf and drawer of white laminated chipboard"
+      ],
+      [
+        "Fronts",
+        "Powder-lacquered MDF furniture board to the TECH-MED colour card"
+      ],
+      [
+        "Overall dimensions",
+        "480 × 755 × 900 mm (L × W × H)"
+      ],
+      [
+        "With gas spring",
+        "480 × 755 × 700 – 1030 mm (L × W × H)"
+      ],
+      [
+        "Castors",
+        "Ø 75 mm in a plastic housing, all lockable"
+      ],
+      [
+        "Accessories",
+        "Glove box holder, instrument container, accessories basket, waste bin or waste bag holder with lid – mounted on the instrument rail on the frame"
+      ]
+    ]
+  },
+  "nn-bp": {
+    "model": "BP nursing & treatment table",
+    "description": "Stationary nursing and treatment table with a cabinet below in three widths – from the narrow single unit to the 1500 mm wide workstation with scales and warmer.",
+    "specs": [
+      [
+        "Sizes",
+        "BP-1 / BP-2 700 × 580 × 900 mm · BP-3 1100 × 580 × 900 mm · BP-4 / BP-5 / BP-6 / BP-6/A 1500 × 580 × 900 mm (W × D × H)"
+      ],
+      [
+        "Carcass",
+        "Laminated chipboard in white"
+      ],
+      [
+        "Fronts",
+        "Lacquered MDF furniture board (doors, drawers) to the TECH-MED colour card"
+      ],
+      [
+        "Mattress",
+        "Fitted with a mattress"
+      ],
+      [
+        "Installation",
+        "Stationary, with adjustable feet for levelling"
+      ],
+      [
+        "Additional equipment",
+        "Warmer, waste bin, slide-out shelf for neonatal scales, phototherapy lamp, neonatal scales"
+      ]
+    ]
   }
 }

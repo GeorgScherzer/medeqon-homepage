@@ -3530,5 +3530,385 @@
         "Pe unul sau mai multe rânduri, lungime după necesități"
       ]
     ]
+  },
+  "nn-bm0": {
+    "model": "Pătuț pentru nou-născuți BM0",
+    "description": "Pătuț mobil pentru nou-născuți cu cuvă transparentă din plastic pe un cadru din țeavă de oțel vopsită în câmp electrostatic – modelul de bază robust pentru saloanele de lăuzie și nou-născuți.",
+    "specs": [
+      [
+        "Cadru",
+        "Cadru tubular din oțel vopsit în câmp electrostatic"
+      ],
+      [
+        "Cuvă",
+        "Plastic transparent (PC), echipată cu saltea"
+      ],
+      [
+        "Dimensiuni interioare cuvă",
+        "660 × 410 × 220 mm (L × l × Î)"
+      ],
+      [
+        "Dimensiuni totale",
+        "830 × 570 × 995 mm (L × l × Î)"
+      ],
+      [
+        "Înălțime",
+        "Fixă – fără reglaj pe înălțime"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, cu blocare"
+      ],
+      [
+        "Culori",
+        "Cadru vopsit în câmp electrostatic conform paletei RAL sau cartelei de culori TECH-MED"
+      ]
+    ]
+  },
+  "nn-bm1": {
+    "model": "Pătuț pentru nou-născuți BM1",
+    "description": "Pătuț mobil pentru nou-născuți pe o coloană de aluminiu vopsită alb, cu bază în stea – amprentă redusă la sol, opțional cu reglaj pe înălțime prin arc cu gaz.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil de aluminiu, vopsit alb în câmp electrostatic"
+      ],
+      [
+        "Cuvă",
+        "Plastic transparent (PC), echipată cu saltea"
+      ],
+      [
+        "Dimensiuni interioare cuvă",
+        "660 × 410 × 220 mm (L × l × Î)"
+      ],
+      [
+        "Dimensiuni totale",
+        "755 × 480 × 970 mm (L × l × Î)"
+      ],
+      [
+        "Reglaj pe înălțime",
+        "Opțiune: arc cu gaz, 970 – 1270 mm"
+      ],
+      [
+        "Bază",
+        "Oțel cu capac din plastic ABS"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm din plastic, cu blocare"
+      ],
+      [
+        "Accesorii",
+        "Coș de depozitare"
+      ],
+      [
+        "Culori",
+        "Elemente decorative vopsite în câmp electrostatic conform paletei RAL sau cartelei de culori TECH-MED"
+      ]
+    ]
+  },
+  "nn-bm2": {
+    "model": "Pătuț pentru nou-născuți BM2",
+    "description": "Pătuț mobil pentru nou-născuți pe două coloane de aluminiu, cu reglaj pe înălțime în dotarea standard – la alegere cu coșuri de depozitare sau cu dulap pentru lenjerie și materiale de îngrijire.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil de aluminiu, vopsit alb în câmp electrostatic"
+      ],
+      [
+        "Cuvă",
+        "Plastic transparent (PC), echipată cu saltea"
+      ],
+      [
+        "Dimensiuni interioare cuvă",
+        "660 × 410 × 220 mm (L × l × Î)"
+      ],
+      [
+        "Dimensiuni totale",
+        "815 × 480 × 970 – 1270 mm (L × l × Î)"
+      ],
+      [
+        "Reglaj pe înălțime",
+        "970 – 1270 mm"
+      ],
+      [
+        "Bază",
+        "Oțel cu capac din plastic ABS"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm din plastic, cu blocare"
+      ],
+      [
+        "Variante",
+        "Fără structură inferioară · cu unul sau două coșuri de depozitare · cu dulap cu două uși"
+      ],
+      [
+        "Culori",
+        "Elementele decorative și fronturile dulapului vopsite în câmp electrostatic conform paletei RAL sau cartelei de culori TECH-MED"
+      ]
+    ]
+  },
+  "nn-agatka": {
+    "model": "Post de îngrijire a sugarilor AGATKA",
+    "description": "Post de îngrijire modular pe un cadru din profile de aluminiu: modulul de lavoar, cel de baie, masa de înfășat și masa de tratament pot fi amplasate individual sau unite într-un ansamblu continuu.",
+    "specs": [
+      [
+        "Cadru",
+        "Profile de aluminiu cu conectori ABS, anodizate sau vopsite în câmp electrostatic conform paletei RAL, cu picioare reglabile"
+      ],
+      [
+        "Umpluturi",
+        "PAL melaminat pe ambele fețe"
+      ],
+      [
+        "Blaturi",
+        "Modulele A (cadă de baie), U (lavoar) și B (masă de înfășat) din laminat poliesteric armat cu fibră de sticlă; modulul C (masă de tratament) din PAL"
+      ],
+      [
+        "Saltea",
+        "Modulele de înfășat și de tratament echipate cu saltea"
+      ],
+      [
+        "Dimensiuni module",
+        "U 400 × 580 × 900 mm · A 800 sau 900 × 580 × 900 mm · B 700 × 580 × 900 mm · C 900 × 580 × 900 mm (L × A × Î)"
+      ],
+      [
+        "Variante",
+        "Standard: module independente cu blaturi separate · opțiune: module pe cadru comun, blat continuu pentru setul A + B"
+      ],
+      [
+        "Opțiune",
+        "Bază mobilă din oțel cu roți Ø 100 mm (modulele B și B1)"
+      ],
+      [
+        "Dotări suplimentare",
+        "Baterie de lavoar prelungită sau cu duș extensibil, baterie cu termostat, radiant de căldură, recipient pentru deșeuri, raft extensibil pentru cântarul de sugari"
+      ]
+    ]
+  },
+  "nn-kacperek": {
+    "model": "Post de îngrijire a sugarilor KACPEREK",
+    "description": "Post de îngrijire modular în construcție de mobilier, cu corp din PAL melaminat și fronturi din MDF lăcuit – ca modul individual sau ca ansamblu continuu de spălare, baie și înfășat.",
+    "specs": [
+      [
+        "Corp și rafturi",
+        "PAL melaminat pe ambele fețe, cu picioare de nivelare"
+      ],
+      [
+        "Fronturi",
+        "Placă MDF, lăcuită în câmp electrostatic conform paletei RAL"
+      ],
+      [
+        "Blaturi",
+        "Modulele A (cadă de baie), U (lavoar) și B (masă de înfășat) din laminat poliesteric armat cu fibră de sticlă"
+      ],
+      [
+        "Saltea",
+        "Modulul de înfășat echipat cu saltea"
+      ],
+      [
+        "Dimensiuni module",
+        "U 400 × 580 × 900 mm · A 800 sau 900 × 580 × 900 mm · B 700 × 580 × 900 mm · P 250 × 580 × 900 mm (L × A × Î)"
+      ],
+      [
+        "Variante",
+        "Standard: module independente cu blaturi separate · opțiune: module pe cadru comun, blat continuu pentru setul A + B"
+      ],
+      [
+        "Opțiune",
+        "Bază mobilă din oțel cu roți Ø 100 mm (modulul B)"
+      ],
+      [
+        "Dotări suplimentare",
+        "Baterie de lavoar prelungită sau cu duș extensibil, baterie cu termostat, radiant de căldură, recipient pentru deșeuri, raft extensibil pentru cântarul de sugari"
+      ]
+    ]
+  },
+  "nn-rn": {
+    "model": "Masă de înfășat RN",
+    "description": "Masă de înfășat mobilă cu borduri rabatabile din plexiglas pe trei laturi și dulap dedesubt – suficient de compactă pentru salon, cu raft extensibil pentru cântarul de sugari.",
+    "specs": [
+      [
+        "Variante",
+        "RN-01 cu sertare · RN-02 cu ușă și sertar"
+      ],
+      [
+        "Blat",
+        "Oțel vopsit în câmp electrostatic cu saltea, mărginit pe trei laturi de borduri rabatabile din plexiglas"
+      ],
+      [
+        "Corp",
+        "PAL, cu uși sau sertare"
+      ],
+      [
+        "Fronturi",
+        "Placă MDF, melaminată conform paletei RAL sau cartelei de culori TECH-MED"
+      ],
+      [
+        "Bază",
+        "Plastic ABS sau oțel vopsit în câmp electrostatic"
+      ],
+      [
+        "Dimensiuni totale",
+        "700 × 550 × 1090 mm (L × l × Î)"
+      ],
+      [
+        "Înălțime de lucru",
+        "900 mm; borduri din plexiglas cu înălțimea de 190 mm"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm, două cu blocare"
+      ]
+    ]
+  },
+  "nn-sam": {
+    "model": "Masă de înfășat SAM",
+    "description": "Masă de înfășat mobilă cu suprafață de lucru generoasă, borduri din plexiglas pe trei laturi și raft pentru cântarul de sugari – la alegere cu nișe deschise, uși sau sertare.",
+    "specs": [
+      [
+        "Variante",
+        "SAM-01 nișe deschise cu bloc de sertare · SAM-01S nișe deschise cu ușă · SAM-02S sertar și dulap cu două uși · SAM-03 ușă și patru sertare"
+      ],
+      [
+        "Blat",
+        "Oțel vopsit în câmp electrostatic cu saltea, mărginit pe trei laturi de borduri din plexiglas"
+      ],
+      [
+        "Corp",
+        "Placă de mobilier melaminată în alb, cu uși sau sertare"
+      ],
+      [
+        "Fronturi",
+        "Placă MDF, lăcuită conform paletei RAL sau cartelei de culori TECH-MED"
+      ],
+      [
+        "Raft pentru cântar",
+        "Raft din placă de mobilier cu bordură care împiedică alunecarea aparatului"
+      ],
+      [
+        "Dimensiuni totale",
+        "1000 × 700 × 1050 mm (L × l × Î)"
+      ],
+      [
+        "Înălțime de lucru",
+        "900 mm"
+      ],
+      [
+        "Roți",
+        "Ø 100 mm, două cu blocare"
+      ]
+    ]
+  },
+  "nn-sptm": {
+    "model": "Masă de înfășat SPTM",
+    "description": "Masă mobilă de înfășat și tratament pe cadru de aluminiu, cu șină portaccesorii pentru întregul program de accesorii – opțional cu reglaj electric pe înălțime.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil de aluminiu, vopsit alb în câmp electrostatic; bază din oțel vopsit alb în câmp electrostatic"
+      ],
+      [
+        "Blat",
+        "A(2) oțel vopsit în câmp electrostatic cu cant ABS, saltea și bordură tapițată pe trei laturi · B(1) placă de mobilier cu saltea fixată permanent și borduri tapițate pe trei laturi"
+      ],
+      [
+        "Structură inferioară",
+        "Dulap, raft și sertar din placă de mobilier melaminată albă"
+      ],
+      [
+        "Fronturi",
+        "Placă de mobilier melaminată conform cartelei de culori TECH-MED"
+      ],
+      [
+        "Dimensiuni totale",
+        "900 × 700 × 970 mm (L × l × Î)"
+      ],
+      [
+        "Înălțime de lucru",
+        "900 mm"
+      ],
+      [
+        "Opțiune",
+        "Reglaj electric pe înălțime 650 – 1300 mm, cu picioare de nivelare"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm, toate cu blocare"
+      ],
+      [
+        "Accesorii",
+        "Raft extensibil pentru cântarul de sugari, suport pentru cutia de mănuși, recipient pentru instrumente, coș pentru accesorii, recipient pentru deșeuri sau suport pentru sac cu capac – montate pe șina portaccesorii de pe cadru"
+      ]
+    ]
+  },
+  "nn-sptm2": {
+    "model": "Masă de înfășat SPTM2",
+    "description": "Masă de înfășat îngustă din seria SPTM, cu suprafață de culcare complet tapițată și borduri tapițate pe trei laturi – opțional cu reglaj pe înălțime prin arc cu gaz.",
+    "specs": [
+      [
+        "Cadru",
+        "Profil de aluminiu, vopsit alb în câmp electrostatic; bază din oțel cu capac din plastic ABS în alb"
+      ],
+      [
+        "Blat",
+        "Tapițat, cu borduri tapițate pe trei laturi, late de 50 mm și înalte de 70 mm"
+      ],
+      [
+        "Structură inferioară",
+        "Dulap, raft și sertar din PAL melaminat alb"
+      ],
+      [
+        "Fronturi",
+        "Placă de mobilier MDF lăcuită în câmp electrostatic conform cartelei de culori TECH-MED"
+      ],
+      [
+        "Dimensiuni totale",
+        "480 × 755 × 900 mm (L × l × Î)"
+      ],
+      [
+        "Cu arc cu gaz",
+        "480 × 755 × 700 – 1030 mm (L × l × Î)"
+      ],
+      [
+        "Roți",
+        "Ø 75 mm în carcasă de plastic, toate cu blocare"
+      ],
+      [
+        "Accesorii",
+        "Suport pentru cutia de mănuși, recipient pentru instrumente, coș pentru accesorii, recipient pentru deșeuri sau suport pentru sac cu capac – montate pe șina portaccesorii de pe cadru"
+      ]
+    ]
+  },
+  "nn-bp": {
+    "model": "Masă de înfășat și tratament BP",
+    "description": "Masă staționară de înfășat și tratament cu dulap dedesubt, în trei lățimi – de la postul individual îngust până la postul de lucru de 1500 mm cu cântar și radiant de căldură.",
+    "specs": [
+      [
+        "Dimensiuni",
+        "BP-1 / BP-2 700 × 580 × 900 mm · BP-3 1100 × 580 × 900 mm · BP-4 / BP-5 / BP-6 / BP-6/A 1500 × 580 × 900 mm (l × A × Î)"
+      ],
+      [
+        "Corp",
+        "PAL melaminat în alb"
+      ],
+      [
+        "Fronturi",
+        "Placă de mobilier MDF lăcuită (uși, sertare) conform cartelei de culori TECH-MED"
+      ],
+      [
+        "Saltea",
+        "Echipată cu saltea"
+      ],
+      [
+        "Amplasare",
+        "Staționară, cu picioare reglabile pentru nivelare"
+      ],
+      [
+        "Dotări suplimentare",
+        "Radiant de căldură, recipient pentru deșeuri, raft extensibil pentru cântarul de sugari, lampă de fototerapie, cântar de sugari"
+      ]
+    ]
   }
 }

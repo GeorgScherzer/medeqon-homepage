@@ -3922,5 +3922,425 @@
         "Ein- oder mehrreihig, Länge nach Bedarf"
       ]
     ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-bm0",
+    "model": "Babybett BM0",
+    "ref": "BM0",
+    "image_count": 4,
+    "description": "Fahrbares Babybett mit transparenter Kunststoffwanne auf einem Gestell aus pulverbeschichtetem Stahlrohr – das robuste Einstiegsmodell für Wochenbett und Neugeborenenzimmer.",
+    "specs": [
+      [
+        "Gestell",
+        "Rohrgestell aus pulverbeschichtetem Stahl"
+      ],
+      [
+        "Wanne",
+        "Transparenter Kunststoff (PC), mit Matratze"
+      ],
+      [
+        "Innenmaße Wanne",
+        "660 × 410 × 220 mm (L × B × H)"
+      ],
+      [
+        "Gesamtmaße",
+        "830 × 570 × 995 mm (L × B × H)"
+      ],
+      [
+        "Höhe",
+        "Fest – ohne Höhenverstellung"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm, mit Feststeller"
+      ],
+      [
+        "Farben",
+        "Gestell pulverbeschichtet nach RAL- bzw. TECH-MED-Farbkarte"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-bm1",
+    "model": "Babybett BM1",
+    "ref": "BM1",
+    "image_count": 4,
+    "description": "Fahrbares Babybett auf einer weiß pulverbeschichteten Aluminiumsäule mit Sternfuß – schlanke Stellfläche, auf Wunsch mit Gasfeder-Höhenverstellung.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofil, weiß pulverbeschichtet"
+      ],
+      [
+        "Wanne",
+        "Transparenter Kunststoff (PC), mit Matratze"
+      ],
+      [
+        "Innenmaße Wanne",
+        "660 × 410 × 220 mm (L × B × H)"
+      ],
+      [
+        "Gesamtmaße",
+        "755 × 480 × 970 mm (L × B × H)"
+      ],
+      [
+        "Höhenverstellung",
+        "Option: Gasfeder, 970 – 1270 mm"
+      ],
+      [
+        "Fuß",
+        "Stahl mit ABS-Kunststoffabdeckung"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm Kunststoffrollen, mit Feststeller"
+      ],
+      [
+        "Zubehör",
+        "Ablagekorb"
+      ],
+      [
+        "Farben",
+        "Dekorelemente pulverbeschichtet nach RAL- bzw. TECH-MED-Farbkarte"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-bm2",
+    "model": "Babybett BM2",
+    "ref": "BM2",
+    "image_count": 6,
+    "description": "Fahrbares Babybett auf zwei Aluminiumsäulen mit serienmäßiger Höhenverstellung – wahlweise mit Ablagekörben oder Unterschrank für Wäsche und Pflegematerial.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofil, weiß pulverbeschichtet"
+      ],
+      [
+        "Wanne",
+        "Transparenter Kunststoff (PC), mit Matratze"
+      ],
+      [
+        "Innenmaße Wanne",
+        "660 × 410 × 220 mm (L × B × H)"
+      ],
+      [
+        "Gesamtmaße",
+        "815 × 480 × 970 – 1270 mm (L × B × H)"
+      ],
+      [
+        "Höhenverstellung",
+        "970 – 1270 mm"
+      ],
+      [
+        "Fuß",
+        "Stahl mit ABS-Kunststoffabdeckung"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm Kunststoffrollen, mit Feststeller"
+      ],
+      [
+        "Ausführungen",
+        "Ohne Unterbau · mit einem oder zwei Ablagekörben · mit zweitürigem Unterschrank"
+      ],
+      [
+        "Farben",
+        "Dekorelemente und Schrankfronten pulverbeschichtet nach RAL- bzw. TECH-MED-Farbkarte"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-agatka",
+    "model": "Säuglingspflegeplatz AGATKA",
+    "ref": "AGATKA · Module U / A / B / C",
+    "image_count": 8,
+    "description": "Modularer Pflegeplatz auf einem Rahmen aus Aluminiumprofilen: Waschbecken-, Bade-, Wickel- und Behandlungsmodul lassen sich einzeln aufstellen oder zu einer durchgehenden Zeile zusammenfassen.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofile mit ABS-Verbindern, eloxiert oder pulverbeschichtet nach RAL-Farbkarte, mit höhenverstellbaren Füßen"
+      ],
+      [
+        "Füllungen",
+        "Beidseitig beschichtete Spanplatte"
+      ],
+      [
+        "Arbeitsplatten",
+        "Module A (Badewanne), U (Waschbecken) und B (Wickeltisch) aus Glasfaser-Polyesterlaminat; Modul C (Behandlungstisch) aus Spanplatte"
+      ],
+      [
+        "Auflage",
+        "Wickel- und Behandlungsmodul mit Matratze"
+      ],
+      [
+        "Modulmaße",
+        "U 400 × 580 × 900 mm · A 800 oder 900 × 580 × 900 mm · B 700 × 580 × 900 mm · C 900 × 580 × 900 mm (L × T × H)"
+      ],
+      [
+        "Ausführungen",
+        "Standard: einzeln stehende Module mit getrennten Arbeitsplatten · Option: Module auf gemeinsamem Rahmen, durchgehende Arbeitsplatte für die Kombination A + B"
+      ],
+      [
+        "Option",
+        "Fahrbarer Unterbau aus Stahl mit Ø 100 mm Rollen (Modul B und B1)"
+      ],
+      [
+        "Zusatzausstattung",
+        "Verlängerte Mischbatterie oder Brausearmatur, Thermostatarmatur, Wärmestrahler, Abwurfbehälter, Auszugsablage für die Säuglingswaage"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-kacperek",
+    "model": "Säuglingspflegeplatz KACPEREK",
+    "ref": "KACPEREK · Module U / A / B / P",
+    "image_count": 7,
+    "description": "Modularer Pflegeplatz in Möbelbauweise mit Korpus aus beschichteter Spanplatte und lackierten MDF-Fronten – als Einzelmodul oder als durchgehende Zeile aus Wasch-, Bade- und Wickelplatz.",
+    "specs": [
+      [
+        "Korpus & Böden",
+        "Beidseitig beschichtete Spanplatte, mit Stellfüßen zum Nivellieren"
+      ],
+      [
+        "Fronten",
+        "MDF-Platte, pulverlackiert nach RAL-Farbkarte"
+      ],
+      [
+        "Arbeitsplatten",
+        "Module A (Badewanne), U (Waschbecken) und B (Wickeltisch) aus Glasfaser-Polyesterlaminat"
+      ],
+      [
+        "Auflage",
+        "Wickelmodul mit Matratze"
+      ],
+      [
+        "Modulmaße",
+        "U 400 × 580 × 900 mm · A 800 oder 900 × 580 × 900 mm · B 700 × 580 × 900 mm · P 250 × 580 × 900 mm (L × T × H)"
+      ],
+      [
+        "Ausführungen",
+        "Standard: einzeln stehende Module mit getrennten Arbeitsplatten · Option: Module auf gemeinsamem Rahmen, durchgehende Arbeitsplatte für die Kombination A + B"
+      ],
+      [
+        "Option",
+        "Fahrbarer Unterbau aus Stahl mit Ø 100 mm Rollen (Modul B)"
+      ],
+      [
+        "Zusatzausstattung",
+        "Verlängerte Mischbatterie oder Brausearmatur, Thermostatarmatur, Wärmestrahler, Abwurfbehälter, Auszugsablage für die Säuglingswaage"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-rn",
+    "model": "Wickeltisch RN",
+    "ref": "RN-01 / RN-02",
+    "image_count": 2,
+    "description": "Fahrbarer Wickeltisch mit dreiseitig klappbaren Plexiglasbanden und Unterschrank – kompakt genug für das Patientenzimmer, mit Auszugsablage für die Säuglingswaage.",
+    "specs": [
+      [
+        "Ausführungen",
+        "RN-01 mit Schubladen · RN-02 mit Tür und Schublade"
+      ],
+      [
+        "Arbeitsplatte",
+        "Pulverbeschichteter Stahl mit Matratze, dreiseitig von klappbaren Plexiglasbanden umgeben"
+      ],
+      [
+        "Korpus",
+        "Spanplatte, mit Türen oder Schubladen"
+      ],
+      [
+        "Fronten",
+        "MDF-Platte, beschichtet nach RAL- bzw. TECH-MED-Farbkarte"
+      ],
+      [
+        "Fuß",
+        "ABS-Kunststoff oder pulverbeschichteter Stahl"
+      ],
+      [
+        "Gesamtmaße",
+        "700 × 550 × 1090 mm (L × B × H)"
+      ],
+      [
+        "Arbeitshöhe",
+        "900 mm; Plexiglasbanden 190 mm hoch"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm, zwei mit Feststeller"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-sam",
+    "model": "Wickeltisch SAM",
+    "ref": "SAM-01 / -01S / -02S / -03",
+    "image_count": 4,
+    "description": "Fahrbarer Wickeltisch mit großzügiger Arbeitsfläche, dreiseitigen Plexiglasbanden und Ablagefach für die Säuglingswaage – wahlweise mit offenen Fächern, Türen oder Schubladen.",
+    "specs": [
+      [
+        "Ausführungen",
+        "SAM-01 offene Fächer mit Schubladenblock · SAM-01S offene Fächer mit Tür · SAM-02S Schublade und zweitüriger Schrank · SAM-03 Tür und vier Schubladen"
+      ],
+      [
+        "Arbeitsplatte",
+        "Pulverbeschichteter Stahl mit Matratze, dreiseitig von Plexiglasbanden umgeben"
+      ],
+      [
+        "Korpus",
+        "Beschichtete Möbelplatte in Weiß, mit Türen oder Schubladen"
+      ],
+      [
+        "Fronten",
+        "MDF-Platte, lackiert nach RAL- bzw. TECH-MED-Farbkarte"
+      ],
+      [
+        "Waagenablage",
+        "Fachboden aus Möbelplatte mit Aufkantung gegen Verrutschen des Geräts"
+      ],
+      [
+        "Gesamtmaße",
+        "1000 × 700 × 1050 mm (L × B × H)"
+      ],
+      [
+        "Arbeitshöhe",
+        "900 mm"
+      ],
+      [
+        "Rollen",
+        "Ø 100 mm, zwei mit Feststeller"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-sptm",
+    "model": "Wickeltisch SPTM",
+    "ref": "SPTM · A(2) / B(1)",
+    "image_count": 7,
+    "description": "Fahrbarer Wickel- und Behandlungstisch auf Aluminiumrahmen mit Normschiene für das gesamte Zubehörprogramm – auf Wunsch mit elektrischer Höhenverstellung.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofil, weiß pulverbeschichtet; Fuß aus pulverbeschichtetem Stahl in Weiß"
+      ],
+      [
+        "Arbeitsplatte",
+        "A(2) pulverbeschichteter Stahl mit ABS-Kanten, Matratze und dreiseitiger Polsterumrandung · B(1) Möbelplatte mit fest montierter Matratze und dreiseitigen Polsterbanden"
+      ],
+      [
+        "Unterbau",
+        "Schrank, Fachboden und Schublade aus weiß beschichteter Möbelplatte"
+      ],
+      [
+        "Fronten",
+        "Beschichtete Möbelplatte nach TECH-MED-Farbkarte"
+      ],
+      [
+        "Gesamtmaße",
+        "900 × 700 × 970 mm (L × B × H)"
+      ],
+      [
+        "Arbeitshöhe",
+        "900 mm"
+      ],
+      [
+        "Option",
+        "Elektrische Höhenverstellung 650 – 1300 mm, mit nivellierbaren Stellfüßen"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm, alle mit Feststeller"
+      ],
+      [
+        "Zubehör",
+        "Auszugsablage für die Säuglingswaage, Handschuhboxhalter, Instrumentenbehälter, Zubehörkorb, Abwurfbehälter bzw. Abwurfbeutelhalter mit Deckel – an der Normschiene am Rahmen montiert"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-sptm2",
+    "model": "Wickeltisch SPTM2",
+    "ref": "SPTM2",
+    "image_count": 5,
+    "description": "Schmaler Wickeltisch der SPTM-Serie mit vollständig gepolsterter Liegefläche und dreiseitigen Polsterbanden – auf Wunsch mit Gasfeder-Höhenverstellung.",
+    "specs": [
+      [
+        "Rahmen",
+        "Aluminiumprofil, weiß pulverbeschichtet; Fuß aus Stahl mit ABS-Kunststoffabdeckung in Weiß"
+      ],
+      [
+        "Arbeitsplatte",
+        "Gepolstert, dreiseitig mit Polsterbanden 50 mm breit und 70 mm hoch"
+      ],
+      [
+        "Unterbau",
+        "Schrank, Fachboden und Schublade aus weiß beschichteter Spanplatte"
+      ],
+      [
+        "Fronten",
+        "Pulverlackierte MDF-Möbelplatte nach TECH-MED-Farbkarte"
+      ],
+      [
+        "Gesamtmaße",
+        "480 × 755 × 900 mm (L × B × H)"
+      ],
+      [
+        "Mit Gasfeder",
+        "480 × 755 × 700 – 1030 mm (L × B × H)"
+      ],
+      [
+        "Rollen",
+        "Ø 75 mm in Kunststoffgehäuse, alle mit Feststeller"
+      ],
+      [
+        "Zubehör",
+        "Handschuhboxhalter, Instrumentenbehälter, Zubehörkorb, Abwurfbehälter bzw. Abwurfbeutelhalter mit Deckel – an der Normschiene am Rahmen montiert"
+      ]
+    ]
+  },
+  {
+    "cat": "neo",
+    "slug": "nn-bp",
+    "model": "Wickel- & Behandlungstisch BP",
+    "ref": "BP-1 … BP-6/A",
+    "image_count": 7,
+    "description": "Stationärer Wickel- und Behandlungstisch mit Unterschrank in drei Baubreiten – von der schmalen Einzelzeile bis zum 1500 mm breiten Arbeitsplatz mit Waage und Wärmestrahler.",
+    "specs": [
+      [
+        "Baugrößen",
+        "BP-1 / BP-2 700 × 580 × 900 mm · BP-3 1100 × 580 × 900 mm · BP-4 / BP-5 / BP-6 / BP-6/A 1500 × 580 × 900 mm (B × T × H)"
+      ],
+      [
+        "Korpus",
+        "Beschichtete Spanplatte in Weiß"
+      ],
+      [
+        "Fronten",
+        "Lackierte MDF-Möbelplatte (Türen, Schubladen) nach TECH-MED-Farbkarte"
+      ],
+      [
+        "Auflage",
+        "Matratze"
+      ],
+      [
+        "Aufstellung",
+        "Stationär, mit höhenverstellbaren Stellfüßen zum Nivellieren"
+      ],
+      [
+        "Zusatzausstattung",
+        "Wärmestrahler, Abwurfbehälter, Auszugsablage für die Säuglingswaage, Fototherapielampe, Säuglingswaage"
+      ]
+    ]
   }
 ]
