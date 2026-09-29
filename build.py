@@ -2025,6 +2025,65 @@ _AKT_PROJECTS = [
                   "proiectare.",
         },
     },
+    {
+        "slug": "montanus-bad-schwalbach",
+        "imgs": ["aktuell/montanus-1.jpg"],
+        "alt": {
+            "de": ["Montanus-Klinik Bad Schwalbach: weißes Klinikgebäude mit Balkonen und Terrasse im Grünen"],
+            "en": ["Montanus-Klinik Bad Schwalbach: white clinic building with balconies and a terrace "
+                   "surrounded by greenery"],
+            "pl": ["Montanus-Klinik w Bad Schwalbach: biały budynek kliniki z balkonami i tarasem wśród zieleni"],
+            "ro": ["Montanus-Klinik din Bad Schwalbach: clădirea albă a clinicii, cu balcoane și terasă, "
+                   "înconjurată de verdeață"],
+        },
+        "title": {
+            "de": "Montanus-Klinik Bad Schwalbach · Medizintechnik für die Rehabilitation",
+            "en": "Montanus-Klinik Bad Schwalbach · Medical technology for rehabilitation",
+            "pl": "Montanus-Klinik Bad Schwalbach · technika medyczna dla rehabilitacji",
+            "ro": "Montanus-Klinik Bad Schwalbach · tehnologie medicală pentru reabilitare",
+        },
+        "desc": {
+            "de": "Mit der Montanus-Klinik in Bad Schwalbach sind wir jetzt auch in Deutschland im Einsatz. "
+                  "Die Fachklinik der Deutschen Rentenversicherung Oldenburg-Bremen im Rheingau-Taunus ist "
+                  "auf orthopädische Rehabilitation spezialisiert. Mit 145 Betten und rund 2.300 "
+                  "Patientinnen und Patienten im Jahr verfolgt sie ein klares Ziel: Menschen nach "
+                  "Operationen und Verletzungen wieder in Bewegung zu bringen. Wir statten die Klinik mit "
+                  "medizintechnischer Ausrüstung aus und stimmen Ausführung und Zubehör auf den "
+                  "therapeutischen Alltag ab. Als ein Ansprechpartner begleiten wir das Projekt von der "
+                  "Auswahl bis zum reibungslosen Einsatz, grenzüberschreitend und verlässlich. So können "
+                  "sich Ärzteschaft und Therapie ganz auf das konzentrieren, was zählt: ihre "
+                  "Patientinnen und Patienten.",
+            "en": "With the Montanus-Klinik in Bad Schwalbach, we are now also active in Germany. Located in "
+                  "the Rheingau-Taunus region, this specialist clinic of the German statutory pension "
+                  "insurance Deutsche Rentenversicherung Oldenburg-Bremen focuses on orthopaedic "
+                  "rehabilitation. With 145 beds and around 2,300 patients a year, it pursues a clear "
+                  "goal: getting people moving again after surgery and injury. We are equipping the "
+                  "clinic with medical technology and matching version and accessories to everyday "
+                  "therapy. As a single point of contact, we accompany the project from selection "
+                  "through to trouble-free use – reliably and across borders. This allows physicians "
+                  "and therapists to focus fully on what matters: their patients.",
+            "pl": "Dzięki Montanus-Klinik w Bad Schwalbach działamy teraz także w Niemczech. Położona w "
+                  "regionie Rheingau-Taunus klinika niemieckiego ubezpieczyciela emerytalnego Deutsche "
+                  "Rentenversicherung Oldenburg-Bremen specjalizuje się w rehabilitacji ortopedycznej. "
+                  "Dysponując 145 łóżkami i przyjmując około 2300 pacjentek i pacjentów rocznie, "
+                  "realizuje jasny cel: przywracać ludziom sprawność ruchową po operacjach i urazach. "
+                  "Wyposażamy klinikę w sprzęt medyczny oraz dobieramy wersję i akcesoria do codziennej "
+                  "pracy terapeutycznej. Jako jeden partner do wszystkich spraw towarzyszymy projektowi "
+                  "od wyboru aż do bezproblemowego uruchomienia – niezawodnie i ponad granicami. Dzięki "
+                  "temu lekarze i terapeuci mogą w pełni skupić się na tym, co najważniejsze: na swoich "
+                  "pacjentach.",
+            "ro": "Prin Montanus-Klinik din Bad Schwalbach suntem acum activi și în Germania. Situată în "
+                  "regiunea Rheingau-Taunus, această clinică a casei germane de asigurări de pensii "
+                  "Deutsche Rentenversicherung Oldenburg-Bremen este specializată în reabilitarea "
+                  "ortopedică. Cu 145 de paturi și aproximativ 2.300 de pacienți pe an, urmărește un "
+                  "obiectiv clar: să îi pună din nou în mișcare pe oameni după operații și accidentări. "
+                  "Echipăm clinica cu tehnologie medicală și adaptăm execuția și accesoriile la "
+                  "activitatea terapeutică zilnică. Ca unic partener de contact, însoțim proiectul de "
+                  "la selecție până la utilizarea fără probleme – fiabil și dincolo de granițe. Astfel, "
+                  "medicii și terapeuții se pot concentra pe deplin asupra a ceea ce contează: pacienții "
+                  "lor.",
+        },
+    },
 ]
 
 _AKT_T = {
