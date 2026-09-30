@@ -3480,7 +3480,6 @@ BODY_MANAGEMENT = '''<section class="m-page-hero">
             <li>Ehemaliger Abteilungsleiter Medizintechnik am AKH Wien und am Universitätsklinikum Krems</li>
             <li>Internationale Projekterfahrung in Krisengebieten für das Rote Kreuz</li>
             <li>Beratungstätigkeiten für die WHO</li>
-            <li>Allgemein beeideter und gerichtlich zertifizierter Sachverständiger (in Ausbildung)</li>
           </ul>
         </div>
       </div>
@@ -5142,7 +5141,6 @@ BODY_MANAGEMENT_EN = '''<section class="m-page-hero">
             <li>Former head of the medical technology department at AKH Vienna and Krems University Hospital</li>
             <li>International project experience in crisis regions for the Red Cross</li>
             <li>Consulting work for the WHO</li>
-            <li>Certified sworn and court-appointed expert (in training)</li>
           </ul>
         </div>
       </div>
@@ -5162,7 +5160,6 @@ _MGMT_PL = [
     ("<li>Former head of the medical technology department at AKH Vienna and Krems University Hospital</li>", "<li>Były kierownik działu techniki medycznej w AKH Wiedeń oraz w Szpitalu Uniwersyteckim w Krems</li>"),
     ("<li>International project experience in crisis regions for the Red Cross</li>", "<li>Międzynarodowe doświadczenie projektowe w regionach kryzysowych dla Czerwonego Krzyża</li>"),
     ("<li>Consulting work for the WHO</li>", "<li>Działalność doradcza dla WHO</li>"),
-    ("<li>Certified sworn and court-appointed expert (in training)</li>", "<li>Zaprzysiężony i sądowo certyfikowany rzeczoznawca (w trakcie szkolenia)</li>"),
 ]
 _MGMT_RO = [
     ("Medical technology with responsibility, quality and vision", "Tehnologie medicală cu responsabilitate, calitate și viziune"),
@@ -5176,7 +5173,6 @@ _MGMT_RO = [
     ("<li>Former head of the medical technology department at AKH Vienna and Krems University Hospital</li>", "<li>Fost șef al departamentului de tehnologie medicală la AKH Viena și la Spitalul Universitar Krems</li>"),
     ("<li>International project experience in crisis regions for the Red Cross</li>", "<li>Experiență internațională de proiect în zone de criză pentru Crucea Roșie</li>"),
     ("<li>Consulting work for the WHO</li>", "<li>Activitate de consultanță pentru OMS</li>"),
-    ("<li>Certified sworn and court-appointed expert (in training)</li>", "<li>Expert autorizat, jurat și desemnat de instanță (în formare)</li>"),
 ]
 BODY_MANAGEMENT_PL = _tr(BODY_MANAGEMENT_EN, _MGMT_PL, "MGMT-PL")
 BODY_MANAGEMENT_RO = _tr(BODY_MANAGEMENT_EN, _MGMT_RO, "MGMT-RO")
