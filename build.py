@@ -18,6 +18,7 @@ NAV = [
     ("veterinaer.html", "Veterinär"),
     ("management.html", "Management"),
     ("karriere.html", "Karriere"),
+    ("eqon.html", "eqon"),
     ("kontakt.html", "Kontakt"),
 ]
 
@@ -41,30 +42,30 @@ LANGS = [
 # Nicht übersetzte Seiten fallen im Menü/Umschalter auf Deutsch zurück.
 AVAILABLE = {
     "de": {"index.html", "leistungen.html", "produkte.html", "referenzen.html",
-           "veterinaer.html", "management.html", "karriere.html", "kontakt.html",
+           "veterinaer.html", "management.html", "karriere.html", "eqon.html", "kontakt.html",
            "agb.html", "datenschutz.html", "impressum.html"},
-    "en": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
-    "pl": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
-    "ro": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "agb.html", "datenschutz.html", "impressum.html"},
+    "en": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "eqon.html", "agb.html", "datenschutz.html", "impressum.html"},
+    "pl": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "eqon.html", "agb.html", "datenschutz.html", "impressum.html"},
+    "ro": {"index.html", "leistungen.html", "produkte.html", "referenzen.html", "veterinaer.html", "management.html", "kontakt.html", "karriere.html", "eqon.html", "agb.html", "datenschutz.html", "impressum.html"},
 }
 
 NAV_LABELS = {
     "de": {"index.html": "Startseite", "leistungen.html": "Leistungen", "produkte.html": "Produkte",
            "referenzen.html": "Referenzen", "veterinaer.html": "Veterinär",
            "management.html": "Management",
-           "karriere.html": "Karriere", "kontakt.html": "Kontakt"},
+           "karriere.html": "Karriere", "eqon.html": "eqon", "kontakt.html": "Kontakt"},
     "en": {"index.html": "Home", "leistungen.html": "Services", "produkte.html": "Products",
            "referenzen.html": "References", "veterinaer.html": "Veterinary",
            "management.html": "Management",
-           "karriere.html": "Careers", "kontakt.html": "Contact"},
+           "karriere.html": "Careers", "eqon.html": "eqon", "kontakt.html": "Contact"},
     "pl": {"index.html": "Start", "leistungen.html": "Usługi", "produkte.html": "Produkty",
            "referenzen.html": "Referencje", "veterinaer.html": "Weterynaria",
            "management.html": "Kierownictwo",
-           "karriere.html": "Kariera", "kontakt.html": "Kontakt"},
+           "karriere.html": "Kariera", "eqon.html": "eqon", "kontakt.html": "Kontakt"},
     "ro": {"index.html": "Acasă", "leistungen.html": "Servicii", "produkte.html": "Produse",
            "referenzen.html": "Referințe", "veterinaer.html": "Veterinar",
            "management.html": "Management",
-           "karriere.html": "Cariere", "kontakt.html": "Contact"},
+           "karriere.html": "Cariere", "eqon.html": "eqon", "kontakt.html": "Contact"},
 }
 
 def _href(filename, lang):
@@ -6107,6 +6108,340 @@ BODY_VETERINAER_PL = _body_veterinaer("pl")
 BODY_VETERINAER_RO = _body_veterinaer("ro")
 
 
+# ---- Seite „eqon" (eqon.html) --------------------------------------------
+# Raumbuch-/Planungsplattform von medeqon. Die Anmeldung selbst läuft auf
+# eqon.medeqon.com — die App sendet „X-Frame-Options: DENY" und prüft CSRF,
+# deshalb wird sie NICHT per iframe eingebettet, sondern über die Login-Karte
+# im Seitenkopf direkt verlinkt (sicherer, Passwortmanager funktionieren).
+# Wie die Veterinär-Seite: kein _tr-Mapping, alle Texte je Sprache in _EQ_T.
+_EQ_LOGIN = "https://eqon.medeqon.com/anmelden/"
+
+_EQ_ICONS = {
+    "struktur": '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 8 L40 16 L24 24 L8 16 Z"/><path d="M8 24 L24 32 L40 24"/><path d="M8 32 L24 40 L40 32"/><circle cx="24" cy="16" r="3.4" class="sig-fill"/></svg>',
+    "einrichtung": '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="10" width="32" height="28" rx="3"/><path d="M8 22 H40"/><path d="M22 10 V38"/><circle cx="31" cy="30" r="3.4" class="sig-fill"/></svg>',
+    "bauangaben": '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 38 V18 L24 9 L38 18 V38 Z"/><path d="M19 38 V27 H29 V38"/><path d="M4 38 H44"/><circle cx="24" cy="19" r="3.4" class="sig-fill"/></svg>',
+    "kosten": '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 40 H40"/><path d="M13 40 V28"/><path d="M21 40 V20"/><path d="M29 40 V24"/><path d="M37 40 V12"/><circle cx="37" cy="12" r="3.4" class="sig-fill"/></svg>',
+}
+_EQ_LOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11 V8 a4 4 0 0 1 8 0 v3"/></svg>'
+
+_EQ_T = {
+    "de": {
+        "tag": "eqon · equipment online",
+        "h1": "Medizintechnik-Planung. Online",
+        "claim": "Ihr Projekt – jederzeit im Blick.",
+        "lede": "eqon ist die Planungsplattform von medeqon. Raumbuch, Einrichtung und Kosten Ihres Projekts liegen an einem Ort – immer aktuell, nachvollziehbar und für alle Beteiligten nur einen Klick entfernt.",
+        "badges": ["Raumbuch", "Einrichtung", "Bauangaben", "Kosten &amp; Berichte", "Geschützter Zugang"],
+        "tagline": "Equipment online · by medeqon",
+        "login_h": "Anmelden",
+        "login_txt": "Für Kunden und Mitarbeiter von medeqon mit persönlichem eqon-Zugang.",
+        "login_btn": "Zur eqon-Anmeldung",
+        "login_secure": "Verschlüsselte Verbindung – die Anmeldung erfolgt direkt auf eqon.medeqon.com.",
+        "login_new": "Noch kein Zugang?",
+        "login_new_link": "Ihr Ansprechpartner bei medeqon richtet ihn ein",
+        "f_tag": "Funktionen",
+        "f_h2": "Was eqon für Ihr Projekt leistet",
+        "f_sub": "Vier Bausteine, ein System: Alles, was die Medizintechnik eines Bauvorhabens ausmacht, strukturiert an einem Ort – vom ersten Raumprogramm bis zur Ausschreibung.",
+        "features": [
+            ("struktur", "01", "Gebäudestruktur",
+             "Bauteile, Ebenen, Bereiche und Räume – klar gegliedert wie das Gebäude selbst. So findet jeder Beteiligte sofort, was zu welchem Raum gehört, vom ganzen Klinikum bis zum einzelnen Untersuchungsraum.",
+             ["Bauteile", "Ebenen", "Bereiche", "Räume"]),
+            ("einrichtung", "02", "Einrichtung",
+             "Ortsfeste und mobile Einrichtung, Raum für Raum erfasst. Das Raumbuch zeigt jederzeit, was geplant ist, in welcher Menge und wo – als verlässliche Grundlage für Abstimmung, Bestellung und Übergabe.",
+             ["Ortsfest", "Mobil", "Raum für Raum"]),
+            ("bauangaben", "03", "Bauangaben",
+             "Was die Medizintechnik von Hochbau und Haustechnik braucht, wird für die anderen Gewerke aufbereitet – früh und vollständig. Das vermeidet teure Änderungen, wenn bereits gebaut wird.",
+             ["Architektur", "Haustechnik", "Andere Gewerke"]),
+            ("kosten", "04", "Kosten &amp; Berichte",
+             "Kosten über alle Leistungsphasen, nachvollziehbar bis zur einzelnen Position. Auswertungen und Berichte sind jederzeit abrufbar – Budgets bleiben belastbar, Entscheidungen begründet.",
+             ["Alle Leistungsphasen", "Auswertungen", "Berichte"]),
+        ],
+        "n_title": "Ihr Nutzen auf einen Blick",
+        "benefits": [
+            ("Ein Stand für alle", "Schluss mit Listen in fünf Versionen: Bauherr, Nutzer und Planer arbeiten mit denselben, aktuellen Daten."),
+            ("Transparenz in jeder Phase", "Sie sehen jederzeit, was geplant ist und was es kostet – nicht erst in der nächsten Besprechung."),
+            ("Überall erreichbar", "Im Browser, ohne Installation, im Büro wie auf der Baustelle – mit persönlichem, geschütztem Zugang."),
+            ("Aus der Praxis", "Von medeqon entwickelt – mit der Erfahrung aus über 50 realisierten Projekten der Medizintechnik-Planung."),
+        ],
+        "a_tag": "Zugang",
+        "a_h2": "So arbeiten Sie mit eqon",
+        "a_sub": "eqon ist Teil unserer Planungs- und Beratungsleistung. Ihren Zugang erhalten Sie mit dem Projekt – ohne Installation und ohne eigene IT.",
+        "steps": [
+            ("01", "Projekt starten", "Sie beauftragen medeqon mit Planung oder Beratung Ihrer Medizintechnik."),
+            ("02", "Zugang erhalten", "Wir richten Ihren persönlichen eqon-Zugang ein und schalten Ihr Projekt frei."),
+            ("03", "Online mitarbeiten", "Raumbuch, Einrichtung und Kosten jederzeit einsehen, prüfen und abstimmen."),
+        ],
+        "cta_h2": "Planung, die man sehen kann",
+        "cta_link": "Projekt anfragen",
+        "cta_login": "Zur eqon-Anmeldung",
+    },
+    "en": {
+        "tag": "eqon · equipment online",
+        "h1": "Medical technology design. Online",
+        "claim": "Your project – always in view.",
+        "lede": "eqon is medeqon's design platform. The room data book, furnishing and costs of your project in one place – always up to date, traceable and just one click away for everyone involved.",
+        "badges": ["Room data book", "Furnishing", "Building requirements", "Costs &amp; reports", "Secure access"],
+        "tagline": "Equipment online · by medeqon",
+        "login_h": "Sign in",
+        "login_txt": "For clients and staff of medeqon with a personal eqon account.",
+        "login_btn": "Go to eqon sign-in",
+        "login_secure": "Encrypted connection – you sign in directly on eqon.medeqon.com.",
+        "login_new": "No account yet?",
+        "login_new_link": "Your contact at medeqon will set it up for you",
+        "f_tag": "Features",
+        "f_h2": "What eqon does for your project",
+        "f_sub": "Four building blocks, one system: everything that defines the medical technology of a building project, structured in one place – from the first room schedule to the tender.",
+        "features": [
+            ("struktur", "01", "Building structure",
+             "Building sections, levels, zones and rooms – organised just like the building itself. Everyone involved instantly finds what belongs to which room, from the entire hospital down to a single examination room.",
+             ["Sections", "Levels", "Zones", "Rooms"]),
+            ("einrichtung", "02", "Furnishing",
+             "Fixed and mobile furnishing, recorded room by room. The room data book always shows what is planned, in what quantity and where – a reliable basis for coordination, ordering and handover.",
+             ["Fixed", "Mobile", "Room by room"]),
+            ("bauangaben", "03", "Building requirements",
+             "What medical technology needs from construction and building services is prepared for the other trades – early and completely. This avoids costly changes once construction is under way.",
+             ["Architecture", "Building services", "Other trades"]),
+            ("kosten", "04", "Costs &amp; reports",
+             "Costs across all project stages, traceable down to the individual item. Analyses and reports are available at any time – budgets stay robust, decisions well-founded.",
+             ["All project stages", "Analyses", "Reports"]),
+        ],
+        "n_title": "Your benefits at a glance",
+        "benefits": [
+            ("One version for everyone", "No more lists in five versions: client, users and designers work with the same, current data."),
+            ("Transparency at every stage", "You always see what is planned and what it costs – not only at the next meeting."),
+            ("Accessible anywhere", "In the browser, no installation, in the office or on site – with a personal, secure account."),
+            ("Built from practice", "Developed by medeqon – drawing on more than 50 completed medical technology design projects."),
+        ],
+        "a_tag": "Access",
+        "a_h2": "How to work with eqon",
+        "a_sub": "eqon is part of our design and consulting services. You receive your access with the project – no installation and no IT of your own required.",
+        "steps": [
+            ("01", "Start a project", "You commission medeqon with the design or consulting of your medical technology."),
+            ("02", "Receive access", "We set up your personal eqon account and activate your project."),
+            ("03", "Collaborate online", "Review, check and agree the room data book, furnishing and costs at any time."),
+        ],
+        "cta_h2": "Design you can see",
+        "cta_link": "Request a project",
+        "cta_login": "Go to eqon sign-in",
+    },
+    "pl": {
+        "tag": "eqon · equipment online",
+        "h1": "Projektowanie techniki medycznej. Online",
+        "claim": "Twój projekt – zawsze pod kontrolą.",
+        "lede": "eqon to platforma projektowa medeqon. Zestawienie pomieszczeń, wyposażenie i koszty Twojego projektu w jednym miejscu – zawsze aktualne, przejrzyste i dostępne dla wszystkich uczestników jednym kliknięciem.",
+        "badges": ["Zestawienie pomieszczeń", "Wyposażenie", "Wytyczne branżowe", "Koszty i raporty", "Bezpieczny dostęp"],
+        "tagline": "Equipment online · by medeqon",
+        "login_h": "Zaloguj się",
+        "login_txt": "Dla klientów i pracowników medeqon z osobistym kontem eqon.",
+        "login_btn": "Przejdź do logowania eqon",
+        "login_secure": "Szyfrowane połączenie – logowanie odbywa się bezpośrednio na eqon.medeqon.com.",
+        "login_new": "Nie masz jeszcze dostępu?",
+        "login_new_link": "Twój opiekun w medeqon założy Ci konto",
+        "f_tag": "Funkcje",
+        "f_h2": "Co eqon daje Twojemu projektowi",
+        "f_sub": "Cztery moduły, jeden system: wszystko, co składa się na technikę medyczną inwestycji, uporządkowane w jednym miejscu – od pierwszego programu pomieszczeń aż po przetarg.",
+        "features": [
+            ("struktur", "01", "Struktura budynku",
+             "Segmenty budynku, kondygnacje, strefy i pomieszczenia – uporządkowane tak jak sam budynek. Każdy uczestnik od razu wie, co należy do którego pomieszczenia, od całego szpitala po pojedynczy gabinet zabiegowy.",
+             ["Segmenty", "Kondygnacje", "Strefy", "Pomieszczenia"]),
+            ("einrichtung", "02", "Wyposażenie",
+             "Wyposażenie stałe i mobilne, ujęte pomieszczenie po pomieszczeniu. Zestawienie zawsze pokazuje, co jest zaplanowane, w jakiej ilości i gdzie – rzetelna podstawa uzgodnień, zamówień i odbiorów.",
+             ["Stałe", "Mobilne", "Pomieszczenie po pomieszczeniu"]),
+            ("bauangaben", "03", "Wytyczne branżowe",
+             "Wymagania techniki medycznej wobec architektury i instalacji są przygotowane dla pozostałych branż – wcześnie i kompletnie. Pozwala to uniknąć kosztownych zmian, gdy budowa już trwa.",
+             ["Architektura", "Instalacje", "Pozostałe branże"]),
+            ("kosten", "04", "Koszty i raporty",
+             "Koszty na wszystkich etapach projektu, przejrzyste aż do pojedynczej pozycji. Analizy i raporty są dostępne w każdej chwili – budżety pozostają wiarygodne, a decyzje uzasadnione.",
+             ["Wszystkie etapy", "Analizy", "Raporty"]),
+        ],
+        "n_title": "Twoje korzyści w skrócie",
+        "benefits": [
+            ("Jedna wersja dla wszystkich", "Koniec z listami w pięciu wersjach: inwestor, użytkownicy i projektanci pracują na tych samych, aktualnych danych."),
+            ("Przejrzystość na każdym etapie", "W każdej chwili widzisz, co jest zaplanowane i ile to kosztuje – nie dopiero na kolejnym spotkaniu."),
+            ("Dostęp z każdego miejsca", "W przeglądarce, bez instalacji, w biurze i na budowie – z osobistym, chronionym kontem."),
+            ("Z praktyki", "Opracowane przez medeqon – na bazie doświadczeń z ponad 50 zrealizowanych projektów techniki medycznej."),
+        ],
+        "a_tag": "Dostęp",
+        "a_h2": "Jak pracować z eqon",
+        "a_sub": "eqon jest częścią naszych usług projektowych i doradczych. Dostęp otrzymujesz wraz z projektem – bez instalacji i bez własnej infrastruktury IT.",
+        "steps": [
+            ("01", "Rozpocznij projekt", "Zlecasz medeqon projektowanie lub doradztwo w zakresie techniki medycznej."),
+            ("02", "Otrzymaj dostęp", "Zakładamy Twoje osobiste konto eqon i udostępniamy projekt."),
+            ("03", "Współpracuj online", "Przeglądaj, sprawdzaj i uzgadniaj zestawienie pomieszczeń, wyposażenie i koszty w każdej chwili."),
+        ],
+        "cta_h2": "Projektowanie, które widać",
+        "cta_link": "Zapytaj o projekt",
+        "cta_login": "Przejdź do logowania eqon",
+    },
+    "ro": {
+        "tag": "eqon · equipment online",
+        "h1": "Proiectarea tehnologiei medicale. Online",
+        "claim": "Proiectul dumneavoastră – mereu sub control.",
+        "lede": "eqon este platforma de proiectare a medeqon. Registrul încăperilor, mobilierul și costurile proiectului dumneavoastră într-un singur loc – mereu actualizate, transparente și la un singur clic distanță pentru toți cei implicați.",
+        "badges": ["Registrul încăperilor", "Mobilier", "Cerințe de construcție", "Costuri și rapoarte", "Acces securizat"],
+        "tagline": "Equipment online · by medeqon",
+        "login_h": "Autentificare",
+        "login_txt": "Pentru clienții și angajații medeqon cu un cont eqon personal.",
+        "login_btn": "Mergi la autentificarea eqon",
+        "login_secure": "Conexiune criptată – autentificarea se face direct pe eqon.medeqon.com.",
+        "login_new": "Nu aveți încă acces?",
+        "login_new_link": "Persoana de contact de la medeqon vă creează contul",
+        "f_tag": "Funcții",
+        "f_h2": "Ce face eqon pentru proiectul dumneavoastră",
+        "f_sub": "Patru module, un singur sistem: tot ce definește tehnologia medicală a unei investiții, structurat într-un singur loc – de la primul program de încăperi până la licitație.",
+        "features": [
+            ("struktur", "01", "Structura clădirii",
+             "Corpuri de clădire, niveluri, zone și încăperi – organizate exact ca clădirea însăși. Fiecare participant găsește imediat ce aparține fiecărei încăperi, de la întregul spital până la un singur cabinet de consultații.",
+             ["Corpuri", "Niveluri", "Zone", "Încăperi"]),
+            ("einrichtung", "02", "Mobilier",
+             "Mobilier fix și mobil, înregistrat încăpere cu încăpere. Registrul arată în orice moment ce este planificat, în ce cantitate și unde – o bază sigură pentru coordonare, comenzi și predare.",
+             ["Fix", "Mobil", "Încăpere cu încăpere"]),
+            ("bauangaben", "03", "Cerințe de construcție",
+             "Ceea ce necesită tehnologia medicală de la construcție și instalații este pregătit pentru celelalte specialități – din timp și complet. Astfel se evită modificări costisitoare când lucrările au început deja.",
+             ["Arhitectură", "Instalații", "Celelalte specialități"]),
+            ("kosten", "04", "Costuri și rapoarte",
+             "Costuri pe toate fazele proiectului, transparente până la fiecare poziție. Analizele și rapoartele sunt disponibile oricând – bugetele rămân solide, deciziile bine fundamentate.",
+             ["Toate fazele", "Analize", "Rapoarte"]),
+        ],
+        "n_title": "Beneficiile dumneavoastră pe scurt",
+        "benefits": [
+            ("O singură versiune pentru toți", "Gata cu listele în cinci versiuni: beneficiarul, utilizatorii și proiectanții lucrează cu aceleași date, actualizate."),
+            ("Transparență în fiecare fază", "Vedeți oricând ce este planificat și cât costă – nu abia la următoarea ședință."),
+            ("Accesibil de oriunde", "În browser, fără instalare, la birou sau pe șantier – cu un cont personal și securizat."),
+            ("Din practică", "Dezvoltat de medeqon – pe baza experienței din peste 50 de proiecte realizate de proiectare a tehnologiei medicale."),
+        ],
+        "a_tag": "Acces",
+        "a_h2": "Cum lucrați cu eqon",
+        "a_sub": "eqon face parte din serviciile noastre de proiectare și consultanță. Accesul îl primiți odată cu proiectul – fără instalare și fără infrastructură IT proprie.",
+        "steps": [
+            ("01", "Porniți proiectul", "Încredințați medeqon proiectarea sau consultanța pentru tehnologia medicală."),
+            ("02", "Primiți accesul", "Vă creăm contul eqon personal și vă activăm proiectul."),
+            ("03", "Colaborați online", "Consultați, verificați și agreați oricând registrul încăperilor, mobilierul și costurile."),
+        ],
+        "cta_h2": "Proiectare pe care o puteți vedea",
+        "cta_link": "Solicitați un proiect",
+        "cta_login": "Mergi la autentificarea eqon",
+    },
+}
+
+
+def _eq_mark(t):
+    """eqon-Wortmarke im medeqon-Stil (Quadrat „e." + „eqon." + Unterzeile), reines HTML/CSS."""
+    return ('<span class="m-eq-mark" aria-label="eqon">'
+            '<span class="m-eq-mark-mono" aria-hidden="true">e</span>'
+            '<span class="m-eq-mark-txt" aria-hidden="true">'
+            '<span class="m-eq-mark-word">eqon</span>'
+            f'<span class="m-eq-mark-sub">{t["tagline"]}</span>'
+            '</span></span>')
+
+
+def _body_eqon(lang):
+    t = _EQ_T[lang]
+    ap = "assets/" if lang == "de" else "/assets/"
+    badges = "\n".join(f'        <li>{b}</li>' for b in t["badges"])
+    feats = []
+    for key, num, title, text, tags in t["features"]:
+        tg = "\n".join(f'          <li>{x}</li>' for x in tags)
+        feats.append(
+f'      <article class="m-vt-svc" id="eq-{key}">\n'
+'        <div class="m-vt-svc-top">\n'
+f'          <span class="m-svc2-ico">{_EQ_ICONS[key]}</span>\n'
+f'          <span class="m-svc2-num">{num}</span>\n'
+'        </div>\n'
+f'        <h3 class="m-vt-svc-title">{title}</h3>\n'
+f'        <p class="m-vt-svc-text">{text}</p>\n'
+'        <ul class="m-vt-tags">\n' + tg + '\n'
+'        </ul>\n'
+'      </article>')
+    bens = "\n".join(
+'        <li class="m-vt-step">\n'
+'          <span class="m-vt-step-num">&#10003;</span>\n'
+f'          <span class="m-vt-step-title">{ti}</span>\n'
+f'          <span class="m-vt-step-text">{tx}</span>\n'
+'        </li>' for ti, tx in t["benefits"])
+    steps = "\n".join(
+'        <li class="m-vt-step">\n'
+f'          <span class="m-vt-step-num">{n}</span>\n'
+f'          <span class="m-vt-step-title">{ti}</span>\n'
+f'          <span class="m-vt-step-text">{tx}</span>\n'
+'        </li>' for n, ti, tx in t["steps"])
+    kontakt = _href("kontakt.html", lang)
+    return f'''<section class="m-page-hero m-eq-hero">
+  <div class="m-shell m-eq-hero-grid">
+    <div class="m-eq-hero-top">
+      <span class="m-tag">{t["tag"]}</span>
+      <h1>{t["h1"]}<span class="end-dot">.</span><span class="m-vt-claim">{t["claim"]}</span></h1>
+    </div>
+    <div class="m-eq-hero-more">
+      <p class="lede">{t["lede"]}</p>
+      <ul class="m-vt-badges">
+{badges}
+      </ul>
+    </div>
+    <aside class="m-eq-login" id="login" aria-labelledby="eq-login-h">
+      {_eq_mark(t)}
+      <h2 class="m-eq-login-h" id="eq-login-h">{t["login_h"]}<span class="end-dot">.</span></h2>
+      <p class="m-eq-login-txt">{t["login_txt"]}</p>
+      <a class="m-eq-login-btn" href="{_EQ_LOGIN}">{t["login_btn"]}</a>
+      <p class="m-eq-login-secure">{_EQ_LOCK}<span>{t["login_secure"]}</span></p>
+      <p class="m-eq-login-new">{t["login_new"]} <a href="{kontakt}">{t["login_new_link"]}</a>.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="m-section" id="funktionen">
+  <div class="m-shell">
+    <div class="m-cat-head">
+      <span class="m-tag">{t["f_tag"]}</span>
+      <h2>{t["f_h2"]}<span class="end-dot">.</span></h2>
+      <div class="sub">{t["f_sub"]}</div>
+    </div>
+    <div class="m-eq-grid">
+{chr(10).join(feats)}
+    </div>
+
+    <div class="m-vt-abl">
+      <h3 class="m-vt-abl-title">{t["n_title"]}<span class="end-dot">.</span></h3>
+      <ol class="m-vt-steps m-eq-benefits">
+{bens}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="m-section alt" id="zugang">
+  <div class="m-shell">
+    <div class="m-cat-head">
+      <span class="m-tag">{t["a_tag"]}</span>
+      <h2>{t["a_h2"]}<span class="end-dot">.</span></h2>
+      <div class="sub">{t["a_sub"]}</div>
+    </div>
+    <div class="m-vt-abl m-eq-steps-box">
+      <ol class="m-vt-steps m-eq-steps">
+{steps}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="m-cta-banner" style="background-image:url({ap}cta-banner.jpg)">
+  <div class="m-shell">
+    <div class="m-cta-banner-copy">
+      <div class="line"></div>
+      <h2>{t["cta_h2"]}<span class="end-dot">.</span></h2>
+      <div class="m-eq-cta-links">
+        <a class="m-cta-link" href="{kontakt}">{t["cta_link"]}</a>
+        <a class="m-cta-link" href="{_EQ_LOGIN}">{t["cta_login"]}</a>
+      </div>
+    </div>
+  </div>
+</section>'''
+
+BODY_EQON    = _body_eqon("de")
+BODY_EQON_EN = _body_eqon("en")
+BODY_EQON_PL = _body_eqon("pl")
+BODY_EQON_RO = _body_eqon("ro")
+
+
 PAGES_EN = [
     ("index.html", "medeqon · Engineering for medical technology",
      "medeqon GmbH — Vienna-based engineering firm for medical technology. Design, consulting, procurement and safety-related inspection of clinical infrastructure.",
@@ -6132,6 +6467,9 @@ PAGES_EN = [
     ("karriere.html", "Careers · medeqon",
      "Careers at medeqon GmbH: open positions in medical technology and the option of a speculative application to office@medeqon.com.",
      BODY_KARRIERE_EN),
+    ("eqon.html", "eqon – room data book &amp; design platform · medeqon",
+     "eqon – equipment online by medeqon: room data book, furnishing, building requirements and costs of your medical technology project on one platform. Sign-in for clients and staff.",
+     BODY_EQON_EN),
     ("agb.html", "Terms &amp; Conditions · medeqon",
      "General Terms &amp; Conditions of medeqon GmbH.",
      BODY_AGB_EN),
@@ -6167,6 +6505,9 @@ PAGES_PL = [
     ("karriere.html", "Kariera · medeqon",
      "Kariera w medeqon GmbH: otwarte stanowiska w technice medycznej oraz możliwość aplikacji spontanicznej na office@medeqon.com.",
      BODY_KARRIERE_PL),
+    ("eqon.html", "eqon – zestawienie pomieszczeń i platforma projektowa · medeqon",
+     "eqon – equipment online by medeqon: zestawienie pomieszczeń, wyposażenie, wytyczne branżowe i koszty projektu techniki medycznej na jednej platformie. Logowanie dla klientów i pracowników.",
+     BODY_EQON_PL),
     ("agb.html", "Regulamin · medeqon",
      "Ogólne warunki handlowe (regulamin) medeqon GmbH.",
      BODY_AGB_PL),
@@ -6202,6 +6543,9 @@ PAGES_RO = [
     ("karriere.html", "Cariere · medeqon",
      "Cariere la medeqon GmbH: posturi în tehnologia medicală și posibilitatea unei candidaturi spontane la office@medeqon.com.",
      BODY_KARRIERE_RO),
+    ("eqon.html", "eqon – registrul încăperilor și platformă de proiectare · medeqon",
+     "eqon – equipment online by medeqon: registrul încăperilor, mobilier, cerințe de construcție și costurile proiectului de tehnologie medicală pe o singură platformă. Autentificare pentru clienți și angajați.",
+     BODY_EQON_RO),
     ("agb.html", "Termeni și condiții · medeqon",
      "Termeni și condiții generale ale medeqon GmbH.",
      BODY_AGB_RO),
@@ -6235,6 +6579,9 @@ PAGES = [
     ("karriere.html", "Karriere · medeqon",
      "Karriere bei medeqon GmbH: offene Positionen in der Medizintechnik und jederzeit die Möglichkeit zur Initiativbewerbung an office@medeqon.com.",
      "Karriere", BODY_KARRIERE),
+    ("eqon.html", "eqon – Raumbuch &amp; Planungsplattform · medeqon",
+     "eqon – equipment online by medeqon: Raumbuch, Einrichtung, Bauangaben und Kosten Ihres Medizintechnik-Projekts auf einer Plattform. Login für Kunden und Mitarbeiter.",
+     "eqon", BODY_EQON),
     ("kontakt.html", "Kontakt · medeqon",
      "Kontakt zu medeqon GmbH: office@medeqon.com, +43 1 3580045, Bergstrasse 42/5/3, 2102 Hagenbrunn.",
      "Kontakt", BODY_KONTAKT),

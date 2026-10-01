@@ -1432,3 +1432,68 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-akt-sec .m-fly-head .m-bigH{font-size:34px;line-height:40px}
 }
 @media (max-width:560px){.m-akt-card{flex:1 1 100%;max-width:none}}
+
+/* ===================== eqon-Seite (Raumbuch-Plattform) =====================
+   Seitenkopf zweispaltig: Text links, Login-Karte rechts. Die Anmeldung selbst
+   läuft auf eqon.medeqon.com (kein iframe — die App erlaubt kein Einbetten). */
+.m-eq-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:0 56px;align-items:center;
+  grid-template-areas:"top login" "more login"}
+.m-eq-hero-top{grid-area:top;align-self:end}
+.m-eq-hero-more{grid-area:more;align-self:start;margin-top:22px}
+.m-eq-login{grid-area:login}
+.m-eq-hero h1{max-width:20ch}
+.m-eq-login{background:var(--paper);color:var(--ink);border-radius:16px;padding:30px 30px 26px;
+  box-shadow:0 30px 60px -28px rgba(0,0,0,0.6);display:grid;gap:14px;align-content:start}
+.m-eq-mark{display:inline-flex;align-items:center;gap:12px;margin-bottom:6px}
+.m-eq-mark-mono{width:46px;height:46px;border-radius:24%;background:var(--signal);color:#fff;
+  display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);
+  font-weight:600;font-size:28px;line-height:1;flex:0 0 auto}
+.m-eq-mark-mono::after{content:".";margin-left:1px}
+.m-eq-mark-txt{display:grid;gap:3px}
+.m-eq-mark-word{font-family:var(--font-display);font-weight:600;font-size:28px;line-height:1;
+  letter-spacing:0.02em;color:var(--ink)}
+.m-eq-mark-word::after{content:".";color:var(--signal)}
+.m-eq-mark-sub{font-family:var(--font-mono);font-size:9.5px;letter-spacing:0.14em;
+  text-transform:uppercase;color:var(--steel)}
+.m-eq-login-h{font-family:var(--font-display);font-weight:700;font-size:26px;line-height:32px;
+  letter-spacing:-0.01em;color:var(--ink)}
+.m-eq-login-txt{font-size:15px;line-height:23px;color:var(--steel)}
+.m-eq-login-btn{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:4px;
+  background:var(--signal);color:#fff;text-decoration:none;font-weight:600;font-size:16px;
+  padding:14px 20px;border-radius:8px;transition:background var(--dur) var(--ease)}
+.m-eq-login-btn::after{content:"\2192";transition:transform var(--dur) var(--ease)}
+.m-eq-login-btn:hover{background:var(--brand-700)}
+.m-eq-login-btn:hover::after{transform:translateX(4px)}
+.m-eq-login-btn:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.m-eq-login-secure{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;line-height:18px;
+  color:var(--steel);padding-top:14px;border-top:1px solid var(--mist)}
+.m-eq-login-secure svg{width:18px;height:18px;flex:0 0 auto;color:var(--signal)}
+.m-eq-login-new{font-size:13.5px;line-height:20px;color:var(--ink)}
+.m-eq-login-new a{color:var(--signal);font-weight:600;text-underline-offset:2px}
+
+/* Funktionen: 2 × 2 Karten (Kartenstil der Veterinär-Leistungskarten) */
+.m-eq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.m-eq-steps{grid-template-columns:repeat(3,1fr)}
+.m-eq-steps-box{margin-top:0}
+.m-eq-cta-links{display:flex;flex-wrap:wrap;gap:12px 34px}
+
+@media (max-width:1000px){
+  .m-eq-hero-grid{grid-template-columns:1fr;grid-template-areas:"top" "login" "more"}
+  .m-eq-login{margin-top:28px}
+  .m-eq-login{max-width:440px}
+  .m-eq-steps{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .m-eq-grid{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .m-eq-login{padding:24px 22px 22px}
+}
+.m-eq-benefits .m-vt-step-num{font-size:17px;letter-spacing:0;font-weight:600}
+/* Neunter Menüpunkt (eqon): auf Laptop-Breiten etwas engere Abstände,
+   damit Navigation + Sprachflaggen weiterhin in eine Zeile passen. */
+@media (min-width:901px) and (max-width:1599px){
+  .m-nav{gap:20px}
+  .m-nav-links{gap:20px}
+  .m-nav-links a{font-size:18px}
+}
