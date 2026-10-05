@@ -98,7 +98,7 @@ Dazu die Neutralen (`--ink`, `--ink-hover`, `--steel`, `--mist`, `--paper`) — 
   Akkordeon-/Karten-Hover-Rahmen) sind immer `--signal`. Ausnahme blaues Slogan-Band: weiß.
 - **Feine Rahmen/Haarlinien** (früher `--tint-line`) sind jetzt `--mist` (neutrales Hellgrau).
 - **Kleine Schrift auf dunklem Grund** nie in Blau (zu wenig Kontrast): Fußzeilen-Spaltentitel
-  `rgba(255,255,255,.55)`, Claim-Zweitzeile im Seitenkopf (`.m-vt-claim`, Veterinär + eqon)
+  `--icon-accent`, Claim-Zweitzeile im Seitenkopf (`.m-vt-claim`, Veterinär + eqon)
   `rgba(255,255,255,.72)`.
 - **Diagramm „Kosteneffizienz durch frühe Planung"** (Startseite): Kurve „ohne Planung" in `--steel`
   (Grau), „mit Planung" in `--signal`; Balken PLANUNG weiß, BETRIEB `--mist`.

@@ -316,6 +316,8 @@ def _prod_lightbox(lang="de", body=""):
 '''
 
 def page(filename, title, desc, body, lang="de"):
+    # Design-System: Satz endet mit "?" -> blaues Fragezeichen statt zusätzlichem medeqon-Punkt
+    body = body.replace('?<span class="end-dot">.</span>', '<span class="end-q">?</span>')
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
@@ -3464,7 +3466,7 @@ BODY_PRODUKTE = _inject_flyer(BODY_PRODUKTE, "de")
 BODY_MANAGEMENT = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Management</span>
-    <h1>Medizintechnik mit Verantwortung, Qualität und Zukunft<span class="end-dot">.</span></h1>
+    <h1>Medizintechnik mit Verantwortung<br>Qualität und Zukunft<span class="end-dot">.</span></h1>
     <p class="lede">Unsere Geschäftsführung verfügt über mehr als 15 Jahre Erfahrung in der Medizintechnik, die unser Unternehmen prägt. Qualität, Zuverlässigkeit und ständige Erreichbarkeit stehen für uns an erster Stelle. Wir setzen auf partnerschaftliche Zusammenarbeit, persönliche Betreuung und schnelle, lösungsorientierte Reaktionen. Durch den Einsatz modernster Technologien gewährleisten wir zukunftssichere und hochwertige Lösungen für unsere Kunden.</p>
   </div>
 </section>
@@ -5125,7 +5127,7 @@ BODY_LEISTUNGEN_RO = _inject_partner(BODY_LEISTUNGEN_RO, "ro")
 BODY_MANAGEMENT_EN = '''<section class="m-page-hero">
   <div class="m-shell">
     <span class="m-tag">Management</span>
-    <h1>Medical technology with responsibility, quality and vision<span class="end-dot">.</span></h1>
+    <h1>Medical technology with responsibility<br>Quality and vision<span class="end-dot">.</span></h1>
     <p class="lede">Our management brings more than 15 years of experience in medical technology that shapes our company. Quality, reliability and constant availability come first for us. We rely on partnership-based collaboration, personal support and fast, solution-oriented responses. By using the latest technologies, we ensure future-proof, high-quality solutions for our customers.</p>
   </div>
 </section>
@@ -5154,7 +5156,7 @@ BODY_MANAGEMENT_EN = '''<section class="m-page-hero">
 </section>'''
 
 _MGMT_PL = [
-    ("Medical technology with responsibility, quality and vision", "Technika medyczna z odpowiedzialnością, jakością i wizją przyszłości"),
+    ("Medical technology with responsibility<br>Quality and vision", "Technika medyczna z odpowiedzialnością<br>Jakość i wizja przyszłości"),
     ("Our management brings more than 15 years of experience in medical technology that shapes our company. Quality, reliability and constant availability come first for us. We rely on partnership-based collaboration, personal support and fast, solution-oriented responses. By using the latest technologies, we ensure future-proof, high-quality solutions for our customers.",
      "Nasze kierownictwo dysponuje ponad 15-letnim doświadczeniem w technice medycznej, które kształtuje naszą firmę. Jakość, niezawodność i stała dostępność są dla nas najważniejsze. Stawiamy na partnerską współpracę, osobistą opiekę oraz szybkie, zorientowane na rozwiązania reakcje. Dzięki zastosowaniu najnowocześniejszych technologii zapewniamy naszym klientom przyszłościowe rozwiązania o wysokiej jakości."),
     ("Founder · Medical engineer", "Założyciel · Inżynier techniki medycznej"),
@@ -5167,7 +5169,7 @@ _MGMT_PL = [
     ("<li>Consulting work for the WHO</li>", "<li>Działalność doradcza dla WHO</li>"),
 ]
 _MGMT_RO = [
-    ("Medical technology with responsibility, quality and vision", "Tehnologie medicală cu responsabilitate, calitate și viziune"),
+    ("Medical technology with responsibility<br>Quality and vision", "Tehnologie medicală cu responsabilitate<br>Calitate și viziune"),
     ("Our management brings more than 15 years of experience in medical technology that shapes our company. Quality, reliability and constant availability come first for us. We rely on partnership-based collaboration, personal support and fast, solution-oriented responses. By using the latest technologies, we ensure future-proof, high-quality solutions for our customers.",
      "Conducerea noastră are peste 15 ani de experiență în tehnologia medicală, experiență care ne definește compania. Calitatea, fiabilitatea și disponibilitatea permanentă sunt pentru noi pe primul loc. Ne bazăm pe o colaborare de tip parteneriat, pe asistență personală și pe reacții rapide, orientate spre soluții. Prin utilizarea celor mai noi tehnologii, asigurăm clienților noștri soluții de înaltă calitate, pregatite pentru viitor."),
     ("Founder · Medical engineer", "Fondator · Inginer de tehnologie medicală"),
@@ -6334,14 +6336,10 @@ _EQ_T = {
 
 
 def _eq_mark(t, ap="assets/"):
-    """eqon-Logo (offizielle Dateien aus 7. RAUMBUCH\\EQON\\08_Logos, Stand 05.10.2026):
-    Icon „e." + Wortmarke „eqon." als SVG, darunter die Mono-Unterzeile."""
-    return ('<span class="m-eq-mark" aria-label="eqon">'
-            f'<img class="m-eq-mark-icon" src="{ap}eqon/eqon-icon-blue.svg" alt="" width="46" height="46">'
-            '<span class="m-eq-mark-txt" aria-hidden="true">'
-            f'<img class="m-eq-mark-wm" src="{ap}eqon/eqon-wordmark-light.svg" alt="" width="110" height="28">'
-            f'<span class="m-eq-mark-sub">{t["tagline"]}</span>'
-            '</span></span>')
+    """Offizielles eqon-Logo mit Unterzeile (eqon-lockup-tagline-gross-light.svg aus
+    7. RAUMBUCH\\EQON\\08_Logos, Stand 05.10.2026) — als ein Bild, nicht nachgebaut."""
+    return (f'<img class="m-eq-mark-logo" src="{ap}eqon/eqon-lockup-tagline-gross-light.svg" '
+            'alt="eqon – Equipment Online by medeqon" width="316" height="56">')
 
 
 def _body_eqon(lang):

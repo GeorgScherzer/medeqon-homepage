@@ -100,6 +100,7 @@ img{max-width:100%}
 .m-page-hero h1{font-family:var(--font-display);font-weight:700;font-size:56px;
   line-height:58px;letter-spacing:-0.022em;color:#fff;margin:0 0 22px;
   max-width:20ch;text-wrap:balance}
+.m-page-hero h1:has(br){max-width:none}
 .m-page-hero .lede{font-size:18px;line-height:29px;color:rgba(255,255,255,0.82);max-width:60ch}
 .m-page-hero .m-tag{color:rgba(255,255,255,0.72)}
 .m-page-hero .m-tag::before{border-color:var(--signal)}
@@ -666,7 +667,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-foot-legalline{font-family:var(--font-mono);font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.03em;line-height:1.7}
 .m-foot-col{display:grid;gap:2px;align-content:start}
 .m-foot-tag{font-family:var(--font-mono);font-size:16px;letter-spacing:0.12em;
-  text-transform:uppercase;color:rgba(255,255,255,0.55);margin-bottom:16px}
+  text-transform:uppercase;color:var(--icon-accent);margin-bottom:16px}
 .m-foot a{display:block;color:rgba(255,255,255,0.80);text-decoration:none;font-size:18px;padding:6px 0}
 .m-foot a:hover{color:var(--paper)}
 .m-foot-plain{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px;margin-top:10px}
@@ -1500,3 +1501,9 @@ textarea.m-input{min-height:150px;resize:vertical}
 /* im Quadrat („m." / „e."): weißer Punkt, als Flex-Element auf die Grundlinie gesetzt */
 .brandlogo-mono::after,.m-foot-mono::after{
   background:#fff;margin-left:.05em;align-self:center;transform:translateY(var(--mono-dot-y,.27em))}
+
+/* Seitenkopf (alle Seiten): Lede ohne Silbentrennung (Georgs Vorgabe 05.10.2026) */
+.m-page-hero .lede{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual}
+
+.m-eq-mark-logo{display:block;height:56px;width:auto;max-width:100%;margin-bottom:6px}
+@media (max-width:700px){.m-page-hero .lede{text-align:left}}
