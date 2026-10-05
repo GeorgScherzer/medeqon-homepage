@@ -22,6 +22,10 @@ NAV = [
     ("kontakt.html", "Kontakt"),
 ]
 
+# Cache-Busting: Versionskennung aus dem Inhalt von styles.css. Ändert sich das CSS, ändert sich
+# automatisch der Link auf allen Seiten -> Browser laden die neue Datei statt der zwischengespeicherten.
+import hashlib as _hashlib, os as _os
+CSS_VER = _hashlib.md5(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "styles.css"), "rb").read()).hexdigest()[:8]
 # Schriften werden selbst gehostet (siehe @font-face in styles.css) — kein externer Font-Aufruf mehr.
 FONTS = ""
 FAVICON = (
@@ -322,7 +326,7 @@ def page(filename, title, desc, body, lang="de"):
 <meta name="theme-color" content="#004AAD">
 <link rel="icon" href="{FAVICON}">
 {FONTS}
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v={CSS_VER}">
 </head>
 <body>
 <a class="skip" href="#main">{_FOOT_T[lang]["skip"]}</a>
