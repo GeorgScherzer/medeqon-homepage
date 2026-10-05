@@ -52,6 +52,35 @@
 
 ## TEIL B — Technische Referenz (für Claude)
 
+### Design-System: der medeqon-Punkt (verbindlich seit 05.10.2026)
+**Regel:** Überall dort, wo die Website einen Akzent-Punkt setzt — am Ende von Überschriften
+(„Ingenieurbüro für Medizintechnik.", „Arbeiten Sie mit uns.", „Gemeinsam mit starken Partnern."),
+hinter der Wortmarke „medeqon." in Kopf- und Fußzeile, im „m."-Quadrat und in Slogans — steht
+**derselbe runde Punkt wie im medeqon-Logo**. **Nie** das eckige Satzzeichen der Schrift
+(Hanken Grotesk zeichnet den Punkt als Viereck). Gilt auf allen Seiten und in allen vier Sprachen.
+Vorbild ist eqon, das auf denselben runden Punkt umgestellt wurde.
+
+- **Farbe:** immer `--signal` (#004AAD, das Logo-Blau) — auch auf dunklem Navy und auf Fotos
+  (früher dort `--sky`, das ist abgeschafft). **Einzige Ausnahme:** auf **blauem** Grund (Slogan-Band
+  `.m-slogan`, Logo-Quadrat „m.") ist der Punkt **weiß**, genau wie im blauen Logo-Quadrat.
+- **Markup:** `<span class="end-dot">.</span>` direkt an das letzte Wort (bzw. `<span class="em">.</span>`
+  in Slogans). Der Punkt bleibt als Text erhalten (Kopieren, Screenreader); CSS blendet ihn aus und
+  zeichnet stattdessen einen Kreis. **Für neue Überschriften einfach dieses Markup verwenden** —
+  keine eigenen Farb- oder Größenregeln je Bereich anlegen.
+- **CSS:** zentraler Block „medeqon-Punkt" am Ende von `styles.css`: Kreis **0.15em** Ø,
+  **0.06em** Abstand, auf der Grundlinie (abgeleitet aus `medeqon-logo-white.png`:
+  Punkt-Ø ≈ 0.28 × x-Höhe). Wortmarken-Punkte als `::after` mit `content:""` + Kreis;
+  im Quadrat („m.") als Flex-Element mit `transform:translateY(.27em)` auf die Grundlinie gesetzt.
+- **Fragezeichen** bleiben Zeichen: `<span class="end-q">?</span>` (blau, nicht rund) —
+  **nicht** `end-dot` verwenden, sonst wird das „?" zum Kreis.
+- **eqon-Logo** auf `eqon.html`: offizielle Dateien aus
+  `…\7. RAUMBUCH\EQON\08_Logos\` (`eqon-icon-blue.svg`, `eqon-wordmark-light.svg`), kopiert nach
+  `assets/eqon/`. Bei neuen Logo-Versionen dort einfach die beiden Dateien ersetzen
+  (alte Versionen liegen im Logo-Ordner unter `_ueberholt_bis_<Datum>`).
+- **Prüfung:** `grep 'content:"\."' styles.css` muss leer sein, und kein `.end-dot`-Selektor darf
+  eine eigene `color:` setzen.
+
+
 ### 1. Was ist das?
 Statische Website **www.medeqon.com** (medeqon GmbH, Ingenieurbüro für Medizintechnik in Wien).
 **Alle** HTML-Seiten werden von **`build.py`** aus JSON-Datenquellen, `styles.css`,

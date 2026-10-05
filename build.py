@@ -410,7 +410,7 @@ BODY_INDEX = '''<section class="m-hero-main">
     <div class="m-tco-truecost">
       <div class="m-tco-intro">
         <span class="m-tag">Total Cost of Ownership</span>
-        <h2 class="m-bigH">Was kostet Medizintechnik wirklich<span class="end-dot">?</span></h2>
+        <h2 class="m-bigH">Was kostet Medizintechnik wirklich<span class="end-q">?</span></h2>
         <p class="m-tco-lead">Der Anschaffungspreis ist nur die Spitze des Eisbergs. Über den gesamten Lebenszyklus entstehen weit höhere Kosten – im Betrieb, in der Wartung, im Verbrauch und im Personal. Wir kennen diese Gesamtkosten im Detail und beziehen sie von Anfang an in jede Entscheidung ein.</p>
         <p class="m-tco-principle">Früh planen · Gesamtkosten senken · Werterhalt langfristig sichern<span class="em">.</span></p>
       </div>
@@ -4544,7 +4544,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
     <div class="m-tco-truecost">
       <div class="m-tco-intro">
         <span class="m-tag">Total Cost of Ownership</span>
-        <h2 class="m-bigH">What does medical technology really cost<span class="end-dot">?</span></h2>
+        <h2 class="m-bigH">What does medical technology really cost<span class="end-q">?</span></h2>
         <p class="m-tco-lead">The purchase price is only the tip of the iceberg. Over the entire life cycle, far higher costs arise – in operation, maintenance, consumables and staff. We know these total costs in detail and factor them into every decision from the outset.</p>
         <p class="m-tco-principle">Design early · Reduce total cost · Preserve value long-term<span class="em">.</span></p>
       </div>
@@ -6324,12 +6324,13 @@ _EQ_T = {
 }
 
 
-def _eq_mark(t):
-    """eqon-Wortmarke im medeqon-Stil (Quadrat „e." + „eqon." + Unterzeile), reines HTML/CSS."""
+def _eq_mark(t, ap="assets/"):
+    """eqon-Logo (offizielle Dateien aus 7. RAUMBUCH\\EQON\\08_Logos, Stand 05.10.2026):
+    Icon „e." + Wortmarke „eqon." als SVG, darunter die Mono-Unterzeile."""
     return ('<span class="m-eq-mark" aria-label="eqon">'
-            '<span class="m-eq-mark-mono" aria-hidden="true">e</span>'
+            f'<img class="m-eq-mark-icon" src="{ap}eqon/eqon-icon-blue.svg" alt="" width="46" height="46">'
             '<span class="m-eq-mark-txt" aria-hidden="true">'
-            '<span class="m-eq-mark-word">eqon</span>'
+            f'<img class="m-eq-mark-wm" src="{ap}eqon/eqon-wordmark-light.svg" alt="" width="110" height="28">'
             f'<span class="m-eq-mark-sub">{t["tagline"]}</span>'
             '</span></span>')
 
@@ -6378,7 +6379,7 @@ f'          <span class="m-vt-step-text">{tx}</span>\n'
       </ul>
     </div>
     <aside class="m-eq-login" id="login" aria-labelledby="eq-login-h">
-      {_eq_mark(t)}
+      {_eq_mark(t, ap)}
       <h2 class="m-eq-login-h" id="eq-login-h">{t["login_h"]}<span class="end-dot">.</span></h2>
       <p class="m-eq-login-txt">{t["login_txt"]}</p>
       <a class="m-eq-login-btn" href="{_EQ_LOGIN}">{t["login_btn"]}</a>

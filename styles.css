@@ -52,7 +52,6 @@ a{color:inherit}
 img{max-width:100%}
 ::selection{background:var(--signal);color:#fff}
 .brand{text-transform:lowercase}
-.end-dot{color:var(--signal)}
 
 .skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;
   padding:10px 16px;z-index:100;border-radius:4px}
@@ -66,10 +65,10 @@ img{max-width:100%}
 .brandlogo-mono{width:48px;height:48px;border-radius:24%;background:var(--signal);
   color:#fff;display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);
   font-weight:600;font-size:30px;line-height:1;flex:0 0 auto}
-.brandlogo-mono::after{content:".";color:#fff;margin-left:1px}
+.brandlogo-mono::after{content:"";background:#fff}
 .brandlogo-word{font-family:var(--font-display);font-weight:600;font-size:30px;
   letter-spacing:-0.02em;color:var(--ink);text-transform:lowercase}
-.brandlogo-word::after{content:".";color:var(--signal)}
+.brandlogo-word::after{content:""}
 .m-lang{display:inline-flex;align-items:center;gap:9px}
 .m-flag{display:inline-flex;width:30px;height:20px;border-radius:4px;overflow:hidden;
   border:1px solid var(--mist);box-shadow:0 1px 2px rgba(15,27,44,.12);
@@ -102,7 +101,6 @@ img{max-width:100%}
 .m-page-hero h1{font-family:var(--font-display);font-weight:700;font-size:56px;
   line-height:58px;letter-spacing:-0.022em;color:#fff;margin:0 0 22px;
   max-width:20ch;text-wrap:balance}
-.m-page-hero h1 .end-dot{color:var(--sky)}
 .m-page-hero .lede{font-size:18px;line-height:29px;color:rgba(255,255,255,0.82);max-width:60ch}
 .m-page-hero .m-tag{color:rgba(255,255,255,0.72)}
 .m-page-hero .m-tag::before{border-color:var(--sky)}
@@ -112,7 +110,6 @@ img{max-width:100%}
 .m-hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:56px;align-items:center}
 .m-hero-title{font-family:var(--font-display);font-weight:700;font-size:56px;line-height:78px;
   letter-spacing:-0.025em;color:#fff;max-width:15ch;text-wrap:balance}
-.m-hero-title .end-dot{color:var(--sky)}
 .m-hero-sub{font-size:20px;line-height:31px;color:rgba(255,255,255,0.82);max-width:52ch;margin-top:26px}
 .m-hero-logo{width:100%;max-width:560px;height:auto;justify-self:end;display:block}
 
@@ -125,7 +122,6 @@ img{max-width:100%}
 /* ===== Big section heading ===== */
 .m-bigH{font-family:var(--font-display);font-weight:700;font-size:56px;line-height:58px;
   letter-spacing:-0.02em;color:var(--ink);text-wrap:balance}
-.m-bigH .end-dot{color:var(--signal)}
 .m-secH-lead{font-family:var(--font-sans);font-weight:600;font-size:24px;line-height:32px;
   color:var(--ink);margin-top:10px}
 
@@ -147,7 +143,6 @@ img{max-width:100%}
 .m-slogan .line{width:52px;height:2px;background:var(--sky);margin:0 auto 24px}
 .m-slogan p{font-family:var(--font-display);font-weight:600;font-size:40px;line-height:48px;
   letter-spacing:-0.02em;color:#fff;text-align:center;text-wrap:balance}
-.m-slogan .em{color:var(--sky)}
 
 /* ===== Service cards (4-up) ===== */
 .m-svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:48px}
@@ -227,7 +222,6 @@ img{max-width:100%}
   font-weight:500}
 .m-svc2-title{font-family:var(--font-display);font-weight:700;font-size:24px;line-height:32px;
   letter-spacing:-0.02em;color:var(--brand-700)}
-.m-svc2-title .end-dot{color:var(--signal)}
 .m-svc2-lead{font-family:var(--font-sans);font-weight:600;font-size:18px;line-height:25px;color:var(--ink)}
 .m-svc2-desc{font-size:16px;line-height:24px;color:var(--ink)}
 .m-svc2-list{list-style:none;padding:0;margin:6px 0 0;display:grid;gap:10px}
@@ -242,7 +236,6 @@ img{max-width:100%}
 .m-cta-mid .line{width:52px;height:2px;background:var(--sky)}
 .m-cta-mid h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:44px;
   letter-spacing:-0.02em;color:#fff;text-wrap:balance}
-.m-cta-mid h2 .end-dot{color:var(--sky)}
 .m-cta-mid p{font-size:18px;line-height:28px;color:rgba(255,255,255,0.82);max-width:60ch}
 .m-cta-mid .m-cta-link{margin-top:6px;display:inline-flex;align-items:center;gap:10px;
   font-family:var(--font-mono);font-size:16px;font-weight:600;letter-spacing:0.04em;
@@ -258,7 +251,6 @@ img{max-width:100%}
 .m-cta2 .line{width:52px;height:2px;background:var(--signal)}
 .m-cta2 h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:46px;
   letter-spacing:-0.02em;color:var(--ink);text-wrap:balance}
-.m-cta2 h2 .end-dot{color:var(--signal)}
 .m-cta2 p{font-size:18px;line-height:28px;color:var(--ink);max-width:56ch}
 .m-cta2 .m-btn{margin-top:8px}
 
@@ -269,7 +261,6 @@ img{max-width:100%}
 .m-leist-ico .sig-stroke{stroke:var(--signal)}
 .m-leist h2{font-family:var(--font-display);font-weight:700;font-size:30px;line-height:40px;
   letter-spacing:-0.02em;color:var(--brand-700);text-wrap:balance}
-.m-leist h2 .end-dot{color:var(--signal)}
 .m-leist-lead{font-size:18px;line-height:28px;color:var(--ink);font-weight:600;margin-top:14px;max-width:34ch}
 .m-leist-body{display:grid;gap:22px}
 .m-leist-body p{font-size:16px;line-height:26px;color:var(--ink)}
@@ -312,7 +303,6 @@ img{max-width:100%}
 .m-cat-head .m-tag{color:var(--signal)}
 .m-cat-head h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:46px;
   letter-spacing:-0.02em;color:var(--ink)}
-.m-cat-head h2 .end-dot{color:var(--signal)}
 .m-cat-head .sub{font-size:18px;line-height:26px;color:var(--steel);max-width:74ch}
 
 /* --- Hersteller-Bezug an der Kategorie-Überschrift --- */
@@ -487,7 +477,6 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 .m-legal-doc:first-of-type{padding-top:0;margin-top:0;border-top:none}
 .m-legal-title{font-family:var(--font-display);font-weight:700;font-size:30px;line-height:36px;
   letter-spacing:-0.02em;color:var(--brand-700);margin:0 0 6px}
-.m-legal-title .end-dot{color:var(--signal)}
 .m-legal h3{font-family:var(--font-sans);font-weight:600;font-size:18px;line-height:26px;
   color:var(--ink);margin:28px 0 10px}
 .m-legal h4{font-family:var(--font-sans);font-weight:600;font-size:16px;line-height:24px;
@@ -513,7 +502,6 @@ details.m-ac-sub[open]{border-color:var(--sky);box-shadow:none}
 /* ===== Closing CTA (dark) ===== */
 .m-cta{background:var(--deep-800);color:#fff;padding:84px 0}
 .m-cta h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:46px;color:#fff;text-wrap:balance}
-.m-cta h2 .end-dot{color:var(--sky)}
 .m-cta p{font-size:18px;line-height:28px;color:rgba(255,255,255,0.82);max-width:58ch;margin-top:16px}
 .m-cta-link{display:inline-block;margin-top:26px;color:#fff;font-weight:600;font-size:18px;
   border-bottom:2px solid var(--sky);text-decoration:none;padding-bottom:2px}
@@ -665,10 +653,10 @@ textarea.m-input{min-height:150px;resize:vertical}
   flex-wrap:nowrap;white-space:nowrap}
 .m-foot-mono{flex:0 0 auto;width:40px;height:40px;border-radius:24%;background:var(--signal);
   display:inline-flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-display);font-weight:600;font-size:24px;line-height:1}
-.m-foot-mono::after{content:".";color:#fff;margin-left:1px}
+.m-foot-mono::after{content:"";background:#fff}
 .m-foot-word{font-family:var(--font-display);font-weight:600;font-size:30px;letter-spacing:-0.02em;
   color:#fff;text-transform:lowercase;white-space:nowrap}
-.m-foot-word::after{content:".";color:var(--sky)}
+.m-foot-word::after{content:""}
 .m-foot .m-foot-svc{display:inline-flex;align-items:center;gap:12px;color:rgba(255,255,255,0.80);
   text-decoration:none;font-size:18px;padding:7px 0}
 .m-foot .m-foot-svc:hover{color:#fff}
@@ -700,7 +688,6 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-cta-banner-copy .line{width:52px;height:2px;background:var(--sky)}
 .m-cta-banner-copy h2{font-family:var(--font-display);font-weight:700;font-size:40px;line-height:52px;
   letter-spacing:-0.02em;color:#fff}
-.m-cta-banner-copy h2 .end-dot{color:var(--sky)}
 .m-cta-banner-copy .m-cta-link{margin-top:4px}
 
 /* ===== Personalisierung & Optionen ===== */
@@ -888,7 +875,6 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-card--task .m-tco-card-cap{color:rgba(255,255,255,0.7)}
 .m-tco-card--task .m-tco-card-title{font-family:var(--font-display);font-weight:700;font-size:18px;line-height:25px;
   letter-spacing:-0.01em;color:#fff}
-.m-tco-card--task .m-tco-card-title .em{color:var(--sky)}
 .m-tco-part{margin-top:58px}
 .m-tco-subhead{max-width:800px;margin-bottom:28px}
 .m-tco-step{display:inline-block;font-family:var(--font-mono);font-size:11px;letter-spacing:0.14em;
@@ -930,7 +916,6 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-tco-chip.is-acq{background:var(--mist-blue);border-color:var(--sky);color:var(--brand-700)}
 .m-tco-principle{font-family:var(--font-display);font-weight:700;font-size:18px;line-height:24px;
   color:var(--brand-700);margin:0;padding-top:18px;border-top:1px solid var(--mist)}
-.m-tco-principle .em{color:var(--signal)}
 /* größere Kapitel-Labels */
 #tco .m-tag,
 #mtd > .m-shell > .m-secH .m-tag,
@@ -1445,14 +1430,9 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-eq-login{background:var(--paper);color:var(--ink);border-radius:16px;padding:30px 30px 26px;
   box-shadow:0 30px 60px -28px rgba(0,0,0,0.6);display:grid;gap:14px;align-content:start}
 .m-eq-mark{display:inline-flex;align-items:center;gap:12px;margin-bottom:6px}
-.m-eq-mark-mono{width:46px;height:46px;border-radius:24%;background:var(--signal);color:#fff;
-  display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);
-  font-weight:600;font-size:28px;line-height:1;flex:0 0 auto}
-.m-eq-mark-mono::after{content:".";margin-left:1px}
 .m-eq-mark-txt{display:grid;gap:3px}
-.m-eq-mark-word{font-family:var(--font-display);font-weight:600;font-size:28px;line-height:1;
-  letter-spacing:0.02em;color:var(--ink)}
-.m-eq-mark-word::after{content:".";color:var(--signal)}
+.m-eq-mark-icon{width:46px;height:46px;flex:0 0 auto;display:block}
+.m-eq-mark-wm{display:block;height:28px;width:auto}
 .m-eq-mark-sub{font-family:var(--font-mono);font-size:9.5px;letter-spacing:0.14em;
   text-transform:uppercase;color:var(--steel)}
 .m-eq-login-h{font-family:var(--font-display);font-weight:700;font-size:26px;line-height:32px;
@@ -1497,3 +1477,27 @@ textarea.m-input{min-height:150px;resize:vertical}
   .m-nav-links{gap:20px}
   .m-nav-links a{font-size:18px}
 }
+
+/* ==============================================================
+   medeqon-Punkt (Design-System, seit 05.10.2026)
+   Satzende-Punkt in Überschriften & Wortmarken = runder Punkt wie im
+   medeqon-Logo, immer in --signal (#004AAD), auch auf dunklem Grund.
+   Nie das eckige Satzzeichen der Schrift (Hanken Grotesk) zeigen.
+   Markup: <span class="end-dot">.</span> — der Punkt bleibt als Text
+   erhalten (Kopieren/Screenreader), wird aber durch den Kreis ersetzt.
+   Größe 0.15em, Abstand 0.06em: aus medeqon-logo-white.png abgeleitet
+   (Punkt-Ø = 0.28 × x-Höhe, Hanken-x-Höhe ≈ 0.49em).
+   ============================================================== */
+.end-dot,.em{display:inline-block;width:.15em;height:.15em;margin-left:.06em;
+  border-radius:50%;background:var(--signal);color:transparent;overflow:hidden;
+  text-indent:200%;white-space:nowrap;line-height:0;vertical-align:baseline}
+.end-q{color:var(--signal)}
+/* Ausnahme blauer Hintergrund (Slogan-Band): weißer Punkt — wie das „m." im blauen Logo-Quadrat */
+.m-slogan .em{background:#fff}
+.brandlogo-word::after,.m-foot-word::after,
+.brandlogo-mono::after,.m-foot-mono::after{
+  display:inline-block;width:.15em;height:.15em;margin-left:.06em;border-radius:50%;
+  background:var(--signal);vertical-align:baseline}
+/* im Quadrat („m." / „e."): weißer Punkt, als Flex-Element auf die Grundlinie gesetzt */
+.brandlogo-mono::after,.m-foot-mono::after{
+  background:#fff;margin-left:.05em;align-self:center;transform:translateY(var(--mono-dot-y,.27em))}
