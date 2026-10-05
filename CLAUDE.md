@@ -93,6 +93,7 @@ Es gibt nur noch diese vier Blautöne:
 | `--deep-800` | #0A1228 | dunkles Navy für dunkle Sektionen |
 
 Dazu die Neutralen (`--ink`, `--ink-hover`, `--steel`, `--mist`, `--paper`) — unverändert.
+- **Icon-Akzente auf dunklem Grund** (Punkt/Haken in den runden Navy-Icons: Startseite `.m-hg-ring`, Fußzeile `.m-foot-ico`, Leistungen/Veterinär/eqon `.m-svc2-ico`) in `--mist-blue` — Logo-Blau ist dort zu dunkel. Icons auf hellem Grund behalten `--signal`.
 - **Linien und Unterstreichungen** (kurzer Strich über CTA-Überschriften, Link-Unterstreichungen,
   Akkordeon-/Karten-Hover-Rahmen) sind immer `--signal`. Ausnahme blaues Slogan-Band: weiß.
 - **Feine Rahmen/Haarlinien** (früher `--tint-line`) sind jetzt `--mist` (neutrales Hellgrau).

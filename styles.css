@@ -180,8 +180,8 @@ img{max-width:100%}
   display:grid;place-items:center;
   transition:background var(--dur) var(--ease),transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
 .m-hg-ring svg{width:58px;height:58px;color:#fff}
-.m-hg-ring .sig-fill{fill:var(--signal);stroke:none}
-.m-hg-ring .sig-stroke{stroke:var(--signal)}
+.m-hg-ring .sig-fill{fill:var(--mist-blue);stroke:none}
+.m-hg-ring .sig-stroke{stroke:var(--mist-blue)}
 
 /* ===== Leistungen — Kreuz-Grafik mit Logo im Zentrum ===== */
 .m-cross{position:relative;width:min(560px,88vw);aspect-ratio:1;margin:8px auto 0}
@@ -199,7 +199,7 @@ img{max-width:100%}
 .m-cx-label{font-family:var(--font-display);font-weight:700;font-size:18px;color:var(--brand-700);
   text-align:center;white-space:nowrap}
 .m-cx-node:hover .m-hg-ring{transform:translateY(-5px);box-shadow:0 18px 34px -14px rgba(10,18,40,0.65)}
-.m-cx-node:hover .m-hg-ring .sig-fill{fill:var(--signal)}
+.m-cx-node:hover .m-hg-ring .sig-fill{fill:var(--mist-blue)}
 .m-cross-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;
   background:#fff;padding:14px;border-radius:30px;box-shadow:0 22px 54px -22px rgba(10,18,40,0.5)}
 .m-cross-center img{display:block;width:118px;height:auto}
@@ -214,8 +214,8 @@ img{max-width:100%}
 .m-svc2-ico{width:66px;height:66px;flex:0 0 auto;border-radius:50%;background:var(--deep-800);
   display:grid;place-items:center}
 .m-svc2-ico svg{width:32px;height:32px;color:#fff}
-.m-svc2-ico .sig-fill{fill:var(--signal);stroke:none}
-.m-svc2-ico .sig-stroke{stroke:var(--signal)}
+.m-svc2-ico .sig-fill{fill:var(--mist-blue);stroke:none}
+.m-svc2-ico .sig-stroke{stroke:var(--mist-blue)}
 .m-svc2-num{margin-left:auto;font-family:var(--font-mono);font-size:16px;letter-spacing:0.14em;color:var(--mist);
   font-weight:500}
 .m-svc2-title{font-family:var(--font-display);font-weight:700;font-size:24px;line-height:32px;
@@ -659,8 +659,8 @@ textarea.m-input{min-height:150px;resize:vertical}
   text-decoration:none;font-size:18px;padding:7px 0}
 .m-foot .m-foot-svc:hover{color:#fff}
 .m-foot-ico{flex:0 0 auto;width:26px;height:26px;color:rgba(255,255,255,0.85)}
-.m-foot-ico .sig-fill{fill:var(--signal);stroke:none}
-.m-foot-ico .sig-stroke{stroke:var(--signal)}
+.m-foot-ico .sig-fill{fill:var(--mist-blue);stroke:none}
+.m-foot-ico .sig-stroke{stroke:var(--mist-blue)}
 .m-foot-words{color:rgba(255,255,255,0.80);font-size:18px;line-height:27px}
 .m-foot-legalline{font-family:var(--font-mono);font-size:14px;color:rgba(255,255,255,0.55);letter-spacing:0.03em;line-height:1.7}
 .m-foot-col{display:grid;gap:2px;align-content:start}
@@ -854,10 +854,10 @@ textarea.m-input{min-height:150px;resize:vertical}
   border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px}
 .m-src-cta p{margin:0;flex:1 1 440px;max-width:78ch;font-size:16px;line-height:24px;color:var(--ink)}
 .m-src-cta .m-btn{flex:none}
-/* Beschaffung-Icons: größeres weißes Icon, schmalerer dunkler Rand, kräftiger blauer Punkt */
+/* Beschaffung-Icons: größeres weißes Icon, schmalerer dunkler Rand, Akzent in --mist-blue (Icons auf dunklem Grund) */
 #beschaffung .m-svc2-ico svg{width:42px;height:42px}
-#beschaffung .m-svc2-ico .sig-fill{fill:var(--signal);stroke:none}
-#beschaffung .m-svc2-ico .sig-stroke{stroke:var(--signal)}
+#beschaffung .m-svc2-ico .sig-fill{fill:var(--mist-blue);stroke:none}
+#beschaffung .m-svc2-ico .sig-stroke{stroke:var(--mist-blue)}
 
 /* ===== Total Cost of Ownership (Startseite) ===== */
 .m-tco-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:34px}
