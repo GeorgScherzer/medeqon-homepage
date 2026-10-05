@@ -4154,9 +4154,9 @@ BODY_REFERENZEN = '''<section class="m-page-hero">
 <section class="m-section m-refstats-bg" style="background-image:url(assets/slogan-bg.jpg)">
   <div class="m-shell">
     <p class="m-ref-slogan">
-      <span>Kompetenz aus Projekten<i>.</i></span>
-      <span>Wissen aus Forschung<i>.</i></span>
-      <span>Vertrauen durch Erfahrung<i>.</i></span>
+      <span>Kompetenz aus Projekten<span class="end-dot">.</span></span>
+      <span>Wissen aus Forschung<span class="end-dot">.</span></span>
+      <span>Vertrauen durch Erfahrung<span class="end-dot">.</span></span>
     </p>
   </div>
 </section>

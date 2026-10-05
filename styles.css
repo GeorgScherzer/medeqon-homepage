@@ -971,8 +971,7 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-ref-slogan{margin:0 auto;max-width:920px;text-align:center;
   font-family:var(--font-display);font-weight:700;letter-spacing:-0.015em;
   font-size:clamp(24px,3.4vw,38px);line-height:1.42;color:var(--ink)}
-.m-ref-slogan span{display:block}
-.m-ref-slogan i{color:var(--signal);font-style:normal}
+.m-ref-slogan > span{display:block}
 @media (max-width:560px){.m-ref-slogan{font-size:24px}}
 
 /* Referenzen: Filter + Projektkarten-Raster */
