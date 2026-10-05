@@ -425,7 +425,7 @@ BODY_INDEX = '''<section class="m-hero-main">
               </linearGradient>
             </defs>
             <rect x="0" y="210" width="680" height="410" fill="#E8EEF7"/>
-            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#D5E1F2"/>
+            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#D5DAE0"/>
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
@@ -499,12 +499,12 @@ BODY_INDEX = '''<section class="m-hero-main">
           <line x1="64" y1="48" x2="64" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
           <line x1="64" y1="320" x2="612" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
           <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58 L560,141 C520,146 480,151 411,157 C350,162 330,173 262,179 C228,182 205,184 163,200 C138,214 108,252 64,320 Z" fill="#004AAD" fill-opacity="0.08"/>
-          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="4" stroke-linecap="round"/>
+          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#6B7785" stroke-width="4" stroke-linecap="round"/>
           <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="4" stroke-linecap="round"/>
-          <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
+          <circle cx="560" cy="58" r="6" fill="#6B7785"/>
           <circle cx="560" cy="141" r="6" fill="#004AAD"/>
-          <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Kosten ohne</text>
-          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Planung</text>
+          <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#6B7785">Kosten ohne</text>
+          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#6B7785">Planung</text>
           <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Kosten mit</text>
           <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Planung</text>
           <g stroke-linecap="round">
@@ -519,8 +519,8 @@ BODY_INDEX = '''<section class="m-hero-main">
           </g>
           <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#0F1B2C">Jahre</text>
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#0F1B2C" transform="rotate(-90 22 184)" text-anchor="middle">PROJEKTKOSTEN</text>
-          <rect x="64" y="356" width="99" height="24" rx="5" fill="#D5E1F2"/>
-          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E8EEF7"/>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#FFFFFF"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#D5DAE0"/>
           <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">PLANUNG</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#0F1B2C" text-anchor="middle">BETRIEB</text>
         </svg>
@@ -4559,7 +4559,7 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
               </linearGradient>
             </defs>
             <rect x="0" y="210" width="680" height="410" fill="#E8EEF7"/>
-            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#D5E1F2"/>
+            <polygon points="296,209 320,146 342,106 362,90 384,108 406,148 424,209" fill="#D5DAE0"/>
             <polygon points="296,210 256,250 226,330 240,432 276,520 326,586 362,602 402,584 446,516 470,426 478,330 452,250 424,210" fill="url(#icebergGrad)"/>
             <line x1="30" y1="210" x2="650" y2="210" stroke="#004AAD" stroke-width="1.5"/>
             <circle cx="30" cy="210" r="4" fill="#fff" stroke="#004AAD" stroke-width="1.5"/>
@@ -4633,12 +4633,12 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           <line x1="64" y1="48" x2="64" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
           <line x1="64" y1="320" x2="612" y2="320" stroke="#0F1B2C" stroke-width="1.5"/>
           <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58 L560,141 C520,146 480,151 411,157 C350,162 330,173 262,179 C228,182 205,184 163,200 C138,214 108,252 64,320 Z" fill="#004AAD" fill-opacity="0.08"/>
-          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#5B9BD5" stroke-width="4" stroke-linecap="round"/>
+          <path d="M64,320 C120,300 150,285 163,268 C210,238 235,222 262,198 C310,168 335,158 361,138 C408,110 432,98 460,84 C505,68 535,64 560,58" fill="none" stroke="#6B7785" stroke-width="4" stroke-linecap="round"/>
           <path d="M64,320 C108,252 138,214 163,200 C205,184 228,182 262,179 C330,173 350,162 411,157 C480,151 520,146 560,141" fill="none" stroke="#004AAD" stroke-width="4" stroke-linecap="round"/>
-          <circle cx="560" cy="58" r="6" fill="#5B9BD5"/>
+          <circle cx="560" cy="58" r="6" fill="#6B7785"/>
           <circle cx="560" cy="141" r="6" fill="#004AAD"/>
-          <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">Cost without</text>
-          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#5B9BD5">design</text>
+          <text x="576" y="51" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#6B7785">Cost without</text>
+          <text x="576" y="71" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#6B7785">design</text>
           <text x="576" y="134" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">Cost with</text>
           <text x="576" y="154" font-family="Hanken Grotesk, sans-serif" font-size="16.5" font-weight="700" fill="#004AAD">design</text>
           <g stroke-linecap="round">
@@ -4653,8 +4653,8 @@ BODY_INDEX_EN = '''<section class="m-hero-main">
           </g>
           <text x="628" y="325" font-family="IBM Plex Mono, monospace" font-size="14" fill="#0F1B2C">Years</text>
           <text x="22" y="184" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1.5" fill="#0F1B2C" transform="rotate(-90 22 184)" text-anchor="middle">PROJECT COST</text>
-          <rect x="64" y="356" width="99" height="24" rx="5" fill="#D5E1F2"/>
-          <rect x="167" y="356" width="445" height="24" rx="5" fill="#E8EEF7"/>
+          <rect x="64" y="356" width="99" height="24" rx="5" fill="#FFFFFF"/>
+          <rect x="167" y="356" width="445" height="24" rx="5" fill="#D5DAE0"/>
           <text x="113" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#004AAD" text-anchor="middle">DESIGN</text>
           <text x="389" y="372" font-family="IBM Plex Mono, monospace" font-size="12.5" letter-spacing="1" fill="#0F1B2C" text-anchor="middle">OPERATION</text>
         </svg>
@@ -5067,7 +5067,7 @@ def _design_model_svg(lang):
         o.append(f'<path id="tp-{lang}-{k}" fill="none" d="{_mdl_arc(a1, a2, _MDL_Rl)}"/>')
     o.append('</defs>')
     o.append(f'<text x="20" y="48" font-family="IBM Plex Mono, monospace" font-size="34" font-weight="600" letter-spacing="7" fill="#3D6BB0">{_html.escape(t["title"])}</text>')
-    o.append('<line x1="20" y1="86" x2="1480" y2="86" stroke="#D5E1F2" stroke-width="1.5"/>')
+    o.append('<line x1="20" y1="86" x2="1480" y2="86" stroke="#D5DAE0" stroke-width="1.5"/>')
     for k, (a1, a2, c) in _MDL_SEGS.items():
         o.append(f'<path d="{_mdl_seg(a1, a2)}" fill="{c}"/>')
     o.append(f'<circle cx="{C[0]}" cy="{C[1]}" r="{_MDL_Rc}" fill="#E8EEF7" stroke="#0F1B2C" stroke-width="2.5"/>')
@@ -6002,6 +6002,11 @@ f'            <a class="m-vt-more" href="{href}">{t["tile_link"]}</a>\n'
     return "\n".join(out)
 
 
+def _dot_end(txt):
+    """Satzende-Punkt als runden medeqon-Punkt ausgeben (Design-System, siehe styles.css)."""
+    return txt[:-1] + '<span class="end-dot">.</span>' if txt.endswith(".") else txt
+
+
 def _body_veterinaer(lang):
     t = _VET_T[lang]
     ap = "assets/" if lang == "de" else "/assets/"
@@ -6032,7 +6037,7 @@ f'          <span class="m-vt-step-text">{tx}</span>\n'
     return f'''<section class="m-page-hero m-vt-hero">
   <div class="m-shell">
     <span class="m-tag">{t["tag"]}</span>
-    <h1>{t["h1"]}<span class="end-dot">.</span><span class="m-vt-claim">{t["claim"]}</span></h1>
+    <h1>{t["h1"]}<span class="end-dot">.</span><span class="m-vt-claim">{_dot_end(t["claim"])}</span></h1>
     <p class="lede">{t["lede"]}</p>
     <ul class="m-vt-badges">
 {badges}
@@ -6370,7 +6375,7 @@ f'          <span class="m-vt-step-text">{tx}</span>\n'
   <div class="m-shell m-eq-hero-grid">
     <div class="m-eq-hero-top">
       <span class="m-tag">{t["tag"]}</span>
-      <h1>{t["h1"]}<span class="end-dot">.</span><span class="m-vt-claim">{t["claim"]}</span></h1>
+      <h1>{t["h1"]}<span class="end-dot">.</span><span class="m-vt-claim">{_dot_end(t["claim"])}</span></h1>
     </div>
     <div class="m-eq-hero-more">
       <p class="lede">{t["lede"]}</p>

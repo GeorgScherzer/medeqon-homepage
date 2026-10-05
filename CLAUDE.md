@@ -61,14 +61,14 @@ hinter der Wortmarke „medeqon." in Kopf- und Fußzeile, im „m."-Quadrat und 
 Vorbild ist eqon, das auf denselben runden Punkt umgestellt wurde.
 
 - **Farbe:** immer `--signal` (#004AAD, das Logo-Blau) — auch auf dunklem Navy und auf Fotos
-  (früher dort `--sky`, das ist abgeschafft). **Einzige Ausnahme:** auf **blauem** Grund (Slogan-Band
+  (`--sky` gibt es nicht mehr, siehe Farben). **Einzige Ausnahme:** auf **blauem** Grund (Slogan-Band
   `.m-slogan`, Logo-Quadrat „m.") ist der Punkt **weiß**, genau wie im blauen Logo-Quadrat.
 - **Markup:** `<span class="end-dot">.</span>` direkt an das letzte Wort (bzw. `<span class="em">.</span>`
   in Slogans). Der Punkt bleibt als Text erhalten (Kopieren, Screenreader); CSS blendet ihn aus und
   zeichnet stattdessen einen Kreis. **Für neue Überschriften einfach dieses Markup verwenden** —
   keine eigenen Farb- oder Größenregeln je Bereich anlegen.
 - **CSS:** zentraler Block „medeqon-Punkt" am Ende von `styles.css`: Kreis **0.15em** Ø,
-  **0.06em** Abstand, auf der Grundlinie (abgeleitet aus `medeqon-logo-white.png`:
+  **0.06em** Abstand (mindestens 5 px bzw. 2 px, damit er in kleinen Titeln rund wirkt), auf der Grundlinie (abgeleitet aus `medeqon-logo-white.png`:
   Punkt-Ø ≈ 0.28 × x-Höhe). Wortmarken-Punkte als `::after` mit `content:""` + Kreis;
   im Quadrat („m.") als Flex-Element mit `transform:translateY(.27em)` auf die Grundlinie gesetzt.
 - **Fragezeichen** bleiben Zeichen: `<span class="end-q">?</span>` (blau, nicht rund) —
@@ -80,6 +80,34 @@ Vorbild ist eqon, das auf denselben runden Punkt umgestellt wurde.
 - **Prüfung:** `grep 'content:"\."' styles.css` muss leer sein, und kein `.end-dot`-Selektor darf
   eine eigene `color:` setzen.
 
+
+### Design-System: Farben — nur noch vier Blautöne (verbindlich seit 05.10.2026)
+`--sky` (#5B9BD5) und `--tint-line` (#D5E1F2) wurden **abgeschafft** und aus `styles.css` gelöscht.
+Es gibt nur noch diese vier Blautöne:
+
+| Token | Wert | Verwendung |
+|---|---|---|
+| `--signal` | #004AAD | Logo-Blau: Punkt, Akzent-Linien (auch auf dunklem Grund / Foto), Links, Buttons, Icon-Akzente, Hover-Rahmen |
+| `--brand-700` | #003278 | dunkles Marken-Blau: Überschriften, Icons, Button-Hover |
+| `--mist-blue` | #E8EEF7 | helle Blau-Fläche (Hintergründe, `.m-section.alt2`) |
+| `--deep-800` | #0A1228 | dunkles Navy für dunkle Sektionen |
+
+Dazu die Neutralen (`--ink`, `--ink-hover`, `--steel`, `--mist`, `--paper`) — unverändert.
+- **Linien und Unterstreichungen** (kurzer Strich über CTA-Überschriften, Link-Unterstreichungen,
+  Akkordeon-/Karten-Hover-Rahmen) sind immer `--signal`. Ausnahme blaues Slogan-Band: weiß.
+- **Feine Rahmen/Haarlinien** (früher `--tint-line`) sind jetzt `--mist` (neutrales Hellgrau).
+- **Kleine Schrift auf dunklem Grund** nie in Blau (zu wenig Kontrast): Fußzeilen-Spaltentitel
+  `rgba(255,255,255,.55)`, Claim-Zweitzeile im Seitenkopf (`.m-vt-claim`, Veterinär + eqon)
+  `rgba(255,255,255,.72)`.
+- **Diagramm „Kosteneffizienz durch frühe Planung"** (Startseite): Kurve „ohne Planung" in `--steel`
+  (Grau), „mit Planung" in `--signal`; Balken PLANUNG weiß, BETRIEB `--mist`.
+- **Keine neuen Blauwerte einführen.** Bewusste Ausnahmen bleiben: Planungsmodell-Ring (4 Stufen),
+  Eisberg-Verlauf in der Startseiten-Grafik, Landesflaggen.
+- Zweite Überschriftenzeilen (Claims) enden ebenfalls mit dem runden Punkt: in `build.py`
+  über `_dot_end(text)` ausgeben.
+- Prüfung: `grep -c -- '--sky\|--tint-line\|5B9BD5\|D5E1F2' styles.css build.py` muss 0 sein.
+- Hinweis: der Styleguide `…\Homepage\Farben und Schrittypen\medeqon-Farben-und-Schrifttypen.pdf`
+  (Stand 03.08.2026) zeigt noch sky und tint-line — gilt insoweit als überholt.
 
 ### 1. Was ist das?
 Statische Website **www.medeqon.com** (medeqon GmbH, Ingenieurbüro für Medizintechnik in Wien).
