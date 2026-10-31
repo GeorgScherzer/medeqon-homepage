@@ -261,3 +261,17 @@ und Consulting & Lehre als eigene Filter-Grids.
 Rechtstexte übersetzt. Download-Bereiche für Medizinische Einrichtung und Strahlenschutz aktiv.
 Rechtstexte (AGB/Datenschutz) sind sinngemäß maschinell übersetzt — vor rechtsverbindlicher
 Nutzung juristisch prüfen lassen.*
+
+## Smartphone-Optimierung (seit 31.10.2026)
+- Bis **900 px** Breite: Kopfzeile als schlanke Leiste mit **Hamburger-Menü** (`.m-burger`) und
+  Menü-Blatt (`.m-nav-menu`, enthält Navigation + Flaggen). Ab 901 px ist `.m-nav-menu`
+  `display:contents` → PC-Ansicht unverändert (pixelgenau geprüft).
+- Code: `header()` + `_MNAV_T` / `_MNAV_JS` in `build.py`; CSS-Block „Smartphone-Optimierung“
+  ganz am Ende von `styles.css` (`@media (max-width:900px)` und `(max-width:560px)`).
+- Bis 560 px: **kein Blocksatz** (linksbündig), kleinere Überschriften, CTA-Banner nach Inhalt,
+  Produktkarten-Datentabelle untereinander, Download-Karten einspaltig.
+- DE-`agb.html` bei Änderungen an `header()`: Kopfzeile **inkl. Skript direkt nach `</header>`**
+  per Textersetzung aus `impressum.html` übernehmen.
+- **Prüfung bei jeder Änderung:** alle Seiten bei 390 und 360 px auf Überstand messen
+  (`document.documentElement.scrollWidth` muss gleich der Fensterbreite sein).
+- Doku: `…\Homepage\Smartphone Optimierung\Homepage_Smartphone_Optimierung.md`.

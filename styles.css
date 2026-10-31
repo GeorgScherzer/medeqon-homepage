@@ -1507,3 +1507,86 @@ textarea.m-input{min-height:150px;resize:vertical}
 
 .m-eq-mark-logo{display:block;height:56px;width:auto;max-width:100%;margin-bottom:6px}
 @media (max-width:700px){.m-page-hero .lede{text-align:left}}
+
+/* ==============================================================
+   Smartphone-Optimierung (31.10.2026) — nach dem Vorbild LAMA
+   Desktop (> 900 px) bleibt unverändert: .m-nav-menu ist dort
+   display:contents, der Hamburger ist ausgeblendet.
+   ============================================================== */
+.m-nav-menu{display:contents}
+.m-burger{display:none}
+@media (max-width:900px){
+  /* Kopfzeile: eine schlanke Leiste statt drei Zeilen Navigation */
+  .m-nav{min-height:60px;padding:8px 12px 8px 16px;padding-top:max(8px,env(safe-area-inset-top));
+    gap:12px;flex-wrap:nowrap}
+  .m-nav .brandlogo{gap:10px}
+  .m-nav .brandlogo-mono{width:38px;height:38px;font-size:23px}
+  .m-nav .brandlogo-word{font-size:23px}
+  .m-burger{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;
+    margin-left:auto;width:46px;height:46px;border:1px solid var(--mist);border-radius:12px;
+    background:var(--paper);cursor:pointer;padding:0;-webkit-tap-highlight-color:transparent}
+  .m-burger span{display:block;width:20px;height:2px;border-radius:2px;background:var(--ink);
+    transition:transform .2s ease,opacity .2s ease}
+  .m-nav.is-open .m-burger{border-color:var(--signal)}
+  .m-nav.is-open .m-burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .m-nav.is-open .m-burger span:nth-child(2){opacity:0}
+  .m-nav.is-open .m-burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  /* Menü-Blatt unter der Leiste */
+  .m-nav-menu{display:none;position:fixed;left:0;right:0;top:61px;bottom:0;z-index:49;
+    background:var(--paper);border-top:1px solid var(--mist);overflow-y:auto;overscroll-behavior:contain;
+    flex-direction:column;padding:6px 20px calc(28px + env(safe-area-inset-bottom))}
+  .m-nav.is-open .m-nav-menu{display:flex}
+  .m-nav-menu .m-nav-links{margin:0;display:flex;flex-direction:column;flex-wrap:nowrap;align-items:stretch;gap:0}
+  .m-nav-menu .m-nav-links a{display:flex;align-items:center;min-height:56px;padding:0 4px 0 18px;
+    font-size:20px;border-bottom:1px solid var(--mist);position:relative}
+  .m-nav-menu .m-nav-links a.active{color:var(--brand-700);border-bottom-color:var(--mist)}
+  .m-nav-menu .m-nav-links a.active::before{content:"";position:absolute;left:0;top:50%;
+    width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--signal)}
+  .m-nav-menu .m-lang{margin-top:24px;gap:18px;padding-left:2px}
+  .m-nav-menu .m-flag{width:42px;height:28px}
+  html.m-menu-open,html.m-menu-open body{overflow:hidden}
+
+  /* Produktkarten: nicht breiter als der Bildschirm */
+  .m-pl{grid-template-columns:minmax(0,1fr)}
+  .m-cat-head.has-mfr .m-cat-head-text{flex:1 1 100%}
+}
+@media (max-width:560px){
+  /* Blocksatz am Handy aus: auf 300 px Spaltenbreite entstehen sonst große Lücken */
+  .m-page-hero .lede,.m-hero .lede,.m-hero-sub,.m-svc2-lead,.m-svc2-desc,.m-ac-lead,.m-pl-desc,
+  .m-opt-desc,.m-legal p,.m-imp-block p,.m-prose p,.m-refc-desc,.m-lb-desc,.m-tco-lead,
+  .m-tco-principle,.m-vt-svc-text,.m-vt-text{text-align:left}
+
+  /* Überschriften etwas kleiner */
+  .m-hero-main{padding:56px 0 48px}
+  .m-hero-title{font-size:34px;line-height:40px}
+  .m-hero-logo{display:none} /* steht direkt unter der Wortmarke der Kopfzeile, am Handy doppelt */
+  .m-bigH,.m-cat-head h2,.m-cta h2,.m-cta2 h2,.m-cta-mid h2{font-size:31px;line-height:37px}
+
+  /* CTA-Banner („Arbeiten Sie mit uns.“): Höhe nach Inhalt statt Bildformat */
+  .m-cta-banner{aspect-ratio:auto;min-height:220px;padding:44px 0;background-position:72% top}
+  .m-cta-banner::before{background:linear-gradient(90deg,rgba(9,15,30,.9) 0%,rgba(9,15,30,.72) 60%,rgba(9,15,30,.4) 100%)}
+  .m-cta-banner-copy h2{font-size:31px;line-height:38px}
+
+  /* Aufklapp-Bereiche der Produktseite: weniger Einzug, mehr Platz für die Karten */
+  .m-ac>summary{padding:16px 16px;gap:12px}
+  .m-ac-body{padding:2px 14px 20px}
+  .m-ac-sub>summary{padding:14px 14px}
+  .m-ac-sub .m-ac-body{padding:2px 10px 16px}
+  .m-pl{padding:14px;gap:16px;border-radius:14px}
+  .m-pl-name{font-size:20px;line-height:26px}
+  .m-pl-specs li{grid-template-columns:1fr;gap:2px;padding:9px 0}
+  .m-pl-specs li span{align-self:start}
+
+  /* Download-Karten: eine Spalte, Sprachknöpfe dürfen umbrechen */
+  .m-dl-grid{grid-template-columns:minmax(0,1fr)}
+  .m-dl-langs{flex-wrap:wrap}
+  .m-dl-lang{min-height:38px}
+
+  /* Leistungen-Kreuzgrafik: lange Beschriftungen (PL/RO) dürfen umbrechen */
+  .m-cross{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .m-cross .m-cx-node{min-width:0;max-width:100%;transform:none} /* Positions-Verschiebung der Desktop-Kreuzform aufheben */
+  .m-cx-label{white-space:normal;font-size:16px;line-height:21px;text-wrap:balance}
+
+  /* Formulare: Knopf über die ganze Breite */
+  .m-form .m-btn,.m-form button[type=submit]{width:100%;justify-content:center;min-height:50px}
+}

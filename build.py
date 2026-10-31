@@ -98,6 +98,17 @@ def _lang_switcher(filename, lang):
     return ('  <div class="m-lang" role="group" aria-label="Sprache / Language">\n    '
             + "".join(opts) + '\n  </div>')
 
+# Handy-Menü (Hamburger, bis 900 px Breite): Beschriftung [öffnen, schließen] je Sprache
+_MNAV_T = {"de": ("Menü öffnen", "Menü schließen"), "en": ("Open menu", "Close menu"),
+           "pl": ("Otwórz menu", "Zamknij menu"), "ro": ("Deschide meniul", "Închide meniul")}
+_MNAV_JS = ('<script>(function(){var h=document.querySelector(".m-nav"),b=h&&h.querySelector(".m-burger");'
+    'if(!b)return;function s(o){h.classList.toggle("is-open",o);document.documentElement.classList.toggle("m-menu-open",o);'
+    'b.setAttribute("aria-expanded",o?"true":"false");b.setAttribute("aria-label",o?b.dataset.close:b.dataset.open)}'
+    'b.addEventListener("click",function(){s(!h.classList.contains("is-open"))});'
+    'h.querySelectorAll(".m-nav-menu a").forEach(function(a){a.addEventListener("click",function(){s(false)})});'
+    'document.addEventListener("keydown",function(e){if(e.key==="Escape")s(false)});'
+    'var m=window.matchMedia("(min-width:901px)");(m.addEventListener?m.addEventListener("change",function(e){if(e.matches)s(false)}):0)})();</script>')
+
 def header(filename, lang="de"):
     labels = NAV_LABELS[lang]
     def link(fn):
@@ -109,11 +120,15 @@ def header(filename, lang="de"):
     <span class="brandlogo-mono" aria-hidden="true">m</span>
     <span class="brandlogo-word">medeqon</span>
   </a>
+  <button class="m-burger" type="button" aria-expanded="false" aria-controls="mNavMenu" aria-label="{_MNAV_T[lang][0]}" data-open="{_MNAV_T[lang][0]}" data-close="{_MNAV_T[lang][1]}"><span></span><span></span><span></span></button>
+  <div class="m-nav-menu" id="mNavMenu">
   <nav class="m-nav-links" aria-label="Navigation">
 {links}
   </nav>
 {_lang_switcher(filename, lang)}
-</header>'''
+  </div>
+</header>
+{_MNAV_JS}'''
 
 _FOOT_ICONS = {
     "planung": '<svg class="m-foot-ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 38 L38 38 L10 12 Z"/><path d="M10 27 L21 27"/><circle cx="38" cy="38" r="2.6" class="sig-fill"/></svg>',

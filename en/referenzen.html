@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#004AAD">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23004AAD'/%3E%3Ctext x='50' y='70' font-family='Arial,sans-serif' font-size='60' font-weight='700' fill='white' text-anchor='middle'%3Em%3C/text%3E%3C/svg%3E">
 
-<link rel="stylesheet" href="/styles.css?v=e46b0793">
+<link rel="stylesheet" href="/styles.css?v=8e11753b">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -18,6 +18,8 @@
     <span class="brandlogo-mono" aria-hidden="true">m</span>
     <span class="brandlogo-word">medeqon</span>
   </a>
+  <button class="m-burger" type="button" aria-expanded="false" aria-controls="mNavMenu" aria-label="Open menu" data-open="Open menu" data-close="Close menu"><span></span><span></span><span></span></button>
+  <div class="m-nav-menu" id="mNavMenu">
   <nav class="m-nav-links" aria-label="Navigation">
     <a href="/en/index.html">Home</a>
     <a href="/en/leistungen.html">Services</a>
@@ -32,7 +34,9 @@
   <div class="m-lang" role="group" aria-label="Sprache / Language">
     <a class="m-flag" href="/referenzen.html" hreflang="de" title="Deutsch" aria-label="Deutsch"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="60" height="40" fill="#000"/><rect y="13.34" width="60" height="13.33" fill="#DD0000"/><rect y="26.67" width="60" height="13.33" fill="#FFCE00"/></svg></a><a class="m-flag is-on" href="/en/referenzen.html" hreflang="en" title="English" aria-label="English" aria-current="true"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><clipPath id="flgen"><rect width="60" height="40"/></clipPath><g clip-path="url(#flgen)"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4"/><rect x="24" width="12" height="40" fill="#fff"/><rect y="14" width="60" height="12" fill="#fff"/><rect x="26" width="8" height="40" fill="#C8102E"/><rect y="16" width="60" height="8" fill="#C8102E"/></g></svg></a><a class="m-flag" href="/pl/referenzen.html" hreflang="pl" title="Polski" aria-label="Polski"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="60" height="20" fill="#fff"/><rect y="20" width="60" height="20" fill="#DC143C"/></svg></a><a class="m-flag" href="/ro/referenzen.html" hreflang="ro" title="Română" aria-label="Română"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="20" height="40" fill="#002B7F"/><rect x="20" width="20" height="40" fill="#FCD116"/><rect x="40" width="20" height="40" fill="#CE1126"/></svg></a>
   </div>
+  </div>
 </header>
+<script>(function(){var h=document.querySelector(".m-nav"),b=h&&h.querySelector(".m-burger");if(!b)return;function s(o){h.classList.toggle("is-open",o);document.documentElement.classList.toggle("m-menu-open",o);b.setAttribute("aria-expanded",o?"true":"false");b.setAttribute("aria-label",o?b.dataset.close:b.dataset.open)}b.addEventListener("click",function(){s(!h.classList.contains("is-open"))});h.querySelectorAll(".m-nav-menu a").forEach(function(a){a.addEventListener("click",function(){s(false)})});document.addEventListener("keydown",function(e){if(e.key==="Escape")s(false)});var m=window.matchMedia("(min-width:901px)");(m.addEventListener?m.addEventListener("change",function(e){if(e.matches)s(false)}):0)})();</script>
 
 <main id="main">
 <section class="m-page-hero">
