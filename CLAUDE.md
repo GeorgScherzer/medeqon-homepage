@@ -275,3 +275,31 @@ Nutzung juristisch prüfen lassen.*
 - **Prüfung bei jeder Änderung:** alle Seiten bei 390 und 360 px auf Überstand messen
   (`document.documentElement.scrollWidth` muss gleich der Fensterbreite sein).
 - Doku: `…\Homepage\Smartphone Optimierung\Homepage_Smartphone_Optimierung.md`.
+
+## Smartphone-Pflicht für neue Seiten und Inhalte (verbindlich seit 31.10.2026)
+**Georgs Vorgabe:** Jede künftig erstellte Seite, jeder neue Bereich und jeder neue Inhalt wird
+**gleich mit für das Smartphone optimiert** — nicht nachträglich. Eine Änderung gilt erst als fertig,
+wenn sie am Handy genauso sauber aussieht wie am PC.
+
+**Beim Bauen beachten:**
+- Raster und Spalten mit `minmax(0,1fr)` bzw. Mindestbreiten ≤ 300 px — keine festen Breiten, die
+  auf 360 px nicht passen (Ursache der abgeschnittenen Produktkarten im Oktober 2026).
+- Kein `white-space:nowrap` bei Texten, die übersetzt werden — **PL/RO sind am längsten**.
+- Zweispaltige Daten-/Spec-Zeilen am Handy (≤ 560 px) **untereinander** stellen.
+- Neue Absätze mit Blocksatz: den Selektor auch in die **Linksbündig-Liste** im Block
+  „Smartphone-Optimierung“ am Ende von `styles.css` aufnehmen.
+- Tippflächen (Links, Knöpfe) mind. **44 px** hoch, Eingabefelder **16 px** Schrift.
+- Überschriften ≥ 40 px brauchen eine kleinere Handy-Größe (~31 px ab ≤ 560 px).
+- Mobile Regeln in denselben Block am Ende von `styles.css` bzw. in einen eigenen, kommentierten
+  `@media (max-width:900px)`/`(max-width:560px)`-Block beim neuen Bereich schreiben.
+- Achtung Vorrang: Regeln mit zwei Klassen (z. B. `.m-cx-node.n-top`) schlagen eine einfache
+  Handy-Regel `.m-cx-node{…}` — am Handy dann den Selektor ebenso spezifisch schreiben.
+- **PC-Ansicht nicht verändern** (Handy-Regeln nur innerhalb der Media-Queries).
+
+**Prüfung vor dem Ausliefern (Pflicht, alle vier Sprachen):**
+1. Alle betroffenen Seiten bei **390 px und 360 px** rendern (Playwright, `is_mobile=True`),
+   Akkordeons aufklappen (`details.open=true`).
+2. Überstand messen: `document.documentElement.scrollWidth` muss gleich der Fensterbreite sein,
+   kein Element mit `getBoundingClientRect().right` > Fensterbreite.
+3. Screenshot bei 390 px ansehen (Kopf, neuer Bereich, Menü geöffnet).
+4. Bei Änderungen an gemeinsamem CSS: PC-Ansicht (1400/1000 px) vorher/nachher vergleichen.
