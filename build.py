@@ -1614,7 +1614,7 @@ _PARTNERS = [
     ]),
     ("planung", [
         ("plandata",   "PLANDATA",      "https://plandata.eu"),
-        ("intermedtec", "InterMedTec",  None),   # noch keine Website -> Karte ohne Link
+        ("intermedtec", "InterMedTec",  "https://intermedtec.com/"),
     ]),
 ]
 
@@ -1642,9 +1642,9 @@ _PART_T = {
                     "für OP und interventionelle Radiologie.",
       "plandata":   "Unser BIM-Partner aus Wien: Erstellung und Pflege unserer "
                     "Revit-Familienbibliothek und der zugehörigen Datenstandards.",
-      "intermedtec": "Unser neuer Partner aus Wien für Planungs- und Beratungsleistungen im "
-                     "Gesundheitswesen – gemeinsam für Medizintechnik-Projekte, getreu dem Leitsatz "
-                     "„Mission of Health“.",
+      "intermedtec": "Gesundheitsprojekte aus einer Hand – von Finanzierung und Planung bis zur "
+                     "Errichtung und darüber hinaus. Gemeinsam bringen wir Medizintechnik dorthin, wo "
+                     "Versorgung gebraucht wird: Mission of Health.",
     }),
  "en": dict(
     tag="Partners", h2="Together with strong partners",
@@ -1669,9 +1669,9 @@ _PART_T = {
                     "systems for the OR and interventional radiology.",
       "plandata":   "Our BIM partner from Vienna: creation and maintenance of our Revit family "
                     "library and the associated data standards.",
-      "intermedtec": "Our new partner from Vienna for design and consulting services in "
-                     "healthcare – joining forces on medical technology projects, true to the motto "
-                     "“Mission of Health”.",
+      "intermedtec": "Healthcare projects from a single source – from financing and design through to "
+                     "construction and beyond. Together we bring medical technology wherever care is "
+                     "needed: Mission of Health.",
     }),
  "pl": dict(
     tag="Partnerzy", h2="Razem z silnymi partnerami",
@@ -1696,9 +1696,9 @@ _PART_T = {
                     "blok operacyjny i radiologię zabiegową.",
       "plandata":   "Nasz partner BIM z Wiednia: tworzenie i utrzymanie naszej biblioteki rodzin "
                     "Revit oraz powiązanych standardów danych.",
-      "intermedtec": "Nasz nowy partner z Wiednia w zakresie usług projektowych i doradczych w "
-                     "ochronie zdrowia – wspólnie realizujemy projekty techniki medycznej, zgodnie "
-                     "z hasłem „Mission of Health”.",
+      "intermedtec": "Projekty w ochronie zdrowia z jednej ręki – od finansowania i projektowania po "
+                     "realizację i dalej. Razem dostarczamy technikę medyczną tam, gdzie potrzebna jest "
+                     "opieka: Mission of Health.",
     }),
  "ro": dict(
     tag="Parteneri", h2="Împreună cu parteneri puternici",
@@ -1725,9 +1725,9 @@ _PART_T = {
                     "pentru sala de operație și radiologia intervențională.",
       "plandata":   "Partenerul nostru BIM din Viena: crearea și întreținerea bibliotecii noastre de "
                     "familii Revit și a standardelor de date aferente.",
-      "intermedtec": "Noul nostru partener din Viena pentru servicii de proiectare și consultanță "
-                     "în domeniul sănătății – împreună pentru proiecte de tehnologie medicală, "
-                     "fidel motto-ului „Mission of Health”.",
+      "intermedtec": "Proiecte în domeniul sănătății dintr-o singură sursă – de la finanțare și "
+                     "proiectare până la execuție și mai departe. Împreună aducem tehnologia medicală "
+                     "acolo unde este nevoie de îngrijire: Mission of Health.",
     }),
 }
 
