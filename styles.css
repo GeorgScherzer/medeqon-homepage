@@ -832,6 +832,9 @@ textarea.m-input{min-height:150px;resize:vertical}
 .m-part--rothband   .m-part-logo img{height:28px}
 .m-part--kenex      .m-part-logo img{height:32px}
 .m-part--plandata   .m-part-logo img{height:32px}
+.m-part--intermedtec .m-part-logo img{height:46px}
+/* Partner ohne Website: Karte ist kein Link -> kein Hover-Effekt */
+div.m-part:hover{transform:none;border-color:var(--mist);box-shadow:none}
 @media (max-width:900px){
   .m-part-grid{grid-template-columns:repeat(2,1fr);gap:16px}
   .m-part{padding:18px 18px 20px}

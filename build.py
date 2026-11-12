@@ -1614,6 +1614,7 @@ _PARTNERS = [
     ]),
     ("planung", [
         ("plandata",   "PLANDATA",      "https://plandata.eu"),
+        ("intermedtec", "InterMedTec",  None),   # noch keine Website -> Karte ohne Link
     ]),
 ]
 
@@ -1641,6 +1642,9 @@ _PART_T = {
                     "für OP und interventionelle Radiologie.",
       "plandata":   "Unser BIM-Partner aus Wien: Erstellung und Pflege unserer "
                     "Revit-Familienbibliothek und der zugehörigen Datenstandards.",
+      "intermedtec": "Unser neuer Partner aus Wien für Planungs- und Beratungsleistungen im "
+                     "Gesundheitswesen – gemeinsam für Medizintechnik-Projekte, getreu dem Leitsatz "
+                     "„Mission of Health“.",
     }),
  "en": dict(
     tag="Partners", h2="Together with strong partners",
@@ -1665,6 +1669,9 @@ _PART_T = {
                     "systems for the OR and interventional radiology.",
       "plandata":   "Our BIM partner from Vienna: creation and maintenance of our Revit family "
                     "library and the associated data standards.",
+      "intermedtec": "Our new partner from Vienna for design and consulting services in "
+                     "healthcare – joining forces on medical technology projects, true to the motto "
+                     "“Mission of Health”.",
     }),
  "pl": dict(
     tag="Partnerzy", h2="Razem z silnymi partnerami",
@@ -1689,6 +1696,9 @@ _PART_T = {
                     "blok operacyjny i radiologię zabiegową.",
       "plandata":   "Nasz partner BIM z Wiednia: tworzenie i utrzymanie naszej biblioteki rodzin "
                     "Revit oraz powiązanych standardów danych.",
+      "intermedtec": "Nasz nowy partner z Wiednia w zakresie usług projektowych i doradczych w "
+                     "ochronie zdrowia – wspólnie realizujemy projekty techniki medycznej, zgodnie "
+                     "z hasłem „Mission of Health”.",
     }),
  "ro": dict(
     tag="Parteneri", h2="Împreună cu parteneri puternici",
@@ -1715,6 +1725,9 @@ _PART_T = {
                     "pentru sala de operație și radiologia intervențională.",
       "plandata":   "Partenerul nostru BIM din Viena: crearea și întreținerea bibliotecii noastre de "
                     "familii Revit și a standardelor de date aferente.",
+      "intermedtec": "Noul nostru partener din Viena pentru servicii de proiectare și consultanță "
+                     "în domeniul sănătății – împreună pentru proiecte de tehnologie medicală, "
+                     "fidel motto-ului „Mission of Health”.",
     }),
 }
 
@@ -1731,12 +1744,16 @@ def _partner_section(lang="de", sid="partner", only=None):
         cards = []
         for slug, name, url in items:
             aria = _html.escape(t["aria"].format(name=name))
+            # Partner ohne Website (url=None) -> Karte als <div>, nicht klickbar
+            open_tag = (f'<a class="m-part m-part--{slug}" href="{url}" target="_blank" rel="noopener" aria-label="{aria}">'
+                        if url else f'<div class="m-part m-part--{slug}">')
+            close_tag = '</a>' if url else '</div>'
             cards.append(
-f'        <a class="m-part m-part--{slug}" href="{url}" target="_blank" rel="noopener" aria-label="{aria}">\n'
+f'        {open_tag}\n'
 '          <span class="m-part-logo">'
 f'<img src="{ap}brands/{slug}.png" alt="{_html.escape(name)}" loading="lazy"></span>\n'
 f'          <span class="m-part-role">{t["roles"][slug]}</span>\n'
-'        </a>')
+f'        {close_tag}')
         groups.append(
 '      <div class="m-part-group">\n'
 f'        <div class="m-part-cap">{t["groups"][gid]}</div>\n'
